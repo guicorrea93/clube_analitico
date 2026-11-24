@@ -44,17 +44,19 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `mex-1` Mexicano | 158 (1902/03–2026 Clausura) | 26.606 | 92 | cb0355f (24/11, sem push) | não |
-| `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | sem commit (espera o ok) | não |
+| `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | 5bace06 (24/11, sem push) | não |
+| `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | sem commit (espera o ok) | não |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
 ## 3. De onde continuar
 
 1. **México (`mex-1`):** no git em 24/11 (`cb0355f`, sem push); falta o agente 1 carregar no banco. Recado de fim de coleta no fim de `docs/coleta/pedidos-concacaf.md`.
-2. **EUA (`usa-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit. Recado de fim de coleta no fim de
+2. **EUA (`usa-1`):** no git em 24/11 (`5bace06`, sem push); falta o agente 1 carregar no banco. Recado de fim de coleta no fim de
    `docs/coleta/pedidos-concacaf.md`. Quando a MLS 2026 acabar (final em 18/12/2026), acrescentar a edição 2026 (a página
    `tablesu/usa2026.html` e a ESPN; a janela da ESPN em `edicoes._ESPN` se a RSSSF só tiver as tabelas).
-3. **Próxima: Costa Rica (`crc-1`)**, com as decisões de escopo antes. Depois, na ordem sugerida: `hon-1`, `gua-1`, `slv-1`, `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
+3. **Costa Rica (`crc-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit.
+4. **Próxima: Honduras (`hon-1`)**, com o escopo antes. Depois, na ordem sugerida: `hon-1`, `gua-1`, `slv-1`, `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
    outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
 4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
@@ -96,6 +98,14 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   "Santos Laguna"; os outros "América" levam a cidade. Conferir sempre o banco e os `data/coleta/*/pacote/clubes.csv`.
 - As armadilhas da RSSSF, da ESPN e do ogol já vistas na América do Sul estão na seção 6 de
   `coleta/comum-sulamerica/COMECE-AQUI.md`.
+
+**Vistas na Costa Rica (24/11):**
+- **Apertura e Clausura como fases do ano** (1997/98 a 2006/07): `ler_rsssf.TORNEIOS` e `FECHA` (do `ven-1`); a fase da final do
+  ano ("Championship Playoff") fecha o torneio.
+- **Edição só com tabela, decidida pela página:** `edicoes._tem_jogos` compara os jogos da página com a soma da 1ª tabela.
+- **Pênaltis colados no nome** ("Belen (Saprissa 4-2 pen)", 1996/97): `linhas()` vira nota de pênaltis.
+- **ESPN com jogo adiado repetido** (o original como 0-0) e o Brujas chamado de "Orión FC" em 2010/11: não usar a ESPN para a fase
+  regular desses anos. A `crc.1` só traz gols (sem cartões).
 
 **Vistas nos EUA (24/11):**
 - **Ligas antigas só com tabelas** (ASL I, NASL): `edicoes.tabelas` e o leitor de tabelas próprio `ler_rsssf.tabelas_texto`, guiado
@@ -152,3 +162,8 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
     1996-1999 pela tabela publicada. A temporada 2026 fica para depois da final de 18/12/2026;
   - fora: ASL II (1933-1983, liga regional e depois de 2º nível), International Soccer League (torneio de verão com clubes
     estrangeiros), APSL / A-League (1985-1995, 2º nível) e as temporadas indoor da NASL.
+- **Costa Rica (24/11, pesquisado pelo agente; o Guilherme mandou seguir):** a contagem oficial (UNAFUT, igual à lista da
+  RSSSF `tablesc/coschamp.html`): 1921 a 2006/07, um campeão por ano (rótulo "1986/87" em diante, quando a temporada passou a
+  cruzar o ano); 1954 e 1956 não tiveram campeonato (sem edição); 1961 com duas edições, uma por entidade (Asofútbol, campeão
+  Herediano; Federación, campeão Carmelita, reconhecido pela UNAFUT em 2003); de 2007/08 em diante, Apertura e Clausura, uma
+  edição cada ("2007 Apertura", "2008 Clausura"), até o Clausura 2026.

@@ -1,0 +1,10089 @@
+[
+{
+"id": "260924",
+"data_hora": "2009-01-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jafet Soto"
+]
+}
+]
+},
+{
+"id": "260174",
+"data_hora": "2009-01-18T17:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260172",
+"data_hora": "2009-01-18T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+}
+]
+},
+{
+"id": "260167",
+"data_hora": "2009-01-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Alfaro Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Alfaro Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reymer Solano"
+]
+}
+]
+},
+{
+"id": "260161",
+"data_hora": "2009-01-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260178",
+"data_hora": "2009-01-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Viquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfonso Quesada"
+]
+}
+]
+},
+{
+"id": "260196",
+"data_hora": "2009-01-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alban Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrey Campos"
+]
+}
+]
+},
+{
+"id": "260199",
+"data_hora": "2009-01-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Mattus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "260191",
+"data_hora": "2009-01-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jair Arroyo"
+]
+}
+]
+},
+{
+"id": "260193",
+"data_hora": "2009-01-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+}
+]
+},
+{
+"id": "261929",
+"data_hora": "2009-01-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Alfaro Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alban Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodriguez Carlos Ruben"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+}
+]
+},
+{
+"id": "261930",
+"data_hora": "2009-01-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "260211",
+"data_hora": "2009-02-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Briceno"
+]
+}
+]
+},
+{
+"id": "261928",
+"data_hora": "2009-02-01T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260209",
+"data_hora": "2009-02-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yherland McDonald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Rodriguez"
+]
+}
+]
+},
+{
+"id": "260210",
+"data_hora": "2009-02-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+}
+]
+},
+{
+"id": "260222",
+"data_hora": "2009-02-04T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260223",
+"data_hora": "2009-02-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andre Petroni"
+]
+}
+]
+},
+{
+"id": "260215",
+"data_hora": "2009-02-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Steer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Cordero"
+]
+}
+]
+},
+{
+"id": "260213",
+"data_hora": "2009-02-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Guzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+}
+]
+},
+{
+"id": "260221",
+"data_hora": "2009-02-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260219",
+"data_hora": "2009-02-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Aguila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "260227",
+"data_hora": "2009-02-08T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260234",
+"data_hora": "2009-02-08T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260235",
+"data_hora": "2009-02-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kurt Bernard"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Chacon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kurt Bernard"
+]
+}
+]
+},
+{
+"id": "260224",
+"data_hora": "2009-02-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "260232",
+"data_hora": "2009-02-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maikol Ortiz"
+]
+}
+]
+},
+{
+"id": "262278",
+"data_hora": "2009-02-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+}
+]
+},
+{
+"id": "262837",
+"data_hora": "2009-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andre Petroni"
+]
+}
+]
+},
+{
+"id": "262838",
+"data_hora": "2009-02-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Briceno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+}
+]
+},
+{
+"id": "260165",
+"data_hora": "2009-02-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Juarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Herrera Barrantes"
+]
+}
+]
+},
+{
+"id": "260169",
+"data_hora": "2009-02-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maikol Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maikol Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+}
+]
+},
+{
+"id": "260163",
+"data_hora": "2009-02-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Villalobos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jason Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Arce"
+]
+}
+]
+},
+{
+"id": "260159",
+"data_hora": "2009-02-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Bello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "261334",
+"data_hora": "2009-02-18T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+}
+]
+},
+{
+"id": "260180",
+"data_hora": "2009-02-22T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260183",
+"data_hora": "2009-02-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Granados"
+]
+}
+]
+},
+{
+"id": "260187",
+"data_hora": "2009-02-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Warren Granados"
+]
+}
+]
+},
+{
+"id": "260198",
+"data_hora": "2009-02-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Sirias"
+]
+}
+]
+},
+{
+"id": "263540",
+"data_hora": "2009-02-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Borges"
+]
+}
+]
+},
+{
+"id": "263913",
+"data_hora": "2009-02-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jameson Scott"
+]
+}
+]
+},
+{
+"id": "263914",
+"data_hora": "2009-02-26T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Briceno"
+]
+}
+]
+},
+{
+"id": "264225",
+"data_hora": "2009-02-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+}
+]
+},
+{
+"id": "260206",
+"data_hora": "2009-03-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Sirias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+}
+]
+},
+{
+"id": "264222",
+"data_hora": "2009-03-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrera"
+]
+}
+]
+},
+{
+"id": "260202",
+"data_hora": "2009-03-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260203",
+"data_hora": "2009-03-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jewisson Benneth"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+}
+]
+},
+{
+"id": "260205",
+"data_hora": "2009-03-01T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+}
+]
+},
+{
+"id": "263598",
+"data_hora": "2009-03-04T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Hernandez"
+]
+}
+]
+},
+{
+"id": "264603",
+"data_hora": "2009-03-04T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "260216",
+"data_hora": "2009-03-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Borges"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+}
+]
+},
+{
+"id": "260220",
+"data_hora": "2009-03-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "260218",
+"data_hora": "2009-03-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Gimenez"
+]
+}
+]
+},
+{
+"id": "260214",
+"data_hora": "2009-03-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edu Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Quesada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "260212",
+"data_hora": "2009-03-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "260217",
+"data_hora": "2009-03-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "262486",
+"data_hora": "2009-03-12T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kendall Waston"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+}
+]
+},
+{
+"id": "265000",
+"data_hora": "2009-03-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Barrantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan López"
+]
+}
+]
+},
+{
+"id": "260225",
+"data_hora": "2009-03-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harold McDonald Wallace"
+]
+}
+]
+},
+{
+"id": "260231",
+"data_hora": "2009-03-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260226",
+"data_hora": "2009-03-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Gimenez"
+]
+}
+]
+},
+{
+"id": "260233",
+"data_hora": "2009-03-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+}
+]
+},
+{
+"id": "260228",
+"data_hora": "2009-03-15T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+}
+]
+},
+{
+"id": "263916",
+"data_hora": "2009-03-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Marcelo Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Flores Cordero"
+]
+}
+]
+},
+{
+"id": "263915",
+"data_hora": "2009-03-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Sirias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+}
+]
+},
+{
+"id": "265531",
+"data_hora": "2009-03-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Chacon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Negredo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jair Arroyo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "260239",
+"data_hora": "2009-03-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260240",
+"data_hora": "2009-03-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "5",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roy Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maikol Ortiz"
+]
+}
+]
+},
+{
+"id": "260241",
+"data_hora": "2009-03-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+}
+]
+},
+{
+"id": "264631",
+"data_hora": "2009-03-29T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Garcia Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Cubero"
+]
+}
+]
+},
+{
+"id": "260147",
+"data_hora": "2009-04-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elias Palma Bermudez"
+]
+}
+]
+},
+{
+"id": "260146",
+"data_hora": "2009-04-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Steer"
+]
+}
+]
+},
+{
+"id": "260150",
+"data_hora": "2009-04-05T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Solano Gonzalez"
+]
+}
+]
+},
+{
+"id": "260148",
+"data_hora": "2009-04-05T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+}
+]
+},
+{
+"id": "260151",
+"data_hora": "2009-04-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Mudarra"
+]
+}
+]
+},
+{
+"id": "260149",
+"data_hora": "2009-04-05T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+}
+]
+},
+{
+"id": "265532",
+"data_hora": "2009-04-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260153",
+"data_hora": "2009-04-12T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Sills"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+}
+]
+},
+{
+"id": "260157",
+"data_hora": "2009-04-12T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Seravalli"
+]
+}
+]
+},
+{
+"id": "260154",
+"data_hora": "2009-04-12T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "260152",
+"data_hora": "2009-04-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Sirias"
+]
+}
+]
+},
+{
+"id": "260158",
+"data_hora": "2009-04-12T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Barrantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salomon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jewisson Benneth"
+]
+}
+]
+},
+{
+"id": "260155",
+"data_hora": "2009-04-12T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+}
+]
+},
+{
+"id": "260166",
+"data_hora": "2009-04-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Flores Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+}
+]
+},
+{
+"id": "260162",
+"data_hora": "2009-04-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Corrales Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willy Eras"
+]
+}
+]
+},
+{
+"id": "260170",
+"data_hora": "2009-04-19T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Munguio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jair Arroyo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jair Arroyo"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Fernandez"
+]
+}
+]
+},
+{
+"id": "260160",
+"data_hora": "2009-04-19T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Loaiza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Gimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+}
+]
+},
+{
+"id": "260164",
+"data_hora": "2009-04-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Fonseca"
+]
+}
+]
+},
+{
+"id": "260168",
+"data_hora": "2009-04-19T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Solis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Blanco"
+]
+}
+]
+},
+{
+"id": "265533",
+"data_hora": "2009-04-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+}
+]
+},
+{
+"id": "260173",
+"data_hora": "2009-04-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Dawson"
+]
+}
+]
+},
+{
+"id": "260181",
+"data_hora": "2009-04-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260182",
+"data_hora": "2009-04-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260177",
+"data_hora": "2009-04-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+}
+]
+},
+{
+"id": "260175",
+"data_hora": "2009-04-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "260179",
+"data_hora": "2009-04-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Robinson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+}
+]
+},
+{
+"id": "260195",
+"data_hora": "2009-05-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Bello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Gustavo Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jair Arroyo"
+]
+}
+]
+},
+{
+"id": "260185",
+"data_hora": "2009-05-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Quesada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Jairo Quinones"
+]
+}
+]
+},
+{
+"id": "260190",
+"data_hora": "2009-05-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+}
+]
+},
+{
+"id": "260188",
+"data_hora": "2009-05-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Steer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Cubero"
+]
+}
+]
+},
+{
+"id": "260194",
+"data_hora": "2009-05-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+}
+]
+},
+{
+"id": "260192",
+"data_hora": "2009-05-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260144",
+"data_hora": "2009-05-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260141",
+"data_hora": "2009-05-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260140",
+"data_hora": "2009-05-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260142",
+"data_hora": "2009-05-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "260143",
+"data_hora": "2009-05-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "260145",
+"data_hora": "2009-05-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "266943",
+"data_hora": "2009-05-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jessfy Valverde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Wong"
+]
+}
+]
+},
+{
+"id": "266944",
+"data_hora": "2009-05-07T02:00Z",
+"situacao": "STATUS_ABANDONED",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "266963",
+"data_hora": "2009-05-07T23:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "266945",
+"data_hora": "2009-05-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Athim Rooper"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Sanchez"
+]
+}
+]
+},
+{
+"id": "266946",
+"data_hora": "2009-05-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Corrales Umana"
+]
+}
+]
+},
+{
+"id": "267428",
+"data_hora": "2009-05-14T02:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+}
+]
+},
+{
+"id": "267429",
+"data_hora": "2009-05-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Briceno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Jimenez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Marshall"
+]
+}
+]
+},
+{
+"id": "267430",
+"data_hora": "2009-05-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Marshall"
+]
+}
+]
+},
+{
+"id": "267431",
+"data_hora": "2009-05-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Sirias"
+]
+}
+]
+},
+{
+"id": "267688",
+"data_hora": "2009-05-22T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "267727",
+"data_hora": "2009-05-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "267728",
+"data_hora": "2009-05-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Corrales Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Chevez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Aviles"
+]
+}
+]
+},
+{
+"id": "276257",
+"data_hora": "2009-07-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276261",
+"data_hora": "2009-07-26T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cesar Guity"
+]
+}
+]
+},
+{
+"id": "276259",
+"data_hora": "2009-07-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "276256",
+"data_hora": "2009-07-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+}
+]
+},
+{
+"id": "276260",
+"data_hora": "2009-07-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Mudarra"
+]
+}
+]
+},
+{
+"id": "276262",
+"data_hora": "2009-08-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Castro"
+]
+}
+]
+},
+{
+"id": "276265",
+"data_hora": "2009-08-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Garro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Chevez"
+]
+}
+]
+},
+{
+"id": "276263",
+"data_hora": "2009-08-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berny Chacon Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Montoya"
+]
+}
+]
+},
+{
+"id": "276264",
+"data_hora": "2009-08-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+}
+]
+},
+{
+"id": "276267",
+"data_hora": "2009-08-02T17:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276266",
+"data_hora": "2009-08-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+}
+]
+},
+{
+"id": "280924",
+"data_hora": "2009-08-09T17:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276271",
+"data_hora": "2009-08-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harold McDonald Wallace"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Chacon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+}
+]
+},
+{
+"id": "276272",
+"data_hora": "2009-08-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Gutierrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Barrantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Loaiza"
+]
+}
+]
+},
+{
+"id": "276269",
+"data_hora": "2009-08-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+}
+]
+},
+{
+"id": "276273",
+"data_hora": "2009-08-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Steven Calderon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joe Hall"
+]
+}
+]
+},
+{
+"id": "276270",
+"data_hora": "2009-08-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Mudarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Guzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bismark Acosta"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian De Lemos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Gatgens"
+]
+}
+]
+},
+{
+"id": "281552",
+"data_hora": "2009-08-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Warren Granados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Marín"
+]
+}
+]
+},
+{
+"id": "276278",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Barroche"
+]
+}
+]
+},
+{
+"id": "276276",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276279",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hansel Edwards"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+}
+]
+},
+{
+"id": "276277",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berny Chacon Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Marcelo Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Granados"
+]
+}
+]
+},
+{
+"id": "276275",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Sequeira"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Bello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenny Cunningham"
+]
+}
+]
+},
+{
+"id": "276274",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282099",
+"data_hora": "2009-08-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282954",
+"data_hora": "2009-08-30T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282955",
+"data_hora": "2009-08-30T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282956",
+"data_hora": "2009-08-30T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282957",
+"data_hora": "2009-08-30T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282958",
+"data_hora": "2009-08-30T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276284",
+"data_hora": "2009-08-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276288",
+"data_hora": "2009-09-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+}
+]
+},
+{
+"id": "276291",
+"data_hora": "2009-09-12T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "276286",
+"data_hora": "2009-09-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Argenis Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joe Hall"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfonso Quesada"
+]
+}
+]
+},
+{
+"id": "276287",
+"data_hora": "2009-09-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Morales"
+]
+}
+]
+},
+{
+"id": "276290",
+"data_hora": "2009-09-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+}
+]
+},
+{
+"id": "276289",
+"data_hora": "2009-09-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "282100",
+"data_hora": "2009-09-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Portuguez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jauer Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reymer Solano"
+]
+}
+]
+},
+{
+"id": "284129",
+"data_hora": "2009-09-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Louie Carr"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danny Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+}
+]
+},
+{
+"id": "276292",
+"data_hora": "2009-09-19T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "284128",
+"data_hora": "2009-09-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Delgado"
+]
+}
+]
+},
+{
+"id": "276293",
+"data_hora": "2009-09-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Benneth"
+]
+}
+]
+},
+{
+"id": "276296",
+"data_hora": "2009-09-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Drovandi"
+]
+}
+]
+},
+{
+"id": "276294",
+"data_hora": "2009-09-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Sequeira"
+]
+}
+]
+},
+{
+"id": "284215",
+"data_hora": "2009-09-26T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berny Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Jimenez"
+]
+}
+]
+},
+{
+"id": "276298",
+"data_hora": "2009-09-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Argenis Fernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+}
+]
+},
+{
+"id": "276299",
+"data_hora": "2009-09-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Jimenez"
+]
+}
+]
+},
+{
+"id": "276303",
+"data_hora": "2009-09-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Delgado"
+]
+}
+]
+},
+{
+"id": "276302",
+"data_hora": "2009-09-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Arias"
+]
+}
+]
+},
+{
+"id": "276300",
+"data_hora": "2009-09-27T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276307",
+"data_hora": "2009-10-04T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276305",
+"data_hora": "2009-10-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "276308",
+"data_hora": "2009-10-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Drovandi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Montoya"
+]
+}
+]
+},
+{
+"id": "276304",
+"data_hora": "2009-10-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+}
+]
+},
+{
+"id": "276306",
+"data_hora": "2009-10-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Rodríguez"
+]
+}
+]
+},
+{
+"id": "284305",
+"data_hora": "2009-10-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "284371",
+"data_hora": "2009-10-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alonso Hilaron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Chacon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Ramirez"
+]
+}
+]
+},
+{
+"id": "276314",
+"data_hora": "2009-10-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+}
+]
+},
+{
+"id": "276311",
+"data_hora": "2009-10-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Calderon Chinchilla"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crisanto Esquivel"
+]
+}
+]
+},
+{
+"id": "276312",
+"data_hora": "2009-10-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tirso Guio"
+]
+}
+]
+},
+{
+"id": "276310",
+"data_hora": "2009-10-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodriguez Carlos Ruben"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Monge"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Villalobos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+}
+]
+},
+{
+"id": "276315",
+"data_hora": "2009-10-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+}
+]
+},
+{
+"id": "276313",
+"data_hora": "2009-10-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Solorzano"
+]
+}
+]
+},
+{
+"id": "284593",
+"data_hora": "2009-10-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276316",
+"data_hora": "2009-10-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+}
+]
+},
+{
+"id": "276321",
+"data_hora": "2009-10-25T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Campos"
+]
+}
+]
+},
+{
+"id": "276319",
+"data_hora": "2009-10-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Royero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Portuguez"
+]
+}
+]
+},
+{
+"id": "276318",
+"data_hora": "2009-10-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"S Phillip"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gamboa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johan Venegas"
+]
+}
+]
+},
+{
+"id": "276317",
+"data_hora": "2009-10-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "284738",
+"data_hora": "2009-10-30T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276322",
+"data_hora": "2009-11-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Fajardo"
+]
+}
+]
+},
+{
+"id": "276323",
+"data_hora": "2009-11-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+}
+]
+},
+{
+"id": "276324",
+"data_hora": "2009-11-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Soler"
+]
+}
+]
+},
+{
+"id": "284773",
+"data_hora": "2009-11-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+}
+]
+},
+{
+"id": "276327",
+"data_hora": "2009-11-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276326",
+"data_hora": "2009-11-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Gutierrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+}
+]
+},
+{
+"id": "284899",
+"data_hora": "2009-11-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danny Fonseca"
+]
+}
+]
+},
+{
+"id": "276329",
+"data_hora": "2009-11-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Villarreal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+}
+]
+},
+{
+"id": "276332",
+"data_hora": "2009-11-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+}
+]
+},
+{
+"id": "276333",
+"data_hora": "2009-11-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hanswell Ewers"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Castro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Morera Viquez"
+]
+}
+]
+},
+{
+"id": "276330",
+"data_hora": "2009-11-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Soler"
+]
+}
+]
+},
+{
+"id": "276328",
+"data_hora": "2009-11-09T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "282940",
+"data_hora": "2009-11-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+}
+]
+},
+{
+"id": "282942",
+"data_hora": "2009-11-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heiner Mora"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salomon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Monge"
+]
+}
+]
+},
+{
+"id": "282943",
+"data_hora": "2009-11-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Robinson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Vargas Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Robinson"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+}
+]
+},
+{
+"id": "282941",
+"data_hora": "2009-11-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Madrigal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+}
+]
+},
+{
+"id": "276334",
+"data_hora": "2009-11-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "276337",
+"data_hora": "2009-11-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Drovandi"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Picado"
+]
+}
+]
+},
+{
+"id": "276339",
+"data_hora": "2009-11-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Morera Viquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Maitland"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Porfirio Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Aleman"
+]
+}
+]
+},
+{
+"id": "276338",
+"data_hora": "2009-11-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Alfaro"
+]
+}
+]
+},
+{
+"id": "276336",
+"data_hora": "2009-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Sequeira"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Flores Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Flores Cordero"
+]
+}
+]
+},
+{
+"id": "276335",
+"data_hora": "2009-11-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Gamboa"
+]
+}
+]
+},
+{
+"id": "276343",
+"data_hora": "2009-11-25T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276340",
+"data_hora": "2009-11-25T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276341",
+"data_hora": "2009-11-25T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276342",
+"data_hora": "2009-11-25T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "276344",
+"data_hora": "2009-11-25T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "284874",
+"data_hora": "2009-11-26T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Estrada"
+]
+}
+]
+},
+{
+"id": "276345",
+"data_hora": "2009-11-27T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alonso Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Drovandi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gomez"
+]
+}
+]
+},
+{
+"id": "285144",
+"data_hora": "2009-11-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Ramonense",
+"visitante_id": "9787",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "285141",
+"data_hora": "2009-11-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Marín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ureña"
+]
+}
+]
+},
+{
+"id": "285142",
+"data_hora": "2009-11-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berny Chacon Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Granados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+}
+]
+},
+{
+"id": "285146",
+"data_hora": "2009-11-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+}
+]
+},
+{
+"id": "285143",
+"data_hora": "2009-11-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Flores Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Corrales Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+}
+]
+},
+{
+"id": "285145",
+"data_hora": "2009-11-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Garro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Gutierrez"
+]
+}
+]
+},
+{
+"id": "285137",
+"data_hora": "2009-12-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "285135",
+"data_hora": "2009-12-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Martinez"
+]
+}
+]
+},
+{
+"id": "285140",
+"data_hora": "2009-12-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Morera Viquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "285136",
+"data_hora": "2009-12-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Flores Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Guzman"
+]
+}
+]
+},
+{
+"id": "285139",
+"data_hora": "2009-12-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ramonense",
+"mandante_id": "9787",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "285138",
+"data_hora": "2009-12-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José González"
+]
+}
+]
+},
+{
+"id": "285460",
+"data_hora": "2009-12-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Jimenez"
+]
+}
+]
+},
+{
+"id": "285461",
+"data_hora": "2009-12-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Porfirio Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+}
+]
+},
+{
+"id": "285449",
+"data_hora": "2009-12-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Try Benneth"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maykol Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "285450",
+"data_hora": "2009-12-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Campos"
+]
+}
+]
+},
+{
+"id": "285482",
+"data_hora": "2009-12-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josimar Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Gatgens"
+]
+}
+]
+},
+{
+"id": "285483",
+"data_hora": "2009-12-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hanswell Ewers"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+}
+]
+},
+{
+"id": "285523",
+"data_hora": "2009-12-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Solis"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "285522",
+"data_hora": "2009-12-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Soler"
+]
+}
+]
+},
+{
+"id": "285611",
+"data_hora": "2009-12-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "285620",
+"data_hora": "2009-12-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Canas Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Jimenez"
+]
+}
+]
+}
+]

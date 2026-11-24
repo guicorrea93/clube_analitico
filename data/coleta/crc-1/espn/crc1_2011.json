@@ -1,0 +1,8018 @@
+[
+{
+"id": "311271",
+"data_hora": "2011-01-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "311269",
+"data_hora": "2011-01-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+}
+]
+},
+{
+"id": "311272",
+"data_hora": "2011-01-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Briceno"
+]
+}
+]
+},
+{
+"id": "311270",
+"data_hora": "2011-01-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Castro"
+]
+}
+]
+},
+{
+"id": "311273",
+"data_hora": "2011-01-09T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311268",
+"data_hora": "2011-01-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alonso Calderon Solis"
+]
+}
+]
+},
+{
+"id": "311876",
+"data_hora": "2011-01-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+}
+]
+},
+{
+"id": "311276",
+"data_hora": "2011-01-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "311279",
+"data_hora": "2011-01-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Delberth Cameron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+}
+]
+},
+{
+"id": "311278",
+"data_hora": "2011-01-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andersson Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "311274",
+"data_hora": "2011-01-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Chacon"
+]
+}
+]
+},
+{
+"id": "311275",
+"data_hora": "2011-01-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Monge"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Gutierrez"
+]
+}
+]
+},
+{
+"id": "311968",
+"data_hora": "2011-01-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Argenis Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+}
+]
+},
+{
+"id": "311282",
+"data_hora": "2011-01-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311285",
+"data_hora": "2011-01-23T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jherel Downs"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ramon Solis"
+]
+}
+]
+},
+{
+"id": "311280",
+"data_hora": "2011-01-23T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Santana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martires Leandro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Oviedo"
+]
+}
+]
+},
+{
+"id": "311284",
+"data_hora": "2011-01-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Monge"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Mudarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Gamboa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Valverde"
+]
+}
+]
+},
+{
+"id": "311283",
+"data_hora": "2011-01-23T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Harris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Cunningham"
+]
+}
+]
+},
+{
+"id": "311281",
+"data_hora": "2011-01-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Loaiza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diaz Araya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+}
+]
+},
+{
+"id": "311705",
+"data_hora": "2011-01-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Argenis Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Argenis Fernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Chevez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jameson Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Mitchell"
+]
+}
+]
+},
+{
+"id": "312238",
+"data_hora": "2011-01-27T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "312241",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Madrigal"
+]
+}
+]
+},
+{
+"id": "312240",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Steven Calderon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+}
+]
+},
+{
+"id": "312239",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Centeno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+}
+]
+},
+{
+"id": "312242",
+"data_hora": "2011-01-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Monge"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Monge"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+}
+]
+},
+{
+"id": "311443",
+"data_hora": "2011-01-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Madrigal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+}
+]
+},
+{
+"id": "311444",
+"data_hora": "2011-01-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Brenes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Brenes"
+]
+}
+]
+},
+{
+"id": "311445",
+"data_hora": "2011-01-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eneas Da Conceicao"
+]
+}
+]
+},
+{
+"id": "311353",
+"data_hora": "2011-01-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Ramirez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "311375",
+"data_hora": "2011-01-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Cordero"
+]
+}
+]
+},
+{
+"id": "312293",
+"data_hora": "2011-02-01T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "313607",
+"data_hora": "2011-02-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Mitchell"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Madrigal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kendall Waston"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+}
+]
+},
+{
+"id": "311447",
+"data_hora": "2011-02-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+}
+]
+},
+{
+"id": "311448",
+"data_hora": "2011-02-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+}
+]
+},
+{
+"id": "311449",
+"data_hora": "2011-02-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "311452",
+"data_hora": "2011-02-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+}
+]
+},
+{
+"id": "311450",
+"data_hora": "2011-02-06T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "313766",
+"data_hora": "2011-02-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Mitchell"
+]
+}
+]
+},
+{
+"id": "313767",
+"data_hora": "2011-02-09T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Armijo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+}
+]
+},
+{
+"id": "313768",
+"data_hora": "2011-02-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Starling Matarrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Varela"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "313769",
+"data_hora": "2011-02-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshmir Reid"
+]
+}
+]
+},
+{
+"id": "313770",
+"data_hora": "2011-02-10T02:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martires Leandro"
+]
+}
+]
+},
+{
+"id": "313771",
+"data_hora": "2011-02-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Marin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Brenes"
+]
+}
+]
+},
+{
+"id": "314029",
+"data_hora": "2011-02-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "314030",
+"data_hora": "2011-02-13T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hanzell Arauz"
+]
+}
+]
+},
+{
+"id": "314031",
+"data_hora": "2011-02-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Guzmán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Marin"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+}
+]
+},
+{
+"id": "314032",
+"data_hora": "2011-02-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "314033",
+"data_hora": "2011-02-13T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kendall Waston"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+}
+]
+},
+{
+"id": "314034",
+"data_hora": "2011-02-16T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Montoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+}
+]
+},
+{
+"id": "314433",
+"data_hora": "2011-02-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Varela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Chavez"
+]
+}
+]
+},
+{
+"id": "314434",
+"data_hora": "2011-02-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Daniel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Cordero"
+]
+}
+]
+},
+{
+"id": "311462",
+"data_hora": "2011-02-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311459",
+"data_hora": "2011-02-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311460",
+"data_hora": "2011-02-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311463",
+"data_hora": "2011-02-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311464",
+"data_hora": "2011-02-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314435",
+"data_hora": "2011-02-20T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Steven Calderon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kurt Bernall"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+}
+]
+},
+{
+"id": "311461",
+"data_hora": "2011-02-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Mitchell"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Johnson"
+]
+}
+]
+},
+{
+"id": "314436",
+"data_hora": "2011-02-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+}
+]
+},
+{
+"id": "314437",
+"data_hora": "2011-02-20T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "314568",
+"data_hora": "2011-02-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergei James"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+}
+]
+},
+{
+"id": "314570",
+"data_hora": "2011-02-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "314569",
+"data_hora": "2011-02-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshmir Reid"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Santana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kurt Bernard"
+]
+}
+]
+},
+{
+"id": "314572",
+"data_hora": "2011-02-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Emmanuel Ayala Mino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+}
+]
+},
+{
+"id": "314571",
+"data_hora": "2011-02-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Starling Matarrita"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+}
+]
+},
+{
+"id": "314573",
+"data_hora": "2011-02-27T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Mora"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+}
+]
+},
+{
+"id": "314624",
+"data_hora": "2011-03-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Starling Matarrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "314626",
+"data_hora": "2011-03-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kurt Bernard"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "314627",
+"data_hora": "2011-03-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "314625",
+"data_hora": "2011-03-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bill Cardozo Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Mudarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Calderon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alban Gomez"
+]
+}
+]
+},
+{
+"id": "314628",
+"data_hora": "2011-03-04T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Emmanuel Ayala Mino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Vega"
+]
+}
+]
+},
+{
+"id": "311471",
+"data_hora": "2011-03-06T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311472",
+"data_hora": "2011-03-06T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311474",
+"data_hora": "2011-03-06T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311476",
+"data_hora": "2011-03-06T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314704",
+"data_hora": "2011-03-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "314709",
+"data_hora": "2011-03-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "311475",
+"data_hora": "2011-03-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Chavez"
+]
+}
+]
+},
+{
+"id": "311473",
+"data_hora": "2011-03-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+}
+]
+},
+{
+"id": "314705",
+"data_hora": "2011-03-06T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Meneses"
+]
+}
+]
+},
+{
+"id": "314706",
+"data_hora": "2011-03-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "314629",
+"data_hora": "2011-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314813",
+"data_hora": "2011-03-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jameson Scott"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenny Cunningham"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+}
+]
+},
+{
+"id": "311478",
+"data_hora": "2011-03-13T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311481",
+"data_hora": "2011-03-13T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311479",
+"data_hora": "2011-03-13T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311480",
+"data_hora": "2011-03-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314814",
+"data_hora": "2011-03-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Brenes"
+]
+}
+]
+},
+{
+"id": "311482",
+"data_hora": "2011-03-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martires Leandro"
+]
+}
+]
+},
+{
+"id": "311477",
+"data_hora": "2011-03-13T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "315147",
+"data_hora": "2011-03-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+}
+]
+},
+{
+"id": "315148",
+"data_hora": "2011-03-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+}
+]
+},
+{
+"id": "311487",
+"data_hora": "2011-03-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311485",
+"data_hora": "2011-03-20T16:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311484",
+"data_hora": "2011-03-20T17:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311483",
+"data_hora": "2011-03-20T17:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "311488",
+"data_hora": "2011-03-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Guzmán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Rodriguez"
+]
+}
+]
+},
+{
+"id": "315149",
+"data_hora": "2011-03-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Barrios Leandrinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Colindres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+}
+]
+},
+{
+"id": "311486",
+"data_hora": "2011-03-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+}
+]
+},
+{
+"id": "314815",
+"data_hora": "2011-03-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+}
+]
+},
+{
+"id": "311494",
+"data_hora": "2011-03-27T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311491",
+"data_hora": "2011-03-27T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311489",
+"data_hora": "2011-03-27T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311492",
+"data_hora": "2011-03-27T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315316",
+"data_hora": "2011-03-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311493",
+"data_hora": "2011-03-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Santana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deivid Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+}
+]
+},
+{
+"id": "315269",
+"data_hora": "2011-03-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+}
+]
+},
+{
+"id": "315270",
+"data_hora": "2011-03-27T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Fallas"
+]
+}
+]
+},
+{
+"id": "311490",
+"data_hora": "2011-03-27T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Mora"
+]
+}
+]
+},
+{
+"id": "315271",
+"data_hora": "2011-03-27T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Sarvas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+}
+]
+},
+{
+"id": "315351",
+"data_hora": "2011-04-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Macotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anibal Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Minor Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Colindres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Sequeira"
+]
+}
+]
+},
+{
+"id": "315352",
+"data_hora": "2011-04-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311500",
+"data_hora": "2011-04-03T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311497",
+"data_hora": "2011-04-03T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311495",
+"data_hora": "2011-04-03T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311498",
+"data_hora": "2011-04-03T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311499",
+"data_hora": "2011-04-03T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "311496",
+"data_hora": "2011-04-03T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315353",
+"data_hora": "2011-04-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Sunsing"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Delberth Cameron"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Santana"
+]
+}
+]
+},
+{
+"id": "315354",
+"data_hora": "2011-04-03T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315355",
+"data_hora": "2011-04-03T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cordero"
+]
+}
+]
+},
+{
+"id": "315380",
+"data_hora": "2011-04-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Barbosa"
+]
+}
+]
+},
+{
+"id": "311505",
+"data_hora": "2011-04-10T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311504",
+"data_hora": "2011-04-10T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311506",
+"data_hora": "2011-04-10T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Barrio México",
+"mandante_id": "7240",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Edgardo Baltodano",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311502",
+"data_hora": "2011-04-10T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311501",
+"data_hora": "2011-04-10T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "311503",
+"data_hora": "2011-04-10T15:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315381",
+"data_hora": "2011-04-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Mora"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "315382",
+"data_hora": "2011-04-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jimenez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Aleman"
+]
+}
+]
+},
+{
+"id": "315383",
+"data_hora": "2011-04-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+}
+]
+},
+{
+"id": "311508",
+"data_hora": "2011-04-17T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311512",
+"data_hora": "2011-04-17T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311511",
+"data_hora": "2011-04-17T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311510",
+"data_hora": "2011-04-17T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Barrio México",
+"visitante_id": "7240",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311509",
+"data_hora": "2011-04-17T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "311507",
+"data_hora": "2011-04-17T15:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315483",
+"data_hora": "2011-04-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Vargas Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshmir Reid"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Cubero"
+]
+}
+]
+},
+{
+"id": "315484",
+"data_hora": "2011-04-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfed Russell"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Bello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pais"
+]
+}
+]
+},
+{
+"id": "315485",
+"data_hora": "2011-04-17T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+}
+]
+},
+{
+"id": "315486",
+"data_hora": "2011-04-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Colindres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Mena"
+]
+}
+]
+},
+{
+"id": "316150",
+"data_hora": "2011-04-24T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Alonso Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenny Cunningham"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Sequeira"
+]
+}
+]
+},
+{
+"id": "316151",
+"data_hora": "2011-04-24T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martires Leandro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Cancela"
+]
+}
+]
+},
+{
+"id": "316375",
+"data_hora": "2011-05-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan McDonald"
+]
+}
+]
+},
+{
+"id": "316376",
+"data_hora": "2011-05-01T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenny Cunningham"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+}
+]
+},
+{
+"id": "316521",
+"data_hora": "2011-05-08T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salvatierra"
+]
+}
+]
+},
+{
+"id": "316522",
+"data_hora": "2011-05-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+}
+]
+},
+{
+"id": "328970",
+"data_hora": "2011-07-31T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328971",
+"data_hora": "2011-07-31T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328974",
+"data_hora": "2011-07-31T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328973",
+"data_hora": "2011-07-31T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328972",
+"data_hora": "2011-07-31T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "328976",
+"data_hora": "2011-08-03T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328979",
+"data_hora": "2011-08-03T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328978",
+"data_hora": "2011-08-03T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328977",
+"data_hora": "2011-08-03T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328975",
+"data_hora": "2011-08-03T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328980",
+"data_hora": "2011-08-07T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328944",
+"data_hora": "2011-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328945",
+"data_hora": "2011-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "328946",
+"data_hora": "2011-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328956",
+"data_hora": "2011-08-07T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328958",
+"data_hora": "2011-08-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328959",
+"data_hora": "2011-08-13T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329071",
+"data_hora": "2011-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328960",
+"data_hora": "2011-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328962",
+"data_hora": "2011-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "328963",
+"data_hora": "2011-08-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328984",
+"data_hora": "2011-08-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328981",
+"data_hora": "2011-08-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328982",
+"data_hora": "2011-08-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328985",
+"data_hora": "2011-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328983",
+"data_hora": "2011-08-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330555",
+"data_hora": "2011-08-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330554",
+"data_hora": "2011-08-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330558",
+"data_hora": "2011-08-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328991",
+"data_hora": "2011-08-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328993",
+"data_hora": "2011-08-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328992",
+"data_hora": "2011-08-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328995",
+"data_hora": "2011-08-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328994",
+"data_hora": "2011-08-28T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331097",
+"data_hora": "2011-08-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331101",
+"data_hora": "2011-09-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329000",
+"data_hora": "2011-09-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328996",
+"data_hora": "2011-09-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "329001",
+"data_hora": "2011-09-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328998",
+"data_hora": "2011-09-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328997",
+"data_hora": "2011-09-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331949",
+"data_hora": "2011-09-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331948",
+"data_hora": "2011-09-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331947",
+"data_hora": "2011-09-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331950",
+"data_hora": "2011-09-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331951",
+"data_hora": "2011-09-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329010",
+"data_hora": "2011-09-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329007",
+"data_hora": "2011-09-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328999",
+"data_hora": "2011-09-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329008",
+"data_hora": "2011-09-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "329009",
+"data_hora": "2011-09-11T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329011",
+"data_hora": "2011-09-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329015",
+"data_hora": "2011-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332409",
+"data_hora": "2011-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329014",
+"data_hora": "2011-09-18T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332475",
+"data_hora": "2011-09-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329018",
+"data_hora": "2011-09-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329019",
+"data_hora": "2011-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329016",
+"data_hora": "2011-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329020",
+"data_hora": "2011-09-25T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329017",
+"data_hora": "2011-09-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329025",
+"data_hora": "2011-09-29T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Gomez"
+]
+}
+]
+},
+{
+"id": "332639",
+"data_hora": "2011-09-29T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332640",
+"data_hora": "2011-09-29T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "329029",
+"data_hora": "2011-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329027",
+"data_hora": "2011-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329026",
+"data_hora": "2011-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "7",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329030",
+"data_hora": "2011-10-02T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329028",
+"data_hora": "2011-10-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332641",
+"data_hora": "2011-10-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329031",
+"data_hora": "2011-10-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329035",
+"data_hora": "2011-10-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Lopez"
+]
+}
+]
+},
+{
+"id": "332898",
+"data_hora": "2011-10-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329033",
+"data_hora": "2011-10-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332885",
+"data_hora": "2011-10-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329036",
+"data_hora": "2011-10-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329038",
+"data_hora": "2011-10-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329039",
+"data_hora": "2011-10-16T17:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "329040",
+"data_hora": "2011-10-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329037",
+"data_hora": "2011-10-16T19:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333086",
+"data_hora": "2011-10-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Castro"
+]
+}
+]
+},
+{
+"id": "329045",
+"data_hora": "2011-10-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329042",
+"data_hora": "2011-10-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329043",
+"data_hora": "2011-10-23T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329041",
+"data_hora": "2011-10-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329044",
+"data_hora": "2011-10-23T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333310",
+"data_hora": "2011-10-27T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333308",
+"data_hora": "2011-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Corrales"
+]
+}
+]
+},
+{
+"id": "333309",
+"data_hora": "2011-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "6",
+"gols_visitante": "3",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "333311",
+"data_hora": "2011-10-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329055",
+"data_hora": "2011-10-30T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329053",
+"data_hora": "2011-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329051",
+"data_hora": "2011-10-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329054",
+"data_hora": "2011-10-30T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329052",
+"data_hora": "2011-10-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329059",
+"data_hora": "2011-11-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329057",
+"data_hora": "2011-11-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329060",
+"data_hora": "2011-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "329056",
+"data_hora": "2011-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329058",
+"data_hora": "2011-11-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332642",
+"data_hora": "2011-11-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arrieta"
+]
+}
+]
+},
+{
+"id": "333635",
+"data_hora": "2011-11-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333144",
+"data_hora": "2011-11-11T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329062",
+"data_hora": "2011-11-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Puntarenas FC",
+"visitante_id": "7237",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329065",
+"data_hora": "2011-11-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329064",
+"data_hora": "2011-11-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329063",
+"data_hora": "2011-11-13T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329061",
+"data_hora": "2011-11-13T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333433",
+"data_hora": "2011-11-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Orión FC",
+"mandante_id": "7236",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Nicolas Masis",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Mena"
+]
+}
+]
+},
+{
+"id": "333127",
+"data_hora": "2011-11-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333849",
+"data_hora": "2011-11-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Orión FC",
+"visitante_id": "7236",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329069",
+"data_hora": "2011-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329070",
+"data_hora": "2011-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puntarenas FC",
+"mandante_id": "7237",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Lito Pérez",
+"cidade": "Puntarenas",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333850",
+"data_hora": "2011-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "329066",
+"data_hora": "2011-11-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334132",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334133",
+"data_hora": "2011-11-27T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334307",
+"data_hora": "2011-12-04T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334308",
+"data_hora": "2011-12-05T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334466",
+"data_hora": "2011-12-12T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334527",
+"data_hora": "2011-12-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+}
+]

@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["mex-1", "usa-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
-PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["mex-1", "usa-1", "crc-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
+PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -57,6 +57,16 @@ PENDENCIAS: dict[str, list[str]] = {
         "Temporada 2026 da MLS: entra depois da final (18/12/2026).",
         "Identidades a conferir pela revisão: Philadelphia Field Club de 1921/22 = Bethlehem Steel; os dois New York Giants da "
         "ASL (New York Soccer Club e New York Giants); os clubes da NASL separados dos da MLS com o mesmo nome.",
+    ],
+    "crc-1": [
+        "1921 a 1995/96 só com as tabelas (a RSSSF não tem os jogos; os poucos jogos de final ficaram de fora); 1991/92 e 1993/94 "
+        "sem página (só campeão e vice). Fonte que resolveria: jornais da época (La Nación, Diario de Costa Rica) ou a UNAFUT.",
+        "Apertura 2010 a Clausura 2012: fase regular só com a tabela; a ESPN desses anos tem jogos adiados "
+        "repetidos e jogos faltando.",
+        "Autores dos gols e cartões: a RSSSF quase não traz autores e a ESPN (crc.1) só traz gols, e em poucos anos; não há "
+        "cartões. Fonte que resolveria: o site da UNAFUT ou o ogol.",
+        "Erros de um resultado na própria página em 1998/99 e 2000/01; derrota para os dois clubes em 2002/03 (San Carlos x "
+        "Herediano); um jogo faltando em 2003/04: explicados no relatório.",
     ],
 }
 

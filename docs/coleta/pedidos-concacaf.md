@@ -80,7 +80,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    NASL (17, 1968-1984) e MLS (30, 1996-2025). 8.708 jogos (todos da MLS), 134 clubes (13 do Canadá), 24.858 gols (21.918
    com autor, 88%), 30.061 cartões. Fontes: RSSSF (`usachamp.html`, `asli.html`, `nasl.html`, páginas da MLS) e ESPN
    (`usa.1`, 2002 em diante). Campeão e vice batem com a lista da RSSSF em todas as edições.
-2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+2. **Commits:** `5bace06` (24/11). Sem push.
 3. **Teste de carga:** `usa-1: 63 edições, 8708 jogos, 134 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/usa-1/pacote/`;
@@ -104,3 +104,45 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
 7. **Onde a revisão deve olhar primeiro:** as identidades do item 5; a classificação das edições só com tabelas (divisões
    juntas por pontos; anos de dois turnos da ASL ficam com o turno de mais jogos); 2020 (pandemia e torneio MLS is Back).
 8. **Próxima competição:** Costa Rica (`crc-1`), com as decisões de escopo ao Guilherme antes.
+
+## 24/11/2026 — Costa Rica (crc-1): escopo
+
+Decidido em 24/11 (pesquisa do agente; o Guilherme mandou seguir): a contagem oficial da UNAFUT, igual à lista da RSSSF
+(`coschamp.html`, 123 títulos até o Clausura 2026). 1921 a 2006/07, um por ano (sem 1954 e 1956, não disputados); 1961 com
+duas edições (Asofútbol e Federación); Apertura e Clausura de 2007/08 em diante. Sem país novo (CRC).
+
+## Recado de fim de coleta — crc-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Costarriquenho (`crc-1`), 123 edições, uma por título, como a contagem oficial da UNAFUT
+   (lista da RSSSF `coschamp.html`): 1921 a 1985 (sem 1954 e 1956, não disputados; 1961 com duas edições, Asofútbol e
+   Federación), 1986/87 a 2006/07 (Apertura e Clausura como fases do ano a partir de 1997/98) e Apertura e Clausura de
+   2007/08 até o Clausura 2026. 7.065 jogos (1996/97 em diante), 65 clubes, 19.008 gols (2.813 com autor), sem cartões.
+   Fontes: RSSSF e ESPN (`crc.1`, só gols). Campeão e vice batem com a lista oficial em todas as edições.
+2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+3. **Teste de carga:** `crc-1: 123 edições, 7065 jogos, 65 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/crc-1/pacote/`;
+   - **país novo: Costa Rica (`CRC`)**, em `paises.csv`; já foi à Copa, conferir a bandeira;
+   - edições sem jogos de 1921 a 1995/96 (só a tabela, com campeão e vice) e 1991/92 e 1993/94 sem nada além de campeão e
+     vice; quatro edições com jogos incompletos (Apertura 2010, Clausura 2011, Apertura 2011 e Clausura 2012: tabela e fase final);
+   - duas edições em 1961 ("1961 Asofútbol" e "1961 Federación").
+5. **Decisões** (24/11, do agente, com o ok do Guilherme para seguir): o escopo acima; Carmen FC = Carmelita; Liberia Mía =
+   Municipal Liberia; Municipal Puntarenas e Puntarenas FC separados (como na lista de campeões); homônimos com a cidade
+   (Santos de Guápiles, Sporting de San José, Uruguay de Coronado, Progreso de San José, Paraíso de Cartago); a ESPN de
+   2010/11 e 2011/12 não foi usada (jogos adiados repetidos e faltando).
+6. **O que não deu para coletar:** jogos de 1921 a 1995/96 (fonte: jornais da época ou a UNAFUT); 1991/92 e 1993/94 (sem
+   página); a fase regular de 2010/11 e de 2011/12; autores dos gols e cartões (a RSSSF quase não tem; a ESPN só traz
+   gols, em poucos anos).
+7. **Onde a revisão deve olhar primeiro:** 1998/99, 2000/01, 2002/03 e 2003/04 (divergências explicadas no relatório); as
+   identidades do item 5; a classificação das edições só com tabela.
+8. **Próxima competição:** Honduras (`hon-1`), com o escopo antes (era amadora de 1947-1964 em discussão).
+
+## 24/11/2026 — resposta ao agente 1: usa-1, classificação de 2004
+
+Corrigido no commit `bb8432b`. Em 2004 a tabela do Leste diverge dos jogos (falta um DC United x New York Red Bulls na
+ESPN) e a junção das conferências só usava as tabelas que fecham; agora, quando elas não cobrem todos os clubes, entram
+todas as tabelas da fase regular. DC United em 1º e Sporting Kansas City em 2º. A mesma conferência mostrou que em 1928/29,
+1931 e 1932/33 (ASL, dois turnos) faltavam os clubes de um turno só; entraram depois dos outros. Nas 63 edições, o 1º é o
+campeão e o 2º é o vice; teste de carga OK. É só recarregar o pacote.

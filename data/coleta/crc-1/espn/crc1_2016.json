@@ -1,0 +1,10696 @@
+[
+{
+"id": "438831",
+"data_hora": "2016-01-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "440953",
+"data_hora": "2016-01-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johel Montero"
+]
+}
+]
+},
+{
+"id": "440954",
+"data_hora": "2016-01-17T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joseph Centeno"
+]
+}
+]
+},
+{
+"id": "440956",
+"data_hora": "2016-01-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "440957",
+"data_hora": "2016-01-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "440955",
+"data_hora": "2016-01-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441614",
+"data_hora": "2016-01-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Pedroza"
+]
+}
+]
+},
+{
+"id": "441616",
+"data_hora": "2016-01-24T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+}
+]
+},
+{
+"id": "441615",
+"data_hora": "2016-01-24T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrick Pemberton"
+]
+}
+]
+},
+{
+"id": "441617",
+"data_hora": "2016-01-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+}
+]
+},
+{
+"id": "441619",
+"data_hora": "2016-01-24T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+}
+]
+},
+{
+"id": "441620",
+"data_hora": "2016-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Argenis Fernandez"
+]
+}
+]
+},
+{
+"id": "441621",
+"data_hora": "2016-01-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442293",
+"data_hora": "2016-01-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441625",
+"data_hora": "2016-01-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+}
+]
+},
+{
+"id": "441623",
+"data_hora": "2016-01-28T02:00Z",
+"situacao": "STATUS_SUSPENDED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441624",
+"data_hora": "2016-01-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Escoe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dylan Armando Knowles Flores"
+]
+}
+]
+},
+{
+"id": "438851",
+"data_hora": "2016-01-30T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442655",
+"data_hora": "2016-01-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johan Condega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Nunez"
+]
+}
+]
+},
+{
+"id": "442656",
+"data_hora": "2016-01-31T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anllel Porras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+}
+]
+},
+{
+"id": "442657",
+"data_hora": "2016-01-31T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Garcia Lopez"
+]
+}
+]
+},
+{
+"id": "442658",
+"data_hora": "2016-01-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "442990",
+"data_hora": "2016-01-31T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442659",
+"data_hora": "2016-01-31T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443210",
+"data_hora": "2016-02-04T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Yeladian"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Di Mauro Gustavo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Gutierrez"
+]
+}
+]
+},
+{
+"id": "443209",
+"data_hora": "2016-02-04T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Marin"
+]
+}
+]
+},
+{
+"id": "442956",
+"data_hora": "2016-02-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443208",
+"data_hora": "2016-02-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442954",
+"data_hora": "2016-02-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442955",
+"data_hora": "2016-02-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438859",
+"data_hora": "2016-02-09T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438858",
+"data_hora": "2016-02-09T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438861",
+"data_hora": "2016-02-09T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438863",
+"data_hora": "2016-02-09T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438860",
+"data_hora": "2016-02-09T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438862",
+"data_hora": "2016-02-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+}
+]
+},
+{
+"id": "441627",
+"data_hora": "2016-02-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Hansen"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Mena"
+]
+}
+]
+},
+{
+"id": "442964",
+"data_hora": "2016-02-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442992",
+"data_hora": "2016-02-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442966",
+"data_hora": "2016-02-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Escoe"
+]
+}
+]
+},
+{
+"id": "442968",
+"data_hora": "2016-02-12T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Adams"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+}
+]
+},
+{
+"id": "443409",
+"data_hora": "2016-02-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443410",
+"data_hora": "2016-02-14T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anllel Porras"
+]
+}
+]
+},
+{
+"id": "443411",
+"data_hora": "2016-02-14T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Cruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Dixon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rojas Antonio Marcos Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Munguio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"A Zapata Pizarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brunett Hay"
+]
+}
+]
+},
+{
+"id": "443412",
+"data_hora": "2016-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443413",
+"data_hora": "2016-02-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443414",
+"data_hora": "2016-02-14T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443502",
+"data_hora": "2016-02-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443503",
+"data_hora": "2016-02-17T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443504",
+"data_hora": "2016-02-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443506",
+"data_hora": "2016-02-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443507",
+"data_hora": "2016-02-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443505",
+"data_hora": "2016-02-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438873",
+"data_hora": "2016-02-20T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443665",
+"data_hora": "2016-02-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443667",
+"data_hora": "2016-02-21T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anllel Porras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Garcia Lopez"
+]
+}
+]
+},
+{
+"id": "443668",
+"data_hora": "2016-02-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ramirez"
+]
+}
+]
+},
+{
+"id": "443666",
+"data_hora": "2016-02-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "443669",
+"data_hora": "2016-02-21T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443670",
+"data_hora": "2016-02-21T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+}
+]
+},
+{
+"id": "444680",
+"data_hora": "2016-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444679",
+"data_hora": "2016-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444681",
+"data_hora": "2016-02-24T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444682",
+"data_hora": "2016-02-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444683",
+"data_hora": "2016-02-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444734",
+"data_hora": "2016-02-26T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Cunningham"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Aguilar"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Chavarria"
+]
+}
+]
+},
+{
+"id": "438881",
+"data_hora": "2016-02-27T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438876",
+"data_hora": "2016-02-27T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438877",
+"data_hora": "2016-02-27T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438879",
+"data_hora": "2016-02-27T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438878",
+"data_hora": "2016-02-27T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438880",
+"data_hora": "2016-02-27T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444685",
+"data_hora": "2016-02-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444686",
+"data_hora": "2016-02-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allen Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jameson Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Claros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harold Cummings"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Castro"
+]
+}
+]
+},
+{
+"id": "444688",
+"data_hora": "2016-02-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444689",
+"data_hora": "2016-02-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444690",
+"data_hora": "2016-02-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444937",
+"data_hora": "2016-02-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "438885",
+"data_hora": "2016-03-05T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445007",
+"data_hora": "2016-03-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+}
+]
+},
+{
+"id": "445008",
+"data_hora": "2016-03-06T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Chris Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+}
+]
+},
+{
+"id": "445009",
+"data_hora": "2016-03-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Espinoza"
+]
+}
+]
+},
+{
+"id": "445010",
+"data_hora": "2016-03-06T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Cruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Elizondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Cruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Cerdas"
+]
+}
+]
+},
+{
+"id": "445011",
+"data_hora": "2016-03-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Granados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joseph Marrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "445012",
+"data_hora": "2016-03-06T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian Alonso Garita"
+]
+}
+]
+},
+{
+"id": "445331",
+"data_hora": "2016-03-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Sanabria"
+]
+}
+]
+},
+{
+"id": "445332",
+"data_hora": "2016-03-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Mena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Montero"
+]
+}
+]
+},
+{
+"id": "445333",
+"data_hora": "2016-03-09T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anllel Porras"
+]
+}
+]
+},
+{
+"id": "445334",
+"data_hora": "2016-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445335",
+"data_hora": "2016-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445336",
+"data_hora": "2016-03-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+}
+]
+},
+{
+"id": "438897",
+"data_hora": "2016-03-12T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445363",
+"data_hora": "2016-03-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445364",
+"data_hora": "2016-03-13T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+}
+]
+},
+{
+"id": "445368",
+"data_hora": "2016-03-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445365",
+"data_hora": "2016-03-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "445366",
+"data_hora": "2016-03-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445367",
+"data_hora": "2016-03-13T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438902",
+"data_hora": "2016-03-19T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438905",
+"data_hora": "2016-03-19T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438901",
+"data_hora": "2016-03-19T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438904",
+"data_hora": "2016-03-19T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438903",
+"data_hora": "2016-03-19T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438900",
+"data_hora": "2016-03-19T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad",
+"mandante_id": "7244",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445702",
+"data_hora": "2016-03-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445703",
+"data_hora": "2016-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Adams"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willian Quiros"
+]
+}
+]
+},
+{
+"id": "445704",
+"data_hora": "2016-03-20T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joseph Marrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabrizio Santiago Amaral Ronchetti"
+]
+}
+]
+},
+{
+"id": "445705",
+"data_hora": "2016-03-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445706",
+"data_hora": "2016-03-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445707",
+"data_hora": "2016-03-20T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438908",
+"data_hora": "2016-03-22T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446377",
+"data_hora": "2016-03-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438916",
+"data_hora": "2016-03-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438914",
+"data_hora": "2016-03-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438912",
+"data_hora": "2016-03-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438915",
+"data_hora": "2016-03-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438913",
+"data_hora": "2016-03-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438917",
+"data_hora": "2016-03-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446378",
+"data_hora": "2016-03-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "441632",
+"data_hora": "2016-03-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "446379",
+"data_hora": "2016-03-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438918",
+"data_hora": "2016-03-28T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438922",
+"data_hora": "2016-03-28T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "438920",
+"data_hora": "2016-03-28T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "438923",
+"data_hora": "2016-03-28T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446574",
+"data_hora": "2016-03-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446576",
+"data_hora": "2016-04-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+}
+]
+},
+{
+"id": "446577",
+"data_hora": "2016-04-03T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaikel Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Camareno"
+]
+}
+]
+},
+{
+"id": "446578",
+"data_hora": "2016-04-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Marin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Murillo"
+]
+}
+]
+},
+{
+"id": "446579",
+"data_hora": "2016-04-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabrizio Santiago Amaral Ronchetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "446580",
+"data_hora": "2016-04-03T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Sibaja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "446765",
+"data_hora": "2016-04-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446575",
+"data_hora": "2016-04-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Montoya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "438931",
+"data_hora": "2016-04-08T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446827",
+"data_hora": "2016-04-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+}
+]
+},
+{
+"id": "446828",
+"data_hora": "2016-04-10T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Marin"
+]
+}
+]
+},
+{
+"id": "446830",
+"data_hora": "2016-04-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+}
+]
+},
+{
+"id": "446829",
+"data_hora": "2016-04-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"A Campos"
+]
+}
+]
+},
+{
+"id": "446831",
+"data_hora": "2016-04-10T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Mitchell"
+]
+}
+]
+},
+{
+"id": "446832",
+"data_hora": "2016-04-10T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Escoe"
+]
+}
+]
+},
+{
+"id": "446961",
+"data_hora": "2016-04-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Cruz"
+]
+}
+]
+},
+{
+"id": "446962",
+"data_hora": "2016-04-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Orue"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Esquivel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Hernandez"
+]
+}
+]
+},
+{
+"id": "446964",
+"data_hora": "2016-04-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Urena Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+}
+]
+},
+{
+"id": "446965",
+"data_hora": "2016-04-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Nunez"
+]
+}
+]
+},
+{
+"id": "446963",
+"data_hora": "2016-04-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hanzell Arauz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+}
+]
+},
+{
+"id": "446966",
+"data_hora": "2016-04-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Castro"
+]
+}
+]
+},
+{
+"id": "438944",
+"data_hora": "2016-04-15T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446967",
+"data_hora": "2016-04-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Rodriguez"
+]
+}
+]
+},
+{
+"id": "446969",
+"data_hora": "2016-04-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "446968",
+"data_hora": "2016-04-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Urena Arias"
+]
+}
+]
+},
+{
+"id": "446970",
+"data_hora": "2016-04-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Scott"
+]
+}
+]
+},
+{
+"id": "446971",
+"data_hora": "2016-04-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Colindres"
+]
+}
+]
+},
+{
+"id": "446972",
+"data_hora": "2016-04-18T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Omar Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "447228",
+"data_hora": "2016-04-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Leiva"
+]
+}
+]
+},
+{
+"id": "447224",
+"data_hora": "2016-04-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+}
+]
+},
+{
+"id": "447226",
+"data_hora": "2016-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Club Sport Uruguay",
+"visitante_id": "13418",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Acosta"
+]
+}
+]
+},
+{
+"id": "447227",
+"data_hora": "2016-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447225",
+"data_hora": "2016-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Sibaja"
+]
+}
+]
+},
+{
+"id": "447283",
+"data_hora": "2016-04-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447294",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harry Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harry Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Rivero"
+]
+}
+]
+},
+{
+"id": "447291",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "447295",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Di Mauro Gustavo"
+]
+}
+]
+},
+{
+"id": "447293",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+}
+]
+},
+{
+"id": "447290",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Guzmán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+}
+]
+},
+{
+"id": "447292",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Hernandez"
+]
+}
+]
+},
+{
+"id": "438959",
+"data_hora": "2016-04-29T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Sport Uruguay",
+"mandante_id": "13418",
+"visitante": "Universidad",
+"visitante_id": "7244",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447973",
+"data_hora": "2016-05-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harry Rojas"
+]
+}
+]
+},
+{
+"id": "447974",
+"data_hora": "2016-05-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Salazar"
+]
+}
+]
+},
+{
+"id": "447976",
+"data_hora": "2016-05-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "447975",
+"data_hora": "2016-05-05T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Flores"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+7'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+}
+]
+},
+{
+"id": "448519",
+"data_hora": "2016-05-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Granados"
+]
+}
+]
+},
+{
+"id": "448520",
+"data_hora": "2016-05-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "458147",
+"data_hora": "2016-07-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Hansen"
+]
+}
+]
+},
+{
+"id": "457372",
+"data_hora": "2016-07-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ulises Segura Machado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Mena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Guzmán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ramon Solis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Jimenez"
+]
+}
+]
+},
+{
+"id": "456114",
+"data_hora": "2016-07-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "456113",
+"data_hora": "2016-07-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian Oviedo"
+]
+}
+]
+},
+{
+"id": "456115",
+"data_hora": "2016-07-17T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456112",
+"data_hora": "2016-07-17T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Cordoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Vega"
+]
+}
+]
+},
+{
+"id": "456119",
+"data_hora": "2016-07-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Verny Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Granados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Verny Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "459085",
+"data_hora": "2016-07-21T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Chaves"
+]
+}
+]
+},
+{
+"id": "458692",
+"data_hora": "2016-07-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Madrigal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+}
+]
+},
+{
+"id": "458691",
+"data_hora": "2016-07-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Lopez"
+]
+}
+]
+},
+{
+"id": "458689",
+"data_hora": "2016-07-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "458693",
+"data_hora": "2016-07-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "458542",
+"data_hora": "2016-07-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Castro"
+]
+}
+]
+},
+{
+"id": "456122",
+"data_hora": "2016-07-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gomez"
+]
+}
+]
+},
+{
+"id": "459879",
+"data_hora": "2016-07-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Vega"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Landini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Arias Sancho"
+]
+}
+]
+},
+{
+"id": "456126",
+"data_hora": "2016-07-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heiner Mora"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+}
+]
+},
+{
+"id": "456124",
+"data_hora": "2016-07-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuaycell Wright"
+]
+}
+]
+},
+{
+"id": "456125",
+"data_hora": "2016-07-24T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Hansen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Dixon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Dixon"
+]
+}
+]
+},
+{
+"id": "460826",
+"data_hora": "2016-07-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+}
+]
+},
+{
+"id": "460827",
+"data_hora": "2016-07-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuaycell Wright"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Diego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan De leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+}
+]
+},
+{
+"id": "460824",
+"data_hora": "2016-07-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "460828",
+"data_hora": "2016-07-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Moya"
+]
+}
+]
+},
+{
+"id": "461351",
+"data_hora": "2016-07-29T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Reyes"
+]
+}
+]
+},
+{
+"id": "456134",
+"data_hora": "2016-07-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Hansen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+}
+]
+},
+{
+"id": "456133",
+"data_hora": "2016-07-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Fajardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Blanco"
+]
+}
+]
+},
+{
+"id": "456135",
+"data_hora": "2016-07-31T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462149",
+"data_hora": "2016-07-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456136",
+"data_hora": "2016-07-31T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "461936",
+"data_hora": "2016-07-31T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+}
+]
+},
+{
+"id": "456138",
+"data_hora": "2016-08-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456139",
+"data_hora": "2016-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Barquero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Nunez"
+]
+}
+]
+},
+{
+"id": "456137",
+"data_hora": "2016-08-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Greivin Mendez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bernal Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Valderramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Starling Matarrita"
+]
+}
+]
+},
+{
+"id": "456141",
+"data_hora": "2016-08-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462265",
+"data_hora": "2016-08-07T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462178",
+"data_hora": "2016-08-07T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463062",
+"data_hora": "2016-08-10T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aaron Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+}
+]
+},
+{
+"id": "463063",
+"data_hora": "2016-08-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463065",
+"data_hora": "2016-08-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463066",
+"data_hora": "2016-08-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463064",
+"data_hora": "2016-08-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463770",
+"data_hora": "2016-08-12T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463942",
+"data_hora": "2016-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Valverde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Blanco"
+]
+}
+]
+},
+{
+"id": "456151",
+"data_hora": "2016-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jason Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+}
+]
+},
+{
+"id": "456150",
+"data_hora": "2016-08-14T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Greivin Mendez"
+]
+}
+]
+},
+{
+"id": "462955",
+"data_hora": "2016-08-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462956",
+"data_hora": "2016-08-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463778",
+"data_hora": "2016-08-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "456154",
+"data_hora": "2016-08-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "464368",
+"data_hora": "2016-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Reyes"
+]
+}
+]
+},
+{
+"id": "456156",
+"data_hora": "2016-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456155",
+"data_hora": "2016-08-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456153",
+"data_hora": "2016-08-21T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463955",
+"data_hora": "2016-08-21T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "464976",
+"data_hora": "2016-08-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+}
+]
+},
+{
+"id": "464977",
+"data_hora": "2016-08-28T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+}
+]
+},
+{
+"id": "464978",
+"data_hora": "2016-08-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Loaiza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gabas"
+]
+}
+]
+},
+{
+"id": "464979",
+"data_hora": "2016-08-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Hansen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jemarck Hernandez"
+]
+}
+]
+},
+{
+"id": "464981",
+"data_hora": "2016-08-28T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabrizio Santiago Amaral Ronchetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabrizio Santiago Amaral Ronchetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+}
+]
+},
+{
+"id": "464421",
+"data_hora": "2016-09-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeikel Venegas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenny Cunningham"
+]
+}
+]
+},
+{
+"id": "461318",
+"data_hora": "2016-09-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gomez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhamir Ordian"
+]
+}
+]
+},
+{
+"id": "456164",
+"data_hora": "2016-09-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456170",
+"data_hora": "2016-09-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456163",
+"data_hora": "2016-09-11T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456169",
+"data_hora": "2016-09-11T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466693",
+"data_hora": "2016-09-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466511",
+"data_hora": "2016-09-12T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roy Myrie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Davis"
+]
+}
+]
+},
+{
+"id": "456171",
+"data_hora": "2016-09-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456172",
+"data_hora": "2016-09-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456174",
+"data_hora": "2016-09-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456173",
+"data_hora": "2016-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roy Myrie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roy Myrie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+}
+]
+},
+{
+"id": "456175",
+"data_hora": "2016-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Delgado"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jason Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amir Waithe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jason Scott"
+]
+}
+]
+},
+{
+"id": "466694",
+"data_hora": "2016-09-18T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456177",
+"data_hora": "2016-09-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Fajardo"
+]
+}
+]
+},
+{
+"id": "456180",
+"data_hora": "2016-09-21T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hanzel Cordero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keylor Soto"
+]
+}
+]
+},
+{
+"id": "467003",
+"data_hora": "2016-09-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467002",
+"data_hora": "2016-09-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467001",
+"data_hora": "2016-09-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467000",
+"data_hora": "2016-09-23T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "456181",
+"data_hora": "2016-09-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "456182",
+"data_hora": "2016-09-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "7",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467092",
+"data_hora": "2016-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Fajardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Jiminez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Jiminez"
+]
+}
+]
+},
+{
+"id": "456184",
+"data_hora": "2016-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Greivin Mendez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Steven Williams"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Rodriguez"
+]
+}
+]
+},
+{
+"id": "467261",
+"data_hora": "2016-09-25T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan López"
+]
+}
+]
+},
+{
+"id": "456183",
+"data_hora": "2016-09-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+}
+]
+},
+{
+"id": "456188",
+"data_hora": "2016-10-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467257",
+"data_hora": "2016-10-02T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456186",
+"data_hora": "2016-10-02T01:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456189",
+"data_hora": "2016-10-02T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Scott"
+]
+}
+]
+},
+{
+"id": "456187",
+"data_hora": "2016-10-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456190",
+"data_hora": "2016-10-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456192",
+"data_hora": "2016-10-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456195",
+"data_hora": "2016-10-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anthony Calvo"
+]
+}
+]
+},
+{
+"id": "456191",
+"data_hora": "2016-10-09T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Munguio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raimond Salas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Solorzano"
+]
+}
+]
+},
+{
+"id": "456194",
+"data_hora": "2016-10-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "456193",
+"data_hora": "2016-10-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Colindres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anllel Porras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Karrem Mcleam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jordan Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anllel Porras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+}
+]
+},
+{
+"id": "467394",
+"data_hora": "2016-10-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "456197",
+"data_hora": "2016-10-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johan Condega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Hansen"
+]
+}
+]
+},
+{
+"id": "456200",
+"data_hora": "2016-10-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+}
+]
+},
+{
+"id": "456196",
+"data_hora": "2016-10-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Fener"
+]
+}
+]
+},
+{
+"id": "456199",
+"data_hora": "2016-10-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Antonio Carrillo Madrigal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Munguio"
+]
+}
+]
+},
+{
+"id": "456198",
+"data_hora": "2016-10-16T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Valverde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Starling Matarrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrey Ugalde"
+]
+}
+]
+},
+{
+"id": "467553",
+"data_hora": "2016-10-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Adams"
+]
+}
+]
+},
+{
+"id": "467642",
+"data_hora": "2016-10-23T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilberth Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Jimenez"
+]
+}
+]
+},
+{
+"id": "456201",
+"data_hora": "2016-10-23T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Meneses"
+]
+}
+]
+},
+{
+"id": "456203",
+"data_hora": "2016-10-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Axel Myers"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenneth Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Fener"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "456204",
+"data_hora": "2016-10-23T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ulises Segura Machado"
+]
+}
+]
+},
+{
+"id": "456205",
+"data_hora": "2016-10-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Rodriguez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Di Mauro Gustavo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Delgado"
+]
+}
+]
+},
+{
+"id": "467643",
+"data_hora": "2016-10-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Reyes"
+]
+}
+]
+},
+{
+"id": "456206",
+"data_hora": "2016-10-30T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Adams"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Marin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Vargas"
+]
+}
+]
+},
+{
+"id": "456209",
+"data_hora": "2016-10-30T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Guzmán"
+]
+}
+]
+},
+{
+"id": "467858",
+"data_hora": "2016-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Aguilar"
+]
+}
+]
+},
+{
+"id": "456207",
+"data_hora": "2016-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456210",
+"data_hora": "2016-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Barrantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Lezcano"
+]
+}
+]
+},
+{
+"id": "456208",
+"data_hora": "2016-10-30T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuaycell Wright"
+]
+}
+]
+},
+{
+"id": "456213",
+"data_hora": "2016-11-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Bernard Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Sancho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuaycell Wright"
+]
+}
+]
+},
+{
+"id": "468005",
+"data_hora": "2016-11-03T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Scott"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Chaves"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Soto Arrieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Loaiza"
+]
+}
+]
+},
+{
+"id": "468007",
+"data_hora": "2016-11-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Murillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+}
+]
+},
+{
+"id": "468006",
+"data_hora": "2016-11-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Lagos"
+]
+}
+]
+},
+{
+"id": "468029",
+"data_hora": "2016-11-04T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Alpizar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose-Guillermo Ortiz"
+]
+}
+]
+},
+{
+"id": "468028",
+"data_hora": "2016-11-04T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468024",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "AD San Carlos",
+"visitante_id": "859",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salvatierra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Zúñiga"
+]
+}
+]
+},
+{
+"id": "456216",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belen",
+"mandante_id": "12003",
+"visitante": "Cartaginés",
+"visitante_id": "7239",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Polideportivo de Belen",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Johnson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reinaldo Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Adams"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luis Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Brenes"
+]
+}
+]
+},
+{
+"id": "456217",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Limon",
+"visitante_id": "11056",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+}
+]
+},
+{
+"id": "456220",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pérez Zeledón",
+"mandante_id": "7234",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Otto Urena",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Colindres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Torres"
+]
+}
+]
+},
+{
+"id": "456219",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Carmelita",
+"visitante_id": "7238",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Barquero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Mitchell"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Solorzano"
+]
+}
+]
+},
+{
+"id": "456218",
+"data_hora": "2016-11-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Liberia",
+"mandante_id": "9361",
+"visitante": "Universidad De Costa Rica",
+"visitante_id": "9533",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Axel Myers"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Di Mauro Gustavo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Di Mauro Gustavo"
+]
+}
+]
+},
+{
+"id": "468253",
+"data_hora": "2016-11-12T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Limon",
+"mandante_id": "11056",
+"visitante": "Belen",
+"visitante_id": "12003",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nuevo de Limon",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468170",
+"data_hora": "2016-11-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AD San Carlos",
+"mandante_id": "859",
+"visitante": "Pérez Zeledón",
+"visitante_id": "7234",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Ugalde Alvarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Landini"
+]
+}
+]
+},
+{
+"id": "456221",
+"data_hora": "2016-11-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carmelita",
+"mandante_id": "7238",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Carlos Alvarado",
+"cidade": "Santa Bárbara",
+"publico": 0,
+"lances": []
+},
+{
+"id": "456224",
+"data_hora": "2016-11-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Municipal Liberia",
+"visitante_id": "9361",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456222",
+"data_hora": "2016-11-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cartaginés",
+"mandante_id": "7239",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Fello Meza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456225",
+"data_hora": "2016-11-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad De Costa Rica",
+"mandante_id": "9533",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468373",
+"data_hora": "2016-11-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Granados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Salazar"
+]
+}
+]
+},
+{
+"id": "468374",
+"data_hora": "2016-11-20T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468376",
+"data_hora": "2016-11-23T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468405",
+"data_hora": "2016-11-24T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468378",
+"data_hora": "2016-11-27T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468377",
+"data_hora": "2016-11-27T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roy Miller"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+}
+]
+},
+{
+"id": "468682",
+"data_hora": "2016-12-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468379",
+"data_hora": "2016-12-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468382",
+"data_hora": "2016-12-04T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Santos",
+"visitante_id": "913",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Woodly"
+]
+}
+]
+},
+{
+"id": "468683",
+"data_hora": "2016-12-05T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Granados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Calvo"
+]
+}
+]
+},
+{
+"id": "468655",
+"data_hora": "2016-12-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alajuelense",
+"mandante_id": "2057",
+"visitante": "Saprissa",
+"visitante_id": "858",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alejandro Morera Soto",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "469075",
+"data_hora": "2016-12-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Herediano",
+"mandante_id": "862",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Rosabal Cordero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yendrick Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heyreel Saravia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Mc Donald"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randall Corrales Azofeifa"
+]
+}
+]
+},
+{
+"id": "469486",
+"data_hora": "2016-12-15T02:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santos",
+"mandante_id": "913",
+"visitante": "Alajuelense",
+"visitante_id": "2057",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Eval Rodriguez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "469485",
+"data_hora": "2016-12-16T02:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Saprissa",
+"mandante_id": "858",
+"visitante": "Herediano",
+"visitante_id": "862",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ricardo Saprissa",
+"cidade": null,
+"publico": 0,
+"lances": []
+}
+]

@@ -7,7 +7,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | não | cb0355f | 0 | [mex-1](mex-1.md) |
-| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | não | — | 0 | [usa-1](usa-1.md) |
+| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | sim | 5bace06 | 0 | [usa-1](usa-1.md) |
+| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | não | — | 0 | [crc-1](crc-1.md) |
 
 ## Pendências de todas as competições
 
@@ -22,6 +23,10 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **usa-1:** 2004: falta um DC United x New York Red Bulls (a ESPN não tem; a RSSSF só tem as tabelas).
 - **usa-1:** Temporada 2026 da MLS: entra depois da final (18/12/2026).
 - **usa-1:** Identidades a conferir pela revisão: Philadelphia Field Club de 1921/22 = Bethlehem Steel; os dois New York Giants da ASL (New York Soccer Club e New York Giants); os clubes da NASL separados dos da MLS com o mesmo nome.
+- **crc-1:** 1921 a 1995/96 só com as tabelas (a RSSSF não tem os jogos; os poucos jogos de final ficaram de fora); 1991/92 e 1993/94 sem página (só campeão e vice). Fonte que resolveria: jornais da época (La Nación, Diario de Costa Rica) ou a UNAFUT.
+- **crc-1:** Apertura 2010 a Clausura 2012: fase regular só com a tabela; a ESPN desses anos tem jogos adiados repetidos e jogos faltando.
+- **crc-1:** Autores dos gols e cartões: a RSSSF quase não traz autores e a ESPN (crc.1) só traz gols, e em poucos anos; não há cartões. Fonte que resolveria: o site da UNAFUT ou o ogol.
+- **crc-1:** Erros de um resultado na própria página em 1998/99 e 2000/01; derrota para os dois clubes em 2002/03 (San Carlos x Herediano); um jogo faltando em 2003/04: explicados no relatório.
 
 ## Próximas competições
 
