@@ -5,8 +5,8 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 80, de 1947 a 2026; sem nenhum jogo: 1947, 1972, 1973, 1974, 1993, 1994; com parte dos jogos: 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1975, 1976, 1977, 1978, 1980, 1981, 1982, 1983, 1984, 1989, 1990, 1991, 1992.
-- **Jogos:** 9223; **gols:** 22233; **gols com autor:** 4526 (20%); **cartões:** 0.
-- **Clubes:** 183; **artilheiros:** 57 temporadas com artilheiro (65 linhas, com empates).
+- **Jogos:** 9214; **gols:** 22213; **gols com autor:** 4526 (20%); **cartões:** 0.
+- **Clubes:** 184; **artilheiros:** 62 temporadas com artilheiro (71 linhas, com empates).
 - **Classificação final:** 80 temporadas; **rodada a rodada:** 23 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2409 linhas.
 - **No banco (`db/futebol.db`):** sim (80 edições, 9223 jogos).
@@ -22,8 +22,8 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF; Wikipédia em 1965 e 1990): 132 tabelas fecham com os jogos e 33 divergem (cada divergência é explicada no relatório, na temporada).
-- Temporadas com alguma tabela divergente: 1954, 1979, 1985, 1986, 1988, 1996, 1997, 1998, 1999, 2001, 2004, 2005, 2006, 2007, 2008, 2025.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF; Wikipédia em 1965 e 1990): 134 tabelas fecham com os jogos e 31 divergem (cada divergência é explicada no relatório, na temporada).
+- Temporadas com alguma tabela divergente: 1954, 1979, 1985, 1986, 1988, 1996, 1997, 1998, 1999, 2001, 2004, 2005, 2007, 2008, 2025.
 - Temporadas sem tabela para conferir: 1947, 1950, 1951, 1952, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1981, 1982, 1983, 1984, 1987, 1989, 1991, 1992, 1993, 1994, 2014, 2022, 2023, 2024, 2026.
 - Temporadas com menos jogos do que o ogol: nenhuma.
 
@@ -36,14 +36,14 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1940s | 22 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 125 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 44 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 278 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1970s | 275 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 2685 | 98% | 0% | 55% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 1343 | 100% | 0% | 63% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 1884 | 100% | 22% | 98% | 0% | 0% | 0% | 0% | 0.0 |
+| 2000s | 1878 | 100% | 22% | 98% | 0% | 0% | 0% | 0% | 0.0 |
 | 2010s | 1888 | 100% | 98% | 96% | 0% | 0% | 0% | 57% | 0.0 |
 | 2020s | 954 | 100% | 100% | 79% | 0% | 0% | 0% | 81% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 8699; Wikipédia (pt): 318; ogol: 206.
+**Fonte de cada jogo:** RSSSF Brasil: 8690; Wikipédia (pt): 318; ogol: 206.
 
 ## 5. Formato ao longo do tempo
 
@@ -74,8 +74,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1974: 23 clubes
 - 1975: 29 clubes
 - 1976: 39 clubes
-- 1977 a 1978: 20 clubes
-- 1979: 21 clubes
+- 1977 a 1979: 20 clubes
 - 1980 a 1981: 28 clubes
 - 1982: 51 clubes
 - 1983: 49 clubes
@@ -91,9 +90,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1993: 28 clubes
 - 1994 a 1999: 16 clubes
 - 2000: 18 clubes
-- 2001: 16 clubes
-- 2002 a 2003: 17 clubes
-- 2004: 16 clubes
+- 2001 a 2004: 16 clubes
 - 2005 a 2017: 20 clubes
 - 2018 a 2026: 16 clubes
 
@@ -140,7 +137,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1976: jogos incompletos (a tabela final e 1 jogo: fase final)
 - 1977: jogos incompletos (os pontos de cada fase e 1 jogo: final)
 - 1978: jogos incompletos (os pontos de cada fase e 1 jogo: fase final)
-- 1979: 2 grupos + pontos corridos + mata-mata
+- 1979: 2 grupos + pontos corridos
 - 1980: jogos incompletos (os pontos de cada fase e 6 jogos: semifinal, final)
 - 1981: jogos incompletos (os pontos de cada fase e 5 jogos: semifinal, final)
 - 1982: jogos incompletos (a tabela final e 11 jogos: semifinal, fase final)
@@ -175,7 +172,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2016 a 2025: pontos corridos + mata-mata
 - 2026: 2 grupos + mata-mata
 
-**Fases que aparecem** (número de temporadas): Final (42); Primeira fase (35); Segunda fase (33); Semifinal (21); Fase final (18); Quartas de final (6); Torneio de rebaixamento (4); Fase única (3); Terceira fase (2); Primeira fase - Desempate (1); Repescagem (1); Mata-mata (1); Quarta fase (1); 1º Turno (1); 2º Turno (1); 3º Turno (1); Primeira fase - Semifinal (1); Primeira fase - Final (1).
+**Fases que aparecem** (número de temporadas): Final (42); Primeira fase (35); Segunda fase (33); Semifinal (21); Fase final (18); Quartas de final (6); Fase única (3); Terceira fase (2); Torneio de rebaixamento (2); Primeira fase - Desempate (1); Mata-mata (1); Quarta fase (1); 1º Turno (1); 2º Turno (1); 3º Turno (1); Primeira fase - Semifinal (1); Primeira fase - Final (1).
 
 **Observações das edições:**
 
@@ -210,6 +207,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1976: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 1 jogo da Wikipédia em português (fase final)
 - 1977: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 1 jogo da Wikipédia em português (final)
 - 1978: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 1 jogo da Wikipédia em português (fase final)
+- 1979: a repescagem contra a 1ª divisão (Marília 2-0 Santo André (05/12), Santo André 2-1 Marília (08/12), Marília 4-1 Santo André (12/12)) fica fora da A2 e só nesta observação (decisão D-04); os jogos estão no Paulista (bra-sp-1)
 - 1980: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 6 jogos da Wikipédia em português (semifinal, final)
 - 1981: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 5 jogos da Wikipédia em português (semifinal, final)
 - 1982: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 11 jogos da Wikipédia em português (semifinal, fase final)
@@ -221,6 +219,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1991: jogos incompletos: só a 2ª fase e o quadrangular final (a 1ª fase não está em nenhuma fonte); campeão o Araçatuba, pelo saldo de gols (a página da RSSSF diz "Campeão: Lemense" por engano; a lista de campeões, a Wikipédia e o Futebol Interior dão o Araçatuba)
 - 1992: Capivariano inscrito, não disputou; 42 jogos da Wikipédia em português (segunda fase, fase final); outros 6 vêm lá só com o resultado e ficam fora
 - 1993: com a mudança das divisões da FPF, os clubes foram redistribuídos em 1994 (Série A2, A3 e B1)
+- 1998: o XV de Piracicaba caiu, mas ficou na A2 de 1999 pelo licenciamento do Novorizontino (Wikipédia pt; A2-026)
+- 2002: o playoff contra a 1ª divisão (Francana 2-2 Portuguesa Santista (02/06), Portuguesa Santista 2-2 Francana (05/06)) fica fora da A2 e só nesta observação (decisão D-04); os jogos estão no Paulista (bra-sp-1)
+- 2003: o playoff contra a 1ª divisão (Atlético Sorocaba 2-1 Botafogo-SP (02/04), Botafogo-SP 0-0 Atlético Sorocaba (05/04)) fica fora da A2 e só nesta observação (decisão D-04); os jogos estão no Paulista (bra-sp-1)
+- 2011: final XV de Piracicaba 2-2 Guarani: campeão o XV pela campanha (RSSSF); a Wikipédia dá 4-2 nos pênaltis (A2-028)
 
 ## 6. Campeões, acessos, rebaixados e punições
 
@@ -314,6 +316,8 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **1991:** jogos incompletos: só a 2ª fase e o quadrangular final (a 1ª fase não está em nenhuma fonte); campeão o Araçatuba, pelo saldo de gols (a página da RSSSF diz "Campeão: Lemense" por engano; a lista de campeões, a Wikipédia e o Futebol Interior dão o Araçatuba)
 - **1992:** Capivariano inscrito, não disputou
 - **1993:** com a mudança das divisões da FPF, os clubes foram redistribuídos em 1994 (Série A2, A3 e B1)
+- **1998:** o XV de Piracicaba caiu, mas ficou na A2 de 1999 pelo licenciamento do Novorizontino (Wikipédia pt; A2-026)
+- **2011:** final XV de Piracicaba 2-2 Guarani: campeão o XV pela campanha (RSSSF); a Wikipédia dá 4-2 nos pênaltis (A2-028)
 
 ### Nome da página casado à mão com o clube (`importar.NOME_MANUAL`)
 
@@ -438,6 +442,10 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 - **1948 · Série Branca · AA Internacional:** Bebedouro
 
+### Jogos anulados (`importar.JOGOS_ANULADOS`)
+
+- **2008 · Mogi Mirim · Oeste · 0 · 0:** jogo de 03/05/2008 anulado pelo TJD-SP (suspeita de manipulação) e refeito em 24/05 (2-3); a página traz os dois (A2-014)
+
 ### Fases da página renomeadas (por temporada) (`rsssf_sp2.FASE_ANO`)
 
 - **1989:** 1º Turno → First Phase; 2º Turno → First Phase
@@ -482,10 +490,11 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
-- **1985:** Nacional x São Bernardo (31/08): a vitória foi dada ao São Bernardo no tribunal, sem placar (o jogo terminou 0 a 0 e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo)
+- **1986:** datas que vêm assim da própria página e não têm 2ª fonte: a Esportiva com dois jogos em 17/08 e a 6ª rodada da 2ª fase no mesmo dia (07/12) do 1º jogo do mata-mata; ficam como estão (achado A2-027)
+- **1988:** 69 jogos vêm na página só com o resultado ("venceu", "empatou", "perdeu" ou "-"), sem placar, e ficam fora do pacote; por isso as tabelas da 1ª fase não fecham. O ogol e a Wikipédia não têm esses jogos
+- **1985:** Nacional x São Bernardo (31/08): a vitória foi dada ao São Bernardo no tribunal, sem placar (o jogo terminou 0 a 0 e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo) / o Palmeiras de São João da Boa Vista tem dois jogos em 08/09, como na página (sem 2ª fonte; achado A2-027)
 - **1948:** a Internacional da Série Branca é a de Bebedouro (Wikipédia); a página da RSSSF repete "(Limeira)"
 - **1954:** 2ª fase: a página traz uma tabela calculada dos jogos (Taubaté 16, Comercial 11) e a classificação oficial (Taubaté 14, Comercial 13); vale a oficial. Os 30 jogos da Wikipédia fecham com a calculada
-- **1988:** 69 jogos vêm na página só com o resultado ("venceu", "empatou", "perdeu" ou "-"), sem placar, e ficam fora do pacote; por isso as tabelas da 1ª fase não fecham. O ogol e a Wikipédia não têm esses jogos
 - **1991:** campeão: Araçatuba, empatado em pontos com o Lemense no quadrangular e na frente pelo saldo. A página da RSSSF diz "Campeão: Lemense", mas a lista de campeões da RSSSF, a Wikipédia e o Futebol Interior dão o Araçatuba
 - **1995:** a página não tem a lista de participantes: Internacional (de Limeira), Botafogo (de Ribeirão Preto), Nacional (da capital) e Catanduva (o GE Catanduvense, que mudou de nome em 1994) foram casados à mão
 - **1997:** Ferroviária 1x1 Noroeste (23/02): jogo inacabado; a FPF deu a vitória à Ferroviária, e a tabela conta 1 a 0. A 1ª fase vai do jogo entre grupos (8 rodadas) ao turno e returno dentro dos grupos (14 rodadas), como nas tabelas da página (22 jogos por clube)
@@ -532,11 +541,14 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **rs-comercial-mogi-das-cruzes:** [Comercial (Mogi das Cruzes)] Comercial FC de Mogi das Cruzes
 - **rs-ferroviaria-pindamonhangaba:** [Ferroviária (Pindamonhangaba)] AA Ferroviária de Pindamonhangaba
 - **rs-sao-paulo-araraquara:** [São Paulo (Araraquara)] São Paulo FC de Araraquara; "São Paulo-SP" seria o tricolor
+- **rs-gremio-catanduvense:** [Grêmio Catanduvense] Grêmio Catanduvense de Futebol, fundado em 1999; o ogol usa o código do GE Catanduvense (1970-1995), que fica com o nome 'Catanduvense' do banco (Série B 1989). Clube refundado é outro cadastro (D-23 a, A2-022)
 
 ### Fichas do ogol com cidade ou estado errados (`clubes_sp2.FICHA_CORRIGIDA`)
 
 - **39622:** cidade → São Paulo; uf → SP
 - **59514:** cidade → São Paulo; uf → SP; estado → São Paulo; nome_completo → None; fundacao → None
+- **80977:** cidade → São Caetano do Sul
+- **34451:** cidade → São Bernardo do Campo
 
 ### Letras trocadas na página da RSSSF (`rsssf_sp2.LETRAS`)
 
@@ -619,7 +631,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp2003l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2004l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2005l2.htm:** letras trocadas por "�" na página; placar com travessão
-- **sp2006l2.htm:** letras trocadas por "�" na página; placar com travessão
+- **sp2006l2.htm:** letras trocadas por "�" na página; placar com travessão; jogo interrompido e completado no dia seguinte: um jogo só, 0-1 (achado A2-013)
 - **sp2007l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2008l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2009l2.htm:** letras trocadas por "�" na página; placar com travessão
@@ -634,7 +646,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp2018l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2019l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2020l2.htm:** letras trocadas por "�" na página; placar com travessão
-- **sp2021l2.htm:** letras trocadas por "�" na página; placar com travessão; colchete solto depois do nome do Água Santa; pênaltis da final ("Penalty shootout")
+- **sp2021l2.htm:** letras trocadas por "�" na página; placar com travessão; colchete solto depois do nome do Água Santa; pênaltis da final ("Penalty shootout"); a rodada 7 foi em 24/04 (FPF); a página repete a data da rodada 8 (achado A2-016)
 - **sp2022l2.htm:** letras trocadas por "�" na página; placar com travessão; nome do São Bento quebrado, com os pênaltis na mesma linha; nomes de clube quebrados em duas linhas
 - **sp2023l2.htm:** letras trocadas por "�" na página; placar com travessão; nomes de clube quebrados em duas linhas
 - **sp2024l2.htm:** letras trocadas por "�" na página; placar com travessão; nomes de clube quebrados em duas linhas

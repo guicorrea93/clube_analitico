@@ -1925,13 +1925,13 @@ como na RSSSF.
 
 - placar corrigido pelo ogol — Botafogo-SP x XV de Piracicaba (2012-01-25): RSSSF 3-1, ogol 2-1; fica o do ogol, que fecha com a tabela publicada
 - placar corrigido pelo ogol — São Paulo x Comercial-RP (2012-02-09): RSSSF 1-0, ogol 1-1; fica o do ogol, que fecha com a tabela publicada
-- placar corrigido pelo ogol — Catanduvense x Guarani (2012-04-01): RSSSF 0-2, ogol 1-2; fica o do ogol, que fecha com a tabela publicada
+- placar corrigido pelo ogol — Grêmio Catanduvense x Guarani (2012-04-01): RSSSF 0-2, ogol 1-2; fica o do ogol, que fecha com a tabela publicada
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Mogi Mirim 3-2 Oeste (2012-04-28)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Bragantino 1-1 Mirassol (2012-04-28)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Bragantino 2-4 Mogi Mirim (2012-05-05)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Mogi Mirim 4-2 Bragantino (2012-05-12)
 - jogo só no ogol, incluído em FINALS:: Santos 4-2 Guarani (2012-05-13)
-- data da FPF (oficial) em 10 jogos (QS-008): Comercial-RP x Ituano 2012-03-11 -> 2012-03-10; Linense x XV de Piracicaba 2012-03-11 -> 2012-03-10; Corinthians x Guarani 2012-03-11 -> 2012-03-10; Catanduvense x Oeste 2012-03-11 -> 2012-03-10; Mogi Mirim x Santos 2012-03-11 -> 2012-03-10; São Paulo x Portuguesa 2012-03-12 -> 2012-03-11; Botafogo-SP x Palmeiras 2012-03-12 -> 2012-03-11; São Caetano x Mirassol 2012-03-12 -> 2012-03-11; Guaratinguetá x Bragantino 2012-03-12 -> 2012-03-11; Ponte Preta x Paulista 2012-03-12 -> 2012-03-11
+- data da FPF (oficial) em 10 jogos (QS-008): Comercial-RP x Ituano 2012-03-11 -> 2012-03-10; Linense x XV de Piracicaba 2012-03-11 -> 2012-03-10; Corinthians x Guarani 2012-03-11 -> 2012-03-10; Grêmio Catanduvense x Oeste 2012-03-11 -> 2012-03-10; Mogi Mirim x Santos 2012-03-11 -> 2012-03-10; São Paulo x Portuguesa 2012-03-12 -> 2012-03-11; Botafogo-SP x Palmeiras 2012-03-12 -> 2012-03-11; São Caetano x Mirassol 2012-03-12 -> 2012-03-11; Guaratinguetá x Bragantino 2012-03-12 -> 2012-03-11; Ponte Preta x Paulista 2012-03-12 -> 2012-03-11
 - 4 jogos da FPF sem par no pacote (ex.: Mogi Mirim x Osasco Sporting, 28/04/2012, fase 3)
 
 ### 2013

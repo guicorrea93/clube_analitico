@@ -39,7 +39,16 @@ e o 4º só para quem chegou à fase mais avançada. A fase alcançada também s
 da fase, os clubes fora do pódio ficam empatados, sem ordem. 1972 não tem página na Wikipédia: só os participantes e o
 pódio.
 
-**Fica de fora** a fase amadora (1916-1946, só a lista de campeões).
+**Fica de fora** a fase amadora (1916-1946, só a lista de campeões), e os playoffs contra a 1ª divisão (1951, 1979, 1983,
+2002 e 2003), que ficam só na observação da edição (decisão D-04; os jogos estão no Paulista).
+
+**Ordem final** (decisão D-02 A): campeão e vice; depois quem chegou à última fase de grupos antes da final, pela
+posição no grupo e pelos pontos dela (os 2º de cada grupo são o 3º e o 4º, como na Wikipédia); depois os outros, pela
+fase alcançada e pelos pontos totais.
+
+**Clubes:** o Grêmio Catanduvense (1999) é outro cadastro do GE Catanduvense (1970-1995), que fica com o nome
+"Catanduvense" (D-23 a); o ogol usa o mesmo código para os dois. Barueri e Grêmio Prudente ficam separados (D-23 b).
+O Oeste aparece com a cidade de hoje (Osasco); até 2016 o clube era de Itápolis (D-03).
 
 | Ano | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|---|
@@ -57,7 +66,7 @@ pódio.
 | 1958 | RSSSF | 38 | 3 (0) | 6 | 0 | 0 / 0 | Comercial-RP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1959 | RSSSF | 39 | 51 (0) | 202 | 0 | 0 / 0 | Corinthians Prudente | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1960 | RSSSF | 11 | 1 (0) | 5 | 0 | 0 / 0 | Esportiva Guaratinguetá | RSSSF (tabela final publicada) |
-| 1961 | RSSSF | 22 | 3 (0) | 14 | 0 | 0 / 0 | Prudentina | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1961 | RSSSF | 22 | 3 (0) | 16 | 0 | 0 / 0 | Prudentina | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1962 | RSSSF | 22 | 3 (0) | 5 | 0 | 0 / 0 | São Bento | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1963 | RSSSF | 22 | 2 (0) | 9 | 0 | 0 / 0 | América-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1964 | RSSSF | 22 | 1 (0) | 1 | 0 | 0 / 0 | Portuguesa Santista | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
@@ -75,7 +84,7 @@ pódio.
 | 1976 | RSSSF | 39 | 1 (0) | 2 | 0 | 0 / 0 | XV de Jaú | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1977 |  | 20 | 1 (0) | 2 | 0 | 0 / 0 | Francana | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1978 |  | 20 | 1 (0) | 2 | 0 | 0 / 0 | Inter de Limeira | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
-| 1979 | RSSSF | 21 | 267 (0) | 540 | 0 | 1 / 3 | Taubaté | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1979 | RSSSF | 20 | 264 (0) | 530 | 0 | 1 / 3 | Taubaté | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1980 |  | 28 | 6 (0) | 12 | 0 | 0 / 0 | São José-SP | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1981 |  | 28 | 5 (0) | 12 | 0 | 0 / 0 | Santo André | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1982 | RSSSF | 51 | 11 (0) | 24 | 0 | 0 / 0 | Taquaritinga | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
@@ -98,13 +107,13 @@ pódio.
 | 1999 | RSSSF + ogol | 16 | 214 (214) | 630 | 0 | 8 / 2 | América-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2000 | RSSSF + ogol | 18 | 188 (188) | 528 | 0 | 10 / 0 | São Caetano | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2001 | RSSSF + ogol | 16 | 240 (240) | 774 | 0 | 0 / 2 | Paulista | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2002 | RSSSF + ogol | 17 | 128 (126) | 409 | 0 | 2 / 0 | Marília | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2003 | RSSSF + ogol | 17 | 120 (118) | 348 | 0 | 4 / 0 | Oeste | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2002 | RSSSF + ogol | 16 | 126 (126) | 401 | 0 | 2 / 0 | Marília | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2003 | RSSSF + ogol | 16 | 118 (118) | 345 | 0 | 4 / 0 | Oeste | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2004 | RSSSF + ogol | 16 | 148 (148) | 419 | 0 | 3 / 2 | Inter de Limeira | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2005 | RSSSF + ogol | 20 | 205 (205) | 564 | 0 | 3 / 1 | Juventus-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2006 | RSSSF + ogol | 20 | 206 (205) | 645 | 0 | 3 / 1 | Barueri | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2006 | RSSSF + ogol | 20 | 205 (205) | 644 | 0 | 4 / 0 | Barueri | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2007 | RSSSF + ogol | 20 | 216 (216) | 602 | 0 | 3 / 1 | Portuguesa | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2008 | RSSSF + ogol | 20 | 217 (216) | 613 | 0 | 4 / 3 | Santo André | RSSSF (classificação geral publicada) |
+| 2008 | RSSSF + ogol | 20 | 216 (216) | 613 | 0 | 5 / 2 | Santo André | RSSSF (classificação geral publicada) |
 | 2009 | RSSSF + ogol | 20 | 216 (216) | 577 | 0 | 6 / 0 | Monte Azul | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2010 | RSSSF + ogol | 20 | 214 (214) | 644 | 0 | 7 / 0 | Linense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2011 | RSSSF + ogol | 20 | 205 (205) | 566 | 0 | 9 / 0 | XV de Piracicaba | RSSSF (classificação geral publicada) |
@@ -302,6 +311,7 @@ pódio.
 - Sãocarlense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Sãocarlense)
 - Taubaté — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Taubaté)
 - Votuporanguense — clube que o ogol não tem; entra só pela RSSSF
+- 3 jogos do playoff contra a 1ª divisão ficam fora (D-04, A2-012)
 
 ### 1980
 
@@ -326,6 +336,7 @@ pódio.
 ### 1985
 
 - Nacional x São Bernardo (31/08): a vitória foi dada ao São Bernardo no tribunal, sem placar (o jogo terminou 0 a 0 e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo)
+- o Palmeiras de São João da Boa Vista tem dois jogos em 08/09, como na página (sem 2ª fonte; achado A2-027)
 - tabela publicada x jogos — Primeira fase / Grupo Verde: EC São Bernardo tabela [24, 14, 8, 2, 29, 13] jogos [23, 13, 8, 2, 29, 13] — a tabela conta 24 jogos e as fontes trazem 23
 - tabela publicada x jogos — Primeira fase / Grupo Verde: Bragantino tabela [24, 9, 9, 6, 24, 22] jogos [24, 9, 9, 6, 24, 23] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Primeira fase / Grupo Verde: Nacional-SP tabela [24, 6, 9, 9, 22, 27] jogos [23, 6, 9, 8, 22, 27] — a tabela conta 24 jogos e as fontes trazem 23
@@ -391,6 +402,7 @@ pódio.
 
 ### 1986
 
+- datas que vêm assim da própria página e não têm 2ª fonte: a Esportiva com dois jogos em 17/08 e a 6ª rodada da 2ª fase no mesmo dia (07/12) do 1º jogo do mata-mata; ficam como estão (achado A2-027)
 - tabela publicada x jogos — Primeira fase / Grupo Branco: EC Lemense tabela [26, 11, 8, 7, 22, 22] jogos [26, 11, 8, 7, 23, 21] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Primeira fase / Grupo Branco: Guaçuano tabela [26, 6, 7, 13, 25, 35] jogos [25, 6, 7, 12, 25, 32] — a tabela conta 26 jogos e as fontes trazem 25
 - tabela publicada x jogos — Primeira fase / Grupo Preto: Jalesense tabela [26, 8, 13, 5, 20, 16] jogos [26, 7, 14, 5, 20, 16] — há jogo do clube sem conferência no ogol
@@ -740,6 +752,7 @@ pódio.
 
 - só na RSSSF (não achado no ogol): Francana 2-2 Portuguesa Santista (2002-06-02)
 - só na RSSSF (não achado no ogol): Portuguesa Santista 2-2 Francana (2002-06-05)
+- 2 jogos do playoff contra a 1ª divisão ficam fora (D-04, A2-012)
 
 ### 2003
 
@@ -748,6 +761,7 @@ pódio.
 - placar diferente no ogol — Rio Preto x Francana (2003-02-26): RSSSF 1-3, ogol 1-2; fica o da RSSSF
 - só na RSSSF (não achado no ogol): Atlético Sorocaba 2-1 Botafogo-SP (2003-04-02)
 - só na RSSSF (não achado no ogol): Botafogo-SP 0-0 Atlético Sorocaba (2003-04-05)
+- 2 jogos do playoff contra a 1ª divisão ficam fora (D-04, A2-012)
 
 ### 2004
 
@@ -767,9 +781,7 @@ pódio.
 
 ### 2006
 
-- tabela publicada x jogos — Primeira fase / Grupo 1: União São João tabela [18, 9, 6, 3, 29, 18] jogos [19, 10, 6, 3, 30, 18] — a tabela conta 18 jogos e as fontes trazem 19
-- tabela publicada x jogos — Primeira fase / Grupo 1: Bandeirante-SP tabela [18, 7, 4, 7, 26, 25] jogos [19, 7, 4, 8, 26, 26] — a tabela conta 18 jogos e as fontes trazem 19
-- só na RSSSF (não achado no ogol): Bandeirante-SP 0-1 União São João (2006-04-02)
+- sem ocorrências
 
 ### 2007
 
@@ -777,15 +789,11 @@ pódio.
 
 ### 2008
 
-- tabela publicada x jogos — Segunda fase / Grupo 3: Oeste tabela [6, 3, 2, 1, 7, 5] jogos [7, 4, 2, 1, 10, 7] — a tabela conta 6 jogos e as fontes trazem 7
-- tabela publicada x jogos — Segunda fase / Grupo 3: Mogi Mirim tabela [6, 2, 2, 2, 6, 6] jogos [7, 2, 2, 3, 8, 9] — a tabela conta 6 jogos e as fontes trazem 7
-- tabela publicada x jogos — Segunda fase / Grupo 3: Oeste tabela [6, 4, 1, 1, 10, 7] jogos [7, 4, 2, 1, 10, 7] — a tabela conta 6 jogos e as fontes trazem 7
-- tabela publicada x jogos — Segunda fase / Grupo 3: Mogi Mirim tabela [6, 2, 1, 3, 8, 9] jogos [7, 2, 2, 3, 8, 9] — a tabela conta 6 jogos e as fontes trazem 7
-- tabela publicada x jogos — Fase final / -: Oeste tabela [27, 11, 8, 8, 32, 28] jogos [28, 12, 8, 8, 35, 30] — a tabela conta 27 jogos e as fontes trazem 28
-- tabela publicada x jogos — Fase final / -: Mogi Mirim tabela [25, 13, 6, 6, 36, 23] jogos [26, 13, 6, 7, 38, 26] — a tabela conta 25 jogos e as fontes trazem 26
-- placar diferente no ogol — Mogi Mirim x Oeste (2008-05-24): RSSSF 0-0, ogol 2-3; fica o da RSSSF
-- data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Mogi Mirim x Oeste, ogol 2008-05-24); fica a do ogol
-- só na RSSSF (não achado no ogol): Mogi Mirim 2-3 Oeste (2008-05-24)
+- tabela publicada x jogos — Segunda fase / Grupo 3: Oeste tabela [6, 3, 2, 1, 7, 5] jogos [6, 4, 1, 1, 10, 7] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Segunda fase / Grupo 3: Mogi Mirim tabela [6, 2, 2, 2, 6, 6] jogos [6, 2, 1, 3, 8, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase final / -: Oeste tabela [27, 11, 8, 8, 32, 28] jogos [27, 12, 7, 8, 35, 30] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase final / -: Mogi Mirim tabela [25, 13, 6, 6, 36, 23] jogos [25, 13, 5, 7, 38, 26] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- jogo anulado fica de fora (1): Mogi Mirim 0-0 Oeste — jogo de 03/05/2008 anulado pelo TJD-SP (suspeita de manipulação) e refeito em 24/05 (2-3); a página traz os dois (A2-014)
 
 ### 2009
 
@@ -795,7 +803,7 @@ pódio.
 
 - jogo só no ogol, incluído em FIRST STAGE:: São Bernardo 3-0 Flamengo-SP (2010-02-20)
 - jogo só no ogol, incluído em FIRST STAGE:: Rio Preto 1-0 São José-SP (2010-02-20)
-- jogo só no ogol, incluído em FIRST STAGE:: Catanduvense 3-2 Grêmio Osasco (2010-02-20)
+- jogo só no ogol, incluído em FIRST STAGE:: Grêmio Catanduvense 3-2 Grêmio Osasco (2010-02-20)
 
 ### 2011
 
@@ -898,7 +906,6 @@ pódio.
 - jogo só no ogol, incluído em STAGE:: Lemense 3-1 Velo Clube (2023-01-18)
 - jogo só no ogol, incluído em STAGE:: Linense 0-0 Juventus-SP (2023-01-18)
 - jogo só no ogol, incluído em STAGE:: Primavera-SP 1-1 Linense (2023-02-26)
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Ponte Preta
 
 ### 2024
 

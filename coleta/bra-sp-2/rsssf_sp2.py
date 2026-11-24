@@ -243,6 +243,13 @@ rsssf.CORRECOES.setdefault("sp2001l2.htm", []).append((_tabela_2001, None, "tabe
 rsssf.CORRECOES["sp2001l2.htm"].append(
     (r"(?m)^Nacional(\s+)1-0(\s+)Ituano", r"Nacional\g<1>0-1\g<2>Ituano",
      "Nacional 0-1 Ituano (03/03/2001), como o ogol: só esse placar fecha com a tabela publicada (achado A2-017)"))
+rsssf.CORRECOES.setdefault("sp2006l2.htm", []).append(
+    (r"(?m)^Bandeirante\s+abd\s+União São João\s+\[abandoned at halftime[^\n]*\n\[Apr 3\][^\n]*\n(Bandeirante\s+0-1\s+União São João)"
+     r"\s+\[remaining 45 minutes\]",
+     r"\1  [interrompido no intervalo com 0-1 por falta de luz; os 45 minutos restantes foram jogados em 03/04]",
+     "jogo interrompido e completado no dia seguinte: um jogo só, 0-1 (achado A2-013)"))
+rsssf.CORRECOES.setdefault("sp2021l2.htm", []).append(
+    (r"(?m)^(Round 7\n)\[Apr 26\]", r"\1[Apr 24]", "a rodada 7 foi em 24/04 (FPF); a página repete a data da rodada 8 (achado A2-016)"))
 
 # a A2 não tem torneio à parte na página (no Paulista: Troféu do Interior); o importador comum pergunta
 ANOS_A_PARTE: set[int] = set()

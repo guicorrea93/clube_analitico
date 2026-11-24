@@ -919,3 +919,38 @@ O Guilherme mandou seguir o resto do plano `docs/revisao/plano-coleta-brasil.md`
    - recarregar o `bra-sp-1`;
    - no banco, juntar "São Bento de São Paulo" na AA São Bento e "ECPaulista" no CA Paulista, mantendo os nomes AA São Bento e CA Paulista (D-23 d e e).
 4. **Plano do Paulista (`bra-sp-1`) concluído.** Próximo: A2 (`bra-sp-2`), depois Série C, D e Copa.
+
+## Correções da revisão — bra-sp-2 — 24/11/2026 (A2, partes A e B)
+
+O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte C.
+
+1. **Parte A, jogos** (`coleta/bra-sp-2/importar.py` e `rsssf_sp2.py`):
+   - **A2-012 (D-04):** os playoffs contra a 1ª divisão saem da A2 e ficam só na observação da edição: 1979 (repescagem Marília x Santo André), 2002 (Francana x Portuguesa Santista) e 2003 (Atlético Sorocaba x Botafogo-SP). Marília, Portuguesa Santista e Botafogo-SP deixam de contar como participantes. Os jogos continuam no Paulista.
+   - **A2-013:** 2006, Bandeirante x União São João passa a ser um jogo só, 0-1, com a observação de que foi interrompido e completado em 03/04.
+   - **A2-014:** 2008, sai o Mogi Mirim 0-0 Oeste anulado pelo TJD-SP; fica o 2-3 de 24/05.
+   - **A2-016:** 2021, a rodada 7 vai para 24/04, pela FPF.
+   - **A2-019:** 2023, pênaltis 3-2 na final. O leitor agora entende "Penals:".
+   - **A2-020:** prorrogações das finais, em `jogos_pt.csv`, pela RSSSF.
+     - 1961: 3º jogo Ponte Preta 3-4 Prudentina (3-2 no tempo normal e 0-2 na prorrogação).
+     - 1962: o 2-1 do São Bento já inclui a prorrogação (1-0); fica anotado.
+   - **A2-026 e A2-028:** observações em 1998 (XV de Piracicaba mantido pelo licenciamento do Novorizontino) e em 2011 (final sem pênaltis na RSSSF; a Wikipédia dá 4-2).
+   - **A2-027:** as datas impossíveis de 1985, 1986 e 1988 ficam anotadas no relatório.
+2. **Parte B, pódio e clubes:**
+   - **A2-024 (D-02 A):** sem "Fase final", vale a última fase de grupos antes da final: os clubes se ordenam pela posição no grupo e pelos pontos dela, e os 2º de cada grupo são o 3º e o 4º. Mudam o 3º e o 4º de 1987, 1988, 1999, 2005, 2006, 2007, 2009, 2010 e 2012, e nenhum campeão ou vice.
+     - De 1985 em diante, as diferenças com a predefinição de campeões da Wikipédia caem de 12 para 4: 1989 e 1993 são edições incompletas, e em 1988 a Wikipédia não segue a posição no grupo.
+   - **A2-021:** artilheiros de 1998 (Gilson Batata, 18), 2003 (Ricardo Xavier e Clóvis, 12) e 2026 (Lucas Luciano, 9), pela Wikipédia pt (`baixar_wiki.py`; o `infobox()` lê os `pt_<ano>.wiki`). Entram também 1977 e 1978.
+   - **A2-022 (D-23 a):** o Grêmio Catanduvense (fundado em 1999) vira cadastro próprio, "Grêmio Catanduvense" (`rs-gremio-catanduvense`).
+     - O ogol usa o mesmo código (15767) para ele e para o GE Catanduvense; `REFUNDADO`, em `importar.py` do Paulista e da A2, troca o código de 1999 em diante.
+     - O nome "Catanduvense" fica com o clube antigo, como no banco (Série B de 1989).
+     - Afeta a A2 de 2008 a 2015 e o Paulista de 2009 a 2012.
+   - **A2-023 (D-23 b):** Barueri e Grêmio Prudente ficam separados, sem mudança.
+   - **A2-025:** cidades "São Caetano do Sul" (EC São Caetano, 80977) e "São Bernardo do Campo" (EC São Bernardo, 34451), nas fichas e no cadastro comum. O Oeste fica com a cidade de hoje (Osasco), com Itápolis anotada (D-03).
+3. **Números:**
+   - `bra-sp-2`: 80 edições e 9.214 jogos (eram 9.223: saem 7 jogos de playoff, 1 de 2006 e 1 de 2008). Tabelas: 103 fecham (eram 99).
+   - `bra-sp-1`: 21.849 jogos, sem mudança de jogos.
+   - testar_carga: `bra-sp-1 ... 1 clubes novos -> OK` e `bra-sp-2: 80 edições, 9214 jogos, 1 clubes novos -> OK`. O clube novo é o Grêmio Catanduvense.
+4. **Pedidos ao agente 1:**
+   - recarregar o `bra-sp-1` e o `bra-sp-2`;
+   - no banco, o Grêmio Catanduvense é clube novo e o "Catanduvense" fica só com os anos até 1995;
+   - a cidade do São Caetano EC passa a São Caetano do Sul, e a do EC São Bernardo a São Bernardo do Campo.
+5. **Próximo, parte C:** A2-015, as datas herdadas de outra rodada (1987, 1998, 1999, 2010, 2011, 2025). Mexe em `coleta/comum/rsssf.py`; vou reimportar as 5 coletas do Brasil e conferir que só mudam as datas certas.

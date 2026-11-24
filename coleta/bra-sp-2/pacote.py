@@ -25,7 +25,8 @@ def observacao(texto: str) -> str:
                r"vitória dada ao \1 no tribunal (o jogo terminou \2; o \3 escalou jogador irregular)"),
               (r"victory awarded to ([^,;]+)", r"vitória dada ao \1 no tribunal"),
               (r"\bawarded (\d+-\d+)", r"resultado dado no tribunal (\1)"), (r"^WO$", "W.O."),
-              (r"match postponed from ([^;]+)", r"jogo adiado de \1"), (r"\bSãocarl\.", "Sãocarlense")]
+              (r"match postponed from ([^;]+)", r"jogo adiado de \1"), (r"\bSãocarl\.", "Sãocarlense"),
+              (r"^Penals:\s*\d+-\d+$", "")]   # pênaltis de 2023: já estão nos campos próprios (A2-019)
     for padrao, troca in trocas:
         t = re.sub(padrao, troca, t, flags=re.I)
     return t
@@ -54,16 +55,21 @@ def serie_b_por_ano() -> dict[int, set[str]]:
 def infobox(ano: int) -> dict:
     """Campos do infobox da Wikipédia em português: promovidos, rebaixados e artilheiros [(jogador, clube, gols)]."""
     f = PASTA_DADOS / "wikipedia" / f"pt_{ano}.txt"
+    if not f.exists():   # código das páginas baixado por baixar_wiki.py (1998, 2003 e 2026: achado A2-021)
+        f = PASTA_DADOS / "wikipedia" / f"pt_{ano}.wiki"
     t = f.read_text(encoding="utf-8") if f.exists() else ""
     def campo(nome_campo):
         m = re.search(rf"^\s*\|{nome_campo}\s*=(.*?)(?=^\s*\|\w+\s*=)", t, re.M | re.S)
         return m.group(1) if m else ""
     times = lambda s: [x.strip() for x in re.findall(r"\{\{\s*[Ff]utebol\s+([^}|]+)\}\}", s)]
     art = []
-    bloco = campo("artilheiro")
+    bloco = campo("artilheiro") or (re.search(r"^\s*\|\s*artilheiro\s*=(.*)$", t, re.M) or [None, ""])[1]
     gols = re.search(r"(\d+)\s*gols", bloco)
-    for jog, clube in re.findall(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]\s*\(\{\{\s*[Ff]utebol\s+([^}|]+)\}\}\)", bloco):
-        if gols:
+    texto_link = lambda x: re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", r"\1", re.sub(r"\{\{\s*[Ff]utebol\s+([^}|]+)\}\}", r"\1", x))
+    # "Jogador (Clube)", com o nome e o clube em link, em {{Futebol X}} ou em texto; vários jogadores separados por "e" ou ","
+    for jog, clube in re.findall(r"([^()]+?)\s*\(([^()]+)\)", texto_link(re.sub(r"<[^>]+>", ", ", bloco))):
+        jog = re.sub(r"^(?:e|,)\s+|^[\s,]+", "", jog.strip())
+        if gols and jog and not re.search(r"\d", jog):
             art.append((jog.strip(), clube.strip(), int(gols.group(1))))
     return {"promovidos": times(campo("promovidos")), "rebaixados": times(campo("rebaixados")), "artilheiros": art}
 

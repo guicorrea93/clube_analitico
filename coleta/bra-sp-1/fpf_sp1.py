@@ -22,7 +22,8 @@ APELIDO = {"osasco sporting": "oeste", "gremio novorizontino": "novorizontino", 
            "agua santa": "ec agua", "inter limeira": "inter de", "gremio barueri": "barueri", "audax": "osasco audax",
            "juventus saf": "juventus", "xv piracicaba": "xv de piracicaba", "sorocaba": "atletico sorocaba",
            "ua barbarense": "uniao barbarense", "portuguesa saf": "portuguesa", "ituano saf": "ituano",
-           "primavera saf": "primavera", "sao bernardo fc": "sao bernardo", "comercial rp": "comercial"}
+           "primavera saf": "primavera", "sao bernardo fc": "sao bernardo", "comercial rp": "comercial",
+           "gremio catanduvense": "catanduvense"}
 
 
 def _sa(x: str) -> str:

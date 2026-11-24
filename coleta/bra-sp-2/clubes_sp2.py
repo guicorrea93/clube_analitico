@@ -73,6 +73,9 @@ MANUAL_NOVO: dict[str, tuple[str, str]] = {
     "rs-comercial-mogi-das-cruzes": ("Comercial (Mogi das Cruzes)", "Comercial FC de Mogi das Cruzes"),
     "rs-ferroviaria-pindamonhangaba": ("Ferroviária (Pindamonhangaba)", "AA Ferroviária de Pindamonhangaba"),
     "rs-sao-paulo-araraquara": ("São Paulo (Araraquara)", "São Paulo FC de Araraquara; \"São Paulo-SP\" seria o tricolor"),
+    "rs-gremio-catanduvense": ("Grêmio Catanduvense", "Grêmio Catanduvense de Futebol, fundado em 1999; o ogol usa o código do "
+                                                      "GE Catanduvense (1970-1995), que fica com o nome 'Catanduvense' do banco "
+                                                      "(Série B 1989). Clube refundado é outro cadastro (D-23 a, A2-022)"),
 }
 # grafias do mesmo clube (chave -> chave), como em serie_b/clubes.py
 ALIAS = {
@@ -152,11 +155,17 @@ FICHA_CORRIGIDA: dict[str, dict] = {
     "39622": {"cidade": "São Paulo", "uf": "SP"},   # AA São Bento (campeão de 1914 APEA e 1925), da capital; a ficha diz Marília
     "59514": {"cidade": "São Paulo", "uf": "SP", "estado": "São Paulo", "nome_completo": None, "fundacao": None},
     # Jardim América do Paulista de 1935 (APEA), da capital; a ficha é a do Jardim América de Morrinhos (GO), de 1960
+    "80977": {"cidade": "São Caetano do Sul"},   # EC São Caetano: a ficha diz "São Caetano" (achado A2-025)
+    "34451": {"cidade": "São Bernardo do Campo"},   # EC São Bernardo: a ficha diz "São Bernardo Do Campo" (A2-025)
 }
 
 
 # clubes que só a RSSSF tem (anos sem calendário no ogol): código "rs-<nome>" -> ficha mínima; o importador preenche
-SEM_OGOL: dict[str, dict] = {}
+SEM_OGOL: dict[str, dict] = {
+    # o ogol junta os dois clubes de Catanduva no código 15767; de 1999 em diante o importador usa este (importar.REFUNDADO)
+    "rs-gremio-catanduvense": {"id": "rs-gremio-catanduvense", "curto": "Grêmio Catanduvense", "nomes_ogol": [], "uf": "SP",
+                               "cidade": "Catanduva", "nome_completo": "Grêmio Catanduvense de Futebol", "fundacao": "1999-03-08"},
+}
 
 
 def sem_ogol(nome_rsssf: str, cidade: str | None = None) -> str:

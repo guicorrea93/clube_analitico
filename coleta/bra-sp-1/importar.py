@@ -110,6 +110,17 @@ CORRIGE_OGOL: dict[tuple[str, str], tuple[str, str]] = {
 }
 
 
+# clube refundado que o ogol mantém no código do antigo: código -> (ano em que o novo começa, código do novo, motivo)
+REFUNDADO: dict[str, tuple[int, str, str]] = {
+    "15767": (1999, "rs-gremio-catanduvense", "Grêmio Catanduvense (1999) separado do GE Catanduvense (1970-1995) (D-23 a, A2-022)"),
+}
+
+
+def refundado(ano, i: str | None) -> str | None:
+    r = REFUNDADO.get(i)
+    return r[1] if r and int(str(ano)[:4]) >= r[0] else i
+
+
 def ler_ogol(ano: int) -> list[dict]:
     f = OGOL / f"sp1_{str(ano).replace(" ", "_")}.json"
     js = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
@@ -117,6 +128,7 @@ def ler_ogol(ano: int) -> list[dict]:
         for lado in ("mandante", "visitante"):
             if (str(ano), o.get(f"{lado}_id")) in CORRIGE_OGOL:
                 o[f"{lado}_id"] = CORRIGE_OGOL[(str(ano), o[f"{lado}_id"])][0]
+            o[f"{lado}_id"] = refundado(ano, o.get(f"{lado}_id"))
     return [o for o in js if o["id"] not in OGOL_IGNORAR]
 
 
@@ -1163,6 +1175,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
         tabelas = [tb for tb in tabelas if tb not in de_um_jogo]
     mapa = mapear_nomes(ano, rs_usado, og, log) if rs_usado else {}
     completar_sem_ogol(ano, mapa, rs_usado, og, log)
+    mapa = {k: refundado(ano, v) for k, v in mapa.items()}
     partidas = ler_rsssf(ano, mapa, rs_usado)
     partidas = [p for p in partidas if p.gm is not None or p.especial]
     tabs = tabelas_por_clube(tabelas, mapa, rs_usado)

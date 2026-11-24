@@ -6,10 +6,10 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 - **Edições:** 135, de 1902 a 2026.
 - **Jogos:** 21849; **gols:** 64382; **gols com autor:** 6405 (10%); **cartões:** 0.
-- **Clubes:** 111; **artilheiros:** 132 temporadas com artilheiro (157 linhas, com empates).
+- **Clubes:** 112; **artilheiros:** 132 temporadas com artilheiro (157 linhas, com empates).
 - **Classificação final:** 135 temporadas; **rodada a rodada:** 22 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2801 linhas.
-- **No banco (`db/futebol.db`):** sim (135 edições, 21846 jogos).
+- **No banco (`db/futebol.db`):** sim (135 edições, 21849 jogos).
 - **Observação da competição:** 1ª divisão paulista, de 1902 a 2026. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
 
 ## 2. Fontes e regras
@@ -306,11 +306,13 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 - **60858:** [GE Novorizontino] Grêmio Esportivo Novorizontino (1973-1999, campeão de 1994): outro clube; o 'Novorizontino' do banco fica com o Grêmio Novorizontino, fundado em 2010 (decisão do Guilherme, 20/11/2026)
 - **20122:** [Linhares EC] dois clubes de Linhares-ES: o EC (anos 1990) e o FC (anos 2000); o sufixo já distingue
 - **9783:** [Linhares FC] dois clubes de Linhares-ES: o EC (anos 1990) e o FC (anos 2000); o sufixo já distingue
+- **rs-gremio-catanduvense:** [Grêmio Catanduvense] Grêmio Catanduvense de Futebol, fundado em 1999; o ogol usa o código do GE Catanduvense (1970-1995), que fica com o nome 'Catanduvense' do banco (Série B 1989). Clube refundado é outro cadastro (D-23 a, A2-022)
 
 ### Fichas do ogol com cidade ou estado errados (`clubes_sp1.FICHA_CORRIGIDA`)
 
 - **39622:** cidade → São Paulo; uf → SP
 - **59514:** cidade → São Paulo; uf → SP; estado → São Paulo; nome_completo → None; fundacao → None
+- **80977:** cidade → São Caetano do Sul
 
 ### Anos com torneio à parte na página (fica fora) (`rsssf_sp1.ANOS_A_PARTE`)
 

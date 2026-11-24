@@ -1,6 +1,6 @@
 partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0091,São Carlos,Fabiano,70,,normal,RSSSF
-2013-0091,Catanduvense,Marcos Denner,17,,penalti,RSSSF
+2013-0091,Grêmio Catanduvense,Marcos Denner,17,,penalti,RSSSF
 2013-0092,Capivariano,Romão,1,,normal,RSSSF
 2013-0092,Capivariano,Romão,67,,normal,RSSSF
 2013-0092,Juventus-SP,Franklin,89,,normal,RSSSF
@@ -34,10 +34,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0111,São Carlos,Fabiano,24,,normal,RSSSF
 2013-0111,São Carlos,Vassoura,55,,normal,RSSSF
 2013-0112,Juventus-SP,Renato,90,1,normal,RSSSF
-2013-0112,Catanduvense,Marcos Denner,33,,normal,RSSSF
-2013-0112,Catanduvense,Marcos Denner,64,,normal,RSSSF
-2013-0112,Catanduvense,Marcos Denner,79,,normal,RSSSF
-2013-0112,Catanduvense,Hermínio,44,,normal,RSSSF
+2013-0112,Grêmio Catanduvense,Marcos Denner,33,,normal,RSSSF
+2013-0112,Grêmio Catanduvense,Marcos Denner,64,,normal,RSSSF
+2013-0112,Grêmio Catanduvense,Marcos Denner,79,,normal,RSSSF
+2013-0112,Grêmio Catanduvense,Hermínio,44,,normal,RSSSF
 2013-0113,Osasco Audax,Rafinha,73,,falta,RSSSF
 2013-0114,Red Bull Bragantino II,Augusto,90,1,normal,RSSSF
 2013-0114,Red Bull Bragantino II,Allan Dias,90,2,normal,RSSSF
@@ -102,8 +102,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0147,Santacruzense,Gian,45,,penalti,RSSSF
 2013-0147,Santacruzense,Edinho,74,,normal,RSSSF
 2013-0147,Grêmio Osasco,Ulisses,81,,normal,RSSSF
-2013-0148,Catanduvense,Everaldo,39,,normal,RSSSF
-2013-0148,Catanduvense,Hermínio,59,,normal,RSSSF
+2013-0148,Grêmio Catanduvense,Everaldo,39,,normal,RSSSF
+2013-0148,Grêmio Catanduvense,Hermínio,59,,normal,RSSSF
 2013-0148,Comercial-RP,Macena,42,,normal,RSSSF
 2013-0148,Comercial-RP,Leandro Oliveira,45,,normal,RSSSF
 2013-0149,Ferroviária-SP,Jonatas Obina,29,,normal,RSSSF
@@ -120,9 +120,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0155,Noroeste,Emerson,1,,normal,RSSSF
 2013-0155,Santacruzense,Vinicius,12,,normal,RSSSF
 2013-0156,Grêmio Osasco,Dodô,49,,penalti,RSSSF
-2013-0156,Catanduvense,Renatinho,27,,normal,RSSSF
-2013-0156,Catanduvense,Renatinho,85,,normal,RSSSF
-2013-0156,Catanduvense,Hermínio,77,,penalti,RSSSF
+2013-0156,Grêmio Catanduvense,Renatinho,27,,normal,RSSSF
+2013-0156,Grêmio Catanduvense,Renatinho,85,,normal,RSSSF
+2013-0156,Grêmio Catanduvense,Hermínio,77,,penalti,RSSSF
 2013-0157,Portuguesa,Ferdinando,39,,normal,RSSSF
 2013-0157,Portuguesa,Flecha Arraya,82,,normal,RSSSF
 2013-0158,São Carlos,Magnun,2,,normal,RSSSF
@@ -152,8 +152,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0165,Capivariano,Romão,13,,normal,RSSSF
 2013-0165,Capivariano,Leandro Banana,29,,normal,RSSSF
 2013-0166,Rio Claro,Alex Afonso,50,,normal,RSSSF
-2013-0167,Catanduvense,Hermínio,30,,normal,RSSSF
-2013-0167,Catanduvense,Renatinho,62,,normal,RSSSF
+2013-0167,Grêmio Catanduvense,Hermínio,30,,normal,RSSSF
+2013-0167,Grêmio Catanduvense,Renatinho,62,,normal,RSSSF
 2013-0168,São José-SP,Jonatan,35,,penalti,RSSSF
 2013-0169,Comercial-RP,Macena,90,,normal,RSSSF
 2013-0170,Portuguesa,Valdomiro,14,,normal,RSSSF
@@ -182,7 +182,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0177,Osasco Audax,Ingro,82,,normal,RSSSF
 2013-0179,Santacruzense,Zé Ilton,90,1,normal,RSSSF
 2013-0179,Portuguesa,Diego Augusto,28,,normal,RSSSF
-2013-0180,Catanduvense,Hermínio,78,,penalti,RSSSF
+2013-0180,Grêmio Catanduvense,Hermínio,78,,penalti,RSSSF
 2013-0181,Capivariano,Romão,20,,penalti,RSSSF
 2013-0181,Capivariano,Romão,31,,normal,RSSSF
 2013-0182,Velo Clube,Macanaqui,89,,normal,RSSSF
@@ -206,8 +206,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0188,Osasco Audax,Rafael Martins,71,,normal,RSSSF
 2013-0188,Osasco Audax,Danilo,75,,normal,RSSSF
 2013-0189,Portuguesa,Diego Viana,80,,normal,RSSSF
-2013-0190,Catanduvense,Marcos Denner,76,,normal,RSSSF
-2013-0191,Catanduvense,Renatinho,54,,normal,RSSSF
+2013-0190,Grêmio Catanduvense,Marcos Denner,76,,normal,RSSSF
+2013-0191,Grêmio Catanduvense,Renatinho,54,,normal,RSSSF
 2013-0191,Portuguesa,Valdomiro,56,,normal,RSSSF
 2013-0191,Portuguesa,Flecha Arraya,76,,normal,RSSSF
 2013-0192,Capivariano,Romão,56,,normal,RSSSF
@@ -219,7 +219,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0194,Guaratinguetá,Bruno Formiggoni,43,,normal,RSSSF
 2013-0195,Comercial-RP,Macena,42,,normal,RSSSF
 2013-0195,Comercial-RP,Macena,87,,normal,RSSSF
-2013-0195,Catanduvense,Hermínio,78,,normal,RSSSF
+2013-0195,Grêmio Catanduvense,Hermínio,78,,normal,RSSSF
 2013-0196,Osasco Audax,Rafinha,,,normal,RSSSF
 2013-0196,Rio Claro,Wendell,69,,normal,RSSSF
 2013-0196,Rio Claro,Alex Afonso,81,,normal,RSSSF
@@ -228,8 +228,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0198,Guaratinguetá,Renato Peixe,68,,normal,RSSSF
 2013-0199,Capivariano,Leandro Banana,40,,normal,RSSSF
 2013-0199,Capivariano,Alemão,67,,normal,RSSSF
-2013-0199,Catanduvense,Bruno Alves,66,,normal,RSSSF
-2013-0199,Catanduvense,Hermínio,85,,normal,RSSSF
+2013-0199,Grêmio Catanduvense,Bruno Alves,66,,normal,RSSSF
+2013-0199,Grêmio Catanduvense,Hermínio,85,,normal,RSSSF
 2013-0200,Comercial-RP,Acleisson,14,,normal,RSSSF
 2013-0200,Comercial-RP,Macena,20,,normal,RSSSF
 2013-0200,Comercial-RP,Macena,32,,normal,RSSSF
@@ -249,7 +249,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0202,Red Bull Bragantino II,Kiros,36,,normal,RSSSF
 2013-0203,Osasco Audax,Rafael Martins,90,2,normal,RSSSF
 2013-0204,Rio Claro,Wendell,80,,normal,RSSSF
-2013-0205,Catanduvense,Everaldo,45,1,normal,RSSSF
+2013-0205,Grêmio Catanduvense,Everaldo,45,1,normal,RSSSF
 2013-0206,Portuguesa,Luis Ricardo,74,,normal,RSSSF
 2013-0207,Red Bull Bragantino II,Henan,6,,normal,RSSSF
 2013-0207,Red Bull Bragantino II,Henan,33,,normal,RSSSF
@@ -277,7 +277,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0214,Portuguesa,Flecha Arraya,55,,normal,RSSSF
 2013-0214,Portuguesa,Flecha Arraya,86,,normal,RSSSF
 2013-0214,Portuguesa,Matheus,81,,normal,RSSSF
-2013-0214,Catanduvense,Hermínio,80,,penalti,RSSSF
+2013-0214,Grêmio Catanduvense,Hermínio,80,,penalti,RSSSF
 2013-0215,Rio Claro,Alex Afonso,59,,penalti,RSSSF
 2013-0215,Portuguesa,Corrêa,39,,normal,RSSSF
 2013-0215,Portuguesa,Matheus,73,,normal,RSSSF
@@ -375,7 +375,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0045,São Bento,Helton Luiz,,,normal,RSSSF
 2014-0045,São Bento,Helton Luiz,,,normal,RSSSF
 2014-0045,Itapirense,Roberto Jacaré,,,normal,RSSSF
-2014-0046,Catanduvense,Fabinho,,,normal,RSSSF
+2014-0046,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
 2014-0048,Capivariano,Silas,,,normal,RSSSF
 2014-0050,Mirassol,Arnaldo,,,normal,RSSSF
 2014-0050,Mirassol,Arnaldo,,,normal,RSSSF
@@ -425,9 +425,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0073,São José-SP,Ícaro,,,normal,RSSSF
 2014-0073,São José-SP,Rômulo,,,normal,RSSSF
 2014-0073,Grêmio Osasco,Felipe Desco,,,normal,RSSSF
-2014-0074,Catanduvense,Marcelo Pinheiro,,,normal,RSSSF
-2014-0074,Catanduvense,Renan,,,normal,RSSSF
-2014-0074,Catanduvense,Edgard Lima,,,normal,RSSSF
+2014-0074,Grêmio Catanduvense,Marcelo Pinheiro,,,normal,RSSSF
+2014-0074,Grêmio Catanduvense,Renan,,,normal,RSSSF
+2014-0074,Grêmio Catanduvense,Edgard Lima,,,normal,RSSSF
 2014-0075,União Barbarense,Eli,,,normal,RSSSF
 2014-0075,Marília,Wellington Amorim,,,normal,RSSSF
 2014-0075,Marília,Júlio César,,,normal,RSSSF
@@ -470,7 +470,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0094,Mirassol,David Dener,,,normal,RSSSF
 2014-0094,Mirassol,David Dener,,,normal,RSSSF
 2014-0094,Mirassol,Juninho,,,normal,RSSSF
-2014-0095,Catanduvense,Fabinho,,,normal,RSSSF
+2014-0095,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
 2014-0096,Marília,Wellington Amorim,,,normal,RSSSF
 2014-0096,Marília,Gilberto,,,normal,RSSSF
 2014-0098,Capivariano,Pedro Henrique,,,normal,RSSSF
@@ -499,7 +499,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0105,Mirassol,Xuxa,,,normal,RSSSF
 2014-0105,Mirassol,Ermínio,,,normal,RSSSF
 2014-0105,Mirassol,Ermínio,,,normal,RSSSF
-2014-0106,Catanduvense,Fabinho,,,normal,RSSSF
+2014-0106,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
 2014-0106,Red Bull Bragantino II,Fabiano Eller,,,normal,RSSSF
 2014-0107,São Caetano,Anselmo,,,normal,RSSSF
 2014-0107,São Caetano,Marcelo Soares,,,normal,RSSSF
@@ -509,7 +509,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0109,Marília,Diego Sales,,,normal,RSSSF
 2014-0109,Marília,Deca,,,normal,RSSSF
 2014-0112,São Caetano,Danilo Bueno,,,normal,RSSSF
-2014-0112,Catanduvense,Gilberto,,,normal,RSSSF
+2014-0112,Grêmio Catanduvense,Gilberto,,,normal,RSSSF
 2014-0114,União Barbarense,Erick,,,normal,RSSSF
 2014-0114,União Barbarense,Jefinho,,,normal,RSSSF
 2014-0114,Monte Azul,Eric,,,normal,RSSSF
@@ -536,7 +536,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0123,Ferroviária-SP,Jonatas Obina,,,normal,RSSSF
 2014-0124,Capivariano,Silas,,,normal,RSSSF
 2014-0124,Grêmio Osasco,Peterson,,,normal,RSSSF
-2014-0126,Catanduvense,Fabinho,,,normal,RSSSF
+2014-0126,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
 2014-0127,Barueri,Ferro,,,normal,RSSSF
 2014-0128,Marília,Róbson,,,normal,RSSSF
 2014-0128,São Bento,Nando,,,normal,RSSSF
@@ -547,7 +547,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0131,Grêmio Osasco,Geninho,,,normal,RSSSF
 2014-0131,Grêmio Osasco,João Paulo,,,normal,RSSSF
 2014-0131,Grêmio Osasco,Felipe Desco,,,normal,RSSSF
-2014-0132,Catanduvense,Fabinho,,,normal,RSSSF
+2014-0132,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
 2014-0133,Capivariano,Carlão,,,normal,RSSSF
 2014-0133,Capivariano,Túlio,,,normal,RSSSF
 2014-0133,Capivariano,Túlio,,,normal,RSSSF
@@ -572,9 +572,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0141,Red Bull Bragantino II,Henan,,,normal,RSSSF
 2014-0141,Red Bull Bragantino II,Henan,,,normal,RSSSF
 2014-0141,Red Bull Bragantino II,Henan,,,normal,RSSSF
-2014-0142,Catanduvense,Fabinho,,,normal,RSSSF
-2014-0142,Catanduvense,Fabinho,,,normal,RSSSF
-2014-0142,Catanduvense,Robinson,,,normal,RSSSF
+2014-0142,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
+2014-0142,Grêmio Catanduvense,Fabinho,,,normal,RSSSF
+2014-0142,Grêmio Catanduvense,Robinson,,,normal,RSSSF
 2014-0142,Guarani,Giba,,,normal,RSSSF
 2014-0142,Guarani,Eduardo Eré,,,normal,RSSSF
 2014-0143,Santo André,Nunes,,,normal,RSSSF
@@ -660,7 +660,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0171,Capivariano,Carlão,,,normal,RSSSF
 2014-0172,Santo André,Cacá,,,normal,RSSSF
 2014-0172,Santo André,Nunes,,,normal,RSSSF
-2014-0172,Catanduvense,Walker,,,normal,RSSSF
+2014-0172,Grêmio Catanduvense,Walker,,,normal,RSSSF
 2014-0173,Ferroviária-SP,Wilson Júnior,,,normal,RSSSF
 2014-0173,São Caetano,Marcelo Soares,,,normal,RSSSF
 2014-0174,União Barbarense,Erick,,,normal,RSSSF
@@ -702,7 +702,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0186,Capivariano,Silas,,,normal,RSSSF
 2014-0186,Capivariano,Georginho,,,normal,RSSSF
 2014-0186,Itapirense,Roberto Jacaré,,,normal,RSSSF
-2014-0187,Catanduvense,Robson,,,normal,RSSSF
+2014-0187,Grêmio Catanduvense,Robson,,,normal,RSSSF
 2014-0187,São Bento,Herbert,,,normal,RSSSF
 2014-0187,São Bento,Marquinhos,,,normal,RSSSF
 2014-0190,Guarani,Neto,,,normal,RSSSF
@@ -757,8 +757,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0018,Guarani,Nunes,45,1,normal,RSSSF
 2015-0019,Batatais,Ítalo,26,,normal,RSSSF
 2015-0019,Batatais,Luciano Gigante,34,,penalti,RSSSF
-2015-0019,Catanduvense,Cláudio Santos,39,,normal,RSSSF
-2015-0019,Catanduvense,Leandro,57,,normal,RSSSF
+2015-0019,Grêmio Catanduvense,Cláudio Santos,39,,normal,RSSSF
+2015-0019,Grêmio Catanduvense,Leandro,57,,normal,RSSSF
 2015-0020,Ferroviária-SP,Tiago Adan,40,,normal,RSSSF
 2015-0020,Ferroviária-SP,Paulo Henrique,52,,normal,RSSSF
 2015-0020,Matonense,Jean Carlos,49,,falta,RSSSF
@@ -797,7 +797,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0033,EC Água Santa,Francisco Alex,8,,normal,RSSSF
 2015-0035,Novorizontino,João Paulo,31,,normal,RSSSF
 2015-0035,Novorizontino,Guilherme Queiroz,63,,normal,RSSSF
-2015-0036,Catanduvense,Manjinha,7,,falta,RSSSF
+2015-0036,Grêmio Catanduvense,Manjinha,7,,falta,RSSSF
 2015-0036,Monte Azul,Giovani,9,,normal,RSSSF
 2015-0037,Velo Clube,Diego Higino,22,,penalti,RSSSF
 2015-0037,Velo Clube,Diego Higino,88,,falta,RSSSF
@@ -809,7 +809,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0040,Santo André,Helton Luiz,65,,normal,RSSSF
 2015-0041,Mirassol,Leandro Brasília,20,,normal,RSSSF
 2015-0041,Mirassol,Bruno Nunes,87,,normal,RSSSF
-2015-0041,Catanduvense,João Henrique,62,,normal,RSSSF
+2015-0041,Grêmio Catanduvense,João Henrique,62,,normal,RSSSF
 2015-0042,Oeste,Daniel Gigante,25,,normal,RSSSF
 2015-0042,Guarani,Nunes,50,,normal,RSSSF
 2015-0043,Paulista,Yannick,10,,normal,RSSSF
@@ -847,8 +847,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0055,Rio Branco-SP,Tiago,9,,normal,RSSSF
 2015-0055,Rio Branco-SP,Norton,80,,normal,RSSSF
 2015-0056,Ferroviária-SP,Tiago Adan,11,,normal,RSSSF
-2015-0057,Catanduvense,Manjinha,60,,penalti,RSSSF
-2015-0057,Catanduvense,João Henrique,67,,normal,RSSSF
+2015-0057,Grêmio Catanduvense,Manjinha,60,,penalti,RSSSF
+2015-0057,Grêmio Catanduvense,João Henrique,67,,normal,RSSSF
 2015-0057,Independente de Limeira,Jonathan,20,,normal,RSSSF
 2015-0057,Independente de Limeira,Alemão,90,1,normal,RSSSF
 2015-0057,Independente de Limeira,Júlio César,90,3,normal,RSSSF
@@ -888,9 +888,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0073,EC Água Santa,Wellington,90,2,penalti,RSSSF
 2015-0075,Guaratinguetá,Sócrates,90,2,normal,RSSSF
 2015-0075,Guaratinguetá,Giovanni,90,3,normal,RSSSF
-2015-0075,Catanduvense,Djair,2,,normal,RSSSF
-2015-0075,Catanduvense,João Henrique,12,,normal,RSSSF
-2015-0075,Catanduvense,João Henrique,89,,normal,RSSSF
+2015-0075,Grêmio Catanduvense,Djair,2,,normal,RSSSF
+2015-0075,Grêmio Catanduvense,João Henrique,12,,normal,RSSSF
+2015-0075,Grêmio Catanduvense,João Henrique,89,,normal,RSSSF
 2015-0076,Rio Branco-SP,Jobinho,79,,normal,RSSSF
 2015-0076,Novorizontino,Rayllan,9,,normal,RSSSF
 2015-0076,Novorizontino,Pereira,28,,normal,RSSSF
@@ -921,7 +921,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0086,União Barbarense,Rodrigo Maranhão,37,,normal,RSSSF
 2015-0086,Guaratinguetá,Giovanni,76,,normal,RSSSF
 2015-0087,Novorizontino,Lucas Néwiton,61,,normal,RSSSF
-2015-0088,Catanduvense,Tizio,89,,normal,RSSSF
+2015-0088,Grêmio Catanduvense,Tizio,89,,normal,RSSSF
 2015-0088,EC Água Santa,Guina,9,,normal,RSSSF
 2015-0088,EC Água Santa,Augusto,55,,normal,RSSSF
 2015-0089,Guarani,Malaquias,5,,normal,RSSSF
@@ -946,7 +946,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0096,Oeste,Wagninho,49,,normal,RSSSF
 2015-0096,Oeste,Wagner Carioca,51,,falta,RSSSF
 2015-0096,Oeste,Pablo,76,,normal,RSSSF
-2015-0096,Catanduvense,Manjinha,33,,penalti,RSSSF
+2015-0096,Grêmio Catanduvense,Manjinha,33,,penalti,RSSSF
 2015-0098,Matonense,Adilson,10,,normal,RSSSF
 2015-0098,Matonense,Jardel,73,,normal,RSSSF
 2015-0098,Monte Azul,Deco,21,,normal,RSSSF
@@ -962,7 +962,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0102,Velo Clube,João Vítor,52,,normal,RSSSF
 2015-0102,Velo Clube,Judson,73,,normal,RSSSF
 2015-0102,Velo Clube,Ricardinho,77,,normal,RSSSF
-2015-0102,Catanduvense,Misael,83,,contra,RSSSF
+2015-0102,Grêmio Catanduvense,Misael,83,,contra,RSSSF
 2015-0103,Batatais,Raul,79,,normal,RSSSF
 2015-0104,Santo André,Rômulo,83,,normal,RSSSF
 2015-0104,Santo André,Rômulo,85,,normal,RSSSF
@@ -999,7 +999,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0114,Guaratinguetá,Sócrates,11,,normal,RSSSF
 2015-0115,São Caetano,Diogo Acosta,14,,normal,RSSSF
 2015-0115,Oeste,Cristiano,56,,normal,RSSSF
-2015-0116,Catanduvense,Fabinho,48,,normal,RSSSF
+2015-0116,Grêmio Catanduvense,Fabinho,48,,normal,RSSSF
 2015-0117,Santo André,Samuel,62,,normal,RSSSF
 2015-0117,Santo André,Tauã,69,,normal,RSSSF
 2015-0118,Ferroviária-SP,Elder,41,,normal,RSSSF
@@ -1017,7 +1017,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0123,Rio Branco-SP,João Gabriel,27,,normal,RSSSF
 2015-0123,Rio Branco-SP,Jobinho,68,,normal,RSSSF
 2015-0124,Comercial-RP,Juninho,33,,falta,RSSSF
-2015-0125,Catanduvense,Fabinho,53,,normal,RSSSF
+2015-0125,Grêmio Catanduvense,Fabinho,53,,normal,RSSSF
 2015-0126,União Barbarense,Renan,6,,normal,RSSSF
 2015-0126,União Barbarense,Rodrigo Maranhão,82,,normal,RSSSF
 2015-0126,União Barbarense,Melinho,90,2,penalti,RSSSF
@@ -1051,7 +1051,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0132,Mirassol,Xaves,59,,normal,RSSSF
 2015-0135,Rio Branco-SP,Jobinho,8,,normal,RSSSF
 2015-0135,Rio Branco-SP,Jobinho,65,,normal,RSSSF
-2015-0135,Catanduvense,Manjinha,75,,normal,RSSSF
+2015-0135,Grêmio Catanduvense,Manjinha,75,,normal,RSSSF
 2015-0136,União Barbarense,Felipe Mateus,39,,normal,RSSSF
 2015-0136,União Barbarense,Melinho,49,,normal,RSSSF
 2015-0136,EC Água Santa,Rafael Martins,41,,normal,RSSSF
@@ -1091,8 +1091,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0146,Novorizontino,Marcelinho,42,,normal,RSSSF
 2015-0147,Velo Clube,Judson,61,,normal,RSSSF
 2015-0147,Mirassol,Marcelo Toscano,33,,normal,RSSSF
-2015-0148,Catanduvense,Fabinho,19,,normal,RSSSF
-2015-0148,Catanduvense,Lucas Ceará,88,,normal,RSSSF
+2015-0148,Grêmio Catanduvense,Fabinho,19,,normal,RSSSF
+2015-0148,Grêmio Catanduvense,Lucas Ceará,88,,normal,RSSSF
 2015-0148,União Barbarense,Vinicius,23,,normal,RSSSF
 2015-0148,União Barbarense,Renan,44,,normal,RSSSF
 2015-0148,União Barbarense,Renan,76,,normal,RSSSF
@@ -1121,7 +1121,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0159,Paulista,Erick Mamadeira,43,,normal,RSSSF
 2015-0159,Paulista,Felipe Diadema,85,,normal,RSSSF
 2015-0159,Paulista,Jader,88,,normal,RSSSF
-2015-0159,Catanduvense,Robinson,31,,normal,RSSSF
+2015-0159,Grêmio Catanduvense,Robinson,31,,normal,RSSSF
 2015-0160,Oeste,Leandro Melo,78,,normal,RSSSF
 2015-0161,Ferroviária-SP,Tiago Adan,48,,penalti,RSSSF
 2015-0162,Comercial-RP,Marcinho Beija-Flor,12,,normal,RSSSF
@@ -1164,8 +1164,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0175,Rio Branco-SP,Jobinho,90,3,normal,RSSSF
 2015-0175,Comercial-RP,Juninho,90,2,normal,RSSSF
 2015-0176,Velo Clube,Leleco,48,,normal,RSSSF
-2015-0178,Catanduvense,Fabinho,55,,normal,RSSSF
-2015-0178,Catanduvense,Manjinha,89,,penalti,RSSSF
+2015-0178,Grêmio Catanduvense,Fabinho,55,,normal,RSSSF
+2015-0178,Grêmio Catanduvense,Manjinha,89,,penalti,RSSSF
 2015-0178,Santo André,Paulo Brumati,21,,contra,RSSSF
 2015-0178,Santo André,Helton Luiz,8,,normal,RSSSF
 2015-0178,Santo André,Rômulo,23,,normal,RSSSF
@@ -3206,33 +3206,33 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2021-0051,Lemense,Michael Paulista,52,,normal,RSSSF
 2021-0052,Juventus-SP,Alvinho,42,,normal,RSSSF
 2021-0052,Juventus-SP,Will,55,,normal,RSSSF
-2021-0053,Monte Azul,Elvis,10,,normal,RSSSF
-2021-0053,Monte Azul,Júnior Paraiba,62,,normal,RSSSF
-2021-0053,Velo Clube,Judson,32,,penalti,RSSSF
-2021-0053,Velo Clube,Ruan,42,,normal,RSSSF
-2021-0054,Juventus-SP,Nailson,27,,normal,RSSSF
-2021-0054,Juventus-SP,Lucas Ybon,35,,normal,RSSSF
-2021-0054,EC Água Santa,Lelê,31,,penalti,RSSSF
-2021-0054,EC Água Santa,Dadá Belmonte,89,,normal,RSSSF
-2021-0055,Rio Claro,Gian,16,,penalti,RSSSF
-2021-0055,Lemense,Felipe Menezes,50,,penalti,RSSSF
-2021-0055,Lemense,Maicon Douglas,64,,normal,RSSSF
-2021-0055,Lemense,Danilo,73,,normal,RSSSF
-2021-0055,Lemense,Gustavo Henrique,89,,normal,RSSSF
-2021-0057,Osasco Audax,Paulo Morais,35,,normal,RSSSF
-2021-0058,Oeste,Léo Artur,63,,normal,RSSSF
-2021-0058,Oeste,Léo Ceará,75,,normal,RSSSF
-2021-0058,São Bernardo,Patrick,44,,normal,RSSSF
-2021-0059,XV de Piracicaba,Mazinho,35,,normal,RSSSF
-2021-0060,Portuguesa Santista,Gualberto,77,,normal,RSSSF
-2021-0061,Taubaté,Tadeu,47,,penalti,RSSSF
-2021-0061,Taubaté,Brenner,85,,normal,RSSSF
-2021-0061,Portuguesa,Ermínio,62,,normal,RSSSF
-2021-0061,Portuguesa,Ermínio,90,,normal,RSSSF
-2021-0062,Red Bull Bragantino II,Ramires,90,,normal,RSSSF
-2021-0063,Oeste,Zeca,37,,normal,RSSSF
-2021-0063,XV de Piracicaba,Erison,15,,normal,RSSSF
-2021-0064,Portuguesa,Misael,25,,normal,RSSSF
+2021-0053,Osasco Audax,Paulo Morais,35,,normal,RSSSF
+2021-0054,Oeste,Léo Artur,63,,normal,RSSSF
+2021-0054,Oeste,Léo Ceará,75,,normal,RSSSF
+2021-0054,São Bernardo,Patrick,44,,normal,RSSSF
+2021-0055,XV de Piracicaba,Mazinho,35,,normal,RSSSF
+2021-0056,Portuguesa,Misael,25,,normal,RSSSF
+2021-0057,Monte Azul,Elvis,10,,normal,RSSSF
+2021-0057,Monte Azul,Júnior Paraiba,62,,normal,RSSSF
+2021-0057,Velo Clube,Judson,32,,penalti,RSSSF
+2021-0057,Velo Clube,Ruan,42,,normal,RSSSF
+2021-0058,Juventus-SP,Nailson,27,,normal,RSSSF
+2021-0058,Juventus-SP,Lucas Ybon,35,,normal,RSSSF
+2021-0058,EC Água Santa,Lelê,31,,penalti,RSSSF
+2021-0058,EC Água Santa,Dadá Belmonte,89,,normal,RSSSF
+2021-0059,Rio Claro,Gian,16,,penalti,RSSSF
+2021-0059,Lemense,Felipe Menezes,50,,penalti,RSSSF
+2021-0059,Lemense,Maicon Douglas,64,,normal,RSSSF
+2021-0059,Lemense,Danilo,73,,normal,RSSSF
+2021-0059,Lemense,Gustavo Henrique,89,,normal,RSSSF
+2021-0061,Portuguesa Santista,Gualberto,77,,normal,RSSSF
+2021-0062,Taubaté,Tadeu,47,,penalti,RSSSF
+2021-0062,Taubaté,Brenner,85,,normal,RSSSF
+2021-0062,Portuguesa,Ermínio,62,,normal,RSSSF
+2021-0062,Portuguesa,Ermínio,90,,normal,RSSSF
+2021-0063,Red Bull Bragantino II,Ramires,90,,normal,RSSSF
+2021-0064,Oeste,Zeca,37,,normal,RSSSF
+2021-0064,XV de Piracicaba,Erison,15,,normal,RSSSF
 2021-0067,Sertãozinho,Bruninho,25,,normal,RSSSF
 2021-0067,Juventus-SP,Lucas Santos,37,,normal,RSSSF
 2021-0067,Juventus-SP,Alvinho,60,,normal,RSSSF

@@ -41,13 +41,26 @@ INTRO = [
     "da fase, os clubes fora do pódio ficam empatados, sem ordem. 1972 não tem página na Wikipédia: só os participantes e o",
     "pódio.",
     "",
-    "**Fica de fora** a fase amadora (1916-1946, só a lista de campeões).",
+    "**Fica de fora** a fase amadora (1916-1946, só a lista de campeões), e os playoffs contra a 1ª divisão (1951, 1979, 1983,",
+    "2002 e 2003), que ficam só na observação da edição (decisão D-04; os jogos estão no Paulista).",
+    "",
+    "**Ordem final** (decisão D-02 A): campeão e vice; depois quem chegou à última fase de grupos antes da final, pela",
+    "posição no grupo e pelos pontos dela (os 2º de cada grupo são o 3º e o 4º, como na Wikipédia); depois os outros, pela",
+    "fase alcançada e pelos pontos totais.",
+    "",
+    "**Clubes:** o Grêmio Catanduvense (1999) é outro cadastro do GE Catanduvense (1970-1995), que fica com o nome",
+    "\"Catanduvense\" (D-23 a); o ogol usa o mesmo código para os dois. Barueri e Grêmio Prudente ficam separados (D-23 b).",
+    "O Oeste aparece com a cidade de hoje (Osasco); até 2016 o clube era de Itápolis (D-03).",
 ]
 
 # temporada -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada temporada)
 EXPLICACOES: dict[str, list[str]] = {
+    "1986": ["datas que vêm assim da própria página e não têm 2ª fonte: a Esportiva com dois jogos em 17/08 e a 6ª rodada da "
+             "2ª fase no mesmo dia (07/12) do 1º jogo do mata-mata; ficam como estão (achado A2-027)"],
+    "1988": ["o EC Lemense tem dois jogos em 29/05, como na página (sem 2ª fonte; achado A2-027)"],
     "1985": ["Nacional x São Bernardo (31/08): a vitória foi dada ao São Bernardo no tribunal, sem placar (o jogo terminou 0 a 0 "
-             "e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo)"],
+             "e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo)",
+             "o Palmeiras de São João da Boa Vista tem dois jogos em 08/09, como na página (sem 2ª fonte; achado A2-027)"],
     "1948": ["a Internacional da Série Branca é a de Bebedouro (Wikipédia); a página da RSSSF repete \"(Limeira)\""],
     "1954": ["2ª fase: a página traz uma tabela calculada dos jogos (Taubaté 16, Comercial 11) e a classificação oficial "
              "(Taubaté 14, Comercial 13); vale a oficial. Os 30 jogos da Wikipédia fecham com a calculada"],

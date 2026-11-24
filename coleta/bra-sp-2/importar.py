@@ -104,6 +104,17 @@ def _sim(a: str, b: str) -> float:
 CORRIGE_OGOL: dict[tuple[int, str], tuple[str, str]] = {}
 
 
+# clube refundado que o ogol mantém no código do antigo: código -> (ano em que o novo começa, código do novo, motivo)
+REFUNDADO: dict[str, tuple[int, str, str]] = {
+    "15767": (1999, "rs-gremio-catanduvense", "Grêmio Catanduvense (1999) separado do GE Catanduvense (1970-1995) (D-23 a, A2-022)"),
+}
+
+
+def refundado(ano, i: str | None) -> str | None:
+    r = REFUNDADO.get(i)
+    return r[1] if r and int(str(ano)[:4]) >= r[0] else i
+
+
 def ler_ogol(ano: int) -> list[dict]:
     f = OGOL / f"sp2_{str(ano).replace(" ", "_")}.json"
     js = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
@@ -111,6 +122,7 @@ def ler_ogol(ano: int) -> list[dict]:
         for lado in ("mandante", "visitante"):
             if (ano, o.get(f"{lado}_id")) in CORRIGE_OGOL:
                 o[f"{lado}_id"] = CORRIGE_OGOL[(ano, o[f"{lado}_id"])][0]
+            o[f"{lado}_id"] = refundado(ano, o.get(f"{lado}_id"))
     return [o for o in js if o["id"] not in OGOL_IGNORAR]
 
 
@@ -179,7 +191,7 @@ REBAIXADOS_WIKI: dict[str, list[str]] = {
     "2012": ["Palmeiras (B)", "Rio Preto", "União São João", "América-SP"],
     "2013": ["Noroeste", "São Carlos", "Santacruzense", "Juventus-SP"],
     "2014": ["Barueri", "Grêmio Osasco", "Itapirense", "São José-SP"],
-    "2015": ["Comercial-RP", "Matonense", "Catanduvense", "Guaratinguetá"],
+    "2015": ["Comercial-RP", "Matonense", "Grêmio Catanduvense", "Guaratinguetá"],
     "2016": ["Paulista", "Monte Azul", "Independente de Limeira", "Atlético Sorocaba", "Marília", "Rio Branco-SP"],
     "2017": ["Barretos", "Capivariano", "Mogi Mirim", "Rio Preto", "União Barbarense", "Velo Clube"],
     "2018": ["Osasco Audax", "Batatais"],
@@ -196,7 +208,17 @@ OGOL_IGNORAR: dict[str, str] = {}
 # jogos da RSSSF que ficam de fora: (ano, nome do clube) -> motivo
 RSSSF_FORA: dict[tuple[int, str], str] = {}
 # jogos da RSSSF anulados: (ano, mandante, visitante, gols, gols) como na página -> motivo
-JOGOS_ANULADOS: dict[tuple, str] = {}
+JOGOS_ANULADOS: dict[tuple, str] = {
+    ("2008", "Mogi Mirim", "Oeste", 0, 0): "jogo de 03/05/2008 anulado pelo TJD-SP (suspeita de manipulação) e refeito em 24/05 "
+                                           "(2-3); a página traz os dois (A2-014)",
+}
+# playoff contra a 1ª divisão (último da A1 x clube da A2): fica fora da A2 e vai para a observação da edição (decisão
+# D-04, achado A2-012); os jogos estão no pacote bra-sp-1. (temporada, fase) -> nome do playoff
+PLAYOFF_FORA: dict[tuple[str, str], str] = {
+    ("1979", "Repescagem"): "a repescagem",
+    ("2002", "Torneio de rebaixamento"): "o playoff",
+    ("2003", "Torneio de rebaixamento"): "o playoff",
+}
 
 
 def mapear_nomes(ano: int, rs: list, og: list[dict], log: list[str]) -> dict:
@@ -286,7 +308,7 @@ def mapear_nomes(ano: int, rs: list, og: list[dict], log: list[str]) -> dict:
 
 
 def penaltis(nota: str) -> tuple[int | None, int | None]:
-    m = re.search(r"(?:pen(?:alties|altis)?|on penalties|nos pênaltis)\D{0,4}(\d{1,2})\s*[-x]\s*(\d{1,2})|(\d{1,2})-(\d{1,2}) on penalties", nota or "", re.I)
+    m = re.search(r"(?:pen(?:alties|altis|als)?|on penalties|nos pênaltis)\D{0,4}(\d{1,2})\s*[-x]\s*(\d{1,2})|(\d{1,2})-(\d{1,2}) on penalties", nota or "", re.I)
     if not m:
         return None, None
     a, b = (m[1], m[2]) if m[1] else (m[3], m[4])
@@ -870,13 +892,31 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     # antes dos totais (achados A2-002 a A2-005)
     ff = [p for p in partidas if p.fase == "Fase final"]
     cff = campanha(ff) if ff and len({p.grupo for p in ff}) == 1 else {}
+    pos_grupo: dict[str, int] = {}
+    if not cff:
+        # sem ela: a última fase de grupos (2 ou mais, cada clube com 3 ou mais jogos) antes da final; quem chegou a ela e
+        # não à final se ordena pela posição no grupo e depois pelos pontos dela: os 2º de cada grupo são o 3º e o 4º
+        # (decisão D-02 A; achado A2-024: 1987, 2006, 2007, 2009, 2010, 2012, como a Wikipédia)
+        jogos_fase: dict[str, Counter] = defaultdict(Counter)
+        for p in partidas:
+            jogos_fase[p.fase].update([p.mandante, p.visitante])
+        ligas = [f for f, n in jogos_fase.items() if 2 <= ordem_fase[f] < ORDEM["Final"] and min(n.values()) >= 3
+                 and len({p.grupo for p in partidas if p.fase == f}) >= 2]
+        if ligas:
+            fd = max(ligas, key=lambda f: ordem_fase[f])
+            cff = campanha([p for p in partidas if p.fase == fd])
+            for g in {p.grupo for p in partidas if p.fase == fd}:
+                cg = campanha([p for p in partidas if p.fase == fd and p.grupo == g])
+                ordem_g = sorted(cg, key=lambda c: (-(pv * cg[c][1] + cg[c][2]), -cg[c][1], -(cg[c][4] - cg[c][5]), -cg[c][4]))
+                pos_grupo.update({c: i for i, c in enumerate(ordem_g, 1)})
     especiais = pontos_penaltis(partidas) if str(ano) in PONTOS_PENALTIS else None
     def pts(c):
         x = camp[c]
         return (especiais[c] if especiais is not None else pv * x[1] + x[2]) + ajustes.get(c, 0)
     def chave(c):
         x, y = camp[c], cff.get(c, [0] * 6)
-        return (c != campeao, c != vice, -alcance[c], -(pv * y[1] + y[2]), -pts(c), -x[1], -(x[4] - x[5]), -x[4], nome(c))
+        return (c != campeao, c != vice, -alcance[c], pos_grupo.get(c, 99), -(pv * y[1] + y[2]), -pts(c), -x[1], -(x[4] - x[5]),
+                -x[4], nome(c))
     # classificação geral publicada pela RSSSF (todos os clubes da edição)
     geral = [(tb, linhas) for tb, linhas, _ in tabs if len(linhas) >= len(camp) and len(tb.linhas) >= len(camp)]
     fonte = "calculada (fase alcançada, pontos, vitórias, saldo, gols pró)"
@@ -926,12 +966,12 @@ def campeoes() -> tuple[dict[str, str], dict[str, str]]:
 def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict) -> dict:
     rs, tabelas = rsssf_sp2.ler(ano) if rsssf_sp2.tem_pagina(ano) else ([], [])
     for (a, n), motivo in RSSSF_FORA.items():
-        if a == ano:
+        if str(a) == str(ano):
             fora = [j for j in rs if n in (j.mandante, j.visitante)]
             rs = [j for j in rs if j not in fora]
             log.append(f"{ano}: {len(fora)} jogos do {n} ficam de fora: {motivo}")
     for (a, m, v, gm, gv), motivo in JOGOS_ANULADOS.items():
-        if a == ano:
+        if str(a) == str(ano):
             fora = [j for j in rs if (j.mandante, j.visitante, j.gm, j.gv) == (m, v, gm, gv)]
             rs = [j for j in rs if j not in fora]
             log.append(f"{ano}: jogo anulado fica de fora ({len(fora)}): {m} {gm}-{gv} {v} — {motivo}")
@@ -954,6 +994,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
         tabelas = [tb for tb in tabelas if tb not in de_um_jogo]
     mapa = mapear_nomes(ano, rs_usado, og, log) if rs_usado else {}
     completar_sem_ogol(ano, mapa, rs_usado, og, log)
+    mapa = {k: refundado(ano, v) for k, v in mapa.items()}
     partidas = ler_rsssf(ano, mapa, rs_usado)
     partidas = [p for p in partidas if p.gm is not None or p.especial]
     tabs = tabelas_por_clube(tabelas, mapa, rs_usado)
@@ -977,6 +1018,14 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     for tb in tabelas:
         tb.fase = fase_pt(tb.fase)
         tb.grupo = grupo_pt(tb.grupo)
+    obs_ed = []
+    fora = [p for p in partidas if (str(ano), p.fase) in PLAYOFF_FORA]
+    if fora:
+        partidas = [p for p in partidas if p not in fora]
+        jogos = ", ".join(f"{nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)} ({p.data[8:10]}/{p.data[5:7]})" for p in fora)
+        obs_ed.append(f"{PLAYOFF_FORA[(str(ano), fora[0].fase)]} contra a 1ª divisão ({jogos}) fica fora da A2 e só nesta "
+                      f"observação (decisão D-04); os jogos estão no Paulista (bra-sp-1)")
+        log.append(f"{ano}: {len(fora)} jogos do playoff contra a 1ª divisão ficam fora (D-04, A2-012)")
     if len({p.fase for p in partidas}) == 1 and not any(p.grupo for p in partidas):
         for x in [*partidas, *tabelas]:
             x.fase = "Fase única"
@@ -1009,7 +1058,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     final = classificacao(ano, partidas, tabs, ajustes, campeao, log)
     conf = conferir(ano, partidas, tabs)
     return {"partidas": partidas, "tabelas": tabelas, "tabs": tabs, "final": final, "conf": conf, "rs": rs, "og": og,
-            "mapa": mapa, "campeao": campeao, "ajustes": ajustes}
+            "mapa": mapa, "campeao": campeao, "ajustes": ajustes, "obs": obs_ed}
 
 
 # temporadas com jogos na RSSSF ou no ogol que a Wikipédia completa (1989: as semifinais; a final já vem do ogol)
@@ -1097,6 +1146,9 @@ OBS_EDICAO: dict[str, list[str]] = {
              "Wikipédia e o Futebol Interior dão o Araçatuba)"],
     "1992": ["Capivariano inscrito, não disputou"],
     "1993": ["com a mudança das divisões da FPF, os clubes foram redistribuídos em 1994 (Série A2, A3 e B1)"],
+    "1998": ["o XV de Piracicaba caiu, mas ficou na A2 de 1999 pelo licenciamento do Novorizontino (Wikipédia pt; A2-026)"],
+    "2011": ["final XV de Piracicaba 2-2 Guarani: campeão o XV pela campanha (RSSSF); a Wikipédia dá 4-2 nos pênaltis "
+             "(A2-028)"],
 }
 FORMATO_INCOMPLETO = {"1989", "1991"}
 

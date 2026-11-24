@@ -3906,7 +3906,7 @@
  "34451": {
   "clube": "EC São Bernardo",
   "uf": "SP",
-  "cidade": "São Bernardo Do Campo",
+  "cidade": "São Bernardo do Campo",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5316,7 +5316,7 @@
  "80977": {
   "clube": "São Caetano EC",
   "uf": "SP",
-  "cidade": "São Caetano",
+  "cidade": "São Caetano do Sul",
   "competicoes": [
    "bra-sp-1",
    "bra-sp-2"
@@ -6580,6 +6580,15 @@
   "uf": "SP",
   "cidade": "Limeira",
   "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-gremio-catanduvense": {
+  "clube": "Grêmio Catanduvense",
+  "uf": "SP",
+  "cidade": "Catanduva",
+  "competicoes": [
+   "bra-sp-1",
    "bra-sp-2"
   ]
  },
