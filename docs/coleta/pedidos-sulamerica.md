@@ -1099,7 +1099,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Escopo (decisão do Guilherme, 24/11):** das edições modernas, só a fase final, dos 32-avos de final em diante. As
      fases regionais e preliminares do interior ficam de fora. 1969 e 1970 entram inteiras.
    - **Campeões:** os 14 batem com a Wikipédia. A de 1970 ficou sem campeão: a final de volta nunca foi jogada.
-2. **Commits:** `(hash no próximo commit)`.
+2. **Commits:** `1dbc701`.
 3. **Teste de carga:** `arg-copa: 15 edições, 952 jogos, 93 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:** carregar a `arg-copa`. As outras copas não mudam (rodei de novo: mesmos números).
 5. **Fontes e decisões:**
