@@ -60,7 +60,7 @@ CLUBES_COPA: dict[str, tuple[str, str]] = {
     "San Miguel (Argentina)": ("Los Polvorines", BA), "Sansinena": ("General Cerri", BA),
     "Sarmiento de La Banda": ("La Banda", "Santiago del Estero"), "Social y Deportivo General Roca": ("General Roca", "Río Negro"),
     "Social y Deportivo Liniers": ("San Justo", BA), "Social y Deportivo San Martín": ("Burzaco", BA),
-    "Social y Recreativo Español": SEM, "Sol de América de Formosa": ("Formosa", "Formosa"), "Sol de Mayo": ("Viedma", "Río Negro"),
+    "Social y Recreativo Español": SEM, "Sol de América de Formosa": ("Formosa", "Formosa"), "Sol de Mayo de Viedma": ("Viedma", "Río Negro"),
     "Sporting de Punta Alta": ("Punta Alta", BA), "Sportivo AC de Las Parejas": ("Las Parejas", "Santa Fe"),
     "Sportivo Alfredo Guzmán": ("San Miguel de Tucumán", "Tucumán"), "Sportivo Belgrano de San Francisco": ("San Francisco", "Córdoba"),
     "Sportivo Bernardino Rivadavia": ("Venado Tuerto", "Santa Fe"), "Sportivo Estudiantes": ("San Luis", "San Luis"),
@@ -116,7 +116,7 @@ REGRAS_COPA: list[tuple[str, str, int, int]] = [
     (r"aa estudiantes", "Estudiantes de Río Cuarto", 0, 9999), (r"(club sportivo|cs) estudiantes", "Sportivo Estudiantes", 0, 9999),
     (r"atletico velez sarsfield", "Vélez Sarsfield", 0, 9999),
     # clubes do arg-1 em grafias que as regras dele não pegam
-    (r"(ac social y deportivo|acsd|acsyd) sol de mayo( la pampa)?", "Sol de Mayo", 0, 9999),
+    (r"(ac social y deportivo|acsd|acsyd) sol de mayo( la pampa)?", "Sol de Mayo de Viedma", 0, 9999),
     (r"ac y deportiva altos hornos zapla( salta)?", "Altos Hornos Zapla", 0, 9999),
     (r"(ca |club atletico )?ac+as+uso", "Sportivo Acassuso", 0, 9999),
     (r"(ca |club atletico )?central norte( salta)?", "Central Norte", 0, 9999),
