@@ -103,6 +103,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | 2fef629 |
 | `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | f4a1701 |
 | `tur-1` Turco (era antiga até 1958; liga nacional) | 97 (1924–2025/26) | 20.971 | 13.811 | 23.395 | 92 | (ver git log) |
+| `gdr-1` Alemanha Oriental (zona soviética e DDR-Oberliga) | 44 (1948–1990/91) | 8.062 | 0 | 0 | 52 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -299,6 +300,14 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
   editor ou `chr(92)`).
 - **Dois campeonatos na mesma temporada** (1921/22): temporadas "1921/22 (FIGC)" e "1921/22 (CCI)", ocorrências pela
   temporada em texto.
+
+**Alemanha Oriental (`gdr-1`), o que serve para outras ligas:**
+- **RSSSF por temporada** (`tablesd/ddrYY.html`): rodada, data e placar; a primeira seção é a Oberliga, depois vêm a
+  DDR-Liga e a copa (o leitor `coleta/gdr-1/rsssf_gdr.py` para na tabela final). Jogo dado fora de campo como "X:0"
+  (vitória para o lado do X, gols 0:0); nome do visitante colado no placar ("2:1Hallescher FC Chemie").
+- **Identidade:** cadastro próprio (`clubes_gdr.py`) com mapeamento explícito de cada grafia; os clubes que também
+  jogaram a Bundesliga usam a chave do `clubes_ger.py` (a busca aproximada do alemão erra aqui: "Vorwärts Berlin" cairia
+  no Vorwärts 1890).
 
 **Turquia, o que serve para outras ligas:**
 - **Era antiga (antes de 1959):** três competições no mesmo slug, com rótulos "1940 (Millî Küme)", "1940 (Şampiyonası)",

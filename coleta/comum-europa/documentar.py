@@ -23,7 +23,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -113,6 +113,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "clubes da 2ª divisão no play-off europeu entram nos jogos, mas não na classificação final.",
         "Artilheiros só desde 1945/46 (lista da RSSSF).",
     ],
+    "gdr-1": [
+        "Autores dos gols, público e estádio dos jogos da Oberliga: a RSSSF traz só o placar; fonte possível: as fichas "
+        "do weltfussball.de ou o arquivo do jornal Neues Deutschland.",
+        "1948 e 1949: só a fase final (mata-mata entre os campeões estaduais); os campeonatos estaduais ficam de fora.",
+        "Punições de pontos que só a tabela da RSSSF traz (1966/67, 1967/68, 1973/74, 1990/91): os pontos oficiais vão para "
+        "a classificação e a diferença para ajuste_pontos; o motivo de cada uma não está nas fontes.",
+    ],
     "tur-1": [
         "Era antiga (antes de 1959, em antigo.py): Türkiye Futbol Şampiyonası (16 edições), Millî Küme (11) e Federasyon "
         "Kupası (2), pela Wikipédia (en) e conferidas com a RSSSF. Só as Federasyon Kupası têm campeão (a federação as "
@@ -175,6 +182,8 @@ DICIONARIOS = {
     "DESEMPATES": "Desempates pelo título fora da tabela",
     "TABELA_OFICIAL": "Classificação pelos números da tabela publicada (punição só para um lado)",
     "DADOS_FORA": "Jogos dados pela federação (o ogol traz o placar; marcados awd)",
+    "SEM_TITULO": "Edições sem título oficial",
+    "PONTOS_2_1_0": "Edições com 2 pontos por vitória, 1 por empate e 0 por derrota",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("publico", "público"),

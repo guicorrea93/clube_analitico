@@ -1190,3 +1190,67 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 8. **Próxima tarefa:**
    - DDR-Oberliga como `gdr-1` (D-05b);
    - depois o EN-016.
+
+## Recado de fim de coleta — gdr-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato da Alemanha Oriental, competição à parte, como decidido na D-05b:
+   - o campeonato da zona soviética: 1948 e 1949, mata-mata entre os campeões estaduais;
+   - a DDR-Oberliga, de 1949/50 a 1990/91 (a última como NOFV-Oberliga, já depois da reunificação);
+   - 44 edições, 8.062 jogos, 52 clubes, 43 artilheiros;
+   - títulos (43, como a RSSSF): BFC Dynamo 10, Dynamo Dresden 8, Vorwärts Frankfurt/Oder 6, Carl Zeiss Jena 3,
+     1. FC Magdeburg 3, Erzgebirge Aue 3, FSV Zwickau 2, Hallescher FC 2, Chemie Leipzig 2, Rot-Weiß Erfurt 2, Chemnitzer
+     FC 1, Hansa Rostock 1.
+
+   Fontes:
+   - **RSSSF:** página de cada temporada (rodada, data e placar de todos os jogos), tabela final, campeões e artilheiros;
+   - **Wikipédia (en):** tabela e matriz de resultados de cada temporada (conferência) e as fichas dos jogos de 1948 e
+     1949.
+
+   Conferência: 65 tabelas fecham com os jogos e 19 diferem. Quase todas diferem em 1 ou 2 pontos de punição que só a
+   tabela traz, ou num erro de digitação; estão no relatório.
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** "44 edições, 8062 jogos, 46 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `gdr-1` e liberar no seletor;
+   - **país novo da competição:** Alemanha Oriental (`GDR`, em `paises.csv`). Os clubes são do país `GER`;
+   - **rótulos de temporada:**
+     - "1948" e "1949" (mata-mata);
+     - "1949/50" a "1954/55";
+     - "1955" (rodada de transição, turno único);
+     - "1956" a "1960" (ano civil);
+     - "1961/62" (três turnos, 39 rodadas);
+     - "1962/63" a "1990/91";
+   - **edição sem título:** 1955. `campeao` vazio, com o motivo na `observacao`. O 1º colocado (Wismut Karl-Marx-Stadt,
+     hoje Erzgebirge Aue) não conta;
+   - **jogos `awd` (6):** vitória para um lado, com gols 0:0, como a RSSSF;
+   - **pontos:** 2 por vitória. Os oficiais da tabela vão para a classificação, e as punições ficam em `ajuste_pontos`;
+   - **Corrida:** todas as temporadas da Oberliga têm rodada e data; 1948 e 1949 são mata-mata;
+   - **nomes compartilhados com o `ger-1`:** Hansa Rostock, Union Berlin, Dynamo Dresden, Energie Cottbus, Carl Zeiss
+     Jena e VfB Leipzig (o 1. FC Lok Leipzig da RDA) aparecem com o mesmo nome nas duas competições. É o mesmo clube, de
+     propósito;
+   - escudos: os clubes não estão no ogol; o nome do clube de hoje leva ao escudo.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pela linhagem do clube** (como a Wikipédia), através das mudanças de nome e de cidade da RDA:
+     - Empor Lauter → Hansa Rostock;
+     - SC Dynamo Berlin → BFC Dynamo;
+     - KVP Leipzig → Vorwärts Berlin → Vorwärts Frankfurt/Oder;
+     - SC Lokomotive Leipzig → 1. FC Lok → VfB Leipzig;
+     - Union Halle → Hallescher FC;
+     - Wismut Karl-Marx-Stadt → Erzgebirge Aue;
+     - Planitz/Horch Zwickau → FSV Zwickau;
+   - (b) **o título de 1952/53 é do Dynamo Dresden** (como a RSSSF e o próprio clube), embora o time tenha ido para Berlim
+     em 1954 e virado o BFC Dynamo;
+   - (c) **a rodada de transição de 1955 entra sem título**, como na RSSSF.
+6. **O que não deu para coletar:**
+   - autores dos gols, público e estádio da Oberliga (a RSSSF traz só o placar);
+   - os campeonatos estaduais de 1948 e 1949.
+
+   Fonte possível: weltfussball.de, jogo a jogo.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade dos clubes (`coleta/comum-europa/clubes_gdr.py`), sobretudo Chemie Leipzig (1950-1954 e 1963+, e o FC
+     Sachsen Leipzig de 1990) e o título de 1952/53;
+   - as 19 tabelas que diferem.
+8. **Próxima tarefa:** EN-016 (12 jogos do Inglês sem autor dos gols). Depois, conversar com o Guilherme sobre as próximas
+   ligas.

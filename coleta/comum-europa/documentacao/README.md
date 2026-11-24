@@ -16,6 +16,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Escocês | 129 (1890/91–2025/26) | 33076 | 14565 | 19812 | 46 | 197 / 60 | 3 | [sco-1](sco-1.md) |
 | Campeonato Belga | 123 (1895/96–2025/26) | 28712 | 12031 | 18167 | 81 | 185 / 83 | 5 | [bel-1](bel-1.md) |
 | Campeonato Turco | 97 (1959–1957/58 (Federasyon Kupası)) | 20971 | 13891 | 23395 | 168 | 128 / 30 | 5 | [tur-1](tur-1.md) |
+| Campeonato da Alemanha Oriental | 44 (1948–1990/91) | 8062 | 0 | 0 | 52 | 65 / 19 | 3 | [gdr-1](gdr-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -59,6 +60,9 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **tur-1:** Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos play-offs de 2011/12; antes e nesses anos, jogo a jogo (ficha do ogol).
 - **tur-1:** Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); vale a revisão conferir, porque o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.
 - **tur-1:** Placares do ogol que só a matriz da Wikipédia contesta nas temporadas antigas (sem football-data nem engsoccerdata antes de 1994/95): ficam os do ogol, que fecham com as tabelas.
+- **gdr-1:** Autores dos gols, público e estádio dos jogos da Oberliga: a RSSSF traz só o placar; fonte possível: as fichas do weltfussball.de ou o arquivo do jornal Neues Deutschland.
+- **gdr-1:** 1948 e 1949: só a fase final (mata-mata entre os campeões estaduais); os campeonatos estaduais ficam de fora.
+- **gdr-1:** Punições de pontos que só a tabela da RSSSF traz (1966/67, 1967/68, 1973/74, 1990/91): os pontos oficiais vão para a classificação e a diferença para ajuste_pontos; o motivo de cada uma não está nas fontes.
 
 ## Próximas ligas
 
