@@ -43,7 +43,9 @@ def _liga(t: str) -> str:
 def _data_mes(t: str) -> str:
     """"08/Jul Corinthians 5-0 XV de Novembro" e "15/may   Ferroviária 0-1 Corinthians": a data com o mês por extenso vai
     para o formato "[Jul 08]" que o leitor comum entende."""
-    return re.sub(r"^([ \t]*)(\d{1,2})/([A-Za-z]{3})\b\.?[ \t]+", lambda m: f"{m[1]}[{m[3].capitalize()} {m[2]}] ", t, flags=re.M)
+    # 1978 escreve também o ano ("03/Jun/1979"): sem aceitar o ano, os jogos de 1979 ficavam fora da leitura e vinham só
+    # do ogol, com o mês errado no 3º turno (o ano vem da virada de mês do leitor comum)
+    return re.sub(r"^([ \t]*)(\d{1,2})/([A-Za-z]{3})(?:/\d{4})?\b\.?[ \t]+", lambda m: f"{m[1]}[{m[3].capitalize()} {m[2]}] ", t, flags=re.M)
 
 
 def _dois_pontos(t: str) -> str:

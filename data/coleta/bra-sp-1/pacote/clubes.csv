@@ -1,5 +1,5 @@
 clube,regiao,cidade,pais,nomes_fonte
-AA São Bento,SP,São Paulo,BRA,ogol:AA São Bento:1914 APEA-1932|rsssf:AA São Bento:1914 APEA-1932|rsssf:São Bento:1920-1923
+AA São Bento,SP,São Paulo,BRA,ogol:AA São Bento:1914 APEA-1932|ogol:São Bento de São Paulo:1933|rsssf:AA São Bento:1914 APEA-1933|rsssf:São Bento:1920-1923
 AA das Palmeiras,SP,São Paulo,BRA,ogol:AA das Palmeiras:1904-1929 LAF|rsssf:AA Palmeiras:1904-1929 LAF|rsssf:AA das Palmeiras:1913 APEA-1929 LAF|rsssf:AA das Palmeitas:1929 LAF
 Albion,SP,São Paulo,BRA,ogol:Albion:1936 LPF|rsssf:Albion:1936 LPF
 Alumni-SP,SP,São Paulo,BRA,ogol:Alumni:1916 LPF|rsssf:Alumni:1916 LPF
@@ -17,7 +17,7 @@ Botafogo-SP,SP,Ribeirão Preto,BRA,ogol:Botafogo-SP:1957-2026|rsssf:Botafogo:195
 Bragantino,SP,Bragança Paulista,BRA,ogol:Bragantino:1966-2019|ogol:Red Bull Bragantino:2020-2026|rsssf:Bragantino:1966-2019|rsssf:Red Bull Bragantino:2020-2025
 Brittania,SP,São Paulo,BRA,ogol:Brittania:1926 LAF|rsssf:Britannia:1926 LAF
 CA Internacional-SP,SP,Santos,BRA,ogol:CA Internacional - Santos:1907-1908|rsssf:Internacional/San:1907-1908
-CA Paulista,SP,São Paulo,BRA,ogol:CA Paulista:1934-1936 LPF|rsssf:EC Paulista:1934|rsssf:Paulista:1936 LPF
+CA Paulista,SP,São Paulo,BRA,ogol:CA Paulista:1934-1936 LPF|ogol:ECPaulista:1935 LPF|rsssf:EC Paulista:1934-1935 LPF|rsssf:Paulista:1936 LPF
 CE América,SP,São Paulo,BRA,ogol:CE América:1930-1931|rsssf:CE América:1930-1931
 Campos Elyseos,SP,São Paulo,BRA,ogol:Campos Elyseos:1914 LPF-1916 LPF|rsssf:Campos Elíseos:1914 LPF-1916 LPF
 Capivariano,SP,Capivari,BRA,ogol:Capivariano:2015-2026|rsssf:Capivariano:2015-2016
@@ -29,7 +29,6 @@ Corinthians Prudente,SP,Presidente Prudente,BRA,ogol:EC Corinthians:1960|rsssf:C
 Corinthians de Santo André,SP,Santo André,BRA,ogol:Corinthians de Santo André:1927 APEA|rsssf:Corinthians de Santo André:1927 APEA
 EC Sírio,SP,São Paulo,BRA,ogol:EC Sírio:1921-1935 APEA|rsssf:Sírio:1921-1934|rsssf:Sírio Libanês:1935 APEA
 EC Água Santa,SP,Diadema,BRA,ogol:EC Água Santa:2016-2025|rsssf:Água Santa:2016-2025
-ECPaulista,SP,São Carlos,BRA,ogol:ECPaulista:1935 LPF|rsssf:EC Paulista:1935 LPF
 Esportiva Guaratinguetá,SP,Guaratinguetá,BRA,ogol:Esportiva Guaratinguetá:1961-1964|rsssf:Esportiva:1961-1964|rsssf:Esportiva Guaratinguetá:1962
 Estudantes de São Paulo,SP,São Paulo,BRA,ogol:Estudantes de São Paulo:1935 APEA-1938|rsssf:Estudantes:1935 APEA-1938
 Ferroviária-SP,SP,Araraquara,BRA,ogol:Ferroviária:1956-2023|rsssf:Ferroviaria:1995-1996|rsssf:Ferroviario:1996|rsssf:Ferroviária:1956-2023
@@ -91,7 +90,6 @@ Scottish Wanderers,SP,São Paulo,BRA,ogol:Scottish Wanderers:1914 APEA-1915 APEA
 Sertãozinho,SP,Sertãozinho,BRA,ogol:Sertãozinho:2007-2010|rsssf:Sertãozinho:2007-2010
 São Bento,SP,Sorocaba,BRA,ogol:São Bento:1963-2023|rsssf:São Bento:1963-2023|rsssf:São Bento-SP:1984
 São Bento de SCS,SP,São Caetano do Sul,BRA,ogol:São Bento de SCS:1954-1957|rsssf:São Bento:1954-1957
-São Bento de São Paulo,SP,São Paulo,BRA,ogol:São Bento de São Paulo:1933|rsssf:AA São Bento:1933
 São Bernardo,SP,São Bernardo do Campo,BRA,ogol:São Bernardo:2011-2026|rsssf:São Bernardo:2011-2023|rsssf:São Bernardo FC:2022-2025
 São Caetano,SP,São Caetano do Sul,BRA,ogol:São Caetano:1993-2021|rsssf:São Caetano:1993-2021|rsssf:São caetano:2013
 São Caetano EC,SP,São Caetano,BRA,ogol:São Caetano EC:1935 APEA-1936 APEA|rsssf:EC São Caetano:1935 APEA|rsssf:São Caetano EC:1936 APEA
@@ -106,7 +104,7 @@ Tremembé,SP,São Paulo,BRA,ogol:Tremembé:1936 APEA|rsssf:Tremembé:1936 APEA
 União Barbarense,SP,Santa Bárbara d´Oeste,BRA,ogol:União Barbarense:1999-2013|rsssf:Barbarense:1999-2000|rsssf:União Agrícola:2001-2003|rsssf:União Bandeirante:2013|rsssf:União Barbarense:2004-2013|rsssf:União barbarense:2013
 União Lapa,SP,São Paulo,BRA,ogol:União Lapa:1916 LPF-1928 LAF|rsssf:União Lapa:1916 LPF-1928 LAF
 União São João,SP,Araras,BRA,ogol:União São João:1988-2005|rsssf:Uniao S Joao:1999|rsssf:Uniao SJ:1998-1999|rsssf:Uniao Sao Joao:1996-1998|rsssf:Uniao São Joao:1991|rsssf:União S. João:1994|rsssf:União São João:1988-2005
-Velo Clube,SP,Rio Claro,BRA,ogol:Velo Clube:1979-2026|rsssf:Velo Clube:1979-2025
+Velo Clube,SP,Rio Claro,BRA,ogol:Velo Clube:1979-2026|rsssf:Velo Clube:1978-2025
 Vicentino,SP,São Paulo,BRA,ogol:Vicentino:1915 LPF-1916 LPF|rsssf:Vicentino:1915 LPF-1916 LPF
 XV de Jaú,SP,Jaú,BRA,ogol:XV de Jaú:1952-1996|rsssf:XV de Jau:1987-1996|rsssf:XV de Jaú:1951-1993|rsssf:XV de Novembro:1981|rsssf:XV de Novembro/J:1977-1986|rsssf:Xv De Novembro/J:1986
 XV de Piracicaba,SP,Piracicaba,BRA,ogol:XV de Piracicaba:1949-2016|rsssf:XV:1956|rsssf:XV Piracicaba:1987|rsssf:XV de Novembro:1962-2014|rsssf:XV de Novembro/P:1977-1986|rsssf:XV de Piracicaba:1949-2016|rsssf:XV de Pìracicaba:1979|rsssf:Xv de Piracicaba:2013

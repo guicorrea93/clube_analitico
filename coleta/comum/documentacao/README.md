@@ -9,7 +9,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Brasileiro Série C | 36 (1981–2026) | 8123 | 6051 | 0 | 373 | 389 / 29 | sim (36 edições, 8123 jogos) | 2 | [bra-serie-c](bra-serie-c.md) |
 | Campeonato Brasileiro Série D | 18 (2009–2026) | 6032 | 11227 | 0 | 333 | 431 / 4 | sim (18 edições, 6032 jogos) | 2 | [bra-serie-d](bra-serie-d.md) |
 | Copa do Brasil | 37 (1989–2025) | 4009 | 5718 | 0 | 399 | 61 / 0 | sim (37 edições, 4009 jogos) | 3 | [bra-copa-do-brasil](bra-copa-do-brasil.md) |
-| Campeonato Paulista | 135 (1902–2026) | 21846 | 6405 | 0 | 113 | 219 / 123 | sim (135 edições, 21847 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
+| Campeonato Paulista | 135 (1902–2026) | 21849 | 6405 | 0 | 111 | 222 / 120 | sim (135 edições, 21846 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
 | Campeonato Paulista Série A2 | 80 (1947–2026) | 9223 | 4526 | 0 | 183 | 132 / 33 | sim (80 edições, 9223 jogos) | 3 | [bra-sp-2](bra-sp-2.md) |
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 4 | [bra-rj-1](bra-rj-1.md) |
 

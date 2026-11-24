@@ -102,7 +102,12 @@ def _sim(a: str, b: str) -> float:
 
 
 # código de clube errado no calendário do ogol: (ano, código errado) -> (código certo, motivo)
-CORRIGE_OGOL: dict[tuple[int, str], tuple[str, str]] = {}
+CORRIGE_OGOL: dict[tuple[str, str], tuple[str, str]] = {
+    ("1933", "233382"): ("39622", "\"São Bento de São Paulo\" é a AA São Bento da capital: a RSSSF e o Futebol Nacional escrevem "
+                                  "\"AA São Bento\" em 1933 (D-23 d, SP-026)"),
+    ("1935 LPF", "81019"): ("275483", "\"ECPaulista\" (ficha de São Carlos) é o CA Paulista da capital: o Futebol Nacional escreve "
+                                      "\"CA Paulista\" em 1934, 1935 LPF e 1936 (D-23 e, SP-027)"),
+}
 
 
 def ler_ogol(ano: int) -> list[dict]:
@@ -110,8 +115,8 @@ def ler_ogol(ano: int) -> list[dict]:
     js = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
     for o in js:
         for lado in ("mandante", "visitante"):
-            if (ano, o.get(f"{lado}_id")) in CORRIGE_OGOL:
-                o[f"{lado}_id"] = CORRIGE_OGOL[(ano, o[f"{lado}_id"])][0]
+            if (str(ano), o.get(f"{lado}_id")) in CORRIGE_OGOL:
+                o[f"{lado}_id"] = CORRIGE_OGOL[(str(ano), o[f"{lado}_id"])][0]
     return [o for o in js if o["id"] not in OGOL_IGNORAR]
 
 
@@ -223,6 +228,9 @@ OBS_EDICAO: dict[str, list[str]] = {
 }
 # vice que a ordem calculada não dá: temporada -> (clube, motivo)
 VICE_OFICIAL: dict[str, tuple[str, str]] = {
+    "1909": ("Paulistano-SP", "o SC Internacional foi eliminado depois do jogo de 21/11/1909 (agressão de jogadores ao "
+                              "árbitro) e fica fora da tabela da RSSSF; vice pela RSSSF e pela Wikipédia (os W.O. de 1909, que "
+                              "agora contam, davam o 2º lugar ao Internacional)"),
     "1906": ("SC Internacional-SP", "a AA das Palmeiras, com mais pontos, foi eliminada pela LPF em 22/10/1906 (irregularidades "
              "na venda de ingressos); vice pela RSSSF, pelo FN e pela Wikipédia (QS-005)"),
 }
@@ -256,6 +264,10 @@ JOGOS_EXTRA: list[tuple[str, str, str, str, str, str, str, str]] = [
      "1ª rodada do torneio do rebaixamento (FN)"),
     ("1966", "1966-12-22", "Guarani", "Noroeste", "3-1", "Desempate", "", "desempate do rebaixamento; o Noroeste caiu (FN)"),
 ]
+
+
+# "victory awarded to X" com X ambíguo: nome da página -> nome de exibição (1908: dois Internacional na edição)
+ALVO_WO = {"Inter/SP": "SC Internacional-SP"}
 
 
 def correcoes_revisao(ano, partidas: list[Partida], log: list[str]) -> list[Partida]:
@@ -306,10 +318,12 @@ def correcoes_revisao(ano, partidas: list[Partida], log: list[str]) -> list[Part
             p.gm = p.gv = None
             p.gols = []
             log.append(f"{t}: {nome(p.mandante)} {campo} {nome(p.visitante)} — pontos para o {venc} ({motivo})")
-        elif p.gm is None and p.especial == "awd":
+        elif p.especial in ("awd", "dns") and (p.gm is None or (p.gm, p.gv) == (0, 0) and re.search(r"awarded 0-0", p.obs or "")):
+            # "dns" (não compareceu) também é W.O. (1908-1910); "awarded 0-0 to X" (1905) é vitória sem placar, não empate
             m = re.search(r"awarded(?:\s+[\d-]+)?\s+to\s+(.+?)(?:,|$)", p.obs or "")
             if m:
-                alvo = m.group(1).strip()
+                p.gm = p.gv = None
+                alvo = ALVO_WO.get(m.group(1).strip(), m.group(1).strip())
                 sm, sv = _sim(alvo, nome(p.mandante)), _sim(alvo, nome(p.visitante))
                 if max(sm, sv) >= 0.5 and sm != sv:
                     p.especial = "wo-m" if sm > sv else "wo-v"
@@ -549,12 +563,18 @@ def decidir_placar(p: Partida, alt: tuple[int, int], partidas: list[Partida], ta
     return depois < antes
 
 
+# temporadas em que, quando só o mês difere entre RSSSF e ogol, vale a RSSSF (1978: o ogol pôs em maio o 3º turno de junho
+# de 1979; conferido com o Futebol Nacional). Nos outros anos, vale a regra geral (ogol): em 1969 o FN dá a data do ogol
+SO_MES_DA_RSSSF = {"1978"}
+
+
 def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tuple], rs_ok: bool, log: list[str]) -> list[Partida]:
     """Casa cada jogo da RSSSF com o do ogol (mesmo par de clubes, data mais próxima); confere o placar; traz a hora,
     a data que falta e a rodada oficial ("R12"); inclui o que só o ogol tem."""
     usados: set[str] = set()
     datas_trocadas: list[Partida] = []
     datas_dif: list[tuple] = []
+    datas_mes: list[tuple] = []
     por_par: dict[tuple, list[dict]] = defaultdict(list)
     for o in og:
         por_par[(o.get("mandante_id"), o.get("visitante_id"))].append(o)
@@ -602,7 +622,10 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
         if dist(o) > 40 and not (mesmo_placar and dist(o) <= 120):   # data do título da fase nos jogos (1991, 1994)
             continue
         usados.add(o["id"])
-        if p.data and o["data"] and _dia(o["data"]) and _dist(o["data"], p.data) > 3:
+        so_mes = str(ano) in SO_MES_DA_RSSSF and bool(p.data and o["data"]) and p.data[:4] == o["data"][:4] and p.data[8:] == o["data"][8:]             and abs(int(p.data[5:7]) - int(o["data"][5:7])) == 1
+        if so_mes:   # só o mês difere (1978: o ogol pôs em maio de 1979 o 3º turno de junho): fica a da RSSSF
+            datas_mes.append((p, o["data"]))
+        elif p.data and o["data"] and _dia(o["data"]) and _dist(o["data"], p.data) > 3:
             if trocada and _dist(o["data"], trocada) <= 3:
                 datas_trocadas.append(p)
             else:
@@ -633,6 +656,9 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
     if datas_trocadas:
         log.append(f"{ano}: data com dia e mês trocados na RSSSF em {len(datas_trocadas)} jogos (ex.: {nome(datas_trocadas[0].mandante)} x "
                    f"{nome(datas_trocadas[0].visitante)}); fica a data do ogol")
+    if datas_mes:
+        log.append(f"{ano}: só o mês difere entre RSSSF e ogol em {len(datas_mes)} jogos; fica a da RSSSF: "
+                   + "; ".join(f"{nome(p.mandante)} x {nome(p.visitante)} {p.data} (ogol {d})" for p, d in datas_mes))
     if datas_dif:
         p, d = datas_dif[0]
         log.append(f"{ano}: data diferente entre RSSSF e ogol (mais de 3 dias) em {len(datas_dif)} jogos (ex.: {nome(p.mandante)} x "
@@ -950,20 +976,31 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
         alvo, motivo = VICE_OFICIAL[str(ano)]
         vice = next(c for c in camp if nome(c) == alvo)
         log.append(f"{ano}: vice {alvo} — {motivo}")
-    # liga decisiva de um grupo só ("Fase final", 1957): quem chegou a ela desempata pelos pontos dela antes dos totais
-    ff = [p for p in partidas if p.fase == "Fase final"]
-    cff = campanha(ff) if ff and len({p.grupo for p in ff}) == 1 else {}
+    # liga decisiva de um grupo só ("Fase final", 1957): quem chegou a ela desempata pelos pontos dela antes dos totais;
+    # FASE_DECISIVA: a última fase de liga em grupos, antes da final (decisão D-02 A)
+    if str(ano) in FASE_DECISIVA:
+        fd = FASE_DECISIVA[str(ano)][0]
+        ff = [p for p in partidas if p.fase == fd]
+        # sem jogos com o nome da fase (1978: a página grava os três turnos como uma fase só), vale a tabela publicada dela
+        cff = campanha(ff) if ff else {c: v for tb, linhas, _ in tabs if tb.fase == fd for c, v in linhas.items()}
+        if not cff:
+            raise ValueError(f"{ano}: FASE_DECISIVA sem jogos nem tabela: {fd}")
+    else:
+        ff = [p for p in partidas if p.fase == "Fase final"]
+        cff = campanha(ff) if ff and len({p.grupo for p in ff}) == 1 else {}
+    saldo_antes = str(ano) in CRITERIO_SALDO
     def pts(c):
         x = camp[c]
         return pv * x[1] + x[2] + ajustes.get(c, 0)
     def chave(c):
         x, y = camp[c], cff.get(c, [0] * 6)
-        return (c != campeao, c != vice, -alcance[c], -(pv * y[1] + y[2]), -pts(c), -x[1], -(x[4] - x[5]), -x[4], nome(c))
+        desempate = (-(x[4] - x[5]), -x[1]) if saldo_antes else (-x[1], -(x[4] - x[5]))
+        return (c != campeao, c != vice, -alcance[c], -(pv * y[1] + y[2]), -pts(c), *desempate, -x[4], nome(c))
     # classificação geral publicada pela RSSSF (todos os clubes da edição)
     geral = [(tb, linhas) for tb, linhas, _ in tabs if len(linhas) >= len(camp) and len(tb.linhas) >= len(camp)]
     fonte = "calculada (fase alcançada, pontos, vitórias, saldo, gols pró)"
     ordem = sorted(camp, key=chave)
-    if geral:
+    if geral and str(ano) not in SEM_TABELA_GERAL:
         tb, linhas = geral[-1]
         bate = sum(camp.get(c) == v for c, v in linhas.items())
         if bate >= 0.9 * len(camp):   # a ordem das linhas é a ordem da tabela
@@ -982,10 +1019,23 @@ ORDEM = {"Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase
          # turnos e fases de classificação: o nível da 1ª fase (as decisões de cada turno não são a decisão do campeonato)
          "Fase única": 1, "1º Turno": 1, "2º Turno": 1, "3º Turno": 1, "Fase de Classificação": 1, "Torneio de Classificação": 1,
          "1º Turno - Classificatória": 1, "2º Turno - Classificatória": 1, "2º Turno - 1ª fase": 1, "2º Turno - 2ª fase": 1,
-         "1º Turno - Quartas de final": 1, "1º Turno - Semifinal": 1, "1º Turno - Final": 1, "2º Turno - Semifinal": 1,
+         "1º Turno - Quartas de final": 1, "2º Turno - Quartas de final": 1, "1º Turno - Semifinal": 1, "1º Turno - Final": 1, "2º Turno - Semifinal": 1,
          "2º Turno - Final": 1,
          # repescagem, torneio de rebaixamento e desempate de eliminação não decidem o pódio (achado SP-007)
          "Repescagem": 0, "Torneio de rebaixamento": 0, "Desempate": 0}
+
+# última fase de liga (em grupos) antes da final: quem não chegou à final se ordena pelos pontos dela (D-02 A; SP-003)
+FASE_DECISIVA: dict[str, tuple[str, str]] = {
+    "1990": ("Terceira fase", "3º Corinthians, 2º do grupo Preto com 17 pontos; Palmeiras e Guarani fizeram 15 (Wikipédia pt)"),
+}
+# desempate por saldo de gols antes das vitórias (regulamento da época; achado SP-017)
+CRITERIO_SALDO: set[str] = {"1971"}
+# a tabela geral publicada pela RSSSF não manda na ordem (D-02 A: eliminados na mesma fase pelos pontos da campanha toda):
+# temporada -> motivo
+SEM_TABELA_GERAL: dict[str, str] = {
+    "2008": "semifinalistas eliminados pela campanha toda: São Paulo 41, Guaratinguetá 40 (Wikipédia pt; a RSSSF põe o "
+            "Guaratinguetá em 3º pela 1ª fase; SP-017)",
+}
 
 # fase errada na fonte, por temporada inteira: (temporada, fase gravada) -> (fase certa, motivo)
 FASE_ANO: dict[tuple[str, str], tuple[str, str]] = {
@@ -998,6 +1048,9 @@ FASE_JOGO: list[tuple[str, str, str, str, str, str]] = [
     ("1978", "Semifinal", "1978-11-01", "1978-11-30", "1º Turno - Semifinal", "decisão do 1º turno (SP-008)"),
     ("1978", "Final", "1978-11-01", "1978-11-30", "1º Turno - Final", "decisão do 1º turno (SP-008)"),
     ("1978", "Primeira fase", "1979-06-20", "1979-06-30", "Final", "a final Santos x São Paulo de junho de 1979 (SP-008)"),
+    ("1978", "Quartas de final", "1979-04-01", "1979-04-30", "2º Turno - Quartas de final", "decisão do 2º turno (SP-003)"),
+    ("1978", "Semifinal", "1979-04-01", "1979-04-30", "2º Turno - Semifinal", "decisão do 2º turno (SP-003)"),
+    ("1978", "Final", "1979-06-27", "1979-06-27", "2º Turno - Final", "Ponte Preta x Guarani, decisão do 2º turno (SP-003)"),
     ("1981", "Final", "1981-04-01", "1981-04-30", "1º Turno - Final", "decisão do 1º turno (SP-008)"),
     ("1981", "Final", "1981-08-01", "1981-08-31", "2º Turno - Final", "decisão do 2º turno (SP-008)"),
     ("1998", "Final", "1998-02-01", "1998-04-30", "Torneio de rebaixamento", "quadrangular do rebaixamento (SP-007)"),

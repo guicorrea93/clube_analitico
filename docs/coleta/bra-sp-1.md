@@ -37,7 +37,7 @@ como na RSSSF.
 | 1902 | RSSSF + ogol | 5 | 21 (21) | 60 | 0 | 1 / 0 | São Paulo Athletic | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1903 | RSSSF + ogol | 5 | 21 (21) | 64 | 0 | 1 / 0 | São Paulo Athletic | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1904 | RSSSF + ogol | 6 | 31 (31) | 99 | 0 | 1 / 0 | São Paulo Athletic | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1905 | RSSSF + ogol | 6 | 30 (30) | 118 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1905 | RSSSF + ogol | 6 | 30 (30) | 118 | 0 | 1 / 0 | Paulistano-SP | RSSSF (classificação geral publicada) |
 | 1906 | RSSSF + ogol | 6 | 29 (23) | 81 | 0 | 0 / 2 | Germânia | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1907 | RSSSF + ogol | 6 | 30 (29) | 93 | 0 | 2 / 0 | SC Internacional-SP | RSSSF (classificação geral publicada) |
 | 1908 | RSSSF + ogol | 6 | 30 (30) | 88 | 0 | 0 / 2 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -120,7 +120,7 @@ como na RSSSF.
 | 1975 | RSSSF + ogol | 19 | 278 (278) | 622 | 0 | 1 / 3 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1976 | RSSSF + ogol | 18 | 219 (219) | 442 | 0 | 4 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1977 | RSSSF + ogol | 19 | 379 (378) | 874 | 0 | 2 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1978 | RSSSF + ogol | 20 | 444 (444) | 984 | 0 | 2 / 8 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1978 | RSSSF + ogol | 21 | 447 (444) | 988 | 0 | 4 / 6 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1979 | RSSSF + ogol | 21 | 420 (417) | 825 | 0 | 6 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1980 | RSSSF + ogol | 21 | 395 (395) | 878 | 0 | 1 / 2 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1981 | RSSSF + ogol | 20 | 537 (537) | 1190 | 0 | 7 / 5 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -150,7 +150,7 @@ como na RSSSF.
 | 2005 | RSSSF + ogol | 20 | 190 (190) | 610 | 0 | 0 / 2 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2006 | RSSSF + ogol | 20 | 190 (190) | 571 | 0 | 0 / 2 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2007 | RSSSF + ogol | 20 | 196 (196) | 591 | 0 | 1 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2008 | RSSSF + ogol | 20 | 196 (196) | 510 | 0 | 3 / 0 | Palmeiras | RSSSF (classificação geral publicada) |
+| 2008 | RSSSF + ogol | 20 | 196 (196) | 510 | 0 | 3 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2009 | RSSSF + ogol | 20 | 196 (202) | 560 | 546 | 3 / 0 | Corinthians | RSSSF (classificação geral publicada) |
 | 2010 | RSSSF + ogol | 20 | 196 (202) | 623 | 623 | 0 / 2 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2011 | RSSSF + ogol | 20 | 198 (202) | 506 | 498 | 2 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -186,9 +186,7 @@ como na RSSSF.
 
 ### 1905
 
-- Paulistano x AA das Palmeiras não foi jogado e a vitória foi dada ao Paulistano sem placar ("awarded 0-0"); fica 0 a 0 com resultado especial, e por isso a campanha do Paulistano e a da AA das Palmeiras não fecham com a tabela publicada (que conta a vitória); o ogol registra 1 a 0
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 8, 2, 0, 20, 3] jogos [10, 7, 3, 0, 20, 3] — placar diverge entre RSSSF e ogol em Paulistano-SP x AA das Palmeiras (0-0 x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
-- tabela publicada x jogos — Fase única / -: AA das Palmeiras tabela [10, 1, 1, 8, 10, 27] jogos [10, 1, 2, 7, 10, 27] — placar diverge entre RSSSF e ogol em Paulistano-SP x AA das Palmeiras (0-0 x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- Paulistano x AA das Palmeiras não foi jogado e a vitória foi dada ao Paulistano ("awarded 0-0" na página): conta como vitória sem gols do Paulistano (W.O., decisão D-15), como na tabela publicada; o ogol registra 1 a 0
 
 ### 1906
 
@@ -216,34 +214,27 @@ como na RSSSF.
 
 ### 1908
 
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 6, 3, 1, 24, 17] jogos [9, 5, 3, 1, 24, 17] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 6, 2, 2, 15, 10] jogos [7, 3, 2, 2, 15, 10] — a tabela conta 10 jogos e as fontes trazem 7
 - tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [10, 5, 3, 2, 20, 12] jogos [9, 4, 3, 2, 20, 12] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: São Paulo Athletic tabela [10, 2, 0, 8, 7, 27] jogos [7, 1, 0, 6, 7, 27] — a tabela conta 10 jogos e as fontes trazem 7
-- tabela publicada x jogos — Fase única / -: CA Internacional-SP tabela [10, 0, 0, 10, 0, 14] jogos [6, 0, 0, 6, 0, 14] — a tabela conta 10 jogos e as fontes trazem 6
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 6, 3, 1, 24, 17] jogos [9, 5, 3, 1, 24, 17] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 6, 2, 2, 15, 10] jogos [7, 3, 2, 2, 15, 10] — a tabela conta 10 jogos e as fontes trazem 7
+- tabela publicada x jogos — Fase única / -: CA Internacional-SP tabela [10, 0, 0, 10, 0, 14] jogos [9, 0, 0, 9, 0, 14] — a tabela conta 10 jogos e as fontes trazem 9
 - tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [10, 5, 3, 2, 20, 12] jogos [9, 4, 3, 2, 20, 12] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: São Paulo Athletic tabela [10, 2, 0, 8, 7, 27] jogos [7, 1, 0, 6, 7, 27] — a tabela conta 10 jogos e as fontes trazem 7
-- tabela publicada x jogos — Fase única / -: CA Internacional-SP tabela [10, 0, 0, 10, 0, 14] jogos [6, 0, 0, 6, 0, 14] — a tabela conta 10 jogos e as fontes trazem 6
-- campeão pela lista oficial, Paulistano-SP; o 1º pela soma dos jogos da última fase é Germânia (desempate, jogo extra ou pontos tirados fora de campo)
+- tabela publicada x jogos — Fase única / -: CA Internacional-SP tabela [10, 0, 0, 10, 0, 14] jogos [9, 0, 0, 9, 0, 14] — a tabela conta 10 jogos e as fontes trazem 9
 
 ### 1909
 
-- tabela publicada x jogos — Fase única / -: AA das Palmeiras tabela [10, 6, 2, 2, 18, 8] jogos [10, 6, 2, 2, 19, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- o SC Internacional foi eliminado depois do jogo de 21/11/1909 e fica fora da tabela da RSSSF; o vice é o Paulistano
+- tabela publicada x jogos — Fase única / -: AA das Palmeiras tabela [10, 6, 2, 2, 18, 8] jogos [11, 7, 2, 2, 19, 10] — a tabela conta 10 jogos e as fontes trazem 11
 - tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 5, 4, 1, 26, 12] jogos [11, 5, 4, 2, 27, 14] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 2, 1, 7, 11, 22] jogos [8, 2, 1, 5, 12, 21] — a tabela conta 10 jogos e as fontes trazem 8
-- tabela publicada x jogos — Fase única / -: AA das Palmeiras tabela [10, 6, 2, 2, 18, 8] jogos [9, 5, 2, 2, 17, 9] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 2, 1, 7, 11, 22] jogos [8, 2, 1, 5, 12, 21] — a tabela conta 10 jogos e as fontes trazem 8
+- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 2, 1, 7, 11, 22] jogos [10, 2, 1, 7, 12, 21] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: AA das Palmeiras tabela [10, 6, 2, 2, 18, 8] jogos [10, 6, 2, 2, 17, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 2, 1, 7, 11, 22] jogos [10, 2, 1, 7, 12, 21] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- vice Paulistano-SP — o SC Internacional foi eliminado depois do jogo de 21/11/1909 (agressão de jogadores ao árbitro) e fica fora da tabela da RSSSF; vice pela RSSSF e pela Wikipédia (os W.O. de 1909, que agora contam, davam o 2º lugar ao Internacional)
 
 ### 1910
 
 - tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 8, 0, 2, 25, 18] jogos [10, 8, 0, 2, 24, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [9, 3, 2, 4, 17, 16] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 1, 1, 8, 14, 31] jogos [9, 0, 1, 8, 14, 31] — a tabela conta 10 jogos e as fontes trazem 9
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [10, 3, 2, 5, 17, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 8, 0, 2, 25, 18] jogos [10, 8, 0, 2, 24, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [9, 3, 2, 4, 17, 16] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 1, 1, 8, 14, 31] jogos [9, 0, 1, 8, 14, 31] — a tabela conta 10 jogos e as fontes trazem 9
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [10, 3, 2, 5, 17, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 
 ### 1911
 
@@ -558,7 +549,7 @@ como na RSSSF.
 
 ### 1933
 
-- placar diferente no ogol — São Bento de São Paulo x Portuguesa (1933-10-15): RSSSF 3-5, ogol 3-0; fica o da RSSSF
+- placar diferente no ogol — AA São Bento x Portuguesa (1933-10-15): RSSSF 3-5, ogol 3-0; fica o da RSSSF
 
 ### 1934
 
@@ -570,7 +561,7 @@ como na RSSSF.
 - tabela publicada x jogos — Fase única / -: Santos tabela [12, 9, 2, 1, 31, 11] jogos [12, 9, 2, 1, 32, 12] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase única / -: Palmeiras tabela [12, 8, 2, 2, 24, 12] jogos [12, 8, 2, 2, 28, 13] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase única / -: Portuguesa Santista tabela [12, 5, 1, 6, 28, 31] jogos [12, 5, 1, 6, 29, 22] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: ECPaulista tabela [12, 2, 1, 9, 17, 43] jogos [12, 2, 1, 9, 18, 44] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: CA Paulista tabela [12, 2, 1, 9, 17, 43] jogos [12, 2, 1, 9, 18, 44] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase única / -: Juventus-SP tabela [12, 1, 2, 9, 12, 27] jogos [12, 1, 2, 9, 14, 32] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 
 ### 1935 APEA
@@ -1492,235 +1483,45 @@ como na RSSSF.
 
 ### 1978
 
+- três turnos: o 1º e o 2º com decisão em mata-mata ("1º Turno - ...", "2º Turno - ..."), o 3º em dois grupos, depois semifinal e final; 3º lugar: Guarani, eliminado na semifinal com a melhor campanha (D-02). O playoff Velo Clube x Paulista (junho de 1979) é o torneio de rebaixamento
 - tabela publicada x jogos — Primeira fase / Grupo C: Corinthians tabela [19, 9, 8, 2, 24, 17] jogos [19, 9, 9, 1, 24, 15] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo D: Palmeiras tabela [19, 9, 6, 4, 26, 15] jogos [19, 8, 7, 4, 24, 15] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / Grupo A: Guarani tabela [19, 7, 8, 4, 24, 16] jogos [5, 5, 0, 0, 11, 2] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo A: Juventus-SP tabela [19, 8, 5, 6, 33, 27] jogos [5, 1, 2, 2, 9, 10] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo A: Portuguesa Santista tabela [19, 8, 5, 6, 13, 14] jogos [5, 0, 1, 4, 3, 14] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo A: Palmeiras tabela [19, 8, 4, 7, 23, 18] jogos [5, 3, 1, 1, 12, 5] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo A: Paulista tabela [19, 3, 8, 8, 10, 20] jogos [6, 1, 2, 3, 4, 8] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — Primeira fase / Grupo B: Corinthians tabela [19, 7, 8, 4, 25, 20] jogos [6, 2, 4, 0, 5, 3] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — Primeira fase / Grupo B: Botafogo-SP tabela [19, 7, 8, 4, 23, 19] jogos [6, 2, 2, 2, 5, 6] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — Primeira fase / Grupo B: Comercial-RP tabela [19, 5, 7, 7, 10, 19] jogos [6, 3, 2, 1, 8, 5] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — Primeira fase / Grupo B: Noroeste tabela [19, 4, 7, 8, 13, 22] jogos [5, 0, 2, 3, 1, 6] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo B: América-SP tabela [19, 3, 9, 7, 19, 29] jogos [7, 2, 2, 3, 6, 5] — a tabela conta 19 jogos e as fontes trazem 7
-- tabela publicada x jogos — Primeira fase / Grupo C: Ponte Preta tabela [19, 12, 5, 2, 39, 16] jogos [5, 1, 3, 1, 3, 3] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo C: Francana tabela [19, 5, 9, 5, 22, 27] jogos [5, 3, 2, 0, 11, 4] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo C: São Paulo tabela [19, 6, 4, 9, 24, 27] jogos [6, 4, 1, 1, 7, 4] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — Primeira fase / Grupo C: Marília tabela [19, 4, 8, 7, 22, 27] jogos [5, 0, 0, 5, 4, 12] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo C: São Bento tabela [19, 5, 4, 10, 23, 30] jogos [5, 1, 2, 2, 5, 7] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo D: Santos tabela [19, 10, 4, 5, 25, 15] jogos [4, 2, 2, 0, 10, 4] — a tabela conta 19 jogos e as fontes trazem 4
-- tabela publicada x jogos — Primeira fase / Grupo D: Ferroviária-SP tabela [19, 7, 8, 4, 18, 14] jogos [5, 2, 1, 2, 7, 8] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo D: XV de Piracicaba tabela [19, 6, 8, 5, 16, 16] jogos [6, 2, 3, 1, 6, 5] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — Primeira fase / Grupo D: XV de Jaú tabela [19, 6, 4, 9, 18, 19] jogos [5, 2, 2, 1, 8, 7] — a tabela conta 19 jogos e as fontes trazem 5
-- tabela publicada x jogos — Primeira fase / Grupo D: Portuguesa tabela [19, 5, 5, 9, 19, 24] jogos [6, 0, 2, 4, 5, 12] — a tabela conta 19 jogos e as fontes trazem 6
-- tabela publicada x jogos — 3º Turno / Grupo A: Guarani tabela [9, 5, 3, 1, 19, 7] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo A: São Paulo tabela [9, 4, 5, 0, 14, 6] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo A: Corinthians tabela [9, 5, 2, 2, 16, 11] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo A: Francana tabela [9, 1, 3, 5, 9, 14] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo A: Botafogo-SP tabela [9, 1, 0, 8, 7, 24] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo B: Palmeiras tabela [9, 6, 2, 1, 17, 6] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo B: Santos tabela [9, 5, 0, 4, 18, 9] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo B: Ponte Preta tabela [9, 4, 2, 3, 11, 10] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo B: Juventus-SP tabela [9, 3, 3, 3, 11, 16] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
-- tabela publicada x jogos — 3º Turno / Grupo B: Portuguesa tabela [9, 0, 2, 7, 3, 22] jogos None — o clube não aparece nos jogos desse bloco (tabela de outra fase ou grupo da página)
+- tabela publicada x jogos — Primeira fase / Grupo A: Guarani tabela [19, 7, 8, 4, 24, 16] jogos [8, 6, 0, 2, 14, 7] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo A: Juventus-SP tabela [19, 8, 5, 6, 33, 27] jogos [8, 2, 2, 4, 13, 19] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo A: Portuguesa Santista tabela [19, 8, 5, 6, 13, 14] jogos [8, 2, 2, 4, 7, 14] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo A: Palmeiras tabela [19, 8, 4, 7, 23, 18] jogos [8, 4, 2, 2, 18, 8] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo A: Paulista tabela [19, 3, 8, 8, 10, 20] jogos [8, 2, 2, 4, 7, 11] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo B: Corinthians tabela [19, 7, 8, 4, 25, 20] jogos [8, 2, 6, 0, 7, 5] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo B: Botafogo-SP tabela [19, 7, 8, 4, 23, 19] jogos [8, 2, 4, 2, 7, 8] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo B: Comercial-RP tabela [19, 5, 7, 7, 10, 19] jogos [8, 3, 3, 2, 9, 8] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo B: Noroeste tabela [19, 4, 7, 8, 13, 22] jogos [8, 1, 4, 3, 5, 8] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo B: América-SP tabela [19, 3, 9, 7, 19, 29] jogos [8, 2, 3, 3, 7, 6] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo C: Ponte Preta tabela [19, 12, 5, 2, 39, 16] jogos [8, 3, 4, 1, 15, 10] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo C: Francana tabela [19, 5, 9, 5, 22, 27] jogos [8, 4, 2, 2, 14, 9] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo C: São Paulo tabela [19, 6, 4, 9, 24, 27] jogos [8, 5, 1, 2, 10, 6] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo C: Marília tabela [19, 4, 8, 7, 22, 27] jogos [8, 2, 1, 5, 12, 18] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo C: São Bento tabela [19, 5, 4, 10, 23, 30] jogos [8, 1, 2, 5, 9, 17] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo D: Santos tabela [19, 10, 4, 5, 25, 15] jogos [8, 5, 3, 0, 15, 6] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo D: Ferroviária-SP tabela [19, 7, 8, 4, 18, 14] jogos [8, 4, 2, 2, 10, 8] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo D: XV de Piracicaba tabela [19, 6, 8, 5, 16, 16] jogos [8, 2, 3, 3, 6, 8] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo D: XV de Jaú tabela [19, 6, 4, 9, 18, 19] jogos [8, 2, 3, 3, 9, 10] — a tabela conta 19 jogos e as fontes trazem 8
+- tabela publicada x jogos — Primeira fase / Grupo D: Portuguesa tabela [19, 5, 5, 9, 19, 24] jogos [8, 0, 3, 5, 8, 16] — a tabela conta 19 jogos e as fontes trazem 8
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Velo Clube
+- Velo Clube — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Velo Clube)
 - placar diferente no ogol — Corinthians x Guarani (1978-11-19): RSSSF 2-2, ogol 3-2; fica o da RSSSF
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 1-2 Corinthians (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: Santos 4-1 São Paulo (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: São Bento 2-0 Palmeiras (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 0-0 Guarani (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: América-SP 0-3 Portuguesa (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 3-1 Francana (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 1-0 Noroeste (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: Marília 1-1 XV de Piracicaba (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: Paulista 0-1 Botafogo-SP (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 1-0 Ferroviária-SP (1979-01-28)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 3-1 São Bento (1979-01-31)
-- jogo só no ogol, incluído em 1st Phase: Guarani 0-0 Marília (1979-01-31)
-- jogo só no ogol, incluído em 1st Phase: XV de Piracicaba 1-2 Ponte Preta (1979-01-31)
-- jogo só no ogol, incluído em 1st Phase: Francana 1-1 Paulista (1979-01-31)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 2-0 Portuguesa Santista (1979-02-01)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 1-2 Guarani (1979-02-03)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 1-2 Portuguesa (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 2-3 Francana (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: XV de Piracicaba 1-1 São Bento (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: Marília 1-2 Portuguesa Santista (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 0-0 Juventus-SP (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: Paulista 0-2 Corinthians (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: América-SP 1-1 Botafogo-SP (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: Noroeste 0-0 Ferroviária-SP (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 0-1 Santos (1979-02-04)
-- jogo só no ogol, incluído em 1st Phase: Francana 0-0 Juventus-SP (1979-02-07)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-2 XV de Piracicaba (1979-02-07)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 0-0 Palmeiras (1979-02-07)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 3-1 São Paulo (1979-02-07)
-- jogo só no ogol, incluído em 1st Phase: São Bento 1-2 América-SP (1979-02-07)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 1-1 Botafogo-SP (1979-02-08)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 2-1 América-SP (1979-02-10)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 1-3 Paulista (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-1 Santos (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 1-2 Ponte Preta (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Guarani 4-0 Portuguesa (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: São Bento 1-2 Marília (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Francana 1-0 São Paulo (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: XV de Piracicaba 0-0 Comercial-RP (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 0-0 Noroeste (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 1-0 XV de Jaú (1979-02-11)
-- jogo só no ogol, incluído em 1st Phase: Marília 3-0 Portuguesa (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 5-1 Juventus-SP (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 3-0 São Bento (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: Santos 1-0 XV de Piracicaba (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 4-0 Comercial-RP (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 2-2 América-SP (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: Francana 2-2 Guarani (1979-02-14)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 3-0 Paulista (1979-02-15)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 1-2 Ponte Preta (1979-02-17)
-- jogo só no ogol, incluído em 1st Phase: Santos 1-0 XV de Jaú (1979-02-17)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 4-0 Noroeste (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 0-0 Corinthians (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: América-SP 1-1 São Paulo (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: Guarani 0-0 Ferroviária-SP (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: São Bento 5-0 Comercial-RP (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 2-0 Paulista (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 2-0 XV de Piracicaba (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: Marília 2-1 Francana (1979-02-18)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 2-1 Guarani (1979-02-21)
-- jogo só no ogol, incluído em 1st Phase: Noroeste 0-0 Santos (1979-02-21)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 0-2 Juventus-SP (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: Noroeste 1-1 Corinthians (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 1-0 Palmeiras (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: Guarani 2-2 XV de Piracicaba (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 1-1 Francana (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: Marília 4-4 Ponte Preta (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: Paulista 0-0 Santos (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: América-SP 0-1 Portuguesa Santista (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: São Bento 1-1 Ferroviária-SP (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 2-0 Comercial-RP (1979-02-24)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 3-0 Guarani (1979-03-03)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 1-1 Portuguesa (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: Santos 1-2 Palmeiras (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: América-SP 1-1 Marília (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: Francana 0-0 Noroeste (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 1-1 Corinthians (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 2-2 Botafogo-SP (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 5-2 São Bento (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: Paulista 2-2 XV de Jaú (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: XV de Piracicaba 0-0 Portuguesa Santista (1979-03-04)
-- jogo só no ogol, incluído em 1st Phase: São Bento 2-0 Santos (1979-03-07)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 1-1 XV de Jaú (1979-03-08)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-1 São Bento (1979-03-10)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 2-3 Santos (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 3-2 Juventus-SP (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: XV de Piracicaba 1-0 São Paulo (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 0-0 Paulista (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: América-SP 3-3 Francana (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 1-0 Marília (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: Noroeste 1-1 Botafogo-SP (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 2-0 Guarani (1979-03-11)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 2-1 Noroeste (1979-03-14)
-- jogo só no ogol, incluído em 1st Phase: Santos 4-0 América-SP (1979-03-14)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 3-0 Portuguesa Santista (1979-03-14)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 1-0 Marília (1979-03-14)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 0-3 Comercial-RP (1979-03-17)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-0 Portuguesa (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 0-1 São Bento (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 3-3 Juventus-SP (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: Marília 0-0 Palmeiras (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 0-1 Francana (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: XV de Piracicaba 1-1 América-SP (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 0-2 Ponte Preta (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: Guarani 0-1 Santos (1979-03-18)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 0-0 Ponte Preta (1979-03-21)
-- jogo só no ogol, incluído em 1st Phase: Paulista 0-0 Ferroviária-SP (1979-03-21)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 0-2 Noroeste (1979-03-21)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 3-2 Marília (1979-03-24)
-- jogo só no ogol, incluído em 1st Phase: Francana 0-4 Corinthians (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 1-0 Paulista (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa Santista 0-3 São Paulo (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 0-0 Portuguesa (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: Santos 3-0 Botafogo-SP (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: América-SP 2-0 XV de Jaú (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 2-0 XV de Piracicaba (1979-03-25)
-- jogo só no ogol, incluído em 1st Phase: São Bento 0-0 Guarani (1979-03-28)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-1 Portuguesa Santista (1979-03-28)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 1-0 XV de Jaú (1979-03-28)
-- jogo só no ogol, incluído em 1st Phase: Ferroviária-SP 0-0 Santos (1979-03-28)
-- jogo só no ogol, incluído em 1st Phase: Marília 0-1 Comercial-RP (1979-03-28)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 3-0 Palmeiras (1979-03-28)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 3-0 São Bento (1979-03-31)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 2-0 São Paulo (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Guarani 4-0 Corinthians (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Santos 0-1 Ponte Preta (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 3-1 América-SP (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Comercial-RP 0-1 Ferroviária-SP (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Noroeste 5-1 Marília (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Paulista 0-0 XV de Piracicaba (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Francana 1-1 Botafogo-SP (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: XV de Jaú 0-1 Portuguesa Santista (1979-04-01)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 2-1 Noroeste (1979-04-04)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 3-0 Ferroviária-SP (1979-04-08)
-- jogo só no ogol, incluído em 1st Phase: Santos 2-1 Francana (1979-04-14)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 0-1 Comercial-RP (1979-04-18)
-- jogo só no ogol, incluído em 1st Phase: Guarani 2-1 Botafogo-SP (1979-04-19)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 0-1 Juventus-SP (1979-04-19)
-- jogo só no ogol, incluído em 1st Phase: Santos 1-2 Ponte Preta (1979-04-19)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 0-2 Guarani (1979-04-25)
-- jogo só no ogol, incluído em 1st Phase: Noroeste 1-0 Paulista (1979-04-27)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-0 Portuguesa (1979-04-29)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 0-0 Juventus-SP (1979-04-29)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 1-0 Francana (1979-04-29)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 0-0 Juventus-SP (1979-05-02)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 3-1 Francana (1979-05-02)
-- jogo só no ogol, incluído em 1st Phase: Santos 5-1 Botafogo-SP (1979-05-02)
-- jogo só no ogol, incluído em 1st Phase: Guarani 2-0 Ponte Preta (1979-05-03)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 2-2 Corinthians (1979-05-05)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 3-1 Botafogo-SP (1979-05-05)
-- jogo só no ogol, incluído em 1st Phase: Santos 1-0 Francana (1979-05-06)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 2-0 Portuguesa (1979-05-06)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 1-4 Palmeiras (1979-05-06)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 0-0 Guarani (1979-05-06)
-- jogo só no ogol, incluído em 1st Phase: Santos 2-0 Ponte Preta (1979-05-07)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 1-0 Palmeiras (1979-05-09)
-- jogo só no ogol, incluído em 1st Phase: Santos 5-1 Portuguesa (1979-05-09)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 3-0 Botafogo-SP (1979-05-09)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 1-1 Guarani (1979-05-09)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 2-1 Botafogo-SP (1979-05-09)
-- jogo só no ogol, incluído em 1st Phase: Guarani 2-1 Francana (1979-05-10)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 2-3 Juventus-SP (1979-05-10)
-- jogo só no ogol, incluído em 1st Phase: Francana 0-0 Portuguesa (1979-05-10)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 1-1 Ponte Preta (1979-05-10)
-- jogo só no ogol, incluído em 1st Phase: Santos 0-1 Corinthians (1979-05-10)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 2-1 Santos (1979-05-12)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 3-1 Ponte Preta (1979-05-13)
-- jogo só no ogol, incluído em 1st Phase: Francana 2-1 Botafogo-SP (1979-05-13)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 4-1 Portuguesa (1979-05-13)
-- jogo só no ogol, incluído em 1st Phase: Guarani 5-1 Juventus-SP (1979-05-13)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 2-0 Botafogo-SP (1979-05-13)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 1-2 Ponte Preta (1979-05-13)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 0-0 Guarani (1979-05-14)
-- jogo só no ogol, incluído em 1st Phase: Juventus-SP 2-2 Francana (1979-05-16)
-- jogo só no ogol, incluído em 1st Phase: Guarani 3-0 Portuguesa (1979-05-16)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 1-0 Botafogo-SP (1979-05-16)
-- jogo só no ogol, incluído em 1st Phase: Santos 3-1 Guarani (1979-05-16)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 0-1 São Paulo (1979-05-17)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 1-1 Ponte Preta (1979-05-19)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 0-2 Palmeiras (1979-05-20)
-- jogo só no ogol, incluído em 1st Phase: Santos 0-1 Juventus-SP (1979-05-20)
-- jogo só no ogol, incluído em 1st Phase: Botafogo-SP 2-1 Portuguesa (1979-05-20)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 1-2 Santos (1979-05-20)
-- jogo só no ogol, incluído em 1st Phase: Portuguesa 0-4 São Paulo (1979-05-26)
-- jogo só no ogol, incluído em 1st Phase: Ponte Preta 1-1 Guarani (1979-05-27)
-- jogo só no ogol, incluído em 1st Phase: Corinthians 3-2 Francana (1979-05-27)
-- jogo só no ogol, incluído em 1st Phase: Palmeiras 2-1 Santos (1979-05-27)
-- jogo só no ogol, incluído em 1st Phase: Guarani 5-1 Botafogo-SP (1979-05-27)
-- jogo só no ogol, incluído em 1st Phase: São Paulo 1-1 Francana (1979-05-30)
-- jogo só no ogol, incluído em 1st Phase: Santos 3-1 Guarani (1979-05-30)
-- jogo só no ogol, incluído em 1st Phase: Santos 1-1 São Paulo (1979-06-24)
-- jogo só no ogol, incluído em 1st Phase: Santos 0-2 São Paulo (1979-06-28)
+- placar diferente no ogol — Corinthians x Juventus-SP (1979-04-19): RSSSF 0-0, ogol 0-1; fica o da RSSSF
+- placar diferente no ogol — Santos x Ponte Preta (1979-04-19): RSSSF 1-1, ogol 1-2; fica o da RSSSF
+- placar diferente no ogol — Palmeiras x São Paulo (1979-06-17): RSSSF 0-0, ogol 0-1; fica o da RSSSF
+- só o mês difere entre RSSSF e ogol em 16 jogos; fica a da RSSSF: Guarani x Ponte Preta 1979-06-03 (ogol 1979-05-03); Corinthians x Botafogo-SP 1979-06-05 (ogol 1979-05-05); Palmeiras x Guarani 1979-06-06 (ogol 1979-05-06); Santos x Ponte Preta 1979-06-07 (ogol 1979-05-07); São Paulo x Guarani 1979-06-09 (ogol 1979-05-09); Juventus-SP x Botafogo-SP 1979-06-09 (ogol 1979-05-09); Francana x Portuguesa 1979-06-10 (ogol 1979-05-10); Palmeiras x Ponte Preta 1979-06-10 (ogol 1979-05-10); Santos x Corinthians 1979-06-10 (ogol 1979-05-10); São Paulo x Botafogo-SP 1979-06-13 (ogol 1979-05-13); Juventus-SP x Ponte Preta 1979-06-13 (ogol 1979-05-13); Corinthians x Guarani 1979-06-14 (ogol 1979-05-14); Santos x Guarani 1979-06-16 (ogol 1979-05-16); Palmeiras x São Paulo 1979-06-17 (ogol 1979-05-17); São Paulo x Santos 1979-06-20 (ogol 1979-05-20); Ponte Preta x Guarani 1979-06-27 (ogol 1979-05-27)
+- só na RSSSF (não achado no ogol): Velo Clube 3-1 Paulista (1979-06-03)
+- só na RSSSF (não achado no ogol): Velo Clube 0-0 Paulista (1979-06-06)
+- só na RSSSF (não achado no ogol): Velo Clube 2-1 Paulista (1979-06-10)
 - 1 jogos da fase "Final" passam para "1º Turno - Final" (FASE_ANO/FASE_JOGO)
-- 2 jogos da fase "Primeira fase" passam para "Final" (FASE_ANO/FASE_JOGO)
+- 1 jogos da fase "Final" passam para "2º Turno - Final" (FASE_ANO/FASE_JOGO)
 - 4 jogos da fase "Quartas de final" passam para "1º Turno - Quartas de final" (FASE_ANO/FASE_JOGO)
+- 4 jogos da fase "Quartas de final" passam para "2º Turno - Quartas de final" (FASE_ANO/FASE_JOGO)
 - 2 jogos da fase "Semifinal" passam para "1º Turno - Semifinal" (FASE_ANO/FASE_JOGO)
+- 2 jogos da fase "Semifinal" passam para "2º Turno - Semifinal" (FASE_ANO/FASE_JOGO)
 - vencedor da final pelos jogos (São Paulo) diferente do campeão oficial (Santos); fica o oficial
 
 ### 1979

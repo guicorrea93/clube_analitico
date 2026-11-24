@@ -5,11 +5,11 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 135, de 1902 a 2026.
-- **Jogos:** 21846; **gols:** 64378; **gols com autor:** 6405 (10%); **cartões:** 0.
-- **Clubes:** 113; **artilheiros:** 132 temporadas com artilheiro (157 linhas, com empates).
+- **Jogos:** 21849; **gols:** 64382; **gols com autor:** 6405 (10%); **cartões:** 0.
+- **Clubes:** 111; **artilheiros:** 132 temporadas com artilheiro (157 linhas, com empates).
 - **Classificação final:** 135 temporadas; **rodada a rodada:** 22 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2801 linhas.
-- **No banco (`db/futebol.db`):** sim (135 edições, 21847 jogos).
+- **No banco (`db/futebol.db`):** sim (135 edições, 21846 jogos).
 - **Observação da competição:** 1ª divisão paulista, de 1902 a 2026. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
 
 ## 2. Fontes e regras
@@ -22,8 +22,8 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF): 219 tabelas fecham com os jogos e 123 divergem (cada divergência é explicada no relatório, na temporada).
-- Temporadas com alguma tabela divergente: 1905, 1906, 1908, 1909, 1910, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1997, 1999, 2001, 2002, 2003, 2005, 2006, 2010, 2016, 2022, 2024.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF): 222 tabelas fecham com os jogos e 120 divergem (cada divergência é explicada no relatório, na temporada).
+- Temporadas com alguma tabela divergente: 1906, 1908, 1909, 1910, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1997, 1999, 2001, 2002, 2003, 2005, 2006, 2010, 2016, 2022, 2024.
 - Temporadas sem tabela para conferir: 1940, 1951, 1952, 1953, 1954, 1955, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1971, 1972, 1984, 2014, 2025, 2026.
 - Temporadas com menos jogos do que o ogol: 1913 LPF (20 de 24), 1914 LPF (19 de 32), 1916 APEA (41 de 43), 1927 LAF (45 de 73), 1935 APEA (56 de 58), 1938 (55 de 56), 2009 (196 de 202), 2010 (196 de 202), 2011 (198 de 202), 2012 (198 de 202), 2013 (198 de 202), 2017 (110 de 121), 2018 (110 de 121), 2019 (110 de 121), 2020 (104 de 110), 2021 (104 de 109), 2022 (104 de 109), 2023 (104 de 109).
 
@@ -40,14 +40,14 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1940s | 1122 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 2593 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 2270 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 2411 | 100% | 0% | 17% | 0% | 0% | 0% | 0% | 0.0 |
+| 1970s | 2414 | 100% | 0% | 17% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 3739 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 2898 | 100% | 9% | 19% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 1621 | 100% | 73% | 97% | 0% | 0% | 0% | 31% | 0.0 |
 | 2010s | 1594 | 100% | 100% | 93% | 1% | 1% | 6% | 95% | 0.0 |
 | 2020s | 696 | 100% | 100% | 76% | 0% | 0% | 0% | 54% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 21446; ogol: 383; Futebol Nacional: 17.
+**Fonte de cada jogo:** RSSSF Brasil: 21641; ogol: 191; Futebol Nacional: 17.
 
 ## 5. Formato ao longo do tempo
 
@@ -101,8 +101,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1975: 19 clubes
 - 1976: 18 clubes
 - 1977: 19 clubes
-- 1978: 20 clubes
-- 1979 a 1980: 21 clubes
+- 1978 a 1980: 21 clubes
 - 1981 a 1988: 20 clubes
 - 1989: 22 clubes
 - 1990: 24 clubes
@@ -165,7 +164,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1973 a 1975: pontos corridos + mata-mata
 - 1976: 3 grupos + pontos corridos
 - 1977: pontos corridos + mata-mata + pontos corridos + mata-mata + 2 grupos + mata-mata
-- 1978: 4 grupos + mata-mata
+- 1978: mata-mata + 4 grupos + mata-mata + 2 grupos + mata-mata
 - 1979: mata-mata + pontos corridos + 2 grupos + mata-mata
 - 1980: mata-mata + pontos corridos
 - 1981: 2 grupos + mata-mata + 2 grupos + 3 grupos + pontos corridos + 2 grupos + mata-mata
@@ -193,7 +192,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2024 a 2025: 4 grupos + mata-mata
 - 2026: pontos corridos + mata-mata
 
-**Fases que aparecem** (número de temporadas): Fase única (68); Final (49); Primeira fase (36); Semifinal (33); 1º Turno (29); 2º Turno (27); Segunda fase (21); Quartas de final (11); Repescagem (4); Fase final (4); Torneio de rebaixamento (4); 1º Turno - Final (3); Desempate (2); 1º Turno - Semifinal (2); 2º Turno - Final (2); Terceira fase (2); Torneio de Classificação (1); Fase de Classificação (1); 2º Turno - 1ª fase (1); 2º Turno - 2ª fase (1); 2º Turno - Semifinal (1); 3º Turno (1); 1º Turno - Quartas de final (1); 1º Turno - Classificatória (1); 2º Turno - Classificatória (1).
+**Fases que aparecem** (número de temporadas): Fase única (68); Final (49); Primeira fase (36); Semifinal (34); 1º Turno (29); 2º Turno (27); Segunda fase (21); Quartas de final (11); Torneio de rebaixamento (5); Repescagem (4); Fase final (4); 1º Turno - Final (3); 2º Turno - Final (3); Desempate (2); 1º Turno - Semifinal (2); 2º Turno - Semifinal (2); 3º Turno (2); Terceira fase (2); Torneio de Classificação (1); Fase de Classificação (1); 2º Turno - 1ª fase (1); 2º Turno - 2ª fase (1); 1º Turno - Quartas de final (1); 2º Turno - Quartas de final (1); 1º Turno - Classificatória (1); 2º Turno - Classificatória (1).
 
 **Observações das edições:**
 
@@ -244,6 +243,11 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 
 - **1973:** título dividido entre Portuguesa e Santos: a final terminou 0-0 e o árbitro encerrou os pênaltis com 2-0 para o Santos quando a Portuguesa ainda podia empatar; a FPF declarou os dois campeões (o Santos só chega aos 22 títulos da lista oficial com este) e o Palmeiras herdou o vice (D-07, SP-001)
 
+### Clube trocado pelo ogol numa temporada (código -> código) (`importar.CORRIGE_OGOL`)
+
+- **1933 · 233382:** [39622] "São Bento de São Paulo" é a AA São Bento da capital: a RSSSF e o Futebol Nacional escrevem "AA São Bento" em 1933 (D-23 d, SP-026)
+- **1935 LPF · 81019:** [275483] "ECPaulista" (ficha de São Carlos) é o CA Paulista da capital: o Futebol Nacional escreve "CA Paulista" em 1934, 1935 LPF e 1936 (D-23 e, SP-027)
+
 ### Nome da página casado à mão com o clube (`importar.NOME_MANUAL`)
 
 - **1927 APEA · Corinthians de Santo André:** [81207] "Corinthians (SBC)" na página; o ogol tem os 13 jogos dele (SP-009)
@@ -281,7 +285,9 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
-- **1905:** Paulistano x AA das Palmeiras não foi jogado e a vitória foi dada ao Paulistano sem placar ("awarded 0-0"); fica 0 a 0 com resultado especial, e por isso a campanha do Paulistano e a da AA das Palmeiras não fecham com a tabela publicada (que conta a vitória); o ogol registra 1 a 0
+- **1905:** Paulistano x AA das Palmeiras não foi jogado e a vitória foi dada ao Paulistano ("awarded 0-0" na página): conta como vitória sem gols do Paulistano (W.O., decisão D-15), como na tabela publicada; o ogol registra 1 a 0
+- **1909:** o SC Internacional foi eliminado depois do jogo de 21/11/1909 e fica fora da tabela da RSSSF; o vice é o Paulistano
+- **1978:** três turnos: o 1º e o 2º com decisão em mata-mata ("1º Turno - ...", "2º Turno - ..."), o 3º em dois grupos, depois semifinal e final; 3º lugar: Guarani, eliminado na semifinal com a melhor campanha (D-02). O playoff Velo Clube x Paulista (junho de 1979) é o torneio de rebaixamento
 - **1914 APEA:** campeão: Associação Atlética São Bento (o São Bento da capital, extinto; não é o de Sorocaba)
 - **1925:** campeão: Associação Atlética São Bento (o mesmo de 1914 APEA)
 - **1979:** a repescagem Marília x Santo André vem na página depois da final (fevereiro de 1980) só com dia e mês ("[Dec 5]"); ficou dezembro de 1980 pela ordem da página, mas pode ser dezembro de 1979 (o ogol não tem esses jogos)

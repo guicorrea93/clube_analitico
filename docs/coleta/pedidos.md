@@ -883,3 +883,39 @@ O Guilherme mandou seguir o resto do plano `docs/revisao/plano-coleta-brasil.md`
    - a identidade da AA São Bento de 1933 e do CA Paulista de 1935 (SP-026, SP-027, D-23).
 
    Depois: A2, C, D e Copa.
+
+## Correções da revisão — bra-sp-1 — 24/11/2026 (parte 4: pódio)
+
+1. **Corrigidos** (em `coleta/bra-sp-1/importar.py` e `rsssf_sp1.py`):
+   - **SP-026 e SP-027 (D-23 d e e):** juntados por `CORRIGE_OGOL`:
+     - "São Bento de São Paulo" (1933, ogol 233382) vai para a AA São Bento;
+     - "ECPaulista" (1935 LPF, ogol 81019) vai para o CA Paulista.
+
+     As duas sobras saíram do cadastro comum.
+   - **SP-017:**
+     - 1971: desempate por saldo antes das vitórias (`CRITERIO_SALDO`); 3º Corinthians.
+     - 2008: semifinalistas pela campanha toda (D-02 A; `SEM_TABELA_GERAL`); 3º São Paulo (41) e 4º Guaratinguetá (40).
+   - **SP-003, os 3º lugares:**
+     - 1990: a última fase de liga (3ª fase) decide (`FASE_DECISIVA`, D-02 A); 3º Corinthians.
+     - 1978: a página escreve "03/Jun/1979", com o ano, e o leitor não entendia esse formato. Os jogos de 1979 vinham só do ogol, que pôs em maio o 3º turno de junho e não separava as fases. Agora:
+       - a página é lida inteira, e quando só o mês difere entre RSSSF e ogol fica a da RSSSF (só em 1978, `SO_MES_DA_RSSSF`, conferido com o FN);
+       - o 3º turno, as semifinais e a final ficam separados, e as decisões do 2º turno viram "2º Turno - ...";
+       - entra o playoff Velo Clube x Paulista (3 jogos, "Torneio de rebaixamento");
+       - 3º Guarani, eliminado na semifinal com a melhor campanha (D-02).
+     - 1908: os W.O. marcados "dns" na página não contavam. Agora contam, de 1905 a 1910, e também o "awarded 0-0" de 1905, que era um empate e passa a ser vitória do Paulistano. 1908: 3º Americano, como na tabela da RSSSF.
+     - 1909: vice Paulistano (`VICE_OFICIAL`). O SC Internacional foi eliminado e não está na tabela da RSSSF; com os W.O. contando, ele subia para 2º.
+   - **Ficam como estão, com os motivos anotados:**
+     - 1917 e 1954: o FN confirma o pacote (Corinthians e Santos em 3º); a Wikipédia diverge.
+     - 1927 LAF, 1928 LAF e 1930: a RSSSF dá o 3º lugar dividido entre os dois clubes. O pacote desempata pelas vitórias e pelo saldo, e a Wikipédia escolhe o outro clube.
+     - 1959: empate em pontos (Ferroviária e São Paulo, 53), sem regra da época conhecida.
+     - 2010: Barueri e Grêmio Prudente são o mesmo clube.
+2. **Números:**
+   - 135 edições e 21.849 jogos (1978 com 447).
+   - Tabelas: 222 fecham e 120 divergem (eram 219 e 123).
+   - Clubes com dois jogos no mesmo dia: 44 (eram 56).
+   - A A2 não muda.
+   - testar_carga: `bra-sp-1: 135 edições, 21849 jogos, 0 clubes novos -> OK`.
+3. **Pedidos ao agente 1:**
+   - recarregar o `bra-sp-1`;
+   - no banco, juntar "São Bento de São Paulo" na AA São Bento e "ECPaulista" no CA Paulista, mantendo os nomes AA São Bento e CA Paulista (D-23 d e e).
+4. **Plano do Paulista (`bra-sp-1`) concluído.** Próximo: A2 (`bra-sp-2`), depois Série C, D e Copa.

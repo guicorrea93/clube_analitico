@@ -36,9 +36,12 @@ INTRO = [
 
 # temporada -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada temporada)
 EXPLICACOES: dict[str, list[str]] = {
-    "1905": ["Paulistano x AA das Palmeiras não foi jogado e a vitória foi dada ao Paulistano sem placar (\"awarded 0-0\"); "
-             "fica 0 a 0 com resultado especial, e por isso a campanha do Paulistano e a da AA das Palmeiras não fecham com a "
-             "tabela publicada (que conta a vitória); o ogol registra 1 a 0"],
+    "1905": ["Paulistano x AA das Palmeiras não foi jogado e a vitória foi dada ao Paulistano (\"awarded 0-0\" na página): "
+             "conta como vitória sem gols do Paulistano (W.O., decisão D-15), como na tabela publicada; o ogol registra 1 a 0"],
+    "1909": ["o SC Internacional foi eliminado depois do jogo de 21/11/1909 e fica fora da tabela da RSSSF; o vice é o Paulistano"],
+    "1978": ["três turnos: o 1º e o 2º com decisão em mata-mata (\"1º Turno - ...\", \"2º Turno - ...\"), o 3º em dois grupos, "
+             "depois semifinal e final; 3º lugar: Guarani, eliminado na semifinal com a melhor campanha (D-02). O playoff Velo "
+             "Clube x Paulista (junho de 1979) é o torneio de rebaixamento"],
     "1914 APEA": ["campeão: Associação Atlética São Bento (o São Bento da capital, extinto; não é o de Sorocaba)"],
     "1925": ["campeão: Associação Atlética São Bento (o mesmo de 1914 APEA)"],
     "1979": ["a repescagem Marília x Santo André vem na página depois da final (fevereiro de 1980) só com dia e mês "

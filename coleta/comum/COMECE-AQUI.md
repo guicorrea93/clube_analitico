@@ -72,7 +72,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be | sim | OK |
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
-| `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.846 | 47f43d8; `pacote.py` (parte 3) neste commit (24/11) | sim; recarregar | OK |
+| `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 20fbf14; pódio (parte 4) neste commit (24/11); plano do Paulista concluído | sim; recarregar | OK |
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.223 | 566809e; A2-001 (1967-1984) neste commit (23/11) | sim; recarregar | OK (16 clubes novos) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
@@ -103,7 +103,9 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
         `coleta/bra-sp-1/baixar_fpf.py` e `fpf_sp1.py`; seção "... (parte 2: FPF e 2026)" de `docs/coleta/pedidos.md`);
      3. `pacote.py` (feita 24/11: SP-015, QS-010, SP-023, SP-024, QS-011, SP-022 e o jogo falso de 1933; seção
         "... (parte 3: pacote.py)" de `docs/coleta/pedidos.md`);
-     4. pódio: 3º lugares que sobram (SP-003, SP-017) e identidades (SP-026, SP-027, D-23); depois A2, C, D e Copa.
+     4. pódio (feita 24/11: SP-003, SP-017, SP-026, SP-027, W.O. "dns" de 1905-1910 e 1978 lido inteiro; seção
+        "... (parte 4: pódio)" de `docs/coleta/pedidos.md`). Plano do Paulista concluído; sobra só o anotado lá.
+   - Próximo: A2 (`bra-sp-2`, seção "Paulista A2" do plano), depois Série C, D e Copa.
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO, JOGO_CORRIGIDO, JOGOS_EXTRA): se um nome não casar, o importador para com erro
      (não passa calado). `RSSSF_FORA` e `JOGOS_ANULADOS` usam o nome como está na página e tiram o jogo antes do ogol.
