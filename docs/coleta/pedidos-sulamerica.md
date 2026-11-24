@@ -1199,7 +1199,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Campeões:** 65 de 66 batem com a Wikipédia. A exceção é 1970: os jogos da RSSSF (Galicia 2-0 e 1-1 contra o
      Deportivo Italia) e a lista de campeões da RSSSF dão o Deportivo Galicia, e a Wikipédia dá o Deportivo Italia com os
      mesmos placares. O pacote fica com o Galicia, pelos jogos.
-2. **Commits:** `(hash no próximo commit)`.
+2. **Commits:** `025eb7f`.
 3. **Teste de carga:** `ven-copa: 66 edições, 1397 jogos, 79 clubes novos -> OK`. As outras seis copas: `0 clubes
    novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
