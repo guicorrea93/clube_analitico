@@ -992,7 +992,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Fonte:** RSSSF, seção "Copa Paraguay" das páginas do ano, as mesmas do par-1. Os 7 campeões batem com a Wikipédia
      em espanhol.
    - **Sem** autores de gols: a RSSSF não traz na copa do Paraguai. Sem cartões, estádio e público também.
-2. **Commits:** (abaixo).
+2. **Commits:** `e31a932`.
 3. **Teste de carga:** `par-copa: 7 edições, 296 jogos, 75 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:** carregar a `par-copa`.
 5. **Decisões:**
