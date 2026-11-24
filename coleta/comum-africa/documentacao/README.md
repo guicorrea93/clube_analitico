@@ -6,11 +6,12 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Egípcio | 73 (1948/49–2025/26) | 13 | 11574 | 3068 | 0 | 74 | 42 / 12 | sim | 06635c8 | 0 | [egy-1](egy-1.md) |
-| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | sim | 786998d | 0 | [mar-1](mar-1.md) |
-| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | sim | 786998d | 0 | [tun-1](tun-1.md) |
-| Campeonato Argelino | 64 (1962/63–2025/26) | 0 | 15210 | 3829 | 0 | 81 | 22 / 39 | sim | b09bbaa | 0 | [alg-1](alg-1.md) |
-| Campeonato Sul-Africano | 55 (1971–2025/26) | 22 | 8108 | 4721 | 0 | 89 | 28 / 1 | não | — | 0 | [rsa-1](rsa-1.md) |
+| Campeonato Egípcio | 73 (1948/49–2025/26) | 13 | 11574 | 3068 | 0 | 74 | 42 / 12 | sim | 06635c89 | 0 | [egy-1](egy-1.md) |
+| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | sim | 786998de | 0 | [mar-1](mar-1.md) |
+| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | sim | 786998de | 0 | [tun-1](tun-1.md) |
+| Campeonato Argelino | 64 (1962/63–2025/26) | 0 | 15210 | 3829 | 0 | 81 | 22 / 39 | sim | b09bbaa5 | 0 | [alg-1](alg-1.md) |
+| Campeonato Sul-Africano | 55 (1971–2025/26) | 22 | 8108 | 4721 | 0 | 89 | 28 / 1 | sim | b7555945 | 0 | [rsa-1](rsa-1.md) |
+| Campeonato Nigeriano | 55 (1972–2025/26) | 26 | 8906 | 73 | 0 | 82 | 13 / 8 | não | — | 0 | [nga-1](nga-1.md) |
 
 ## Pendências de todas as competições
 
@@ -45,6 +46,12 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **rsa-1:** Rebaixamento pelos desempates de acesso (2004/05 a 2025/26) marcado à mão (o 15º que não está na 1ª divisão do ano seguinte); clubes que saíram por venda da vaga, fusão ou redução da liga ficam sem marca.
 - **rsa-1:** Autores dos gols só onde a RSSSF traz; artilheiros de poucas temporadas (contagem dos gols com autor). Fonte que resolveria: o ogol jogo a jogo (2005/06 em diante).
 - **rsa-1:** Identidade a conferir: Cape Town Spurs = Ajax Cape Town (fusão de 1999 e volta ao nome em 2020); SuperSport United = Pretoria City = Albany City; Free State Stars = Qwa Qwa Stars = Score Stars; Highlands Park (1959) = Welkom Eagles (1993); Durban Bush Bucks (até 1987) x Bush Bucks de Umtata (desde 1988); Mpumalanga Black Aces = Witbank Aces = Total Aces.
+- **nga-1:** Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
+- **nga-1:** 1972 a 1997: só a tabela final (1972, 1989, 1991 a 1997) ou só o campeão (1973 a 1988 e 1990); faltam as páginas de 1980 a 1982. 1998 a 2003, 2007/08 e 2019/20: só parte dos jogos. Fonte que resolveria: jornais nigerianos (Daily Times, The Guardian, Complete Sports) ou o arquivo da NPFL.
+- **nga-1:** 2009/10 a 2011/12: os jogos do ogol não fecham com a tabela da RSSSF em vários clubes (placar de campo de jogos decididos de outro jeito?); nenhum placar mudado.
+- **nga-1:** Rebaixamento marcado só onde a página diz (tabela ou nota); nos anos 1970 e 1980, sem informação.
+- **nga-1:** Autores dos gols quase nenhum; artilheiros, nenhum. Fonte que resolveria: o ogol jogo a jogo (2008/09 em diante).
+- **nga-1:** Identidade a conferir: Heartland = Iwuanyanwu Nationale; Dolphin = Eagle Cement; Ifeanyi Ubah = Gabros International; ABS = Bukola Babes; NITEL Vasco = P&T Vasco da Gama; o "Akwa Star..." do ogol de 2011/12 = Akwa United.
 
 ## Próximas competições
 

@@ -58,7 +58,8 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | 820bf5f (24/11; sem push) | não |
 | `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | 786998d (24/11; sem push) | não |
 | `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | b09bbaa (24/11; sem push) | não |
-| `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | sem commit (pronto 24/11; espera o "sim") | não |
+| `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | b755594 (24/11; sem push) | não |
+| `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | sem commit (pronto 24/11; espera o "sim") | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -68,10 +69,12 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
    pedir; esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
 3. `alg-1`: commit b09bbaa; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de
    `docs/coleta/pedidos-africa.md`).
-4. `rsa-1` (África do Sul): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`;
-   commit só com o "sim" do Guilherme.
-5. Próxima liga: `nga-1` (Nigéria). Antes, mandar ao Guilherme o escopo.
-6. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+4. `rsa-1`: commit b755594; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de
+   `docs/coleta/pedidos-africa.md`).
+5. `nga-1` (Nigéria): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit só
+   com o "sim" do Guilherme.
+6. Próxima liga: `gha-1` (Gana). Antes, mandar ao Guilherme o escopo.
+7. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -206,6 +209,17 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
 - ogol: competição `liga-sul-africana`, edições desde 1996/97, mas só com jogos de 2005/06 em diante.
 - Wikipédia: artigos por temporada (48 de 55); o artigo da liga não tem lista de campeões que sirva (desligada).
 
+**Nigéria (`nga-1`):**
+- **Escopo (pesquisa de 24/11; o Guilherme aprovou em 24/11):** a liga nacional desde 1972, como a liga e a imprensa contam
+  (o título de 2025/26 foi o "9º" do Enugu Rangers); fora a Amachree Gold Cup de 1971 (a RSSSF conta), as ligas
+  regionais e as copas. 2018 e 2019/20 abandonados, sem campeão.
+- RSSSF: lista em `tablesn/nigchamp.html`; páginas `nig72` (a década de 1970 inteira), `nig83` ... `nig99`, `nig00` ...
+  `nig09`, `nig2010` ... `nig2026` (sem 1980 a 1982; `nig88` = 1987/88). Temporadas no ano civil até 2007, 2007/08 a
+  2011/12, ano civil de 2013 a 2019, depois 2019/20 a 2021/22, 2023 e 2023/24 em diante.
+- ogol: competição `liga-nigeriana`, jogos só de 2008/09 em diante; **rotula as temporadas de ano civil pelo ano anterior**
+  ("2016/17" = 2017; "2022/23" = 2023): cada edição se liga ao ogol pelo id (`Edicao.ogol_id`), não pelo ano.
+- Wikipédia: artigos por temporada só de 2009/10 em diante.
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -298,6 +312,15 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   `TABELAS_FORA`.
 - **Rebaixamento pelos desempates de acesso** não vem na tabela: `SITUACAO_FIXA` (15º que some no ano seguinte); venda de
   vaga (comum na PSL) não é rebaixamento.
+
+**RSSSF (Nigéria):**
+- **Tabelas dos anos 1990 em outros formatos** ("Teams P W SD GLD L GF GA GD PTS", "P W D L ...", "14  9/ 3   4"): convertidas
+  em `linhas()`; o empate com gols valia 2 pontos (o ponto a mais vai no `ajuste_pontos`).
+- **"3SC"** (Shooting Stars) começa por número: o leitor comum recusa a linha; trocado em `linhas()`.
+- **Nota que continua nas linhas de baixo** cola em outro jogo ("committee annulled ..." marcou como anulado um jogo
+  válido, 2023/24): `CORRIGE`.
+- **Rodada anulada e jogada de novo** ("Replay Round 20", 2005) e resultado dado depois revogado: `CORRIGE`.
+- **"3 points and 3 goals deducted"**: a tabela desconta os gols; os jogos não fecham (explicado).
 
 **ogol (Argélia):** só tem jogos de 1985/86 em diante, com os mesmos placares da RSSSF (copiados): serve para data e
 rodada, não como segunda fonte de placar. Nomes curtos ("CS Constantinois", "Ol. Medea", "Tadjenanet", "MCE Bayadh").

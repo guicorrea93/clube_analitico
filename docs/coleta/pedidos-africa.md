@@ -212,7 +212,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    abandonados); 18.432 gols, 4.721 com autor (sobretudo de 2002/03 a 2013/14); 0 cartões; 89 clubes, todos novos.
    Fontes: RSSSF (página de cada ano), ogol (jogos de 2005/06 em diante: base de 2025/26; data, rodada e conferência nos
    outros), Wikipédia em inglês (tabela de 48 temporadas). A ESPN não tem a liga.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** b755594 (24/11; sem push).
 3. **Teste de carga:** `rsa-1: 55 edições, 8108 jogos, 89 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `rsa-1`; país novo **RSA (África do Sul, CAF)**, criado pelo `competicao.json` (a África do Sul foi a
@@ -248,3 +248,46 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    temporada: 1993, 2007/08); os rebaixamentos marcados à mão; 1999/00 (a lista de jogos não fecha com a tabela em seis
    clubes; a Wikipédia confirma a tabela).
 8. **Próxima competição:** `nga-1` (Nigéria), depois da decisão do Guilherme sobre o escopo.
+
+## Recado de fim de coleta — nga-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `nga-1` (Campeonato Nigeriano, hoje Nigeria Premier Football League), 55 edições de 1972 a
+   2025/26; 8.906 jogos (7.766 da RSSSF, 1.140 do ogol; 51 decididos fora de campo, 10 W.O., 32 não jogados ou anulados,
+   30 abandonados); 17.820 gols, só 73 com autor; 0 cartões; 82 clubes, todos novos. Fontes: RSSSF (página de cada ano),
+   ogol (jogos de 2008/09 em diante: base de 2009/10 a 2011/12; data, rodada e conferência nos outros), Wikipédia em
+   inglês (tabela das temporadas desde 2009/10). A ESPN não tem a liga.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `nga-1: 55 edições, 8906 jogos, 82 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `nga-1`; país novo **NGA (Nigéria, CAF)**, criado pelo `competicao.json` (a Nigéria foi a várias Copas:
+     conferir se a bandeira já existe);
+   - **temporadas que mudam de formato**: ano civil até 2007, 2007/08 a 2011/12, ano civil de 2013 a 2019, 2019/20 a
+     2021/22, 2023 e 2023/24 em diante;
+   - **pontos**: 2-1-0 (vitória, empate, derrota) até 1989; de 1990 a 1994, 3 por vitória, 2 por empate com gols e 1 por
+     empate sem gols (o `edicoes.csv` dá 3-1-0 e o ponto a mais vai no `ajuste_pontos`); 3-1-0 desde 1995;
+   - **26 edições "sem jogos"**: só o campeão (17: 1973 a 1988 e 1990) ou só a tabela final (9: 1972, 1989, 1991 a 1997);
+   - **2 temporadas abandonadas sem campeão** (2018 e 2019/20) e **7 com "jogos incompletos"** (1998 a 2003 e 2007/08);
+   - 2006, 2007, 2019 e 2023: dois grupos e fase final (a fase final dá as primeiras posições);
+   - 2016: o Giwa FC foi expulso e os resultados dele anulados.
+5. **Decisões tomadas:**
+   - escopo: a liga nacional desde 1972, como a liga e a imprensa contam (o título de 2025/26 foi o "9º" do Enugu Rangers);
+     fora a Amachree Gold Cup de 1971, que a RSSSF conta (o Guilherme aprovou em 24/11);
+   - nomes: Enugu Rangers = Rangers International; Heartland = Iwuanyanwu Nationale; Dolphin = Eagle Cement; Shooting
+     Stars = IICC = 3SC; Ifeanyi Ubah = Gabros International; ABS = Bukola Babes; Nigerian Ports Authority = NPA; NITEL
+     Vasco = P&T Vasco da Gama; o Rivers United (fusão de Dolphin e Sharks em 2016) é um clube próprio;
+   - correções: quatro linhas de tabela com vitórias + empates + derrotas que não davam os jogos (1992, 1994, 1996,
+     2002), pelos pontos; 2005: a rodada 20 de julho anulada (jogada de novo em novembro) e um 0-2 dado e depois revogado;
+     2006: um 0-3 dado (o leitor tinha lido "n/p"); 2023/24: um jogo válido que o leitor marcava como anulado (nota de
+     outro jogo);
+   - rebaixamento marcado onde a página diz (tabela ou nota: 1993, 1996).
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - os jogos de 1972 a 1997 (a RSSSF só tem a tabela ou o campeão; sem páginas de 1980 a 1982) e parte dos de 1998 a
+     2003, 2007/08 e 2019/20; o ogol só tem jogos de 2008/09 em diante. Fonte que resolveria: jornais nigerianos (Daily
+     Times, The Guardian, Complete Sports) ou o arquivo da NPFL;
+   - autores dos gols, artilheiros e cartões.
+7. **Onde a revisão deve olhar primeiro:** 2009/10 a 2011/12 (os jogos do ogol não fecham com a tabela da RSSSF em vários
+   clubes); as punições de pontos e gols (2023/24, 2024/25, 2025/26); a identidade dos clubes do item 5.
+8. **Próxima competição:** `gha-1` (Gana), depois da decisão do Guilherme sobre o escopo.

@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1"]
-PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa"}
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1"]
+PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -112,6 +112,19 @@ PENDENCIAS: dict[str, list[str]] = {
         "= Pretoria City = Albany City; Free State Stars = Qwa Qwa Stars = Score Stars; Highlands Park (1959) = Welkom "
         "Eagles (1993); Durban Bush Bucks (até 1987) x Bush Bucks de Umtata (desde 1988); Mpumalanga Black Aces = Witbank "
         "Aces = Total Aces.",
+    ],
+    "nga-1": [
+        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
+        "1972 a 1997: só a tabela final (1972, 1989, 1991 a 1997) ou só o campeão (1973 a 1988 e 1990); faltam as páginas de "
+        "1980 a 1982. 1998 a 2003, 2007/08 e 2019/20: só parte dos jogos. Fonte que resolveria: jornais nigerianos (Daily "
+        "Times, The Guardian, Complete Sports) ou o arquivo da NPFL.",
+        "2009/10 a 2011/12: os jogos do ogol não fecham com a tabela da RSSSF em vários clubes (placar de campo de jogos "
+        "decididos de outro jeito?); nenhum placar mudado.",
+        "Rebaixamento marcado só onde a página diz (tabela ou nota); nos anos 1970 e 1980, sem informação.",
+        "Autores dos gols quase nenhum; artilheiros, nenhum. Fonte que resolveria: o ogol jogo a jogo (2008/09 em diante).",
+        "Identidade a conferir: Heartland = Iwuanyanwu Nationale; Dolphin = Eagle Cement; Ifeanyi Ubah = Gabros "
+        "International; ABS = Bukola Babes; NITEL Vasco = P&T Vasco da Gama; o \"Akwa Star...\" do ogol de 2011/12 = Akwa "
+        "United.",
     ],
 }
 

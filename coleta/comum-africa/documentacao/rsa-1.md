@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 8108 (8057 com placar); **gols:** 18432; **gols com autor:** 4721 (26%); **cartões:** 0.
 - **Clubes:** 89; **artilheiros:** 5 edições com artilheiro (5 linhas, com empates).
 - **Classificação final:** 55 edições; **tabelas publicadas guardadas para conferência:** 878 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** b7555945.
 - **Observação da competição:** 1ª divisão sul-africana na linha que a RSSSF e a imprensa contam: NPSL (1971 a 1984), NSL (1985 a 1995) e Premier Soccer League (desde 1996/97). Sem as ligas separadas por raça do apartheid (NFL dos brancos, SASL/FPL), a NPSL paralela depois de 1985 e o torneio de transição de 1996. Pontos 2-1-0 (vitória, empate, derrota) até 1994 e 3-1-0 desde 1995.
 
 ## 2. Edições, fontes e regras

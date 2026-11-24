@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 15210 (15196 com placar); **gols:** 33855; **gols com autor:** 3829 (11%); **cartões:** 0.
 - **Clubes:** 81; **artilheiros:** 58 edições com artilheiro (65 linhas, com empates).
 - **Classificação final:** 64 edições; **tabelas publicadas guardadas para conferência:** 1033 linhas.
-- **No banco:** sim; **último commit do pacote:** b09bbaa.
+- **No banco:** sim; **último commit do pacote:** b09bbaa5.
 - **Observação da competição:** 1ª divisão argelina (hoje Ligue Professionnelle 1) desde a independência, de 1962/63 a 2025/26. 1962/63 e 1963/64: ligas regionais e fase final. 2019/20 parado pela Covid-19, com o campeão declarado pela federação. Pontos 3-2-1 (vitória, empate, derrota) até 1985/86, 2-1-0 de 1986/87 a 1994/95 e 3-1-0 desde 1995/96.
 
 ## 2. Edições, fontes e regras

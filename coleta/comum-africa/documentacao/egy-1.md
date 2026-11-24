@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 11574 (11573 com placar); **gols:** 24475; **gols com autor:** 3068 (13%); **cartões:** 0.
 - **Clubes:** 74; **artilheiros:** 58 edições com artilheiro (58 linhas, com empates).
 - **Classificação final:** 70 edições; **tabelas publicadas guardadas para conferência:** 1079 linhas.
-- **No banco:** sim; **último commit do pacote:** 06635c8.
+- **No banco:** sim; **último commit do pacote:** 06635c89.
 - **Observação da competição:** 1ª divisão egípcia (Egyptian Premier League) de 1948/49, a primeira liga nacional, a 2025/26. Sem as temporadas não disputadas (1951/52 e 1967/68 a 1970/71); as não terminadas (1954/55, 1971/72, 1973/74, 1989/90, 2011/12 e 2012/13) entram sem campeão. Sem a Copa do Egito, a Liga do Cairo e o campeonato da U.I.S.S.E. (1913-1914), que a federação não reconhece.
 
 ## 2. Edições, fontes e regras
