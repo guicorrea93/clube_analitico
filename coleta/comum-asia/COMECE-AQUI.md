@@ -4,7 +4,7 @@ Para o agente de coleta da Ásia (países da AFC, inclusive a Austrália) e para
 antes o guia geral `docs/agentes-internacionais-COMECE-AQUI.md`, com o formato do pacote, as pastas de cada agente e as
 regras de identidade dos clubes. Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 24/11/2026 (Japão no GitHub; Coreia do Sul em pesquisa).
+Última atualização: 24/11/2026 (Japão no GitHub; Coreia do Sul pronta, esperando o ok do commit).
 
 **Documentação completa:** `coleta/comum-asia/documentacao/`, gerada por `python coleta/comum-asia/documentar.py` a partir
 dos pacotes, do código e dos relatórios (uma ficha por competição e o índice `README.md`). Rode depois de toda
@@ -48,20 +48,50 @@ importação ou correção e mantenha à mão só as listas `LIGAS`, `PAIS` e `P
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `jpn-1` Japonês | 60 (1965–2025) | 12.190 | 40 | 71d5006 (no GitHub) | não |
+| `jpn-1` Japonês | 60 (1965–2025) | 12.190 | 40 | 71d5006 (no GitHub) | sim |
+| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | (sem commit: espera o "sim") | não |
 
 **Pasta comum (23/11):** cópia de `coleta/comum-sulamerica/` (ver seção 4). O `rsssf_asia.py` ainda não foi usado: o
 Japão tem leitor próprio (`coleta/jpn-1/ler_jsl.py`), porque a JSL é só tabela final e tabela de confrontos.
 
 ## 3. De onde continuar
 
-1. **Japão (`jpn-1`): pronto e no GitHub (`71d5006`, 24/11)**; falta o agente 1 carregar. Recado de fim de coleta no fim de
+1. **Japão (`jpn-1`): pronto e no GitHub (`71d5006`, 24/11)** e já no banco. Recado de fim de coleta no fim de
    `docs/coleta/pedidos-asia.md`. Pendências na lista `PENDENCIAS` do `documentar.py`.
-2. Próxima: Coreia do Sul (`kor-1`), depois de mandar ao Guilherme as decisões de escopo. Depois, na ordem sugerida: `ksa-1`, `irn-1`, `aus-1`, `chn-1`, `qat-1`, `uae-1`, `uzb-1`, `irq-1`, `ind-1`,
-   `tha-1`; depois as outras 1ªs divisões da AFC.
+2. **Coreia do Sul (`kor-1`): pronta em 24/11**, teste de carga OK, esperando o "sim" do Guilherme para o commit. Recado de
+   fim de coleta no fim de `docs/coleta/pedidos-asia.md`; pendências na lista `PENDENCIAS` do `documentar.py`.
+3. Próxima: Arábia Saudita (`ksa-1`), depois de mandar ao Guilherme as decisões de escopo. Depois, na ordem sugerida:
+   `irn-1`, `aus-1`, `chn-1`, `qat-1`, `uae-1`, `uzb-1`, `irq-1`, `ind-1`, `tha-1`; depois as outras 1ªs divisões da AFC.
+
+**Coreia do Sul (`kor-1`): escopo decidido pelo agente em 24/11** (o Guilherme pediu que o agente pesquisasse e decidisse):
+- **K League (1ª divisão profissional) de 1983 a 2025.** A liga semiprofissional (1964-2002) fica de fora: torneio de uma
+  semana em grupos e final, títulos divididos, quase sem dados; a K League e a RSSSF contam os títulos desde 1983.
+- **2026 entra quando acabar** (em 24/11 faltavam 12 jogos; a Wikipédia já dá o FC Seoul campeão).
+- **Clubes: um por código do portal oficial** (K01...), o mesmo nas mudanças de nome e cidade (Yukong/Bucheon SK = Jeju
+  United, K04; Daewoo = Busan IPark; Lucky-Goldstar/LG = FC Seoul; Ilhwa = Seongnam FC). Os times do Exército têm códigos
+  diferentes e ficam separados (Sangmu 1985 K24, Gwangju Sangmu K14, Sangju Sangmu K23, Gimcheon Sangmu K35).
+- **Campeão oficial** (final ou playoff quando houve); de 2012 em diante a divisão em grupos fica numa fase só "Liga",
+  como no Escocês. Fora: copa da liga, repescagem contra a K League 2.
+
+**Como a Coreia foi feita (`coleta/kor-1/`), bom modelo para liga com portal oficial de boletins:**
+
+| Arquivo | O que faz |
+|---|---|
+| `baixar_portal.py` | portal.kleague.com (convidado): calendário (até 2012), lista oficial (2013+, www.kleague.com `getScheduleList.do`, com fase e rodada) e boletim de cada jogo (cache comprimido em `data/cache/kleague-asia/jogos/`). O portal aguenta várias filas: com 8-12 filas (anos diferentes, `--reverso`) foram ~85 boletins por minuto |
+| `baixar_oficial.py` | API do site oficial (`matchInfo.do`, 2013+; 500 antes), em coreano e inglês (língua pela sessão, `/changeLang.do`): conferência do placar e nome em inglês dos jogadores |
+| `baixar_tabelas.py` | classificação final oficial (`teamRank.do`, 2003-2025; antes vem vazia) |
+| `baixar_rsssf.py`, `baixar_ogol.py`, `baixar_wikipedia.py` | fontes de apoio (RSSSF: `skorhist.html` com as tabelas 1983-2009 e as páginas de cada ano; ogol 2008-2025; Wikipédia: campeões e artilheiros) |
+| `competicoes.py` | o que é a 1ª divisão no portal: `meet_seq` 1 de cada ano e as finais de 1984, 1986, 1995 e 1996 |
+| `ler_portal.py` | boletim: dados do jogo, gols (minuto, pênalti, gol contra), cartões, disputa de pênaltis |
+| `ler_oficial.py`, `ler_rsssf.py` | API oficial; jogos, autores e tabelas da RSSSF |
+| `clubes_kor.py`, `nomes_kor.py` | identidade dos clubes; nome dos jogadores (romanização, grafia oficial em inglês, nome de jogo dos estrangeiros) |
+| `edicoes.py`, `campeoes_wiki.py`, `explicacoes.py` | fases e pontos de cada época; campeão, vice e artilheiro da Wikipédia; casos especiais com prova (`WO`, `AWD`, `GOL_FALTANDO`, `SORTEIO`, `TABELA_RSSSF`, `OBS_CLASSIFICACAO`) |
+| `importar.py`, `relatorio.py` | pacote, conferência e relatório |
 
 **Decisões de escopo já conhecidas (perguntar antes da liga):**
 - **China:** o campeonato nacional desde 1951 ou só desde a Jia-A (1994)?
+- **Japão, 2026:** a J.League passou ao calendário europeu (2026/27) e jogou um torneio especial no 1º semestre de 2026
+  ("100 Year Vision League"): ver se conta como título antes de pôr 2026 no `jpn-1`.
 - **Irã:** Takht Jamshid (1973-1978), Azadegan e IPL; os anos sem campeonato entram como edição sem campeão.
 - **Austrália:** o campeão é o da Grand Final (o oficial) e o 1º da fase de liga fica na observação? NSL (1977-2004)
   mais A-League?
@@ -155,6 +185,23 @@ Sul é `coleta/ven-1/`. Copie para `coleta/<slug>/` e troque o `sys.path` para `
 **ogol:** a J1 é `liga-japonesa`; não tem os jogos de 1997 a 2003; em 1996 soma os pênaltis ao placar; algumas páginas
 vêm trocadas (rodar de novo o ano).
 
+**K League (portal e site oficial):**
+- O total de gols do boletim (`H_Goal_Qty`) **nunca conta o gol contra**; o lance do gol contra tem o `Team_Id` do clube
+  que ganhou o gol. O placar é a soma dos lances; quando não bate com o total + gols contra, decide outra fonte.
+- Alguns boletins têm gols a menos (o total certo) ou a mais; jogos W.O. aparecem 0-0 sem lances, público nem árbitro
+  (1987: Hyundai; 2012: Sangju, 14 jogos); jogo decidido fora de campo fica com o placar de campo (1996, 2021).
+- Tipos de lance: G gol, Y amarelo, R vermelho, Z segundo amarelo (expulsão), C substituição, P não é gol. Cartão sem
+  número de camisa é de técnico/comissão.
+- Disputa de pênaltis: blocos com `Name`/`Gain_YN`, o 1º é o mandante; às vezes só as 5 primeiras de cada lado (1998:
+  5-5 decidido no sorteio, sem refletores).
+- O calendário do portal esconde jogos nos dias cheios de 2013 em diante: use a lista do site oficial.
+- A tabela oficial (`teamRank.do`, 2003+) conta os jogos do playoff (2003-2011), mas os pontos só da liga.
+- A K League conta o artilheiro só na liga (sem playoff), com desempate pelo número de jogos.
+- A RSSSF da Coreia mistura outras ligas (N-League, K3) com nomes de cidade: ligar nomes só com votos firmes.
+- Nomes dos estrangeiros: o hangul é o nome de jogo; o inglês do site é o nome civil completo. Apelido que não está no
+  nome civil vai à mão em `nomes_kor.NOME_DE_JOGO`.
+- `python -I` tira a pasta do script do `sys.path`: os scripts põem `AQUI` no `sys.path` à mão.
+
 **Python no Windows:** editar arquivo por heredoc com `python - <<'EOF'` estraga `\b` e às vezes `\n`. Para regex, use o
 Edit e confira com `grep -c $'\x08'`.
 
@@ -163,3 +210,6 @@ Edit e confira com `grep -c $'\x08'`.
 - 23/11, Japão: a JSL (1965-1991/92) entra antes da J1; clube de empresa = clube atual da J.League (Yokohama Flügels
   separado); nos anos de turnos o campeão é o da final, e os turnos são fases.
 - Repescagem contra a 2ª divisão fica de fora (decisão do agente, seguindo o Alemão).
+- 24/11, Coreia: o Guilherme pediu que o agente pesquisasse e decidisse o escopo ("faça uma pesquisa mais a fundo para
+  julgar o que é necessário"). Decidido: K League 1983-2025 (sem a semiprofissional), clube por código do portal (os
+  Sangmu separados), campeão oficial, divisão em grupos numa fase só, 2026 quando acabar (seção 3).

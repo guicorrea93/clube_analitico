@@ -52,3 +52,51 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    turnos, ordenada por mim; não há tabela anual oficial); identidade dos clubes da JSL (`clubes_jpn.py`); as três
    edições da JSL com divergência; o jogo `awd` de 2021.
 8. **Próxima competição:** Coreia do Sul (`kor-1`), depois das decisões de escopo do Guilherme.
+
+## Recado de fim de coleta — kor-1 — 24/11/2026
+
+1. **Feito:** Campeonato Sul-Coreano (`kor-1`), 43 edições (K League 1983 a 2025), 7.163 jogos, 25 clubes (todos `KOR`),
+   17.984 gols com autor (23 jogos sem autores) e 24.627 cartões. Fontes: portal de dados oficial da K League (boletim de
+   cada jogo: autores com minuto, pênalti e gol contra, cartões, disputa de pênaltis, estádio, público, árbitro); site
+   oficial (www.kleague.com: lista de jogos 2013+, linha do tempo em coreano e inglês 2013+, classificação final oficial
+   2003-2025); RSSSF (tabelas 1983-2009 e páginas de cada ano: conferência); Wikipédia em inglês (campeão, vice,
+   artilheiro) e em coreano (desempate das divergências); ogol (2008-2025: conferência e escudos). Pacote em
+   `data/coleta/kor-1/pacote/`, relatório em `docs/coleta/kor-1.md`, ficha em `coleta/comum-asia/documentacao/kor-1.md`.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `kor-1: 43 edições, 7163 jogos, 25 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `kor-1`; **país novo: Coreia do Sul (`KOR`, AFC)**, em `paises.csv`: a Coreia foi a Copas, deve já haver
+     bandeira no painel da Copa;
+   - fases: "Liga" (com a divisão em grupo do título e grupo de baixo de 2012 em diante dentro dela, como no Escocês: a
+     observação do jogo diz o grupo); "1º turno"/"2º turno" em 1984, 1986, 1995, 1996 e 2004-2006; "Final" (1984, 1986,
+     1995 com 3 jogos, 1996) e playoff ("Primeira fase", "Segunda fase", "Semifinal", "Final") em 1998-2000 e 2004-2011;
+   - pontos diferentes: 1984 (3 pela vitória, 2 pelo empate com gols, 1 pelo 0-0: `pontos_vitoria` 3 e os pontos oficiais
+     na classificação); 1993 (`pontos_vitoria` 4; empate decidido nos pênaltis, 2 para quem ganha e 1 para quem perde);
+     1998-1999 (3 no tempo normal, 2 na prorrogação com gol de ouro, 1 nos pênaltis); 2000 (3 no tempo normal ou na
+     prorrogação, 1 nos pênaltis). Nesses anos não há empate: os jogos têm `penaltis_mandante`/`penaltis_visitante`. A
+     `classificacao_final` traz os pontos oficiais;
+   - de 2003 em diante a classificação final é a oficial da K League (de 2003 a 2011 os jogos, vitórias e gols contam o
+     playoff; os pontos, só a liga); `ajuste_pontos` -9 do Jeonbuk em 2016 (suborno de árbitros);
+   - 16 jogos `wo`: 1987 (2, sem placar: a tabela oficial conta a vitória sem gols; o vencedor na observação) e 2012 (14 do
+     Sangju Sangmu, 0-2 dado; a tabela conta os gols); 2 jogos `awd` (1996 Pohang 3-0 Suwon; 2021 Gwangju 0-3 Jeju; o
+     placar de campo no `gols_texto` e na observação);
+   - 1998, Chunan Ilhwa (Seongnam FC) x Jeonnam: 1-1, pênaltis 5-5 e vitória do Seongnam no sorteio (sem refletores): a
+     observação diz o vencedor; se o painel recalcula pelos pênaltis, esse jogo precisa usar a observação;
+   - classificacao_rodada só de 2013 em diante; 958 jogos antes de 2013 sem rodada;
+   - árbitro na observação de cada jogo ("árbitro: ..."); estádio traduzido do hangul por regra; cidade em branco;
+   - escudos: calendários do ogol em `data/cache/ogol-kor-1/` (2008-2025); clubes antigos fora do ogol: Hallelujah FC,
+     Kookmin Bank, Hanil Bank, Sangmu (1985, sem cidade), Chonbuk Buffalo, Gwangju Sangmu.
+5. **Decisões:** do agente, a pedido do Guilherme ("faça uma pesquisa mais a fundo para julgar o que é necessário"):
+   K League desde 1983, sem a liga semiprofissional (outra competição, a K League conta desde 1983); clube por código do
+   portal oficial (Yukong/Bucheon SK = Jeju United, Daewoo = Busan IPark, Lucky-Goldstar/LG = FC Seoul, Ilhwa = Seongnam
+   FC; os quatro times do Exército separados, como a K League); campeão oficial; copa da liga e repescagem contra a K
+   League 2 de fora; 2026 quando acabar. Nas divergências entre o portal e a RSSSF valeu o que a Wikipédia em coreano e
+   as tabelas confirmam (prova em `coleta/kor-1/explicacoes.py`). Nada esperando o Guilherme.
+6. **Não coletado / pendências:** 23 jogos sem autores (os que o boletim tem estão no `gols_texto`; fonte: Wikipédia em
+   coreano, resultados de cada ano); 197 estrangeiros de antes de 2013 com o nome romanizado do hangul (lista no
+   relatório); 1997, linha do Jeju na RSSSF sem explicação; artilheiro: soma 1 gol abaixo da lista oficial em 7 anos.
+7. **Onde a revisão deve olhar primeiro:** os casos de `explicacoes.py` (W.O., awd, sorteio, gol que faltava em 1990);
+   os jogos em que o total do boletim e a soma dos lances não batem (listados em cada edição do relatório); a ordem da
+   classificação de 1983-2002 (calculada: campeão e vice da decisão em cima, depois a tabela); os nomes dos estrangeiros
+   (`nomes_kor.py`).
+8. **Próxima competição:** Arábia Saudita (`ksa-1`), depois das decisões de escopo do Guilherme.

@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-asia/documentar.py` a partir do pacote `data/col
 - **Jogos:** 12190 (12190 com placar); **gols:** 34082; **gols com autor:** 27554 (81%); **cartões:** 31272.
 - **Clubes:** 40; **artilheiros:** 60 edições com artilheiro (69 linhas, com empates).
 - **Classificação final:** 60 edições; **tabelas publicadas guardadas para conferência:** 1038 linhas.
-- **No banco:** ainda não; **último commit do pacote:** 71d5006.
+- **No banco:** sim; **último commit do pacote:** 71d5006.
 - **Observação da competição:** Japan Soccer League (JSL, amadora, 1965 a 1991/92) e J.League/J1 (1993 em diante); 1992 sem liga
 
 ## 2. Edições, fontes e regras
@@ -291,6 +291,10 @@ Registradas em `coleta/jpn-1/explicacoes.py`; cada uma também aparece no relat�
 - **1966:** a tabela de confrontos da RSSSF dá 4 gols a menos ao Yawata (Nippon Steel Yawata) contra o Hitachi (Kashiwa Reysol) do que a tabela final (33-16 e 24-28, iguais na Wikipédia em japonês, que cita o livro oficial da JSL): um dos dois jogos entre eles (Yawata 2-1 Hitachi ou Hitachi 1-2 Yawata) deveria ter 4 gols a mais do Yawata, sem mudar o vencedor. Nenhuma fonte pública tem o placar; os jogos ficam como a RSSSF escreve e a classificação é a tabela final
 - **1971:** a tabela de confrontos da RSSSF tem 2 gols a menos que a tabela final: um do Furukawa (JEF United Chiba) e um do Nippon Kokan (NKK), sofridos pelo Yanmar (Cerezo Osaka) e pelo Hitachi (Kashiwa Reysol), um cada. Há dois jeitos de encaixar (Furukawa x Yanmar e Nippon Kokan x Hitachi, ou Furukawa x Hitachi e Nippon Kokan x Yanmar), sem mudar vencedor; nenhuma fonte pública tem o placar. Os jogos ficam como a RSSSF escreve e a classificação é a tabela final
 - **1973:** a tabela de confrontos da RSSSF tem 1 gol a menos para o Yanmar (Cerezo Osaka) e 1 a menos para o Furukawa (JEF United Chiba) do que a tabela final: um dos jogos entre os dois (Furukawa 0-0 Yanmar ou Yanmar 1-2 Furukawa) deveria ter um gol a mais de cada lado, sem mudar o resultado. Nenhuma fonte pública tem o placar; os jogos ficam como a RSSSF escreve e a classificação é a tabela final
+
+### Jogos decididos fora de campo (placar oficial; o de campo no gols_texto) (`AWD`, 1)
+
+- **25153:** placar de campo 2-3; a J.League registra 0-3 para o Shonan (a tabela oficial conta 0-3, e o ogol marca o jogo como decisão administrativa)
 
 ### Identidade dos clubes
 

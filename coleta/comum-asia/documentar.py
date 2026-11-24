@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["jpn-1"]           # slugs prontos, na ordem da coleta (jpn-1, kor-1, ...)
-PAIS: dict[str, str] = {"jpn-1": "jpn"}  # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["jpn-1", "kor-1"]                  # slugs prontos, na ordem da coleta (jpn-1, kor-1, ...)
+PAIS: dict[str, str] = {"jpn-1": "jpn", "kor-1": "kor"}  # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -43,6 +43,27 @@ PENDENCIAS: dict[str, list[str]] = {
         "Artilheiro de 1986/87: a lista de campeões da Wikipédia dá 17 gols a Toshio Matsuura (NKK), a RSSSF dá 14; ficou o "
         "da Wikipédia. Fonte que resolveria: o livro oficial da JSL.",
     ],
+    "kor-1": [
+        "23 jogos sem os autores dos gols (o boletim do portal não fecha com o placar; os autores que ele tem estão no "
+        "gols_texto). Fonte que resolveria: as páginas 'NNNN년 K리그의 경기 결과' da Wikipédia em coreano (têm os autores "
+        "de cada jogo; serviram para 1987 e 1990).",
+        "197 estrangeiros de antes de 2013 com o nome romanizado do hangul (aproximação; a maioria só com cartões): sem "
+        "nome em inglês no site oficial nem autor na RSSSF. Lista no relatório. Fonte que resolveria: a página de jogador "
+        "do site da K League (não achei a chamada de dados) ou a Wikipédia em coreano.",
+        "Coreanos: grafia oficial em inglês do site da K League para quem jogou de 2013 em diante, romanização revisada "
+        "para os outros (Park Yun-gi, e não Park Yoon-ki, como a Wikipédia escreve). Uns poucos cortes de sílaba esquisitos "
+        "vêm da grafia do próprio site (\"Jeewong\").",
+        "1997: a linha do Jeju United (Puchon SK) da RSSSF (18-35) não fecha com os jogos (19-36); a RSSSF não tem os jogos "
+        "de 1997 e a Wikipédia em coreano não tem a tabela.",
+        "Artilheiro: a soma dos boletins fica 1 gol abaixo da lista oficial em 1984, 1993, 1997, 1999, 2005, 2006 e 2021 "
+        "(gols em jogos sem autores; em 2005 a K League parece contar o playoff); em 2013, 2022 e 2023 a soma dá empate e a "
+        "lista oficial desempata pelo número de jogos. Vale a lista oficial (Wikipédia).",
+        "958 jogos de antes de 2013 sem rodada (o portal não dá; a rodada sai da ordem dos jogos de cada clube quando os dois "
+        "batem); classificacao_rodada só de 2013 em diante.",
+        "Estádios: nome traduzido por regra do hangul do portal (cidade + tipo: 월드컵 World Cup Stadium, 종합 Sports "
+        "Complex...); cidade dos jogos em branco. O Sangmu de 1985 fica sem cidade (time do Exército, sem sede).",
+        "2026: entra quando acabar (em 24/11 faltavam 12 jogos).",
+    ],
 }
 
 # rótulo de cada dicionário de explicacoes.py
@@ -52,6 +73,12 @@ DICIONARIOS = {
     "EXTRAS": "Jogos acrescentados à mão (a página traz em texto corrido)",
     "TABELAS_FORA": "Tabelas da página que não são da edição",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
+    "WO": "Jogos dados por W.O. (sem placar; o vencedor na observação)",
+    "GOL_FALTANDO": "Gols que faltam no boletim da fonte, acrescentados com a prova",
+    "TABELA_RSSSF": "Linhas da tabela da RSSSF que não fecham com os jogos (e a prova)",
+    "SORTEIO": "Empate nos pênaltis decidido no sorteio",
+    "OBS_CLASSIFICACAO": "Saídas da liga que não foram rebaixamento comum",
+    "AWD": "Jogos decididos fora de campo (placar oficial; o de campo no gols_texto)",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("cidade", "cidade"),
@@ -99,6 +126,8 @@ def texto_correcao(v) -> str:
     """Valor de CONSERTA_TEXTO ((antes, depois, motivo)) ou de CORRIGE ({esp, gm_of, descartar, motivo})."""
     if isinstance(v, tuple) and len(v) == 3:
         return f"«{v[0].strip()}» → «{v[1].strip()}»: {v[2]}"
+    if isinstance(v, tuple) and len(v) == 2:   # (dado, motivo): kor-1 WO e GOL_FALTANDO
+        return str(v[1])
     if isinstance(v, dict):
         o_que = []
         if v.get("descartar"):
@@ -374,7 +403,7 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- 1ªs divisões da AFC, na ordem do guia geral: kor-1, ksa-1, irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, "
+            "- 1ªs divisões da AFC, na ordem do guia geral: ksa-1, irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, "
             "ind-1, tha-1; depois as outras. Antes de cada uma, as decisões de escopo vão ao Guilherme. Como fazer: "
             "`COMECE-AQUI.md`, seção 4.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
