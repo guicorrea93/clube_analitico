@@ -21,6 +21,23 @@ QUEDA = re.compile(r"(?i)salvezza|sfida|retroced|retrocess|permanenza|interdivis
 EUROPA = re.compile(r"(?i)uefa|coppa|champions|europa|intertoto|6º posto|5º posto|4º posto|mitropa")
 
 
+# desempates que a Wikipédia it não traz com placar: ano -> jogos (fonte e gols de cada um)
+URL_54 = "RSSSF (tablesi/ital54.html)"
+EXTRAS = {
+    1953: [   # triangular de rebaixamento (15º a 17º): Udinese 3, SPAL 2, Palermo 1 — caiu o Palermo
+        {"motivo": "rebaixamento", "secao": "triangular de rebaixamento (15º a 17º)", "m": "Udinese", "v": "SPAL", "gm": 2,
+         "gv": 0, "pen_m": None, "pen_v": None, "prorrogacao": False, "data": "1954-06-06", "cidade": "Milão", "fonte": URL_54,
+         "gols": [("m", "Virgili", 18), ("m", "Menegotti", 31)]},
+        {"motivo": "rebaixamento", "secao": "triangular de rebaixamento (15º a 17º)", "m": "Udinese", "v": "Palermo", "gm": 1,
+         "gv": 1, "pen_m": None, "pen_v": None, "prorrogacao": False, "data": "1954-06-13", "cidade": "Florença", "fonte": URL_54,
+         "gols": [("v", "Cavazzuti", 58), ("m", "Zorzi", 63)]},
+        {"motivo": "rebaixamento", "secao": "triangular de rebaixamento (15º a 17º)", "m": "SPAL", "v": "Palermo", "gm": 2,
+         "gv": 1, "pen_m": None, "pen_v": None, "prorrogacao": False, "data": "1954-06-20", "cidade": "Roma", "fonte": URL_54,
+         "gols": [("v", "Lucchesi", 19), ("m", "Olivieri", 23), ("m", "Bernardin", 78)]},
+    ],
+}
+
+
 def _limpo(cel: str) -> str:
     cel = re.sub(r"^\s*\|?\s*(?:(?:bgcolor|style|align)=[^|]*\|)?", "", cel)
     m = re.search(r"\{\{\s*Calcio\s+([^|}]+?)\s*(?:\|[^}]*)?\}\}", cel)
@@ -34,6 +51,8 @@ def _limpo(cel: str) -> str:
 def ler(a: int) -> list[dict]:
     nome = f"{'Divisione Nazionale' if a == 1945 else 'Serie A'} {a}-{a + 1}.wiki"
     arq = DADOS / nome
+    if a in EXTRAS:
+        return EXTRAS[a]
     if not arq.exists():
         return []
     t = arq.read_text(encoding="utf-8")

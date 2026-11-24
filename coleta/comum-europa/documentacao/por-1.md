@@ -193,6 +193,8 @@ Registradas em `coleta/por-1/importar.py`; cada uma também aparece no relatóri
 
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 
+- **1938/39:** Belenenses x Sporting (6ª rodada) em 06/02/1939, um dia depois de os dois jogarem a 5ª: a data é do ogol, o transfermarkt repete e não há terceira fonte (revisão PT-010). Fica a data do ogol
+- **1939/40:** Académico do Porto com dois jogos em 04/02/1940 (x Sporting, 2ª rodada, e Porto x Académico, 3ª): as datas são do ogol, o transfermarkt repete e não há terceira fonte (revisão PT-010). Ficam as do ogol
 - **1947/48:** a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Atlético CP)
 - **1986/87:** Braga x Benfica (31/05/1987): derrota para os dois no tribunal; as tabelas da RSSSF e da Wikipédia en contam o 1-1 de campo e não fecham nesses dois clubes; a da Wikipédia pt conta a decisão (Benfica 48, Braga 25 e 11º)
 - **1990/91:** a tabela da Wikipédia troca os números do Marítimo e do Farense; a da RSSSF fecha com os jogos / a matriz da RSSSF traz trocadas as colunas 13 e 14 (Gil Vicente e Famalicão): desfeita a troca, os 380 placares batem com o ogol
@@ -213,11 +215,15 @@ Registradas em `coleta/por-1/importar.py`; cada uma também aparece no relatóri
 - **Campeonato de Portugal (1921/22 a 1937/38, em mata-mata):** é outra competição; fica de fora.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
+
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 
 - Autores dos gols: RSSSF (1999/00-2005/06, onde a soma fecha), ficha do ogol (2001/02, que a RSSSF não traz, e os jogos em que a ESPN falta ou não fecha) e ESPN (2006/07+). Antes de 1999/00, nenhuma fonte em lote. Sem autor ficam 103 jogos de 2001/02 e 27 de 2010/11 (a ficha do ogol também não fecha).
-- Revisão PT-020: árbitro e público pelo transfermarkt (jogo a jogo, ~11 mil páginas) ou pela ficha do ogol: não feito (custo alto); o football-data de Portugal não traz árbitro.
-- Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) seguem com a data do ogol; o transfermarkt repete o ogol e a ficha não decide. Conferir num jornal da época.
+- Revisão PT-020: árbitro e público só jogo a jogo (transfermarkt, ~11 mil páginas, ou a ficha do ogol); o football-data de Portugal não traz árbitro.
+- Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) ficam com a data do ogol; o transfermarkt repete o ogol e não há terceira fonte (anotado em EXPLICACOES).
 
 ## 10. Arquivos
 

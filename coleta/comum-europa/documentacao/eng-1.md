@@ -230,10 +230,14 @@ Registradas em `coleta/eng-1/importar.py`; cada uma também aparece no relatóri
 - **Rodadas antes de 1992/93 (e em 1994/95):** a liga inglesa não tinha rodadas fixas, e o número de rodada do ogol junta jogos de datas diferentes (clubes com 2 ou 3 jogos na mesma rodada). Nessas 94 temporadas a rodada fica vazia e não há tabela rodada a rodada; a ordem dos jogos é a das datas.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
 
-- Nomes de jogadores da ESPN em formato de documento (sobrenomes na frente, ex.: "Goncalves da Silva Ailton"): os casos mais frequentes estão em coleta/comum-europa/nomes_jogadores.py, aplicado em todas as ligas; a varredura completa dos ~2 mil nomes com 3 palavras ou mais, nas 8 ligas, fica pendente (conferir com o BDFutbol ou a Wikipédia).
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
+
 - Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).
+- Nomes de jogadores da ESPN: os casos em formato de documento (sobrenomes na frente) que repetem um jogador com o nome de jogo no mesmo clube e temporada foram trocados (coleta/comum-europa/nomes_jogadores.py, aplicado em todas as ligas; varredura de 24/11/2026). Os outros ~2 mil nomes de 3 palavras ou mais são quase todos nomes de verdade ("Kevin De Bruyne"); a ESPN não dá o código do jogador para conferir um a um.
 
 ## 10. Arquivos
 

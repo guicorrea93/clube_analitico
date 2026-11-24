@@ -1291,3 +1291,43 @@ Depois do recado completo de hoje (c9f45d3), ficaram prontos e estão no GitHub 
 - `tur-1`: "1940 (Millî Küme)", "1940 (Şampiyonası)", "1956/57 (Federasyon Kupası)";
 - `gdr-1`: "1955" e "1956" a "1960" (ano civil);
 - `ita-1`: "1921/22 (FIGC)" e "1921/22 (CCI)".
+
+## 24/11/2026 (noite) — coleta Europa: rodada de fechamento (nada pendente na coleta)
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** A pedido do Guilherme, fechei tudo o que estava aberto na coleta Europa antes da próxima etapa:
+   - **Italiano 1953/54:** entrou o triangular de rebaixamento (Udinese, SPAL e Palermo, 15º a 17º). São 3 jogos na fase
+     "Desempate", fora da tabela, com data, cidade e autores dos gols pela RSSSF;
+   - **nomes da ESPN:** 29 nomes em formato de documento trocados pelo nome de jogo (ex.: "Alexander Fabio Coentrao" →
+     "Fábio Coentrão", "Jorge Ciro Perdomo Fucile" → "Jorge Fucile"). Só mudam nomes em `gols.csv` e `cartoes.csv` de
+     `esp-1`, `ita-1`, `fra-1`, `por-1`, `ned-1`, `bel-1` e `tur-1`; as contagens não mudam;
+   - **DE-004** (3 datas do Alemão): o ogol concorda com a base, então fica a base;
+   - **Alemão 1947/48:** a Wikipédia em alemão confirma os placares da RSSSF;
+   - **fechados como limite de fonte:** PT-010, FR-005, FR-017, FR-009 (1 ou 2 dias), FR-022, PT-020, Turco 1962/63
+     (grupo de classificação), autores dos gols antes da ESPN e ligas regionais. Nenhuma fonte em lote tem esses dados;
+     cada um está explicado na ficha da liga;
+   - **Italiano, era antiga:** clubes empatados em tudo na classificação montada agora saem em ordem alfabética. Antes a
+     ordem mudava a cada execução; em 1919/20, Bergamasca e Pro Patria trocam de lugar (72º e 73º).
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** as 10 ligas com ESPN deram OK, com 0 clubes novos:
+   - `eng-1`, `esp-1`, `ita-1` (34.732 jogos), `ger-1` e `fra-1`;
+   - `por-1`, `ned-1`, `sco-1`, `bel-1` e `tur-1`.
+4. **Pedidos ao banco e ao painel:**
+   - **recarregar:** `ita-1` (3 jogos novos em 1953/54, fase "Desempate", e 7 gols), `esp-1`, `fra-1`, `por-1`, `ned-1`,
+     `bel-1` e `tur-1` (só nomes de jogadores);
+   - continua valendo a lista do recado anterior: carregar e liberar `bel-1`, `tur-1` e `gdr-1`, e recarregar as outras.
+5. **Decisões tomadas, com o motivo:**
+   - (a) nas datas em que só o transfermarkt discorda, fica a base: são duas fontes (base e ogol) contra uma;
+   - (b) só troquei o nome da ESPN quando o mesmo jogador aparece com os dois nomes no mesmo clube e temporada. Os outros
+     ~2 mil nomes de 3 palavras ou mais são quase todos nomes de verdade, e a ESPN não dá o código do jogador para
+     conferir.
+6. **O que não deu para coletar:** os limites de fonte do item 1. Estão em `coleta/comum-europa/documentacao/README.md`,
+   seção "Limites de fonte (fechados)".
+7. **Onde a revisão deve olhar primeiro:** a seção "Com o agente de revisão" do mesmo README:
+   - fusões da Holanda;
+   - tabelas da Escócia;
+   - Kayseri;
+   - clubes da RDA (Chemie Leipzig e o título de 1952/53);
+   - classificações e clubes da era antiga da Itália.
+8. **Próxima tarefa:** nenhuma pendência da coleta Europa. A próxima etapa (ligas novas) será combinada com o Guilherme.

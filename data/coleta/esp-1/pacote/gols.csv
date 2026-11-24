@@ -32,7 +32,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0010,Barcelona,Patrick Kluivert,75,,normal,ESPN
 2001-0011,Mallorca,Samuel Eto'o,52,,normal,ESPN
 2001-0012,Real Madrid,Julio Dely Valdes,14,,contra,ESPN
-2001-0012,Málaga,Duran Fernando Sanz,75,,normal,ESPN
+2001-0012,Málaga,Fernando Sanz,75,,normal,ESPN
 2001-0013,Deportivo La Coruña,Gonzalez Fran,88,,normal,ESPN
 2001-0014,Villarreal,Víctor Fernández,5,,penalti,ESPN
 2001-0014,Villarreal,Jorge López,51,,normal,ESPN
@@ -148,7 +148,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0063,Tenerife,Cadavieco Ivan Ania,1,,normal,ESPN
 2001-0063,Rayo Vallecano,Sergio Corino,6,,normal,ESPN
 2001-0063,Tenerife,Sanchez Jaime,54,,normal,ESPN
-2001-0063,Tenerife,Francisco Munoz Xisco,57,,normal,ESPN
+2001-0063,Tenerife,Xisco,57,,normal,ESPN
 2001-0064,Espanyol,Tamudo,75,,normal,ESPN
 2001-0064,Osasuna,John Aloisi,85,,penalti,ESPN
 2001-0065,Celta,Jesuli,5,,normal,ESPN
@@ -292,7 +292,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0122,Real Madrid,Fernando Morientes,53,,normal,ESPN
 2001-0122,Sevilla,Moisés Xavier García,75,,normal,ESPN
 2001-0125,Alavés,Gomez Pablo,6,,normal,ESPN
-2001-0126,Espanyol,Sanchez Alex Fernandez,21,,normal,ESPN
+2001-0126,Espanyol,Álex Fernández,21,,normal,ESPN
 2001-0126,Mallorca,Albert Luque,27,,normal,ESPN
 2001-0126,Espanyol,Martin Posse,80,,normal,ESPN
 2001-0127,Málaga,Julio Dely Valdes,17,,normal,ESPN
@@ -375,7 +375,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0160,Espanyol,Tamudo,3,,normal,ESPN
 2001-0160,Villarreal,Javier Calleja,24,,normal,ESPN
 2001-0161,Espanyol,Juan Francisco Palencia,25,,normal,ESPN
-2001-0161,Espanyol,Sanchez Alex Fernandez,42,,normal,ESPN
+2001-0161,Espanyol,Álex Fernández,42,,normal,ESPN
 2001-0161,Valencia,Francisco Rufete,58,,normal,ESPN
 2001-0161,Valencia,Francisco Rufete,62,,normal,ESPN
 2001-0161,Valencia,Adrian Ilie,66,,normal,ESPN
@@ -541,7 +541,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0227,Real Madrid,Raúl,1,,normal,ESPN
 2001-0227,Espanyol,Enrique De Lucas,32,,normal,ESPN
 2001-0227,Espanyol,Tamudo,73,,normal,ESPN
-2001-0228,Las Palmas,Duran Fernando Sanz,9,,contra,ESPN
+2001-0228,Las Palmas,Fernando Sanz,9,,contra,ESPN
 2001-0228,Málaga,Kizito Musampa,72,,normal,ESPN
 2001-0229,Betis,Gabriel Amato,18,,normal,ESPN
 2001-0229,Betis,Gabriel Amato,80,,normal,ESPN
@@ -841,7 +841,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0341,Celta,Gustavo Lopez,61,,normal,ESPN
 2001-0341,Barcelona,Rivaldo,90,,normal,ESPN
 2001-0342,Real Madrid,Roberto Carlos,16,,normal,ESPN
-2001-0342,Tenerife,Rodriguez Javi Venta,38,,normal,ESPN
+2001-0342,Tenerife,Javi Venta,38,,normal,ESPN
 2001-0342,Real Madrid,Luis Figo,43,,normal,ESPN
 2001-0342,Real Madrid,Gutí,76,,normal,ESPN
 2001-0342,Real Madrid,Gutí,82,,normal,ESPN
@@ -1061,7 +1061,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0039,Valencia,Miguel Angel Angulo,86,,normal,ESPN
 2002-0040,Athletic Bilbao,Carlos Gurpegi,62,,normal,ESPN
 2002-0040,Athletic Bilbao,Tiko,84,,normal,ESPN
-2002-0040,Recreativo Huelva,Francisco Munoz Xisco,87,,normal,ESPN
+2002-0040,Recreativo Huelva,Xisco,87,,normal,ESPN
 2002-0041,Racing Santander,Francisco Javier Garcia Guerrero,27,,normal,ESPN
 2002-0041,Racing Santander,Francisco Javier Garcia Guerrero,71,,normal,ESPN
 2002-0042,Osasuna,Gerardo Damian Rivero,2,,normal,ESPN
@@ -1069,7 +1069,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0042,Osasuna,Fernando Pipa Gancedo,44,,normal,ESPN
 2002-0042,Barcelona,Patrick Kluivert,45,,normal,ESPN
 2002-0043,Málaga,Julio Dely Valdes,44,,penalti,ESPN
-2002-0043,Málaga,Duran Fernando Sanz,65,,normal,ESPN
+2002-0043,Málaga,Fernando Sanz,65,,normal,ESPN
 2002-0043,Málaga,Sanchez Manu,70,,normal,ESPN
 2002-0043,Atlético de Madrid,José Marí,90,,normal,ESPN
 2002-0044,Mallorca,Harold Lozano,58,,normal,ESPN
@@ -1130,7 +1130,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0064,Real Madrid,Zinedine Zidane,22,,normal,ESPN
 2002-0064,Villarreal,Javier López Vallejo,45,,penalti,ESPN
 2002-0065,Betis,Gaston Angel Jorge Casas,45,,normal,ESPN
-2002-0065,Recreativo Huelva,Francisco Munoz Xisco,76,,normal,ESPN
+2002-0065,Recreativo Huelva,Xisco,76,,normal,ESPN
 2002-0066,Valencia,Pablo Aimar,5,,normal,ESPN
 2002-0066,Valencia,John Carew,7,,normal,ESPN
 2002-0066,Valencia,Pablo Aimar,28,,normal,ESPN
@@ -1237,8 +1237,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0113,Mallorca,Samuel Eto'o,45,,normal,ESPN
 2002-0113,Deportivo La Coruña,Roy Makaay,70,,normal,ESPN
 2002-0114,Espanyol,Tamudo,9,,normal,ESPN
-2002-0114,Espanyol,Sanchez Alex Fernandez,69,,normal,ESPN
-2002-0114,Rayo Vallecano,Sanchez Alex Fernandez,88,,contra,ESPN
+2002-0114,Espanyol,Álex Fernández,69,,normal,ESPN
+2002-0114,Rayo Vallecano,Álex Fernández,88,,contra,ESPN
 2002-0114,Espanyol,Savo Milosevic,90,,normal,ESPN
 2002-0115,Racing Santander,Pedro Munitis,32,,normal,ESPN
 2002-0116,Betis,Marcos Assuncao,74,,normal,ESPN
@@ -1436,7 +1436,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0188,Valladolid,Dragan Ciric,86,,normal,ESPN
 2002-0188,Alavés,Fernandez Abelardo,90,,normal,ESPN
 2002-0189,Rayo Vallecano,Ramon De Quintana,2,,normal,ESPN
-2002-0189,Recreativo Huelva,Francisco Munoz Xisco,58,,normal,ESPN
+2002-0189,Recreativo Huelva,Xisco,58,,normal,ESPN
 2002-0189,Recreativo Huelva,Lorenzo Loren,84,,normal,ESPN
 2002-0190,Valencia,Pablo Aimar,32,,normal,ESPN
 2002-0191,Atlético de Madrid,Fernando Torres,39,,normal,ESPN
@@ -1535,7 +1535,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0227,Real Sociedad,Darko Kovacevic,42,,normal,ESPN
 2002-0227,Real Sociedad,Mikel Alonso,63,,normal,ESPN
 2002-0228,Recreativo Huelva,Enrique Romero,67,,normal,ESPN
-2002-0228,Recreativo Huelva,Francisco Munoz Xisco,82,,normal,ESPN
+2002-0228,Recreativo Huelva,Xisco,82,,normal,ESPN
 2002-0228,Recreativo Huelva,Ignacio Benítez,84,,normal,ESPN
 2002-0229,Sevilla,Antonio Soldevilla,12,,contra,ESPN
 2002-0230,Racing Santander,Jose Moraton Taeno,73,,normal,ESPN
@@ -1543,7 +1543,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0230,Racing Santander,Mario Regueiro,90,,normal,ESPN
 2002-0231,Recreativo Huelva,Ignacio Benítez,7,,normal,ESPN
 2002-0231,Recreativo Huelva,Enrique Romero,13,,normal,ESPN
-2002-0231,Recreativo Huelva,Francisco Munoz Xisco,19,,normal,ESPN
+2002-0231,Recreativo Huelva,Xisco,19,,normal,ESPN
 2002-0231,Athletic Bilbao,Asier Del Horno,57,,normal,ESPN
 2002-0231,Athletic Bilbao,Santiago Ezquerro,75,,normal,ESPN
 2002-0232,Real Madrid,Ronaldo,12,,normal,ESPN
@@ -1609,7 +1609,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0258,Málaga,Sanchez Manu,78,,normal,ESPN
 2002-0258,Espanyol,Tamudo,90,,penalti,ESPN
 2002-0259,Betis,Capi,10,,normal,ESPN
-2002-0259,Recreativo Huelva,Francisco Munoz Xisco,62,,normal,ESPN
+2002-0259,Recreativo Huelva,Xisco,62,,normal,ESPN
 2002-0262,Athletic Bilbao,Asier Del Horno,7,,normal,ESPN
 2002-0262,Celta,Ahmed Hossam Mido,19,,normal,ESPN
 2002-0262,Celta,Benni McCarthy,77,,normal,ESPN
@@ -2079,14 +2079,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0053,Villarreal,Víctor Fernández,4,,normal,ESPN
 2003-0053,Zaragoza,David Villa,22,,normal,ESPN
 2003-0054,Valencia,Ricardo Oliveira,14,,normal,ESPN
-2003-0055,Málaga,Duran Fernando Sanz,12,,normal,ESPN
+2003-0055,Málaga,Fernando Sanz,12,,normal,ESPN
 2003-0055,Celta,Savo Milosevic,70,,normal,ESPN
 2003-0055,Málaga,Miguel Angel Lozano Ayala,72,,normal,ESPN
 2003-0056,Mallorca,Miguel Angel Nadal,80,,normal,ESPN
 2003-0056,Osasuna,Pierre Webó,81,,normal,ESPN
 2003-0057,Real Madrid,Ronaldo,52,,normal,ESPN
 2003-0057,Real Madrid,Ronaldo,82,,normal,ESPN
-2003-0057,Espanyol,Sanchez Alex Fernandez,90,,normal,ESPN
+2003-0057,Espanyol,Álex Fernández,90,,normal,ESPN
 2003-0058,Murcia,Sanchez Michel,5,,normal,ESPN
 2003-0059,Real Sociedad,Darko Kovacevic,3,,normal,ESPN
 2003-0059,Sevilla,Dario Silva,12,,normal,ESPN
@@ -2196,7 +2196,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0096,Valencia,Ricardo Oliveira,7,,normal,ESPN
 2003-0096,Valencia,Ricardo Oliveira,45,,normal,ESPN
 2003-0096,Valencia,Ricardo Oliveira,77,,normal,ESPN
-2003-0096,Valencia,Francisco Munoz Xisco,89,,normal,ESPN
+2003-0096,Valencia,Xisco,89,,normal,ESPN
 2003-0097,Betis,Marcos Assuncao,20,,normal,ESPN
 2003-0097,Atlético de Madrid,Fernando Torres,40,,normal,ESPN
 2003-0097,Atlético de Madrid,Fernando Torres,49,,penalti,ESPN
@@ -2289,7 +2289,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0134,Málaga,Salva Ballesta,14,,normal,ESPN
 2003-0134,Málaga,Salva Ballesta,70,,normal,ESPN
 2003-0134,Málaga,Diego Alonso,74,,normal,ESPN
-2003-0134,Barcelona,Duran Fernando Sanz,79,,contra,ESPN
+2003-0134,Barcelona,Fernando Sanz,79,,contra,ESPN
 2003-0134,Málaga,Manuel Canabal,86,,normal,ESPN
 2003-0135,Betis,Lopez Ismael,48,,normal,ESPN
 2003-0135,Murcia,Luis Garcia,90,,penalti,ESPN
@@ -2350,7 +2350,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0154,Sevilla,Júlio Baptista,1,,normal,ESPN
 2003-0154,Athletic Bilbao,Ismael Urzaiz,6,,normal,ESPN
 2003-0154,Athletic Bilbao,Francisco Javier Yeste,23,,normal,ESPN
-2003-0155,Málaga,Duran Fernando Sanz,11,,normal,ESPN
+2003-0155,Málaga,Fernando Sanz,11,,normal,ESPN
 2003-0155,Mallorca,Samuel Eto'o,30,,normal,ESPN
 2003-0155,Málaga,Duda,71,,normal,ESPN
 2003-0155,Málaga,Salva Ballesta,90,,penalti,ESPN
@@ -2801,7 +2801,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0324,Celta,Gustavo Lopez,46,,normal,ESPN
 2003-0325,Espanyol,Tamudo,42,,normal,ESPN
 2003-0325,Osasuna,Pablo García,46,,normal,ESPN
-2003-0325,Espanyol,Sanchez Alex Fernandez,62,,normal,ESPN
+2003-0325,Espanyol,Álex Fernández,62,,normal,ESPN
 2003-0325,Espanyol,Maxi Rodríguez,71,,normal,ESPN
 2003-0326,Barcelona,Javier Saviola,19,,normal,ESPN
 2003-0326,Barcelona,Luis García,23,,normal,ESPN
@@ -3220,7 +3220,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0111,Barcelona,Giovanni van Bronckhorst,43,,normal,ESPN
 2004-0111,Barcelona,Ronaldinho,76,,penalti,ESPN
 2004-0112,Valencia,Bernardo Corradi,45,,normal,ESPN
-2004-0112,Valencia,Francisco Munoz Xisco,49,,normal,ESPN
+2004-0112,Valencia,Xisco,49,,normal,ESPN
 2004-0113,Deportivo La Coruña,Diego Tristán,30,,normal,ESPN
 2004-0113,Deportivo La Coruña,Albert Luque,59,,normal,ESPN
 2004-0114,Albacete,Miguel Buades,50,,normal,ESPN
@@ -3272,7 +3272,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0129,Real Madrid,Michael Owen,86,,normal,ESPN
 2004-0130,Valencia,Emiliano Moretti,29,,normal,ESPN
 2004-0130,Valencia,Rubén Baraja,64,,normal,ESPN
-2004-0131,Valencia,Francisco Munoz Xisco,88,,normal,ESPN
+2004-0131,Valencia,Xisco,88,,normal,ESPN
 2004-0132,Barcelona,Samuel Eto'o,25,,normal,ESPN
 2004-0132,Barcelona,Deco,29,,normal,ESPN
 2004-0132,Barcelona,Andrés Iniesta,72,,normal,ESPN
@@ -3499,7 +3499,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0212,Real Sociedad,Nihat Kahveci,45,,normal,ESPN
 2004-0212,Real Sociedad,Mikel Aranburu,79,,normal,ESPN
 2004-0212,Valencia,Rubén Baraja,83,,normal,ESPN
-2004-0212,Valencia,Francisco Munoz Xisco,89,,normal,ESPN
+2004-0212,Valencia,Xisco,89,,normal,ESPN
 2004-0212,Real Sociedad,Nihat Kahveci,90,,normal,ESPN
 2004-0213,Zaragoza,Óscar,14,,normal,ESPN
 2004-0213,Albacete,Antonio Pacheco,48,,penalti,ESPN
@@ -3563,7 +3563,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0237,Málaga,Miguel Angel Lozano Ayala,15,,normal,ESPN
 2004-0237,Málaga,Juan Jesus Gutierrez,53,,normal,ESPN
 2004-0237,Espanyol,Dani García,71,,normal,ESPN
-2004-0237,Espanyol,Duran Fernando Sanz,87,,contra,ESPN
+2004-0237,Espanyol,Fernando Sanz,87,,contra,ESPN
 2004-0238,Racing Santander,Mario Regueiro,52,,normal,ESPN
 2004-0239,Betis,Marcos Assuncao,39,,normal,ESPN
 2004-0239,Betis,Marcos Assuncao,57,,normal,ESPN
@@ -3954,7 +3954,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0018,Real Sociedad,José Barkero,35,,normal,ESPN
 2005-0018,Alavés,Enrique De Lucas,90,,normal,ESPN
 2005-0019,Valencia,Miguel Angel Angulo,3,,normal,ESPN
-2005-0019,Zaragoza,Eugen Anghel Ewerthon,8,,normal,ESPN
+2005-0019,Zaragoza,Ewerthon,8,,normal,ESPN
 2005-0019,Zaragoza,Cani,28,,normal,ESPN
 2005-0019,Valencia,David Villa,82,,normal,ESPN
 2005-0020,Sevilla,Adriano,41,,normal,ESPN
@@ -4103,7 +4103,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0075,Getafe,Pablo Redondo,86,,normal,ESPN
 2005-0076,Málaga,Salva Ballesta,8,,normal,ESPN
 2005-0076,Málaga,Salva Ballesta,30,,normal,ESPN
-2005-0076,Málaga,Duran Fernando Sanz,51,,normal,ESPN
+2005-0076,Málaga,Fernando Sanz,51,,normal,ESPN
 2005-0076,Málaga,Pablo Counago,63,,normal,ESPN
 2005-0076,Málaga,Pablo Counago,74,,normal,ESPN
 2005-0077,Atlético de Madrid,Maxi Rodríguez,45,1,normal,ESPN
@@ -4160,7 +4160,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0097,Barcelona,Henrik Larsson,86,,normal,ESPN
 2005-0098,Mallorca,Víctor,34,,normal,ESPN
 2005-0098,Sevilla,Kepa,37,,normal,ESPN
-2005-0099,Zaragoza,Eugen Anghel Ewerthon,12,,normal,ESPN
+2005-0099,Zaragoza,Ewerthon,12,,normal,ESPN
 2005-0099,Málaga,Patricio Carvalho Pacheco Edgar,41,,normal,ESPN
 2005-0100,Valencia,David Albelda,13,,normal,ESPN
 2005-0100,Racing Santander,David Aganzo,29,,normal,ESPN
@@ -4245,7 +4245,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0134,Mallorca,Mark Iuliano,65,,normal,ESPN
 2005-0135,Cádiz,Enrique Moruno,17,,normal,ESPN
 2005-0135,Zaragoza,Cani,69,,normal,ESPN
-2005-0135,Zaragoza,Eugen Anghel Ewerthon,70,,normal,ESPN
+2005-0135,Zaragoza,Ewerthon,70,,normal,ESPN
 2005-0136,Valencia,Miguel Angel Angulo,15,,normal,ESPN
 2005-0136,Valencia,David Villa,43,,normal,ESPN
 2005-0136,Valencia,Pablo Aimar,61,,normal,ESPN
@@ -4279,7 +4279,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0147,Racing Santander,David Aganzo,86,,normal,ESPN
 2005-0148,Real Madrid,Sergio Ramos,34,,normal,ESPN
 2005-0148,Real Madrid,Robinho,38,,normal,ESPN
-2005-0150,Zaragoza,Eugen Anghel Ewerthon,76,,normal,ESPN
+2005-0150,Zaragoza,Ewerthon,76,,normal,ESPN
 2005-0151,Athletic Bilbao,Ismael Urzaiz,22,,normal,ESPN
 2005-0151,Athletic Bilbao,Mikel Dañobeitia Martin,29,,normal,ESPN
 2005-0152,Barcelona,Ludovic Giuly,32,,normal,ESPN
@@ -4317,7 +4317,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0162,Deportivo La Coruña,Diego Tristán,83,,normal,ESPN
 2005-0163,Getafe,Daniel Güiza,37,,normal,ESPN
 2005-0165,Betis,Fernando Fernandez,45,4,normal,ESPN
-2005-0165,Betis,Francisco Munoz Xisco,65,,normal,ESPN
+2005-0165,Betis,Xisco,65,,normal,ESPN
 2005-0165,Betis,Joaquín,86,,normal,ESPN
 2005-0166,Racing Santander,Ayoze Diaz Diaz,21,,normal,ESPN
 2005-0166,Racing Santander,Felipe Melo,27,,normal,ESPN
@@ -4326,8 +4326,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0167,Real Sociedad,Xabi Prieto,76,,normal,ESPN
 2005-0168,Athletic Bilbao,Jesus Lacruz,22,,normal,ESPN
 2005-0168,Athletic Bilbao,Joseba Etxeberría,47,,normal,ESPN
-2005-0168,Zaragoza,Eugen Anghel Ewerthon,50,,normal,ESPN
-2005-0168,Zaragoza,Eugen Anghel Ewerthon,58,,normal,ESPN
+2005-0168,Zaragoza,Ewerthon,50,,normal,ESPN
+2005-0168,Zaragoza,Ewerthon,58,,normal,ESPN
 2005-0168,Zaragoza,Diego Milito,78,,normal,ESPN
 2005-0169,Valencia,David Albelda,46,,normal,ESPN
 2005-0169,Valencia,David Villa,66,,normal,ESPN
@@ -4344,7 +4344,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0174,Osasuna,Ludovic Delporte,32,,normal,ESPN
 2005-0174,Racing Santander,Antonio Ramiro Perez,45,,normal,ESPN
 2005-0175,Zaragoza,Diego Milito,46,,normal,ESPN
-2005-0175,Zaragoza,Eugen Anghel Ewerthon,85,,normal,ESPN
+2005-0175,Zaragoza,Ewerthon,85,,normal,ESPN
 2005-0176,Cádiz,Nenad Mirosavljevic,35,,normal,ESPN
 2005-0177,Celta,Fabián Canobbio,25,,normal,ESPN
 2005-0178,Mallorca,Jonás Gutiérrez,29,,normal,ESPN
@@ -4439,7 +4439,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0209,Sevilla,Luis Fabiano,30,,normal,ESPN
 2005-0209,Sevilla,Frédéric Kanouté,58,,normal,ESPN
 2005-0210,Zaragoza,Sergio García,45,1,normal,ESPN
-2005-0210,Zaragoza,Eugen Anghel Ewerthon,64,,normal,ESPN
+2005-0210,Zaragoza,Ewerthon,64,,normal,ESPN
 2005-0210,Valencia,Patrick Kluivert,83,,normal,ESPN
 2005-0210,Valencia,Pablo Aimar,89,,normal,ESPN
 2005-0211,Valencia,David Villa,22,,normal,ESPN
@@ -4571,9 +4571,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0255,Celta,Fabián Canobbio,72,,normal,ESPN
 2005-0256,Getafe,Veljko Paunovic,14,,normal,ESPN
 2005-0259,Real Sociedad,Nihat Kahveci,9,,normal,ESPN
-2005-0259,Zaragoza,Eugen Anghel Ewerthon,55,,normal,ESPN
+2005-0259,Zaragoza,Ewerthon,55,,normal,ESPN
 2005-0259,Zaragoza,Igor Jáuregui,62,,contra,ESPN
-2005-0259,Zaragoza,Eugen Anghel Ewerthon,70,,normal,ESPN
+2005-0259,Zaragoza,Ewerthon,70,,normal,ESPN
 2005-0260,Sevilla,Enzo Maresca,17,,penalti,ESPN
 2005-0260,Athletic Bilbao,Aritz Aduriz,21,,normal,ESPN
 2005-0260,Sevilla,Frédéric Kanouté,60,,normal,ESPN
@@ -4611,7 +4611,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0276,Osasuna,Savo Milosevic,39,,normal,ESPN
 2005-0276,Espanyol,Luis Garcia,67,,normal,ESPN
 2005-0276,Osasuna,Iñaki Muñoz,80,,normal,ESPN
-2005-0277,Zaragoza,Eugen Anghel Ewerthon,90,1,normal,ESPN
+2005-0277,Zaragoza,Ewerthon,90,1,normal,ESPN
 2005-0278,Racing Santander,Damiá,17,,normal,ESPN
 2005-0278,Racing Santander,Ayoze Diaz Diaz,66,,falta,ESPN
 2005-0278,Valencia,David Villa,75,,normal,ESPN
@@ -4756,7 +4756,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0347,Sevilla,Jesús Navas,58,,normal,ESPN
 2005-0347,Sevilla,José Martí,69,,penalti,ESPN
 2005-0347,Real Sociedad,Jordi Lopez,87,,contra,ESPN
-2005-0348,Zaragoza,Eugen Anghel Ewerthon,10,,normal,ESPN
+2005-0348,Zaragoza,Ewerthon,10,,normal,ESPN
 2005-0348,Espanyol,Daniel Jarque,67,,normal,ESPN
 2005-0349,Valencia,Rubén Baraja,24,,normal,ESPN
 2005-0349,Valencia,Pablo Aimar,33,,normal,ESPN
@@ -4855,7 +4855,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0380,Athletic Bilbao,Gurendez Felipe,80,,normal,ESPN
 2005-0380,Athletic Bilbao,Oleguer Presas Renom,82,,contra,ESPN
 2006-0001,Valencia,Fernando Morientes,33,,normal,ESPN
-2006-0001,Betis,Francisco Munoz Xisco,53,,normal,ESPN
+2006-0001,Betis,Xisco,53,,normal,ESPN
 2006-0001,Valencia,Raúl Albiol,61,,normal,ESPN
 2006-0002,Athletic Bilbao,Aritz Aduriz,38,,penalti,ESPN
 2006-0002,Real Sociedad,Mikel Aranburu,87,,normal,ESPN
@@ -4865,7 +4865,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0004,Deportivo La Coruña,Juan Rodríguez,17,,normal,ESPN
 2006-0004,Deportivo La Coruña,Sergio González Soriano,38,,penalti,ESPN
 2006-0004,Deportivo La Coruña,Javier Arizmendi,75,,normal,ESPN
-2006-0004,Zaragoza,Eugen Anghel Ewerthon,81,,normal,ESPN
+2006-0004,Zaragoza,Ewerthon,81,,normal,ESPN
 2006-0005,Gimnàstic,Alejandro Campano,51,,normal,ESPN
 2006-0006,Atlético de Madrid,Fernando Torres,12,,normal,ESPN
 2006-0008,Mallorca,Juan Arango,86,,normal,ESPN
@@ -4912,7 +4912,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0025,Barcelona,Ronaldinho,90,2,penalti,ESPN
 2006-0026,Real Madrid,José Antonio Reyes,69,,falta,ESPN
 2006-0026,Real Madrid,David Beckham,90,3,normal,ESPN
-2006-0027,Zaragoza,Eugen Anghel Ewerthon,58,,normal,ESPN
+2006-0027,Zaragoza,Ewerthon,58,,normal,ESPN
 2006-0027,Zaragoza,Sergio García,79,,normal,ESPN
 2006-0028,Levante,José Alejandro Suárez Martín,85,,normal,ESPN
 2006-0030,Valencia,Fernando Morientes,45,2,normal,ESPN
@@ -5031,7 +5031,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0087,Zaragoza,Carlos Diogo,39,,normal,ESPN
 2006-0087,Getafe,Manu,68,,penalti,ESPN
 2006-0087,Zaragoza,Diego Milito,74,,normal,ESPN
-2006-0087,Zaragoza,Eugen Anghel Ewerthon,90,,normal,ESPN
+2006-0087,Zaragoza,Ewerthon,90,,normal,ESPN
 2006-0088,Gimnàstic,Ismael Irurzun,7,,normal,ESPN
 2006-0088,Recreativo Huelva,Francisco Javier Garcia Guerrero,31,,normal,ESPN
 2006-0088,Recreativo Huelva,Mario,90,4,normal,ESPN
@@ -5274,7 +5274,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0184,Getafe,Manu,1,,normal,ESPN
 2006-0186,Real Madrid,José Antonio Reyes,78,,falta,ESPN
 2006-0187,Racing Santander,Ezequiel Garay,85,,penalti,ESPN
-2006-0187,Betis,Francisco Munoz Xisco,87,,normal,ESPN
+2006-0187,Betis,Xisco,87,,normal,ESPN
 2006-0188,Valencia,David Villa,29,,falta,ESPN
 2006-0190,Betis,Robert,37,,normal,ESPN
 2006-0190,Barcelona,Rafael Márquez,61,,normal,ESPN
@@ -5406,7 +5406,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0249,Real Sociedad,Germán Herrera,17,,normal,ESPN
 2006-0249,Zaragoza,Pablo Aimar,53,,normal,ESPN
 2006-0249,Zaragoza,Diego Milito,75,,penalti,ESPN
-2006-0249,Zaragoza,Eugen Anghel Ewerthon,81,,normal,ESPN
+2006-0249,Zaragoza,Ewerthon,81,,normal,ESPN
 2006-0249,Real Sociedad,Inigo Diaz de Cerio,90,4,normal,ESPN
 2006-0250,Recreativo Huelva,Florent Sinama-Pongolle,10,,penalti,ESPN
 2006-0251,Real Madrid,Ruud van Nistelrooy,5,,normal,ESPN
@@ -5538,8 +5538,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0305,Levante,Riga Mustapha,4,,normal,ESPN
 2006-0305,Getafe,David Belenguer,57,,normal,ESPN
 2006-0306,Mallorca,Víctor,21,,normal,ESPN
-2006-0307,Zaragoza,Eugen Anghel Ewerthon,72,,normal,ESPN
-2006-0307,Zaragoza,Eugen Anghel Ewerthon,76,,normal,ESPN
+2006-0307,Zaragoza,Ewerthon,72,,normal,ESPN
+2006-0307,Zaragoza,Ewerthon,76,,normal,ESPN
 2006-0308,Recreativo Huelva,Ikechukwu Uche,2,,normal,ESPN
 2006-0308,Racing Santander,Gonzalo Colsa,9,,normal,ESPN
 2006-0308,Recreativo Huelva,Pablo Amo,32,,normal,ESPN
@@ -5635,7 +5635,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0340,Valencia,David Silva,44,,normal,ESPN
 2006-0341,Valencia,Joaquín,90,,normal,ESPN
 2006-0342,Gimnàstic,Javier Portillo,89,,penalti,ESPN
-2006-0342,Betis,Francisco Munoz Xisco,90,2,normal,ESPN
+2006-0342,Betis,Xisco,90,2,normal,ESPN
 2006-0343,Zaragoza,Diego Milito,16,,normal,ESPN
 2006-0343,Zaragoza,Carlos Diogo,19,,normal,ESPN
 2006-0343,Athletic Bilbao,Aritz Aduriz,35,,normal,ESPN
@@ -5902,7 +5902,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0052,Atlético de Madrid,Sergio Agüero,82,,normal,ESPN
 2007-0053,Espanyol,Tamudo,45,1,normal,ESPN
 2007-0054,Real Madrid,Sergio Ramos,66,,normal,ESPN
-2007-0055,Betis,Francisco Munoz Xisco,60,,normal,ESPN
+2007-0055,Betis,Xisco,60,,normal,ESPN
 2007-0055,Betis,Rafael Sobis,78,,normal,ESPN
 2007-0055,Betis,Edu,90,1,normal,ESPN
 2007-0056,Murcia,Enrique De Lucas,28,,normal,ESPN
@@ -5961,7 +5961,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0074,Atlético de Madrid,Maxi Rodríguez,90,1,normal,ESPN
 2007-0075,Getafe,Kepa,55,,normal,ESPN
 2007-0075,Getafe,Francisco Casquero,60,,normal,ESPN
-2007-0076,Betis,Francisco Munoz Xisco,62,,normal,ESPN
+2007-0076,Betis,Xisco,62,,normal,ESPN
 2007-0076,Racing Santander,Jorge López,87,,normal,ESPN
 2007-0077,Athletic Bilbao,Aritz Aduriz,9,,normal,ESPN
 2007-0077,Athletic Bilbao,Aritz Aduriz,32,,normal,ESPN
@@ -6343,7 +6343,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0225,Osasuna,Jaroslav Plasil,45,1,normal,ESPN
 2007-0226,Recreativo Huelva,Florent Sinama-Pongolle,18,,normal,ESPN
 2007-0226,Recreativo Huelva,Florent Sinama-Pongolle,26,,normal,ESPN
-2007-0226,Espanyol,Eugen Anghel Ewerthon,40,,normal,ESPN
+2007-0226,Espanyol,Ewerthon,40,,normal,ESPN
 2007-0228,Atlético de Madrid,Diego Forlán,56,,normal,ESPN
 2007-0228,Atlético de Madrid,Diego Forlán,74,,normal,ESPN
 2007-0229,Real Madrid,Júlio Baptista,9,,normal,ESPN
@@ -6610,7 +6610,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0320,Almería,Santiago Acasiete,84,,normal,ESPN
 2007-0321,Betis,Juande,15,,normal,ESPN
 2007-0321,Atlético de Madrid,Sergio Agüero,25,,normal,ESPN
-2007-0321,Betis,Francisco Munoz Xisco,49,,falta,ESPN
+2007-0321,Betis,Xisco,49,,falta,ESPN
 2007-0321,Betis,Capi,66,,normal,ESPN
 2007-0323,Zaragoza,Sergio García,2,,normal,ESPN
 2007-0323,Zaragoza,Ricardo Oliveira,21,,normal,ESPN
@@ -7324,7 +7324,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0186,Real Madrid,Sergio Ramos,50,,normal,ESPN
 2008-0186,Real Madrid,Gonzalo Higuaín,64,,normal,ESPN
 2008-0186,Real Madrid,Arjen Robben,90,3,normal,ESPN
-2008-0187,Betis,Francisco Munoz Xisco,16,,normal,ESPN
+2008-0187,Betis,Xisco,16,,normal,ESPN
 2008-0187,Valladolid,Luis Prieto,23,,normal,ESPN
 2008-0187,Betis,Sergio García,63,,normal,ESPN
 2008-0187,Betis,Sergio García,90,2,normal,ESPN
@@ -8002,7 +8002,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0050,Almería,Kalu Uche,89,,normal,ESPN
 2009-0051,Atlético de Madrid,José Manuel Jurado,2,,normal,ESPN
 2009-0051,Atlético de Madrid,Antonio López,66,,falta,ESPN
-2009-0051,Zaragoza,Eugen Anghel Ewerthon,71,,penalti,ESPN
+2009-0051,Zaragoza,Ewerthon,71,,penalti,ESPN
 2009-0052,Deportivo La Coruña,Diego Colotto,61,,normal,ESPN
 2009-0053,Barcelona,Pedro,31,,normal,ESPN
 2009-0054,Getafe,Cata Díaz,55,,normal,ESPN
@@ -8144,7 +8144,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0105,Osasuna,Masoud Shojaei,68,,normal,ESPN
 2009-0106,Getafe,Francisco Casquero,79,,normal,ESPN
 2009-0106,Getafe,Pedro Ríos,90,3,normal,ESPN
-2009-0107,Zaragoza,Eugen Anghel Ewerthon,49,,penalti,ESPN
+2009-0107,Zaragoza,Ewerthon,49,,penalti,ESPN
 2009-0107,Málaga,Ivan Gonzales,74,,normal,ESPN
 2009-0108,Mallorca,Gonzalo Castro,48,,normal,ESPN
 2009-0108,Almería,David Rodríguez,77,,normal,ESPN
@@ -9423,7 +9423,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0192,Sevilla,Luis Fabiano,28,,normal,ESPN
 2010-0192,Sevilla,Julien Escudé,39,,normal,ESPN
 2010-0192,Sevilla,Luis Fabiano,43,,penalti,ESPN
-2010-0192,Levante,Francisco Munoz Xisco,58,,normal,ESPN
+2010-0192,Levante,Xisco,58,,normal,ESPN
 2010-0192,Sevilla,Luis Fabiano,68,,normal,ESPN
 2010-0193,Málaga,Salomón Rondón,10,,normal,ESPN
 2010-0193,Valencia,Juan Mata,16,,penalti,ESPN

@@ -6,7 +6,8 @@ Uma ficha por liga (<slug>.md) e o índice (README.md). Tudo sai do que existe d
 - do importador (coleta/<slug>/importar.py): todas as correções e decisões tomadas, com o motivo (CORRECOES, TRIBUNAL,
   ACRESCIMOS, NAO_REBAIXADOS, EXPLICACOES...);
 - do relatório (docs/coleta/<slug>.md): o que não deu para coletar;
-- de PENDENCIAS, abaixo: o que falta, mantido à mão.
+- de PENDENCIAS, LIMITES e REVISAO, abaixo (à mão): o que falta, o que é limite de fonte e o que está com a
+  revisão.
 
 Rode depois de cada importação: python coleta/comum-europa/documentar.py
 """
@@ -25,13 +26,18 @@ RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
 LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1"]
 
-# o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
-PENDENCIAS: dict[str, list[str]] = {
+# o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
+# coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
+PENDENCIAS: dict[str, list[str]] = {}
+
+# limites de fonte: nenhuma fonte em lote tem o dado; fechado na coleta (só volta com uma fonte nova, jogo a jogo)
+LIMITES: dict[str, list[str]] = {
     "eng-1": [
-        "Nomes de jogadores da ESPN em formato de documento (sobrenomes na frente, ex.: \"Goncalves da Silva Ailton\"): os "
-        "casos mais frequentes estão em coleta/comum-europa/nomes_jogadores.py, aplicado em todas as ligas; a varredura completa "
-        "dos ~2 mil nomes com 3 palavras ou mais, nas 8 ligas, fica pendente (conferir com o BDFutbol ou a Wikipédia).",
         "Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).",
+        "Nomes de jogadores da ESPN: os casos em formato de documento (sobrenomes na frente) que repetem um jogador com o "
+        "nome de jogo no mesmo clube e temporada foram trocados (coleta/comum-europa/nomes_jogadores.py, aplicado em todas "
+        "as ligas; varredura de 24/11/2026). Os outros ~2 mil nomes de 3 palavras ou mais são quase todos nomes de verdade "
+        "(\"Kevin De Bruyne\"); a ESPN não dá o código do jogador para conferir um a um.",
     ],
     "esp-1": [
         "Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).",
@@ -40,27 +46,19 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
         "Era antiga (1898 a 1928/29, IT-017, em antigo.py): 29 edições pela Wikipédia em italiano. 713 jogos vêm só do "
         "Tabellone (sem data); 37 classificações de grupo diferem dos jogos (quase todas em 1 ou 2 gols, ou um jogo que o "
-        "calendário não traz), listadas no relatório. Conferir com a RSSSF (italhist98-25.html e ital24-29.html, já "
-        "baixadas em data/coleta/ita-1/rsssf-antigo/, só com tabelas a partir de 1909/10) e com o Almanacco Illustrato.",
+        "calendário não traz), listadas no relatório. A RSSSF (italhist98-25.html e ital24-29.html, em "
+        "data/coleta/ita-1/rsssf-antigo/) só tem tabelas a partir de 1909/10; o próximo passo seria o Almanacco Illustrato.",
         "Era antiga: a classificação final de cada edição é montada (campeão do albo d'oro, depois a fase alcançada e a "
         "posição no grupo); não há classificação oficial além do campeão.",
-        "Correções da revisão de 23/11 que vivem em arquivos, não em dicionários: 674 datas em "
-        "data/coleta/ita-1/correcoes/datas.csv (IT-008, IT-009 e o complemento de 37 datas de 1933/34, 1934/35 e 1974/75, "
-        "sem o qual sobravam clubes com 2 jogos no mesmo dia) e 31 jogos a tavolino em correcoes/tavolino.csv (IT-010).",
-        "Triangular de rebaixamento de 1953/54 (Udinese, SPAL, Palermo) sem os placares: a Wikipédia it só traz a tabela.",
     ],
     "ger-1": [
-        "Revisão DE-004: 3 datas em que só o transfermarkt discorda da base (Dortmund x Duisburg 1964/65, Colônia x Werder "
-        "1969/70, Colônia x Braunschweig 1978/79); conferir na ficha do jogo do transfermarkt ou num jornal antes de mudar.",
         "Autores dos gols: RSSSF (1963/64-1998/99, só os jogos em que a soma fecha, cerca de 97%), ficha do ogol (1999/00, "
         "2000/01 e os jogos em que a ESPN falta ou não fecha) e ESPN (2001/02+). Os jogos que nenhuma das três fecha ficam sem "
         "autor; cartões só pela ESPN.",
         "Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as "
-        "ligas de antes) ficam de fora. Pendência se o painel quiser mostrar as regionais.",
-        "Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; artilheiros da "
-        "fase final não coletados (a infobox da Wikipédia tem o artilheiro de cada temporada).",
-        "Era antiga: 1947/48, três placares diferentes entre RSSSF e Wikipédia (en) nas quartas e na semifinal; ficou a RSSSF. "
-        "Conferir numa terceira fonte (kicker, Wikipédia em alemão).",
+        "ligas de antes) ficam de fora (são outras competições, por região).",
+        "Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; não há lista "
+        "de artilheiros da fase final.",
         "Era antiga: a classificação final é o campeão, o vice e depois a fase alcançada (na mesma fase, posição no grupo e "
         "campanha); não existe classificação oficial além do campeão e do vice.",
     ],
@@ -68,43 +66,37 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
         "Datas dos 356 jogos dos anos 1930 que nenhuma fonte tem.",
         "Revisão FR-009: 99 jogos (1948/49-1998/99) em que o transfermarkt e o ogol diferem da base por 1 ou 2 dias; só os 41 de "
-        "3 dias ou mais foram corrigidos. Conferir uma rodada num jornal (L'Équipe na Gallica) antes de trocar os outros.",
+        "3 dias ou mais foram corrigidos. Os outros só com o jornal (L'Équipe na Gallica), jogo a jogo.",
         "Revisão FR-017: 4 pares de jogos em que a Wikipédia fr dá outro mando ou placar (1935/36, 1937/38, 1945/46, 1950/51); "
-        "fica a base até conferir num jornal da época (anotado em EXPLICACOES).",
-        "Revisão FR-005: a vitória do Marseille sobre o Bordeaux em 27/10/1946 (0-0 no tribunal) vem das tabelas das Wikipédias; "
-        "conferir no L'Équipe de 28/10/1946.",
+        "fica a base, que fecha com as tabelas (anotado em EXPLICACOES). Só o jornal da época decidiria.",
+        "Revisão FR-005: a vitória do Marseille sobre o Bordeaux em 27/10/1946 (0-0 no tribunal) vem das tabelas das Wikipédias "
+        "e fecha com elas; só o L'Équipe de 28/10/1946 decidiria.",
         "Árbitro: os arquivos do football-data da França não trazem (revisão FR-022); seria jogo a jogo pelo transfermarkt.",
     ],
     "por-1": [
         "Autores dos gols: RSSSF (1999/00-2005/06, onde a soma fecha), ficha do ogol (2001/02, que a RSSSF não traz, e os jogos "
         "em que a ESPN falta ou não fecha) e ESPN (2006/07+). Antes de 1999/00, nenhuma fonte em lote. Sem autor ficam 103 jogos "
         "de 2001/02 e 27 de 2010/11 (a ficha do ogol também não fecha).",
-        "Revisão PT-020: árbitro e público pelo transfermarkt (jogo a jogo, ~11 mil páginas) ou pela ficha do ogol: não feito "
-        "(custo alto); o football-data de Portugal não traz árbitro.",
-        "Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) seguem "
-        "com a data do ogol; o transfermarkt repete o ogol e a ficha não decide. Conferir num jornal da época.",
+        "Revisão PT-020: árbitro e público só jogo a jogo (transfermarkt, ~11 mil páginas, ou a ficha do ogol); o "
+        "football-data de Portugal não traz árbitro.",
+        "Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) ficam "
+        "com a data do ogol; o transfermarkt repete o ogol e não há terceira fonte (anotado em EXPLICACOES).",
     ],
     "sco-1": [
         "Autores dos gols e cartões antes da ESPN (2001/02): jogo a jogo (ficha do ogol).",
         "Rodada vazia até os anos 1930 em várias temporadas: não havia rodadas fixas (como no Inglês) e o ogol não traz.",
-        "Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; a "
-        "revisão pode conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).",
     ],
     "ned-1": [
         "Era antiga (1888/89-1955/56, em antigo.py): de 1888/89 a 1896/97 e nas temporadas sem a fase final legível na "
         "RSSSF, só o campeão e a tabela da Eerste Klasse, sem jogos; os jogos da fase final vêm da matriz da RSSSF, sem data "
         "(datados só em 1954/55 e 1955/56). As ligas regionais ficam de fora.",
         "Era antiga: tabelas da fase final que não fecham com os jogos por erro de digitação da RSSSF (1906/07, 1922/23, "
-        "1923/24); ficam anotadas no relatório, sem explicação escrita.",
+        "1923/24); ficam anotadas no relatório.",
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
-        "Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, "
-        "BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a "
-        "revisão conferir.",
     ],
     "bel-1": [
         "Antes de 1960/61: jogos só pela matriz da Wikipédia, sem data nem rodada (o ogol não tem); quando a soma não fecha com "
-        "a tabela da RSSSF, a classificação final fica com os números publicados (observação na linha). Conferir a matriz com "
-        "outra fonte jogo a jogo (jornais da época, nl/fr.wikipedia) seria o próximo passo.",
+        "a tabela da RSSSF, a classificação final fica com os números publicados (observação na linha).",
         "1898/99, 1899/00, 1901/02, 1902/03 e 1903/04 (grupos): só as tabelas da RSSSF e os jogos finais e de desempate; sem "
         "os jogos dos grupos e sem classificação oficial além do campeão e do torneio final.",
         "Autores dos gols e cartões: só com a ESPN (2006/07+), que não tem lances de 2011/12 a 2014/15 nem dos play-offs; "
@@ -115,24 +107,44 @@ PENDENCIAS: dict[str, list[str]] = {
     ],
     "gdr-1": [
         "Autores dos gols, público e estádio dos jogos da Oberliga: a RSSSF traz só o placar; fonte possível: as fichas "
-        "do weltfussball.de ou o arquivo do jornal Neues Deutschland.",
+        "do weltfussball.de ou o arquivo do jornal Neues Deutschland, jogo a jogo.",
         "1948 e 1949: só a fase final (mata-mata entre os campeões estaduais); os campeonatos estaduais ficam de fora.",
         "Punições de pontos que só a tabela da RSSSF traz (1966/67, 1967/68, 1973/74, 1990/91): os pontos oficiais vão para "
         "a classificação e a diferença para ajuste_pontos; o motivo de cada uma não está nas fontes.",
     ],
     "tur-1": [
-        "Era antiga (antes de 1959, em antigo.py): Türkiye Futbol Şampiyonası (16 edições), Millî Küme (11) e Federasyon "
-        "Kupası (2), pela Wikipédia (en) e conferidas com a RSSSF. Só as Federasyon Kupası têm campeão (a federação as "
-        "reconhece desde 2002); Şampiyonası e Millî Küme ficam com o vencedor na observação (regra D-09). Os jogos do "
-        "Şampiyonası de 1924 a 1935 e as matrizes da Millî Küme não têm data (só as fichas trazem).",
-        "1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia; entra a "
-        "tabela.",
+        "Era antiga (antes de 1959, em antigo.py): os jogos do Şampiyonası de 1924 a 1935 e as matrizes da Millî Küme não "
+        "têm data (só as fichas trazem).",
+        "1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia (en e tr); "
+        "entra a tabela.",
         "Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos "
         "play-offs de 2011/12; antes e nesses anos, jogo a jogo (ficha do ogol).",
-        "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); "
-        "vale a revisão conferir, porque o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.",
         "Placares do ogol que só a matriz da Wikipédia contesta nas temporadas antigas (sem football-data nem engsoccerdata "
         "antes de 1994/95): ficam os do ogol, que fecham com as tabelas.",
+    ],
+}
+
+# decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
+REVISAO: dict[str, list[str]] = {
+    "ita-1": [
+        "Era antiga: as 37 classificações de grupo que diferem dos jogos e a identidade dos clubes antigos (clubes_ita.py, "
+        "_ANTIGOS).",
+    ],
+    "sco-1": [
+        "Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; "
+        "conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).",
+    ],
+    "ned-1": [
+        "Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, "
+        "BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor.",
+    ],
+    "gdr-1": [
+        "Identidade dos clubes (coleta/comum-europa/clubes_gdr.py), sobretudo Chemie Leipzig, e o título de 1952/53 (Dynamo "
+        "Dresden, como a RSSSF); as 19 tabelas que diferem dos jogos.",
+    ],
+    "tur-1": [
+        "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
+        "ogol e boa parte da imprensa contam a história no Kayserispor de hoje.",
     ],
 }
 
@@ -247,6 +259,9 @@ def ficha(slug: str) -> tuple[str, dict]:
     ROTULO_TEMPORADA = getattr(imp, "temporada", None)
     comp = json.loads((RAIZ / "data" / "coleta" / slug / "pacote" / "competicao.json").read_text(encoding="utf-8"))
     ed, part, gols, cart = ler(slug, "edicoes"), ler(slug, "partidas"), ler(slug, "gols"), ler(slug, "cartoes")
+    # a era antiga vem depois no arquivo: a primeira e a última temporada saem do ano, não da ordem das linhas
+    por_ano = sorted(ed, key=lambda e: e["temporada"][:4])
+    primeira, ultima = por_ano[0]["temporada"], por_ano[-1]["temporada"]
     clf, fases, art, conf = ler(slug, "classificacao_final"), ler(slug, "fases"), ler(slug, "artilheiros"), ler(slug, "conferencia")
     est, clubes, pub = ler(slug, "estatisticas"), ler(slug, "clubes"), ler(slug, "tabelas_publicadas")
     rod = ler(slug, "classificacao_rodada")
@@ -263,7 +278,7 @@ def ficha(slug: str) -> tuple[str, dict]:
 
     # ---- 1. visão geral
     out += ["## 1. O que temos", "",
-            f"- **Edições:** {len(ed)}, de {ed[0]['temporada']} a {ed[-1]['temporada']}.",
+            f"- **Edições:** {len(ed)}, de {primeira} a {ultima}.",
             f"- **Jogos:** {len(part)}; **gols:** {total_gols}; **gols com autor:** {len(gols)} ({pct(len(gols), total_gols)}); "
             f"**cartões:** {len(cart)}; **jogos com estatísticas** (chutes, faltas, escanteios): {len(est_jogos)}.",
             f"- **Clubes:** {len(clubes)}; **artilheiros:** {len({a['temporada'] for a in art})} temporadas com artilheiro "
@@ -398,8 +413,13 @@ def ficha(slug: str) -> tuple[str, dict]:
     # ---- 8. limites e pendências
     m = re.search(r"## O que não deu para coletar\s*\n(.*?)(?:\n## |\Z)", rel, re.S)
     out += ["## 8. O que não deu para coletar", "", (m.group(1).strip() if m else "- (ver relatório)"), "",
-            "## 9. Pendências e próximos passos", ""]
-    out += [f"- {p}" for p in PENDENCIAS.get(slug, [])] or ["- nenhuma"]
+            "## 9. Pendências", ""]
+    out += [f"- {p}" for p in PENDENCIAS.get(slug, [])] or ["- nenhuma em aberto na coleta."]
+    out += ["", "**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.", ""]
+    out += [f"- {p}" for p in LIMITES.get(slug, [])] or ["- nenhum"]
+    if REVISAO.get(slug):
+        out += ["", "**Com o agente de revisão:** decisões da coleta que ele confere.", ""]
+        out += [f"- {p}" for p in REVISAO[slug]]
     out += ["", "## 10. Arquivos", "",
             f"- Código: `coleta/{slug}/` (`edicoes.py`, `baixar.py`, `importar.py`" + (", leitor da RSSSF" if list((RAIZ / 'coleta' / slug).glob('rsssf_*.py')) else "")
             + f"); cadastro dos clubes em `coleta/comum-europa/clubes_{slug[:3]}.py`.",
@@ -407,7 +427,7 @@ def ficha(slug: str) -> tuple[str, dict]:
             f"- Pacote: `data/coleta/{slug}/pacote/`; relatório: `docs/coleta/{slug}.md`.",
             f"- Refazer do zero: `python coleta/{slug}/baixar.py ...` (ver o docstring), `python coleta/{slug}/importar.py`, "
             f"`python coleta/comum-europa/testar_carga.py {slug} <pasta temporária>` e `python coleta/comum-europa/documentar.py`.", ""]
-    resumo = {"slug": slug, "nome": comp["nome"], "edicoes": len(ed), "de": ed[0]["temporada"], "ate": ed[-1]["temporada"],
+    resumo = {"slug": slug, "nome": comp["nome"], "edicoes": len(ed), "de": primeira, "ate": ultima,
               "jogos": len(part), "gols_autor": len(gols), "cartoes": len(cart), "clubes": len(clubes), "tabelas_ok": ok,
               "tabelas_div": div, "pendencias": len(PENDENCIAS.get(slug, []))}
     return "\n".join(out) + "\n", resumo
@@ -435,12 +455,15 @@ def main() -> None:
         idx.append(f"| {r['nome']} | {r['edicoes']} ({r['de']}–{r['ate']}) | {r['jogos']} | {r['gols_autor']} | {r['cartoes']} | "
                    f"{r['clubes']} | {r['tabelas_ok']} / {r['tabelas_div']} | {r['pendencias']} | [{r['slug']}]({r['slug']}.md) |")
     idx += ["", "## Pendências de todas as ligas", ""]
-    for slug in LIGAS:
-        for p in PENDENCIAS.get(slug, []):
-            idx.append(f"- **{slug}:** {p}")
+    abertas = [f"- **{slug}:** {p}" for slug in LIGAS for p in PENDENCIAS.get(slug, [])]
+    idx += abertas or ["Nenhuma em aberto na coleta (rodada de 24/11/2026). O que sobrou está abaixo."]
+    idx += ["", "## Limites de fonte (fechados)", "", "Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.", ""]
+    idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in LIMITES.get(slug, [])]
+    idx += ["", "## Com o agente de revisão", "", "Decisões da coleta que a revisão confere.", ""]
+    idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in REVISAO.get(slug, [])]
     idx += ["", "## Próximas ligas", "",
-            "- `ned-1` (Holanda), depois Escócia, Bélgica e Turquia (guia geral `docs/agentes-internacionais-COMECE-AQUI.md`), "
-            "uma por vez e só com o ok do Guilherme.", ""]
+            "- A combinar com o Guilherme (guia geral `docs/agentes-internacionais-COMECE-AQUI.md`), uma por vez e só com o "
+            "ok dele.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

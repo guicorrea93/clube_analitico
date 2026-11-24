@@ -4,7 +4,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 **Edições:** 124: as 29 de antes da Serie A (1898 a 1928/29, com grupos regionais e finais; em 1921/22 dois campeonatos, FIGC e CCI) e a Serie A de 1929/30 a 2025/26 (1945/46 foi a Divisione Nazionale). Sem 1915/16 a 1918/19 (Primeira Guerra) e 1943/44 e 1944/45 (Segunda Guerra).
 
-**Total:** 34729 jogos, 94259 gols, 24591 gols com autor (ESPN; na era antiga, as fichas da Wikipédia it), 43962 cartões, 191 clubes.
+**Total:** 34732 jogos, 94266 gols, 24598 gols com autor (ESPN; na era antiga, as fichas da Wikipédia it), 43962 cartões, 191 clubes.
 
 **Era antiga (1898 a 1928/29):** Wikipédia em italiano, artigo de cada edição — classificação de cada grupo, Calendario (jogos com data e rodada) ou Tabellone (sem data) e fichas das finais (estádio, público, árbitro, gols). Campeão pelo albo d'oro oficial (1915 dado ao Genoa depois da guerra; 1927 revogado do Torino). Ver `coleta/ita-1/antigo.py`.
 
@@ -499,9 +499,10 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1953/54
 
-- o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) não entra: a Wikipédia it só traz a tabela, sem os placares
+- o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) entra na fase "Desempate" com os placares, datas e autores dos gols da RSSSF (tablesi/ital54.html); a Wikipédia it só traz a tabela
 - 3 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
 - data diferente no ogol em 3 jogos (ex.: SSC Napoli x Legnano: base 1954-01-06, ogol 1953-12-20); fica a da base
+- 3 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Udinese 2-0 SPAL (1954-06-06); Udinese 1-1 Palermo (1954-06-13); SPAL 2-1 Palermo (1954-06-20)
 
 ### 1954/55
 
@@ -909,6 +910,6 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 - **Autores dos gols e cartões antes de 2001/02:** não entraram. A RSSSF traz os autores rodada a rodada em muitas temporadas antigas (formato italiano, "MARCATORI"); dá para ler num próximo passo, se aprovado.
 - **Público e estádio antes de 2001/02:** nenhuma fonte em lote.
-- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de rebaixamento entram na fase "Desempate", fora da tabela. O triangular de 1953/54 não tem os placares na Wikipédia it.
+- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de rebaixamento entram na fase "Desempate", fora da tabela (o triangular de 1953/54 pela RSSSF).
 - **Campeonatos de 1897/98 a 1928/29** (grupos regionais e finais): ficam para depois; o ogol tem os calendários.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.

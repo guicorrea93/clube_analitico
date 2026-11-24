@@ -4,7 +4,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 97, de 1959 a 1957/58 (Federasyon Kupası).
+- **Edições:** 97, de 1924 (Şampiyonası) a 2025/26.
 - **Jogos:** 20971; **gols:** 54296; **gols com autor:** 13891 (26%); **cartões:** 23395; **jogos com estatísticas** (chutes, faltas, escanteios): 3057.
 - **Clubes:** 168; **artilheiros:** 68 temporadas com artilheiro (72 linhas, com empates).
 - **Classificação final:** 97 temporadas; **rodada a rodada:** 66 temporadas.
@@ -289,13 +289,20 @@ Registradas em `coleta/tur-1/importar.py`; cada uma também aparece no relatóri
 - **Autores dos gols antes da ESPN:** nenhuma fonte em lote (ficha do ogol, jogo a jogo).
 - **Campeonatos anteriores a 1959** (Türkiye Futbol Şampiyonası e Millî Küme): fora do escopo; a federação não os conta.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
 
-- Era antiga (antes de 1959, em antigo.py): Türkiye Futbol Şampiyonası (16 edições), Millî Küme (11) e Federasyon Kupası (2), pela Wikipédia (en) e conferidas com a RSSSF. Só as Federasyon Kupası têm campeão (a federação as reconhece desde 2002); Şampiyonası e Millî Küme ficam com o vencedor na observação (regra D-09). Os jogos do Şampiyonası de 1924 a 1935 e as matrizes da Millî Küme não têm data (só as fichas trazem).
-- 1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia; entra a tabela.
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
+
+- Era antiga (antes de 1959, em antigo.py): os jogos do Şampiyonası de 1924 a 1935 e as matrizes da Millî Küme não têm data (só as fichas trazem).
+- 1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia (en e tr); entra a tabela.
 - Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos play-offs de 2011/12; antes e nesses anos, jogo a jogo (ficha do ogol).
-- Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); vale a revisão conferir, porque o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.
 - Placares do ogol que só a matriz da Wikipédia contesta nas temporadas antigas (sem football-data nem engsoccerdata antes de 1994/95): ficam os do ogol, que fecham com as tabelas.
+
+**Com o agente de revisão:** decisões da coleta que ele confere.
+
+- Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.
 
 ## 10. Arquivos
 

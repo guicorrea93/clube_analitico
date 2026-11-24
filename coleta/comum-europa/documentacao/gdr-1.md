@@ -130,11 +130,19 @@ Registradas em `coleta/gdr-1/importar.py`; cada uma também aparece no relatóri
 - Autores dos gols, público e estádio dos jogos da Oberliga (a RSSSF traz só o placar).
 - A primeira fase (campeonatos estaduais) de 1948 e 1949.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
 
-- Autores dos gols, público e estádio dos jogos da Oberliga: a RSSSF traz só o placar; fonte possível: as fichas do weltfussball.de ou o arquivo do jornal Neues Deutschland.
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
+
+- Autores dos gols, público e estádio dos jogos da Oberliga: a RSSSF traz só o placar; fonte possível: as fichas do weltfussball.de ou o arquivo do jornal Neues Deutschland, jogo a jogo.
 - 1948 e 1949: só a fase final (mata-mata entre os campeões estaduais); os campeonatos estaduais ficam de fora.
 - Punições de pontos que só a tabela da RSSSF traz (1966/67, 1967/68, 1973/74, 1990/91): os pontos oficiais vão para a classificação e a diferença para ajuste_pontos; o motivo de cada uma não está nas fontes.
+
+**Com o agente de revisão:** decisões da coleta que ele confere.
+
+- Identidade dos clubes (coleta/comum-europa/clubes_gdr.py), sobretudo Chemie Leipzig, e o título de 1952/53 (Dynamo Dresden, como a RSSSF); as 19 tabelas que diferem dos jogos.
 
 ## 10. Arquivos
 

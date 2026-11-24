@@ -335,7 +335,7 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 
 ### 1947/48
 
-- a Wikipédia (en) traz Kaiserslautern 1-0 1860 Munique e Union Oberschöneweide 0-4 St. Pauli nas quartas e Kaiserslautern 2-0 Neuendorf na semifinal; a RSSSF traz 5-1, 0-7 e 5-1. Fica a RSSSF, fonte principal (pendência: conferir numa terceira fonte, como o kicker ou a Wikipédia em alemão)
+- a Wikipédia (en) traz Kaiserslautern 1-0 1860 Munique e Union Oberschöneweide 0-4 St. Pauli nas quartas e Kaiserslautern 2-0 Neuendorf na semifinal; a RSSSF traz 5-1, 0-7 e 5-1. Fica a RSSSF, fonte principal, confirmada pela Wikipédia em alemão (artigo da fase final de 1948: 5:1, 0:7 e 5:1)
 - placar diferente na Wikipédia — Kaiserslautern x 1860 Munique: RSSSF 5-1, Wikipédia 1. FC Kaiserslautern 1-0 TSV 1860 Munich
 - placar diferente na Wikipédia — Union Berlin x St. Pauli: RSSSF 0-7, Wikipédia SG Oberschöneweide 0-4 FC St. Pauli
 - placar diferente na Wikipédia — Kaiserslautern x TuS Koblenz: RSSSF 5-1, Wikipédia 1. FC Kaiserslautern 2-0 TuS Neuendorf
@@ -416,6 +416,7 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 
 ### 1964/65
 
+- Dortmund x Duisburg em 19/11/1964 (base e ogol); só o transfermarkt dá 14/11 (revisão DE-004). Fica a base: duas fontes contra uma
 - 4 datas corrigidas: o transfermarkt e a RSSSF concordam contra a base (lista em data/coleta/ger-1/correcoes/datas.csv)
 - data diferente no ogol em 4 jogos (ex.: Borussia Dortmund x VfB Stuttgart: base 1964-09-05, ogol 1964-09-11); fica a da base
 
@@ -448,6 +449,7 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 
 ### 1969/70
 
+- Colônia x Werder em 18/03/1970 (base e ogol); só o transfermarkt dá 17/03 (revisão DE-004). Fica a base
 - a tabela da RSSSF dá ao Bayern uma vitória a mais e ao Rot-Weiß Oberhausen um empate a menos (com 2 gols a menos para o Oberhausen e 2 gols sofridos a menos para o Bayern); a base, o ogol e a tabela da Wikipédia concordam com os jogos: erro da RSSSF
 - 10 datas corrigidas: o transfermarkt e a RSSSF concordam contra a base (lista em data/coleta/ger-1/correcoes/datas.csv)
 - data diferente no ogol em 10 jogos (ex.: Rot-Weiss Oberhausen x Hertha BSC: base 1969-10-18, ogol 1969-10-15); fica a da base
@@ -502,6 +504,7 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 
 ### 1978/79
 
+- Colônia x Braunschweig em 09/02/1979 (base e ogol); só o transfermarkt dá 10/02 (revisão DE-004). Fica a base
 - 2 datas corrigidas: o transfermarkt e a RSSSF concordam contra a base (lista em data/coleta/ger-1/correcoes/datas.csv)
 - data diferente no ogol em 2 jogos (ex.: Eintracht Braunschweig x Hertha BSC: base 1978-12-12, ogol 1978-12-09); fica a da base
 

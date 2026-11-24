@@ -148,8 +148,8 @@ EXPLICACOES: dict[int, list[str]] = {
     1993: ["a tabela da Wikipédia dá à Cremonese 8 vitórias e 16 empates; os jogos e a RSSSF dão 9 e 14 (os mesmos 32 pontos)"],
     2004: ["os dois jogos de junho de 2005 que só o ogol traz (Parma x Bologna) são o desempate (spareggio) de rebaixamento: "
            "entram na fase \"Desempate\", fora da tabela"],
-    1953: ["o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) não entra: a Wikipédia it só traz a "
-           "tabela, sem os placares"],
+    1953: ["o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) entra na fase \"Desempate\" com os "
+           "placares, datas e autores dos gols da RSSSF (tablesi/ital54.html); a Wikipédia it só traz a tabela"],
     2005: ["Calciopoli: a ordem oficial (Wikipédia) põe a Juventus em último e desconta pontos de Fiorentina, Lazio e Milan; "
            "a Inter recebeu o título"],
 }
@@ -911,7 +911,8 @@ def main() -> None:
                 raise SystemExit(f"{T}: clube do desempate sem cadastro: {x['m']} x {x['v']}")
             nomes[m][f"wikipedia-it:{x['m']}"].add(a)
             nomes[v][f"wikipedia-it:{x['v']}"].add(a)
-            obs_d = [f"desempate de {x['motivo']}, fora da tabela (Wikipédia it: {x['secao']})"]
+            fonte_d = x.get("fonte", "Wikipédia it")
+            obs_d = [f"desempate de {x['motivo']}, fora da tabela ({fonte_d.split(' (')[0]}: {x['secao']})"]
             if x["prorrogacao"]:
                 obs_d.append("com prorrogação")
             if x["pen_m"] is not None:
@@ -920,8 +921,11 @@ def main() -> None:
                 "id": f"{a}-{k:04d}", "temporada": T, "fase": "Desempate", "grupo": None, "rodada": None, "data": x["data"],
                 "hora": None, "mandante": clubes.exibicao(m), "visitante": clubes.exibicao(v), "gols_mandante": x["gm"],
                 "gols_visitante": x["gv"], "penaltis_mandante": x["pen_m"], "penaltis_visitante": x["pen_v"],
-                "resultado_especial": None, "estadio": None, "cidade": x["cidade"], "publico": None, "fonte": "Wikipédia it",
+                "resultado_especial": None, "estadio": None, "cidade": x["cidade"], "publico": None, "fonte": fonte_d,
                 "fonte_id": None, "gols_texto": None, "observacao": "; ".join(obs_d), "arbitro": None})
+            for lado, jog, mi in x.get("gols", []):
+                tab["gols"].append({"partida_id": f"{a}-{k:04d}", "clube": clubes.exibicao(m if lado == "m" else v), "jogador": jog,
+                                    "minuto": mi, "acrescimo": None, "tipo": "normal", "fonte": fonte_d})
         if desempates:
             ocorr[a].append(f"{len(desempates)} jogo(s)-desempate (spareggi) de {' e '.join(sorted({x['motivo'] for x in desempates}))} "
                             f"entram na fase \"Desempate\", fora da tabela: " + "; ".join(
@@ -1092,7 +1096,7 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         "temporadas antigas (formato italiano, \"MARCATORI\"); dá para ler num próximo passo, se aprovado.",
         "- **Público e estádio antes de 2001/02:** nenhuma fonte em lote.",
         "- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de "
-        "rebaixamento entram na fase \"Desempate\", fora da tabela. O triangular de 1953/54 não tem os placares na Wikipédia it.",
+        "rebaixamento entram na fase \"Desempate\", fora da tabela (o triangular de 1953/54 pela RSSSF).",
         "- **Campeonatos de 1897/98 a 1928/29** (grupos regionais e finais): ficam para depois; o ogol tem os calendários.",
         "- **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.",
     ]

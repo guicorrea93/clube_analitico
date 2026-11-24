@@ -135,11 +135,11 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1938/39
 
-- sem ocorrências
+- Belenenses x Sporting (6ª rodada) em 06/02/1939, um dia depois de os dois jogarem a 5ª: a data é do ogol, o transfermarkt repete e não há terceira fonte (revisão PT-010). Fica a data do ogol
 
 ### 1939/40
 
-- sem ocorrências
+- Académico do Porto com dois jogos em 04/02/1940 (x Sporting, 2ª rodada, e Porto x Académico, 3ª): as datas são do ogol, o transfermarkt repete e não há terceira fonte (revisão PT-010). Ficam as do ogol
 
 ### 1940/41
 

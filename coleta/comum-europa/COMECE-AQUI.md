@@ -93,16 +93,16 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 
 | Liga | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Último commit |
 |---|---|---|---|---|---|---|
-| `eng-1` Inglês | 127 (1888/89–2025/26) | 51.330 | 25.841 | 33.166 | 65 | 103ccf1 |
+| `eng-1` Inglês | 127 (1888/89–2025/26) | 51.330 | 25.878 | 33.166 | 65 | 103ccf1 |
 | `esp-1` Espanhol | 95 (1928/29–2025/26) | 27.716 | 25.072 | 51.662 | 63 | 62a8693 |
-| `ita-1` Italiano (grupos regionais e finais até 1928/29; Serie A) | 124 (1898–2025/26) | 34.729 | 24.591 | 43.962 | 191 | (ver git log) |
-| `ger-1` Alemão (fase final até 1962/63; Bundesliga) | 124 (1902/03–2025/26) | 20.303 | 22.700 | 30.251 | 194 | (ver git log) |
-| `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
-| `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
+| `ita-1` Italiano (grupos regionais e finais até 1928/29; Serie A) | 124 (1898–2025/26) | 34.732 | 24.598 | 43.962 | 191 | (ver git log) |
+| `ger-1` Alemão (fase final até 1962/63; Bundesliga) | 124 (1902/03–2025/26) | 20.303 | 56.842 | 30.251 | 194 | (ver git log) |
+| `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 77 | 469f615 |
+| `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 18.958 | 30.915 | 73 | c0ddbdd |
 | `ned-1` Holandês (fase final até 1955/56; Eredivisie) | 138 (1888/89–2025/26) | 21.878 | 23.019 | 24.431 | 93 | (ver git log) |
 | `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | 2fef629 |
 | `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | f4a1701 |
-| `tur-1` Turco (era antiga até 1958; liga nacional) | 97 (1924–2025/26) | 20.971 | 13.811 | 23.395 | 92 | (ver git log) |
+| `tur-1` Turco (era antiga até 1958; liga nacional) | 97 (1924–2025/26) | 20.971 | 13.891 | 23.395 | 168 | (ver git log) |
 | `gdr-1` Alemanha Oriental (zona soviética e DDR-Oberliga) | 44 (1948–1990/91) | 8.062 | 0 | 0 | 52 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
@@ -135,10 +135,33 @@ Guilherme. Commits:
 - b4175a0: Português;
 - 692670f e e22bf60: tradutor comum.
 
-Ficaram de fora, anotados nas pendências de cada liga (`documentar.py`, PENDENCIAS):
-- IT-017 (Itália 1898-1929): feito em 24/11 (`coleta/ita-1/antigo.py`, Wikipédia em italiano);
-- PT-020 (árbitro e público do Português);
-- os casos que esperam terceira fonte (DE-004, FR-005, FR-009 de 1-2 dias, FR-017, PT-010 de 1938/39 e 1939/40).
+**Rodada de fechamento (24/11/2026, a pedido do Guilherme: "não ter nada pendente antes de uma nova etapa").** Nada
+ficou em aberto na coleta. Em `documentar.py`, as sobras estão em três dicionários:
+- `PENDENCIAS`: o que falta fazer. Está vazio;
+- `LIMITES`: limites de fonte, fechados. Nenhuma fonte em lote tem o dado, e o item só volta com uma fonte nova;
+- `REVISAO`: decisões da coleta que o agente de revisão confere (fusões da Holanda, tabelas da Escócia, Kayseri,
+  clubes da RDA e da era antiga da Itália).
+
+O que foi resolvido na rodada:
+- **DE-004:** o ogol concorda com a base nas 3 datas; fica a base (EXPLICACOES de 1964, 1969 e 1978 no
+  `ger-1/importar.py`);
+- **Alemão 1947/48:** a Wikipédia em alemão confirma os placares da RSSSF (EXPLICACOES de 1947 no `ger-1/antigo.py`);
+- **Italiano 1953/54:** o triangular de rebaixamento (Udinese, SPAL e Palermo) entrou com placares, datas, cidades e
+  autores dos gols da RSSSF (`EXTRAS` em `ita-1/spareggi.py`);
+- **nomes da ESPN:** varredura dos nomes em formato de documento que repetem um jogador do mesmo clube e temporada com o
+  nome de jogo. Foram 29 trocas em `nomes_jogadores.py`, em 7 ligas;
+- **fechados como limite de fonte:**
+  - PT-010: sem terceira fonte; explicado em EXPLICACOES de 1938 e 1939 no `por-1/importar.py`;
+  - FR-005 e FR-017: só o jornal da época decidiria;
+  - Turco 1962/63: o grupo de classificação não está no ogol nem nas Wikipédias en e tr;
+  - PT-020, FR-009 (1 ou 2 dias), FR-022, autores dos gols antes da ESPN e ligas regionais: dados só jogo a jogo.
+
+Também na rodada:
+- a ordem dos clubes empatados em tudo na classificação montada da era antiga do Italiano agora é alfabética (antes
+  mudava a cada execução);
+- o índice da documentação mostra a primeira e a última temporada pelo ano, e não pela ordem das linhas.
+
+Antes, já feito: IT-017 (Itália 1898-1929), em 24/11 (`coleta/ita-1/antigo.py`, Wikipédia em italiano).
 
 Ferramentas novas no código comum, para as próximas ligas:
 - `notas_wiki.py`: notas da Wikipédia em português; nota nova sem tradução para o importador;
@@ -153,7 +176,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    ficha do BDFutbol (`GOLS_MANUAIS` em `coleta/eng-1/importar.py`, 37 gols); conferido em 24/11: nenhum jogo do Inglês
    com gols ficou sem autor desde 2002/03. Nenhum achado da revisão segue aberto para a coleta Europa.
 2. **Próxima:** perguntar ao Guilherme. Em 24/11 ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1`
-   (D-05b); a fila pedida por ele acabou. As eras antigas da Holanda (1888/89–1955/56) e da
+   (D-05b), e a rodada de fechamento zerou as pendências; a fila pedida por ele acabou. As eras antigas da Holanda (1888/89–1955/56) e da
    Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
    `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
    cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).

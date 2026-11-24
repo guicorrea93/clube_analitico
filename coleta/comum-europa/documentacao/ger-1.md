@@ -4,7 +4,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 124, de 1963/64 a 1962/63.
+- **Edições:** 124, de 1902/03 a 2025/26.
 - **Jogos:** 20303; **gols:** 63752; **gols com autor:** 56842 (89%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
 - **Clubes:** 194; **artilheiros:** 63 temporadas com artilheiro (74 linhas, com empates).
 - **Classificação final:** 116 temporadas; **rodada a rodada:** 63 temporadas.
@@ -294,8 +294,10 @@ Registradas em `coleta/ger-1/importar.py`; cada uma também aparece no relatóri
 
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 
+- **1964/65:** Dortmund x Duisburg em 19/11/1964 (base e ogol); só o transfermarkt dá 14/11 (revisão DE-004). Fica a base: duas fontes contra uma
 - **1965/66:** Lothar Emmerich (Dortmund) foi o artilheiro com 31 gols (RSSSF); a lista de campeões da Wikipédia traz 26, que são os gols do 2º colocado
-- **1969/70:** a tabela da RSSSF dá ao Bayern uma vitória a mais e ao Rot-Weiß Oberhausen um empate a menos (com 2 gols a menos para o Oberhausen e 2 gols sofridos a menos para o Bayern); a base, o ogol e a tabela da Wikipédia concordam com os jogos: erro da RSSSF
+- **1969/70:** Colônia x Werder em 18/03/1970 (base e ogol); só o transfermarkt dá 17/03 (revisão DE-004). Fica a base / a tabela da RSSSF dá ao Bayern uma vitória a mais e ao Rot-Weiß Oberhausen um empate a menos (com 2 gols a menos para o Oberhausen e 2 gols sofridos a menos para o Bayern); a base, o ogol e a tabela da Wikipédia concordam com os jogos: erro da RSSSF
+- **1978/79:** Colônia x Braunschweig em 09/02/1979 (base e ogol); só o transfermarkt dá 10/02 (revisão DE-004). Fica a base
 - **1979/80:** a tabela da Wikipédia troca as linhas de Stuttgart e Kaiserslautern (os dois com 41 pontos e 75-53 de gols); a da RSSSF fecha com os jogos e dá a ordem
 - **1991/92:** a base para em 25/04/1992 (faltam as 4 últimas rodadas da temporada de 20 clubes, depois da reunificação): os 40 jogos entram pelo ogol, e as tabelas da RSSSF e da Wikipédia fecham com o conjunto
 - **1993/94:** Dynamo Dresden: 4 pontos a menos (licença); a Wikipédia desconta, a tabela da RSSSF não
@@ -309,13 +311,15 @@ Registradas em `coleta/ger-1/importar.py`; cada uma também aparece no relatóri
 - **Era antiga, além da fase final:** artilheiros, e gols com autor fora das partidas com ficha na Wikipédia.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
 
-- Revisão DE-004: 3 datas em que só o transfermarkt discorda da base (Dortmund x Duisburg 1964/65, Colônia x Werder 1969/70, Colônia x Braunschweig 1978/79); conferir na ficha do jogo do transfermarkt ou num jornal antes de mudar.
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
+
 - Autores dos gols: RSSSF (1963/64-1998/99, só os jogos em que a soma fecha, cerca de 97%), ficha do ogol (1999/00, 2000/01 e os jogos em que a ESPN falta ou não fecha) e ESPN (2001/02+). Os jogos que nenhuma das três fecha ficam sem autor; cartões só pela ESPN.
-- Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as ligas de antes) ficam de fora. Pendência se o painel quiser mostrar as regionais.
-- Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; artilheiros da fase final não coletados (a infobox da Wikipédia tem o artilheiro de cada temporada).
-- Era antiga: 1947/48, três placares diferentes entre RSSSF e Wikipédia (en) nas quartas e na semifinal; ficou a RSSSF. Conferir numa terceira fonte (kicker, Wikipédia em alemão).
+- Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as ligas de antes) ficam de fora (são outras competições, por região).
+- Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; não há lista de artilheiros da fase final.
 - Era antiga: a classificação final é o campeão, o vice e depois a fase alcançada (na mesma fase, posição no grupo e campanha); não existe classificação oficial além do campeão e do vice.
 
 ## 10. Arquivos

@@ -89,7 +89,7 @@ NOMES_ARTILHEIRO = {
 }
 
 # datas corrigidas (revisão DE-003): data/coleta/ger-1/correcoes/datas.csv (transfermarkt e RSSSF concordam). DE-004 (3
-# jogos em que só o transfermarkt discorda) fica de fora até uma terceira fonte
+# jogos em que só o transfermarkt discorda): o ogol concorda com a base; fica a base (anotado em EXPLICACOES)
 CORRECOES_DIR = DADOS / "correcoes"
 DATAS: dict[str, list] = {}
 RELEGATION: dict[int, str] = {}
@@ -100,11 +100,15 @@ INVERTIDOS: dict[tuple, str] = {}
 
 # explicação de cada divergência que sobra entre fontes (vai para o relatório, antes das ocorrências da temporada)
 EXPLICACOES: dict[int, list[str]] = {
+    1964: ["Dortmund x Duisburg em 19/11/1964 (base e ogol); só o transfermarkt dá 14/11 (revisão DE-004). Fica a "
+           "base: duas fontes contra uma"],
     1965: ["Lothar Emmerich (Dortmund) foi o artilheiro com 31 gols (RSSSF); a lista de campeões da Wikipédia traz 26, que são "
            "os gols do 2º colocado"],
-    1969: ["a tabela da RSSSF dá ao Bayern uma vitória a mais e ao Rot-Weiß Oberhausen um empate a menos (com 2 gols a menos "
+    1969: ["Colônia x Werder em 18/03/1970 (base e ogol); só o transfermarkt dá 17/03 (revisão DE-004). Fica a base",
+           "a tabela da RSSSF dá ao Bayern uma vitória a mais e ao Rot-Weiß Oberhausen um empate a menos (com 2 gols a menos "
            "para o Oberhausen e 2 gols sofridos a menos para o Bayern); a base, o ogol e a tabela da Wikipédia concordam com os "
            "jogos: erro da RSSSF"],
+    1978: ["Colônia x Braunschweig em 09/02/1979 (base e ogol); só o transfermarkt dá 10/02 (revisão DE-004). Fica a base"],
     1979: ["a tabela da Wikipédia troca as linhas de Stuttgart e Kaiserslautern (os dois com 41 pontos e 75-53 de gols); a da "
            "RSSSF fecha com os jogos e dá a ordem"],
     1991: ["a base para em 25/04/1992 (faltam as 4 últimas rodadas da temporada de 20 clubes, depois da reunificação): os 40 "

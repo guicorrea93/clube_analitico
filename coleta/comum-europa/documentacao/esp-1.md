@@ -181,7 +181,11 @@ Registradas em `coleta/esp-1/importar.py`; cada uma também aparece no relatóri
 - **Promoções (jogos de acesso e rebaixamento contra clubes da 2ª divisão):** ficam de fora (entram quando a 2ª divisão for coletada).
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
+
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 
 - Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).
 

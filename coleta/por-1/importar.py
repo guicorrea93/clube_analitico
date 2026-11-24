@@ -147,6 +147,10 @@ NAO_REBAIXADOS = {
 # explicação de cada divergência que sobra entre fontes (vai para o relatório, antes das ocorrências da temporada)
 WIKI_ERRA = "a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos"
 EXPLICACOES: dict[int, list[str]] = {
+    1938: ["Belenenses x Sporting (6ª rodada) em 06/02/1939, um dia depois de os dois jogarem a 5ª: a data é do ogol, o "
+           "transfermarkt repete e não há terceira fonte (revisão PT-010). Fica a data do ogol"],
+    1939: ["Académico do Porto com dois jogos em 04/02/1940 (x Sporting, 2ª rodada, e Porto x Académico, 3ª): as datas são do "
+           "ogol, o transfermarkt repete e não há terceira fonte (revisão PT-010). Ficam as do ogol"],
     1947: [WIKI_ERRA + " (Atlético CP)"],
     1986: ["Braga x Benfica (31/05/1987): derrota para os dois no tribunal; as tabelas da RSSSF e da Wikipédia en contam o 1-1 "
            "de campo e não fecham nesses dois clubes; a da Wikipédia pt conta a decisão (Benfica 48, Braga 25 e 11º)"],

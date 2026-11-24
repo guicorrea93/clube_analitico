@@ -40,8 +40,8 @@ SEM_CAMPEAO = {1903: "final não jogada: a federação anulou a fase final depoi
 EXPLICACOES = {
     1905: ["Schlesien Breslau x Hertha (quartas de final): 1-7 na RSSSF, 0-7 na Wikipédia; fica a RSSSF"],
     1947: ["a Wikipédia (en) traz Kaiserslautern 1-0 1860 Munique e Union Oberschöneweide 0-4 St. Pauli nas quartas e "
-           "Kaiserslautern 2-0 Neuendorf na semifinal; a RSSSF traz 5-1, 0-7 e 5-1. Fica a RSSSF, fonte principal "
-           "(pendência: conferir numa terceira fonte, como o kicker ou a Wikipédia em alemão)"],
+           "Kaiserslautern 2-0 Neuendorf na semifinal; a RSSSF traz 5-1, 0-7 e 5-1. Fica a RSSSF, fonte principal, "
+           "confirmada pela Wikipédia em alemão (artigo da fase final de 1948: 5:1, 0:7 e 5:1)"],
     1956: ["tabela do Grupo 2 na RSSSF: Kickers Offenbach com 2 vitórias, 1 empate e 0 derrota e 4 pontos (a conta não fecha); "
            "os jogos dão 2 vitórias e 1 derrota (3-1 Hertha, 4-1 Kaiserslautern, 1-2 Dortmund) e os mesmos 4 pontos: erro de "
            "digitação da RSSSF"],

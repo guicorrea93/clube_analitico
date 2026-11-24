@@ -4,8 +4,8 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 124, de 1929/30 a 1928/29.
-- **Jogos:** 34729; **gols:** 94259; **gols com autor:** 24591 (26%); **cartões:** 43962; **jogos com estatísticas** (chutes, faltas, escanteios): 7965.
+- **Edições:** 124, de 1898 a 2025/26.
+- **Jogos:** 34732; **gols:** 94266; **gols com autor:** 24598 (26%); **cartões:** 43962; **jogos com estatísticas** (chutes, faltas, escanteios): 7965.
 - **Clubes:** 191; **artilheiros:** 95 temporadas com artilheiro (106 linhas, com empates).
 - **Classificação final:** 124 temporadas; **rodada a rodada:** 94 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2958 linhas, de 139 tabelas.
@@ -45,7 +45,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1920s | 4080 | 93% | 0% | 74% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1930s | 2665 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1940s | 2632 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1950s | 3213 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1950s | 3216 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 2867 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 2400 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 2532 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
@@ -121,6 +121,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1942/43: Liga (liga, pontos_corridos); Desempate (mata_mata, pontos_corridos)
 - 1945/46: Grupos (grupos, pontos_corridos); Fase final (grupos, pontos_corridos)
 - 1951/52: Liga (liga, pontos_corridos); Desempate (mata_mata, pontos_corridos)
+- 1953/54: Liga (liga, pontos_corridos); Desempate (mata_mata, pontos_corridos)
 - 1957/58: Liga (liga, pontos_corridos); Desempate (mata_mata, ida_volta)
 - 1960/61: Liga (liga, pontos_corridos); Desempate (mata_mata, pontos_corridos)
 - 1963/64: Liga (liga, pontos_corridos); Desempate (mata_mata, ida_volta)
@@ -168,7 +169,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - resultado: 71 temporadas
 - pontos, confronto direto, saldo de gols, gols pró: 56 temporadas
 - pontos, saldo de gols, gols pró: 27 temporadas
-- jogos-desempate entre clubes empatados em pontos; fora da tabela da liga: 14 temporadas
+- jogos-desempate entre clubes empatados em pontos; fora da tabela da liga: 15 temporadas
 - pontos, média de gols (goal average): 11 temporadas
 
 **Observações das edições** (formato, punições, casos especiais):
@@ -330,24 +331,30 @@ Registradas em `coleta/ita-1/importar.py`; cada uma também aparece no relatóri
 - **1963/64:** os dois jogos de 07/06/1964 que só o ogol traz são desempates (spareggi): Bologna 2-0 Inter, pelo título, e Sampdoria 2-0 Modena, pelo rebaixamento. Entram na fase "Desempate", fora da tabela
 - **1993/94:** a tabela da Wikipédia dá à Cremonese 8 vitórias e 16 empates; os jogos e a RSSSF dão 9 e 14 (os mesmos 32 pontos)
 - **2004/05:** os dois jogos de junho de 2005 que só o ogol traz (Parma x Bologna) são o desempate (spareggio) de rebaixamento: entram na fase "Desempate", fora da tabela
-- **1953/54:** o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) não entra: a Wikipédia it só traz a tabela, sem os placares
+- **1953/54:** o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) entra na fase "Desempate" com os placares, datas e autores dos gols da RSSSF (tablesi/ital54.html); a Wikipédia it só traz a tabela
 - **2005/06:** Calciopoli: a ordem oficial (Wikipédia) põe a Juventus em último e desconta pontos de Fiorentina, Lazio e Milan; a Inter recebeu o título
 
 ## 8. O que não deu para coletar
 
 - **Autores dos gols e cartões antes de 2001/02:** não entraram. A RSSSF traz os autores rodada a rodada em muitas temporadas antigas (formato italiano, "MARCATORI"); dá para ler num próximo passo, se aprovado.
 - **Público e estádio antes de 2001/02:** nenhuma fonte em lote.
-- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de rebaixamento entram na fase "Desempate", fora da tabela. O triangular de 1953/54 não tem os placares na Wikipédia it.
+- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de rebaixamento entram na fase "Desempate", fora da tabela (o triangular de 1953/54 pela RSSSF).
 - **Campeonatos de 1897/98 a 1928/29** (grupos regionais e finais): ficam para depois; o ogol tem os calendários.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
+
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 
 - Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
-- Era antiga (1898 a 1928/29, IT-017, em antigo.py): 29 edições pela Wikipédia em italiano. 713 jogos vêm só do Tabellone (sem data); 37 classificações de grupo diferem dos jogos (quase todas em 1 ou 2 gols, ou um jogo que o calendário não traz), listadas no relatório. Conferir com a RSSSF (italhist98-25.html e ital24-29.html, já baixadas em data/coleta/ita-1/rsssf-antigo/, só com tabelas a partir de 1909/10) e com o Almanacco Illustrato.
+- Era antiga (1898 a 1928/29, IT-017, em antigo.py): 29 edições pela Wikipédia em italiano. 713 jogos vêm só do Tabellone (sem data); 37 classificações de grupo diferem dos jogos (quase todas em 1 ou 2 gols, ou um jogo que o calendário não traz), listadas no relatório. A RSSSF (italhist98-25.html e ital24-29.html, em data/coleta/ita-1/rsssf-antigo/) só tem tabelas a partir de 1909/10; o próximo passo seria o Almanacco Illustrato.
 - Era antiga: a classificação final de cada edição é montada (campeão do albo d'oro, depois a fase alcançada e a posição no grupo); não há classificação oficial além do campeão.
-- Correções da revisão de 23/11 que vivem em arquivos, não em dicionários: 674 datas em data/coleta/ita-1/correcoes/datas.csv (IT-008, IT-009 e o complemento de 37 datas de 1933/34, 1934/35 e 1974/75, sem o qual sobravam clubes com 2 jogos no mesmo dia) e 31 jogos a tavolino em correcoes/tavolino.csv (IT-010).
-- Triangular de rebaixamento de 1953/54 (Udinese, SPAL, Palermo) sem os placares: a Wikipédia it só traz a tabela.
+
+**Com o agente de revisão:** decisões da coleta que ele confere.
+
+- Era antiga: as 37 classificações de grupo que diferem dos jogos e a identidade dos clubes antigos (clubes_ita.py, _ANTIGOS).
 
 ## 10. Arquivos
 

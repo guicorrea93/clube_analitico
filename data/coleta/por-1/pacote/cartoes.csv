@@ -83,7 +83,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0014,Marítimo,Cederic Moukouri,60,,amarelo,ESPN
 2006-0014,Paços de Ferreira,Ricardo Jorge Duarte Mangualde,60,,amarelo,ESPN
 2006-0015,Beira-Mar,Gabei Emerson,33,,amarelo,ESPN
-2006-0015,União de Leiria,Ricardo Ribeiro Jesus Paulo Machado,50,,amarelo,ESPN
+2006-0015,União de Leiria,Paulo Machado,50,,amarelo,ESPN
 2006-0015,Beira-Mar,De Deus Danrlei,58,,amarelo,ESPN
 2006-0015,União de Leiria,Jorge Paulo Gomes,70,,amarelo,ESPN
 2006-0015,Beira-Mar,Manuel Rui Lima,74,,amarelo,ESPN
@@ -130,7 +130,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0022,Braga,Rinaldo Nem,37,,amarelo,ESPN
 2006-0022,Braga,Paito,42,,amarelo,ESPN
 2006-0022,União de Leiria,Luis Miguel Assuncao Joaquim Alhandra,55,,amarelo,ESPN
-2006-0022,União de Leiria,Ricardo Ribeiro Jesus Paulo Machado,84,,amarelo,ESPN
+2006-0022,União de Leiria,Paulo Machado,84,,amarelo,ESPN
 2006-0023,Boavista,Fernando Magalhaes Mario Silva,45,,amarelo,ESPN
 2006-0023,Vitória de Setúbal,Aparecido Ademar,67,,amarelo,ESPN
 2006-0023,Boavista,Fernandes da Silva Jose Manuel,70,,amarelo,ESPN
@@ -367,7 +367,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0063,Paços de Ferreira,Ricardo Marques Pereira Monteiro Pedrinha,90,1,amarelo,ESPN
 2006-0064,Belenenses,Salazar Alves Jose Pedro,17,,amarelo,ESPN
 2006-0064,Belenenses,Jose Carlos Sousa,29,,amarelo,ESPN
-2006-0064,União de Leiria,Ricardo Ribeiro Jesus Paulo Machado,43,,amarelo,ESPN
+2006-0064,União de Leiria,Paulo Machado,43,,amarelo,ESPN
 2006-0064,União de Leiria,Damien Tixier,56,,amarelo,ESPN
 2006-0064,União de Leiria,Buttenbender Prass Fernando,64,,amarelo,ESPN
 2006-0064,Belenenses,Eliseu,71,,amarelo,ESPN
@@ -930,7 +930,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0179,União de Leiria,Ricardo Rocha,18,,amarelo,ESPN
 2006-0179,Académica,Claudio Bezerra da Silva Kaka,50,,vermelho,ESPN
 2006-0179,União de Leiria,Santos Elias Marcos Antonio,58,,amarelo,ESPN
-2006-0179,União de Leiria,Ricardo Ribeiro Jesus Paulo Machado,89,,amarelo,ESPN
+2006-0179,União de Leiria,Paulo Machado,89,,amarelo,ESPN
 2006-0180,Porto,Bruno Alves,3,,amarelo,ESPN
 2006-0180,Porto,Luis Pereira de Sousa Jorginho,36,,amarelo,ESPN
 2006-0180,Benfica,Petit,53,,amarelo,ESPN
@@ -1296,7 +1296,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0022,Naval 1º de Maio,Lobato da Rocha Gilmar,90,5,vermelho,ESPN
 2007-0023,Belenenses,Paulo Rebelo Melo Castro Costinha,51,,vermelho,ESPN
 2007-0023,Belenenses,Alves Moreira Candido Costa,53,,amarelo,ESPN
-2007-0023,Belenenses,Enrique Gabriel Gomez,70,,amarelo,ESPN
+2007-0023,Belenenses,Gabriel Gómez,70,,amarelo,ESPN
 2007-0023,Belenenses,Rafael Bastos,76,,amarelo,ESPN
 2007-0023,Sporting,Simon Vukcevic,76,,amarelo,ESPN
 2007-0023,Belenenses,Goncalves Andre Azevedo Marco,77,,amarelo,ESPN
@@ -1360,7 +1360,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0038,Vitória de Setúbal,Faustino Auri,64,,amarelo,ESPN
 2007-0038,Vitória de Setúbal,Alberto Medeiros Ricardo Chaves,79,,amarelo,ESPN
 2007-0039,Estrela da Amadora,Sakyi Moses,30,,amarelo,ESPN
-2007-0039,Estrela da Amadora,Pedro Jorge Marques Pereira,40,,amarelo,ESPN
+2007-0039,Estrela da Amadora,Pedro Pereira,40,,amarelo,ESPN
 2007-0039,União de Leiria,Cesar Moreira Tiago,83,,amarelo,ESPN
 2007-0039,Estrela da Amadora,Luis Bernardo Burgos Aguiar,89,,amarelo,ESPN
 2007-0039,Estrela da Amadora,Pereira Nelson,90,2,amarelo,ESPN
@@ -1479,7 +1479,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0064,Leixões,Melo Roosevelt Tavares Ezequias,26,,amarelo,ESPN
 2007-0064,Porto,Jorge Fucile,33,,amarelo,ESPN
 2007-0065,Belenenses,Rolando,26,,amarelo,ESPN
-2007-0065,Belenenses,Enrique Gabriel Gomez,44,,amarelo,ESPN
+2007-0065,Belenenses,Gabriel Gómez,44,,amarelo,ESPN
 2007-0065,Belenenses,Jorge Manuel Rebelo Fernandes Silas,47,,amarelo,ESPN
 2007-0065,Belenenses,Oliveira da Silva Rodrigo Alvim,57,,amarelo,ESPN
 2007-0065,Porto,Tarik Sektioui,63,,amarelo,ESPN
@@ -1517,8 +1517,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0072,Vitória de Guimarães,Ricardo Soares Andrezinho,45,,amarelo,ESPN
 2007-0072,Vitória de Guimarães,Yves Hadley Desmarets,45,,amarelo,ESPN
 2007-0073,Leixões,Manuel Rodrigues Bruno China,67,,amarelo,ESPN
-2007-0073,Belenenses,Enrique Gabriel Gomez,77,,amarelo,ESPN
-2007-0073,Belenenses,Enrique Gabriel Gomez,86,,vermelho,ESPN
+2007-0073,Belenenses,Gabriel Gómez,77,,amarelo,ESPN
+2007-0073,Belenenses,Gabriel Gómez,86,,vermelho,ESPN
 2007-0074,Paços de Ferreira,Ricardo Marques Pereira Monteiro Pedrinha,34,,amarelo,ESPN
 2007-0074,Paços de Ferreira,Cristian Mora,50,,amarelo,ESPN
 2007-0074,Paços de Ferreira,Jose Emilio Furtado,55,,amarelo,ESPN
@@ -1607,7 +1607,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0091,Braga,Soares Gomes Paulo Jorge,89,,amarelo,ESPN
 2007-0092,Leixões,Filipe Oliveira,13,,amarelo,ESPN
 2007-0092,Estrela da Amadora,Pedro Viegas e Silva Gomes Rui Duarte,40,,amarelo,ESPN
-2007-0093,Boavista,Filipe Tavares Bruno Pinheiro,15,,vermelho,ESPN
+2007-0093,Boavista,Bruno Pinheiro,15,,vermelho,ESPN
 2007-0093,Boavista,Luciano Andrade Rissutt,20,,amarelo,ESPN
 2007-0093,Nacional da Madeira,Rodrigo Silva,51,,amarelo,ESPN
 2007-0093,Boavista,Jorge Ribeiro,63,,amarelo,ESPN
@@ -1707,7 +1707,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0113,Braga,Alexandre Santos Jailson,61,,amarelo,ESPN
 2007-0113,Académica,Claudio Bezerra da Silva Kaka,65,,amarelo,ESPN
 2007-0113,Braga,Jorge Paulo Santos,90,,amarelo,ESPN
-2007-0114,Boavista,Filipe Tavares Bruno Pinheiro,43,,amarelo,ESPN
+2007-0114,Boavista,Bruno Pinheiro,43,,amarelo,ESPN
 2007-0114,Sporting,João Moutinho,59,,amarelo,ESPN
 2007-0115,Benfica,Ángel Di María,43,,amarelo,ESPN
 2007-0115,Benfica,Luisão,64,,amarelo,ESPN
@@ -1718,7 +1718,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0117,Leixões,Hugo Dos Santos Morais,10,,amarelo,ESPN
 2007-0117,Marítimo,Filipe Ricardo dos Santos Esteves,24,,amarelo,ESPN
 2007-0117,Marítimo,Filipe Ricardo dos Santos Esteves,36,,vermelho,ESPN
-2007-0117,Leixões,Ricardo Ribeiro Jesus Paulo Machado,55,,amarelo,ESPN
+2007-0117,Leixões,Paulo Machado,55,,amarelo,ESPN
 2007-0117,Marítimo,Evaldo,73,,vermelho,ESPN
 2007-0117,Leixões,Beto,86,,amarelo,ESPN
 2007-0117,Leixões,Nuno Silva,88,,vermelho,ESPN
@@ -1738,7 +1738,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0120,Nacional da Madeira,Bruno Alexandre dos Santos Patacas,31,,amarelo,ESPN
 2007-0120,Belenenses,Alves Moreira Candido Costa,70,,amarelo,ESPN
 2007-0120,Belenenses,Goncalves Andre Azevedo Marco,79,,amarelo,ESPN
-2007-0120,Nacional da Madeira,Alexander Fabio Coentrao,86,,amarelo,ESPN
+2007-0120,Nacional da Madeira,Fábio Coentrão,86,,amarelo,ESPN
 2007-0120,Nacional da Madeira,Carlos Amaral Marques Joao Coimbra,90,,amarelo,ESPN
 2007-0121,Paços de Ferreira,Jose Emilio Furtado,38,,amarelo,ESPN
 2007-0121,Marítimo,Ramires Joao Luiz,78,,amarelo,ESPN
@@ -1763,12 +1763,12 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0126,União de Leiria,Bonfim Jose de Oliveira Eder,59,,amarelo,ESPN
 2007-0126,União de Leiria,Bonfim Jose de Oliveira Eder,59,,vermelho,ESPN
 2007-0126,União de Leiria,Luis Miguel Assuncao Joaquim Alhandra,90,,vermelho,ESPN
-2007-0127,Nacional da Madeira,Alexander Fabio Coentrao,12,,amarelo,ESPN
+2007-0127,Nacional da Madeira,Fábio Coentrão,12,,amarelo,ESPN
 2007-0127,Estrela da Amadora,Démé N'Diaye,23,,amarelo,ESPN
 2007-0127,Estrela da Amadora,Fernandes Mauricio,25,,amarelo,ESPN
 2007-0127,Nacional da Madeira,Monteiro Oliveira Cleber,48,,amarelo,ESPN
-2007-0127,Nacional da Madeira,Alexander Fabio Coentrao,63,,amarelo,ESPN
-2007-0127,Nacional da Madeira,Alexander Fabio Coentrao,63,,vermelho,ESPN
+2007-0127,Nacional da Madeira,Fábio Coentrão,63,,amarelo,ESPN
+2007-0127,Nacional da Madeira,Fábio Coentrão,63,,vermelho,ESPN
 2007-0127,Estrela da Amadora,Filipe Tiago Gomes,88,,amarelo,ESPN
 2007-0128,Vitória de Guimarães,Ricardo Soares Andrezinho,71,,amarelo,ESPN
 2007-0128,Vitória de Guimarães,Henrique Sereno,78,,amarelo,ESPN
@@ -1913,7 +1913,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0157,Braga,Jose Organista Simoes Aguiar Miguelito,87,,amarelo,ESPN
 2007-0159,Sporting,Bruno Pereirinha,70,,amarelo,ESPN
 2007-0159,Sporting,Anderson Polga,85,,amarelo,ESPN
-2007-0160,Boavista,Filipe Tavares Bruno Pinheiro,13,,amarelo,ESPN
+2007-0160,Boavista,Bruno Pinheiro,13,,amarelo,ESPN
 2007-0160,Académica,Simoes Vitor Vinha,26,,amarelo,ESPN
 2007-0160,Boavista,Pinheiro Moura Moises,88,,amarelo,ESPN
 2007-0161,Vitória de Guimarães,Yves Hadley Desmarets,17,,amarelo,ESPN
@@ -1957,7 +1957,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0167,Benfica,Kostas Katsouranis,53,,amarelo,ESPN
 2007-0167,Sporting,Fernando Moreira Ferreira Abel,60,,amarelo,ESPN
 2007-0167,Sporting,Leandro Damian Grimi,63,,amarelo,ESPN
-2007-0167,Benfica,Augustin Gilles Binya,75,,amarelo,ESPN
+2007-0167,Benfica,Gilles Binya,75,,amarelo,ESPN
 2007-0167,Benfica,Marcos Augusto Tomar Nelson,75,,vermelho,ESPN
 2007-0167,Sporting,Milan Purovic,89,,amarelo,ESPN
 2007-0168,Paços de Ferreira,Rodrigues De Barros Roversio,20,,vermelho,ESPN
@@ -2015,7 +2015,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0178,Belenenses,Rafael Bastos,87,,amarelo,ESPN
 2007-0178,Belenenses,Jacobi Julio Cesar,90,4,amarelo,ESPN
 2007-0179,Leixões,Manuel Rodrigues Bruno China,24,,amarelo,ESPN
-2007-0179,Porto,Jorge Ciro Perdomo Fucile,84,,amarelo,ESPN
+2007-0179,Porto,Jorge Fucile,84,,amarelo,ESPN
 2007-0179,Leixões,Alves Pereira Elvis,90,4,amarelo,ESPN
 2007-0180,Estrela da Amadora,Fernandes Mauricio,82,,amarelo,ESPN
 2007-0180,Estrela da Amadora,Pedro Viegas e Silva Gomes Rui Duarte,83,,amarelo,ESPN
@@ -2025,7 +2025,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0181,Braga,Fernandes da Silva Jose Manuel,51,,amarelo,ESPN
 2007-0181,Braga,Pablo Contreras,81,,amarelo,ESPN
 2007-0181,Naval 1º de Maio,Carlos Eduardo da Silva Dudu,89,,amarelo,ESPN
-2007-0182,Benfica,Augustin Gilles Binya,72,,amarelo,ESPN
+2007-0182,Benfica,Gilles Binya,72,,amarelo,ESPN
 2007-0182,Benfica,Kostas Katsouranis,73,,amarelo,ESPN
 2007-0182,Marítimo,Marcelo Pereira Fernandes Bruno,81,,amarelo,ESPN
 2007-0182,Benfica,Maxi Pereira,86,,amarelo,ESPN
@@ -2050,7 +2050,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0188,Benfica,Nuno Gomes,42,,amarelo,ESPN
 2007-0188,Paços de Ferreira,Filipe Anunciação,53,,amarelo,ESPN
 2007-0188,Paços de Ferreira,Ricardo Jorge Duarte Mangualde,63,,amarelo,ESPN
-2007-0189,Leixões,Miguel Costa Nuno Silva,23,,amarelo,ESPN
+2007-0189,Leixões,Nuno Silva,23,,amarelo,ESPN
 2007-0189,Braga,João Pereira,38,,amarelo,ESPN
 2007-0189,Leixões,Manuel Rodrigues Bruno China,63,,amarelo,ESPN
 2007-0189,Braga,Soares Gomes Paulo Jorge,67,,amarelo,ESPN
@@ -2161,7 +2161,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0211,Nacional da Madeira,Bruno Alexandre dos Santos Patacas,79,,amarelo,ESPN
 2007-0211,Nacional da Madeira,Ferreira De Matos Alonso,90,,amarelo,ESPN
 2007-0211,Nacional da Madeira,Adriano,90,2,amarelo,ESPN
-2007-0212,Leixões,Miguel Costa Nuno Silva,16,,amarelo,ESPN
+2007-0212,Leixões,Nuno Silva,16,,amarelo,ESPN
 2007-0212,Leixões,Jorge Moreno,30,,amarelo,ESPN
 2007-0212,Estrela da Amadora,Jose Vaz Helder Cabral,45,,amarelo,ESPN
 2007-0212,Estrela da Amadora,Pedro Viegas e Silva Gomes Rui Duarte,47,,amarelo,ESPN
@@ -2177,11 +2177,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0213,Paços de Ferreira,Ricardo Jorge Duarte Mangualde,90,,amarelo,ESPN
 2007-0214,Porto,Lisandro López,7,,amarelo,ESPN
 2007-0214,Benfica,Maxi Pereira,11,,amarelo,ESPN
-2007-0214,Benfica,Augustin Gilles Binya,17,,amarelo,ESPN
+2007-0214,Benfica,Gilles Binya,17,,amarelo,ESPN
 2007-0214,Benfica,Kostas Katsouranis,27,,amarelo,ESPN
-2007-0214,Porto,Jorge Ciro Perdomo Fucile,68,,amarelo,ESPN
+2007-0214,Porto,Jorge Fucile,68,,amarelo,ESPN
 2007-0214,Benfica,Óscar Cardozo,72,,amarelo,ESPN
-2007-0214,Benfica,Augustin Gilles Binya,90,2,vermelho,ESPN
+2007-0214,Benfica,Gilles Binya,90,2,vermelho,ESPN
 2007-0215,União de Leiria,Bruno Miguel,60,,amarelo,ESPN
 2007-0215,União de Leiria,Guterres Silveira Eder Gaucho,69,,amarelo,ESPN
 2007-0215,União de Leiria,Modou Sougou,74,,vermelho,ESPN
@@ -2211,7 +2211,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0221,Marítimo,Grégory,17,,amarelo,ESPN
 2007-0221,Marítimo,Filipe Ricardo dos Santos Esteves,45,,amarelo,ESPN
 2007-0221,Sporting,Miguel Veloso,72,,amarelo,ESPN
-2007-0222,Leixões,Ricardo Ribeiro Jesus Paulo Machado,17,,amarelo,ESPN
+2007-0222,Leixões,Paulo Machado,17,,amarelo,ESPN
 2007-0222,Leixões,Melo Roosevelt Tavares Ezequias,29,,amarelo,ESPN
 2007-0222,União de Leiria,Arvid Smit,34,,vermelho,ESPN
 2007-0222,União de Leiria,Bruno Miguel,36,,amarelo,ESPN
@@ -2260,7 +2260,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0231,Sporting,Antonio Leone,77,,amarelo,ESPN
 2007-0231,Sporting,Miguel Veloso,83,,amarelo,ESPN
 2007-0231,Paços de Ferreira,Miguel Malheiro Fabio Paim,88,,amarelo,ESPN
-2007-0232,Leixões,Miguel Costa Nuno Silva,10,,amarelo,ESPN
+2007-0232,Leixões,Nuno Silva,10,,amarelo,ESPN
 2007-0232,Vitória de Setúbal,Miguel Fernandes,28,,amarelo,ESPN
 2007-0232,Vitória de Setúbal,Faustino Auri,57,,amarelo,ESPN
 2007-0232,Vitória de Setúbal,da Silva Alves Elias,60,,amarelo,ESPN
@@ -2683,7 +2683,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0068,Académica,Luiz Nunes Duarte,53,,amarelo,ESPN
 2008-0068,Benfica,David Luiz,59,,amarelo,ESPN
 2008-0068,Académica,Nuno Piloto,64,,amarelo,ESPN
-2008-0068,Benfica,Augustin Gilles Binya,67,,amarelo,ESPN
+2008-0068,Benfica,Gilles Binya,67,,amarelo,ESPN
 2008-0068,Benfica,Maxi Pereira,90,,amarelo,ESPN
 2008-0069,Nacional da Madeira,Junio Cesar Arcanjo Juninho,8,,amarelo,ESPN
 2008-0069,Nacional da Madeira,Junio Cesar Arcanjo Juninho,14,,vermelho,ESPN
@@ -2784,7 +2784,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0084,Marítimo,Marcão,16,,vermelho,ESPN
 2008-0084,Benfica,Luisão,36,,amarelo,ESPN
 2008-0084,Benfica,Rúben Amorim,43,,amarelo,ESPN
-2008-0084,Benfica,Augustin Gilles Binya,45,4,amarelo,ESPN
+2008-0084,Benfica,Gilles Binya,45,4,amarelo,ESPN
 2008-0084,Benfica,José Antonio Reyes,50,,amarelo,ESPN
 2008-0084,Marítimo,Fernando Cardozo,51,,amarelo,ESPN
 2008-0084,Benfica,David Luiz,56,,amarelo,ESPN
@@ -2890,9 +2890,9 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0102,Porto,Nelson Fabian Benitez,90,3,amarelo,ESPN
 2008-0103,Trofense,Miguel Angelo Ferreira de Castro,43,,amarelo,ESPN
 2008-0103,Trofense,Reguila,45,,amarelo,ESPN
-2008-0103,Benfica,Augustin Gilles Binya,48,,amarelo,ESPN
+2008-0103,Benfica,Gilles Binya,48,,amarelo,ESPN
 2008-0103,Benfica,David Suazo,57,,amarelo,ESPN
-2008-0103,Benfica,Augustin Gilles Binya,65,,vermelho,ESPN
+2008-0103,Benfica,Gilles Binya,65,,vermelho,ESPN
 2008-0103,Trofense,Milton Do Ó,68,,amarelo,ESPN
 2008-0103,Benfica,Jorge Ribeiro,69,,amarelo,ESPN
 2008-0103,Benfica,Maxi Pereira,77,,amarelo,ESPN
@@ -4331,7 +4331,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2009-0139,Benfica,Carlos Martins,29,,amarelo,ESPN
 2009-0139,Benfica,Pablo Aimar,38,,amarelo,ESPN
 2009-0139,Benfica,Ángel Di María,81,,amarelo,ESPN
-2009-0139,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,81,,amarelo,ESPN
+2009-0139,Vitória de Setúbal,Ricardo Silva,81,,amarelo,ESPN
 2009-0139,Vitória de Setúbal,Marco Zoro,90,,amarelo,ESPN
 2009-0139,Vitória de Setúbal,Neca,90,1,vermelho,ESPN
 2009-0140,União de Leiria,Ricardo da Costa Pateiro,12,,amarelo,ESPN
@@ -4638,7 +4638,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2009-0197,Vitória de Setúbal,Neca,64,,amarelo,ESPN
 2009-0197,Vitória de Setúbal,Ney Santos,67,,amarelo,ESPN
 2009-0197,Olhanense,Tengarrinha,68,,amarelo,ESPN
-2009-0197,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,74,,amarelo,ESPN
+2009-0197,Vitória de Setúbal,Ricardo Silva,74,,amarelo,ESPN
 2009-0197,Vitória de Setúbal,Nuno Santos,90,,amarelo,ESPN
 2009-0198,Belenenses,Mano,86,,amarelo,ESPN
 2009-0199,Marítimo,Paulo Jorge Alves,34,,amarelo,ESPN
@@ -4686,7 +4686,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2009-0207,Vitória de Setúbal,Ney Santos,37,,amarelo,ESPN
 2009-0207,Académica,Cris,50,,amarelo,ESPN
 2009-0207,Académica,Éder,55,,amarelo,ESPN
-2009-0207,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,80,,amarelo,ESPN
+2009-0207,Vitória de Setúbal,Ricardo Silva,80,,amarelo,ESPN
 2009-0207,Vitória de Setúbal,Przemyslaw Kazmierczak,89,,amarelo,ESPN
 2009-0207,Académica,Rui Orlando Ribeiro Santos Neto,90,,amarelo,ESPN
 2009-0208,Sporting,Rui Patrício,42,,amarelo,ESPN
@@ -4779,7 +4779,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2009-0227,Paços de Ferreira,Bruno,48,,amarelo,ESPN
 2009-0227,Paços de Ferreira,Ricardo,90,1,vermelho,ESPN
 2009-0228,Vitória de Setúbal,Sandro,23,,amarelo,ESPN
-2009-0228,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,34,,amarelo,ESPN
+2009-0228,Vitória de Setúbal,Ricardo Silva,34,,amarelo,ESPN
 2009-0229,Leixões,Jean Sony,60,,amarelo,ESPN
 2009-0229,Olhanense,Tengarrinha,69,,amarelo,ESPN
 2009-0229,Olhanense,Toy,72,,amarelo,ESPN
@@ -4846,7 +4846,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0001,Braga,Vandinho,84,,amarelo,ESPN
 2010-0001,Braga,Vandinho,85,,amarelo,ESPN
 2010-0002,Marítimo,Severino da Silva Robson,22,,amarelo,ESPN
-2010-0002,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,37,,amarelo,ESPN
+2010-0002,Vitória de Setúbal,Ricardo Silva,37,,amarelo,ESPN
 2010-0002,Vitória de Setúbal,Jailson Alves dos Santos,64,,amarelo,ESPN
 2010-0002,Vitória de Setúbal,José Aguiar,79,,amarelo,ESPN
 2010-0003,Naval 1º de Maio,Rogério dos Santos Conceicão,30,,amarelo,ESPN
@@ -4976,8 +4976,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0016,Vitória de Guimarães,João Paulo,87,,amarelo,ESPN
 2010-0017,Benfica,Júlio César,22,,vermelho,ESPN
 2010-0017,Benfica,Júlio César,23,,vermelho,ESPN
-2010-0017,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,30,,amarelo,ESPN
-2010-0017,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,30,,amarelo,ESPN
+2010-0017,Vitória de Setúbal,Ricardo Silva,30,,amarelo,ESPN
+2010-0017,Vitória de Setúbal,Ricardo Silva,30,,amarelo,ESPN
 2010-0017,Vitória de Setúbal,Paulo Roberto da Costa Regula,85,,amarelo,ESPN
 2010-0017,Vitória de Setúbal,Paulo Roberto da Costa Regula,85,,amarelo,ESPN
 2010-0017,Benfica,Luisão,90,,amarelo,ESPN
@@ -5290,14 +5290,14 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0059,Paços de Ferreira,André Leão,86,,amarelo,ESPN
 2010-0060,Vitória de Guimarães,Edson Sitta,48,,amarelo,ESPN
 2010-0060,Vitória de Guimarães,Edson Sitta,48,,amarelo,ESPN
-2010-0060,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,54,,amarelo,ESPN
-2010-0060,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,54,,amarelo,ESPN
+2010-0060,Vitória de Setúbal,Ricardo Silva,54,,amarelo,ESPN
+2010-0060,Vitória de Setúbal,Ricardo Silva,54,,amarelo,ESPN
 2010-0060,Vitória de Setúbal,Silva,79,,amarelo,ESPN
 2010-0060,Vitória de Setúbal,Silva,79,,amarelo,ESPN
-2010-0060,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,82,,vermelho,ESPN
+2010-0060,Vitória de Setúbal,Ricardo Silva,82,,vermelho,ESPN
 2010-0060,Vitória de Guimarães,Edgar Bruno da Silva,82,,amarelo,ESPN
 2010-0060,Vitória de Guimarães,Edgar Bruno da Silva,82,,amarelo,ESPN
-2010-0060,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,83,,vermelho,ESPN
+2010-0060,Vitória de Setúbal,Ricardo Silva,83,,vermelho,ESPN
 2010-0060,Vitória de Setúbal,Ney Santos,84,,amarelo,ESPN
 2010-0060,Vitória de Setúbal,Ney Santos,84,,amarelo,ESPN
 2010-0061,Naval 1º de Maio,Daniel Lopes Cruz,33,,amarelo,ESPN
@@ -5511,7 +5511,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0087,Paços de Ferreira,Nélson Oliveira,61,,amarelo,ESPN
 2010-0087,Paços de Ferreira,Samuel,74,,amarelo,ESPN
 2010-0087,Paços de Ferreira,Mário Rondón,76,,vermelho,ESPN
-2010-0088,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,29,,amarelo,ESPN
+2010-0088,Vitória de Setúbal,Ricardo Silva,29,,amarelo,ESPN
 2010-0088,Vitória de Setúbal,Aurélien Collin,42,,amarelo,ESPN
 2010-0088,União de Leiria,Rubén Brígido,67,,amarelo,ESPN
 2010-0088,União de Leiria,Paulo Gomes,72,,amarelo,ESPN
@@ -6314,7 +6314,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0179,Vitória de Setúbal,Adama François,12,,amarelo,ESPN
 2010-0179,Vitória de Guimarães,Renan Teixeira,22,,amarelo,ESPN
 2010-0179,Vitória de Guimarães,Tony,26,,amarelo,ESPN
-2010-0179,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,43,,amarelo,ESPN
+2010-0179,Vitória de Setúbal,Ricardo Silva,43,,amarelo,ESPN
 2010-0179,Vitória de Setúbal,Neca,45,,amarelo,ESPN
 2010-0179,Vitória de Setúbal,Anderson,66,,amarelo,ESPN
 2010-0179,Vitória de Guimarães,Rafael,83,,amarelo,ESPN
@@ -6384,7 +6384,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0188,Académica,Luiz Nunes Duarte,65,,amarelo,ESPN
 2010-0188,Académica,Luiz Nunes Duarte,66,,amarelo,ESPN
 2010-0189,Nacional da Madeira,Bruno Amaro,28,,amarelo,ESPN
-2010-0189,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,32,,amarelo,ESPN
+2010-0189,Vitória de Setúbal,Ricardo Silva,32,,amarelo,ESPN
 2010-0189,Vitória de Setúbal,Neca,45,,amarelo,ESPN
 2010-0189,Vitória de Setúbal,Tengarrinha,75,,amarelo,ESPN
 2010-0189,Vitória de Setúbal,Adama François,77,,amarelo,ESPN
@@ -6547,7 +6547,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0206,Porto,Rolando,83,,amarelo,ESPN
 2010-0207,União de Leiria,Ricardo da Costa Pateiro,16,,amarelo,ESPN
 2010-0207,Vitória de Setúbal,Zeca,18,,amarelo,ESPN
-2010-0207,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,41,,amarelo,ESPN
+2010-0207,Vitória de Setúbal,Ricardo Silva,41,,amarelo,ESPN
 2010-0207,Vitória de Setúbal,Ney Santos,64,,amarelo,ESPN
 2010-0207,União de Leiria,Diogo Amado,85,,amarelo,ESPN
 2010-0208,Braga,Sílvio,40,,amarelo,ESPN
@@ -6566,8 +6566,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2010-0209,Académica,Modou Sougou,41,,amarelo,ESPN
 2010-0209,Académica,Amaury Bischoff,42,,amarelo,ESPN
 2010-0209,Académica,Amaury Bischoff,43,,amarelo,ESPN
-2010-0209,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,47,,amarelo,ESPN
-2010-0209,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,48,,amarelo,ESPN
+2010-0209,Vitória de Setúbal,Ricardo Silva,47,,amarelo,ESPN
+2010-0209,Vitória de Setúbal,Ricardo Silva,48,,amarelo,ESPN
 2010-0209,Vitória de Setúbal,Valdomiro Duarte de Macedo,48,,amarelo,ESPN
 2010-0209,Vitória de Setúbal,Valdomiro Duarte de Macedo,50,,amarelo,ESPN
 2010-0209,Vitória de Setúbal,Zeca,53,,amarelo,ESPN
@@ -6840,12 +6840,12 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0006,Porto,Rolando,78,,amarelo,ESPN
 2011-0006,Vitória de Guimarães,Paulo Moreira Gonçalves,90,3,amarelo,ESPN
 2011-0006,Vitória de Guimarães,Paulo Moreira Gonçalves,90,3,amarelo,ESPN
-2011-0007,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,6,,amarelo,ESPN
+2011-0007,Vitória de Setúbal,Ricardo Silva,6,,amarelo,ESPN
 2011-0007,Vitória de Setúbal,Ney Santos,42,,amarelo,ESPN
 2011-0007,Paços de Ferreira,Javier Cohene,42,,amarelo,ESPN
 2011-0007,Paços de Ferreira,Javier Cohene,54,,vermelho,ESPN
 2011-0007,Paços de Ferreira,Luiz Carlos,85,,amarelo,ESPN
-2011-0007,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,90,,vermelho,ESPN
+2011-0007,Vitória de Setúbal,Ricardo Silva,90,,vermelho,ESPN
 2011-0007,Vitória de Setúbal,Claudio Mejolaro,90,,amarelo,ESPN
 2011-0007,Paços de Ferreira,Cássio,90,,vermelho,ESPN
 2011-0007,Paços de Ferreira,André Leão,90,5,amarelo,ESPN
@@ -7166,7 +7166,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0048,CD Feirense,Cris,90,3,amarelo,ESPN
 2011-0049,Vitória de Setúbal,José Salazar,16,,amarelo,ESPN
 2011-0049,Rio Ave,Marcelo Gomes,26,,amarelo,ESPN
-2011-0049,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,36,,amarelo,ESPN
+2011-0049,Vitória de Setúbal,Ricardo Silva,36,,amarelo,ESPN
 2011-0049,Rio Ave,Wires José de Souza,45,,amarelo,ESPN
 2011-0049,Rio Ave,Tiago Pinto,70,,amarelo,ESPN
 2011-0049,Vitória de Setúbal,Bruno Amaro,71,,amarelo,ESPN
@@ -7203,7 +7203,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0054,União de Leiria,Élvis,90,1,amarelo,ESPN
 2011-0054,União de Leiria,Josiel Alves de Oliveira,90,3,amarelo,ESPN
 2011-0055,Sporting,Fabián Rinaudo,22,,vermelho,ESPN
-2011-0055,Vitória de Guimarães,Jean Pierre Barrientos,36,,amarelo,ESPN
+2011-0055,Vitória de Guimarães,Jean Barrientos,36,,amarelo,ESPN
 2011-0055,Vitória de Guimarães,Bruno Teles,40,,amarelo,ESPN
 2011-0055,Vitória de Guimarães,Alex,43,,amarelo,ESPN
 2011-0055,Vitória de Guimarães,Hillel Soudani,48,,amarelo,ESPN
@@ -7277,7 +7277,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0070,Vitória de Setúbal,Neca,35,,amarelo,ESPN
 2011-0070,Vitória de Setúbal,Claudio Mejolaro,52,,amarelo,ESPN
 2011-0070,União de Leiria,Manuel Jose da Luz Correia,67,,amarelo,ESPN
-2011-0070,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,89,,amarelo,ESPN
+2011-0070,Vitória de Setúbal,José Aguiar,89,,amarelo,ESPN
 2011-0070,União de Leiria,Ivo Pinto,90,,amarelo,ESPN
 2011-0070,Vitória de Setúbal,Bruno Amaro,90,,amarelo,ESPN
 2011-0071,Rio Ave,Vítor Gomes,4,,amarelo,ESPN
@@ -7333,13 +7333,13 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0079,União de Leiria,Edson Silva,58,,amarelo,ESPN
 2011-0079,Sporting,Stijn Schaars,59,,amarelo,ESPN
 2011-0079,União de Leiria,Ivo Pinto,90,2,vermelho,ESPN
-2011-0080,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,5,,amarelo,ESPN
+2011-0080,Vitória de Setúbal,Ricardo Silva,5,,amarelo,ESPN
 2011-0080,Gil Vicente,Roberto,8,,amarelo,ESPN
 2011-0080,Vitória de Setúbal,Anderson Oliveira,16,,amarelo,ESPN
 2011-0080,Gil Vicente,Rui Faria,22,,amarelo,ESPN
 2011-0080,Gil Vicente,Richard Almeida,31,,amarelo,ESPN
 2011-0080,Vitória de Setúbal,Ney Santos,37,,amarelo,ESPN
-2011-0080,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,39,,amarelo,ESPN
+2011-0080,Vitória de Setúbal,José Aguiar,39,,amarelo,ESPN
 2011-0080,Gil Vicente,Daniel Joao Alves Faria,73,,amarelo,ESPN
 2011-0080,Vitória de Setúbal,Jose Pedro Alves Soares,75,,amarelo,ESPN
 2011-0081,Académica,Éder,22,,amarelo,ESPN
@@ -7488,7 +7488,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0105,Académica,Abdoulaye Ba,68,,amarelo,ESPN
 2011-0105,Académica,Romuald Peiser,72,,amarelo,ESPN
 2011-0105,Académica,Adrien Silva,90,3,amarelo,ESPN
-2011-0105,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,90,3,amarelo,ESPN
+2011-0105,Vitória de Setúbal,José Aguiar,90,3,amarelo,ESPN
 2011-0106,Sporting,Elias,2,,amarelo,ESPN
 2011-0106,Porto,João Moutinho,26,,amarelo,ESPN
 2011-0106,Porto,Nicolás Otamendi,29,,amarelo,ESPN
@@ -7548,7 +7548,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0113,Paços de Ferreira,Ozéia,90,3,amarelo,ESPN
 2011-0114,Benfica,Óscar Cardozo,39,,amarelo,ESPN
 2011-0114,Vitória de Setúbal,Ney Santos,39,,amarelo,ESPN
-2011-0114,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,39,,amarelo,ESPN
+2011-0114,Vitória de Setúbal,Ricardo Silva,39,,amarelo,ESPN
 2011-0114,Vitória de Setúbal,Bernardo Tengarrinha,53,,amarelo,ESPN
 2011-0114,Vitória de Setúbal,João Silva,61,,amarelo,ESPN
 2011-0114,Benfica,Óscar Cardozo,84,,vermelho,ESPN
@@ -7572,11 +7572,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0118,Braga,Ricardo Rocha,90,,amarelo,ESPN
 2011-0119,Nacional da Madeira,Vladan Giljen,53,,vermelho,ESPN
 2011-0119,Nacional da Madeira,Luís Neto,57,,amarelo,ESPN
-2011-0119,União de Leiria,José Alberto Schaffer,57,,amarelo,ESPN
+2011-0119,União de Leiria,José Schaffer,57,,amarelo,ESPN
 2011-0119,União de Leiria,Tiago Terroso,58,,amarelo,ESPN
 2011-0119,União de Leiria,Jan Oblak,59,,amarelo,ESPN
 2011-0119,Nacional da Madeira,,60,,amarelo,ESPN
-2011-0119,União de Leiria,José Alberto Schaffer,80,,vermelho,ESPN
+2011-0119,União de Leiria,José Schaffer,80,,vermelho,ESPN
 2011-0119,Nacional da Madeira,Diego Barcelos,89,,amarelo,ESPN
 2011-0120,Beira-Mar,Pedro Moreira,78,,amarelo,ESPN
 2011-0120,Beira-Mar,Hugo Miguel Fernandes Vieira,80,,amarelo,ESPN
@@ -7620,7 +7620,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0126,Vitória de Setúbal,Jose Pedro Alves Soares,87,,amarelo,ESPN
 2011-0126,Vitória de Setúbal,Anderson Oliveira,90,,amarelo,ESPN
 2011-0126,Paços de Ferreira,Manuel José,90,,amarelo,ESPN
-2011-0126,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,90,,amarelo,ESPN
+2011-0126,Vitória de Setúbal,José Aguiar,90,,amarelo,ESPN
 2011-0127,Vitória de Guimarães,Paulo Moreira Gonçalves,24,,amarelo,ESPN
 2011-0127,Porto,Kléber,56,,amarelo,ESPN
 2011-0127,Porto,Fernando,58,,amarelo,ESPN
@@ -7671,7 +7671,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0134,Paços de Ferreira,Vitor Cruz da Silva,88,,amarelo,ESPN
 2011-0135,Olhanense,Vitor Manuel Gomes da Costa,3,,amarelo,ESPN
 2011-0135,Olhanense,Fernando Alexandre,28,,amarelo,ESPN
-2011-0135,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,47,,amarelo,ESPN
+2011-0135,Vitória de Setúbal,Ricardo Silva,47,,amarelo,ESPN
 2011-0135,Olhanense,André Pinto,66,,amarelo,ESPN
 2011-0135,Vitória de Setúbal,Jorge Gonçalves,89,,amarelo,ESPN
 2011-0136,Marítimo,Luís Olim,41,,amarelo,ESPN
@@ -7680,7 +7680,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0136,Marítimo,João Guilherme,90,2,amarelo,ESPN
 2011-0136,Marítimo,Igor Rossi,90,5,amarelo,ESPN
 2011-0137,Braga,Lima,45,1,amarelo,ESPN
-2011-0137,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,50,,amarelo,ESPN
+2011-0137,Vitória de Setúbal,José Aguiar,50,,amarelo,ESPN
 2011-0137,Braga,Elderson Echiéjilé,89,,amarelo,ESPN
 2011-0138,Nacional da Madeira,Ivan Todorovic,15,,amarelo,ESPN
 2011-0138,Benfica,Axel Witsel,51,,amarelo,ESPN
@@ -7712,7 +7712,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0142,CD Feirense,Thiago,49,,amarelo,ESPN
 2011-0142,CD Feirense,Alexandre Ludovic,69,,amarelo,ESPN
 2011-0143,Porto,Silvestre Varela,27,,amarelo,ESPN
-2011-0143,União de Leiria,José Alberto Schaffer,48,,vermelho,ESPN
+2011-0143,União de Leiria,José Schaffer,48,,vermelho,ESPN
 2011-0143,Porto,Marc Janko,60,,amarelo,ESPN
 2011-0143,Porto,Álvaro Pereira,79,,amarelo,ESPN
 2011-0143,União de Leiria,John Ogu,88,,amarelo,ESPN
@@ -7833,7 +7833,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0162,Nacional da Madeira,Moreno,47,,amarelo,ESPN
 2011-0162,Braga,Mossoró,56,,amarelo,ESPN
 2011-0163,Vitória de Setúbal,Peter Suswam,14,,amarelo,ESPN
-2011-0163,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,27,,amarelo,ESPN
+2011-0163,Vitória de Setúbal,Ricardo Silva,27,,amarelo,ESPN
 2011-0163,Sporting,Diego Capel,39,,amarelo,ESPN
 2011-0163,Sporting,Sebastián Ribas,58,,amarelo,ESPN
 2011-0163,Vitória de Setúbal,Igor,65,,amarelo,ESPN
@@ -7883,7 +7883,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0169,Marítimo,Fidélis,90,4,amarelo,ESPN
 2011-0170,União de Leiria,Élvis,23,,amarelo,ESPN
 2011-0170,Braga,Ukra,37,,amarelo,ESPN
-2011-0170,União de Leiria,José Alberto Schaffer,48,,amarelo,ESPN
+2011-0170,União de Leiria,José Schaffer,48,,amarelo,ESPN
 2011-0170,Braga,Hugo Miguel Ferreira Viana,61,,amarelo,ESPN
 2011-0170,Braga,Custódio,66,,amarelo,ESPN
 2011-0170,União de Leiria,Bruno Moraes,67,,amarelo,ESPN
@@ -8007,7 +8007,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0189,Rio Ave,Yazalde,85,,amarelo,ESPN
 2011-0189,Vitória de Guimarães,Jonathan Urretaviscaya,90,1,amarelo,ESPN
 2011-0190,Vitória de Setúbal,Bruno Amaro,34,,amarelo,ESPN
-2011-0190,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,50,,amarelo,ESPN
+2011-0190,Vitória de Setúbal,José Aguiar,50,,amarelo,ESPN
 2011-0190,União de Leiria,Bruno Moraes,90,,amarelo,ESPN
 2011-0191,Académica,Cédric,54,,amarelo,ESPN
 2011-0191,Académica,Marinho,57,,amarelo,ESPN
@@ -8074,7 +8074,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0203,Vitória de Guimarães,Paulo Moreira Gonçalves,20,,amarelo,ESPN
 2011-0203,Vitória de Guimarães,Paulo Moreira Gonçalves,24,,vermelho,ESPN
 2011-0203,Vitória de Setúbal,Ney Santos,43,,amarelo,ESPN
-2011-0203,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,72,,amarelo,ESPN
+2011-0203,Vitória de Setúbal,Ricardo Silva,72,,amarelo,ESPN
 2011-0203,Vitória de Setúbal,Euripides Amoreirinha,75,,amarelo,ESPN
 2011-0203,Vitória de Guimarães,Jean Barrientos,87,,amarelo,ESPN
 2011-0203,Vitória de Setúbal,Bruno Gallo,90,,amarelo,ESPN
@@ -8139,10 +8139,10 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0212,Vitória de Guimarães,Alex,27,,amarelo,ESPN
 2011-0212,Vitória de Guimarães,Pedro Mendes,50,,amarelo,ESPN
 2011-0213,Vitória de Setúbal,Ney Santos,28,,amarelo,ESPN
-2011-0213,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,43,,amarelo,ESPN
-2011-0213,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,45,2,amarelo,ESPN
+2011-0213,Vitória de Setúbal,José Aguiar,43,,amarelo,ESPN
+2011-0213,Vitória de Setúbal,Ricardo Silva,45,2,amarelo,ESPN
 2011-0213,Vitória de Setúbal,Peter Suswam,46,,amarelo,ESPN
-2011-0213,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,64,,vermelho,ESPN
+2011-0213,Vitória de Setúbal,José Aguiar,64,,vermelho,ESPN
 2011-0213,Vitória de Setúbal,Euripides Amoreirinha,72,,amarelo,ESPN
 2011-0213,CD Feirense,Thiago,84,,amarelo,ESPN
 2011-0213,CD Feirense,Carlos Fonseca,90,2,amarelo,ESPN
@@ -8213,8 +8213,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2011-0225,Vitória de Setúbal,Euripides Amoreirinha,13,,amarelo,ESPN
 2011-0225,Vitória de Setúbal,Tiago Targino,28,,amarelo,ESPN
 2011-0225,Académica,David Simão,45,,amarelo,ESPN
-2011-0225,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,59,,amarelo,ESPN
-2011-0225,Vitória de Setúbal,Jose Miguel Organista de Simoes Aguiar,64,,amarelo,ESPN
+2011-0225,Vitória de Setúbal,Ricardo Silva,59,,amarelo,ESPN
+2011-0225,Vitória de Setúbal,José Aguiar,64,,amarelo,ESPN
 2011-0225,Vitória de Setúbal,Bruno Gallo,73,,amarelo,ESPN
 2011-0225,Académica,Edinho,78,,amarelo,ESPN
 2011-0225,Vitória de Setúbal,Bruno Gallo,89,,vermelho,ESPN
@@ -8464,7 +8464,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0031,Estoril,Diogo Amado,88,,amarelo,ESPN
 2012-0031,Marítimo,Valentin Roberge,89,,amarelo,ESPN
 2012-0031,Marítimo,João Guilherme,90,,amarelo,ESPN
-2012-0032,Gil Vicente,Pedro Jorge Marques Pereira,19,,amarelo,ESPN
+2012-0032,Gil Vicente,Pedro Pereira,19,,amarelo,ESPN
 2012-0032,Gil Vicente,Daniel Joao Alves Faria,23,,amarelo,ESPN
 2012-0032,Sporting,Marcos Rojo,44,,amarelo,ESPN
 2012-0032,Sporting,Zakaria Labyad,46,,amarelo,ESPN
@@ -8547,7 +8547,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0045,Gil Vicente,Adriano Facchini,75,,amarelo,ESPN
 2012-0045,Gil Vicente,Luis Carlos,76,,amarelo,ESPN
 2012-0045,Gil Vicente,César Peixoto,77,,amarelo,ESPN
-2012-0045,Gil Vicente,Pedro Jorge Marques Pereira,89,,amarelo,ESPN
+2012-0045,Gil Vicente,Pedro Pereira,89,,amarelo,ESPN
 2012-0046,Porto,Lucho González,24,,amarelo,ESPN
 2012-0046,Porto,James Rodríguez,26,,amarelo,ESPN
 2012-0046,Sporting,Stijn Schaars,34,,amarelo,ESPN
@@ -8589,7 +8589,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0051,Gil Vicente,Luis Manuel Mendes Pereira,37,,amarelo,ESPN
 2012-0051,Benfica,Enzo Pérez,70,,vermelho,ESPN
 2012-0051,Gil Vicente,Andre Albino Carvalho Cunda,71,,amarelo,ESPN
-2012-0051,Gil Vicente,Pedro Jorge Marques Pereira,90,,amarelo,ESPN
+2012-0051,Gil Vicente,Pedro Pereira,90,,amarelo,ESPN
 2012-0051,Benfica,Bruno César,90,2,amarelo,ESPN
 2012-0052,Moreirense,Filipe Gonçalves,27,,amarelo,ESPN
 2012-0052,Moreirense,Anilton,38,,amarelo,ESPN
@@ -8660,7 +8660,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0063,Paços de Ferreira,Vitor Cruz da Silva,64,,amarelo,ESPN
 2012-0063,Olhanense,Ivanildo,77,,amarelo,ESPN
 2012-0064,Sporting,Cédric,36,,amarelo,ESPN
-2012-0064,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,50,,amarelo,ESPN
+2012-0064,Vitória de Setúbal,Ricardo Silva,50,,amarelo,ESPN
 2012-0064,Sporting,Ricky van Wolfswinkel,50,,amarelo,ESPN
 2012-0064,Vitória de Setúbal,Paulo Tavares,58,,amarelo,ESPN
 2012-0064,Sporting,Fabián Rinaudo,63,,amarelo,ESPN
@@ -8712,7 +8712,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0072,Vitória de Setúbal,Cristiano,74,,amarelo,ESPN
 2012-0072,Marítimo,Márcio Rosário,74,,amarelo,ESPN
 2012-0072,Vitória de Setúbal,Albert Ze Meyong,80,,amarelo,ESPN
-2012-0072,Vitória de Setúbal,Ricardo Emido Ramalho da Silva,81,,amarelo,ESPN
+2012-0072,Vitória de Setúbal,Ricardo Silva,81,,amarelo,ESPN
 2012-0073,Vitória de Guimarães,Siaka Bamba,41,,amarelo,ESPN
 2012-0073,Beira-Mar,Saleh Al-Shehri,55,,amarelo,ESPN
 2012-0073,Beira-Mar,Abel Camará,78,,amarelo,ESPN
@@ -8721,7 +8721,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0075,Gil Vicente,Éder Sciola,26,,amarelo,ESPN
 2012-0075,Gil Vicente,Luciano Amaral,39,,amarelo,ESPN
 2012-0075,Gil Vicente,Pio,41,,amarelo,ESPN
-2012-0075,Gil Vicente,Pedro Jorge Marques Pereira,88,,amarelo,ESPN
+2012-0075,Gil Vicente,Pedro Pereira,88,,amarelo,ESPN
 2012-0076,Porto,Fernando,39,,amarelo,ESPN
 2012-0076,Braga,Custódio,52,,amarelo,ESPN
 2012-0076,Porto,Silvestre Varela,63,,amarelo,ESPN
@@ -8835,7 +8835,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2012-0096,Vitória de Setúbal,Albert Ze Meyong,63,,amarelo,ESPN
 2012-0096,Académica,Marcos Paulo,76,,amarelo,ESPN
 2012-0096,Académica,Reiner Ferreira Correa Gomes,77,,amarelo,ESPN
-2012-0097,Gil Vicente,Pedro Jorge Marques Pereira,41,,amarelo,ESPN
+2012-0097,Gil Vicente,Pedro Pereira,41,,amarelo,ESPN
 2012-0097,Gil Vicente,Andre Albino Carvalho Cunda,62,,amarelo,ESPN
 2012-0097,Gil Vicente,Kalidou Coulibaly Yero,67,,amarelo,ESPN
 2012-0097,Vitória de Guimarães,Olimpio Leonel,67,,amarelo,ESPN

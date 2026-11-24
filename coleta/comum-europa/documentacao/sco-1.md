@@ -214,11 +214,18 @@ Registradas em `coleta/sco-1/importar.py`; cada uma também aparece no relatóri
 - **Ligas de guerra (1939/40-1945/46):** não oficiais; ficam de fora.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
+
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 
 - Autores dos gols e cartões antes da ESPN (2001/02): jogo a jogo (ficha do ogol).
 - Rodada vazia até os anos 1930 em várias temporadas: não havia rodadas fixas (como no Inglês) e o ogol não traz.
-- Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; a revisão pode conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).
+
+**Com o agente de revisão:** decisões da coleta que ele confere.
+
+- Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).
 
 ## 10. Arquivos
 

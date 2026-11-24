@@ -4,7 +4,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 138, de 1956/57 a 1955/56.
+- **Edições:** 138, de 1888/89 a 2025/26.
 - **Jogos:** 21878; **gols:** 68087; **gols com autor:** 23019 (34%); **cartões:** 24431; **jogos com estatísticas** (chutes, faltas, escanteios): 2680.
 - **Clubes:** 93; **artilheiros:** 70 temporadas com artilheiro (78 linhas, com empates).
 - **Classificação final:** 135 temporadas; **rodada a rodada:** 70 temporadas.
@@ -238,6 +238,10 @@ Registradas em `coleta/ned-1/importar.py`; cada uma também aparece no relatóri
 - **1957/58:** o título foi decidido num jogo extra (DOS e Ajax empatados em pontos), e o último lugar também (Elinkwijk 2-1 GVAV, em campo neutro): os jogos extras ficam de fora, como os play-offs; a ordem é a oficial (Wikipédia)
 - **1959/60:** o título foi decidido num jogo extra (Ajax 5-1 Feyenoord, empatados em pontos): fica de fora, como os play-offs; a ordem é a oficial (Wikipédia)
 
+### Edições sem título oficial (`SEM_TITULO`)
+
+- **2019/20:** temporada cancelada (covid-19): a federação não deu o título
+
 ## 8. O que não deu para coletar
 
 - **Autores dos gols e cartões antes de 2001/02:** nenhuma fonte em lote traz.
@@ -246,12 +250,19 @@ Registradas em `coleta/ned-1/importar.py`; cada uma também aparece no relatóri
 - **Campeonatos de antes da Eredivisie (1888/89-1955/56):** ficam de fora, à espera de decisão do Guilherme.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
+
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 
 - Era antiga (1888/89-1955/56, em antigo.py): de 1888/89 a 1896/97 e nas temporadas sem a fase final legível na RSSSF, só o campeão e a tabela da Eerste Klasse, sem jogos; os jogos da fase final vêm da matriz da RSSSF, sem data (datados só em 1954/55 e 1955/56). As ligas regionais ficam de fora.
-- Era antiga: tabelas da fase final que não fecham com os jogos por erro de digitação da RSSSF (1906/07, 1922/23, 1923/24); ficam anotadas no relatório, sem explicação escrita.
+- Era antiga: tabelas da fase final que não fecham com os jogos por erro de digitação da RSSSF (1906/07, 1922/23, 1923/24); ficam anotadas no relatório.
 - Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
-- Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a revisão conferir.
+
+**Com o agente de revisão:** decisões da coleta que ele confere.
+
+- Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor.
 
 ## 10. Arquivos
 

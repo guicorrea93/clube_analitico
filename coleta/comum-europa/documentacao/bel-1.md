@@ -443,9 +443,13 @@ Registradas em `coleta/bel-1/importar.py`; cada uma também aparece no relatóri
 - **Autores dos gols antes da ESPN:** nenhuma fonte em lote.
 - **Jogos de acesso e rebaixamento contra clubes da 2ª divisão:** ficam de fora.
 
-## 9. Pendências e próximos passos
+## 9. Pendências
 
-- Antes de 1960/61: jogos só pela matriz da Wikipédia, sem data nem rodada (o ogol não tem); quando a soma não fecha com a tabela da RSSSF, a classificação final fica com os números publicados (observação na linha). Conferir a matriz com outra fonte jogo a jogo (jornais da época, nl/fr.wikipedia) seria o próximo passo.
+- nenhuma em aberto na coleta.
+
+**Limites de fonte (fechados):** nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
+
+- Antes de 1960/61: jogos só pela matriz da Wikipédia, sem data nem rodada (o ogol não tem); quando a soma não fecha com a tabela da RSSSF, a classificação final fica com os números publicados (observação na linha).
 - 1898/99, 1899/00, 1901/02, 1902/03 e 1903/04 (grupos): só as tabelas da RSSSF e os jogos finais e de desempate; sem os jogos dos grupos e sem classificação oficial além do campeão e do torneio final.
 - Autores dos gols e cartões: só com a ESPN (2006/07+), que não tem lances de 2011/12 a 2014/15 nem dos play-offs; antes e nesses anos, jogo a jogo (ficha do ogol).
 - Jogos de play-off de acesso e rebaixamento contra clubes da 2ª divisão (até 2008/09) ficam de fora; desde 2016/17 os clubes da 2ª divisão no play-off europeu entram nos jogos, mas não na classificação final.

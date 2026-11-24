@@ -340,7 +340,7 @@ def montar(tab: dict, nomes: dict, ocorr: dict) -> list[tuple]:
             ultima = max(fs, key=lambda fg: ordem_f.get(fg, -1)) if fs else None
             return (0 if c == campeao else 1, -len({f for f, _ in fs}), -ordem_f.get(ultima, -1),
                     pos_fase.get(ultima, {}).get(c, 99), -total[c][6], -(total[c][4] - total[c][5]))
-        clubes_ed = sorted(set(fases_clube) | set(total), key=chave_ord)
+        clubes_ed = sorted(sorted(set(fases_clube) | set(total)), key=chave_ord)  # empate total: ordem alfabética
         if campeao and campeao not in clubes_ed:
             ocorr[T].append(f"o campeão ({clubes.exibicao(campeao)}) não aparece nos jogos nem nas classificações")
         for pos, c in enumerate(clubes_ed, 1):
