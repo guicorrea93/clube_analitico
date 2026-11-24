@@ -1046,3 +1046,44 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - Muitas cidades ficaram vazias.
 7. **Onde a revisão deve olhar primeiro:** as identidades dos clubes das divisões de acesso (`coleta/ecu-copa/clubes_copa.py`).
 8. **Próxima competição:** Copa Colombia (`col-copa`).
+
+## Recado de fim de coleta — col-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa Colombia (`col-copa`, `tipo` "copa"), a quarta das sete copas.
+   - **Números:** 21 edições, 2.441 jogos e 58 clubes, dos quais 23 só jogam a copa.
+   - **Edições:** 1950-51, 1952-53, 1956-57 (cancelada, sem campeão) e 2008 a 2025, pela contagem da Wikipédia em
+     espanhol. Ficam fora 1951-52, 1963, 1981 e 1989, que a Wikipédia não conta como Copa Colombia.
+   - **Campeões:** os 20 batem com a Wikipédia.
+2. **Commits:** (abaixo).
+3. **Teste de carga:** `col-copa: 21 edições, 2441 jogos, 23 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar a `col-copa`;
+   - recarregar `uru-copa`, `par-copa` e `ecu-copa`: só a coluna `rodada` mudou. Ela fica vazia nos jogos de mata-mata,
+     onde vinha o número do "Round N" do título. Fica só nas fases de pontos.
+5. **Fontes e decisões:**
+   - **RSSSF** (seção da copa nas páginas do col-1): edições completas em 2008-2010, 2018 e 2020-2023.
+     - Em 2020-2023 a ida e a volta vêm na mesma linha ("Huila 0-2 4-0 Llaneros"). O importador comum agora as separa,
+       com mando invertido e os pênaltis na volta.
+     - "o/w" passa a ser lido como W.O.
+   - **Wikipédia em espanhol** (`coleta/col-copa/wiki_copa.py`), para o que a RSSSF não tem: a fase de grupos de
+     2011-2017 e 2019 (com os W.O.), as oitavas de 2011 e 2012, as fases I a III de 2024 e a 1ª fase de 2025. Esses jogos
+     levam a fonte "Wikipédia (es)".
+   - **Edições antigas:** só os jogos que a RSSSF traz (`colcuphist.html`): os dos clubes de Medellín e a final. Ficam com
+     aviso na observação.
+   - **Identidades:**
+     - Deportivo Rionegro e Itagüí Leones são a linha do Leones FC.
+     - Alianza Petrolera é o Alianza FC, como no col-1.
+     - "Internacional" em 2024 é o Internacional de Palmira.
+     - O Boca Juniors de Cali da Primera B (2020 em diante) é "Boca Juniors de Cali (refundado)", e não o de 1937.
+     - "Pacífico de Buenaventura" ficou assim porque o Peru já tem um "Pacífico FC".
+   - **Importador comum (`copa_rsssf.py`):** ganhou fases por edição, jogos extras de outra fonte, ida e volta na mesma
+     linha e "o/w".
+6. **O que não deu:**
+   - As edições antigas têm jogos parciais.
+   - Há poucos autores de gol: a Wikipédia não os traz nos grupos, e a RSSSF só em parte.
+   - Algumas cidades ficaram vazias.
+7. **Onde a revisão deve olhar primeiro:** as identidades acima (`coleta/col-copa/clubes_copa.py`) e a mistura de fontes
+   por edição (`_extras` em `coleta/col-copa/importar.py`).
+8. **Próxima competição:** Copa Argentina (`arg-copa`).

@@ -85,6 +85,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `uru-copa` Copa AUF Uruguay | 4 (2022–2025) | 221 | 100 | 1fe6d99 | não |
 | `par-copa` Copa Paraguay | 7 (2018–2025, sem 2020) | 296 | 110 | e31a932 | não |
 | `ecu-copa` Copa Ecuador | 5 (1970, 2018/19–2025) | 208 | 80 | e216792 | não |
+| `col-copa` Copa Colombia | 21 (1950-51, 1952-53, 1956-57, 2008–2025) | 2.441 | 58 | (commit no recado) | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
@@ -123,23 +124,15 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
 3. **Copas nacionais (EM ANDAMENTO desde 24/11; decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
    COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai (FEITO, `par-copa`), Equador (FEITO, `ecu-copa`),
-   Colômbia, Argentina, Chile, Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
+   Colômbia (FEITO, `col-copa`), Argentina, Chile, Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
    cada copa só configura edições (página e trecho da RSSSF), fases, regiões e clubes (`clubes_copa.py`: regras da copa
    antes das da liga, nome inteiro, interior com a cidade). Não entra no `documentar.py` (que é de liga): o relatório
    `docs/coleta/<slug>.md` sai do próprio importador. Ver também: o leitor comum perde a continuação do colchete dos
    autores ("[A 9, B 68;" + "   C 87]"); o importador das copas junta (`_autores_inteiros`); conferir se as ligas perdem
    autores por isso (pendência).
-   - **PARADO AQUI (24/11): próxima é a Copa Colombia (`col-copa`).** Diagnóstico feito, nada escrito ainda:
-     - páginas `col08` ... `col2025` (já no col-1); título muda (Copa Colombia-Postobón, Postobón, Colombia-Águila, Águila,
-       BetPlay, Colombia); a última ocorrência do título nem sempre é a seção (2011, 2012: achar o título certo);
-     - o fim da seção precisa parar na competição seguinte (em 2008-2010 a leitura até "list of champions" pega 584
-       jogos/ano: outra competição junto);
-     - 2013-2017 e 2019: a RSSSF só tem as tabelas dos grupos (30 jogos = mata-mata). Os jogos dos grupos estão na
-       Wikipédia em espanhol: usar o `wikipedia_jogos.py` do col-1 (páginas "Copa Colombia <ano>");
-     - 2018: fases I e II entre clubes da 2ª divisão antes; 2020/21 com final em fev/2021 (temporada "2020");
-     - antigas (1950-51, 1951-52, 1952-53, 1956-57 inacabada, 1981, 1989): baixar `colcuphist.html` (tablesc) para
-       `data/coleta/col-copa/rsssf/` e criar edições à parte, com aviso (decisão do Guilherme);
-     - campeões: conferir com a Wikipédia em espanhol ("Copa Colombia").
+   - **Próxima: Copa Argentina (`arg-copa`)**: 1969, 1970 (não terminou) e 2011/12 em diante, sem 2020/21 (pesquisa em
+     `copas-nacionais.md`). A Copa Colombia mostrou o caminho para fonte mista: `EdicaoCopa.extras` (jogos da Wikipédia, ver
+     `coleta/col-copa/wiki_copa.py`) e `EdicaoCopa.fases` (títulos que mudam de sentido conforme o ano).
 4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
    `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as
