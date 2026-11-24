@@ -23,7 +23,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -97,6 +97,18 @@ PENDENCIAS: dict[str, list[str]] = {
         "BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a "
         "revisão conferir.",
     ],
+    "bel-1": [
+        "Antes de 1960/61: jogos só pela matriz da Wikipédia, sem data nem rodada (o ogol não tem); quando a soma não fecha com "
+        "a tabela da RSSSF, a classificação final fica com os números publicados (observação na linha). Conferir a matriz com "
+        "outra fonte jogo a jogo (jornais da época, nl/fr.wikipedia) seria o próximo passo.",
+        "1898/99, 1899/00, 1901/02, 1902/03 e 1903/04 (grupos): só as tabelas da RSSSF e os jogos finais e de desempate; sem "
+        "os jogos dos grupos e sem classificação oficial além do campeão e do torneio final.",
+        "Autores dos gols e cartões: só com a ESPN (2006/07+), que não tem lances de 2011/12 a 2014/15 nem dos play-offs; "
+        "antes e nesses anos, jogo a jogo (ficha do ogol).",
+        "Jogos de play-off de acesso e rebaixamento contra clubes da 2ª divisão (até 2008/09) ficam de fora; desde 2016/17 os "
+        "clubes da 2ª divisão no play-off europeu entram nos jogos, mas não na classificação final.",
+        "Artilheiros só desde 1945/46 (lista da RSSSF).",
+    ],
 }
 
 # rótulo de cada dicionário de decisões dos importadores
@@ -141,6 +153,9 @@ DICIONARIOS = {
     "ORDEM_ITWIKI": "Ordem entre empatados pela Wikipédia it (classifica avulsa)",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
+    "EXCLUIDOS": "Clubes excluídos no meio da temporada (jogos anulados)",
+    "DESEMPATES": "Desempates pelo título fora da tabela",
+    "TABELA_OFICIAL": "Classificação pelos números da tabela publicada (punição só para um lado)",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("publico", "público"),

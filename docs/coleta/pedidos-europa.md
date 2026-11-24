@@ -772,3 +772,86 @@ Para o agente 1 (recarregar e publicar).
     - FR-017;
     - a vitória do Marseille sobre o Bordeaux em 1946/47 (FR-005);
     - PT-010 de 1938/39 e 1939/40.
+
+## Recado de fim de coleta — bel-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Belga, a 1ª divisão de 1895/96 a 2025/26, sem 1914/15–1918/19, 1939/40–1940/41 e
+   1944/45 (guerras):
+   - 123 temporadas, 28.712 jogos, 81 clubes;
+   - 12.031 gols com autor e 18.167 cartões (ESPN, 2006/07+, menos 2011/12–2014/15, em que a ESPN não tem lances);
+     estatísticas por time (football-data, 1995/96+);
+   - artilheiros (RSSSF) desde 1945/46;
+   - títulos: Anderlecht 34, Club Brugge 20, Union Saint-Gilloise 12, Standard 10, Beerschot 7.
+
+   Fontes:
+   - **ogol:** base dos jogos de 1960/61 em diante (data e rodada); o clube vai pelo código do ogol, porque os nomes do
+     calendário não são confiáveis na Bélgica;
+   - **matriz de resultados da Wikipédia:** base dos jogos até 1959/60 (sem data nem rodada) e conferência depois;
+   - **RSSSF:** tabelas finais até 2007/08 (`belghist.html`), campeões e artilheiros;
+   - **engsoccerdata e football-data:** 1995/96+;
+   - **ESPN;**
+   - **Wikipédia:** tabelas da fase regular e dos play-offs (com os pontos de partida).
+
+   Conferência:
+   - de 1960/61 em diante: 55 temporadas sem divergência e 11 com divergência, todas explicadas no relatório (erros de
+     digitação da RSSSF ou da Wikipédia, Club e Cercle trocados na RSSSF em 1981/82, linhas deslocadas na RSSSF em
+     1999/00);
+   - antes de 1960/61, a soma dos jogos da matriz da Wikipédia muitas vezes não fecha com a tabela da RSSSF: em 36
+     temporadas (121 linhas), a classificação final fica com os números publicados e a observação dá a soma dos jogos.
+2. **Commit:** no GitHub (ver git log; feito com a autorização do Guilherme de 23/11).
+3. **Teste de carga:** "123 edições, 28712 jogos, 81 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `bel-1`. País novo: Bélgica, `BEL` (`paises.csv` do pacote);
+   - **fases:**
+     - "Liga" até 2008/09;
+     - "Fase regular", "Play-off do título", "Play-off europeu" (grupos A e B, e "Final" ou "Semifinal e final") e
+       "Play-off de rebaixamento" de 2009/10 em diante;
+     - "Desempate" (título de 2008/09, Standard x Anderlecht);
+     - "Grupos", "Torneio final" e "Final" de 1898/99 a 1903/04 (menos 1900/01);
+   - **pontos do play-off:**
+     - a classificação final segue o play-off do título, depois a fase regular e o play-off de rebaixamento;
+     - os `pontos` são os oficiais (metade da fase regular, arredondada para cima, mais os do play-off);
+     - `ajuste_pontos` = oficiais menos a soma de todos os jogos. O painel não deve recalcular os pontos pela soma dos
+       jogos nesses anos;
+   - **clubes da 2ª divisão no play-off europeu (2016/17+):** entram nos jogos, mas não na classificação final;
+   - **temporadas de grupos (1898/99, 1899/00, 1901/02, 1902/03, 1903/04):**
+     - só os jogos finais e de desempate (7 jogos);
+     - a classificação final soma grupos, torneio final e esses jogos;
+     - não há posição oficial além do campeão e do torneio final;
+   - **sem data em 9.337 jogos e sem rodada em 10.254** (todos antes de 1960/61): sem Corrida nesses anos;
+   - **Lommel (2002/03) e Mouscron (2009/10):** saíram no meio da temporada e os jogos foram anulados. Ficam no fim,
+     zerados, como "rebaixado";
+   - **2019/20 interrompida:** 232 jogos, Club Brugge campeão;
+   - **25 jogos `awd`:** W.O. e jogos decididos pela federação;
+   - escudos: calendários do ogol em `data/cache/ogol-bel-1/`.
+5. **Decisões tomadas, com o motivo:**
+   - (a) clube pela matrícula da federação (como a Wikipédia):
+     - os três Beerschot, os dois Seraing, os dois Mouscron e os dois Lommel ficam separados;
+     - também separados: KSK Beveren e Waasland-Beveren, AS Oostende e KV Oostende, RWD Molenbeek e RWDM;
+     - Boom FC e Rupel Boom são um clube só (mesma matrícula, mesmo artigo na Wikipédia);
+   - (b) antes de 1960/61, quando a matriz não fecha, valem os números da tabela publicada. É o mais fiel ao campeonato:
+     a matriz da Wikipédia foi montada depois e tem trocas de linha e placares de nota de rodapé;
+   - (c) 1995/96, Eendracht Aalst: perdeu por 0-5, só para ele, os jogos com Seraing e Sint-Truiden. Os adversários
+     ficaram com o resultado de campo, como nas duas tabelas;
+   - (d) placares do ogol corrigidos quando 3 ou mais fontes concordam contra ele:
+     - 1994/95, Aalst x Mechelen 1-1;
+     - 2008/09, Lokeren x Roeselare 2-1;
+     - 2024/25, Antwerp x Beerschot 5-0;
+     - 1995/96, Seraing x Molenbeek 0-1;
+   - (e) os jogos de acesso e rebaixamento contra clubes da 2ª divisão até 2008/09 ficam de fora.
+
+   Nada espera o Guilherme.
+6. **O que não deu para coletar:**
+   - data e rodada antes de 1960/61;
+   - os jogos dos grupos de 1898/99 a 1903/04;
+   - autores dos gols antes de 2006/07, de 2011/12 a 2014/15 e nos play-offs: jogo a jogo, pela ficha do ogol;
+   - artilheiros antes de 1945/46.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 36 temporadas antes de 1960/61 com os números da tabela publicada, com uma terceira fonte jogo a jogo (nl/fr
+     Wikipédia, jornais da época);
+   - os 4 placares corrigidos;
+   - a identidade dos clubes (Beerschot, Seraing, Boom);
+   - a classificação final da era dos play-offs.
+8. **Próxima tarefa:** `tur-1` (Turquia), depois IT-017 (Itália 1898-1929).

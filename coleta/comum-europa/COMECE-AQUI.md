@@ -59,8 +59,8 @@ depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no come
      oficiais;
   3. `bel-1` (Bélgica);
   4. `tur-1` (Turquia).
-- **Situação (22/11/2026):** `sco-1` no GitHub (2fef629); eras antigas da Holanda e da Alemanha prontas (ver git log).
-  Próxima: `bel-1`.
+- **Situação (24/11/2026):** `sco-1`, eras antigas da Holanda e da Alemanha e `bel-1` no GitHub (ver git log).
+  Próxima: `tur-1`, depois IT-017 (Itália 1898-1929).
 - **Como fazer as eras antigas:**
   - o painel aceita fases regionais + fase final, edição sem jogos e tabela parcial (colunas vazias, posição repetida,
     como no `bra-sp-2` e no `par-1`);
@@ -100,6 +100,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
 | `ned-1` Holandês (fase final até 1955/56; Eredivisie) | 138 (1888/89–2025/26) | 21.878 | 23.019 | 24.431 | 93 | (ver git log) |
 | `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | 2fef629 |
+| `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -149,7 +150,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-2. **Próximas, na ordem da seção 1.1:** `bel-1` e depois `tur-1`. As eras antigas da Holanda (1888/89–1955/56) e da
+2. **Próximas, na ordem da seção 1.1:** `tur-1` (a `bel-1` ficou pronta em 24/11), depois IT-017. As eras antigas da Holanda (1888/89–1955/56) e da
    Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
    `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
    cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).
@@ -264,6 +265,24 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
 - **RSSSF com erros de leitura óptica** ("l8", "lo", "Z,"): normalizados no leitor (`rsssf_sco.texto`).
 - **Velocidade do ogol:** com várias frentes em faixas sem sobreposição, de ~5 para ~50 páginas por minuto (recado ao
   agente do Brasil).
+
+**Bélgica, o que serve para outras ligas:**
+- **ogol só desde 1960/61:** antes, a base é a matriz da Wikipédia (sem data). A soma dos jogos nem sempre fecha com a
+  tabela da RSSSF: a classificação final fica com os números publicados, com observação (`numeros_pub` no importador).
+- **Nomes do ogol não confiáveis:** o clube vai pelo código do ogol, identificado pelos números da campanha iguais aos da
+  RSSSF e da Wikipédia (`clubes_bel.OGOL`).
+- **Play-offs (2009/10+):** a fase regular é o primeiro jogo de cada par entre os clubes da maior tabela da Wikipédia; o
+  resto vai para a tabela de play-off que contém os dois clubes. A tabela do título é a que tem o 1º da fase regular, a de
+  rebaixamento a que tem o último, as outras são do europeu (o título da seção na Wikipédia às vezes vem vazio). Os pontos
+  de partida (metade da fase regular) vêm do ajuste da tabela.
+- **Matriz dentro da tabela:** os jogos dos play-offs ficam em "Sports table" com `match_XXX_YYY`; o importador troca o
+  nome do módulo e lê com `wiki_tabela.resultados`. Nota de rodapé dentro da célula (`{{efn|...3–1...}}`) vira placar
+  falso: tire antes (`sem_notas`).
+- **Código da matriz:** use primeiro o nome da tabela do mesmo artigo (a matriz mostra "Mechelen" para o Racing Mechelen).
+- **Modelos transcluídos:** a tabela pode estar em `{{... play-offs table}}`; o `baixar.py wiki` baixa todos.
+- **Clube excluído no meio da temporada** (Lommel 2002/03, Mouscron 2009/10): jogos anulados fora do pacote, clube no fim,
+  zerado (`EXCLUIDOS`).
+- **ESPN 2016/17-2017/18:** gols repetidos, às vezes com 1 minuto de diferença; o importador tira os repetidos.
 
 **Wikipédia, rebaixados:** a caixa de resumo do artigo ("| relegated = ...") traz a lista oficial e explica fusões e
 falências. É melhor que as cores da tabela; o Holandês confere com ela. A punição às vezes vem em `startpoints_X`, e não

@@ -1,0 +1,73 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br/>'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.sport.be/nl/jupilerproleague/ranking.html?comp=38#competition-ranking Belgian First Division A] {{in lang|nl}}, [https://www.soccerway.com/belgium/jupiler-pro-league-2019-2020/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=CLU |team2=GNT |team3=CHA |team4=ANT |team5=STA |team6=MEC |team7=GNK |team8=AND |team9=ZWA |team10=EXM |team11=KVK |team12=STR |team13=EUP |team14=CER |team15=OOS |team16=W-B 
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CL3Q |result3=EL3Q |result4=ELGS |result5=EL2Q |result16=RE
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AND=11|draw_AND=10|loss_AND=8 |gf_AND=45|ga_AND=29<!-- Anderlecht -->
+|win_ANT=15|draw_ANT=8 |loss_ANT=6 |gf_ANT=49|ga_ANT=32<!-- Antwerp -->
+|win_CER=7 |draw_CER=2 |loss_CER=20|gf_CER=27|ga_CER=54<!-- Cercle Brugge -->
+|win_CHA=15|draw_CHA=9 |loss_CHA=5 |gf_CHA=49|ga_CHA=23<!-- Charleroi -->
+|win_CLU=21|draw_CLU=7 |loss_CLU=1 |gf_CLU=58|ga_CLU=14<!-- Club Brugge -->
+|win_EUP=8 |draw_EUP=6 |loss_EUP=15|gf_EUP=28|ga_EUP=51<!-- Eupen -->
+|win_EXM=9 |draw_EXM=9 |loss_EXM=11|gf_EXM=38|ga_EXM=40<!-- Excel Mouscron -->
+|win_GNK=13|draw_GNK=5 |loss_GNK=11|gf_GNK=45|ga_GNK=42<!-- Genk -->
+|win_GNT=16|draw_GNT=7 |loss_GNT=6 |gf_GNT=59|ga_GNT=34<!-- Gent -->
+|win_KVK=9 |draw_KVK=6 |loss_KVK=14|gf_KVK=40|ga_KVK=44<!-- Kortrijk -->
+|win_MEC=13|draw_MEC=5 |loss_MEC=11|gf_MEC=46|ga_MEC=43<!-- Mechelen -->
+|win_OOS=6 |draw_OOS=4 |loss_OOS=19|gf_OOS=29|ga_OOS=58<!-- Oostende -->
+|win_STR=9 |draw_STR=6 |loss_STR=14|gf_STR=36|ga_STR=53<!-- Sint-Truiden -->
+|win_STA=14|draw_STA=7 |loss_STA=8 |gf_STA=47|ga_STA=32<!-- Standard Liège -->
+|win_W-B=5 |draw_W-B=5 |loss_W-B=19|gf_W-B=21|ga_W-B=60<!-- Waasland-Beveren -->
+|win_ZWA=10|draw_ZWA=6 |loss_ZWA=13|gf_ZWA=41|ga_ZWA=49<!-- Zulte Waregem -->
+
+<!--Status-->
+|status_CLU=C
+|status_ANT=Y
+|status_W-B=T
+
+<!--Team definitions (wikilinks in table)-->
+|name_AND=[[R.S.C. Anderlecht|Anderlecht]]
+|name_ANT=[[Royal Antwerp F.C.|Antwerp]]
+|name_CER=[[Cercle Brugge K.S.V.|Cercle Brugge]]
+|name_CHA=[[R. Charleroi S.C.|Charleroi]]
+|name_CLU=[[Club Brugge KV|Club Brugge]]
+|name_EUP=[[K.A.S. Eupen|Eupen]]
+|name_EXM=[[Royal Excel Mouscron|Excel Mouscron]]
+|name_GNK=[[K.R.C. Genk|Genk]]
+|name_GNT=[[K.A.A. Gent|Gent]]
+|name_KVK=[[K.V. Kortrijk|Kortrijk]]
+|name_MEC=[[K.V. Mechelen|Mechelen]]
+|name_OOS=[[KV Oostende|Oostende]]
+|name_STR=[[Sint-Truidense V.V.|Sint-Truiden]]
+|name_STA=[[Standard Liège]]
+|name_W-B=[[Waasland-Beveren]]
+|name_ZWA=[[S.V. Zulte Waregem|Zulte Waregem]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Matches won; 3) Goal difference; 4) Goals scored; 5) Away goals scored; 6) Away matches won; 7) Play-off.<ref>{{cite web |url=https://uk.soccerway.com/national/belgium/pro-league/20192020/regular-season/r53516/ |title=First Division A 2019/2020 |publisher=Soccerway|access-date=3 February 2020}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2020–21 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q={{nowrap|Qualification for the [[2020–21 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]}}
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2020-21 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2020-21 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2020-21 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_RE=inherit |text_RE=Reprieved from relegation
+|status_text_Y=Croky Cup winner
+|status_text_T=Reprieved
+|note_res_ELGS=Antwerp qualified for the Europa League group stage as the [[2019–20 Belgian Cup]] winners.<ref>
+{{cite web|url=https://www.sport.be/fr/jupilerproleague/nieuws/article.html?Article_ID=884824|title=Communication à la suite de l'Assemblée Générale|publisher=Jupiler Pro League|date=15 May 2020}}</ref>
+|note_W-B=Waasland-Beveren would have been relegated due to finishing last, however following legal proceedings the Belgian Pro League eventually voted in favour of expanding the 2020–21 Belgian First Division A to 18 teams, meaning Waasland-Beveren was spared and both OH Leuven and Beerschot were promoted from the [[2019–20 Belgian First Division B]].
+}}<noinclude>
+{{Template reference list}}
+[[Category:2019–20 association football standings in Belgium templates|First]]
+</noinclude>

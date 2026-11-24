@@ -1,0 +1,66 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br/>'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.sport.be/nl/jupilerproleague/ranking.html?comp=38#competition-ranking Belgian First Division A] {{in lang|nl}}, [https://www.soccerway.com/belgium/jupiler-pro-league-2017-2018/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=CLU |team2=AND |team3=CHA |team4=GNT |team5=GNK |team6=STA |team7=KVK |team8=ANT |team9=ZWA |team10=STR |team11=OOS |team12=W-B |team13=LOK |team14=EXM |team15=EUP |team16=KVM
+
+<!--Update team qualifications here (defined below)-->
+|result1=CHPO |result2=CHPO |result3=CHPO |result4=CHPO |result5=CHPO |result6=CHPO |result7=EUPO |result8=EUPO
+|result9=EUPO |result10=EUPO |result11=EUPO |result12=EUPO |result13=EUPO |result14=EUPO |result15=EUPO |result16=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AND=16|draw_AND=7 |loss_AND=7 |gf_AND=49|ga_AND=42<!-- Anderlecht -->
+|win_ANT=10|draw_ANT=11|loss_ANT=9 |gf_ANT=38|ga_ANT=40<!-- Antwerp -->
+|win_CHA=13|draw_CHA=12|loss_CHA=5 |gf_CHA=46|ga_CHA=30<!-- Charleroi -->
+|win_CLU=20|draw_CLU=7 |loss_CLU=3 |gf_CLU=68|ga_CLU=33<!-- Club Brugge -->
+|win_EUP=6 |draw_EUP=9 |loss_EUP=15|gf_EUP=40|ga_EUP=57<!-- Eupen -->
+|win_EXM=8 |draw_EXM=6 |loss_EXM=16|gf_EXM=40|ga_EXM=59<!-- Excel Mouscron -->
+|win_GNK=11|draw_GNK=11|loss_GNK=8 |gf_GNK=44|ga_GNK=36<!-- Genk -->
+|win_GNT=14|draw_GNT=8 |loss_GNT=8 |gf_GNT=45|ga_GNT=27<!-- Gent -->
+|win_KVK=12|draw_KVK=6 |loss_KVK=12|gf_KVK=42|ga_KVK=39<!-- Kortrijk -->
+|win_LOK=8 |draw_LOK=7 |loss_LOK=15|gf_LOK=33|ga_LOK=49<!-- Lokeren -->
+|win_KVM=6 |draw_KVM=9 |loss_KVM=15|gf_KVM=31|ga_KVM=49<!-- Mechelen -->
+|win_OOS=10|draw_OOS=6 |loss_OOS=14|gf_OOS=42|ga_OOS=41<!-- Oostende -->
+|win_STR=9 |draw_STR=10|loss_STR=11|gf_STR=29|ga_STR=41<!-- Sint-Truiden -->
+|win_STA=11|draw_STA=11|loss_STA=8 |gf_STA=43|ga_STA=41<!-- Standard Liège -->
+|win_W-B=9 |draw_W-B=8 |loss_W-B=13|gf_W-B=50|ga_W-B=51<!-- Waasland-Beveren -->
+|win_ZWA=11|draw_ZWA=4 |loss_ZWA=15|gf_ZWA=47|ga_ZWA=52<!-- Zulte Waregem -->
+
+<!--Status-->
+|status_KVM=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_AND=[[R.S.C. Anderlecht|Anderlecht]]
+|name_ANT=[[Royal Antwerp F.C.|Antwerp]]
+|name_CHA=[[R. Charleroi S.C.|Charleroi]]
+|name_CLU=[[Club Brugge KV|Club Brugge]]
+|name_EUP=[[K.A.S. Eupen|Eupen]]
+|name_EXM=[[Royal Excel Mouscron|Excel Mouscron]]
+|name_GNK=[[K.R.C. Genk|Genk]]
+|name_GNT=[[K.A.A. Gent|Gent]]
+|name_KVK=[[K.V. Kortrijk|Kortrijk]]
+|name_LOK=[[K.S.C. Lokeren Oost-Vlaanderen|Lokeren]]
+|name_KVM=[[KV Mechelen|Mechelen]]
+|name_OOS=[[KV Oostende|Oostende]]
+|name_STR=[[Sint-Truidense V.V.|Sint-Truiden]]
+|name_STA=[[Standard Liège]]
+|name_W-B=[[Waasland-Beveren]]
+|name_ZWA=[[S.V. Zulte Waregem|Zulte Waregem]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Matches won; 3) Goal difference; 4) Goals scored; 5) Away goals scored; 6) Away matches won; 7) Play-off.<ref>{{cite web |url=http://www.scoresway.com/?sport=soccer&page=season&id=11676&view=rules |title=First Division A 2016/2017 - Season rules |publisher=Scoresway |access-date=26 July 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CHPO=green1 |text_CHPO=Qualification for the [[2017–18 Belgian First Division A#Championship play-offs|championship play-offs]]
+|col_EUPO=blue1  |text_EUPO=Qualification for the [[2017–18 Belgian First Division A#Europa League play-offs|Europa League play-offs]]
+|col_REL=red1    |text_REL=Relegation to [[2018–19 Belgian First Division B|First Division B]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Belgium football standings templates]]
+</noinclude>

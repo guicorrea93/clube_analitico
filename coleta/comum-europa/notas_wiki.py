@@ -270,6 +270,25 @@ MANUAL: dict[str, str | None] = {
         "depois da divisão em dois grupos (33 rodadas), os 6 de baixo não podem passar os 6 de cima",
     "Dundee United were deducted three points for fielding an ineligible player in their win over Inverness Caledonian Thistle "
     "on 6 May 2016": "3 pontos a menos por escalar jogador irregular na vitória sobre o Inverness CT (06/05/2016)",
+    # Bélgica
+    "2 points deducted?": "2 pontos a menos (a Wikipédia marca como incerto)",
+    "The championship was decided in a playoff (see below)": "título decidido em jogos-desempate",
+    "The match between Charleroi and Standard Liège on 4 December was stopped after 68 minutes after supporters from both "
+    "teams had been throwing objects and fireworks onto the pitch, with Standard leading 3–1. On 15 December, the Royal "
+    "Belgian Football Association decided to award zero points to both teams. Standard appealed this decision, however the "
+    "Belgian arbitration court for sports finally ruled that the decision would stand, meaning the 3–1 score was kept but no "
+    "points were awarded. Standard Liège was however relieved of the penalty to play one match behind closed doors":
+        "Charleroi x Standard Liège (04/12) parado aos 68 minutos por objetos e fogos das torcidas, com o Standard vencendo "
+        "por 3-1; a federação manteve o placar e não deu ponto a nenhum dos dois",
+    "Waasland-Beveren would have been relegated due to finishing last, however following legal proceedings the Belgian Pro "
+    "League eventually voted in favour of expanding the 2020–21 Belgian First Division A to 18 teams, meaning "
+    "Waasland-Beveren was spared and both OH Leuven and Beerschot were promoted from the 2019–20 Belgian First Division B":
+        "último colocado, não caiu: depois de ação na Justiça, a liga aumentou a 1ª divisão de 2020/21 para 18 clubes",
+    "Tied on Points and Points without half points added due to rounding. Regular Season finishing position: Genk 1, Union "
+    "SG 2": "empatados nos pontos e nos pontos sem o arredondamento da metade; desempate pela fase regular (Genk 1º, Union SG 2º)",
+    "Tied on Points and Points without half points added due to rounding. Regular Season finishing position: Standard Liège "
+    "6, Westerlo 7": "empatados nos pontos e nos pontos sem o arredondamento da metade; desempate pela fase regular (Standard "
+                     "Liège 6º, Westerlo 7º)",
 }
 
 

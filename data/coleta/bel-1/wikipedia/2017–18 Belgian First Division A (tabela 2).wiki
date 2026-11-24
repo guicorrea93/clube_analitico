@@ -1,0 +1,95 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.soccerway.com/belgium/jupiler-pro-league-2017-2018/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=CLU |team2=STA |team3=AND |team4=GNT |team5=GNK |team6=CHA
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CL3Q |result3=ELGS |result4=EL3Q |result5=EUPO
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_CLU=3|draw_CLU=3|loss_CLU=4|gf_CLU=17|ga_CLU=12<!-- Club Brugge -->
+|win_AND=4|draw_AND=0|loss_AND=6|gf_AND=12|ga_AND=15 <!-- Anderlecht -->
+|win_CHA=2|draw_CHA=2|loss_CHA=6|gf_CHA=9 |ga_CHA=22<!-- Charleroi -->
+|win_GNT=4|draw_GNT=2|loss_GNT=4|gf_GNT=8 |ga_GNT=8 <!-- Gent -->
+|win_GNK=4|draw_GNK=4|loss_GNK=2|gf_GNK=13 |ga_GNK=13<!-- Genk -->
+|win_STA=6|draw_STA=3|loss_STA=1|gf_STA=20|ga_STA=9 <!-- Standard Liège -->
+
+<!--Point adjustments-->
+|adjust_points_CLU=34
+|adjust_points_AND=28
+|adjust_points_CHA=26
+|adjust_points_GNT=25
+|adjust_points_GNK=22
+|adjust_points_STA=22
+
+<!--Status-->
+|status_CLU=C
+|status_GNK=O
+
+<!--Team definitions (wikilinks in table)-->
+|name_AND=[[R.S.C. Anderlecht|Anderlecht]]
+|name_CHA=[[R. Charleroi S.C.|Charleroi]]
+|name_CLU=[[Club Brugge KV|Club Brugge]]
+|name_GNK=[[K.R.C. Genk|Genk]]
+|name_GNT=[[K.A.A. Gent|Gent]]
+|name_STA=[[Standard Liège]]
+
+<!--Matches-->
+|show_matches=true
+|teamwidth=110
+
+|match_AND_CHA= 3–1
+|match_AND_CLU= 1–0
+|match_AND_GNK= 1-2
+|match_AND_GNT= 0–2
+|match_AND_STA= 1–3
+
+|match_CHA_AND= 1–2
+|match_CHA_CLU= 1–3
+|match_CHA_GNK= 2–2
+|match_CHA_GNT= 2–1
+|match_CHA_STA= 0-0
+
+|match_CLU_AND= 1–2
+|match_CLU_CHA= 6–0
+|match_CLU_GNK= 1–0
+|match_CLU_GNT= 0-1
+|match_CLU_STA= 4–4
+
+|match_GNK_AND= 2–1
+|match_GNK_CHA= 4–1
+|match_GNK_CLU= 1–1
+|match_GNK_GNT= 1–1
+|match_GNK_STA= 1–0
+
+|match_GNT_AND= 1–0
+|match_GNT_CHA= 0–1
+|match_GNT_CLU= 1–0
+|match_GNT_GNK= 0–0
+|match_GNT_STA= 1–3
+
+|match_STA_AND= 2–1
+|match_STA_CHA= 1–0
+|match_STA_CLU= 1–1
+|match_STA_GNK= 5–0
+|match_STA_GNT= 1–0
+
+<!--Table settings and rules-->
+|class_rules=1) Points; 2) Points without (possible) half points added due to rounding; 3) Position obtained during the [[2017–18 Belgian First Division A#Regular season|Regular season]]<ref>{{cite web |url=http://static.belgianfootball.be/project/publiek/reglement/reglement_nl.pdf |language=nl |title=Reglement 2017-2018 Boek B: De koepelorganisatie KBVB en haar deelorganisaties |trans-title=General Rules 2017-2018 Book B: The overall organisation KBVB and its subsidiaries |publisher=Royal Belgian FA |access-date=18 April 2018}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2018–19 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q={{nowrap|Qualification for the [[2018–19 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]}}
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2018–19 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2018–19 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EUPO=yellow1 |text_EUPO=Qualification for the [[2017–18 Belgian First Division A#Final|Europa League play-off final]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Belgium football standings templates]]
+</noinclude>
