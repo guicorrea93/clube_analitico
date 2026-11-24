@@ -171,6 +171,19 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
         linhas.insert(1, v)
     for k, r in enumerate(linhas, 1):
         r["pos"] = k
+    # clubes com jogos que a tabela da fonte não traz (1926, 1937, 1945-1947, 1994/95; como no bol-1, pedido do agente 1
+    # de 22/11, feito em 24/11): entram no fim com a campanha calculada, a mesma posição para os que caíram na mesma fase
+    fora = [c for c in clubes if c in calc and calc[c][0] and all(r["clube"] != c for r in linhas)]
+    if linhas and fora:
+        fora.sort(key=lambda c: (-nivel[c], -pontos(calc[c][1], calc[c][2], calc[c][3]), -(calc[c][4] - calc[c][5]), -calc[c][4], c))
+        pos, nivel_ant = len(linhas), None
+        for c in fora:
+            if nivel[c] != nivel_ant:
+                pos, nivel_ant = len(linhas) + 1, nivel[c]
+            x = calc[c]
+            linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5],
+                           "pts": pontos(x[1], x[2], x[3]), "ajuste": None, "obs": "", "pos": pos,
+                           "fonte": "calculada (clube com jogos fora da tabela da fonte; mesma posição para a mesma fase)"})
     return linhas
 
 

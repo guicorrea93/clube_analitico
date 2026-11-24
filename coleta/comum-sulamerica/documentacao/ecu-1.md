@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 14175 (14169 com placar); **gols:** 37466; **gols com autor:** 9895 (26%); **cartões:** 15883.
 - **Clubes:** 63; **artilheiros:** 68 edições com artilheiro (72 linhas, com empates).
 - **Classificação final:** 68 edições; **tabelas publicadas guardadas para conferência:** 2069 linhas.
-- **No banco:** sim; **último commit do pacote:** cf612c67.
+- **No banco:** sim; **último commit do pacote:** a0222fa9.
 - **Observação da competição:** 1ª divisão equatoriana (Serie A, hoje LigaPro) de 1957 a 2025, um campeão por ano (sem campeonato em 1958 e 1959; dois em 2005, Apertura e Clausura). Até 1967, torneio nacional entre os melhores dos campeonatos regionais de Guayaquil e de Quito/Ambato.
 
 ## 2. Edições, fontes e regras

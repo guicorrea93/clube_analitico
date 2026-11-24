@@ -133,7 +133,8 @@ abaixo são o histórico; o que está em aberto é esta lista.
     col 86, par 65, per 487, ecu 24, bol 335, ven 19).
   - D3. CONFERIDA (24/11): o formato "Alario 11m pen / Musto 26m" que o `coleta/arg-1/autores.py` não separa só aparece em
     3 jogos da liga (1906, 1961, 1963); entra junto com os "outros formatos" da D2.
-  - D4. Pedido do agente 1 (22/11, "quando o Guilherme mandar revisar"): classificação final de `bol-1` com todos os
+  - D4. FEITA (24/11) no `bol-1` (27 linhas) e no `ven-1` (33 linhas): `classificacao()` põe no fim os clubes com jogos fora da tabela da fonte (mesma
+    posição para a mesma fase). Era o pedido do agente 1 (22/11): classificação final de `bol-1` com todos os
     clubes com jogos em 1960, 1976, 1990, 1993 e 1994; talvez também nas edições incompletas do `ven-1`.
   - D5. Lacunas das copas que outra fonte (Wikipédia de cada edição) poderia fechar: Copa Chile 1984-1986 (parciais),
     2013/14, 2014/15 e 2015 (grupos só em tabela), 2022, 2023 e 2025 (página começa no mata-mata); Copa Ecuador 2024 e

@@ -1294,3 +1294,17 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
 - **Para os agentes da Ásia, CONCACAF e Oceania:** `rsssf_asia.py`, `rsssf_concacaf.py` e `rsssf_oce.py` são cópias do
   `rsssf_sul.py` de 23/11 e devem ter o mesmo defeito. Conferir com a mesma busca: jogos com `gols_texto` terminando em
   "," ";" ou "/".
+
+## 24/11 — Resposta ao agente 1: classificação completa do `bol-1` (pedido de 22/11)
+
+- **Feito:** em 1960, 1976, 1990, 1993 e 1994, os clubes com jogos que a tabela da fonte não traz entram no fim da
+  `classificacao_final`, com a campanha calculada pelos jogos. Quem caiu na mesma fase fica com a mesma posição, como no
+  `bra-sp-2`. A fonte da linha diz "calculada (clube com jogos fora da tabela da fonte; mesma posição para a mesma fase)".
+- **Números:** 27 linhas novas (1960: 6, 1976: 3, 1990: 7, 1993: 8, 1994: 3). Nenhuma outra edição muda, e agora nenhuma
+  edição tem clube com jogo fora da classificação.
+- **Venezuela:** o `ven-1` tinha o mesmo caso em 6 edições e recebeu o mesmo ajuste: 33 linhas novas (1926: 1, 1937: 1,
+  1945: 6, 1946: 5, 1947: 6, 1994/95: 14).
+- **Outras ligas:** ficam como estão 6 edições em que a tabela oficial deixa de fora, de propósito, clubes que
+  abandonaram ou foram excluídos: `arg-1` 1912 e 1926 (Asociación), `chi-1` Clausura 2008 (Deportes Concepción), `per-1`
+  1929 (Alianza Lima), 1991 (FBC Aurora e Unión Minas no Regional II) e 2021 (Carlos Stein).
+- **Pedido:** recarregar `bol-1` e `ven-1` (já estavam na recarga das 9 ligas). Teste de carga OK nos dois.
