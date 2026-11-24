@@ -7,7 +7,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Japonês | 60 (1965–2025) | 0 | 12190 | 27554 | 31272 | 40 | 57 / 3 | sim | 71d5006 | 0 | [jpn-1](jpn-1.md) |
-| Campeonato Sul-Coreano | 43 (1983–2025) | 0 | 7163 | 17984 | 24627 | 25 | 37 / 6 | não | — | 0 | [kor-1](kor-1.md) |
+| Campeonato Sul-Coreano | 43 (1983–2025) | 0 | 7163 | 17984 | 24627 | 25 | 37 / 6 | não | e04507f | 0 | [kor-1](kor-1.md) |
 
 ## Pendências de todas as competições
 

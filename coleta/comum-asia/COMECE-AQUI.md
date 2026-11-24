@@ -4,7 +4,7 @@ Para o agente de coleta da Ásia (países da AFC, inclusive a Austrália) e para
 antes o guia geral `docs/agentes-internacionais-COMECE-AQUI.md`, com o formato do pacote, as pastas de cada agente e as
 regras de identidade dos clubes. Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 24/11/2026 (Japão no GitHub; Coreia do Sul pronta, esperando o ok do commit).
+Última atualização: 24/11/2026 (Japão no GitHub e no banco; Coreia do Sul commitada, e04507f).
 
 **Documentação completa:** `coleta/comum-asia/documentacao/`, gerada por `python coleta/comum-asia/documentar.py` a partir
 dos pacotes, do código e dos relatórios (uma ficha por competição e o índice `README.md`). Rode depois de toda
@@ -49,7 +49,7 @@ importação ou correção e mantenha à mão só as listas `LIGAS`, `PAIS` e `P
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `jpn-1` Japonês | 60 (1965–2025) | 12.190 | 40 | 71d5006 (no GitHub) | sim |
-| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | (sem commit: espera o "sim") | não |
+| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | e04507f (sem push) | não |
 
 **Pasta comum (23/11):** cópia de `coleta/comum-sulamerica/` (ver seção 4). O `rsssf_asia.py` ainda não foi usado: o
 Japão tem leitor próprio (`coleta/jpn-1/ler_jsl.py`), porque a JSL é só tabela final e tabela de confrontos.
@@ -58,7 +58,7 @@ Japão tem leitor próprio (`coleta/jpn-1/ler_jsl.py`), porque a JSL é só tabe
 
 1. **Japão (`jpn-1`): pronto e no GitHub (`71d5006`, 24/11)** e já no banco. Recado de fim de coleta no fim de
    `docs/coleta/pedidos-asia.md`. Pendências na lista `PENDENCIAS` do `documentar.py`.
-2. **Coreia do Sul (`kor-1`): pronta em 24/11**, teste de carga OK, esperando o "sim" do Guilherme para o commit. Recado de
+2. **Coreia do Sul (`kor-1`): pronta e commitada em 24/11 (`e04507f`, sem push)**; falta o agente 1 carregar. Recado de
    fim de coleta no fim de `docs/coleta/pedidos-asia.md`; pendências na lista `PENDENCIAS` do `documentar.py`.
 3. Próxima: Arábia Saudita (`ksa-1`), depois de mandar ao Guilherme as decisões de escopo. Depois, na ordem sugerida:
    `irn-1`, `aus-1`, `chn-1`, `qat-1`, `uae-1`, `uzb-1`, `irq-1`, `ind-1`, `tha-1`; depois as outras 1ªs divisões da AFC.

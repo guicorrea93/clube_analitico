@@ -62,7 +62,7 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    2003-2025); RSSSF (tabelas 1983-2009 e páginas de cada ano: conferência); Wikipédia em inglês (campeão, vice,
    artilheiro) e em coreano (desempate das divergências); ogol (2008-2025: conferência e escudos). Pacote em
    `data/coleta/kor-1/pacote/`, relatório em `docs/coleta/kor-1.md`, ficha em `coleta/comum-asia/documentacao/kor-1.md`.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** `e04507f` (24/11, sem push).
 3. **Teste de carga:** `kor-1: 43 edições, 7163 jogos, 25 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `kor-1`; **país novo: Coreia do Sul (`KOR`, AFC)**, em `paises.csv`: a Coreia foi a Copas, deve já haver
