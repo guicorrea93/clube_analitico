@@ -15,6 +15,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Holandês | 138 (1956/57–1955/56) | 21878 | 23019 | 24431 | 93 | 191 / 3 | 4 | [ned-1](ned-1.md) |
 | Campeonato Escocês | 129 (1890/91–2025/26) | 33076 | 14565 | 19812 | 46 | 197 / 60 | 3 | [sco-1](sco-1.md) |
 | Campeonato Belga | 123 (1895/96–2025/26) | 28712 | 12031 | 18167 | 81 | 185 / 83 | 5 | [bel-1](bel-1.md) |
+| Campeonato Turco | 68 (1959–2025/26) | 20068 | 13811 | 23395 | 76 | 98 / 17 | 5 | [tur-1](tur-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -52,6 +53,11 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **bel-1:** Autores dos gols e cartões: só com a ESPN (2006/07+), que não tem lances de 2011/12 a 2014/15 nem dos play-offs; antes e nesses anos, jogo a jogo (ficha do ogol).
 - **bel-1:** Jogos de play-off de acesso e rebaixamento contra clubes da 2ª divisão (até 2008/09) ficam de fora; desde 2016/17 os clubes da 2ª divisão no play-off europeu entram nos jogos, mas não na classificação final.
 - **bel-1:** Artilheiros só desde 1945/46 (lista da RSSSF).
+- **tur-1:** Escopo: a liga nacional, de 1959 em diante (a federação conta os títulos a partir daí). Fora: o Türkiye Futbol Şampiyonası (1924-1951), a Millî Küme (1937-1950) e a Federasyon Kupası (1956/57 e 1957/58), que o Beşiktaş conta nos seus 16 títulos. Se o Guilherme quiser, podem entrar como era antiga, como na Holanda e na Alemanha.
+- **tur-1:** 1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia; entra a tabela.
+- **tur-1:** Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos play-offs de 2011/12; antes e nesses anos, jogo a jogo (ficha do ogol).
+- **tur-1:** Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); vale a revisão conferir, porque o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.
+- **tur-1:** Placares do ogol que só a matriz da Wikipédia contesta nas temporadas antigas (sem football-data nem engsoccerdata antes de 1994/95): ficam os do ogol, que fecham com as tabelas.
 
 ## Próximas ligas
 

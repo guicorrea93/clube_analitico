@@ -59,8 +59,8 @@ depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no come
      oficiais;
   3. `bel-1` (Bélgica);
   4. `tur-1` (Turquia).
-- **Situação (24/11/2026):** `sco-1`, eras antigas da Holanda e da Alemanha e `bel-1` no GitHub (ver git log).
-  Próxima: `tur-1`, depois IT-017 (Itália 1898-1929).
+- **Situação (24/11/2026):** `sco-1`, eras antigas da Holanda e da Alemanha, `bel-1` e `tur-1` no GitHub (ver git log).
+  Próxima: IT-017 (Itália 1898-1929). A ordem da seção 1.1 está cumprida.
 - **Como fazer as eras antigas:**
   - o painel aceita fases regionais + fase final, edição sem jogos e tabela parcial (colunas vazias, posição repetida,
     como no `bra-sp-2` e no `par-1`);
@@ -100,7 +100,8 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
 | `ned-1` Holandês (fase final até 1955/56; Eredivisie) | 138 (1888/89–2025/26) | 21.878 | 23.019 | 24.431 | 93 | (ver git log) |
 | `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | 2fef629 |
-| `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | (ver git log) |
+| `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | f4a1701 |
+| `tur-1` Turco | 68 (1959–2025/26) | 20.068 | 13.811 | 23.395 | 76 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -150,7 +151,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-2. **Próximas, na ordem da seção 1.1:** `tur-1` (a `bel-1` ficou pronta em 24/11), depois IT-017. As eras antigas da Holanda (1888/89–1955/56) e da
+2. **Próxima:** IT-017 (Itália 1898-1929); `bel-1` e `tur-1` ficaram prontas em 24/11. As eras antigas da Holanda (1888/89–1955/56) e da
    Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
    `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
    cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).
@@ -283,6 +284,22 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
 - **Clube excluído no meio da temporada** (Lommel 2002/03, Mouscron 2009/10): jogos anulados fora do pacote, clube no fim,
   zerado (`EXCLUIDOS`).
 - **ESPN 2016/17-2017/18:** gols repetidos, às vezes com 1 minuto de diferença; o importador tira os repetidos.
+
+**Turquia, o que serve para outras ligas:**
+- **Escopo pela federação:** a liga nacional começa em 1959; os campeonatos anteriores ficam de fora (ver as pendências da
+  liga). A temporada de 1959 (fevereiro a junho) tem a chave 1958 e o rótulo "1959" (`edicoes.temporada`); o
+  `documentar.py` agora usa o `temporada()` de cada importador.
+- **Nomes do ogol não confiáveis nas temporadas antigas:** de novo, código do ogol identificado pelos números da campanha;
+  o ogol às vezes troca os códigos de dois clubes numa temporada (`OGOL_POR_ANO` em `clubes_tur.py`).
+- **Troca de nomes (Kayserispor x Kayseri Erciyesspor, 2004):** segue a Wikipédia (linhagem legal).
+- **Jogos dados pela federação com placar no ogol** (acidente do Samsunspor em 1989, Ankaraspor em 2009/10): marcados
+  `awd` pela data (`DADOS_FORA`).
+- **Correções pelo id do jogo no ogol** (`CORRECOES`), com mando: o ogol inverte mandos às vezes.
+- **Analisador de placares:** testar, temporada a temporada, trocar o placar do ogol pelo das outras fontes e ver quais
+  trocas fecham as tabelas (feito no scratchpad; vale virar ferramenta comum).
+- **Matriz mal fechada na Wikipédia:** um bloco que não fecha engole o seguinte; leia os parâmetros de nível de cima, como o
+  `wiki_tabela.resultados` (`matriz_wiki` do Turco).
+- **RSSSF em UTF-16** (lista de artilheiros turca): `rsssf_tur.texto` detecta pelo BOM.
 
 **Wikipédia, rebaixados:** a caixa de resumo do artigo ("| relegated = ...") traz a lista oficial e explica fusões e
 falências. É melhor que as cores da tabela; o Holandês confere com ela. A punição às vezes vem em `startpoints_X`, e não

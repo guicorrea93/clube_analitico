@@ -23,7 +23,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -109,6 +109,19 @@ PENDENCIAS: dict[str, list[str]] = {
         "clubes da 2ª divisão no play-off europeu entram nos jogos, mas não na classificação final.",
         "Artilheiros só desde 1945/46 (lista da RSSSF).",
     ],
+    "tur-1": [
+        "Escopo: a liga nacional, de 1959 em diante (a federação conta os títulos a partir daí). Fora: o Türkiye Futbol "
+        "Şampiyonası (1924-1951), a Millî Küme (1937-1950) e a Federasyon Kupası (1956/57 e 1957/58), que o Beşiktaş conta "
+        "nos seus 16 títulos. Se o Guilherme quiser, podem entrar como era antiga, como na Holanda e na Alemanha.",
+        "1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia; entra a "
+        "tabela.",
+        "Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos "
+        "play-offs de 2011/12; antes e nesses anos, jogo a jogo (ficha do ogol).",
+        "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); "
+        "vale a revisão conferir, porque o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.",
+        "Placares do ogol que só a matriz da Wikipédia contesta nas temporadas antigas (sem football-data nem engsoccerdata "
+        "antes de 1994/95): ficam os do ogol, que fecham com as tabelas.",
+    ],
 }
 
 # rótulo de cada dicionário de decisões dos importadores
@@ -156,6 +169,7 @@ DICIONARIOS = {
     "EXCLUIDOS": "Clubes excluídos no meio da temporada (jogos anulados)",
     "DESEMPATES": "Desempates pelo título fora da tabela",
     "TABELA_OFICIAL": "Classificação pelos números da tabela publicada (punição só para um lado)",
+    "DADOS_FORA": "Jogos dados pela federação (o ogol traz o placar; marcados awd)",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("publico", "público"),
@@ -198,11 +212,14 @@ def texto_valor(v) -> str:
     return str(v)
 
 
+ROTULO_TEMPORADA = None   # temporada() do importador da liga em curso (a Turquia chama a de 1959 de "1959")
+
+
 def texto_chave(k) -> str:
     """(1994, "Benfica", "Sporting") -> "1994/95 · Benfica · Sporting": o ano de início vira a temporada."""
     partes = list(k) if isinstance(k, tuple) else [k]
     if partes and isinstance(partes[0], int) and 1850 < partes[0] < 2100:
-        partes[0] = f"{partes[0]}/{str(partes[0] + 1)[-2:]}"
+        partes[0] = ROTULO_TEMPORADA(partes[0]) if ROTULO_TEMPORADA else f"{partes[0]}/{str(partes[0] + 1)[-2:]}"
     return " · ".join(str(x) for x in partes)
 
 
@@ -211,7 +228,9 @@ def decada(t: str) -> str:
 
 
 def ficha(slug: str) -> tuple[str, dict]:
+    global ROTULO_TEMPORADA
     imp = importador(slug)
+    ROTULO_TEMPORADA = getattr(imp, "temporada", None)
     comp = json.loads((RAIZ / "data" / "coleta" / slug / "pacote" / "competicao.json").read_text(encoding="utf-8"))
     ed, part, gols, cart = ler(slug, "edicoes"), ler(slug, "partidas"), ler(slug, "gols"), ler(slug, "cartoes")
     clf, fases, art, conf = ler(slug, "classificacao_final"), ler(slug, "fases"), ler(slug, "artilheiros"), ler(slug, "conferencia")

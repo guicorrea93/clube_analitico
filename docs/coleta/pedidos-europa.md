@@ -855,3 +855,80 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - a identidade dos clubes (Beerschot, Seraing, Boom);
    - a classificação final da era dos play-offs.
 8. **Próxima tarefa:** `tur-1` (Turquia), depois IT-017 (Itália 1898-1929).
+
+## Recado de fim de coleta — tur-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Turco, a 1ª divisão nacional de 1959 a 2025/26 (Millî Lig, 1. Lig e Süper Lig):
+   - 68 temporadas, 20.068 jogos, 76 clubes;
+   - 13.811 gols com autor e 23.395 cartões (ESPN, 2006/07+, menos 2011/12–2014/15, em que a ESPN quase não tem
+     lances); estatísticas por time (football-data, 1994/95+);
+   - artilheiros (RSSSF) em todas as temporadas;
+   - títulos: Galatasaray 26, Fenerbahçe 19, Beşiktaş 14, Trabzonspor 7, Bursaspor 1, İstanbul Başakşehir 1.
+
+   Fontes:
+   - **ogol:** base dos jogos (data e rodada); o clube vai pelo código do ogol, porque os nomes do calendário não são
+     confiáveis nas temporadas antigas;
+   - **RSSSF:** tabelas finais até 1996/97 (`turkhist.html`, com os grupos de 1959 e 1962/63), campeões e artilheiros;
+   - **Wikipédia:** tabelas e matriz de resultados (conferência jogo a jogo);
+   - **engsoccerdata e football-data:** 1994/95+;
+   - **ESPN.**
+
+   Conferência: 58 temporadas sem divergência e 10 com divergência, todas explicadas no relatório (erros de digitação nas
+   tabelas, tabela da RSSSF de 1960/61 com números trocados, Samsunspor em duas linhas na RSSSF em 1988/89).
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** "68 edições, 20068 jogos, 76 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `tur-1`. País novo: Turquia, `TUR` (`paises.csv` do pacote);
+   - **temporada de 1959:** o rótulo é "1959" (não "1958/59"), com `ano_inicio` = `ano_fim` = 1959;
+   - **fases:**
+     - "Liga" na maioria das temporadas;
+     - 1959: "Grupos" (Grupo Vermelho e Grupo Branco) e "Final" (Fenerbahçe x Galatasaray, ida e volta);
+     - 1962/63: "Grupos" e "Grupo final". O grupo de classificação não tem os jogos: está só em `tabelas_publicadas`;
+     - 2011/12: "Fase regular", "Play-off do título" e "Play-off europeu";
+   - **classificação de 1959 e 1962/63:**
+     - números somados de todas as fases;
+     - em 1962/63 os pontos somados põem o Beşiktaş (68) acima do campeão Galatasaray (67), porque o título saiu do grupo
+       final. Use a `posicao`, não os pontos;
+   - **2011/12:** os `pontos` dos 4 do play-off do título são os oficiais (metade da fase regular mais os do play-off).
+     `ajuste_pontos` = oficiais menos a soma de todos os jogos;
+   - **sem rodada em 490 jogos** (grupos de 1959 e 1962/63, play-offs de 2011/12): sem Corrida nesses jogos;
+   - **91 jogos `awd`:**
+     - os 18 do Samsunspor depois do acidente do ônibus (1988/89; ele não caiu);
+     - os 34 do Ankaraspor, rebaixado pela federação em outubro de 2009;
+     - os de Hatayspor e Gaziantep FK depois do terremoto de fevereiro de 2023 (saíram e não caíram);
+     - W.O. e outros decididos pela federação;
+   - escudos: calendários do ogol em `data/cache/ogol-tur-1/`.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **escopo:** a liga nacional, de 1959 em diante, porque a federação conta os títulos a partir daí;
+   - (b) **Kayseri, pela linhagem legal** (como na Wikipédia):
+     - o Kayserispor de 1966 trocou de nome, escudo e cores com o Erciyesspor em 2004;
+     - os anos 1973/74–1997/98 estão como Kayseri Erciyesspor;
+     - o Kayserispor de hoje começa em 2004/05;
+   - (c) **mesmo clube, chave única:**
+     - Ankaraspor e Osmanlıspor;
+     - Şeker Hilal e Şekerspor;
+     - Hacettepe e Gençlerbirliği OFTAŞ;
+     - PTT Ankara e Türk Telekomspor;
+     - Karagümrük e Fatih Karagümrük;
+   - (d) **clubes diferentes, chaves separadas:**
+     - Malatyaspor e Yeni Malatyaspor;
+     - Gaziantepspor e Gaziantep FK;
+     - Erzurumspor e BB Erzurumspor;
+   - (e) **6 jogos do ogol corrigidos:** 3 em 2001/02 (placar e mando) e 3 em 2005/06. Em todos, football-data e
+     engsoccerdata concordam contra o ogol e a tabela fecha.
+6. **O que não deu para coletar:**
+   - os jogos do grupo de classificação de 1962/63;
+   - autores dos gols antes de 2006/07 e de 2011/12 a 2014/15: jogo a jogo, pela ficha do ogol.
+7. **Onde a revisão deve olhar primeiro:**
+   - a decisão do Kayseri;
+   - os placares em que só a matriz da Wikipédia contesta o ogol antes de 1994/95;
+   - o grupo final de 1962/63 (6 clubes com diferença);
+   - os 6 jogos corrigidos.
+8. **Próxima tarefa:** IT-017 (Itália 1898-1929).
+
+**Para o Guilherme decidir (não trava nada):**
+- O Beşiktaş conta 16 títulos e aqui são 14: as Federasyon Kupası de 1956/57 e 1957/58 ficaram fora.
+- O Galatasaray e o Fenerbahçe também reivindicam títulos anteriores a 1959.
+- Esses campeonatos podem entrar como era antiga, como na Holanda e na Alemanha.

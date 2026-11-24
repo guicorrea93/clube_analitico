@@ -35,7 +35,16 @@ def _pontos(s: str) -> str:
 
 
 REGRAS: list[tuple[re.Pattern, callable]] = [
-    # desempate pelo confronto direto
+    # desempate pelo confronto direto ("X were ahead of Y on head-to-head away goals scored: ...", Turquia)
+    (re.compile(r"^(.+?) (?:were |are |is )ahead of (.+?) on head[- ]to[- ]head (points and goal difference|points|record|"
+                r"goal difference|away goals scored|away goals)[:;,]?\s*(.*?)\.?$", re.I),
+     lambda m: f"{m.group(1)} à frente de {m.group(2).replace(' and ', ' e ')} "
+               + {"goal difference": "pelo saldo no confronto direto", "away goals scored": "pelos gols fora no confronto direto",
+                  "away goals": "pelos gols fora no confronto direto",
+                  "points and goal difference": "pelo confronto direto (pontos e saldo)"}.get(m.group(3).lower(), "pelo confronto direto")
+               + (f": {_pontos(_placares(m.group(4)))}" if m.group(4) else "")),
+    (re.compile(r"^(.+?) (?:were |are |is )ahead of (.+?) on overall goal difference\.?$", re.I),
+     lambda m: f"{m.group(1)} à frente de {m.group(2)} pelo saldo de gols geral"),
     (re.compile(r"^(.+?) (?:finished|is|are ranked|ranked|placed)? ?ahead of (.+?) on head[- ]to[- ]head (points|record|goal difference|goals)[:;,]?\s*(.*?)\.?$", re.I),
      lambda m: f"{m.group(1)} à frente de {m.group(2).replace(' and ', ' e ')} pelo "
                + {"goal difference": "saldo no confronto direto", "goals": "gols no confronto direto"}.get(m.group(3).lower(), "confronto direto")
@@ -289,6 +298,27 @@ MANUAL: dict[str, str | None] = {
     "Tied on Points and Points without half points added due to rounding. Regular Season finishing position: Standard Liège "
     "6, Westerlo 7": "empatados nos pontos e nos pontos sem o arredondamento da metade; desempate pela fase regular (Standard "
                      "Liège 6º, Westerlo 7º)",
+    # Turquia
+    "Beykoz and İzmirspor tied for 12th place after finishing on equal points and equal goals scored to goals allowed average "
+    "(there were no other tiebreakers at the time)": "Beykoz e İzmirspor dividiram o 12º lugar: mesmos pontos e mesma média de "
+                                                     "gols (não havia outro critério na época)",
+    "Fenerbahçe were ahead of Beşiktaş and Sivasspor on head-to-head points and Beşiktaş were ahead of Sivasspor on "
+    "head-to-head goal difference: Fenerbahçe: 12 pts; Beşiktaş: 3 pts, 5–7 (–2); Sivasspor: 3 pts, 4–8 (–4)":
+        "Fenerbahçe à frente de Beşiktaş e Sivasspor pelo confronto direto, e Beşiktaş à frente de Sivasspor pelo saldo no "
+        "confronto direto: Fenerbahçe 12, Beşiktaş 3 (5-7), Sivasspor 3 (4-8)",
+    "Konyaspor ahead of Kasımpaşa and Kardemir Karabükspor on head-to-head points: Konyaspor 8 pts, Kasımpaşa 3 pts, Kardemir "
+    "Karabükspor 3 pts. Kasımpaşa ahead of Kardemir Karabükspor on head-to-head goal difference":
+        "Konyaspor à frente de Kasımpaşa e Kardemir Karabükspor pelo confronto direto (Konyaspor 8, Kasımpaşa 3, Kardemir "
+        "Karabükspor 3); Kasımpaşa à frente de Kardemir Karabükspor pelo saldo no confronto direto",
+    "On 7 October 2009, the Turkish Football Federation relegated Ankaraspor to the TFF First League with immediate effect due "
+    "to the relationship of its governors with those of Ankaragücü being unsuitable for two teams competing in the same "
+    "division. All of Ankaraspor's matches were scratched and counted as a 3–0 win for their opponents":
+        "rebaixado pela federação em 07/10/2009, com efeito imediato, pela ligação dos dirigentes com os do Ankaragücü; todos "
+        "os jogos dele valeram 3-0 para os adversários",
+    "Reduction of 3 points by decision of the Turkish Federation": "3 pontos a menos por decisão da federação",
+    "On 12 February 2023, Gaziantep and Hatayspor withdrew from the league following the 2023 Turkey–Syria earthquake and "
+    "were not relegated at the end of the season": "Gaziantep FK e Hatayspor saíram da liga em 12/02/2023, depois do "
+                                                   "terremoto na Turquia e na Síria, e não foram rebaixados",
 }
 
 
