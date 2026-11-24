@@ -462,8 +462,8 @@ def main() -> None:
     idx += ["", "## Com o agente de revisão", "", "Decisões da coleta que a revisão confere.", ""]
     idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in REVISAO.get(slug, [])]
     idx += ["", "## Próximas ligas", "",
-            "- A combinar com o Guilherme (guia geral `docs/agentes-internacionais-COMECE-AQUI.md`), uma por vez e só com o "
-            "ok dele.", ""]
+            "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
+            "está em `COMECE-AQUI.md`, seção 3. A primeira é a Grécia (`gre-1`). Uma por vez.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

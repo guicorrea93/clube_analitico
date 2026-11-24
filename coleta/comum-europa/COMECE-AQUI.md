@@ -175,8 +175,41 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
 1. **EN-016 (revisão, baixa): resolvido** nas correções do Inglês de 23/11 (db95ab2): os 12 jogos têm os autores pela
    ficha do BDFutbol (`GOLS_MANUAIS` em `coleta/eng-1/importar.py`, 37 gols); conferido em 24/11: nenhum jogo do Inglês
    com gols ficou sem autor desde 2002/03. Nenhum achado da revisão segue aberto para a coleta Europa.
-2. **Próxima:** perguntar ao Guilherme. Em 24/11 ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1`
-   (D-05b), e a rodada de fechamento zerou as pendências; a fila pedida por ele acabou. As eras antigas da Holanda (1888/89–1955/56) e da
+2. **Próximas ligas: ordem combinada com o Guilherme em 24/11/2026.**
+   - **Regra:** da mais bem colocada à menos no ranking de coeficientes da UEFA, numa foto de 24/11/2026 fixada aqui.
+     A ordem não muda quando o ranking mudar.
+   - **Ficam de fora:** as 10 ligas prontas e Liechtenstein (sem liga própria; os clubes jogam o campeonato suíço).
+   - **Países que não existem mais:** entram como competição à parte (como a `gdr-1`), logo depois da federação que
+     ficou com o histórico deles.
+   - Uma liga por vez, com a pesquisa do escopo antes.
+
+   | # | Liga (rank UEFA) | # | Liga (rank UEFA) |
+   |---|---|---|---|
+   | 1 | Grécia (10º) | 23 | Armênia (33º) |
+   | 2 | Tchéquia (11º), depois a Tchecoslováquia | 24 | Letônia (34º) |
+   | 3 | Polônia (12º) | 25 | Bósnia (35º) |
+   | 4 | Noruega (13º) | 26 | Kosovo (36º) |
+   | 5 | Dinamarca (14º) | 27 | Finlândia (37º) |
+   | 6 | Chipre (15º) | 28 | Cazaquistão (38º) |
+   | 7 | Suíça (16º) | 29 | Moldávia (40º) |
+   | 8 | Áustria (17º) | 30 | Ilhas Faroé (41º) |
+   | 9 | Hungria (18º) | 31 | Albânia (42º) |
+   | 10 | Croácia (19º) | 32 | Macedônia do Norte (43º) |
+   | 11 | Suécia (20º) | 33 | Belarus (44º) |
+   | 12 | Romênia (22º) | 34 | Lituânia (45º) |
+   | 13 | Ucrânia (23º) | 35 | Gibraltar (46º) |
+   | 14 | Azerbaijão (24º) | 36 | Andorra (47º) |
+   | 15 | Israel (25º) | 37 | Malta (48º) |
+   | 16 | Eslovênia (26º) | 38 | Estônia (49º) |
+   | 17 | Eslováquia (27º) | 39 | Geórgia (50º) |
+   | 18 | Bulgária (28º) | 40 | Irlanda do Norte (51º) |
+   | 19 | Sérvia (29º), depois a Iugoslávia | 41 | Luxemburgo (52º) |
+   | 20 | Rússia (30º), depois a URSS | 42 | Montenegro (53º) |
+   | 21 | Islândia (31º) | 43 | País de Gales (54º) |
+   | 22 | Irlanda (32º) | 44 | San Marino (55º) |
+
+   Em 24/11 também ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1` (D-05b), e a rodada de
+   fechamento zerou as pendências. As eras antigas da Holanda (1888/89–1955/56) e da
    Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
    `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
    cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).
