@@ -164,14 +164,14 @@ def importar(copa: Copa, relatorio: Path) -> None:
             jogos.append({"x": x, "m": m, "v": v, "gm": gm, "gv": gv, "pm": x.pen_m, "pv": x.pen_v,
                           "esp": "wo" if wo else ("" if x.gm is not None else (x.especial or "n/p")),
                           "obs": wo[2] if wo else "", "fase": x.fase or copa.fases[0][1], "grupo": x.grupo or ""})
-        fases = sorted({j["fase"] for j in jogos}, key=lambda f: (ordem_fase.get(f, 0),
-                                                                    min(j["x"].linha for j in jogos if j["fase"] == f)))
-        # fases
         fase_tab = {t.fase or copa.fases[0][1] for t in tabs}
+        # fases dos jogos e das tabelas (a 1ª fase de 2022 da Copa Paraguay só tem as tabelas das zonas)
+        fases = sorted({j["fase"] for j in jogos} | fase_tab, key=lambda f: (ordem_fase.get(f, 0), min(
+            [j["x"].linha for j in jogos if j["fase"] == f] + [t.linha for t in tabs if (t.fase or copa.fases[0][1]) == f])))
         for k, f in enumerate(fases, 1):
             js = [j for j in jogos if j["fase"] == f]
-            grupos = sorted({j["grupo"] for j in js if j["grupo"]})
-            pares = Counter(frozenset((j["m"], j["v"])) for j in js)
+            grupos = sorted({j["grupo"] for j in js if j["grupo"]} | {t.grupo for t in tabs if (t.fase or copa.fases[0][1]) == f and t.grupo})
+            pares = Counter(frozenset((j["m"], j["v"])) for j in js) or Counter({frozenset(): 1})
             liga = f in fase_tab   # fase com tabela publicada é de pontos (grupos); sem tabela, mata-mata
             tipo = ("grupos" if len(grupos) >= 2 else "liga") if liga else "mata_mata"
             serie = "pontos_corridos" if liga else ("ida_volta" if max(pares.values()) > 1 else "jogo_unico")

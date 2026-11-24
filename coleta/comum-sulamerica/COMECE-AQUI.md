@@ -83,6 +83,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
 | `ven-1` Venezuelano | 106 (1921–2025) | 13.580 | 108 | 35dc0a2; leitor comum 415911b; cf612c6 | sim (versão de 22/11) |
 | `uru-copa` Copa AUF Uruguay | 4 (2022–2025) | 221 | 100 | 1fe6d99 | não |
+| `par-copa` Copa Paraguay | 7 (2018–2025, sem 2020) | 296 | 110 | (commit no recado) | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
@@ -120,7 +121,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
      jogo da Wikipédia é "wiki-es_<ano>:<linha>" (com hífen); "wiki:es_" nunca casou (corrigido no col-1 e no uru-1).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
 3. **Copas nacionais (EM ANDAMENTO desde 24/11; decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
-   COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai, Equador,
+   COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai (FEITO, `par-copa`), Equador,
    Colômbia, Argentina, Chile, Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
    cada copa só configura edições (página e trecho da RSSSF), fases, regiões e clubes (`clubes_copa.py`: regras da copa
    antes das da liga, nome inteiro, interior com a cidade). Não entra no `documentar.py` (que é de liga): o relatório

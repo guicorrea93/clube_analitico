@@ -11,6 +11,8 @@ from __future__ import annotations
 EXTRAS: dict[str, list[dict]] = {}
 _NOTA05 = "nota quebrada em três linhas (o fim dela ia para o jogo seguinte e o placar de campo para os autores) (PY-029)"
 CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
+    ("para2019", 943): ("Independiente  (Nanawa)", "Independiente Nanawa",
+                        "Copa Paraguay 2019 (par-copa): os dois espaços antes do parêntese partiam o nome do mandante"),
     ("para05", 572): ("[awarded to Libertad; originally", "[awarded to Libertad; originally 2-1, Gral. Caballero used suspended player]",
                       _NOTA05),
     ("para05", 573): ("]      2-1, Gral. Caballero", "]", _NOTA05),

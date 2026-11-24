@@ -981,3 +981,34 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Autores em várias linhas:** o leitor comum perde a continuação do colchete. O importador das copas junta as
      linhas; nas ligas pode haver perda (pendência minha).
 8. **Próxima competição:** Copa Paraguay (`par-copa`).
+
+## Recado de fim de coleta — par-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa Paraguay (`par-copa`, `tipo` "copa"), a segunda das sete copas.
+   - **Números:** 7 edições (2018, 2019, 2021-2025; não houve em 2020), 296 jogos e 110 clubes, dos quais 75 só jogam a
+     copa.
+   - **Fonte:** RSSSF, seção "Copa Paraguay" das páginas do ano, as mesmas do par-1. Os 7 campeões batem com a Wikipédia
+     em espanhol.
+   - **Sem** autores de gols: a RSSSF não traz na copa do Paraguai. Sem cartões, estádio e público também.
+2. **Commits:** (abaixo).
+3. **Teste de carga:** `par-copa: 7 edições, 296 jogos, 75 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:** carregar a `par-copa`.
+5. **Decisões:**
+   - Clubes do interior levam a cidade quando a RSSSF a dá ("Nacional de Yby Yaú", "Olimpia de Itá"); sem a cidade, o
+     nome fica como na página.
+   - "24 de Setiembre" sem cidade é o de Valle Pucú, e "Cristóbal Colón" sem cidade é o de J. Augusto Saldívar: os dois
+     são da Intermedia e são os que chegam às fases finais.
+   - Para não repetir nome de outro país: "Athletic Club (Paraguai)" (o Brasil já tem um Athletic Club), "Club Oriental
+     (Paraguai)" e "Sud América (Paraguai)" (o Uruguai já tem Oriental e Sud América).
+   - Em 2022, a 1ª fase em zonas só tem as tabelas na página. Ela entra como fase de grupos (2 zonas), sem jogos.
+   - O importador comum (`copa_rsssf.py`) passou a pôr nas fases a fase que só tem tabelas. A `uru-copa` não mudou.
+6. **O que não deu:**
+   - 2024 e 2025 só das oitavas em diante: a RSSSF não traz as fases anteriores. Fonte que resolveria: a Wikipédia em
+     espanhol de cada edição, ainda não lida.
+   - Muitas cidades ficaram vazias (clubes das divisões de acesso e do interior sem cidade na página).
+7. **Onde a revisão deve olhar primeiro:**
+   - As grafias que casavam por prefixo com clubes da Primera (estão em `coleta/par-copa/clubes_copa.py`).
+   - O conserto de texto de 2019 ("Independiente  (Nanawa)", no `explicacoes.py` do par-1; a linha fica fora da liga).
+8. **Próxima competição:** Copa Ecuador (`ecu-copa`).
