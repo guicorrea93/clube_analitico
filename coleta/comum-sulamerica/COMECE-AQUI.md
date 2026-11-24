@@ -123,10 +123,15 @@ abaixo são o histórico; o que está em aberto é esta lista.
 - **D. Trabalho do agente 4 (quando o Guilherme mandar):**
   - D1. Abertos que esperam 3ª fonte: QU-005 (datas do Boca), CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
     CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).
-  - D2. Conferir se as ligas perdem autores de gol quando o colchete continua na linha de baixo ("[A 9, B 68;" +
-    "   C 87]"); o importador das copas já junta (`_autores_inteiros` em `copa_rsssf.py`).
-  - D3. O `coleta/arg-1/autores.py` não separa o formato "Alario 11m pen, 40 m pen / Musto 26m" (testado em 24/11:
-    `eh_autores` aceita, `separar` devolve None). Conferir em que anos da liga ele aparece e quantos gols se perdem.
+  - D2. CONFERIDA (24/11), correção esperando o ok do Guilherme. O `rsssf_sul.ler` só guarda a 1ª linha dos autores
+    ("[A 9, B 68;" e perde "   C 87]"); a conta não fecha com o placar e o jogo fica sem nenhum autor (texto em
+    `partidas.gols_texto`). Nos pacotes das 9 ligas: 5.214 jogos com autores não separados, dos quais 3.766 com a lista
+    cortada (texto termina em "," ";" ou "/"): arg 19, uru 998, chi 322, col 169, par 505, per 361, ecu 123, bol 1.187,
+    ven 82. Correção: juntar as linhas de continuação no leitor comum (como o `_autores_inteiros` das copas) e reimportar
+    as 9 ligas. Os outros 1.448 têm outros formatos (sem ";" entre os times, "53'", "og." etc.: arg 332, uru 76, chi 24,
+    col 86, par 65, per 487, ecu 24, bol 335, ven 19).
+  - D3. CONFERIDA (24/11): o formato "Alario 11m pen / Musto 26m" que o `coleta/arg-1/autores.py` não separa só aparece em
+    3 jogos da liga (1906, 1961, 1963); entra junto com os "outros formatos" da D2.
   - D4. Pedido do agente 1 (22/11, "quando o Guilherme mandar revisar"): classificação final de `bol-1` com todos os
     clubes com jogos em 1960, 1976, 1990, 1993 e 1994; talvez também nas edições incompletas do `ven-1`.
   - D5. Lacunas das copas que outra fonte (Wikipédia de cada edição) poderia fechar: Copa Chile 1984-1986 (parciais),
