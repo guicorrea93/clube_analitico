@@ -35199,12 +35199,12 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2003-04-clausura-0022,2003/04 Clausura,Fase única,,3,2004-02-28,16:30,Lanús,San Lorenzo,0,4,,,,,,,RSSSF,rsssf:arg04:610 ogol:93851 espn:142715,,
 2003-04-clausura-0023,2003/04 Clausura,Fase única,,3,2004-02-28,19:30,Atlético Rafaela,Olimpo,0,2,,,,,,,RSSSF,rsssf:arg04:612 ogol:93850 espn:142716,,
 2003-04-clausura-0024,2003/04 Clausura,Fase única,,3,2004-02-28,21:10,Racing Club,Gimnasia La Plata,1,0,,,,,,,RSSSF,rsssf:arg04:614 ogol:93852 espn:142717,,
-2003-04-clausura-0025,2003/04 Clausura,Fase única,,3,2004-02-12,,Newell's Old Boys,River Plate,2,3,,,,,,,RSSSF,rsssf:arg04:617,,
-2003-04-clausura-0026,2003/04 Clausura,Fase única,,3,2004-02-12,,Chacarita Juniors,Rosario Central,1,1,,,,,,,RSSSF,rsssf:arg04:619,,
-2003-04-clausura-0027,2003/04 Clausura,Fase única,,3,2004-02-12,,Estudiantes,Quilmes,1,0,,,,,,,RSSSF,rsssf:arg04:621,,
-2003-04-clausura-0028,2003/04 Clausura,Fase única,,3,2004-02-12,,Nueva Chicago,Arsenal de Sarandí,2,1,,,,,,,RSSSF,rsssf:arg04:623,,
-2003-04-clausura-0029,2003/04 Clausura,Fase única,,3,2004-02-12,,Boca Juniors,Vélez Sarsfield,3,3,,,,,,,RSSSF,rsssf:arg04:625,,
-2003-04-clausura-0030,2003/04 Clausura,Fase única,,3,2004-02-12,,Talleres,Colón,4,0,,,,,,,RSSSF,rsssf:arg04:627,,
+2003-04-clausura-0025,2003/04 Clausura,Fase única,,3,2004-02-29,16:00,Newell's Old Boys,River Plate,2,3,,,,,,,RSSSF,rsssf:arg04:617 espn:142718,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2004-02-12)"
+2003-04-clausura-0026,2003/04 Clausura,Fase única,,3,2004-02-29,16:30,Chacarita Juniors,Rosario Central,1,1,,,,,,,RSSSF,rsssf:arg04:619 espn:142719,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2004-02-12)"
+2003-04-clausura-0027,2003/04 Clausura,Fase única,,3,2004-02-29,16:30,Estudiantes,Quilmes,1,0,,,,,,,RSSSF,rsssf:arg04:621 espn:142720,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2004-02-12)"
+2003-04-clausura-0028,2003/04 Clausura,Fase única,,3,2004-02-29,16:30,Nueva Chicago,Arsenal de Sarandí,2,1,,,,,,,RSSSF,rsssf:arg04:623 espn:142721,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2004-02-12)"
+2003-04-clausura-0029,2003/04 Clausura,Fase única,,3,2004-02-29,17:15,Boca Juniors,Vélez Sarsfield,3,3,,,,,,,RSSSF,rsssf:arg04:625 espn:142723,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2004-02-12)"
+2003-04-clausura-0030,2003/04 Clausura,Fase única,,3,2004-02-29,18:00,Talleres,Colón,4,0,,,,,,,RSSSF,rsssf:arg04:627 espn:142722,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2004-02-12)"
 2003-04-clausura-0031,2003/04 Clausura,Fase única,,4,2004-03-05,21:10,Vélez Sarsfield,Chacarita Juniors,2,2,,,,,,,RSSSF,rsssf:arg04:632 ogol:93859 espn:144399,,
 2003-04-clausura-0032,2003/04 Clausura,Fase única,,4,2004-03-06,18:30,San Lorenzo,Talleres,0,0,,,,,,,RSSSF,rsssf:arg04:635 ogol:93861 espn:144400,,
 2003-04-clausura-0033,2003/04 Clausura,Fase única,,4,2004-03-06,21:10,Rosario Central,Racing Club,3,1,,,,,,,RSSSF,rsssf:arg04:636 ogol:93860 espn:144401,,
@@ -37511,7 +37511,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2009-10-clausura-0039,2009/10 Clausura,Fase única,,4,2010-02-14,16:00,Independiente,Estudiantes,3,2,,,,Libertadores de América,Avellaneda,,RSSSF,rsssf:arg2010:450 ogol:1145208 espn:286533,,
 2009-10-clausura-0040,2009/10 Clausura,Fase única,,4,2010-02-14,16:00,San Lorenzo,Vélez Sarsfield,0,0,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2010:451 ogol:1145210 espn:286534,,
 2009-10-clausura-0041,2009/10 Clausura,Fase única,,4,2010-02-15,,Argentinos Juniors,Newell's Old Boys,,,,,abd,,,,RSSSF,rsssf:arg2010:453,Mar 17]                                             due to rain,abandonado ou suspenso; não vale na tabela; abandoned at 0-0 in 66'
-2009-10-clausura-0042,2009/10 Clausura,Fase única,,4,2010-02-15,,Argentinos Juniors,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg2010:455,,remaining 24'; jogo repetido (o primeiro foi suspenso)
+2009-10-clausura-0042,2009/10 Clausura,Fase única,,4,2010-03-17,19:00,Argentinos Juniors,Newell's Old Boys,1,1,,,,Diego Armando Maradona,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2010:455 espn:286530,,"remaining 24'; jogo repetido (o primeiro foi suspenso); jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2010-02-15)"
 2009-10-clausura-0043,2009/10 Clausura,Fase única,,5,2010-02-19,20:30,Vélez Sarsfield,Independiente,3,0,,,,José Amalfitani,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2010:459 ogol:1145219 espn:286535,,
 2009-10-clausura-0044,2009/10 Clausura,Fase única,,5,2010-02-19,18:00,Chacarita Juniors,Colón,1,2,,,,Diego Armando Maradona,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2010:460 ogol:1145213 espn:286541,,at Argentinos Jrs.
 2009-10-clausura-0045,2009/10 Clausura,Fase única,,5,2010-02-20,18:10,Newell's Old Boys,Lanús,1,1,,,,Marcelo Bielsa,Rosario,,RSSSF,rsssf:arg2010:462 ogol:1170548 espn:286539,,
@@ -37572,7 +37572,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2009-10-clausura-0100,2009/10 Clausura,Fase única,,10,2010-03-21,19:10,Gimnasia La Plata,Arsenal de Sarandí,0,2,,,,Juan Carmelo Zerillo (El Bosque),La Plata,,RSSSF,rsssf:arg2010:544 ogol:1145259 espn:287786,,
 2009-10-clausura-0101,2009/10 Clausura,Fase única,,10,2010-03-21,17:25,Independiente,Rosario Central,2,0,,,,Libertadores de América,Avellaneda,,RSSSF,rsssf:arg2010:545 ogol:1145262 espn:286610,,
 2009-10-clausura-0102,2009/10 Clausura,Fase única,,10,2010-03-21,,Boca Juniors,River Plate,,,,,abd,,,,RSSSF,rsssf:arg2010:546,Mar 25]                                             due to rain,abandonado ou suspenso; não vale na tabela; abandoned at 0-0 in 10'
-2009-10-clausura-0103,2009/10 Clausura,Fase única,,10,2010-03-21,,Boca Juniors,River Plate,2,0,,,,,,,RSSSF,rsssf:arg2010:548,,remaining 80'; jogo repetido (o primeiro foi suspenso)
+2009-10-clausura-0103,2009/10 Clausura,Fase única,,10,2010-03-25,15:45,Boca Juniors,River Plate,2,0,,,,Alberto J. Armando,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2010:548 espn:286607,,"remaining 80'; jogo repetido (o primeiro foi suspenso); jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2010-03-21)"
 2009-10-clausura-0104,2009/10 Clausura,Fase única,,11,2010-03-26,21:10,Rosario Central,Huracán,0,2,,,,Gigante de Arroyito,Rosario,,RSSSF,rsssf:arg2010:552 ogol:1145271 espn:287715,,
 2009-10-clausura-0105,2009/10 Clausura,Fase única,,11,2010-03-26,19:00,Estudiantes,Godoy Cruz,2,1,,,,Dr. José Luis Meiszner,Quilmes,,RSSSF,rsssf:arg2010:553 ogol:1145269 espn:287721,,at Quilmes
 2009-10-clausura-0106,2009/10 Clausura,Fase única,,11,2010-03-27,19:10,Tigre,Lanús,0,1,,,,Coliseo de Victoria,Victoria,,RSSSF,rsssf:arg2010:555 ogol:1145272 espn:287718,,
@@ -37843,7 +37843,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2010-11-apertura-0177,2010/11 Apertura,Fase única,,18,2010-12-09,17:00,Newell's Old Boys,Olimpo,0,1,,,,Marcelo Bielsa,Rosario,,RSSSF,rsssf:arg2011:326 ogol:1280325 espn:301180,,
 2010-11-apertura-0178,2010/11 Apertura,Fase única,,18,2010-12-09,21:15,Quilmes,San Lorenzo,1,0,,,,Dr. José Luis Meiszner,Quilmes,,RSSSF,rsssf:arg2011:327 ogol:1280326 espn:301181,,
 2010-11-apertura-0179,2010/11 Apertura,Fase única,,18,2010-12-09,19:10,Banfield,Boca Juniors,0,0,,,,Florencio Sola,Banfield,,RSSSF,rsssf:arg2011:328 ogol:1280327 espn:301182,,
-2010-11-apertura-0180,2010/11 Apertura,Fase única,,18,2011-02-06,,Independiente,Tigre,0,1,,,,,,,RSSSF,rsssf:arg2011:330 ogol:1280320,,
+2010-11-apertura-0180,2010/11 Apertura,Fase única,,18,2010-12-08,12:00,Independiente,Tigre,0,1,,,,Libertadores de América,Avellaneda,,RSSSF,rsssf:arg2011:330 ogol:1280320 espn:301175,,"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2011-02-06)"
 2010-11-apertura-0181,2010/11 Apertura,Fase única,,19,2010-12-11,17:10,All Boys,Godoy Cruz,2,2,,,,Islas Malvinas,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2011:334 ogol:1280331 espn:301186,,
 2010-11-apertura-0182,2010/11 Apertura,Fase única,,19,2010-12-12,18:00,Racing Club,Vélez Sarsfield,0,2,,,,Presidente Perón,Avellaneda,,RSSSF,rsssf:arg2011:336 ogol:1280330 espn:301185,,
 2010-11-apertura-0183,2010/11 Apertura,Fase única,,19,2010-12-12,20:30,San Lorenzo,Banfield,2,1,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2011:337 ogol:1280333 espn:301188,,
@@ -38195,7 +38195,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2011-12-apertura-0147,2011/12 Apertura,Fase única,,15,2011-11-20,19:10,Boca Juniors,Racing Club,0,0,,,,Alberto J. Armando,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2012:295 ogol:1745971 espn:325728,,
 2011-12-apertura-0148,2011/12 Apertura,Fase única,,15,2011-11-20,19:10,Colón,Atlético Rafaela,1,0,,,,Brigadier Gral. Estanislao López,Santa Fé,,RSSSF,rsssf:arg2012:296 ogol:1745973 espn:325730,,
 2011-12-apertura-0149,2011/12 Apertura,Fase única,,15,2011-11-21,21:15,Lanús,Arsenal de Sarandí,0,1,,,,Ciudad de Lanús,Lanús,,RSSSF,rsssf:arg2012:298 ogol:1745968 espn:325725,,
-2011-12-apertura-0150,2011/12 Apertura,Fase única,,15,2012-02-04,,Estudiantes,Banfield,2,1,,,,Ciudad de La Plata,,,RSSSF,rsssf:arg2012:300,,at Ciudad de La Plata
+2011-12-apertura-0150,2011/12 Apertura,Fase única,,15,2011-11-21,19:10,Estudiantes,Banfield,2,1,,,,Ciudad de La Plata,La Plata,,RSSSF,rsssf:arg2012:300 espn:325726,,"at Ciudad de La Plata; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2012-02-04)"
 2011-12-apertura-0151,2011/12 Apertura,Fase única,,16,2011-11-25,19:10,Tigre,Atlético Rafaela,3,0,,,,Coliseo de Victoria,Victoria,,RSSSF,rsssf:arg2012:305 ogol:1745981 espn:325738,,
 2011-12-apertura-0152,2011/12 Apertura,Fase única,,16,2011-11-26,19:10,Racing Club,Belgrano,2,3,,,,Presidente Perón,Avellaneda,,RSSSF,rsssf:arg2012:307 ogol:1745986 espn:325743,,
 2011-12-apertura-0153,2011/12 Apertura,Fase única,,16,2011-11-26,17:00,All Boys,Lanús,0,0,,,,Islas Malvinas,Ciudad Autónoma de Buenos Aires,,RSSSF,rsssf:arg2012:308 ogol:1745980 espn:325737,,
@@ -39256,7 +39256,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2014-0064,2014,Fase única,,7,2014-09-13,15:30,Atlético Rafaela,Estudiantes,1,0,,,,Nuevo Monumental,Rafaela,,RSSSF,rsssf:arg2015:167 ogol:3584888 espn:406240,,Nuevo Monumental
 2014-0065,2014,Fase única,,7,2014-09-13,20:10,Independiente,Quilmes,5,3,,,,Estadio Libertadores de América,Avellaneda,,RSSSF,rsssf:arg2015:168 ogol:3584893 espn:399449,,Libertadores de América
 2014-0066,2014,Fase única,,7,2014-09-14,16:15,Belgrano,Vélez Sarsfield,1,0,,,,Mario Alberto Kempes,Córdoba,,RSSSF,rsssf:arg2015:170 ogol:3584887 espn:399453,,Julio César Villagra
-2014-0067,2014,Fase única,,7,2014-09-14,,Boca Juniors,Racing Club,1,2,,,,,,,RSSSF,rsssf:arg2015:171,,"abd at 1-0 in 56m, remaining 34m on Sep 25, at Alberto J. Armando"
+2014-0067,2014,Fase única,,7,2014-09-25,18:15,Boca Juniors,Racing Club,1,2,,,,Alberto José Armando (La Bombonera),Buenos Aires,,RSSSF,rsssf:arg2015:171 espn:399450,,"abd at 1-0 in 56m, remaining 34m on Sep 25, at Alberto J. Armando; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2014-09-14)"
 2014-0068,2014,Fase única,,7,2014-09-14,15:15,Lanús,Banfield,1,0,,,,Ciudad de Lanús,Buenos Aires,,RSSSF,rsssf:arg2015:172 ogol:3584894 espn:399444,,"Ciudad de Lanús, Néstor Díaz Pérez"
 2014-0069,2014,Fase única,,7,2014-09-15,20:30,Newell's Old Boys,Olimpo,1,0,,,,Marcelo Bielsa,Rosario,,RSSSF,rsssf:arg2015:174 ogol:3584886 espn:399448,,Marcelo A. Bielsa
 2014-0070,2014,Fase única,,7,2014-09-25,19:10,Arsenal de Sarandí,River Plate,1,1,,,,Julio Humberto Grondona,Buenos Aires,,RSSSF,rsssf:arg2015:176 ogol:3584892 espn:399451,,Julio Humberto Grondona
@@ -39482,7 +39482,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2015-0100,2015,Fase única,,7,2015-03-29,18:15,Boca Juniors,Estudiantes,3,0,,,,Alberto José Armando (La Bombonera),Buenos Aires,,RSSSF,rsssf:arg2015a:219 ogol:4265153 espn:412996,,(Alberto J. Armando)
 2015-0101,2015,Fase única,,7,2015-03-29,18:15,Unión,Vélez Sarsfield,1,0,,,,15 de Abril,"Rosario, Santa Fe",,RSSSF,rsssf:arg2015a:220 ogol:4265160 espn:413005,,(15 de Abril)
 2015-0102,2015,Fase única,,7,2015-03-29,21:30,Gimnasia La Plata,River Plate,2,3,,,,Juan Carmelo Zerillo (El Bosque),La Plata,,RSSSF,rsssf:arg2015a:221 ogol:4265157 espn:413001,,(Juan Carmelo Zerillo)
-2015-0103,2015,Fase única,,7,2015-03-30,,Arsenal de Sarandí,Aldosivi,0,3,,,,,,,RSSSF,rsssf:arg2015a:223,,"(abd at 0-1 in 30m, remaining 60m on Apr 25, Julio Humberto Grondona)"
+2015-0103,2015,Fase única,,7,2015-04-25,15:00,Arsenal de Sarandí,Aldosivi,0,3,,,,Julio Humberto Grondona,Buenos Aires,,RSSSF,rsssf:arg2015a:223 espn:412991,,"(abd at 0-1 in 30m, remaining 60m on Apr 25, Julio Humberto Grondona); jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2015-03-30)"
 2015-0104,2015,Fase única,,7,2015-03-30,21:10,Tigre,Defensa y Justicia,0,0,,,,Monumental de Victoria (José Dellagiovanna),Buenos Aires,,RSSSF,rsssf:arg2015a:224 ogol:4265151 espn:412995,,
 2015-0105,2015,Fase única,,7,2015-03-30,21:10,Argentinos Juniors,Nueva Chicago,1,1,,,,Diego Armando Maradona,Buenos Aires,,RSSSF,rsssf:arg2015a:225 ogol:4265155 espn:413000,,(Diego Armando Maradona)
 2015-0106,2015,Fase única,,8,2015-04-03,18:10,Sarmiento,Belgrano,1,3,,,,Eva Perón,Junin,,RSSSF,rsssf:arg2015a:229 ogol:4265164 espn:412979,,(Eva Perón)
@@ -39648,8 +39648,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2015-0266,2015,Fase única,,18,2015-07-26,18:15,Huracán,Estudiantes,1,0,,,,Tomás Adolfo Ducó,Buenos Aires,,RSSSF,rsssf:arg2015a:452 ogol:4265327 espn:412833,,(Tomás Adolfo Ducó)
 2015-0267,2015,Fase única,,18,2015-07-26,19:45,Lanús,Defensa y Justicia,0,1,,,,Ciudad de Lanús,Buenos Aires,,RSSSF,rsssf:arg2015a:453 ogol:4265325 espn:412832,,
 2015-0268,2015,Fase única,,18,2015-07-26,17:20,Quilmes,Racing Club,2,1,,,,Estadio Centenario Ciudad de Quilmes,"Quilmes, Buenos Aires",,RSSSF,rsssf:arg2015a:454 ogol:4265318 espn:412835,,(Centenario Dr. José Luis Meiszner)
-2015-0269,2015,Fase única,,18,2015-06-27,,Arsenal de Sarandí,Argentinos Juniors,3,2,,,,,,,RSSSF,rsssf:arg2015a:456,,(Julio Humberto Grondona)
-2015-0270,2015,Fase única,,18,2015-06-27,,Nueva Chicago,San Martín de San Juan,0,0,,,,,,,RSSSF,rsssf:arg2015a:457,,(República de Mataderos)
+2015-0269,2015,Fase única,,18,2015-07-27,18:00,Arsenal de Sarandí,Argentinos Juniors,3,2,,,,Julio Humberto Grondona,Buenos Aires,,RSSSF,rsssf:arg2015a:456 espn:412826,,"(Julio Humberto Grondona); jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2015-06-27)"
+2015-0270,2015,Fase única,,18,2015-07-27,15:00,Nueva Chicago,San Martín de San Juan,0,0,,,,República de Mataderos,Buenos Aires,,RSSSF,rsssf:arg2015a:457 espn:412838,,"(República de Mataderos); jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2015-06-27)"
 2015-0271,2015,Fase única,,19,2015-07-31,18:00,Atlético Rafaela,Aldosivi,2,1,,,,Nuevo Monumental,Rafaela,,RSSSF,rsssf:arg2015a:461 ogol:4265333 espn:412811,,(Nuevo Monumental)
 2015-0272,2015,Fase única,,19,2015-07-31,21:10,Temperley,Vélez Sarsfield,2,1,,,,Alfredo Beranger,"Temperley, Pcia. de Buenos Aires",,RSSSF,rsssf:arg2015a:462 ogol:4265334 espn:412825,,(Alfredo Martín Beranger)
 2015-0273,2015,Fase única,,19,2015-08-01,15:30,Argentinos Juniors,Godoy Cruz,0,0,,,,Diego Armando Maradona,Buenos Aires,,RSSSF,rsssf:arg2015a:464 ogol:4265341 espn:412816,,(Diego Armando Maradona)
@@ -39702,7 +39702,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2015-0320,2015,Fase única,,22,2015-08-29,20:30,Newell's Old Boys,Colón,0,1,,,,Marcelo Bielsa,Rosario,,RSSSF,rsssf:arg2015a:531 ogol:4265382 espn:412769,,(Marcelo A. Bielsa)
 2015-0321,2015,Fase única,,22,2015-08-29,20:30,Vélez Sarsfield,Defensa y Justicia,2,1,,,,José Amalfitani,Buenos Aires,,RSSSF,rsssf:arg2015a:532 ogol:4265383 espn:412771,,
 2015-0322,2015,Fase única,,22,2015-08-30,15:10,Arsenal de Sarandí,Tigre,2,0,,,,Julio Humberto Grondona,Buenos Aires,,RSSSF,rsssf:arg2015a:534 ogol:4265377 espn:412780,,(Julio Humberto Grondona)
-2015-0323,2015,Fase única,,22,2015-08-30,,Godoy Cruz,Racing Club,1,2,,,,,,,RSSSF,rsssf:arg2015a:535,,"(abd at 0-1 in 26m, Malvinas Arg.; remaining 74m on Sep 30, Diego A. Maradona)"
+2015-0323,2015,Fase única,,22,2015-09-30,15:30,Godoy Cruz,Racing Club,1,2,,,,Diego Armando Maradona,Buenos Aires,,RSSSF,rsssf:arg2015a:535 espn:412776,,"(abd at 0-1 in 26m, Malvinas Arg.; remaining 74m on Sep 30, Diego A. Maradona); jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2015-08-30)"
 2015-0324,2015,Fase única,,22,2015-08-30,16:10,San Lorenzo,Banfield,0,0,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2015a:536 ogol:4265374 espn:412767,,(Pedro Bidegain)
 2015-0325,2015,Fase única,,22,2015-08-30,21:30,Independiente,Estudiantes,1,1,,,,Estadio Libertadores de América,Avellaneda,,RSSSF,rsssf:arg2015a:537 ogol:4265385 espn:412772,,(Libertadores de América)
 2015-0326,2015,Fase única,,22,2015-08-30,18:15,River Plate,Huracán,1,1,,,,Mâs Monumental,Buenos Aires,,RSSSF,rsssf:arg2015a:538 ogol:4265386 espn:412773,,(Monumental Antonio Vespucio Liberti)
@@ -40345,7 +40345,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2016-17-0271,2016/17,Fase única,,19,2017-04-08,14:00,Arsenal de Sarandí,Newell's Old Boys,0,1,,,,Julio Humberto Grondona,Buenos Aires,,RSSSF,rsssf:arg2017:453 ogol:5028618 espn:462642,,"Viaducto Julio Humberto Grondona, Sarandí, B"
 2016-17-0272,2016/17,Fase única,,19,2017-04-08,16:00,San Lorenzo,Sarmiento,1,0,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2017:454 ogol:5028629 espn:462645,,"Nuevo Gasómetro Pedro Bidegain, Flores, C"
 2016-17-0273,2016/17,Fase única,,19,2017-04-08,19:30,Talleres,Lanús,3,1,,,,Mario Alberto Kempes,Córdoba,,RSSSF,rsssf:arg2017:455 ogol:5028624 espn:462641,,"Mario Alberto Kempes, Córdoba, X"
-2016-17-0274,2016/17,Fase única,,19,2017-04-08,,Racing Club,Tigre,4,1,,,,,,,RSSSF,rsssf:arg2017:456,,"abandoned at 1-1 in 23m, remaining 67m on April 19, El Cilindro Presidente Perón, Avellaneda, B"
+2016-17-0274,2016/17,Fase única,,19,2017-04-19,19:30,Racing Club,Tigre,4,1,,,,Presidente Perón (Cilindro de Avellaneda),Buenos Aires,,RSSSF,rsssf:arg2017:456 espn:462647,,"abandoned at 1-1 in 23m, remaining 67m on April 19, El Cilindro Presidente Perón, Avellaneda, B; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2017-04-08)"
 2016-17-0275,2016/17,Fase única,,19,2017-04-09,16:15,Patronato,Independiente,0,5,,,,Presbítero Bartolomé Grella,Parana,,RSSSF,rsssf:arg2017:458 ogol:5028620 espn:462637,,"Presbítero Bartolomé Grella, Paraná, E"
 2016-17-0276,2016/17,Fase única,,19,2017-04-09,14:00,Banfield,Belgrano,2,0,,,,Florencio Solá,Buenos Aires,,RSSSF,rsssf:arg2017:459 ogol:5028625 espn:462697,,"Florencio Sola, Banfield, B"
 2016-17-0277,2016/17,Fase única,,19,2017-04-09,18:15,River Plate,Quilmes,2,0,,,,Mâs Monumental,Buenos Aires,,RSSSF,rsssf:arg2017:460 ogol:5028627 espn:462708,,"Monumental Antonio Vespucio Liberti, Belgrano, C"
@@ -40406,7 +40406,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2016-17-0332,2016/17,Fase única,,23,2017-05-06,20:15,Estudiantes,Boca Juniors,0,0,,,,Ciudad de La Plata,La Plata,,RSSSF,rsssf:arg2017:535 ogol:5028679 espn:462576,,"Único Ciudad de La Plata, La Plata, B"
 2016-17-0333,2016/17,Fase única,,23,2017-05-06,17:00,Racing Club,Gimnasia La Plata,1,0,,,,Presidente Perón (Cilindro de Avellaneda),Buenos Aires,,RSSSF,rsssf:arg2017:536 ogol:5028690 espn:462578,,
 2016-17-0334,2016/17,Fase única,,23,2017-05-07,20:15,Colón,Atlético Tucumán,2,2,,,,Brigadier Gral. Estanislao López,"Rosario, Santa Fe",,RSSSF,rsssf:arg2017:538 ogol:5028688 espn:462574,,
-2016-17-0335,2016/17,Fase única,,23,2017-05-07,,Arsenal de Sarandí,Olimpo,1,0,,,,,,,RSSSF,rsssf:arg2017:539,,"abandoned at 0-0 in 45m HT, remaining 45m on Jun 1, Viaducto Julio Humberto Grondona, Sarandí, B"
+2016-17-0335,2016/17,Fase única,,23,2017-06-01,15:00,Arsenal de Sarandí,Olimpo,1,0,,,,Julio Humberto Grondona,Buenos Aires,,RSSSF,rsssf:arg2017:539 espn:462582,,"abandoned at 0-0 in 45m HT, remaining 45m on Jun 1, Viaducto Julio Humberto Grondona, Sarandí, B; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2017-05-07)"
 2016-17-0336,2016/17,Fase única,,23,2017-05-07,18:15,San Lorenzo,Rosario Central,2,1,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2017:540 ogol:5028691 espn:462584,,"Nuevo Gasómetro Pedro Bidegain, Flores, C"
 2016-17-0337,2016/17,Fase única,,23,2017-05-07,15:15,Aldosivi,Huracán,0,3,,,,José María Minella,Buenos Aires,,RSSSF,rsssf:arg2017:541 ogol:5028677 espn:462580,,"José María Minella, Mar del Plata, B"
 2016-17-0338,2016/17,Fase única,,23,2017-05-07,20:15,Newell's Old Boys,Independiente,2,4,,,,Marcelo Bielsa,Rosario,,RSSSF,rsssf:arg2017:542 ogol:5028678 espn:462577,,"El Coloso del Parque Marcelo Alberto Bielsa, Rosario, S"
@@ -40820,7 +40820,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2017-18-0296,2017/18,Fase única,,22,2018-04-06,19:00,Tigre,Gimnasia La Plata,2,0,,,,Monumental de Victoria (José Dellagiovanna),Buenos Aires,,RSSSF,rsssf:arg2018:487 ogol:5817802 espn:493192,,"Monumental de Victoria don José Dellagiovanna, Victoria, B"
 2017-18-0297,2017/18,Fase única,,22,2018-04-07,17:45,Banfield,Olimpo,3,0,,,,Florencio Solá,Buenos Aires,,RSSSF,rsssf:arg2018:489 ogol:5817805 espn:493197,,"Florencio Sola, Banfield, B"
 2017-18-0298,2017/18,Fase única,,22,2018-04-07,20:00,Boca Juniors,Defensa y Justicia,1,2,,,,Alberto José Armando (La Bombonera),Buenos Aires,,RSSSF,rsssf:arg2018:490 ogol:5817799 espn:493191,,"La Bombonera Alberto José Armando, Boca, C"
-2017-18-0299,2017/18,Fase única,,22,2018-04-07,,Colón,Vélez Sarsfield,0,1,,,,,,,RSSSF,rsssf:arg2018:491,,"abandoned at 0-0 in 22m, remaining 68m on May 10, Brigadier General Estanislao López, Santa Fe, S"
+2017-18-0299,2017/18,Fase única,,22,2018-05-10,17:45,Colón,Vélez Sarsfield,0,1,,,,Brigadier Gral. Estanislao López,"Rosario, Santa Fe",,RSSSF,rsssf:arg2018:491 espn:493201,,"abandoned at 0-0 in 22m, remaining 68m on May 10, Brigadier General Estanislao López, Santa Fe, S; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2018-04-07)"
 2017-18-0300,2017/18,Fase única,,22,2018-04-07,13:15,Rosario Central,Belgrano,2,1,,,,Gigante de Arroyito,Rosario,,RSSSF,rsssf:arg2018:492 ogol:5817811 espn:493188,,"Gigante de Arroyito, Rosario, S"
 2017-18-0301,2017/18,Fase única,,22,2018-04-07,13:15,Temperley,Lanús,2,2,,,,Alfredo Beranger,"Temperley, Pcia. de Buenos Aires",,RSSSF,rsssf:arg2018:493 ogol:5817806 espn:493195,,"El Teatro de Turdera Alfredo Martín Beranger, Turdera, B"
 2017-18-0302,2017/18,Fase única,,22,2018-04-08,11:00,San Lorenzo,Godoy Cruz,0,5,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2018:495 ogol:5817807 espn:493193,,"Nuevo Gasómetro Pedro Bidegain, Flores, C"
@@ -40970,7 +40970,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2018-19-0068,2018/19,Fase única,,6,2018-09-22,20:00,Banfield,Independiente,1,1,,,,,,,RSSSF,rsssf:arg2019:179 ogol:6089445 espn:521342,,"Florencio Sola, Banfield, B"
 2018-19-0069,2018/19,Fase única,,6,2018-09-22,13:15,Newell's Old Boys,Lanús,2,0,,,,,,,RSSSF,rsssf:arg2019:180 ogol:6089449 espn:521346,,"El Coloso del Parque Marcelo Alberto Bielsa, Rosario, S"
 2018-19-0070,2018/19,Fase única,,6,2018-09-22,15:30,Talleres,Vélez Sarsfield,1,1,,,,,,,RSSSF,rsssf:arg2019:181 ogol:6089442 espn:521351,,"Mario Alberto Kempes, Córdoba, X"
-2018-19-0071,2018/19,Fase única,,6,2018-09-22,,Defensa y Justicia,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg2019:182,,"abandoned at 1-1 in 26m, remaining 64m on Nov 18, Norberto Tito Tomaghello, Gobernador Costa, B"
+2018-19-0071,2018/19,Fase única,,6,2018-11-18,19:20,Defensa y Justicia,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg2019:182 espn:521343,,"abandoned at 1-1 in 26m, remaining 64m on Nov 18, Norberto Tito Tomaghello, Gobernador Costa, B; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2018-09-22)"
 2018-19-0072,2018/19,Fase única,,6,2018-09-23,17:45,Boca Juniors,River Plate,0,2,,,,,,,RSSSF,rsssf:arg2019:184 ogol:6089437 espn:521348,,"La Bombonera Alberto José Armando, Boca, C"
 2018-19-0073,2018/19,Fase única,,6,2018-09-23,13:15,San Martín de San Juan,Atlético Tucumán,1,3,,,,,,,RSSSF,rsssf:arg2019:185 ogol:6089448 espn:521340,,"Ingeniero Hilario Sánchez, San Juan, J"
 2018-19-0074,2018/19,Fase única,,6,2018-09-23,11:00,San Martín de Tucumán,Argentinos Juniors,0,0,,,,,,,RSSSF,rsssf:arg2019:186 ogol:6089447 espn:521339,,"La Ciudadela, San Miguel de Tucumán, T"
@@ -42147,7 +42147,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2022-0319,2022,Fase única,,23,2022-10-05,19:00,Defensa y Justicia,Racing Club,3,3,,,,Norberto Tomaghello,Buenos Aires,,RSSSF,rsssf:arg2022:864 ogol:8700313 espn:635579,,"Norberto Tito Tomaghello, Gobernador Costa, B"
 2022-0320,2022,Fase única,,23,2022-10-06,19:00,Huracán,Talleres,1,0,,,,Tomás Adolfo Ducó,Buenos Aires,,RSSSF,rsssf:arg2022:866 ogol:8700318 espn:635576,,"Tomás Adolfo Ducó, Parque Patricios, C"
 2022-0321,2022,Fase única,,23,2022-10-06,19:00,Lanús,Argentinos Juniors,0,4,,,,Ciudad de Lanús,Buenos Aires,,RSSSF,rsssf:arg2022:867 ogol:8700317 espn:635574,,"Ciudad de Lanús - Néstor Díaz Pérez, Remedios de Escalada, B"
-2022-0322,2022,Fase única,,23,2022-10-06,,Gimnasia La Plata,Boca Juniors,1,2,,,,,,,RSSSF,rsssf:arg2022:868,,"abandoned at 0-0 in 9m, remaning time on 20 Oct, Juan Carmelo Zerillo, La Plata, B"
+2022-0322,2022,Fase única,,23,2022-10-20,15:00,Gimnasia La Plata,Boca Juniors,1,2,,,,Juan Carmelo Zerillo (El Bosque),La Plata,,RSSSF,rsssf:arg2022:868 espn:635578,,"abandoned at 0-0 in 9m, remaning time on 20 Oct, Juan Carmelo Zerillo, La Plata, B; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2022-10-06)"
 2022-0323,2022,Fase única,,24,2022-10-08,13:00,Barracas Central,Sarmiento,1,1,,,,Claudio Chiqui Tapia,Buenos Aires,,RSSSF,rsssf:arg2022:871 ogol:8700329 espn:635597,,"Claudio ""Chiqui"" Tapia, Barracas, C"
 2022-0324,2022,Fase única,,24,2022-10-08,20:30,Platense,Colón,1,2,,,,Ciudad de Vicente López,Buenos Aires,,RSSSF,rsssf:arg2022:872 ogol:8700337 espn:635592,,"Ciudad de Vicente López, Florida, B"
 2022-0325,2022,Fase única,,24,2022-10-08,16:00,San Lorenzo,Vélez Sarsfield,1,0,,,,Nuevo Gasómetro,Buenos Aires,,RSSSF,rsssf:arg2022:873 ogol:8700332 espn:635589,,"El Nuevo Gasómetro Pedro Bidegain, Flores, C"
@@ -42463,7 +42463,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2023-0257,2023,Fase única,,19,2023-06-02,19:00,Estudiantes,Barracas Central,5,2,,,,Jorge Luis Hirschi,La Plata,,RSSSF,rsssf:arg2023:431 ogol:9118613 espn:656473,,"Dr. Jorge Luis Hirschi, La Plata, B"
 2023-0258,2023,Fase única,,19,2023-06-03,14:00,Belgrano,Vélez Sarsfield,2,0,,,,El Gigante de Alberdi,Córdoba,,RSSSF,rsssf:arg2023:433 ogol:9118609 espn:656471,,"Julio César Villagra, Córdoba X"
 2023-0259,2023,Fase única,,19,2023-06-03,19:00,Central Córdoba de Santiago del Estero,Huracán,2,0,,,,Alfredo Terrera,Santiago del Estero,,RSSSF,rsssf:arg2023:434 ogol:9118601 espn:656472,,"Alfredo Terrera, Santiago del Estero, G"
-2023-0260,2023,Fase única,,19,2023-06-03,,River Plate,Defensa y Justicia,1,0,,,,,,,RSSSF,rsssf:arg2023:435,,"abandoned at 0-0 in 26m, remaining time on 17 Jun, Mâs Monumental, Belgrano, C"
+2023-0260,2023,Fase única,,19,2023-06-17,,River Plate,Defensa y Justicia,1,0,,,,Mâs Monumental,Buenos Aires,,RSSSF,rsssf:arg2023:435 espn:656477,,"abandoned at 0-0 in 26m, remaining time on 17 Jun, Mâs Monumental, Belgrano, C; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2023-06-03)"
 2023-0261,2023,Fase única,,19,2023-06-03,19:00,Rosario Central,Instituto,4,1,,,,Gigante de Arroyito,Rosario,,RSSSF,rsssf:arg2023:436 ogol:9118612 espn:656478,,"Gigante de Arroyito, Rosario, S"
 2023-0262,2023,Fase única,,19,2023-06-03,21:30,Racing Club,Banfield,2,0,,,,Presidente Perón (Cilindro de Avellaneda),Buenos Aires,,RSSSF,rsssf:arg2023:437 ogol:9118611 espn:656476,,"Presidente Perón, Avellaneda, B"
 2023-0263,2023,Fase única,,19,2023-06-04,21:30,Lanús,Atlético Tucumán,2,1,,,,Ciudad de Lanús,Buenos Aires,,RSSSF,rsssf:arg2023:439 ogol:9118605 espn:656475,,"Ciudad de Lanús - Néstor Díaz Pérez, Remedios de Escalada, B"
@@ -42617,7 +42617,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2024-0033,2024,Fase única,,3,2024-05-25,15:00,Argentinos Juniors,River Plate,1,0,,,,Diego Armando Maradona,Buenos Aires,,RSSSF,rsssf:arg2024:499 ogol:10076813 espn:694199,,"Diego Armando Maradona, Villa General Mitre, C"
 2024-0034,2024,Fase única,,3,2024-05-25,20:00,Boca Juniors,Talleres,0,0,,,,Alberto José Armando (La Bombonera),Buenos Aires,,RSSSF,rsssf:arg2024:500 ogol:10076812 espn:694202,,"Alberto J. Armando, La Boca, C"
 2024-0035,2024,Fase única,,3,2024-05-25,17:30,Newell's Old Boys,Defensa y Justicia,1,0,,,,Marcelo Bielsa,Rosario,,RSSSF,rsssf:arg2024:501 ogol:10076818 espn:694209,,"Marcelo A. Bielsa, Rosario, S"
-2024-0036,2024,Fase única,,3,2024-05-25,,Godoy Cruz,San Lorenzo,1,1,,,,,,,RSSSF,rsssf:arg2024:502,,"abandoned at 1-1 in 47m, remaining time on 12 Oct, Malvinas Argentinas, Mendoza, M"
+2024-0036,2024,Fase única,,3,2024-10-12,15:30,Godoy Cruz,San Lorenzo,1,1,,,,Malvinas Argentinas (Mendoza),Mendoza,,RSSSF,rsssf:arg2024:502 espn:694212,,"abandoned at 1-1 in 47m, remaining time on 12 Oct, Malvinas Argentinas, Mendoza, M; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2024-05-25)"
 2024-0037,2024,Fase única,,3,2024-05-26,15:30,Huracán,Instituto,1,0,,,,Tomás Adolfo Ducó,Buenos Aires,,RSSSF,rsssf:arg2024:504 ogol:10076810 espn:694206,,"Tomás Adolfo Ducó, Parque Patricios, C"
 2024-0038,2024,Fase única,,3,2024-05-26,20:00,Independiente,Vélez Sarsfield,1,1,,,,Estadio Libertadores de América,Avellaneda,,RSSSF,rsssf:arg2024:505 ogol:10076819 espn:694207,,"Libertadores de América - Ricardo Enrique Bochini, Avellaneda, B"
 2024-0039,2024,Fase única,,3,2024-05-26,17:30,Sarmiento,Independiente Rivadavia,0,1,,,,Eva Perón,Junin,,RSSSF,rsssf:arg2024:506 ogol:10076808 espn:694210,,"Eva Perón, Junín, B"
@@ -43004,7 +43004,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2025-apertura-0042,2025 Apertura,Primeira fase,A,3,2025-02-03,19:15,Estudiantes,Racing Club,2,0,,,,Estadio Jorge Luis Hirschi,La Plata,,RSSSF,rsssf:arg2025:147 ogol:10691280 espn:727989,,"UNO Dr. Jorge Luis Hirschi, La Plata, B"
 2025-apertura-0043,2025 Apertura,Primeira fase,A,3,2025-02-03,17:00,Defensa y Justicia,Central Córdoba de Santiago del Estero,2,1,,,,Norberto Tomaghello,Buenos Aires,,RSSSF,rsssf:arg2025:148 ogol:10691278 espn:727988,,"Norberto ""Tito"" Tomaghello, Gobernador Costa, B"
 2025-apertura-0044,2025 Apertura,Primeira fase,B,3,2025-02-04,,Atlético Tucumán,Deportivo Riestra,0,3,,,,Monumental Presidente José Fierro,Tucuman,,RSSSF,rsssf:arg2025:151 ogol:10691276 espn:727997,,"José Fierro, San Miguel de Tucumán, T"
-2025-apertura-0045,2025 Apertura,Primeira fase,B,3,2025-02-04,,Godoy Cruz,Talleres,0,0,,,,,,,RSSSF,rsssf:arg2025:152,,"remaining 45m, Malvinas Argentinas, Mendoza, M"
+2025-apertura-0045,2025 Apertura,Primeira fase,B,3,2025-03-22,17:00,Godoy Cruz,Talleres,0,0,,,,Estadio Víctor Antonio Legrotaglie,Mendoza,,RSSSF,rsssf:arg2025:152 espn:727990,,"remaining 45m, Malvinas Argentinas, Mendoza, M; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2025-02-04)"
 2025-apertura-0046,2025 Apertura,Primeira fase,A,4,2025-02-06,17:00,Aldosivi,Barracas Central,1,3,,,,José María Minella,Buenos Aires,,RSSSF,rsssf:arg2025:155 ogol:10691297 espn:727998,,"José María Minella, Mar del Plata, B"
 2025-apertura-0047,2025 Apertura,Primeira fase,B,4,2025-02-06,20:00,Sarmiento,San Martín de San Juan,1,1,,,,Eva Perón,Junin,,RSSSF,rsssf:arg2025:156 ogol:10691287 espn:728009,,"Eva Perón, Junín, B"
 2025-apertura-0048,2025 Apertura,Primeira fase,A,4,2025-02-07,17:45,Banfield,Belgrano,1,1,,,,Florencio Solá,Buenos Aires,,RSSSF,rsssf:arg2025:158 ogol:10691289 espn:727999,,"Florencio Sola, Banfield, B"
@@ -43310,7 +43310,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2025-clausura-0093,2025 Clausura,Primeira fase,B,7,2025-08-29,21:15,Instituto,Independiente,0,0,,,,Monumental Presidente Perón,Córdoba,,RSSSF,rsssf:arg2025:663 ogol:10699669 espn:729083,,"Juan Domingo Perón, Córdoba, X"
 2025-clausura-0094,2025 Clausura,Primeira fase,A,7,2025-08-30,17:00,Central Córdoba de Santiago del Estero,Estudiantes,2,0,,,,'Estadio Único Madre de Ciudades,Santiago del Estero,,RSSSF,rsssf:arg2025:665 ogol:10699672 espn:729079,,"Único Madre de Ciudades, Santiago del Estero, G"
 2025-clausura-0095,2025 Clausura,Primeira fase,,7,2025-08-30,14:45,San Lorenzo,Huracán,0,0,,,,Estadio Pedro Bidegain,Buenos Aires,,RSSSF,rsssf:arg2025:666 ogol:10699678 espn:729088,,"Pedro Bidegain, Flores, C; jogo interzonal"
-2025-clausura-0096,2025 Clausura,Primeira fase,B,7,2025-08-30,,Sarmiento,Rosario Central,0,1,,,,,,,RSSSF,rsssf:arg2025:667 ogol:10699670,,"abandoned at 0-0 in 45m HT, remaining time on 24 Oct, Eva Perón, Junín, B"
+2025-clausura-0096,2025 Clausura,Primeira fase,B,7,2025-10-24,16:00,Sarmiento,Rosario Central,0,1,,,,Eva Perón,Junin,,RSSSF,rsssf:arg2025:667 ogol:10699670 espn:729089,,"abandoned at 0-0 in 45m HT, remaining time on 24 Oct, Eva Perón, Junín, B; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2025-08-30)"
 2025-clausura-0097,2025 Clausura,Primeira fase,B,7,2025-08-30,21:30,Vélez Sarsfield,Lanús,3,0,,,,José Amalfitani,Buenos Aires,,RSSSF,rsssf:arg2025:668 ogol:10699671 espn:729090,,"José Amalfitani, Liniers, C"
 2025-clausura-0098,2025 Clausura,Primeira fase,A,7,2025-08-30,17:00,Independiente Rivadavia,Argentinos Juniors,2,1,,,,Bautista Gargantini,Mendoza,,RSSSF,rsssf:arg2025:669 ogol:10699675 espn:729082,,"Bautista Gargantini, Mendoza, M"
 2025-clausura-0099,2025 Clausura,Primeira fase,A,7,2025-08-31,14:30,Aldosivi,Boca Juniors,0,2,,,,José María Minella,Buenos Aires,,RSSSF,rsssf:arg2025:671 ogol:10699674 espn:729077,,"José María Minella, Mar del Plata, B"
@@ -43425,7 +43425,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2025-clausura-0208,2025 Clausura,Primeira fase,A,14,2025-11-03,19:00,Central Córdoba de Santiago del Estero,Racing Club,0,0,,,,Alfredo Terrera,Santiago del Estero,,RSSSF,rsssf:arg2025:820 ogol:10699788 espn:729186,,"Único Madre de Ciudades, Santiago del Estero, G"
 2025-clausura-0209,2025 Clausura,Primeira fase,B,14,2025-11-03,16:45,Platense,Sarmiento,1,1,,,,Ciudad de Vicente López,Buenos Aires,,RSSSF,rsssf:arg2025:821 ogol:10699780 espn:729193,,"Ciudad de Vicente López, Florida, B"
 2025-clausura-0210,2025 Clausura,Primeira fase,A,14,2025-11-03,16:45,Defensa y Justicia,Huracán,1,3,,,,Norberto Tomaghello,Buenos Aires,,RSSSF,rsssf:arg2025:822 ogol:10699778 espn:729183,,"Norberto ""Tito"" Tomaghello, Gobernador Costa, B"
-2025-clausura-0211,2025 Clausura,Primeira fase,,15,2025-10-19,,Boca Juniors,River Plate,2,0,,,,,,,RSSSF,rsssf:arg2025:825,,"Alberto J. Armando, La Boca, C; jogo interzonal"
+2025-clausura-0211,2025 Clausura,Primeira fase,,15,2025-11-09,16:30,Boca Juniors,River Plate,2,0,,,,Alberto José Armando (La Bombonera),Buenos Aires,,RSSSF,rsssf:arg2025:825 espn:729200,,"Alberto J. Armando, La Boca, C; jogo interzonal; jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original, 2025-10-19)"
 2025-clausura-0212,2025 Clausura,Primeira fase,B,15,2025-11-07,,Rosario Central,San Lorenzo,0,0,,,,Gigante de Arroyito,Rosario,,RSSSF,rsssf:arg2025:827 ogol:10699804 espn:729206,,"Gigante de Arroyito, Rosario, S"
 2025-clausura-0213,2025 Clausura,Primeira fase,A,15,2025-11-08,17:00,Huracán,Newell's Old Boys,0,2,,,,Estadio Tomás Adolfo Ducó,Buenos Aires,,RSSSF,rsssf:arg2025:829 ogol:10699791 espn:729203,,"Tomás Adolfo Ducó, Parque Patricios, C"
 2025-clausura-0214,2025 Clausura,Primeira fase,B,15,2025-11-08,21:30,San Martín de San Juan,Lanús,1,1,,,,Estadio Ingeniero Hilario Sánchez,San Juan,,RSSSF,rsssf:arg2025:830 ogol:10699802 espn:729207,,"Ingeniero Hilario Sánchez, San Juan, J"

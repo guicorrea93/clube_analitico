@@ -6,9 +6,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36043 | 41255 | 173 | 142 / 51 | sim | 415911b | 41 | [arg-1](arg-1.md) |
+| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36083 | 41343 | 173 | 142 / 51 | sim | 415911b | 41 | [arg-1](arg-1.md) |
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 14335 | 9481 | 84 | 59 / 22 | sim | 415911b | 21 | [uru-1](uru-1.md) |
-| Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 19542 | 26607 | 53 | 76 / 32 | sim | 415911b | 26 | [chi-1](chi-1.md) |
+| Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 19542 | 26607 | 53 | 76 / 32 | sim | b8b5a57 | 26 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22512 | 22041 | 40519 | 42 | 48 / 38 | sim | 415911b | 22 | [col-1](col-1.md) |
 | Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 13239 | 14271 | 50 | 45 / 5 | sim | a22c1ff | 24 | [par-1](par-1.md) |
 | Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 20238 | 21067 | 167 | 52 / 38 | sim | 70d8caf | 22 | [per-1](per-1.md) |
@@ -19,7 +19,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 ## Pendências de todas as competições
 
 - **arg-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e pódio (AR-001 a AR-016, QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de 43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).
-- **arg-1:** Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).
+- **arg-1:** Abertos fechados em 24/11: AR-020 (1929 pelas tabelas dos grupos, com os W.O.; Nacional de 1908 no fim; 1965 explicado), AR-021 (rebaixados pela Wikipédia em espanhol, rebaixados_es.py: 128 marcas novas) e QU-003 (25 jogos adiados casados com a ESPN pela data dela).
+- **arg-1:** Ainda aberto: QU-005 (datas de jogos do Boca de 1945, 1954, 1977 e 1989/90 diferentes do historiadeboca: falta 3ª fonte; a Wikipédia em espanhol não traz as datas desses anos). Para a revisão: em 1912 Asociación os jogos de Alumni, Estudiantes, Gimnasia de Buenos Aires e Porteño (que saíram da liga) contam no pacote, mas não na tabela.
 - **arg-1:** Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).
 - **uru-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação pela tabela anual de 1994 em diante, pódio pela lista da AUF, Supercopa fora, títulos da FUF e de 1926 sem campeão (D-09), clubes da FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).
 - **chi-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de 1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.

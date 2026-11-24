@@ -856,3 +856,34 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `chi-1` (datas, classificação, grupos, gols, clubes).
 - **Commit:** `b8b5a57`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 24/11 — Abertos da revisão: Argentino (arg-1)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - AR-020 (classificação):
+    - 1929: os números da 1ª fase vêm das tabelas dos grupos, que contam os pontos dados por W.O. (Tigre x Lanús,
+      Defensores x Barracas Central, Quilmes x Sportivo Barracas). Somam-se a eles os desempates, o 3º lugar e a final.
+      O Lanús fica com 8-8-1 e 24 pontos no grupo, como a página.
+    - 1908: o Nacional de Buenos Aires (eliminado depois de 2 jogos, anulados) entra no fim da classificação.
+    - 1965: Estudiantes e Racing empatam com 36 pontos; fica a ordem da RSSSF, e a diferença com a Wikipédia está
+      explicada.
+    - 1931 Liga já estava com a tabela publicada.
+  - AR-021 (rebaixados): vêm agora da Wikipédia em espanhol (anexo "Movilidad interdivisional en el fútbol argentino",
+    era profissional; novo `rebaixados_es.py`), com 128 marcas novas.
+    - Ex.: Lanús em 1949; River Plate, Huracán, Quilmes e Gimnasia La Plata no Clausura de 2010/11.
+    - Cada clube fica na última edição da temporada em que jogou. A nota "Relegated" da tabela continua valendo.
+  - QU-003: 25 jogos adiados (a RSSSF os põe na rodada original) passaram a casar com a ESPN, com mesmo par e mesmo
+    placar dentro do período da edição. Vale a data da ESPN, e a observação diz que o jogo foi adiado.
+    - Ex.: Boca 2-0 River em 25/03/2010 e em 09/11/2025; Independiente 0-1 Tigre em 08/12/2010.
+    - Esses jogos ganham hora, estádio, gols com minuto e cartões.
+- **Ainda aberto:** QU-005, datas de jogos do Boca (1945, 1954, 1977 Metropolitano, 1989/90) diferentes do
+  historiadeboca. Falta 3ª fonte; a Wikipédia em espanhol não traz as datas desses anos.
+- **Para a revisão olhar:** em 1912 Asociación, os jogos de Alumni, Estudiantes, Gimnasia de Buenos Aires e Porteño, que
+  saíram da liga, contam no pacote, mas a tabela publicada não os conta.
+- **Ids das partidas:** não mudam.
+- **Teste de carga:** `arg-1: 197 edições, 43726 jogos, 0 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `arg-1` (classificação, datas de 25 jogos, gols e cartões).
+- **Commit:** (abaixo).
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

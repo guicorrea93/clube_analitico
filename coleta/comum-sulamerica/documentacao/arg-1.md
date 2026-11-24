@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 197, de 1891 a 2026 Apertura; 1 sem jogos.
-- **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36043 (30%); **cartões:** 41255.
+- **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36083 (30%); **cartões:** 41343.
 - **Clubes:** 173; **artilheiros:** 194 edições com artilheiro (233 linhas, com empates).
 - **Classificação final:** 197 edições; **tabelas publicadas guardadas para conferência:** 4453 linhas.
 - **No banco:** sim; **último commit do pacote:** 415911b.
@@ -69,9 +69,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 20 | 5593 | 100% | 0% | 100% | 15% | 0% | 0% | 31% | 0.0 |
 | 1980s | 16 | 4713 | 100% | 0% | 100% | 25% | 0% | 0% | 0% | 0.0 |
 | 1990s | 19 | 3804 | 100% | 0% | 100% | 17% | 0% | 0% | 28% | 0.0 |
-| 2000s | 20 | 3829 | 100% | 79% | 100% | 50% | 49% | 12% | 99% | 2.8 |
-| 2010s | 16 | 3837 | 100% | 98% | 100% | 91% | 91% | 0% | 99% | 5.3 |
-| 2020s | 8 | 2224 | 100% | 84% | 100% | 88% | 88% | 0% | 88% | 4.6 |
+| 2000s | 20 | 3829 | 100% | 79% | 100% | 50% | 50% | 12% | 99% | 2.8 |
+| 2010s | 16 | 3837 | 100% | 98% | 100% | 91% | 91% | 0% | 100% | 5.3 |
+| 2020s | 8 | 2224 | 100% | 84% | 100% | 89% | 89% | 0% | 88% | 4.6 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
@@ -483,7 +483,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
 - RSSSF: 131 edições
-- calculada: 66 edições
+- calculada: 65 edições
+- calculada: tabelas publicadas da 1ª fase: 1 edições
 
 **Observações das edições:**
 
@@ -734,7 +735,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2025 Liga | Rosario Central | Boca Juniors |
 | 2026 Apertura | Belgrano | River Plate |
 
-**Rebaixados marcados na classificação:** 42 em 20 edições (só onde a tabela publicada marca a queda); quem mais caiu: Quilmes (4), Platense (3), Banfield (2), Ferro Carril Oeste (2), Argentino de Quilmes (2).
+**Rebaixados marcados na classificação:** 170 em 82 edições (só onde a tabela publicada marca a queda); quem mais caiu: Quilmes (12), Banfield (8), Ferro Carril Oeste (7), Lanús (7), Tigre (7).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
@@ -794,8 +795,11 @@ Registradas em `coleta/arg-1/explicacoes.py`; cada uma também aparece no relat�
 - **2016/17:** Tigre 0-1 Gimnasia La Plata (, espn:462684) jogo que só a ESPN tem
 - **1936 Copa de Oro:** River Plate 4-2 San Lorenzo (Final, rsssf:arg-oro36:9) jogo único; o 2-1 de Bernabé Ferreyra desviou em Chividini; o 3-2 é de Cavadini (outras fontes: Canteli)
 
-### Divergências entre fontes já explicadas (`EXPLICACOES`, 9)
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 12)
 
+- **1908:** Nacional de Buenos Aires: eliminado depois de 2 jogos, anulados (nota da página); fica no fim da classificação, fora da tabela publicada (AR-020)
+- **1929:** classificação com os números das tabelas dos grupos (com os pontos dados por W.O.: Tigre x Lanús, Defensores x Barracas Central, Quilmes x Sportivo Barracas) mais os desempates, o 3º lugar e a final (AR-020)
+- **1965:** Estudiantes e Racing empatam com 36 pontos: a tabela da RSSSF põe o Estudiantes em 5º, a Wikipédia em espanhol, o Racing (saldo de gols); fica a ordem publicada (AR-020)
 - **1934 Liga:** fusões temporárias de 1934 à parte dos clubes (D-25 h): os jogos de "Atlanta/Argentinos Jrs" ficam com o Atlanta-Argentinos Juniors e os de "Talleres/Lanús" com a Unión Talleres-Lanús; a tabela da RSSSF põe a campanha inteira (39 jogos) na linha do Argentinos Juniors, que fica com só os 14 jogos de antes da fusão
 - **1893:** Quilmes Club (1893) e Quilmes Rovers (1895) são clubes à parte do Quilmes atual: a ligação não tem prova (D-25 g)
 - **2026 Apertura:** edição de 2026 que já terminou, entra agora (D-01); o Clausura 2026 e a tabela anual entram quando acabarem
@@ -837,7 +841,8 @@ coluna, como "Estudiantes de La Plata Atlanta, Buenos Aires") não atrapalha: a 
 ## 9. Pendências e próximos passos
 
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e pódio (AR-001 a AR-016, QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de 43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).
-- Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).
+- Abertos fechados em 24/11: AR-020 (1929 pelas tabelas dos grupos, com os W.O.; Nacional de 1908 no fim; 1965 explicado), AR-021 (rebaixados pela Wikipédia em espanhol, rebaixados_es.py: 128 marcas novas) e QU-003 (25 jogos adiados casados com a ESPN pela data dela).
+- Ainda aberto: QU-005 (datas de jogos do Boca de 1945, 1954, 1977 e 1989/90 diferentes do historiadeboca: falta 3ª fonte; a Wikipédia em espanhol não traz as datas desses anos). Para a revisão: em 1912 Asociación os jogos de Alumni, Estudiantes, Gimnasia de Buenos Aires e Porteño (que saíram da liga) contam no pacote, mas não na tabela.
 - Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/arg-1.md`):
@@ -902,6 +907,7 @@ Código em `coleta/arg-1/`:
 | `importar.py` | Junta as fontes da 1ª divisão argentina e grava o pacote em data/coleta/arg-1/pacote/ e o relatório em docs/coleta/arg-1.md. |
 | `ler_rsssf.py` | Lê o trecho de cada edição nas páginas da RSSSF (data/coleta/arg-1/rsssf/) com o leitor comum (rsssf_sul). |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |
+| `rebaixados_es.py` | Rebaixados por temporada pela Wikipédia em espanhol (AR-021): "Anexo:Movilidad interdivisional en el fútbol argentino", |
 | `ver.py` | Ajuda da conferência: mostra os jogos entre dois clubes numa edição, com a linha da página e o texto em volta. |
 
 - Fontes baixadas: `data/coleta/arg-1/` (uma pasta por fonte: `rsssf/`, `espn/`, `ogol/`, `wikipedia/`); cache da ESPN em `data/cache/espn-sulamerica/`, do ogol em `data/cache/ogol-arg-1/`.

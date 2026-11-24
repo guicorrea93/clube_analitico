@@ -37,8 +37,12 @@ PENDENCIAS: dict[str, list[str]] = {
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e pódio (AR-001 a AR-016, "
         "QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de "
         "43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).",
-        "Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), "
-        "QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).",
+        "Abertos fechados em 24/11: AR-020 (1929 pelas tabelas dos grupos, com os W.O.; Nacional de 1908 no fim; 1965 "
+        "explicado), AR-021 (rebaixados pela Wikipédia em espanhol, rebaixados_es.py: 128 marcas novas) e QU-003 (25 "
+        "jogos adiados casados com a ESPN pela data dela).",
+        "Ainda aberto: QU-005 (datas de jogos do Boca de 1945, 1954, 1977 e 1989/90 diferentes do historiadeboca: falta "
+        "3ª fonte; a Wikipédia em espanhol não traz as datas desses anos). Para a revisão: em 1912 Asociación os jogos de "
+        "Alumni, Estudiantes, Gimnasia de Buenos Aires e Porteño (que saíram da liga) contam no pacote, mas não na tabela.",
         "Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).",
     ],
     "uru-1": [

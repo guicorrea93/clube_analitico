@@ -62,7 +62,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1926 Amateurs | 26 | 325 (325) | 902 | 2 | 1 / 1 | Independiente | RSSSF (arg26) |
 | 1927 | 34 | 564 (563) | 1646 | 264 | 0 / 2 | San Lorenzo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1928 | 36 | 631 (630) | 1899 | 249 | 0 / 1 | Huracán | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1929 | 35 | 291 (291) | 760 | 3 | 3 / 2 | Gimnasia La Plata | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1929 | 35 | 291 (291) | 760 | 3 | 3 / 2 | Gimnasia La Plata | calculada: tabelas publicadas da 1ª fase (com os W.O.) mais os jogos das outras fases |
 | 1930 | 36 | 633 (630) | 1990 | 636 | 0 / 2 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1931 Liga | 18 | 311 (306) | 1093 | 0 | 0 / 1 | Boca Juniors | RSSSF (arg31) |
 | 1931 Asociación | 17 | 128 (128) | 402 | 1 | 2 / 0 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -186,29 +186,29 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 2008/09 Apertura | 20 | 194 (193) | 478 | 478 | 3 / 0 | Boca Juniors | RSSSF (arg09) |
 | 2008/09 Clausura | 20 | 191 (190) | 477 | 477 | 1 / 0 | Vélez Sarsfield | RSSSF (arg09) |
 | 2009/10 Apertura | 20 | 190 (190) | 463 | 463 | 1 / 0 | Banfield | RSSSF (arg2010) |
-| 2009/10 Clausura | 20 | 194 (190) | 465 | 461 | 1 / 0 | Argentinos Juniors | RSSSF (arg2010) |
-| 2010/11 Apertura | 20 | 190 (190) | 421 | 420 | 1 / 0 | Estudiantes | RSSSF (arg2011) |
+| 2009/10 Clausura | 20 | 194 (190) | 465 | 465 | 1 / 0 | Argentinos Juniors | RSSSF (arg2010) |
+| 2010/11 Apertura | 20 | 190 (190) | 421 | 421 | 1 / 0 | Estudiantes | RSSSF (arg2011) |
 | 2010/11 Clausura | 20 | 192 (190) | 458 | 458 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2011) |
-| 2011/12 Apertura | 20 | 190 (190) | 376 | 373 | 1 / 0 | Boca Juniors | RSSSF (arg2012) |
+| 2011/12 Apertura | 20 | 190 (190) | 376 | 376 | 1 / 0 | Boca Juniors | RSSSF (arg2012) |
 | 2011/12 Clausura | 20 | 190 (190) | 439 | 439 | 1 / 0 | Arsenal de Sarandí | RSSSF (arg2012) |
 | 2012/13 Inicial | 20 | 191 (190) | 418 | 416 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2013) |
 | 2012/13 Final | 20 | 192 (190) | 435 | 435 | 1 / 0 | Newell's Old Boys | RSSSF (arg2013) |
 | 2012/13 Campeonato | 2 | 1 (1) | 1 | 1 | 1 / 0 | Vélez Sarsfield | RSSSF (arghist-pro2010s) |
 | 2013/14 Inicial | 20 | 190 (190) | 409 | 408 | 1 / 0 | San Lorenzo | RSSSF (arg2014) |
 | 2013/14 Final | 20 | 190 (190) | 400 | 400 | 1 / 0 | River Plate | RSSSF (arg2014) |
-| 2014 | 20 | 190 (190) | 491 | 472 | 1 / 0 | Racing Club | RSSSF (arg2015) |
-| 2015 | 30 | 450 (450) | 994 | 977 | 1 / 0 | Boca Juniors | RSSSF (arg2015a) |
+| 2014 | 20 | 190 (190) | 491 | 475 | 1 / 0 | Racing Club | RSSSF (arg2015) |
+| 2015 | 30 | 450 (450) | 994 | 988 | 1 / 0 | Boca Juniors | RSSSF (arg2015a) |
 | 2016 | 30 | 242 (483) | 606 | 606 | 3 / 2 | Lanús | RSSSF (arg2016) |
-| 2016/17 | 30 | 450 (450) | 1024 | 1015 | 1 / 0 | Boca Juniors | RSSSF (arg2017) |
-| 2017/18 | 28 | 378 (378) | 854 | 851 | 1 / 0 | Boca Juniors | RSSSF (arg2018) |
-| 2018/19 | 26 | 325 (325) | 719 | 714 | 1 / 0 | Racing Club | RSSSF (arg2019) |
+| 2016/17 | 30 | 450 (450) | 1024 | 1021 | 1 / 0 | Boca Juniors | RSSSF (arg2017) |
+| 2017/18 | 28 | 378 (378) | 854 | 852 | 1 / 0 | Boca Juniors | RSSSF (arg2018) |
+| 2018/19 | 26 | 325 (325) | 719 | 716 | 1 / 0 | Racing Club | RSSSF (arg2019) |
 | 2019/20 | 24 | 276 (276) | 631 | 631 | 1 / 0 | Boca Juniors | RSSSF (arg2020) |
 | 2021 | 26 | 325 (325) | 796 | 796 | 1 / 0 | River Plate | RSSSF (arg2021) |
-| 2022 | 28 | 378 (378) | 826 | 818 | 1 / 0 | Boca Juniors | RSSSF (arg2022) |
-| 2023 | 28 | 378 (378) | 778 | 777 | 1 / 0 | River Plate | RSSSF (arg2023) |
-| 2024 | 28 | 378 (378) | 769 | 767 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2024) |
+| 2022 | 28 | 378 (378) | 826 | 821 | 1 / 0 | Boca Juniors | RSSSF (arg2022) |
+| 2023 | 28 | 378 (378) | 778 | 778 | 1 / 0 | River Plate | RSSSF (arg2023) |
+| 2024 | 28 | 378 (378) | 769 | 769 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2024) |
 | 2025 Apertura | 30 | 255 (255) | 506 | 502 | 8 / 0 | Platense | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2025 Clausura | 30 | 255 (255) | 488 | 483 | 8 / 0 | Estudiantes | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2025 Clausura | 30 | 255 (255) | 488 | 486 | 8 / 0 | Estudiantes | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 Liga | 30 | 0 (0) | 0 | 0 | 1 / 0 | Rosario Central | RSSSF (arg2025) |
 | 2026 Apertura | 30 | 255 (255) | 530 | 0 | 8 / 0 | Belgrano | calculada (fase alcançada, pontos, saldo, gols pró) |
 
@@ -350,6 +350,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1908
 
+- Nacional de Buenos Aires: eliminado depois de 2 jogos, anulados (nota da página); fica no fim da classificação, fora da tabela publicada (AR-020)
 - tabela publicada x jogos — arg1908:31: Belgrano Athletic tabela [18, 15, 1, 2, 51, 22] jogos [18, 14, 2, 2, 51, 22] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arg1908:31: Estudiantes de Buenos Aires tabela [18, 11, 2, 5, 39, 22] jogos [18, 11, 3, 4, 39, 22] — a diferença vem de Estudiantes de Buenos Aires x San Martín Athletic (1908-08-09), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arg1908:31: Porteño tabela [18, 6, 1, 11, 25, 44] jogos [18, 5, 1, 12, 25, 44] — a diferença vem de Porteño x San Martín Athletic (1908-08-30), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
@@ -958,6 +959,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1929
 
+- classificação com os números das tabelas dos grupos (com os pontos dados por W.O.: Tigre x Lanús, Defensores x Barracas Central, Quilmes x Sportivo Barracas) mais os desempates, o 3º lugar e a final (AR-020)
 - tabela publicada x jogos — arg29:16: Lanús tabela [17, 8, 8, 1, 31, 17] jogos [16, 7, 8, 1, 31, 16] — a diferença vem de Tigre x Lanús (1929-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arg29:16: San Fernando tabela [17, 6, 5, 6, 31, 20] jogos [16, 6, 5, 5, 31, 20] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — arg29:16: El Porvenir tabela [17, 7, 3, 7, 19, 26] jogos [16, 6, 3, 7, 19, 26] — a diferença vem de Estudiantes x El Porvenir (1929-09-15), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
@@ -1503,6 +1505,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1965
 
+- Estudiantes e Racing empatam com 36 pontos: a tabela da RSSSF põe o Estudiantes em 5º, a Wikipédia em espanhol, o Racing (saldo de gols); fica a ordem publicada (AR-020)
 - ogol: 306 jogos casados (edição 36992 do ogol, 306 jogos)
 - tabela publicada x jogos — arg65:19: Racing Club tabela [33, 10, 15, 8, 39, 35] jogos [33, 10, 15, 8, 37, 33] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg65:19: Independiente tabela [33, 8, 14, 11, 30, 31] jogos [33, 8, 14, 11, 28, 29] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
@@ -2068,7 +2071,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2003/04 Clausura
 
 - ogol: 184 jogos casados (edição 514 do ogol, 190 jogos)
-- ESPN: 184 jogos casados
+- ESPN: 190 jogos casados
 - data diferente no ogol — Arsenal de Sarandí x Atlético Rafaela: RSSSF 2004-02-12, ogol 2004-02-22; fica a da RSSSF
 - data diferente no ogol — Colón x Lanús: RSSSF 2004-02-12, ogol 2004-02-22; fica a da RSSSF
 - data diferente no ogol — Olimpo x Talleres: RSSSF 2004-02-12, ogol 2004-02-22; fica a da RSSSF
@@ -2155,7 +2158,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2009/10 Clausura
 
 - ogol: 187 jogos casados (edição 12955 do ogol, 190 jogos)
-- ESPN: 188 jogos casados
+- ESPN: 190 jogos casados
 - abandonado/suspenso, sem valer — Banfield Argentinos Juniors (2010-02-03): abandoned at 0-0
 - abandonado/suspenso, sem valer — Argentinos Juniors Newell's Old Boys (2010-02-15): abandoned at 0-0 in 66'
 - abandonado/suspenso, sem valer — Boca Juniors River Plate (2010-03-21): abandoned at 0-0 in 10'
@@ -2164,7 +2167,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2010/11 Apertura
 
 - ogol: 190 jogos casados (edição 15597 do ogol, 190 jogos)
-- ESPN: 189 jogos casados
+- ESPN: 190 jogos casados
 
 ### 2010/11 Clausura
 
@@ -2176,7 +2179,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2011/12 Apertura
 
 - ogol: 189 jogos casados (edição 23683 do ogol, 190 jogos)
-- ESPN: 189 jogos casados
+- ESPN: 190 jogos casados
 - data diferente no ogol — San Martín de San Juan x San Lorenzo: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
 - data diferente no ogol — Lanús x Newell's Old Boys: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
 - data diferente no ogol — Estudiantes x Unión: RSSSF 2011-12-11, ogol 2011-12-18; fica a da RSSSF
@@ -2224,13 +2227,13 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2014
 
 - ogol: 189 jogos casados (edição 70023 do ogol, 191 jogos)
-- ESPN: 189 jogos casados
+- ESPN: 190 jogos casados
 - data diferente no ogol — Tigre x Lanús: RSSSF 2014-11-02, ogol 2014-11-12; fica a da RSSSF
 
 ### 2015
 
 - ogol: 446 jogos casados (edição 75377 do ogol, 468 jogos)
-- ESPN: 446 jogos casados
+- ESPN: 450 jogos casados
 
 ### 2016
 
@@ -2242,17 +2245,17 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2016/17
 
 - ogol: 444 jogos casados (edição 98636 do ogol, 450 jogos)
-- ESPN: 444 jogos casados
+- ESPN: 446 jogos casados
 
 ### 2017/18
 
 - ogol: 377 jogos casados (edição 112999 do ogol, 378 jogos)
-- ESPN: 377 jogos casados
+- ESPN: 378 jogos casados
 
 ### 2018/19
 
 - ogol: 324 jogos casados (edição 125452 do ogol, 325 jogos)
-- ESPN: 324 jogos casados
+- ESPN: 325 jogos casados
 
 ### 2019/20
 
@@ -2268,27 +2271,27 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2022
 
 - ogol: 377 jogos casados (edição 165536 do ogol, 378 jogos)
-- ESPN: 377 jogos casados
+- ESPN: 378 jogos casados
 
 ### 2023
 
 - ogol: 377 jogos casados (edição 170240 do ogol, 378 jogos)
-- ESPN: 377 jogos casados
+- ESPN: 378 jogos casados
 
 ### 2024
 
 - ogol: 377 jogos casados (edição 186323 do ogol, 378 jogos)
-- ESPN: 377 jogos casados
+- ESPN: 378 jogos casados
 
 ### 2025 Apertura
 
 - ogol: 254 jogos casados (edição 193795 do ogol, 255 jogos)
-- ESPN: 254 jogos casados
+- ESPN: 255 jogos casados
 
 ### 2025 Clausura
 
 - ogol: 254 jogos casados (edição 193925 do ogol, 255 jogos)
-- ESPN: 253 jogos casados
+- ESPN: 255 jogos casados
 
 ### 2025 Liga
 

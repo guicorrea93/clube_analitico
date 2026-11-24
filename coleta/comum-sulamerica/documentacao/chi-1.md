@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 22586 (22565 com placar); **gols:** 69170; **gols com autor:** 19542 (28%); **cartões:** 26607.
 - **Clubes:** 53; **artilheiros:** 105 edições com artilheiro (128 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2038 linhas.
-- **No banco:** sim; **último commit do pacote:** 415911b.
+- **No banco:** sim; **último commit do pacote:** b8b5a57.
 - **Observação da competição:** 1ª divisão chilena de 1933 a 2025: uma edição por torneio que deu título de campeão (Apertura e Clausura em 1997, 2002-2009, 2011, 2012 e 2013/14-2016/17; Transición em 2013 e 2017; "2020" é a temporada 2020/21). Sem a Copa Chile, as liguillas e os jogos de promoção.
 
 ## 2. Edições, fontes e regras

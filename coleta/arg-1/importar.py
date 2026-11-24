@@ -159,6 +159,10 @@ def montar(e: Edicao, cps: dict[str, list[str]]) -> dict:
 
 # edições em que a classificação é a tabela publicada, mesmo sem fechar com os jogos: 1912 Asociación sem os clubes que foram para a FAF; nas outras, W.O. e jogos anulados que a página conta de outro jeito
 # 1989/90 e 1997/98 Apertura: jogos com derrota para os dois clubes e punições de pontos (AR-004, AR-014)
+# AR-020: edições em que a fase de grupos vale pela tabela publicada (pontos dados por W.O. que não estão na lista de jogos)
+FASE_PELA_TABELA = {"1929": ""}   # "" = 1ª fase
+# AR-020: clube com jogos (anulados) que a tabela publicada não traz entra no fim (1908: Nacional, eliminado depois de 2 jogos)
+FORA_DA_TABELA = {"1908"}
 TABELA_OFICIAL = {"1896", "1908", "1912 Asociación", "1919 Amateurs", "1926 Asociación", "1931 Liga", "1965",
                   "1989/90", "1997/98 Apertura", "1988/89"}   # 1988/89: 3 pela vitória, 2 ou 1 no empate decidido nos pênaltis (AR-017)
 
@@ -166,6 +170,30 @@ TABELA_OFICIAL = {"1896", "1908", "1912 Asociación", "1919 Amateurs", "1926 Aso
 _NOME_LISTA = {"Flores": "Flores Athletic", "Rosario AC": "Rosario Athletic", "Argentino (Q)": "Argentino de Quilmes"}
 VICES: dict[str, str] = {}
 TERCEIROS: dict[str, str] = {}
+
+
+def rebaixados_por_temporada(eds: list[dict]) -> None:
+    """AR-021: cada rebaixado da Wikipédia em espanhol vai para a última edição da temporada em que jogou ("2010-11": o
+    Clausura; "M 1970": o Metropolitano). A temporada ainda em andamento (só o Apertura de 2026) fica de fora."""
+    from rebaixados_es import rebaixados
+    jogou = {d["e"].temporada: set(d["clubes"]) | {r["clube"] for r in d["final"]} for d in eds}
+    for (temp, metro), nomes in rebaixados().items():
+        if temp == "2026":
+            continue
+        if "-" in temp:
+            eds_t = [d["e"] for d in eds if d["e"].temporada.startswith(temp.replace("-", "/"))]
+        elif metro:
+            eds_t = [d["e"] for d in eds if d["e"].temporada == f"{temp} Metropolitano"]
+        else:
+            eds_t = [d["e"] for d in eds if d["e"].ano_inicio == int(temp) and "/" not in d["e"].temporada]
+        for nome, alvo in nomes:
+            ano = eds_t[0].ano_inicio if eds_t else int(temp[:4])
+            c = _NOME_ES.get(nome) or clube(nome, ano) or clube(alvo, ano)
+            ed = next((x for x in reversed(eds_t) if c in jogou[x.temporada]), None)
+            if ed:
+                REBAIXADOS[ed.temporada].add(c)
+            else:
+                print(f"rebaixado sem edição: {temp} {nome} ({c})")
 
 
 def podio_oficial(e: Edicao, final: list[dict], campeao: str | None, log: list[str]) -> None:
@@ -236,11 +264,30 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
                            "pts": r["pts"], "ajuste": r["pts"] - pts_calc if e.temporada != "1988/89" else 0,
                            "obs": r.get("obs", ""), "fonte": f"RSSSF ({pub['fonte']})"})
         # a ordem publicada vale; empates sem número herdam a posição de cima
-    else:
-        for c in clubes:
+        for c in sorted(set(clubes) - {r["clube"] for r in linhas} if e.temporada in FORA_DA_TABELA else ()):
             x = calc.get(c, [0] * 6)
             linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": x[1] * pv + x[2],
-                           "ajuste": 0, "obs": "", "fonte": "calculada (fase alcançada, pontos, saldo, gols pró)"})
+                           "ajuste": 0, "obs": "", "fonte": "calculada (fora da tabela publicada: jogos anulados)"})
+    else:
+        fase_tb = FASE_PELA_TABELA.get(e.temporada)
+        if fase_tb is not None:   # AR-020: números da fase pelas tabelas publicadas (com os W.O.) mais os jogos das outras fases
+            da_tabela: dict[str, dict] = {}
+            for tb in p["tabelas"]:
+                if tb["t"].fase == fase_tb:
+                    for r in tb["linhas"]:
+                        if r["clube"] and (r["clube"] not in da_tabela or (r["j"] or 0) > (da_tabela[r["clube"]]["j"] or 0)):
+                            da_tabela[r["clube"]] = r
+            outros = soma([j for j in p["jogos"] if j["fase"] != fase_tb], set(clubes))
+        for c in clubes:
+            x = calc.get(c, [0] * 6)
+            pts, fonte = x[1] * pv + x[2], "calculada (fase alcançada, pontos, saldo, gols pró)"
+            if fase_tb is not None and c in da_tabela:
+                r, o = da_tabela[c], outros.get(c, [0] * 6)
+                x = [r["j"] + o[0], r["v"] + o[1], r["e"] + o[2], r["d"] + o[3], r["gp"] + o[4], r["gc"] + o[5]]
+                pts = r["pts"] + o[1] * pv + o[2]
+                fonte = "calculada: tabelas publicadas da 1ª fase (com os W.O.) mais os jogos das outras fases"
+            linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": pts,
+                           "ajuste": 0, "obs": "", "fonte": fonte})
         linhas.sort(key=lambda r: (-nivel[r["clube"]], -r["pts"], -(r["gp"] - r["gc"]), -r["gp"], r["clube"]))
     if campeao and linhas and linhas[0]["clube"] != campeao and any(r["clube"] == campeao for r in linhas):
         c = next(r for r in linhas if r["clube"] == campeao)
@@ -251,11 +298,19 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     return linhas
 
 
-def situacao(r: dict, campeao: str | None, k: int) -> str:
+# AR-021: rebaixados por temporada pela Wikipédia em espanhol (rebaixados_es.py), na última edição da temporada em que o clube
+# jogou; a nota "Relegated" da tabela continua valendo nas outras
+REBAIXADOS: dict[str, set[str]] = defaultdict(set)
+_NOME_ES: dict[str, str] = {}   # grafias da es que as REGRAS não pegam (até aqui, nenhuma)
+
+
+def situacao(r: dict, campeao: str | None, k: int, temporada: str = "") -> str:
     if r["clube"] == campeao:
         return "campeao"
     if k == 2:
         return "vice"
+    if r["clube"] in REBAIXADOS.get(temporada, ()):
+        return "rebaixado"
     if re.search(r"relegat|descend|rebaix", r.get("obs", ""), re.I):
         return "rebaixado"
     return ""
@@ -388,6 +443,9 @@ def gravar(eds: list[dict]) -> None:
                 fonte_id += f" espn:{ge['id']}"
                 loc = outras_fontes._local(ge)
                 hora = loc.strftime("%H:%M") if loc.strftime("%H:%M") != "21:00" or ge["data_hora"][11:16] != "00:00" else None
+                if k in es.get("adiado", ()) and data != loc.date().isoformat():   # QU-003: jogo adiado, vale a data da ESPN
+                    obs.append(f"jogo adiado: data da ESPN (a página da RSSSF o põe na rodada original{f', {data}' if data else ''})")
+                    data = loc.date().isoformat()
                 data = data or loc.date().isoformat()
                 estadio = ge.get("estadio") or estadio
                 cidade = ge.get("cidade") or cidade
@@ -415,7 +473,7 @@ def gravar(eds: list[dict]) -> None:
         # classificação final
         for r in d["final"]:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
-                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"]), r["fonte"],
+                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"], e.temporada), r["fonte"],
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
         # tabelas publicadas (as que entraram na conferência)
         vistas = set()
@@ -619,6 +677,7 @@ if __name__ == "__main__":
         d = montar(e, cps)
         eds.append(d)
         print(f"{e.temporada:20s} {len(d['p']['jogos']):4d} jogos  campeão {d['campeao']}  divergências {len(d['difs'])}", flush=True)
+    rebaixados_por_temporada(eds)
     gravar(eds)
     relatorio(eds)
     print("pacote gravado em", PACOTE, "e relatório em", RELATORIO)

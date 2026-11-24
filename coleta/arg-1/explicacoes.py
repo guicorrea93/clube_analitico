@@ -60,6 +60,12 @@ CORRIGE: dict[tuple[str, str], dict] = {
 }
 
 EXPLICACOES: dict[str, list[str]] = {
+    "1908": ["Nacional de Buenos Aires: eliminado depois de 2 jogos, anulados (nota da página); fica no fim da classificação, "
+             "fora da tabela publicada (AR-020)"],
+    "1929": ["classificação com os números das tabelas dos grupos (com os pontos dados por W.O.: Tigre x Lanús, Defensores x "
+             "Barracas Central, Quilmes x Sportivo Barracas) mais os desempates, o 3º lugar e a final (AR-020)"],
+    "1965": ["Estudiantes e Racing empatam com 36 pontos: a tabela da RSSSF põe o Estudiantes em 5º, a Wikipédia em espanhol, o "
+             "Racing (saldo de gols); fica a ordem publicada (AR-020)"],
     "1934 Liga": ["fusões temporárias de 1934 à parte dos clubes (D-25 h): os jogos de \"Atlanta/Argentinos Jrs\" ficam com o "
                   "Atlanta-Argentinos Juniors e os de \"Talleres/Lanús\" com a Unión Talleres-Lanús; a tabela da RSSSF põe a "
                   "campanha inteira (39 jogos) na linha do Argentinos Juniors, que fica com só os 14 jogos de antes da fusão"],

@@ -124,7 +124,29 @@ def espn(e: Edicao, jogos: list[dict]) -> dict:
     num = lambda x: int(x) if x not in (None, "") else None
     ligado, codigo = casar(e, jogos, fonte, "mandante", "visitante", "mandante_id", "visitante_id",
                            lambda g: _local(g).date().toordinal(), lambda g: (num(g["gols_mandante"]), num(g["gols_visitante"])))
-    return {"ligado": ligado, "codigo": codigo}
+    # QU-003: 3º passo, jogo adiado (a RSSSF o lista na rodada original): mesmo par e mesmo placar em qualquer data da edição,
+    # com um candidato só de cada lado; a data da ESPN vale (importar.py usa "adiado")
+    adiado: set[int] = set()
+    usados = {id(g) for g in ligado.values()}
+    dias = [d for j in jogos if j["j"] and (d := _dia(j["j"].data))]
+    if not dias:
+        return {"ligado": ligado, "codigo": codigo, "adiado": adiado}
+    ini, fim = min(dias) - 7, max(dias) + 60   # só dentro do período da edição (a ESPN do ano traz a temporada vizinha)
+    livres = [g for g in fonte if id(g) not in usados and ini <= _local(g).date().toordinal() <= fim]
+    for g in livres:
+        m = codigo.get(str(g["mandante_id"])) or clube(g["mandante"], e.ano_inicio)
+        v = codigo.get(str(g["visitante_id"])) or clube(g["visitante"], e.ano_inicio)
+        placar = (num(g["gols_mandante"]), num(g["gols_visitante"]))
+        if not m or not v or placar[0] is None:
+            continue
+        cands = [k for k, j in enumerate(jogos) if k not in ligado and j["m"] == m and j["v"] == v and j["j"]
+                 and (j["j"].gm, j["j"].gv) == placar]
+        outros = [x for x in livres if x is not g and (x["mandante"], x["visitante"]) == (g["mandante"], g["visitante"])
+                  and (num(x["gols_mandante"]), num(x["gols_visitante"])) == placar]
+        if len(cands) == 1 and not outros:
+            ligado[cands[0]] = g
+            adiado.add(cands[0])
+    return {"ligado": ligado, "codigo": codigo, "adiado": adiado}
 
 
 def lances_espn(g: dict) -> tuple[list[dict], list[dict]]:

@@ -102,14 +102,16 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Peru: feito (`70d8caf`)** (PE-010, PE-012, PE-014, PE-015, PE-017, PE-022). Novo: `coleta/per-1/rebaixados_es.py`
      (seção "Ascensos y descensos" das páginas da es; `baixar_wikipedia.py` agora baixa todos os anos, "Liga1 <ano> (Perú)"
      de 2019 em diante).
-   - **Próximo: Argentina.**
+   - **Próximo: Colômbia.**
    - **Paraguai: feito (`a22c1ff`)** (PY-008, PY-012, PY-018, PY-019, PY-031). Novo: `coleta/par-1/goleadores_es.py`
      (coluna "Goleador" da es, guardada em `data/coleta/par-1/wikipedia/es_principal.txt`) e `explicacoes.REBAIXADOS`.
      Torneios (Apertura e Clausura) ligados no leitor só de 1996 a 2007 (`ANOS_TORNEIOS`).
    - **Chile: feito (`b8b5a57`)** (CH-006, CH-014 de 1986, CH-017, CH-022, CH-023, CH-028). Novo no `importar.py`:
      `_pontos_ultima_fase` (ordem pela fase final de pontos; `PONTOS_ACUMULADOS` = 1946 e 1951) e `acerta_grupos`; no
      `outras_fontes.py`: `OGOL_FORA` e o casamento sem data com placar igual quando o par se repete.
-   - **Argentina:** AR-020, AR-021, QU-003, QU-005.
+   - **Argentina: feito (commit no recado)** (AR-020, AR-021, QU-003; QU-005 aberto sem 3ª fonte). Novo:
+     `coleta/arg-1/rebaixados_es.py` (anexo "Movilidad interdivisional" da es), `FASE_PELA_TABELA`, `FORA_DA_TABELA` e o
+     3º passo da ESPN (jogo adiado, `adiado`) no `outras_fontes.py`.
    - **Colômbia:** CO-004, CO-006, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017, CO-018 (só reimportar), CO-020, CO-022.
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
 3. **Depois: copas nacionais** (pedido do Guilherme, 23/11, antes das 2ªs divisões). Pesquisa pronta em
