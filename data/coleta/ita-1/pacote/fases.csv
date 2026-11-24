@@ -109,3 +109,149 @@ temporada,ordem,fase,tipo,num_grupos,formato_serie,criterio
 2023/24,1,Liga,liga,,pontos_corridos,"pontos, confronto direto, saldo de gols, gols pró"
 2024/25,1,Liga,liga,,pontos_corridos,"pontos, confronto direto, saldo de gols, gols pró"
 2025/26,1,Liga,liga,,pontos_corridos,"pontos, confronto direto, saldo de gols, gols pró"
+1898,1,Semifinais,grupos,1,pontos_corridos,pontos
+1898,2,Final,mata_mata,,jogo_unico,resultado
+1899,1,Eliminatoria piemontesa,mata_mata,,jogo_unico,resultado
+1899,2,Semifinal,mata_mata,,jogo_unico,resultado
+1899,3,Final,mata_mata,,jogo_unico,resultado
+1900,1,Eliminatoria lígure,mata_mata,,jogo_unico,resultado
+1900,2,Eliminatórias piemontesa,grupos,1,pontos_corridos,pontos
+1900,3,Semifinal,mata_mata,,jogo_unico,resultado
+1900,4,Final,mata_mata,,jogo_unico,resultado
+1901,1,Eliminatoria piemontesa,mata_mata,,jogo_unico,resultado
+1901,2,Semifinal,mata_mata,,jogo_unico,resultado
+1901,3,Final,mata_mata,,jogo_unico,resultado
+1902,1,Eliminatoria lígure,mata_mata,,jogo_unico,resultado
+1902,2,Eliminatórias piemontesa · Desempate,mata_mata,,jogo_unico,resultado
+1902,3,Eliminatoria inter-regional lígure-lombarda,mata_mata,,jogo_unico,resultado
+1902,4,Semifinal,mata_mata,,jogo_unico,resultado
+1902,5,Final,mata_mata,,jogo_unico,resultado
+1903,1,Eliminatoria piemontesa,grupos,1,pontos_corridos,pontos
+1903,2,Eliminatoria inter-regional lígure-piemontesa,mata_mata,,jogo_unico,resultado
+1903,3,Semifinal,mata_mata,,jogo_unico,resultado
+1903,4,Final,mata_mata,,jogo_unico,resultado
+1904,1,Eliminatoria piemontesa,mata_mata,,jogo_unico,resultado
+1904,2,Eliminatoria inter-regional lígure-lombarda,mata_mata,,jogo_unico,resultado
+1904,3,Semifinal,mata_mata,,jogo_unico,resultado
+1904,4,Desempate della semifinale (Ripetizione),mata_mata,,jogo_unico,resultado
+1904,5,Final,mata_mata,,jogo_unico,resultado
+1905,1,Eliminatoria lígure,mata_mata,,ida_volta,resultado
+1905,2,Eliminatoria lombarda,mata_mata,,ida_volta,resultado
+1905,3,Eliminatoria piemontesa,mata_mata,,ida_volta,resultado
+1905,4,Fase única,grupos,1,pontos_corridos,pontos
+1906,1,Eliminatoria lígure,mata_mata,,ida_volta,resultado
+1906,2,Eliminatoria lombarda,mata_mata,,ida_volta,resultado
+1906,3,Fase única,grupos,1,pontos_corridos,pontos
+1906,4,Desempate primo posto,mata_mata,,ida_volta,resultado
+1907,1,Eliminatoria lígure,mata_mata,,ida_volta,resultado
+1907,2,Eliminatoria lombarda,mata_mata,,ida_volta,resultado
+1907,3,Eliminatoria piemontesa,mata_mata,,ida_volta,resultado
+1907,4,Fase única,grupos,1,pontos_corridos,pontos
+1908,1,Eliminatoria piemontesa,mata_mata,,ida_volta,resultado
+1908,2,Fase única,grupos,1,pontos_corridos,pontos
+1909,1,Eliminatórias liguri,mata_mata,,jogo_unico,resultado
+1909,2,Eliminatórias lombarda,grupos,1,pontos_corridos,pontos
+1909,3,Eliminatórias piemontesa · Primo turno cittadino,mata_mata,,jogo_unico,resultado
+1909,4,Eliminatórias piemontesa · Secondo turno regional,mata_mata,,ida_volta,resultado
+1909,5,Semifinal lígure-piemontesa,mata_mata,,ida_volta,resultado
+1909,6,Semifinal lombardo-vêneta,mata_mata,,ida_volta,resultado
+1909,7,Final,mata_mata,,ida_volta,resultado
+1909/10,1,Fase única,grupos,1,pontos_corridos,pontos
+1909/10,2,Desempate,mata_mata,,jogo_unico,resultado
+1910/11,1,Campeonato do Noroeste,grupos,1,pontos_corridos,pontos
+1910/11,2,Campeonato emiliano-vêneto,grupos,1,pontos_corridos,pontos
+1910/11,3,Final,mata_mata,,ida_volta,resultado
+1911/12,1,Eliminatórias pre-campionato,mata_mata,,ida_volta,resultado
+1911/12,2,Campeonato do Noroeste,grupos,1,pontos_corridos,pontos
+1911/12,3,Campeonato emiliano-vêneto,grupos,1,pontos_corridos,pontos
+1911/12,4,Final,mata_mata,,ida_volta,resultado
+1912/13,1,Eliminatórias pre-campionato · Piemonte,mata_mata,,jogo_unico,resultado
+1912/13,2,Eliminatórias pre-campionato · Lombardia-Liguria · Primo turno,grupos,1,pontos_corridos,pontos
+1912/13,3,Eliminatórias pre-campionato · Lombardia-Liguria · Secondo turno,mata_mata,,jogo_unico,resultado
+1912/13,4,Eliminatórias pre-campionato · Lazio · Primo turno,grupos,1,pontos_corridos,pontos
+1912/13,5,Eliminatórias pre-campionato · Lazio · Secondo turno,mata_mata,,jogo_unico,resultado
+1912/13,6,Torneio do Norte,grupos,3,pontos_corridos,pontos
+1912/13,7,Torneio do Norte · Grupo final,grupos,1,pontos_corridos,pontos
+1912/13,8,Torneio do Centro-Sul,grupos,2,pontos_corridos,pontos
+1912/13,9,Torneio do Centro-Sul · Fase final · Semifinal Itália centrale,mata_mata,,ida_volta,resultado
+1912/13,10,Torneio do Centro-Sul · Fase final · Semifinal Itália do Sul,mata_mata,,ida_volta,resultado
+1912/13,11,Torneio do Centro-Sul · Fase final · Final do Centro-Sul,mata_mata,,ida_volta,resultado
+1912/13,12,Final nacional,mata_mata,,jogo_unico,resultado
+1913/14,1,Torneio principal,grupos,4,pontos_corridos,pontos
+1913/14,2,Torneio do Centro-Sul,grupos,2,pontos_corridos,pontos
+1913/14,3,Torneio do Centro-Sul · Fase final · Semifinal Itália centrale,mata_mata,,ida_volta,resultado
+1913/14,4,Torneio do Centro-Sul · Fase final · Semifinal Itália do Sul,mata_mata,,ida_volta,resultado
+1913/14,5,Torneio do Centro-Sul · Fase final · Final do Centro-Sul,mata_mata,,ida_volta,resultado
+1913/14,6,Final nacional,mata_mata,,ida_volta,resultado
+1914/15,1,Torneio principal · Grupos de qualificação,grupos,6,pontos_corridos,pontos
+1914/15,2,Torneio principal · Semifinais nacionais,grupos,4,pontos_corridos,pontos
+1914/15,3,Torneio principal · Grupo final Nord,grupos,1,pontos_corridos,pontos
+1914/15,4,Torneio do Centro-Sul,grupos,2,pontos_corridos,pontos
+1914/15,5,Torneio do Centro-Sul · Semifinais da Itália Central,grupos,1,pontos_corridos,pontos
+1919/20,1,Eliminatórias pre-campionato · Emilia · Primo turno,mata_mata,,jogo_unico,resultado
+1919/20,2,Eliminatórias pre-campionato · Emilia · Secondo turno,mata_mata,,jogo_unico,resultado
+1919/20,3,Eliminatórias pre-campionato · Liguria · Primo turno,grupos,1,pontos_corridos,pontos
+1919/20,4,Eliminatórias pre-campionato · Liguria · Secondo turno,mata_mata,,jogo_unico,resultado
+1919/20,5,Eliminatórias pre-campionato · Lombardia,grupos,1,pontos_corridos,pontos
+1919/20,6,Eliminatórias pre-campionato · Piemonte,mata_mata,,jogo_unico,resultado
+1919/20,7,Eliminatórias pre-campionato · Campania · Primo turno,grupos,1,pontos_corridos,pontos
+1919/20,8,Eliminatórias pre-campionato · Campania · Final,mata_mata,,jogo_unico,resultado
+1919/20,9,Torneio principal · Grupos regionais de qualificação,grupos,3,pontos_corridos,pontos
+1919/20,10,Torneio principal · Grupos regionais de qualificação · Seção lombarda,grupos,3,pontos_corridos,pontos
+1919/20,11,Torneio principal · Grupos regionais de qualificação · Seção piemontesa,grupos,2,pontos_corridos,pontos
+1919/20,12,Torneio principal · Semifinais nacionais,grupos,3,pontos_corridos,pontos
+1919/20,13,Torneio do Centro-Sul · Grupos regionais de qualificação,grupos,3,pontos_corridos,pontos
+1919/20,14,Torneio do Centro-Sul · Semifinais inter-regionais,grupos,2,pontos_corridos,pontos
+1919/20,15,Torneio do Centro-Sul · Final do Centro-Sul,mata_mata,,jogo_unico,resultado
+1919/20,16,Final nacional,mata_mata,,jogo_unico,resultado
+1920/21,1,Torneio do Norte · Campeonatos regionais de qualificação · Seção emiliana,grupos,2,pontos_corridos,pontos
+1920/21,2,Torneio do Norte · Campeonatos regionais de qualificação,grupos,1,pontos_corridos,pontos
+1920/21,3,Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda,grupos,6,pontos_corridos,pontos
+1920/21,4,Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo final regional,grupos,1,pontos_corridos,pontos
+1920/21,5,Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa,grupos,2,pontos_corridos,pontos
+1920/21,6,Torneio do Norte · Campeonatos regionais de qualificação · Seção vêneta,grupos,2,pontos_corridos,pontos
+1920/21,7,Torneio do Norte · Campeonatos regionais de qualificação · Seção vêneta · Grupo final,grupos,1,pontos_corridos,pontos
+1920/21,8,Torneio do Norte · Semifinais nacionais,grupos,4,pontos_corridos,pontos
+1920/21,9,Torneio do Norte · Semifinais nord,mata_mata,,jogo_unico,resultado
+1920/21,10,Torneio do Norte · Final nord,mata_mata,,jogo_unico,resultado
+1920/21,11,Torneio peninsular · Grupos regionais de qualificação · Seção da Campânia,grupos,2,pontos_corridos,pontos
+1920/21,12,Torneio peninsular · Grupos regionais de qualificação · Seção da Campânia · Grupo final regional,grupos,1,pontos_corridos,pontos
+1920/21,13,Torneio peninsular · Grupos regionais de qualificação,grupos,2,pontos_corridos,pontos
+1920/21,14,Torneio peninsular · Semifinais inter-regionais,grupos,2,pontos_corridos,pontos
+1920/21,15,Torneio peninsular · Final do Centro-Sul,mata_mata,,jogo_unico,resultado
+1920/21,16,Final nacional,mata_mata,,jogo_unico,resultado
+1921/22 (FIGC),1,Grupos regionais de qualificação · Seção emiliana,grupos,2,pontos_corridos,pontos
+1921/22 (FIGC),2,Grupos regionais de qualificação · Seção emiliana · Grupo final,grupos,1,pontos_corridos,pontos
+1921/22 (FIGC),3,Grupos regionais de qualificação,grupos,4,pontos_corridos,pontos
+1921/22 (FIGC),4,Grupos regionais de qualificação · Seção lombarda,grupos,4,pontos_corridos,pontos
+1921/22 (FIGC),5,Grupos regionais de qualificação · Seção lombarda · Grupo final,grupos,1,pontos_corridos,pontos
+1921/22 (FIGC),6,Semifinais nacionais,grupos,2,pontos_corridos,pontos
+1921/22 (FIGC),7,Final nacional,mata_mata,,ida_volta,resultado
+1921/22 (FIGC),8,Final nacional · Desempate,mata_mata,,jogo_unico,resultado
+1921/22 (CCI),1,Liga Norte,grupos,2,pontos_corridos,pontos
+1921/22 (CCI),2,Liga Sul,grupos,4,pontos_corridos,pontos
+1921/22 (CCI),3,Liga Sul · Seção das Marcas,grupos,2,pontos_corridos,pontos
+1921/22 (CCI),4,Liga Sul · Seção das Marcas · Grupo final,grupos,1,pontos_corridos,pontos
+1922/23,1,Liga Norte,grupos,3,pontos_corridos,pontos
+1922/23,2,Liga Norte · Finais da Liga,grupos,1,pontos_corridos,pontos
+1922/23,3,Liga Sul · Grupos regionais de qualificação,grupos,4,pontos_corridos,pontos
+1922/23,4,Liga Sul · Semifinais inter-regionais,grupos,2,pontos_corridos,pontos
+1922/23,5,Liga Sul · Final Liga Sul,mata_mata,,ida_volta,resultado
+1922/23,6,Final nacional,mata_mata,,ida_volta,resultado
+1923/24,1,Liga Norte,grupos,2,pontos_corridos,pontos
+1923/24,2,Liga Norte · Eliminatórias interdivisionali,grupos,1,pontos_corridos,pontos
+1923/24,3,Liga Sul · Grupos regionais de qualificação,grupos,3,pontos_corridos,pontos
+1923/24,4,Liga Sul · Semifinais inter-regionais,grupos,2,pontos_corridos,pontos
+1924/25,1,Liga Norte,grupos,2,pontos_corridos,pontos
+1924/25,2,Liga Sul · Grupos regionais de qualificação,grupos,3,pontos_corridos,pontos
+1924/25,3,Liga Sul · Semifinais inter-regionais,grupos,2,pontos_corridos,pontos
+1925/26,1,Liga Norte,grupos,2,pontos_corridos,pontos
+1925/26,2,Liga Sul · Grupos regionais de qualificação,grupos,3,pontos_corridos,pontos
+1925/26,3,Liga Sul · Semifinais inter-regionais,grupos,2,pontos_corridos,pontos
+1926/27,1,Primeira fase,grupos,2,pontos_corridos,pontos
+1926/27,2,Grupo final,grupos,1,pontos_corridos,pontos
+1927/28,1,Primeira fase,grupos,2,pontos_corridos,pontos
+1927/28,2,Grupo final,grupos,1,pontos_corridos,pontos
+1928/29,1,Primeira fase,grupos,2,pontos_corridos,pontos
+1928/29,2,Finais nacionais,mata_mata,,ida_volta,resultado
+1928/29,3,Finais nacionais · Desempate,mata_mata,,jogo_unico,resultado

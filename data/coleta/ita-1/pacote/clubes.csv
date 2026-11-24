@@ -1,70 +1,192 @@
 clube,regiao,cidade,pais,nomes_fonte
 Messina,,Messina,ITA,engsoccerdata:A.C.R. Messina:1963-1964|engsoccerdata:FC Messina:2004-2006|espn:Messina:2004-2006|football-data:Messina:2004-2006|ogol:A.C. Riunite Messina:1963-1964|ogol:F.C. Messina Peloro:2004-2006
+A.M.C. Milanese,,Milão,ITA,wikipedia-it:1913-1914
 Cesena,,Cesena,ITA,engsoccerdata:AC Cesena:1973-2014|espn:Cesena:2010-2014|football-data:Cesena:2010-2014|ogol:AC Cesena:1973-2014
-Mantova,,Mântua,ITA,engsoccerdata:AC Mantova:1961-1971|ogol:AC Mantova:1961-1971
-Milan,,Milão,ITA,engsoccerdata:AC Milan:1929-2024|espn:AC Milan:2001-2025|football-data:Milan:1993-2025|ogol:AC Milan:1929-2025
-Monza,,Monza,ITA,engsoccerdata:AC Monza:2022-2024|espn:Monza:2022-2024|football-data:Monza:2022-2024|ogol:Monza:2022-2024
+AC Libertas,,Milão,ITA,wikipedia-it:1919-1921
+AC Ligure,,Gênova,ITA,wikipedia-it:1914
+Mantova,,Mântua,ITA,engsoccerdata:AC Mantova:1961-1971|ogol:AC Mantova:1961-1971|wikipedia-it:1919-1925
+Milan,,Milão,ITA,engsoccerdata:AC Milan:1929-2024|espn:AC Milan:2001-2025|football-data:Milan:1993-2025|ogol:AC Milan:1929-2025|wikipedia-it:1900-1928
+Monza,,Monza,ITA,engsoccerdata:AC Monza:2022-2024|espn:Monza:2022-2024|football-data:Monza:2022-2024|ogol:Monza:2022-2024|wikipedia-it:1919-1921
 Perugia,,Perúgia,ITA,engsoccerdata:AC Perugia:1975-2003|espn:Perugia:2001-2003|football-data:Perugia:1996-2003|ogol:Perugia:1975-2003|wikipedia-it:Perugia:2003
-Pistoiese,,Pistoia,ITA,engsoccerdata:AC Pistoiese:1980|ogol:US Pistoiese:1980
-Reggiana,,Reggio Emilia,ITA,engsoccerdata:AC Reggiana:1993-1996|football-data:Reggiana:1993-1996|ogol:AC Reggiana:1993-1996
+Pistoiese,,Pistoia,ITA,engsoccerdata:AC Pistoiese:1980|ogol:US Pistoiese:1980|wikipedia-it:1928
+Reggiana,,Reggio Emilia,ITA,engsoccerdata:AC Reggiana:1993-1996|football-data:Reggiana:1993-1996|ogol:AC Reggiana:1993-1996|wikipedia-it:1920-1928
 Siena,,Siena,ITA,engsoccerdata:AC Siena:1945-2012|espn:Siena:2003-2012|football-data:Siena:2003-2012|ogol:AC Siena:1945-2012
-Venezia,,Veneza,ITA,engsoccerdata:AC Venezia:1939-2024|espn:Venezia:2001-2024|football-data:Venezia:1998-2024|ogol:Venezia:1939-2024|wikipedia-it:Venezia:1942
-Fiorentina,,Florença,ITA,engsoccerdata:ACF Fiorentina:1931-2024|espn:Fiorentina:2001-2025|football-data:Fiorentina:1994-2025|ogol:Fiorentina:1931-2025|wikipedia-it:Fiorentina:2003
-Bari,,Bari,ITA,engsoccerdata:AS Bari:1931-2010|espn:Bari:2009-2010|football-data:Bari:1994-2010|ogol:AS Bari:1945-2010|ogol:US Bari:1931-1942|wikipedia-it:Bari:1931-1960
-Livorno,,Livorno,ITA,engsoccerdata:AS Livorno:2004-2013|engsoccerdata:US Livorno:1929-1948|espn:Livorno:2004-2013|football-data:Livorno:2004-2013|ogol:Livorno 1915:1929-2013
-Roma,,Roma,ITA,engsoccerdata:AS Roma:1929-2024|espn:AS Roma:2001-2025|football-data:Roma:1993-2025|ogol:Roma:1929-2025
-Varese,,Varese,ITA,engsoccerdata:AS Varese 1910:1964-1974|ogol:Varese:1964-1974
-Ancona,,Ancona,ITA,engsoccerdata:Ancona Calcio:1992-2003|engsoccerdata:US Anconitana:1945|espn:Ancona:2003|football-data:Ancona:2003|ogol:Ancona:1992-2003|ogol:US Anconitana:1945
-Andrea Doria,,Gênova,ITA,engsoccerdata:Andrea Doria:1945|ogol:Andrea Doria:1945
+Venezia,,Veneza,ITA,engsoccerdata:AC Venezia:1939-2024|espn:Venezia:2001-2024|football-data:Venezia:1998-2024|ogol:Venezia:1939-2024|wikipedia-it:1909-1928|wikipedia-it:Venezia:1942
+Fiorentina,,Florença,ITA,engsoccerdata:ACF Fiorentina:1931-2024|espn:Fiorentina:2001-2025|football-data:Fiorentina:1994-2025|ogol:Fiorentina:1931-2025|wikipedia-it:1928|wikipedia-it:Fiorentina:2003
+Bari,,Bari,ITA,engsoccerdata:AS Bari:1931-2010|espn:Bari:2009-2010|football-data:Bari:1994-2010|ogol:AS Bari:1945-2010|ogol:US Bari:1931-1942|wikipedia-it:1924-1928|wikipedia-it:Bari:1931-1960
+Livorno,,Livorno,ITA,engsoccerdata:AS Livorno:2004-2013|engsoccerdata:US Livorno:1929-1948|espn:Livorno:2004-2013|football-data:Livorno:2004-2013|ogol:Livorno 1915:1929-2013|wikipedia-it:1919-1928
+Roma,,Roma,ITA,engsoccerdata:AS Roma:1929-2024|espn:AS Roma:2001-2025|football-data:Roma:1993-2025|ogol:Roma:1929-2025|wikipedia-it:1927-1928
+Varese,,Varese,ITA,engsoccerdata:AS Varese 1910:1964-1974|ogol:Varese:1964-1974|wikipedia-it:1919-1921
+Acqui,,Acqui Terme,ITA,wikipedia-it:1914
+Alba Roma,,Roma,ITA,wikipedia-it:1912-1926
+Alessandrina,,Alessandria,ITA,wikipedia-it:1919
+Amatori Torino,,Turim,ITA,wikipedia-it:1919-1920
+Ancona,,Ancona,ITA,engsoccerdata:Ancona Calcio:1992-2003|engsoccerdata:US Anconitana:1945|espn:Ancona:2003|football-data:Ancona:2003|ogol:Ancona:1992-2003|ogol:US Anconitana:1945|wikipedia-it:1921-1925
+Andrea Doria,,Gênova,ITA,engsoccerdata:Andrea Doria:1945|ogol:Andrea Doria:1945|wikipedia-it:1902-1926
 Ascoli,,Ascoli Piceno,ITA,engsoccerdata:Ascoli Calcio:1974-2006|espn:Ascoli:2005-2006|football-data:Ascoli:2005-2006|ogol:Ascoli:1974-2006
-Atalanta,,Bérgamo,ITA,engsoccerdata:Atalanta:1937-2024|espn:Atalanta:2001-2025|football-data:Atalanta:1993-2025|ogol:Atalanta:1937-2025|wikipedia-it:Atalanta:2002
+Atalanta,,Bérgamo,ITA,engsoccerdata:Atalanta:1937-2024|espn:Atalanta:2001-2025|football-data:Atalanta:1993-2025|ogol:Atalanta:1937-2025|wikipedia-it:1919-1928|wikipedia-it:Atalanta:2002
+Audace Ferrara,,Ferrara,ITA,wikipedia-it:1919
+Audace Roma,,Roma,ITA,wikipedia-it:1912-1925
+Audace Taranto,,Taranto,ITA,wikipedia-it:1921-1925
+Audace Torino,,Turim,ITA,wikipedia-it:1902-1903
+Audacia Napoli,,Nápoles,ITA,wikipedia-it:1920
+Audax Modena,,Módena,ITA,wikipedia-it:1914
+Ausonia,,Milão,ITA,wikipedia-it:1909
+Ausonia Pro Gorla,,Milão,ITA,wikipedia-it:1919-1920
+Bagnolese Napoli,,Nápoles,ITA,wikipedia-it:1923
 Benevento,,Benevento,ITA,engsoccerdata:Benevento:2017-2020|espn:Benevento:2017-2020|football-data:Benevento:2017-2020|ogol:Benevento:2017-2020
-Bologna,,Bolonha,ITA,engsoccerdata:Bologna FC:1929-2024|espn:Bologna:2001-2025|football-data:Bologna:1996-2025|ogol:Bologna:1929-2025|wikipedia-it:Bologna:1963-2004
-Brescia,,Brescia,ITA,engsoccerdata:Brescia Calcio:1929-2019|espn:Brescia:2001-2019|football-data:Brescia:1994-2019|ogol:Brescia:1929-2019|wikipedia-it:Brescia:1931-1992
+Bentegodi,,Verona,ITA,wikipedia-it:1920-1921
+Bergamasca,,Bérgamo,ITA,wikipedia-it:1919
+Biellese,,Biella,ITA,wikipedia-it:1919-1928
+Bologna,,Bolonha,ITA,engsoccerdata:Bologna FC:1929-2024|espn:Bologna:2001-2025|football-data:Bologna:1996-2025|ogol:Bologna:1929-2025|wikipedia-it:1910-1928|wikipedia-it:Bologna:1963-2004
+Brasiliano,,Nápoles,ITA,wikipedia-it:1919
+Brescia,,Brescia,ITA,engsoccerdata:Brescia Calcio:1929-2019|espn:Brescia:2001-2019|football-data:Brescia:1994-2019|ogol:Brescia:1929-2019|wikipedia-it:1913-1928|wikipedia-it:Brescia:1931-1992
+C.S. Firenze,,Florença,ITA,wikipedia-it:1919-1921
 Cagliari,,Cagliari,ITA,engsoccerdata:Cagliari Calcio:1964-2024|espn:Cagliari:2004-2025|football-data:Cagliari:1993-2025|ogol:Cagliari:1964-2025|wikipedia-it:Cagliari:1996
 Catania,,Catânia,ITA,engsoccerdata:Calcio Catania:1954-2013|espn:Catania:2006-2013|football-data:Catania:2006-2013|ogol:Catania:1970-2013|ogol:SS Catania:1954-1965
 Lecco,,Lecco,ITA,engsoccerdata:Calcio Lecco 1912:1960-1966|ogol:Lecco:1960-1966|wikipedia-it:Lecco:1960
-Padova,,Pádua,ITA,engsoccerdata:Calcio Padova:1929-1995|football-data:Padova:1994-1995|ogol:Padova:1929-1995|wikipedia-it:Padova:1994
-Carpi,,Carpi,ITA,engsoccerdata:Carpi FC:2015|espn:Carpi:2015|football-data:Carpi:2015|ogol:Carpi 1909:2015
-Casale,,Casale Monferrato,ITA,engsoccerdata:Casale:1930-1933|ogol:Casale:1930-1933
+Padova,,Pádua,ITA,engsoccerdata:Calcio Padova:1929-1995|football-data:Padova:1994-1995|ogol:Padova:1929-1995|wikipedia-it:1914-1928|wikipedia-it:Padova:1994
+Carignano,,Carignano,ITA,wikipedia-it:1920
+Carpi,,Carpi,ITA,engsoccerdata:Carpi FC:2015|espn:Carpi:2015|football-data:Carpi:2015|ogol:Carpi 1909:2015|wikipedia-it:1919-1921
+Casale,,Casale Monferrato,ITA,engsoccerdata:Casale:1930-1933|ogol:Casale:1930-1933|wikipedia-it:1911-1928
+Casertana,,Caserta,ITA,wikipedia-it:1925
+Casteggio,,Casteggio,ITA,wikipedia-it:1920-1921
+Cavese,,Cava de' Tirreni,ITA,wikipedia-it:1922-1924
+Chiasso,,Chiasso,SUI,wikipedia-it:1914-1921
 Chievo,,Verona,ITA,engsoccerdata:Chievo Verona:2001-2018|espn:Chievo Verona:2001-2018|football-data:Chievo:2001-2018|ogol:Chievo Verona:2001-2018
-Como,,Como,ITA,engsoccerdata:Como Calcio:1949-2024|espn:Como:2002-2025|football-data:Como:2002-2025|ogol:Como 1907:1949-2025
+Como,,Como,ITA,engsoccerdata:Como Calcio:1949-2024|espn:Como:2002-2025|football-data:Como:2002-2025|ogol:Como 1907:1949-2025|wikipedia-it:1912-1921
+Derthona,,Tortona,ITA,wikipedia-it:1922-1924
+Dolo,,Dolo,ITA,wikipedia-it:1920
 Empoli,,Empoli,ITA,engsoccerdata:Empoli FC:1986-2024|espn:Empoli:2002-2024|football-data:Empoli:1997-2024|ogol:Empoli:1986-2024
+Enotria Goliardo,,Milão,ITA,wikipedia-it:1919-1921
+Enotria Taranto,,Taranto,ITA,wikipedia-it:1923
+Esperia,,Como,ITA,wikipedia-it:1921-1922
 Crotone,,Crotone,ITA,engsoccerdata:FC Crotone:2016-2020|espn:Crotone:2016-2020|football-data:Crotone:2016-2020|ogol:Crotone:2016-2020
+FC Torinese,,Turim,ITA,wikipedia-it:1898-1905
+Firenze FBC,,Florença,ITA,wikipedia-it:1912-1914
+Fiumana,,Fiume (Rijeka),ITA,wikipedia-it:1928
+Folgore Ancona,,Ancona,ITA,wikipedia-it:1921
+Fortitudo,,Roma,ITA,wikipedia-it:1913-1925
+Fortitudo Pro Roma,,Roma,ITA,wikipedia-it:1926
 Frosinone,,Frosinone,ITA,engsoccerdata:Frosinone Calcio:2015-2023|espn:Frosinone:2015-2023|football-data:Frosinone:2015-2023|ogol:Frosinone:2015-2023
-Genoa,,Gênova,ITA,engsoccerdata:Genoa CFC:1945-2024|engsoccerdata:Genova 1893 Circolo del Calcio:1929-1942|espn:Genoa:2007-2025|football-data:Genoa:1993-2025|ogol:Genoa:1929-2025|wikipedia-it:Genoa:1994
-Verona,,Verona,ITA,engsoccerdata:Hellas Verona:1957-2024|espn:Hellas Verona:2001-2025|football-data:Verona:1996-2025|ogol:Hellas Verona:1957-2025|wikipedia-it:Verona:1957-2022
-Inter de Milão,,Milão,ITA,engsoccerdata:Inter:1929-2024|espn:Internazionale:2001-2025|football-data:Inter:1993-2025|ogol:Ambrosiana:1929-1930|ogol:Ambrosiana-Inter:1931-1942|ogol:Internazionale:1945-2025|wikipedia-it:Inter:1963
-Juventus,,Turim,ITA,engsoccerdata:Juventus:1929-2024|espn:Juventus:2001-2025|football-data:Juventus:1993-2025|ogol:Juventus:1929-2025|ogol:Juventus-Cisitalia:1942
-Lazio,,Roma,ITA,engsoccerdata:Lazio Roma:1929-2024|espn:Lazio:2001-2025|football-data:Lazio:1993-2025|ogol:Lazio:1929-2025
-Legnano,,Legnano,ITA,engsoccerdata:Legnano:1930-1953|ogol:Legnano:1930-1953
-Lucchese,,Lucca,ITA,engsoccerdata:Lucchese:1936-1951|ogol:Lucchese Libertas:1936-1951|wikipedia-it:Lucchese:1951
-Modena,,Módena,ITA,engsoccerdata:Modena FC:1929-2003|espn:Modena:2002-2003|football-data:Modena:2002-2003|ogol:Modena:1929-2003|ogol:Modena Calcio:1938-1941|wikipedia-it:Modena:1963
-Novara,,Novara,ITA,engsoccerdata:Novara Calcio:1936-2011|espn:Novara:2011|football-data:Novara:2011|ogol:Novara:1936-2011
-Parma,,Parma,ITA,engsoccerdata:Parma AC:1990-2003|engsoccerdata:Parma FC:2004-2024|espn:Parma:2001-2025|football-data:Parma:1993-2025|ogol:Parma:1990-2025|wikipedia-it:Parma:2004
+GS Bolognese,,Bolonha,ITA,wikipedia-it:1919
+Genoa,,Gênova,ITA,engsoccerdata:Genoa CFC:1945-2024|engsoccerdata:Genova 1893 Circolo del Calcio:1929-1942|espn:Genoa:2007-2025|football-data:Genoa:1993-2025|ogol:Genoa:1929-2025|wikipedia-it:1898-1928|wikipedia-it:Genoa:1994
+Ginnastica Torino,,Turim,ITA,wikipedia-it:1898-1902
+Giovani Calciatori,,,ITA,wikipedia-it:1921
+Giovani Calciatori Grifone,,Gênova,ITA,wikipedia-it:1919
+Giovani Calciatori Legnanesi,,Legnano,ITA,wikipedia-it:1920
+Giovani Cappuccini,,,ITA,wikipedia-it:1921
+Giovanni Gerbi Pisa,,Pisa,ITA,wikipedia-it:1919-1920
+Hellas Verona (1907),,Verona,ITA,wikipedia-it:1910-1914
+Verona,,Verona,ITA,engsoccerdata:Hellas Verona:1957-2024|espn:Hellas Verona:2001-2025|football-data:Verona:1996-2025|ogol:Hellas Verona:1957-2025|wikipedia-it:1912-1928|wikipedia-it:Verona:1957-2022
+Helvia Recina,,Macerata,ITA,wikipedia-it:1921
+Ideale Bari,,Bari,ITA,wikipedia-it:1922-1925
+Inter de Milão,,Milão,ITA,engsoccerdata:Inter:1929-2024|espn:Internazionale:2001-2025|football-data:Inter:1993-2025|ogol:Ambrosiana:1929-1930|ogol:Ambrosiana-Inter:1931-1942|ogol:Internazionale:1945-2025|wikipedia-it:1909-1928|wikipedia-it:Inter:1963
+Internazionale Napoli,,Nápoles,ITA,wikipedia-it:1912-1921
+Internazionale Torino,,Turim,ITA,wikipedia-it:1898-1899
+Itala Firenze,,Florença,ITA,wikipedia-it:1913
+Juventus,,Turim,ITA,engsoccerdata:Juventus:1929-2024|espn:Juventus:2001-2025|football-data:Juventus:1993-2025|ogol:Juventus:1929-2025|ogol:Juventus-Cisitalia:1942|wikipedia-it:1900-1928
+Juventus Audax,,Roma,ITA,wikipedia-it:1919-1923
+Juventus Italia,,Milão,ITA,wikipedia-it:1913-1921
+Juventus Roma,,Roma,ITA,wikipedia-it:1912-1914
+Lambro,,Milão,ITA,wikipedia-it:1912
+Lazio,,Roma,ITA,engsoccerdata:Lazio Roma:1929-2024|espn:Lazio:2001-2025|football-data:Lazio:1993-2025|ogol:Lazio:1929-2025|wikipedia-it:1912-1928
+Legnaghese,,Legnago,ITA,wikipedia-it:1921
+Legnano,,Legnano,ITA,engsoccerdata:Legnano:1930-1953|ogol:Legnano:1930-1953|wikipedia-it:1919-1928
+Libertas Firenze,,Florença,ITA,wikipedia-it:1913-1921
+Libertas Palermo,,Palermo,ITA,wikipedia-it:1921-1922
+Liberty Bari,,Prima Divisione 1923-1924#Sezione pugliese,ITA,wikipedia-it:1921-1925
+Liguria FBC,,Gênova,ITA,wikipedia-it:1913-1914
+Lucchese,,Lucca,ITA,engsoccerdata:Lucchese:1936-1951|ogol:Lucchese Libertas:1936-1951|wikipedia-it:1913-1922|wikipedia-it:Lucchese:1951
+Macerata,,Macerata,ITA,wikipedia-it:1921
+Maceratese,,Macerata,ITA,wikipedia-it:1925
+Mediolanum,,Milão,ITA,wikipedia-it:1902
+Messina FC,,Messina,ITA,wikipedia-it:1922-1923
+Messina SC,,Messina,ITA,wikipedia-it:1921
+Messinese,,Messina,ITA,wikipedia-it:1921-1925
+Modena,,Módena,ITA,engsoccerdata:Modena FC:1929-2003|espn:Modena:2002-2003|football-data:Modena:2002-2003|ogol:Modena:1929-2003|ogol:Modena Calcio:1938-1941|wikipedia-it:1912-1928|wikipedia-it:Modena:1963
+Naples,,Nápoles,ITA,wikipedia-it:1912-1921
+Nazionale Emilia,,Bolonha,ITA,wikipedia-it:1919-1920
+Nazionale Lombardia,,Milão,ITA,wikipedia-it:1913-1920
+Novara,,Novara,ITA,engsoccerdata:Novara Calcio:1936-2011|espn:Novara:2011|football-data:Novara:2011|ogol:Novara:1936-2011|wikipedia-it:1912-1928
+Novese,,Novi Ligure,ITA,wikipedia-it:1921-1923
+Olympia Fiume,,Fiume (Rijeka),ITA,wikipedia-it:1923
+Parma,,Parma,ITA,engsoccerdata:Parma AC:1990-2003|engsoccerdata:Parma FC:2004-2024|espn:Parma:2001-2025|football-data:Parma:1993-2025|ogol:Parma:1990-2025|wikipedia-it:1920-1925|wikipedia-it:Parma:2004
+Pastore,,Turim,ITA,wikipedia-it:1919-1922
+Pavia,,Pavia,ITA,wikipedia-it:1919-1921
 Pescara,,Pescara,ITA,engsoccerdata:Pescara Calcio:1945-2016|espn:Pescara:2012-2016|football-data:Pescara:2012-2016|ogol:Pescara:1945-2016
-Piacenza,,Piacenza,ITA,engsoccerdata:Piacenza Calcio:1993-2002|espn:Piacenza:2001-2002|football-data:Piacenza:1993-2002|ogol:Piacenza:1993-2002|wikipedia-it:Piacenza:1996
-Pisa,,Pisa,ITA,engsoccerdata:Pisa SC:1968-1990|espn:Pisa:2025|football-data:Pisa:2025|ogol:Pisa:1968-2025
-Pro Patria,,Busto Arsizio,ITA,engsoccerdata:Pro Patria:1929-1955|ogol:Pro Patria:1929-1955
-Pro Vercelli,,Vercelli,ITA,engsoccerdata:Pro Vercelli:1929-1934|ogol:Pro Vercelli:1929-1934
+Petrarca Padova,,Pádua,ITA,wikipedia-it:1913-1922
+Piacenza,,Piacenza,ITA,engsoccerdata:Piacenza Calcio:1993-2002|espn:Piacenza:2001-2002|football-data:Piacenza:1993-2002|ogol:Piacenza:1993-2002|wikipedia-it:1920-1921|wikipedia-it:Piacenza:1996
+Piemonte FC,,Turim,ITA,wikipedia-it:1910-1914
+Pisa,,Pisa,ITA,engsoccerdata:Pisa SC:1968-1990|espn:Pisa:2025|football-data:Pisa:2025|ogol:Pisa:1968-2025|wikipedia-it:1912-1925
+Prato,,Prato,ITA,wikipedia-it:1913-1928
+Pro Caserta,,Caserta,ITA,wikipedia-it:1919
+Pro Italia Taranto,,Taranto,ITA,wikipedia-it:1921-1925
+Pro Livorno,,Livorno,ITA,wikipedia-it:1921
+Pro Napoli,,Nápoles,ITA,wikipedia-it:1919-1920
+Pro Patria,,Busto Arsizio,ITA,engsoccerdata:Pro Patria:1929-1955|ogol:Pro Patria:1929-1955|wikipedia-it:1919-1928
+Pro Roma,,Roma,ITA,wikipedia-it:1912-1925
+Pro Sesto,,Sesto San Giovanni,ITA,wikipedia-it:1920
+Pro Vercelli,,Vercelli,ITA,engsoccerdata:Pro Vercelli:1929-1934|ogol:Pro Vercelli:1929-1934|wikipedia-it:1908-1928
+Puteolana,,Pozzuoli,ITA,wikipedia-it:1919-1925
+Racing Libertas,,Milão,ITA,wikipedia-it:1911-1914
 Reggina,,Reggio Calabria,ITA,engsoccerdata:Reggina Calcio:1999-2008|espn:Reggina:2002-2008|football-data:Reggina:1999-2008|ogol:Reggina:1999-2008|wikipedia-it:Reggina:2000-2002
-SPAL,,Ferrara,ITA,engsoccerdata:SPAL 1907 Ferrara:1951-2019|espn:SPAL:2017-2019|football-data:Spal:2017-2019|ogol:SPAL:1951-1967|ogol:SPAL 2013:2017-2019
-Napoli,,Nápoles,ITA,engsoccerdata:SSC Napoli:1929-2024|espn:Napoli:2007-2025|football-data:Napoli:1993-2025|ogol:Napoli:1929-2025
-Salernitana,,Salerno,ITA,engsoccerdata:Salernitana Calcio 1919:1945-2023|engsoccerdata:Salernitana Sport:1998|espn:Salernitana:2021-2023|football-data:Salernitana:1998-2023|ogol:Salernitana:1945-2023
+Rivarolese,,Gênova,ITA,wikipedia-it:1920-1922
+Roman,,Roma,ITA,wikipedia-it:1912-1925
+SPAL,,Ferrara,ITA,engsoccerdata:SPAL 1907 Ferrara:1951-2019|espn:SPAL:2017-2019|football-data:Spal:2017-2019|ogol:SPAL:1951-1967|ogol:SPAL 2013:2017-2019|wikipedia-it:1919-1924
+SPES Livorno,,Livorno,ITA,wikipedia-it:1912-1914
+Napoli,,Nápoles,ITA,engsoccerdata:SSC Napoli:1929-2024|espn:Napoli:2007-2025|football-data:Napoli:1993-2025|ogol:Napoli:1929-2025|wikipedia-it:1922-1928
+Salernitana,,Salerno,ITA,engsoccerdata:Salernitana Calcio 1919:1945-2023|engsoccerdata:Salernitana Sport:1998|espn:Salernitana:2021-2023|football-data:Salernitana:1998-2023|ogol:Salernitana:1945-2023|wikipedia-it:1920-1924
 Sampdoria,,Gênova,ITA,engsoccerdata:Sampdoria:1946-2022|espn:Sampdoria:2003-2022|football-data:Sampdoria:1993-2022|ogol:Sampdoria:1946-2022|wikipedia-it:Sampdoria:1963
-Sampierdarenese,,Gênova,ITA,engsoccerdata:AC Liguria:1937-1942|engsoccerdata:Sampierdarenese:1934-1945|ogol:AC Liguria:1937-1942|ogol:AC Sampierdarenese:1934-1936|ogol:Sampierdarenese:1945
+Sampierdarenese,,Gênova,ITA,engsoccerdata:AC Liguria:1937-1942|engsoccerdata:Sampierdarenese:1934-1945|ogol:AC Liguria:1937-1942|ogol:AC Sampierdarenese:1934-1936|ogol:Sampierdarenese:1945|wikipedia-it:1900-1928
+Saronno,,Saronno,ITA,wikipedia-it:1919-1921
 Sassuolo,,Sassuolo,ITA,engsoccerdata:Sassuolo Calcio:2013-2023|espn:Sassuolo:2013-2025|football-data:Sassuolo:2013-2025|ogol:Sassuolo:2013-2025
-Spezia,,La Spezia,ITA,engsoccerdata:Spezia Calcio:2020-2022|espn:Spezia:2020-2022|football-data:Spezia:2020-2022|ogol:Spezia:2020-2022|wikipedia-it:Spezia:2022
+Savoia,,Torre Annunziata,ITA,wikipedia-it:1919-1924
+Savoia Milano,,Milão,ITA,wikipedia-it:1914
+Savona,,Savona,ITA,wikipedia-it:1914-1922
+Savonese,,Savona,ITA,wikipedia-it:1912-1913
+Schio,,Schio,ITA,wikipedia-it:1920-1921
+Sestrese,,Gênova,ITA,wikipedia-it:1919-1923
+Speranza Savona,,Savona,ITA,wikipedia-it:1921-1922
+Spes Genova,,Gênova,ITA,wikipedia-it:1919-1921
+Spezia,,La Spezia,ITA,engsoccerdata:Spezia Calcio:2020-2022|espn:Spezia:2020-2022|football-data:Spezia:2020-2022|ogol:Spezia:2020-2022|wikipedia-it:1920-1924|wikipedia-it:Spezia:2022
+Stabiese,,Castellammare di Stabia,ITA,wikipedia-it:1919-1925
+Stelvio Milano,,Milão,ITA,wikipedia-it:1920-1921
+Tarantina,,Prima Divisione 1923-1924#Sezione pugliese,ITA,wikipedia-it:1924
+Tebro Roma,,Roma,ITA,wikipedia-it:1912
 Ternana,,Terni,ITA,engsoccerdata:Ternana Calcio:1972-1974|ogol:Ternana:1972-1974
-Torino,,Turim,ITA,engsoccerdata:Torino FC:1929-2024|espn:Torino:2001-2025|football-data:Torino:1993-2025|ogol:Torino:1929-2025
-Treviso,,Treviso,ITA,engsoccerdata:Treviso FBC:2005|espn:Treviso:2005|football-data:Treviso:2005|ogol:Treviso:2005
-Alessandria,,Alessandria,ITA,engsoccerdata:US Alessandria 1912:1929-1959|ogol:Alessandria:1929-1959
+Tiberis,,Roma,ITA,wikipedia-it:1921
+Tivoli,,Tivoli,ITA,wikipedia-it:1921-1923
+Torino,,Turim,ITA,engsoccerdata:Torino FC:1929-2024|espn:Torino:2001-2025|football-data:Torino:1993-2025|ogol:Torino:1929-2025|wikipedia-it:1907-1928
+Trevigliese,,Treviglio,ITA,wikipedia-it:1919-1921
+Treviso,,Treviso,ITA,engsoccerdata:Treviso FBC:2005|espn:Treviso:2005|football-data:Treviso:2005|ogol:Treviso:2005|wikipedia-it:1920-1921
+Alessandria,,Alessandria,ITA,engsoccerdata:US Alessandria 1912:1929-1959|ogol:Alessandria:1929-1959|wikipedia-it:1913-1928
 Avellino,,Avellino,ITA,engsoccerdata:US Avellino:1978-1987|ogol:Avellino:1978-1987
+US Bagnolese,,Nápoles,ITA,wikipedia-it:1920-1925
 Catanzaro,,Catanzaro,ITA,engsoccerdata:US Catanzaro:1971-1982|ogol:Catanzaro:1971-1982
-Cremonese,,Cremona,ITA,engsoccerdata:US Cremonese:1929-2022|espn:Cremonese:2022-2025|football-data:Cremonese:1993-2025|ogol:Cremonese:1929-2025
-Foggia,,Foggia,ITA,engsoccerdata:US Foggia:1964-1994|football-data:Foggia:1993-1994|ogol:Foggia:1970-1977|ogol:Foggia & Incedit:1964-1966|ogol:Foggia Calcio:1991-1994
-Lecce,,Lecce,ITA,engsoccerdata:US Lecce:1985-2024|espn:Lecce:2001-2025|football-data:Lecce:1993-2025|ogol:Lecce:1985-2025
-Palermo FC,,Palermo,ITA,engsoccerdata:US Palermo:1932-2016|espn:Palermo:2004-2016|football-data:Palermo:2004-2016|ogol:Palermo:1932-2016
-Udinese,,Udine,ITA,engsoccerdata:Udinese Calcio:1950-2024|espn:Udinese:2001-2025|football-data:Udinese:1993-2025|ogol:Udinese:1950-2025|wikipedia-it:Udinese:1960-1992
-Triestina,,Trieste,ITA,engsoccerdata:Unione Triestina:1929-1958|ogol:Triestina:1929-1958|wikipedia-it:Triestina:1942-1951
-Vicenza,,Vicenza,ITA,engsoccerdata:Lanerossi Vicenza:1955-1978|engsoccerdata:Vicenza Calcio:1942-2000|football-data:Vicenza:1995-2000|ogol:Associazione del Calcio in Vic:1942-1947|ogol:Lanerossi Vicenza:1955-1978|ogol:Vicenza Calcio:1995-2000
+Cremonese,,Cremona,ITA,engsoccerdata:US Cremonese:1929-2022|espn:Cremonese:2022-2025|football-data:Cremonese:1993-2025|ogol:Cremonese:1929-2025|wikipedia-it:1914-1928
+Foggia,,Foggia,ITA,engsoccerdata:US Foggia:1964-1994|football-data:Foggia:1993-1994|ogol:Foggia:1970-1977|ogol:Foggia & Incedit:1964-1966|ogol:Foggia Calcio:1991-1994|wikipedia-it:1923-1925
+Lecce,,Lecce,ITA,engsoccerdata:US Lecce:1985-2024|espn:Lecce:2001-2025|football-data:Lecce:1993-2025|ogol:Lecce:1985-2025|wikipedia-it:1922
+US Mantovana,,Mântua,ITA,wikipedia-it:1921
+US Milanese,,Milão,ITA,wikipedia-it:1905-1922
+Palermo FC,,Palermo,ITA,engsoccerdata:US Palermo:1932-2016|espn:Palermo:2004-2016|football-data:Palermo:2004-2016|ogol:Palermo:1932-2016|wikipedia-it:1921-1925
+US Romana,,Roma,ITA,wikipedia-it:1919-1923
+US Torinese,,Turim,ITA,wikipedia-it:1919-1922
+Udine,,Udine,ITA,wikipedia-it:1913-1914
+Udinese,,Udine,ITA,engsoccerdata:Udinese Calcio:1950-2024|espn:Udinese:2001-2025|football-data:Udinese:1993-2025|ogol:Udinese:1950-2025|wikipedia-it:1919-1925|wikipedia-it:Udinese:1960-1992
+Umberto I Messina,,Messina,ITA,wikipedia-it:1921
+Triestina,,Trieste,ITA,engsoccerdata:Unione Triestina:1929-1958|ogol:Triestina:1929-1958|wikipedia-it:1928|wikipedia-it:Triestina:1942-1951
+Valenzana,,Valenza,ITA,wikipedia-it:1914-1921
+Veloce Taranto,,Taranto,ITA,wikipedia-it:1921
+Veloces Biella,,Biella,ITA,wikipedia-it:1914
+Viareggio,,Viareggio,ITA,wikipedia-it:1920-1921
+Vicenza,,Vicenza,ITA,engsoccerdata:Lanerossi Vicenza:1955-1978|engsoccerdata:Vicenza Calcio:1942-2000|football-data:Vicenza:1995-2000|ogol:Associazione del Calcio in Vic:1942-1947|ogol:Lanerossi Vicenza:1955-1978|ogol:Vicenza Calcio:1995-2000|wikipedia-it:1910-1921
+Vigor Senigallia,,Senigallia,ITA,wikipedia-it:1921
+Vigor Torino,,Turim,ITA,wikipedia-it:1913-1914
+Vigor Trapani,,Trapani,ITA,wikipedia-it:1921
+Virtus Bologna,,Bolonha,ITA,wikipedia-it:1922-1923
+Virtus Bolognese,,Bolonha,ITA,wikipedia-it:1920-1921
+Virtus Juventusque,,Livorno,ITA,wikipedia-it:1912-1914
+Virtus Macerata,,Macerata,ITA,wikipedia-it:1921
+Vittoria Roma,,Roma,ITA,wikipedia-it:1920-1921
+Volontari Venezia,,Veneza,ITA,wikipedia-it:1912-1913

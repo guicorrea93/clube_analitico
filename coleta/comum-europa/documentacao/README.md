@@ -8,7 +8,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 |---|---|---|---|---|---|---|---|---|
 | Campeonato Inglês | 127 (1888/89–2025/26) | 51330 | 25878 | 33166 | 65 | 226 / 1 | 2 | [eng-1](eng-1.md) |
 | Campeonato Espanhol | 95 (1928/29–2025/26) | 27716 | 25072 | 51662 | 63 | 180 / 11 | 1 | [esp-1](esp-1.md) |
-| Campeonato Italiano | 95 (1929/30–2025/26) | 29271 | 24564 | 43962 | 69 | 167 / 5 | 4 | [ita-1](ita-1.md) |
+| Campeonato Italiano | 124 (1929/30–1928/29) | 34729 | 24591 | 43962 | 191 | 268 / 42 | 5 | [ita-1](ita-1.md) |
 | Campeonato Alemão | 124 (1963/64–1962/63) | 20303 | 56842 | 30251 | 194 | 181 / 7 | 6 | [ger-1](ger-1.md) |
 | Campeonato Francês | 88 (1932/33–2025/26) | 30466 | 22613 | 35434 | 77 | 153 / 21 | 6 | [fra-1](fra-1.md) |
 | Campeonato Português | 92 (1934/35–2025/26) | 20978 | 18958 | 30915 | 73 | 171 / 13 | 3 | [por-1](por-1.md) |
@@ -23,7 +23,8 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **eng-1:** Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).
 - **esp-1:** Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).
 - **ita-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
-- **ita-1:** Campeonatos de 1898 a 1928/29 (revisão IT-017; decisão D-05: incluir, com grupos regionais e finais): na fila da coleta, depois de bel-1 e tur-1.
+- **ita-1:** Era antiga (1898 a 1928/29, IT-017, em antigo.py): 29 edições pela Wikipédia em italiano. 713 jogos vêm só do Tabellone (sem data); 37 classificações de grupo diferem dos jogos (quase todas em 1 ou 2 gols, ou um jogo que o calendário não traz), listadas no relatório. Conferir com a RSSSF (italhist98-25.html e ital24-29.html, já baixadas em data/coleta/ita-1/rsssf-antigo/, só com tabelas a partir de 1909/10) e com o Almanacco Illustrato.
+- **ita-1:** Era antiga: a classificação final de cada edição é montada (campeão do albo d'oro, depois a fase alcançada e a posição no grupo); não há classificação oficial além do campeão.
 - **ita-1:** Correções da revisão de 23/11 que vivem em arquivos, não em dicionários: 674 datas em data/coleta/ita-1/correcoes/datas.csv (IT-008, IT-009 e o complemento de 37 datas de 1933/34, 1934/35 e 1974/75, sem o qual sobravam clubes com 2 jogos no mesmo dia) e 31 jogos a tavolino em correcoes/tavolino.csv (IT-010).
 - **ita-1:** Triangular de rebaixamento de 1953/54 (Udinese, SPAL, Palermo) sem os placares: a Wikipédia it só traz a tabela.
 - **ger-1:** Revisão DE-004: 3 datas em que só o transfermarkt discorda da base (Dortmund x Duisburg 1964/65, Colônia x Werder 1969/70, Colônia x Braunschweig 1978/79); conferir na ficha do jogo do transfermarkt ou num jornal antes de mudar.

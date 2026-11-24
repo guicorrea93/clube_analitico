@@ -932,3 +932,77 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 - O Beşiktaş conta 16 títulos e aqui são 14: as Federasyon Kupası de 1956/57 e 1957/58 ficaram fora.
 - O Galatasaray e o Fenerbahçe também reivindicam títulos anteriores a 1959.
 - Esses campeonatos podem entrar como era antiga, como na Holanda e na Alemanha.
+
+## Recado de fim de coleta — ita-1 (era antiga, IT-017) — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Italiano antes da Serie A, de 1898 a 1928/29, no mesmo slug `ita-1` (decisão D-05a do
+   Guilherme: as edições oficiais, com grupos regionais e finais):
+   - 29 edições, 5.458 jogos, 170 clubes nessa era (113 deles novos no cadastro);
+   - 27 gols com autor (fichas das finais); estádio em 89 jogos, árbitro em 96;
+   - o pacote `ita-1` fica com 124 edições, 34.729 jogos e 191 clubes.
+
+   Títulos, agora iguais à contagem oficial:
+   - Juventus 36, Inter 21, Milan 19, Genoa 9, Bologna 7, Torino 7, Pro Vercelli 7, Casale 1, Novese 1;
+   - antes, o painel mostrava Juventus 34, Inter 19, Milan 16, Genoa e Pro Vercelli 0.
+
+   Fonte:
+   - **Wikipédia em italiano, artigo de cada edição.** Cada grupo traz a classificação (o modelo `{{Calcio X}}`
+     identifica o clube), o "Calendario" (jogos com data e rodada) ou só o "Tabellone" (matriz, sem data), e as fichas
+     das finais;
+   - **campeão** pelo albo d'oro oficial.
+
+   Conferência: das classificações de grupo, 101 fecham com os jogos e 37 diferem. Quase todas diferem em 1 ou 2 gols,
+   ou num jogo que o calendário da Wikipédia não traz; estão listadas no relatório.
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** "124 edições, 34729 jogos, 122 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - recarregar o `ita-1`;
+   - **temporadas da era antiga:**
+     - "1898" a "1909" (ano único);
+     - "1909/10" a "1928/29";
+     - em 1921/22, **duas edições**: "1921/22 (FIGC)" (campeão Novese) e "1921/22 (CCI)" (campeão Pro Vercelli);
+   - **sem campeão em 1926/27:** título revogado do Torino; `campeao` vazio, com o motivo na `observacao`;
+   - **1914/15:** interrompido pela guerra e dado ao Genoa depois;
+   - **fases:** com o nome da época, traduzido ("Liga Norte · Grupo A", "Torneio do Centro-Sul · Seção toscana",
+     "Final nacional"). São 88 combinações de fase e grupo; o painel deve aceitar fase com grupo vazio e muitos grupos;
+   - **classificação final das edições antigas:**
+     - montada: campeão em 1º, depois a fase alcançada e a posição no grupo;
+     - números somados de todas as fases;
+     - não há classificação oficial além do campeão (está na `observacao`);
+   - **713 jogos sem data** (só no Tabellone) e muitos sem rodada: sem Corrida nesses;
+   - **153 jogos `awd`:** resultados "a tavolino";
+   - **1 clube suíço:** o Chiasso (`SUI`), que jogou o campeonato de 1914/15;
+   - escudos: os clubes antigos não estão no ogol; o modelo `{{Calcio X}}` da Wikipédia it leva ao artigo do clube.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **só as edições oficiais do albo d'oro:**
+     - 1908 é o "Campionato Italiano" (só jogadores italianos);
+     - 1909 é o "Campionato Federale";
+     - os torneios paralelos não contados desses dois anos ficam de fora;
+   - (b) **identidade pelo modelo da Wikipédia it**, que separa entidades diferentes: o Hellas de 1907-1918 não é o
+     Hellas Verona; o Liguria FBC de antes de 1915 não é o AC Liguria dos anos 1930; os dois Messina antigos ficam
+     separados;
+   - (c) **mesmo clube, chave de sempre:**
+     - Internaples e Napoli (renomeação de 1926);
+     - Salernitanaudax e Salernitana;
+     - La Dominante e Sampierdarenese/Liguria;
+     - Anconitana e Ancona;
+     - Ambrosiana e Inter;
+     - Genova 1893 e Genoa;
+   - (d) os torneios paralelos não oficiais de 1908 e 1909 foram baixados, mas não entram.
+
+   Nada espera o Guilherme.
+6. **O que não deu para coletar:**
+   - data dos 713 jogos que só estão no Tabellone;
+   - autores dos gols fora das finais;
+   - 1 jogo de 1924/25 (Cavese x Salernitana) com a célula da Wikipédia misturada a uma nota.
+
+   Fontes para completar: RSSSF (`italhist98-25.html` e `ital24`…`ital29`, baixadas em
+   `data/coleta/ita-1/rsssf-antigo/`; até 1909 traz jogos com data, depois só tabelas) e o Almanacco Illustrato.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 37 classificações que diferem dos jogos;
+   - a identidade dos clubes antigos (`clubes_ita.MODELOS_IT`);
+   - a classificação final montada das edições com Norte e Centro-Sul.
+8. **Próxima tarefa:** a fila da coleta Europa está vazia. Opções para o Guilherme: era antiga turca (antes de 1959),
+   DDR-Oberliga como `gdr-1` (D-05b) e EN-016.

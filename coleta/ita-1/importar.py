@@ -1,4 +1,7 @@
-"""Monta o pacote da 1ª divisão italiana (ita-1), 1929/30 a 2025/26, e o relatório docs/coleta/ita-1.md.
+"""Monta o pacote da 1ª divisão italiana (ita-1), 1898 a 2025/26, e o relatório docs/coleta/ita-1.md.
+
+Até 1928/29 (antes da Serie A), as 29 edições oficiais com grupos regionais e finais, pela Wikipédia em italiano: ver
+antigo.py (IT-017). Daqui para baixo, a Serie A (1929/30 em diante).
 
 Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante, que é único na fase (turno e
 returno), com:
@@ -977,6 +980,10 @@ def main() -> None:
               f"({autor_ano} c/ autor), critério {criterio}{'' if criterios[a][1] else ' (aprox.)'}, campeão "
               f"{'—' if sem_titulo else clubes.exibicao(campeao)}", flush=True)
 
+    # era antiga (1898 a 1928/29, IT-017): coleta/ita-1/antigo.py
+    import antigo
+    linhas_rel = antigo.montar(tab, nomes, ocorr) + linhas_rel
+
     # ---- clubes
     for c, (exib, cidade, pais) in sorted(clubes.CLUBES.items()):
         if c not in nomes:
@@ -1028,10 +1035,15 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     out = [
         "# Campeonato Italiano (1ª divisão) — coleta de dados", "",
         "Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1929/30 a 2025/26 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 "
-        "(Segunda Guerra).", "",
-        f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
-        f"{len(tab['clubes'])} clubes.", "",
+        f"**Edições:** {len(linhas)}: as 29 de antes da Serie A (1898 a 1928/29, com grupos regionais e finais; em 1921/22 "
+        "dois campeonatos, FIGC e CCI) e a Serie A de 1929/30 a 2025/26 (1945/46 foi a Divisione Nazionale). Sem 1915/16 a "
+        "1918/19 (Primeira Guerra) e 1943/44 e 1944/45 (Segunda Guerra).", "",
+        f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN; na era antiga, as fichas da "
+        f"Wikipédia it), {len(tab['cartoes'])} cartões, {len(tab['clubes'])} clubes.", "",
+        "**Era antiga (1898 a 1928/29):** Wikipédia em italiano, artigo de cada edição — classificação de cada grupo, "
+        "Calendario (jogos com data e rodada) ou Tabellone (sem data) e fichas das finais (estádio, público, árbitro, gols). "
+        "Campeão pelo albo d'oro oficial (1915 dado ao Genoa depois da guerra; 1927 revogado do Torino). Ver "
+        "`coleta/ita-1/antigo.py`.", "",
         "**Fontes:**",
         "- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1929/30-2024/25;",
         "- football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;",
@@ -1061,7 +1073,7 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         a = int(T[:4])
         out.append(f"### {T}")
         out.append("")
-        for o in ocorr.get(a, []) or ["sem ocorrências"]:
+        for o in ocorr.get(T, []) or ocorr.get(a, []) or ["sem ocorrências"]:
             out.append(f"- {o}")
         out.append("")
     out += [

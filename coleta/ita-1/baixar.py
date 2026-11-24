@@ -146,6 +146,40 @@ def wikiit() -> None:
         print(f"wiki it {t}: {len(txt or '')}", flush=True)
 
 
+ARTIGOS_ANTIGOS = [
+    "Campionato Italiano di Football 1898", "Campionato Italiano di Football 1899", "Campionato Italiano di Football 1900",
+    "Campionato Italiano di Football 1901", "Campionato Italiano di Football 1902", "Campionato Italiano di Football 1903",
+    "Prima Categoria 1904", "Prima Categoria 1905", "Prima Categoria 1906", "Prima Categoria 1907",
+    "Campionato Italiano di Prima Categoria 1908", "Campionato Federale di Prima Categoria 1908",
+    "Campionato Federale di Prima Categoria 1909", "Campionato Italiano di Prima Categoria 1909",
+    "Prima Categoria 1909-1910", "Prima Categoria 1910-1911", "Prima Categoria 1911-1912", "Prima Categoria 1912-1913",
+    "Prima Categoria 1913-1914", "Prima Categoria 1914-1915", "Prima Categoria 1919-1920", "Prima Categoria 1920-1921",
+    "Prima Categoria 1921-1922", "Prima Divisione 1921-1922", "Prima Divisione 1922-1923", "Prima Divisione 1923-1924",
+    "Prima Divisione 1924-1925", "Prima Divisione 1925-1926", "Divisione Nazionale 1926-1927",
+    "Divisione Nazionale 1927-1928", "Divisione Nazionale 1928-1929", "Albo d'oro del campionato italiano di calcio",
+]
+
+
+def antigo() -> None:
+    """Era antiga (1898 a 1928/29, IT-017): artigos da Wikipédia em italiano (classificações, "Tabellone" e "Calendario"
+    de cada grupo) em data/coleta/ita-1/wikipedia-it-antigo/; RSSSF (italhist98-25.html, ital24.html ... ital29.html,
+    italchamp.html) em data/coleta/ita-1/rsssf-antigo/."""
+    from wikipedia import wikitexto
+    pasta = DADOS / "wikipedia-it-antigo"
+    pasta.mkdir(parents=True, exist_ok=True)
+    for t in ARTIGOS_ANTIGOS:
+        arq = pasta / f"{t.replace(chr(39), '_')}.wiki"
+        if arq.exists():
+            continue
+        txt = wikitexto("it", t, espera=1.5)
+        if txt:
+            arq.write_text(txt, encoding="utf-8")
+        print(f"wiki it {t}: {len(txt or '')}", flush=True)
+    for nome in ["italhist98-25", "ital24", "ital25", "ital26", "ital27", "ital28", "ital29", "italchamp"]:
+        d = pegar(f"https://www.rsssf.org/tablesi/{nome}.html", DADOS / "rsssf-antigo" / f"{nome}.html", espera=2.0)
+        print(f"rsssf {nome}: {len(d or b'')} bytes", flush=True)
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1929-1960" passa a faixa de temporadas

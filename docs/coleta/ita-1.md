@@ -2,9 +2,11 @@
 
 Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacote/`.
 
-**Edições:** 95, de 1929/30 a 2025/26 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 (Segunda Guerra).
+**Edições:** 124: as 29 de antes da Serie A (1898 a 1928/29, com grupos regionais e finais; em 1921/22 dois campeonatos, FIGC e CCI) e a Serie A de 1929/30 a 2025/26 (1945/46 foi a Divisione Nazionale). Sem 1915/16 a 1918/19 (Primeira Guerra) e 1943/44 e 1944/45 (Segunda Guerra).
 
-**Total:** 29271 jogos, 75068 gols, 24564 gols com autor (ESPN), 43962 cartões, 69 clubes.
+**Total:** 34729 jogos, 94259 gols, 24591 gols com autor (ESPN; na era antiga, as fichas da Wikipédia it), 43962 cartões, 191 clubes.
+
+**Era antiga (1898 a 1928/29):** Wikipédia em italiano, artigo de cada edição — classificação de cada grupo, Calendario (jogos com data e rodada) ou Tabellone (sem data) e fichas das finais (estádio, público, árbitro, gols). Campeão pelo albo d'oro oficial (1915 dado ao Genoa depois da guerra; 1927 revogado do Torino). Ver `coleta/ita-1/antigo.py`.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1929/30-2024/25;
@@ -20,6 +22,35 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
+| 1898 | Wikipédia it | 4 | 3 (0) | 8 | 0 | 0 / 0 | Genoa | — |
+| 1899 | Wikipédia it | 4 | 3 (0) | 8 | 2 | 0 / 0 | Genoa | — |
+| 1900 | Wikipédia it | 6 | 9 (0) | 28 | 3 | 1 / 0 | Genoa | — |
+| 1901 | Wikipédia it | 4 | 3 (0) | 13 | 5 | 0 / 0 | Milan | — |
+| 1902 | Wikipédia it | 8 | 5 (0) | 20 | 4 | 0 / 0 | Genoa | — |
+| 1903 | Wikipédia it | 6 | 5 (0) | 21 | 0 | 0 / 0 | Genoa | — |
+| 1904 | Wikipédia it | 5 | 5 (0) | 12 | 2 | 0 / 0 | Genoa | — |
+| 1905 | Wikipédia it | 6 | 12 (0) | 45 | 0 | 0 / 0 | Juventus | — |
+| 1906 | Wikipédia it | 5 | 12 (0) | 31 | 0 | 0 / 0 | Milan | — |
+| 1907 | Wikipédia it | 6 | 12 (0) | 36 | 6 | 0 / 0 | Milan | — |
+| 1908 | Wikipédia it | 4 | 8 (0) | 19 | 0 | 0 / 0 | Pro Vercelli | — |
+| 1909 | Wikipédia it | 9 | 20 (0) | 77 | 0 | 0 / 1 | Pro Vercelli | — |
+| 1909/10 | Wikipédia it | 9 | 73 (0) | 306 | 0 | 0 / 1 | Inter de Milão | — |
+| 1910/11 | Wikipédia it | 13 | 86 (0) | 304 | 0 | 2 / 0 | Pro Vercelli | — |
+| 1911/12 | Wikipédia it | 15 | 106 (0) | 369 | 0 | 1 / 1 | Pro Vercelli | — |
+| 1912/13 | Wikipédia it | 35 | 177 (0) | 710 | 0 | 5 / 1 | Pro Vercelli | — |
+| 1913/14 | Wikipédia it | 45 | 376 (0) | 1580 | 1 | 6 / 0 | Casale | — |
+| 1914/15 | Wikipédia it | 50 | 321 (0) | 1363 | 0 | 12 / 2 | Genoa | — |
+| 1919/20 | Wikipédia it | 75 | 448 (0) | 1639 | 3 | 12 / 4 | Inter de Milão | — |
+| 1920/21 | Wikipédia it | 88 | 522 (0) | 1869 | 1 | 16 / 10 | Pro Vercelli | — |
+| 1921/22 (FIGC) | Wikipédia it | 46 | 214 (0) | 623 | 0 | 12 / 2 | Novese | — |
+| 1921/22 (CCI) | Wikipédia it | 58 | 438 (0) | 1458 | 0 | 5 / 4 | Pro Vercelli | — |
+| 1922/23 | Wikipédia it | 56 | 503 (0) | 1495 | 0 | 4 / 6 | Genoa | — |
+| 1923/24 | Wikipédia it | 47 | 383 (0) | 1124 | 0 | 6 / 2 | Genoa | — |
+| 1924/25 | Wikipédia it | 43 | 372 (0) | 1129 | 0 | 6 / 1 | Bologna | — |
+| 1925/26 | Wikipédia it | 44 | 373 (0) | 1459 | 0 | 5 / 2 | Juventus | — |
+| 1926/27 | Wikipédia it | 20 | 210 (0) | 695 | 0 | 3 / 0 | — (revogado) | — |
+| 1927/28 | Wikipédia it | 22 | 276 (0) | 963 | 0 | 3 / 0 | Torino | — |
+| 1928/29 | Wikipédia it | 32 | 483 (0) | 1787 | 0 | 2 / 0 | Bologna | — |
 | 1929/30 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 969 | 0 | 1 / 1 | Inter de Milão | — |
 | 1930/31 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 952 | 0 | 1 / 1 | Juventus | — |
 | 1931/32 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 949 | 0 | 2 / 0 | Juventus | — |
@@ -117,6 +148,214 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 | 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 922 | 922 | 2 / 0 | Inter de Milão | — |
 
 ## Conferência e ocorrências, temporada a temporada
+
+### 1898
+
+- sem ocorrências
+
+### 1899
+
+- sem ocorrências
+
+### 1900
+
+- sem ocorrências
+
+### 1901
+
+- sem ocorrências
+
+### 1902
+
+- sem ocorrências
+
+### 1903
+
+- sem ocorrências
+
+### 1904
+
+- sem ocorrências
+
+### 1905
+
+- sem ocorrências
+
+### 1906
+
+- sem ocorrências
+
+### 1907
+
+- sem ocorrências
+
+### 1908
+
+- o Campionato Italiano (só com jogadores italianos), o que vale o título; o Campionato Federale do mesmo ano, aberto a estrangeiros, não é contado
+
+### 1909
+
+- o Campionato Federale, que passou a valer o título; o Campionato Italiano do mesmo ano não é contado
+- classificação do Eliminatórias lombarda x jogos — US Milanese tabela [2, 2, 0, 0, 5, 1, 4] jogos [4, 4, 0, 0, 10, 2, 8]
+- classificação do Eliminatórias lombarda x jogos — Milan tabela [2, 1, 0, 1, 4, 5, 2] jogos [4, 2, 0, 2, 8, 10, 4]
+- classificação do Eliminatórias lombarda x jogos — Inter de Milão tabela [2, 0, 0, 2, 2, 5, 0] jogos [4, 0, 0, 4, 4, 10, 0]
+
+### 1909/10
+
+- classificação do Fase única x jogos — Juventus tabela [16, 8, 2, 6, 29, 20, 18] jogos [16, 8, 2, 6, 28, 19, 18]
+- classificação do Fase única x jogos — Torino tabela [16, 8, 1, 7, 45, 30, 17] jogos [16, 8, 1, 7, 43, 30, 17]
+- classificação do Fase única x jogos — Genoa tabela [16, 7, 3, 6, 31, 23, 17] jogos [16, 7, 3, 6, 29, 23, 17]
+- classificação do Fase única x jogos — Milan tabela [16, 6, 1, 9, 24, 36, 13] jogos [16, 6, 1, 9, 23, 36, 13]
+- classificação do Fase única x jogos — Andrea Doria tabela [16, 5, 1, 10, 18, 40, 11] jogos [16, 5, 1, 10, 18, 39, 11]
+
+### 1910/11
+
+- sem ocorrências
+
+### 1911/12
+
+- classificação do Campeonato do Noroeste x jogos — Casale tabela [18, 6, 3, 9, 20, 27, 15] jogos [18, 6, 3, 9, 19, 26, 15]
+
+### 1912/13
+
+- classificação do Torneio do Centro-Sul · Seção toscana x jogos — Virtus Juventusque tabela [6, 4, 1, 2, 11, 8, 9] jogos [6, 4, 1, 1, 11, 8, 9]
+
+### 1913/14
+
+- sem ocorrências
+
+### 1914/15
+
+- interrompido em 23/05/1915 pela entrada da Itália na Primeira Guerra Mundial, antes do fim do grupo final do Norte e da final nacional; a federação deu o título ao Genoa (líder do grupo final do Norte) depois da guerra
+- classificação do Torneio do Centro-Sul · Seção toscana x jogos — Lucchese tabela [12, 7, 2, 3, 23, 11, 16] jogos [12, 6, 3, 3, 21, 11, 15]
+- classificação do Torneio do Centro-Sul · Seção toscana x jogos — SPES Livorno tabela [12, 3, 3, 6, 13, 18, 9] jogos [11, 3, 3, 5, 13, 18, 9]
+- classificação do Torneio do Centro-Sul · Seção toscana x jogos — Virtus Juventusque tabela [12, 2, 3, 7, 15, 27, 7] jogos [11, 2, 3, 6, 15, 25, 7]
+- classificação do Torneio do Centro-Sul · Seção do Lácio x jogos — Roman tabela [10, 9, 0, 1, 42, 13, 18] jogos [10, 9, 0, 1, 42, 14, 18]
+- classificação do Torneio do Centro-Sul · Seção do Lácio x jogos — Fortitudo tabela [10, 3, 0, 7, 12, 35, 6] jogos [10, 3, 0, 7, 13, 35, 6]
+- classificação do Torneio do Centro-Sul · Seção do Lácio x jogos — Juventus Roma tabela [10, 2, 1, 7, 14, 31, 5] jogos [10, 2, 1, 7, 14, 32, 5]
+- classificação do Torneio do Centro-Sul · Seção do Lácio x jogos — Pro Roma tabela [10, 2, 1, 7, 17, 38, 5] jogos [10, 2, 1, 7, 18, 38, 5]
+
+### 1919/20
+
+- classificação do Torneio principal · Grupos regionais de qualificação · Seção lombarda · Grupo A x jogos — AC Libertas tabela [10, 2, 1, 7, 14, 26, 5] jogos [10, 2, 1, 7, 11, 31, 5]
+- classificação do Torneio principal · Grupos regionais de qualificação · Seção lombarda · Grupo A x jogos — Cremonese tabela [10, 2, 1, 7, 11, 31, 5] jogos [10, 2, 1, 7, 14, 26, 5]
+- classificação do Torneio principal · Semifinais nacionais · Grupo C x jogos — Novara tabela [10, 5, 1, 3, 21, 16, 11] jogos [10, 5, 1, 4, 21, 16, 11]
+- classificação do Torneio do Centro-Sul · Grupos regionais de qualificação · Seção do Lácio x jogos — Audace Roma tabela [12, 6, 4, 2, 19, 12, 16] jogos [12, 6, 4, 2, 19, 11, 16]
+- classificação do Torneio do Centro-Sul · Grupos regionais de qualificação · Seção do Lácio x jogos — Lazio tabela [12, 6, 2, 4, 22, 11, 14] jogos [12, 6, 2, 4, 21, 11, 14]
+- classificação do Torneio do Centro-Sul · Semifinais inter-regionais · Grupo B x jogos — Audace Roma tabela [4, 1, 0, 3, 7, 5, 4] jogos [4, 2, 0, 2, 7, 5, 4]
+
+### 1920/21
+
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lígure x jogos — Andrea Doria tabela [14, 9, 4, 1, 33, 9, 22] jogos [14, 9, 4, 1, 32, 9, 22]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lígure x jogos — Spezia tabela [14, 6, 5, 3, 17, 9, 17] jogos [14, 6, 5, 3, 18, 9, 17]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lígure x jogos — Spes Genova tabela [14, 5, 2, 7, 16, 27, 12] jogos [14, 5, 2, 7, 16, 26, 12]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lígure x jogos — Sestrese tabela [14, 2, 5, 7, 11, 23, 9] jogos [14, 2, 5, 7, 11, 24, 9]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo A x jogos — Casteggio tabela [6, 3, 1, 2, 18, 12, 7] jogos [6, 3, 1, 2, 18, 13, 7]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo A x jogos — Giovani Calciatori Legnanesi tabela [6, 2, 1, 3, 16, 20, 5] jogos [6, 2, 1, 3, 17, 20, 5]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo C x jogos — Varese tabela [6, 1, 0, 5, 5, 15, 2] jogos [6, 0, 0, 6, 3, 15, 0]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo C x jogos — Pro Sesto tabela [6, 1, 0, 5, 7, 22, 2] jogos [6, 2, 0, 4, 7, 20, 4]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo D x jogos — Como tabela [6, 3, 2, 1, 12, 10, 8] jogos [6, 3, 2, 1, 12, 8, 8]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo D x jogos — Chiasso tabela [6, 1, 1, 4, 6, 14, 3] jogos [6, 1, 1, 4, 5, 14, 3]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo D x jogos — Stelvio Milano tabela [6, 0, 3, 3, 4, 12, 3] jogos [6, 0, 3, 3, 4, 13, 3]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo final regional x jogos — US Milanese tabela [10, 5, 1, 4, 15, 14, 11] jogos [10, 5, 1, 4, 15, 13, 11]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção lombarda · Grupo final regional x jogos — Trevigliese tabela [10, 1, 0, 9, 9, 28, 2] jogos [10, 1, 0, 9, 8, 28, 2]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa · Grupo A x jogos — Pastore tabela [10, 1, 1, 8, 10, 32, 3] jogos [10, 1, 1, 8, 10, 33, 3]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa · Grupo A x jogos — Carignano tabela [10, 0, 1, 9, 5, 43, 1] jogos [10, 0, 1, 9, 5, 42, 1]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa · Grupo B x jogos — Pro Vercelli tabela [10, 6, 1, 3, 23, 10, 13] jogos [10, 6, 1, 3, 24, 10, 13]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa · Grupo B x jogos — Biellese tabela [10, 5, 1, 4, 16, 17, 11] jogos [10, 5, 1, 4, 16, 18, 11]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa · Grupo B x jogos — Valenzana tabela [10, 2, 1, 7, 12, 25, 5] jogos [10, 2, 1, 7, 10, 23, 5]
+- classificação do Torneio do Norte · Campeonatos regionais de qualificação · Seção piemontesa · Grupo B x jogos — Amatori Torino tabela [10, 0, 0, 10, 3, 44, 0] jogos [10, 0, 0, 10, 1, 42, 0]
+- classificação do Torneio do Norte · Semifinais nacionais · Grupo A x jogos — Genoa tabela [6, 2, 3, 1, 9, 8, 7] jogos [6, 2, 3, 1, 10, 9, 7]
+- classificação do Torneio do Norte · Semifinais nacionais · Grupo A x jogos — Novara tabela [6, 2, 2, 2, 6, 6, 6] jogos [6, 2, 2, 2, 7, 7, 6]
+- classificação do Torneio peninsular · Grupos regionais de qualificação · Seção da Campânia · Grupo final regional x jogos — Naples tabela [6, 3, 1, 2, 9, 7, 7] jogos [6, 3, 1, 2, 8, 7, 7]
+- classificação do Torneio peninsular · Grupos regionais de qualificação · Seção da Campânia · Grupo final regional x jogos — Puteolana tabela [6, 5, 0, 1, 11, 7, 10] jogos [6, 5, 0, 1, 11, 6, 10]
+- classificação do Torneio peninsular · Grupos regionais de qualificação · Seção do Lácio x jogos — Audace Roma tabela [14, 5, 1, 8, 30, 34, 11] jogos [14, 5, 1, 8, 29, 34, 11]
+- classificação do Torneio peninsular · Grupos regionais de qualificação · Seção do Lácio x jogos — US Romana tabela [14, 5, 0, 9, 23, 35, 10] jogos [14, 5, 0, 9, 22, 37, 10]
+- classificação do Torneio peninsular · Grupos regionais de qualificação · Seção do Lácio x jogos — Vittoria Roma tabela [14, 2, 3, 9, 12, 44, 7] jogos [14, 2, 3, 9, 15, 43, 7]
+
+### 1921/22 (FIGC)
+
+- temporada com dois campeonatos, depois da cisão dos grandes clubes: o da FIGC (Prima Categoria, Novese) e o da CCI (Prima Divisione, Pro Vercelli); os dois títulos são oficiais
+- classificação do Grupos regionais de qualificação · Seção lígure x jogos — Sampierdarenese tabela [10, 8, 2, 0, 25, 7, 18] jogos [9, 8, 1, 0, 23, 5, 17]
+- classificação do Grupos regionais de qualificação · Seção lígure x jogos — Rivarolese tabela [10, 4, 2, 4, 13, 13, 10] jogos [9, 4, 1, 4, 11, 11, 9]
+- classificação do Grupos regionais de qualificação · Seção toscana x jogos — Pro Livorno tabela [10, 7, 1, 2, 20, 8, 15] jogos [10, 7, 1, 2, 22, 8, 15]
+- classificação do Grupos regionais de qualificação · Seção toscana x jogos — Libertas Firenze tabela [10, 5, 2, 3, 11, 15, 12] jogos [10, 5, 2, 3, 11, 16, 12]
+- classificação do Grupos regionais de qualificação · Seção toscana x jogos — Prato tabela [10, 1, 3, 6, 11, 18, 5] jogos [10, 1, 3, 6, 10, 18, 5]
+
+### 1921/22 (CCI)
+
+- 9 jogos do calendário sem placar (não disputados): Libertas-Vigor; Messinese-Vigor; Libertas-Palermo; Messinese-Libertas; Messina-Vigor; Umberto I-Vigor; Libertas-Messina; Vigor-Palermo
+- temporada com dois campeonatos, depois da cisão dos grandes clubes: o da CCI (Prima Divisione, Pro Vercelli) e o da FIGC (Prima Categoria, Novese); os dois títulos são oficiais
+- classificação do Liga Norte · Grupo B x jogos — Savona tabela [22, 9, 2, 11, 28, 33, 20] jogos [22, 8, 2, 12, 28, 36, 18]
+- classificação do Liga Norte · Grupo B x jogos — Brescia tabela [22, 6, 3, 13, 19, 33, 15] jogos [22, 7, 3, 12, 22, 33, 17]
+- classificação do Liga Sul · Seção do Lácio x jogos — Fortitudo tabela [16, 13, 2, 1, 35, 10, 28] jogos [18, 15, 2, 1, 44, 11, 32]
+- classificação do Liga Sul · Seção do Lácio x jogos — Alba Roma tabela [16, 11, 2, 3, 38, 13, 24] jogos [18, 12, 2, 4, 59, 13, 26]
+- classificação do Liga Sul · Seção do Lácio x jogos — Juventus Audax tabela [16, 8, 4, 4, 45, 26, 20] jogos [17, 9, 4, 4, 43, 26, 22]
+- classificação do Liga Sul · Seção do Lácio x jogos — Lazio tabela [16, 8, 4, 4, 37, 22, 20] jogos [16, 8, 4, 4, 35, 22, 20]
+- classificação do Liga Sul · Seção do Lácio x jogos — US Romana tabela [16, 5, 4, 7, 24, 29, 14] jogos [17, 7, 4, 6, 33, 28, 18]
+- classificação do Liga Sul · Seção das Marcas · Grupo final x jogos — Ancona tabela [6, 6, 0, 0, 19, 3, 12] jogos [4, 4, 0, 0, 13, 3, 8]
+- classificação do Liga Sul · Seção das Marcas · Grupo final x jogos — Vigor Senigallia tabela [6, 3, 1, 2, 13, 12, 7] jogos [4, 3, 1, 0, 13, 6, 7]
+- classificação do Liga Sul · Seção das Marcas · Grupo final x jogos — Helvia Recina tabela [6, 2, 0, 4, 8, 13, 4] jogos [4, 0, 0, 4, 3, 10, 0]
+- classificação do Liga Sul · Seção das Marcas · Grupo final x jogos — Macerata tabela [6, 0, 1, 5, 9, 21, 1] jogos [4, 0, 1, 3, 6, 16, 1]
+- classificação do Liga Sul · Seção da Apúlia x jogos — Pro Italia Taranto tabela [6, 3, 2, 1, 11, 6, 8] jogos [6, 3, 2, 1, 18, 6, 8]
+- classificação do Liga Sul · Seção da Apúlia x jogos — Liberty Bari tabela [6, 2, 2, 2, 13, 8, 6] jogos [5, 1, 2, 2, 5, 8, 4]
+- classificação do Liga Sul · Seção da Apúlia x jogos — Veloce Taranto tabela [6, 0, 1, 5, 1, 20, 1] jogos [5, 0, 1, 4, 1, 19, 1]
+
+### 1922/23
+
+- classificação do Liga Norte · Grupo A x jogos — Pro Vercelli tabela [22, 17, 2, 3, 44, 15, 36] jogos [22, 17, 2, 3, 49, 14, 36]
+- classificação do Liga Norte · Grupo A x jogos — Casale tabela [22, 7, 9, 6, 23, 18, 23] jogos [22, 7, 9, 6, 23, 17, 23]
+- classificação do Liga Norte · Grupo A x jogos — Inter de Milão tabela [22, 8, 5, 9, 32, 37, 21] jogos [22, 8, 5, 9, 33, 37, 21]
+- classificação do Liga Norte · Grupo A x jogos — Virtus Bologna tabela [22, 8, 5, 9, 16, 23, 21] jogos [22, 8, 5, 9, 15, 22, 21]
+- classificação do Liga Norte · Grupo A x jogos — US Torinese tabela [22, 6, 4, 12, 23, 36, 16] jogos [22, 6, 4, 12, 23, 41, 16]
+- classificação do Liga Norte · Grupo B x jogos — Juventus tabela [22, 10, 5, 7, 31, 23, 25] jogos [22, 10, 5, 7, 31, 21, 25]
+- classificação do Liga Norte · Grupo B x jogos — Modena tabela [22, 10, 4, 8, 27, 23, 24] jogos [22, 10, 4, 8, 24, 23, 24]
+- classificação do Liga Norte · Grupo B x jogos — Esperia tabela [22, 1, 4, 17, 11, 50, 5] jogos [22, 1, 4, 17, 11, 49, 6]
+- classificação do Liga Norte · Grupo C x jogos — Livorno tabela [22, 13, 4, 5, 43, 19, 30] jogos [22, 13, 3, 6, 42, 19, 29]
+- classificação do Liga Norte · Grupo C x jogos — Novara tabela [22, 12, 2, 8, 42, 24, 26] jogos [22, 12, 2, 8, 41, 24, 26]
+- classificação do Liga Norte · Grupo C x jogos — Andrea Doria tabela [22, 9, 6, 7, 40, 29, 24] jogos [22, 10, 5, 7, 40, 28, 25]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção siciliana x jogos — Messina FC tabela [4, 1, 2, 1, 4, 3, 4] jogos [2, 0, 2, 0, 1, 1, 2]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção siciliana x jogos — Palermo FC tabela [4, 1, 2, 1, 5, 5, 4] jogos [2, 0, 2, 0, 1, 1, 2]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção siciliana x jogos — Libertas Palermo tabela [4, 1, 2, 1, 5, 6, 4] jogos [2, 0, 2, 0, 2, 2, 2]
+- classificação do Liga Sul · Semifinais inter-regionais · Grupo A x jogos — Ancona tabela [6, 3, 1, 2, 8, 5, 7] jogos [6, 3, 1, 2, 10, 9, 7]
+- classificação do Liga Sul · Semifinais inter-regionais · Grupo A x jogos — Alba Roma tabela [6, 3, 1, 2, 10, 9, 7] jogos [6, 3, 1, 2, 8, 5, 7]
+- classificação do Liga Sul · Semifinais inter-regionais · Grupo B x jogos — Libertas Palermo tabela [6, 2, 0, 4, 10, 20, 3] jogos [6, 2, 0, 4, 10, 20, 4]
+
+### 1923/24
+
+- classificação do Liga Norte · Grupo B x jogos — Torino tabela [22, 12, 6, 4, 43, 22, 30] jogos [21, 12, 6, 3, 43, 21, 30]
+- classificação do Liga Norte · Grupo B x jogos — Pisa tabela [22, 7, 8, 7, 26, 35, 22] jogos [22, 7, 8, 7, 28, 37, 22]
+- classificação do Liga Norte · Grupo B x jogos — Andrea Doria tabela [22, 7, 7, 8, 28, 26, 21] jogos [22, 7, 7, 8, 30, 28, 21]
+- classificação do Liga Norte · Grupo B x jogos — Spezia tabela [22, 7, 3, 12, 16, 35, 17] jogos [21, 6, 3, 12, 15, 35, 15]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção da Apúlia x jogos — Audace Taranto tabela [10, 7, 2, 1, 16, 4, 16] jogos [8, 6, 1, 1, 15, 4, 13]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção da Apúlia x jogos — Ideale Bari tabela [10, 7, 1, 2, 20, 6, 15] jogos [8, 5, 1, 2, 15, 6, 11]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção da Apúlia x jogos — Enotria Taranto tabela [10, 4, 2, 4, 10, 11, 10] jogos [8, 3, 1, 4, 8, 10, 7]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção da Apúlia x jogos — Liberty Bari tabela [10, 4, 2, 4, 12, 13, 10] jogos [8, 4, 1, 3, 12, 12, 9]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção da Apúlia x jogos — Pro Italia Taranto tabela [10, 4, 0, 6, 8, 13, 8] jogos [8, 4, 0, 4, 8, 8, 8]
+
+### 1924/25
+
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção do Lácio x jogos — Lazio tabela [8, 5, 1, 2, 20, 10, 11] jogos [6, 3, 1, 2, 14, 10, 7]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção do Lácio x jogos — Pro Roma tabela [8, 0, 2, 6, 4, 21, 2] jogos [6, 0, 2, 4, 4, 15, 2]
+
+### 1925/26
+
+- classificação do Liga Norte · Grupo B x jogos — Milan tabela [22, 10, 2, 10, 43, 39, 22] jogos [22, 10, 2, 10, 42, 39, 22]
+- classificação do Liga Norte · Grupo B x jogos — Mantova tabela [22, 2, 4, 16, 24, 81, 8] jogos [22, 2, 4, 16, 24, 80, 8]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção do Lácio x jogos — Alba Roma tabela [10, 8, 1, 1, 41, 13, 17] jogos [9, 7, 1, 1, 39, 12, 15]
+- classificação do Liga Sul · Grupos regionais de qualificação · Seção do Lácio x jogos — Pro Roma tabela [10, 0, 0, 10, 5, 44, 0] jogos [9, 0, 0, 9, 4, 42, 0]
+
+### 1926/27
+
+- título revogado: o Torino ganhou o grupo final, mas a federação tirou o título em 03/11/1927 (caso Allemandi, suborno de um jogador da Juventus); o título não foi dado a ninguém
+
+### 1927/28
+
+- sem ocorrências
+
+### 1928/29
+
+- sem ocorrências
 
 ### 1929/30
 

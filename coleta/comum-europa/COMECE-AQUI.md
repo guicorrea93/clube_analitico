@@ -60,7 +60,8 @@ depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no come
   3. `bel-1` (Bélgica);
   4. `tur-1` (Turquia).
 - **Situação (24/11/2026):** `sco-1`, eras antigas da Holanda e da Alemanha, `bel-1` e `tur-1` no GitHub (ver git log).
-  Próxima: IT-017 (Itália 1898-1929). A ordem da seção 1.1 está cumprida.
+  IT-017 (Itália 1898 a 1928/29) pronto em 24/11. A ordem da seção 1.1 e a fila da revisão estão cumpridas; a próxima
+  liga espera o Guilherme.
 - **Como fazer as eras antigas:**
   - o painel aceita fases regionais + fase final, edição sem jogos e tabela parcial (colunas vazias, posição repetida,
     como no `bra-sp-2` e no `par-1`);
@@ -94,7 +95,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 |---|---|---|---|---|---|---|
 | `eng-1` Inglês | 127 (1888/89–2025/26) | 51.330 | 25.841 | 33.166 | 65 | 103ccf1 |
 | `esp-1` Espanhol | 95 (1928/29–2025/26) | 27.716 | 25.072 | 51.662 | 63 | 62a8693 |
-| `ita-1` Italiano | 95 (1929/30–2025/26) | 29.244 | 24.564 | 43.962 | 69 | 62a8693 |
+| `ita-1` Italiano (grupos regionais e finais até 1928/29; Serie A) | 124 (1898–2025/26) | 34.729 | 24.591 | 43.962 | 191 | (ver git log) |
 | `ger-1` Alemão (fase final até 1962/63; Bundesliga) | 124 (1902/03–2025/26) | 20.303 | 22.700 | 30.251 | 194 | (ver git log) |
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
@@ -134,7 +135,7 @@ Guilherme. Commits:
 - 692670f e e22bf60: tradutor comum.
 
 Ficaram de fora, anotados nas pendências de cada liga (`documentar.py`, PENDENCIAS):
-- IT-017 (Itália 1898-1929: coleta nova, depois de `bel-1` e `tur-1`);
+- IT-017 (Itália 1898-1929): feito em 24/11 (`coleta/ita-1/antigo.py`, Wikipédia em italiano);
 - PT-020 (árbitro e público do Português);
 - os casos que esperam terceira fonte (DE-004, FR-005, FR-009 de 1-2 dias, FR-017, PT-010 de 1938/39 e 1939/40).
 
@@ -151,7 +152,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-2. **Próxima:** IT-017 (Itália 1898-1929); `bel-1` e `tur-1` ficaram prontas em 24/11. As eras antigas da Holanda (1888/89–1955/56) e da
+2. **Próxima:** perguntar ao Guilherme (a fila está vazia: `bel-1`, `tur-1` e IT-017 prontos em 24/11; ideias: era antiga turca, DDR-Oberliga como `gdr-1`, decisão D-05b). As eras antigas da Holanda (1888/89–1955/56) e da
    Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
    `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
    cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).
@@ -284,6 +285,20 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
 - **Clube excluído no meio da temporada** (Lommel 2002/03, Mouscron 2009/10): jogos anulados fora do pacote, clube no fim,
   zerado (`EXCLUIDOS`).
 - **ESPN 2016/17-2017/18:** gols repetidos, às vezes com 1 minuto de diferença; o importador tira os repetidos.
+
+**Itália antes da Serie A (IT-017), o que serve para outras eras antigas:**
+- **Wikipédia em italiano:** cada artigo de temporada tem, por grupo, "Classifica finale" (com o modelo `{{Calcio X}}`,
+  que identifica o clube sem ambiguidade), "Calendario" (rodadas com ida e volta e data) e/ou "Tabellone" (matriz). Leitor
+  em `coleta/ita-1/wiki_antigo.py`.
+- **Identidade pelo modelo `{{Calcio X}}`:** a Wikipédia it separa as entidades ("Hellas (1907-1918)", "Piemonte
+  (1910-1915)"); mapa modelo → chave em `clubes_ita.MODELOS_IT`.
+- **Nome curto do calendário:** casado com os clubes do mesmo grupo (exato, prefixo, contido, palavras); apelidos de época
+  (`APELIDOS`, `APELIDOS_SECAO` em `antigo.py`).
+- **Armadilhas do wikitexto:** linha que começa com "||" (célula vazia) e `<ref>` de várias linhas quebram a leitura
+  (`notas_em_marcas`); números de ano dentro da célula da classificação; `\b` vira backspace no heredoc do bash (use o
+  editor ou `chr(92)`).
+- **Dois campeonatos na mesma temporada** (1921/22): temporadas "1921/22 (FIGC)" e "1921/22 (CCI)", ocorrências pela
+  temporada em texto.
 
 **Turquia, o que serve para outras ligas:**
 - **Escopo pela federação:** a liga nacional começa em 1959; os campeonatos anteriores ficam de fora (ver as pendências da
