@@ -83,7 +83,9 @@ def preparar(e: Edicao) -> dict:
     for jg in jogos:
         c = CORRIGE.get((e.temporada, jg["j"].texto))
         if c:
-            jg.update({k: v for k, v in c.items() if k != "motivo"})
+            jg.update({k: v for k, v in c.items() if k not in ("motivo", "data")})
+            if "data" in c:   # a data do jogo fica no próprio jogo lido
+                jg["j"].data = c["data"]
             log.append(f"corrigido — {jg['m']} x {jg['v']} ({jg['j'].data}): {c['motivo']}")
     jogos = [jg for jg in jogos if not jg.get("descartar")]
     # linha de nota que repete um jogo já listado ("Vélez Sarsfield 1-0 Boca Juniors." no resumo das decisões): sai

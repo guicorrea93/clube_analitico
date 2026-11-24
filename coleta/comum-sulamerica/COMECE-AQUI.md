@@ -121,7 +121,8 @@ abaixo são o histórico; o que está em aberto é esta lista.
     Deportivo Italia, com os mesmos placares e sem citar jogo. Decidido: fica como está (Galicia, pelos jogos), com a
     divergência registrada.
 - **D. Trabalho do agente 4 (quando o Guilherme mandar):**
-  - D1. Abertos que esperam 3ª fonte: QU-005 (datas do Boca), CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
+  - D1. Abertos que esperam 3ª fonte. QU-005 FEITO (24/11): só River 1-0 Boca de 1945 tinha 3ª fonte (vai para 29/07);
+    as outras 4 datas ficam e estão nas EXPLICACOES do arg-1. Faltam: CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
     CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).
   - D2. FEITA (24/11, ok do Guilherme): `rsssf_sul._continuacao` junta as linhas dos autores até o "]" (no máximo 3;
     sem o "]" não junta). +19.060 gols com autor nas 9 ligas; restam os "outros formatos" abaixo. Conferência de antes: O `rsssf_sul.ler` só guarda a 1ª linha dos autores

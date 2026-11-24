@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 37019 (30%); **cartões:** 41343.
 - **Clubes:** 173; **artilheiros:** 194 edições com artilheiro (233 linhas, com empates).
 - **Classificação final:** 197 edições; **tabelas publicadas guardadas para conferência:** 4453 linhas.
-- **No banco:** sim; **último commit do pacote:** a0222fa9.
+- **No banco:** sim; **último commit do pacote:** c887a7d4.
 - **Observação da competição:** 1ª divisão argentina de 1891 a 2025: uma edição por torneio que deu título de campeão (ligas rivais de 1912-1914, 1919-1926 e 1931-1934; Copa de Honor, Campeonato e Copa de Oro em 1936; Metropolitano e Nacional de 1967 a 1985; Apertura e Clausura de 1991/92 a 2013/14 e em 2025). Sem as copas da liga (2019-2024), a Copa Campeonato 2013/14, os torneios de reclassificação e as liguillas, que não davam o título.
 
 ## 2. Edições, fontes e regras
@@ -776,7 +776,7 @@ Registradas em `coleta/arg-1/explicacoes.py`; cada uma também aparece no relat�
 - **arg49 · 246:** «Estudiantes de La Plata Gimnasia» → «Estudiantes de La Plata  Gimnasia»: um espaço só entre o visitante e o local do jogo: era lido como 'Gimnasia 1-0 Gimnasia' (AR-016)
 - **arg98 · 61:** «River Plate   1-3 Rosario» → «River Plate   1-3 Rosario Central»: 'Rosario' sozinho não era reconhecido e o jogo caía (AR-014)
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 8)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 9)
 
 - **1923 Asociación · arg23:820:** [fase = Desempate do título] desempate Boca x Huracán de 1924, sem título na página (AR-025)
 - **1923 Asociación · arg23:824:** [fase = Desempate do título] desempate Boca x Huracán de 1924, sem título na página (AR-025)
@@ -786,6 +786,7 @@ Registradas em `coleta/arg-1/explicacoes.py`; cada uma também aparece no relat�
 - **1913 Federación · arg13:447:** [vale o placar de campo] Kimberley 3-1 Porteño é o jogo repetido em 15/08 (a nota fala do primeiro, abandonado com 0-0 aos 75' e anulado); vale na tabela
 - **1936 Copa de Oro · arg-oro36:17:** [descartado] a linha do texto corrido vira o jogo escrito à mão (EXTRAS), com data, local e autores dos gols
 - **1965 · arg65:198:** [abandonado] Independiente 2-2 Racing Club suspenso aos 68' e não continuado; a tabela publicada não conta o jogo (33 jogos para os dois)
+- **1945 · arg45:154:** [data = 1945-07-29] River Plate 1-0 Boca Juniors foi em 29/07/1945 (13ª rodada), como dizem o historiadeboca, a lista de superclássicos da RSSSF (bocariverpro.html) e a Wikipédia em espanhol; a página do ano diz 22/07 (QU-005)
 
 ### Jogos acrescentados à mão (a página traz em texto corrido) (`EXTRAS`, 5)
 
@@ -795,8 +796,12 @@ Registradas em `coleta/arg-1/explicacoes.py`; cada uma também aparece no relat�
 - **2016/17:** Tigre 0-1 Gimnasia La Plata (, espn:462684) jogo que só a ESPN tem
 - **1936 Copa de Oro:** River Plate 4-2 San Lorenzo (Final, rsssf:arg-oro36:9) jogo único; o 2-1 de Bernabé Ferreyra desviou em Chividini; o 3-2 é de Cavadini (outras fontes: Canteli)
 
-### Divergências entre fontes já explicadas (`EXPLICACOES`, 12)
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 16)
 
+- **1945:** o historiadeboca dá 03/10/1945 para Gimnasia La Plata 1-1 Boca Juniors (RSSSF: 09/09); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
+- **1954:** o historiadeboca dá 18/10/1954 para Ferro Carril Oeste 0-0 Boca Juniors (RSSSF: 16/10); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
+- **1977 Metropolitano:** o historiadeboca dá 19/08/1977 para Boca Juniors 2-1 Vélez Sarsfield (RSSSF: 21/08); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
+- **1989/90:** o historiadeboca dá 25/03/1990 para Deportivo Mandiyú 2-2 Boca Juniors (RSSSF, ogol e footballdatabase: 18/03); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
 - **1908:** Nacional de Buenos Aires: eliminado depois de 2 jogos, anulados (nota da página); fica no fim da classificação, fora da tabela publicada (AR-020)
 - **1929:** classificação com os números das tabelas dos grupos (com os pontos dados por W.O.: Tigre x Lanús, Defensores x Barracas Central, Quilmes x Sportivo Barracas) mais os desempates, o 3º lugar e a final (AR-020)
 - **1965:** Estudiantes e Racing empatam com 36 pontos: a tabela da RSSSF põe o Estudiantes em 5º, a Wikipédia em espanhol, o Racing (saldo de gols); fica a ordem publicada (AR-020)

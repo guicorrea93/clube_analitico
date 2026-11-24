@@ -1339,3 +1339,14 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
     todos com nota ou duas colunas emendadas no texto, autor "?" ou formato único.
 - **Teste de carga:** OK nas seis.
 - **Pedido ao agente 1:** já estavam na recarga das 9 ligas.
+
+## 24/11 — QU-005 (datas de jogos do Boca, `arg-1`)
+
+- **Pesquisa de 3ª fonte** para as 5 datas que o historiadeboca dá diferentes da RSSSF:
+  - River Plate 1-0 Boca Juniors (1945): 29/07, como no historiadeboca, na lista de superclássicos da RSSSF
+    (`bocariverpro.html`) e na Wikipédia em espanhol. **Corrigido** (a página do ano dizia 22/07), em
+    `explicacoes.CORRIGE`. O `conferir.py` do arg-1 agora aceita "data" no CORRIGE.
+  - Gimnasia 1-1 Boca (1945), Ferro 0-0 Boca (1954), Boca 2-1 Vélez (1977 Metropolitano) e Mandiyú 2-2 Boca (1989/90):
+    nenhuma 3ª fonte independente; ficam as datas da RSSSF, com a divergência nas `EXPLICACOES` (no do Mandiyú, o ogol e o
+    footballdatabase dão a mesma data da RSSSF, 18/03/1990).
+- **Efeito:** 1 jogo muda de data no `arg-1`. Pedido ao agente 1: já está na recarga das 9 ligas.

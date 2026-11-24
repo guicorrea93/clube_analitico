@@ -57,9 +57,19 @@ CORRIGE: dict[tuple[str, str], dict] = {
                                                                        "(EXTRAS), com data, local e autores dos gols"},
     ("1965", "arg65:198"): {"esp": "abd", "motivo": "Independiente 2-2 Racing Club suspenso aos 68' e não continuado; a tabela "
                                                     "publicada não conta o jogo (33 jogos para os dois)"},
+    ("1945", "arg45:154"): {"data": "1945-07-29", "motivo": "River Plate 1-0 Boca Juniors foi em 29/07/1945 (13ª rodada), como "
+                                                         "dizem o historiadeboca, a lista de superclássicos da RSSSF "
+                                                         "(bocariverpro.html) e a Wikipédia em espanhol; a página do ano diz "
+                                                         "22/07 (QU-005)"},
 }
 
+_QU005 = ("o historiadeboca dá {h} para {j}; sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF "
+          "(QU-005)")
 EXPLICACOES: dict[str, list[str]] = {
+    "1945": [_QU005.format(h="03/10/1945", j="Gimnasia La Plata 1-1 Boca Juniors (RSSSF: 09/09)")],
+    "1954": [_QU005.format(h="18/10/1954", j="Ferro Carril Oeste 0-0 Boca Juniors (RSSSF: 16/10)")],
+    "1977 Metropolitano": [_QU005.format(h="19/08/1977", j="Boca Juniors 2-1 Vélez Sarsfield (RSSSF: 21/08)")],
+    "1989/90": [_QU005.format(h="25/03/1990", j="Deportivo Mandiyú 2-2 Boca Juniors (RSSSF, ogol e footballdatabase: 18/03)")],
     "1908": ["Nacional de Buenos Aires: eliminado depois de 2 jogos, anulados (nota da página); fica no fim da classificação, "
              "fora da tabela publicada (AR-020)"],
     "1929": ["classificação com os números das tabelas dos grupos (com os pontos dados por W.O.: Tigre x Lanús, Defensores x "

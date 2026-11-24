@@ -1227,7 +1227,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1945
 
-- sem ocorrências
+- o historiadeboca dá 03/10/1945 para Gimnasia La Plata 1-1 Boca Juniors (RSSSF: 09/09); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
+- corrigido — River Plate x Boca Juniors (1945-07-29): River Plate 1-0 Boca Juniors foi em 29/07/1945 (13ª rodada), como dizem o historiadeboca, a lista de superclássicos da RSSSF (bocariverpro.html) e a Wikipédia em espanhol; a página do ano diz 22/07 (QU-005)
 
 ### 1946
 
@@ -1264,7 +1265,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1954
 
-- sem ocorrências
+- o historiadeboca dá 18/10/1954 para Ferro Carril Oeste 0-0 Boca Juniors (RSSSF: 16/10); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
 
 ### 1955
 
@@ -1626,6 +1627,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1977 Metropolitano
 
+- o historiadeboca dá 19/08/1977 para Boca Juniors 2-1 Vélez Sarsfield (RSSSF: 21/08); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
 - abandonado/suspenso, sem valer — Argentinos Juniors 1-1 Quilmes (1977-02-20): Suspended in 45' because the rain
 - abandonado/suspenso, sem valer — Vélez Sarsfield 2-2 Boca Juniors (1977-02-20): Suspended in 45' because the rain
 - abandonado/suspenso, sem valer — Banfield 0-1 Huracán (1977-02-20): Suspended in 45' because the rain
@@ -1737,6 +1739,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1989/90
 
+- o historiadeboca dá 25/03/1990 para Deportivo Mandiyú 2-2 Boca Juniors (RSSSF, ogol e footballdatabase: 18/03); sem uma 3ª fonte independente (pesquisa de 24/11/2026), fica a data da RSSSF (QU-005)
 - ogol: 380 jogos casados (edição 22764 do ogol, 380 jogos)
 - tabela publicada x jogos — arg90:24: Boca Juniors tabela [38, 11, 21, 6, 49, 35] jogos [38, 11, 21, 6, 49, 36] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg90:24: Rosario Central tabela [38, 16, 13, 9, 45, 36] jogos [38, 17, 13, 8, 46, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
