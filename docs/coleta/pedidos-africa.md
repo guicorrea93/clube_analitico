@@ -167,7 +167,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    (quase só de 1997/98 a 2005/06); 0 cartões; 81 clubes, todos novos; artilheiros de 58 edições (Wikipédia). Fontes:
    RSSSF (página de cada temporada), ogol (1985/86 em diante: data, rodada e conferência; repete os placares da RSSSF),
    Wikipédia em inglês (lista de campeões com vice e artilheiro; tabela de toda temporada). A ESPN não tem a liga argelina.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** b09bbaa (24/11; sem push).
 3. **Teste de carga:** `alg-1: 64 edições, 15210 jogos, 81 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `alg-1`; país novo **ALG (Argélia, CAF)**, criado pelo `competicao.json` (a Argélia foi a várias Copas:
@@ -202,3 +202,49 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    Bou Arréridj x MC Alger, "derrota para os dois", sem placar).
 8. **Próxima competição:** `rsa-1` (África do Sul), depois da decisão do Guilherme sobre o escopo (NFL, NPSL, NSL, PSL e
    as ligas paralelas do apartheid).
+
+## Recado de fim de coleta — rsa-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `rsa-1` (Campeonato Sul-Africano: NPSL, NSL e Premier Soccer League), 55 edições de 1971 a
+   2025/26; 8.108 jogos (7.868 da RSSSF, 240 do ogol; 8 decididos fora de campo, 31 não jogados ou anulados, 20
+   abandonados); 18.432 gols, 4.721 com autor (sobretudo de 2002/03 a 2013/14); 0 cartões; 89 clubes, todos novos.
+   Fontes: RSSSF (página de cada ano), ogol (jogos de 2005/06 em diante: base de 2025/26; data, rodada e conferência nos
+   outros), Wikipédia em inglês (tabela de 48 temporadas). A ESPN não tem a liga.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `rsa-1: 55 edições, 8108 jogos, 89 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `rsa-1`; país novo **RSA (África do Sul, CAF)**, criado pelo `competicao.json` (a África do Sul foi a
+     várias Copas e sediou a de 2010: conferir se a bandeira já existe);
+   - **temporadas no ano civil até 1995** ("1971" ... "1995") e no formato "1996/97" depois;
+   - **dois sistemas de pontos**: 2-1-0 (vitória, empate, derrota) até 1994 e 3-1-0 desde 1995 (o `edicoes.csv` já diz;
+     empate 1 e derrota 0 nos dois, então as colunas novas ficam vazias);
+   - **22 edições "sem jogos"**: só a tabela final (18, de 1971 a 1995) ou só o campeão (1972, 1973, 1975 e 1977);
+   - **4 edições com "jogos incompletos"** (1987, 1992, 1993 e 1996/97: só os jogos que a página traz);
+   - 2024/25: o Royal AM foi excluído e os resultados dele anulados.
+5. **Decisões tomadas:**
+   - escopo: a linha NPSL (1971-1984), NSL (1985-1995) e PSL (desde 1996/97), como a RSSSF e a imprensa contam; fora as
+     ligas separadas por raça do apartheid (NFL dos brancos, SASL/FPL), a NPSL paralela depois de 1985 e o torneio de
+     transição de 1996 (o Guilherme aprovou em 24/11);
+   - nomes: nome que já existe em outro país leva "(África do Sul)" (Santos, Rangers, Dynamos, Leeds United, Leicester
+     City, Colchester United, Vasco da Gama); clube refundado com nome de um antigo leva o ano do antigo (Durban City
+     (1959), Cape Town City (1962), Highlands Park (1959)); mesmo clube com outro nome é um só (Zulu Royals = AmaZulu;
+     Pretoria City e Albany City = SuperSport United; Qwa Qwa Stars e Score Stars = Free State Stars; Ajax Cape Town =
+     Cape Town Spurs; Silver Stars = Platinum Stars; Witbank Aces = Mpumalanga Black Aces; Benoni Premier United = Thanda
+     Royal Zulu); clube que comprou a vaga de outro (Marumo Gallants, Royal AM, TS Galaxy, Siwelele) é um clube próprio;
+   - quatro linhas de tabela com vitórias + empates + derrotas que não davam os jogos (1982, 1986, 1993) corrigidas pelos
+     pontos; 2001/02 Ajax Cape Town x Orlando Pirates: 1-0 dado ao Ajax (nota da página);
+   - rebaixamento pelos desempates de acesso marcado à mão (o 15º que perdeu o desempate, de 2004/05 a 2025/26); venda de
+     vaga não é rebaixamento.
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - os jogos de 1971 a 1995 (a RSSSF só tem a tabela, fora parte de 1987, 1992 e 1993) e parte de 1996/97; o ogol só tem
+     jogos de 2005/06 em diante. Fonte que resolveria: jornais sul-africanos (The World, Sowetan, Rand Daily Mail) ou o
+     arquivo da PSL;
+   - a tabela da NPSL de 1972, 1973, 1975 e 1977 (só o campeão);
+   - autores dos gols fora de 2002/03 a 2013/14, artilheiros de quase todas as temporadas e cartões.
+7. **Onde a revisão deve olhar primeiro:** a identidade dos clubes (vendas de vaga, fusões e trocas de nome no meio da
+   temporada: 1993, 2007/08); os rebaixamentos marcados à mão; 1999/00 (a lista de jogos não fecha com a tabela em seis
+   clubes; a Wikipédia confirma a tabela).
+8. **Próxima competição:** `nga-1` (Nigéria), depois da decisão do Guilherme sobre o escopo.

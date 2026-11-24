@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1"]
-PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg"}
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1"]
+PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -98,6 +98,20 @@ PENDENCIAS: dict[str, list[str]] = {
         "Identidade a conferir: DNC Alger = OC Alger = CS DNC Alger = JH Djazaïr (nome de exibição \"DNC Alger\"); WKF Collo "
         "= Entente Collo; o USM Annaba até 1979 é o Hamra Annaba; \"US Constantine\" de 1996/97 = US Chaouia; MB Rouissat = "
         "Olympique Rouissat (2025/26).",
+    ],
+    "rsa-1": [
+        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
+        "1971 a 1995: só a tabela final (a RSSSF não tem os jogos), fora 1987, 1992 e 1993 (parte dos jogos); 1972, 1973, "
+        "1975 e 1977: só o campeão (a página do ano é da NFL). 1996/97: parte dos jogos. O ogol só tem jogos de 2005/06 em "
+        "diante. Fonte que resolveria: jornais sul-africanos (The World, Sowetan, Rand Daily Mail) ou o arquivo da PSL.",
+        "Rebaixamento pelos desempates de acesso (2004/05 a 2025/26) marcado à mão (o 15º que não está na 1ª divisão do ano "
+        "seguinte); clubes que saíram por venda da vaga, fusão ou redução da liga ficam sem marca.",
+        "Autores dos gols só onde a RSSSF traz; artilheiros de poucas temporadas (contagem dos gols com autor). Fonte que "
+        "resolveria: o ogol jogo a jogo (2005/06 em diante).",
+        "Identidade a conferir: Cape Town Spurs = Ajax Cape Town (fusão de 1999 e volta ao nome em 2020); SuperSport United "
+        "= Pretoria City = Albany City; Free State Stars = Qwa Qwa Stars = Score Stars; Highlands Park (1959) = Welkom "
+        "Eagles (1993); Durban Bush Bucks (até 1987) x Bush Bucks de Umtata (desde 1988); Mpumalanga Black Aces = Witbank "
+        "Aces = Total Aces.",
     ],
 }
 

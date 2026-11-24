@@ -7,9 +7,10 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Egípcio | 73 (1948/49–2025/26) | 13 | 11574 | 3068 | 0 | 74 | 42 / 12 | sim | 06635c8 | 0 | [egy-1](egy-1.md) |
-| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | não | 786998d | 0 | [mar-1](mar-1.md) |
-| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | não | 786998d | 0 | [tun-1](tun-1.md) |
-| Campeonato Argelino | 64 (1962/63–2025/26) | 0 | 15210 | 3829 | 0 | 81 | 22 / 39 | não | — | 0 | [alg-1](alg-1.md) |
+| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | sim | 786998d | 0 | [mar-1](mar-1.md) |
+| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | sim | 786998d | 0 | [tun-1](tun-1.md) |
+| Campeonato Argelino | 64 (1962/63–2025/26) | 0 | 15210 | 3829 | 0 | 81 | 22 / 39 | sim | b09bbaa | 0 | [alg-1](alg-1.md) |
+| Campeonato Sul-Africano | 55 (1971–2025/26) | 22 | 8108 | 4721 | 0 | 89 | 28 / 1 | não | — | 0 | [rsa-1](rsa-1.md) |
 
 ## Pendências de todas as competições
 
@@ -39,6 +40,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **alg-1:** 1962/63 e 1963/64: ligas regionais incompletas (1962/63 sem a 1ª fase; 1963/64 só os resultados conhecidos, grupo Leste de Constantine sem números).
 - **alg-1:** 2009/10: CA Bordj Bou Arréridj x MC Alger com "derrota para os dois" (o formato do pacote não representa; jogo sem placar).
 - **alg-1:** Identidade a conferir: DNC Alger = OC Alger = CS DNC Alger = JH Djazaïr (nome de exibição "DNC Alger"); WKF Collo = Entente Collo; o USM Annaba até 1979 é o Hamra Annaba; "US Constantine" de 1996/97 = US Chaouia; MB Rouissat = Olympique Rouissat (2025/26).
+- **rsa-1:** Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
+- **rsa-1:** 1971 a 1995: só a tabela final (a RSSSF não tem os jogos), fora 1987, 1992 e 1993 (parte dos jogos); 1972, 1973, 1975 e 1977: só o campeão (a página do ano é da NFL). 1996/97: parte dos jogos. O ogol só tem jogos de 2005/06 em diante. Fonte que resolveria: jornais sul-africanos (The World, Sowetan, Rand Daily Mail) ou o arquivo da PSL.
+- **rsa-1:** Rebaixamento pelos desempates de acesso (2004/05 a 2025/26) marcado à mão (o 15º que não está na 1ª divisão do ano seguinte); clubes que saíram por venda da vaga, fusão ou redução da liga ficam sem marca.
+- **rsa-1:** Autores dos gols só onde a RSSSF traz; artilheiros de poucas temporadas (contagem dos gols com autor). Fonte que resolveria: o ogol jogo a jogo (2005/06 em diante).
+- **rsa-1:** Identidade a conferir: Cape Town Spurs = Ajax Cape Town (fusão de 1999 e volta ao nome em 2020); SuperSport United = Pretoria City = Albany City; Free State Stars = Qwa Qwa Stars = Score Stars; Highlands Park (1959) = Welkom Eagles (1993); Durban Bush Bucks (até 1987) x Bush Bucks de Umtata (desde 1988); Mpumalanga Black Aces = Witbank Aces = Total Aces.
 
 ## Próximas competições
 

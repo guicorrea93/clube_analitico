@@ -57,7 +57,8 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | `egy-1` Egípcio | 73 (1948/49–2025/26) | 11.574 | 74 | 06635c8 (23/11, no GitHub) | sim |
 | `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | 820bf5f (24/11; sem push) | não |
 | `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | 786998d (24/11; sem push) | não |
-| `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | sem commit (pronto 24/11; espera o "sim") | não |
+| `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | b09bbaa (24/11; sem push) | não |
+| `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | sem commit (pronto 24/11; espera o "sim") | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -65,11 +66,12 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
 1. `mar-1`: commit 820bf5f; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
 2. `tun-1`: commit 786998d (com o `edicoes.csv` do mar-1: pontos por empate e derrota); push só quando o Guilherme
    pedir; esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
-3. `alg-1` (Argélia): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit
-   só com o "sim" do Guilherme.
-4. Próxima liga: `rsa-1` (África do Sul). Antes, mandar ao Guilherme o escopo (NFL/NPSL/NSL/PSL e as ligas paralelas do
-   apartheid: perguntar).
-5. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+3. `alg-1`: commit b09bbaa; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de
+   `docs/coleta/pedidos-africa.md`).
+4. `rsa-1` (África do Sul): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`;
+   commit só com o "sim" do Guilherme.
+5. Próxima liga: `nga-1` (Nigéria). Antes, mandar ao Guilherme o escopo.
+6. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -193,6 +195,17 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
 - ogol: competição `liga-argelina`, edições de 1962/63 a 2026/27. Wikipédia: artigo de toda temporada ("1993–94 Algerian
   Championnat National"; desde 2010/11, "Algerian Ligue Professionnelle 1"); a lista de campeões traz vice, 3º e artilheiro.
 
+**África do Sul (`rsa-1`):**
+- **Escopo (pesquisa de 24/11; o Guilherme aprovou em 24/11):** a linha do futebol profissional que a RSSSF ("NPSL/NSL/PSL
+  championships, 55, since 1971") e a imprensa contam (Sundowns 18, Chiefs 12, Pirates 10): NPSL 1971-1984, NSL
+  1985-1995, PSL desde 1996/97. Fora: as ligas separadas por raça do apartheid (NFL dos brancos, SASL/FPL), a NPSL paralela
+  depois de 1985, as NPSL amadoras de 1968 e 1969 e o torneio de transição de 1996 (Coca-Cola Challenge).
+- RSSSF: lista em `tablesz/zafchamp.html` (seção "National Champions", uma coluna por liga em cada bloco); páginas `zaf71`
+  ... `zaf96` (ano civil), `zaf97` (1996/97) ... `zaf2026`. 1971-1977: a página é da NFL; a NPSL vem no meio (1971, 1974,
+  1976) ou nem vem (só o campeão). Até 1995, quase só a tabela final.
+- ogol: competição `liga-sul-africana`, edições desde 1996/97, mas só com jogos de 2005/06 em diante.
+- Wikipédia: artigos por temporada (48 de 55); o artigo da liga não tem lista de campeões que sirva (desligada).
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -271,6 +284,20 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   Alger"): `linhas()`.
 - **Tabela "acumulada":** a conferência herdada pula tabela com mais jogos que a soma; na Argélia não há tabela acumulada
   e isso escondia os anos com jogos faltando (desligado em `conferir.py`).
+
+**RSSSF (África do Sul):**
+- **Fim do trecho:** copa com o nome entre parênteses ("Datsun Challenge 1982 (NPSL League Cup)"), ligas regionais ("Natal
+  Football League", "Transvaal Soccer Board League") e desempates de acesso com a 2ª divisão ("Mvela Golden League
+  Platinum Playoffs", 2006/07; "Promotion/Relegation Playoff"): no `FIM_PADRAO` ou linha final explícita.
+- **Cidade entre colchetes** na tabela ("Bush Bucks [Durban]"): vira parênteses em `linhas()`.
+- **Vitórias + empates + derrotas que não dão os jogos** (1982, 1986, 1993): a linha não é lida e a tabela se parte;
+  `CONSERTA_TEXTO`, com os pontos dizendo o número certo.
+- **Clube que muda de nome no meio da temporada** (1993, 2007/08) ou "Rangers" que muda de dono por época: regras por ano e
+  `nomes` da edição.
+- **Clube excluído com resultados anulados** (Royal AM, 2024/25): `ANULA_CLUBE` e a linha "record at exclusion" em
+  `TABELAS_FORA`.
+- **Rebaixamento pelos desempates de acesso** não vem na tabela: `SITUACAO_FIXA` (15º que some no ano seguinte); venda de
+  vaga (comum na PSL) não é rebaixamento.
 
 **ogol (Argélia):** só tem jogos de 1985/86 em diante, com os mesmos placares da RSSSF (copiados): serve para data e
 rodada, não como segunda fonte de placar. Nomes curtos ("CS Constantinois", "Ol. Medea", "Tadjenanet", "MCE Bayadh").
