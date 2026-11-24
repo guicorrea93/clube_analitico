@@ -1056,7 +1056,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Edições:** 1950-51, 1952-53, 1956-57 (cancelada, sem campeão) e 2008 a 2025, pela contagem da Wikipédia em
      espanhol. Ficam fora 1951-52, 1963, 1981 e 1989, que a Wikipédia não conta como Copa Colombia.
    - **Campeões:** os 20 batem com a Wikipédia.
-2. **Commits:** (abaixo).
+2. **Commits:** `3683817`.
 3. **Teste de carga:** `col-copa: 21 edições, 2441 jogos, 23 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar a `col-copa`;
