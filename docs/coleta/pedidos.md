@@ -1031,3 +1031,21 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - no banco, renomear o clube 768 ("Rive A.C.") para "Espírito Santo FC" (D-03; o `clube_nome` dele já tem esse nome em 2016-2018);
    - pôr o Botafogo-DF (442) em DF/Guará e a AA Araguaia (731) em Água Boa.
 4. **Próximo:** Copa do Brasil.
+
+## Correções da revisão — bra-copa-do-brasil — 24/11/2026 (plano da Copa do Brasil)
+
+1. **Corrigidos** (`coleta/bra-copa-do-brasil/importar.py`):
+   - **QC-005:** dois placares que vieram só do ogol voltam ao da RSSSF, do Bola n@ Área e das Wikipédias pt e en (`CORRECAO_JOGO` agora aceita `gm`/`gv`):
+     - 1995: Nacional-AM 1-0 Cristal;
+     - 1998: Bahia 1-2 Botafogo-PB. O Bahia passa pelo gol fora (4-4).
+   - **QC-004:** 20 datas de `data/coleta/bra-copa-do-brasil/datas_corrigidas.csv` (2008, 2014, 2015, 2018 e 2024), pelo Bola e pelo transfermarkt, com o aplicador comum.
+   - **CB-007 e QC-008 (D-14 C):** entra a preliminar de 1999, Náutico 0-1 Santa Cruz em 28/01/1999, pelo Futebol Nacional (`JOGOS_EXTRA`). 1999 fica com 117 jogos e 65 clubes. O texto da pendência em `documentar.py` foi corrigido.
+   - **CL-028 (parte da Copa):** Alegrense passa a Alegre (ES), e Botafogo-DF a Guará (DF), pela correção de ficha comum.
+2. **Só anotado no relatório:** **CB-005 (D-13).** 1990 (volta Santa Cruz x América-RN) e 1991 (Vitória x Remo) ficam como estão até um jornal da época; 2002 fica.
+3. **Também:** as pendências do Paulista e da A2 em `coleta/comum/documentar.py` foram atualizadas, porque os dois planos estão concluídos.
+4. **Números:**
+   - 37 edições e 4.010 jogos (eram 4.009).
+   - Mudam posições do meio da tabela em 1995 e 1998, pelos placares.
+   - testar_carga: `bra-copa-do-brasil: 37 edições, 4010 jogos, 0 clubes novos -> OK`.
+5. **Pedido ao agente 1:** recarregar o `bra-copa-do-brasil`.
+6. **Próximo:** "Todas as coletas Brasil" (QC-006 e QC-007) e a D-10 (SC-029: Séries C de 1987 e 2000 como edições não oficiais).

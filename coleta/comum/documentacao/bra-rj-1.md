@@ -473,7 +473,6 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 - Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
 - 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.
-- Mesma correção dos artilheiros no Paulista: lá a lista da RSSSF nunca era usada (chave pelo ano em número), o que deve explicar o SP-024.
 
 ## 10. Arquivos e comandos
 

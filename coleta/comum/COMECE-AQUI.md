@@ -71,7 +71,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 |---|---|---|---|---|---|
 | `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be; plano da revisão neste commit (24/11) | sim; recarregar | OK (Santo Amaro-PE = Manchete do banco) |
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e; plano da revisão neste commit (24/11) | sim; recarregar | OK (Espírito Santo FC = Rive A.C. do banco) |
-| `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
+| `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.010 | c4f83be; plano da revisão neste commit (24/11) | sim; recarregar | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 046e6e4; Grêmio Catanduvense separado (A2-022) neste commit (24/11) | sim; recarregar | OK (1 clube novo) |
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.214 | ada0940; A2-015 (parte C) neste commit (24/11); plano da A2 concluído | sim; recarregar | OK (1 clube novo) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
@@ -115,8 +115,9 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
      mesmo serve à D e à Copa, já com os arquivos gerados); cidade em português por `registro.cidade_pt`.
    - Feito 24/11: Série D (QC-001, SD-011, QC-003, CL-028 na parte da D; D-03 no Espírito Santo FC). Correção de ficha
      comum a todas as coletas em `registro.FICHA_COMUM` / `registro.corrigir_ficha` (Botafogo-DF, AA Araguaia).
-   - Próximo: Copa do Brasil (QC-005, QC-004, CB-007/D-14, CB-005/D-13, QC-008; ligar `datas_corrigidas` e
-     `registro.corrigir_ficha` no clubes_cb, Alegrense), depois "Todas as coletas Brasil" e a D-10 (Série C 1987 e 2000).
+   - Feito 24/11: Copa do Brasil (QC-005, QC-004, CB-007 e QC-008 pela D-14 C, CB-005 anotado pela D-13, CL-028).
+   - Próximo: "Todas as coletas Brasil" (QC-006: 100 datas em que ogol e Bola concordam contra a RSSSF; QC-007:
+     observações em inglês e notas no gols_texto) e a D-10 (SC-029: Série C 1987 e 2000 como edições não oficiais).
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO, JOGO_CORRIGIDO, JOGOS_EXTRA): se um nome não casar, o importador para com erro
      (não passa calado). `RSSSF_FORA` e `JOGOS_ANULADOS` usam o nome como está na página e tiram o jogo antes do ogol.

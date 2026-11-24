@@ -5,7 +5,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 37, de 1989 a 2025.
-- **Jogos:** 4009; **gols:** 10639; **gols com autor:** 5718 (54%); **cartões:** 0.
+- **Jogos:** 4010; **gols:** 10639; **gols com autor:** 5718 (54%); **cartões:** 0.
 - **Clubes:** 399; **artilheiros:** 37 temporadas com artilheiro (62 linhas, com empates).
 - **Classificação final:** 37 temporadas; **rodada a rodada:** 0 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 122 linhas.
@@ -23,7 +23,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - Cada temporada é comparada com as tabelas publicadas (RSSSF): 61 tabelas fecham com os jogos e 0 divergem (cada divergência é explicada no relatório, na temporada).
 - Temporadas com alguma tabela divergente: nenhuma.
 - Temporadas sem tabela para conferir: 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024.
-- Temporadas com menos jogos do que o ogol: 1989 (61 de 62), 1995 (69 de 70), 1996 (70 de 78), 1997 (78 de 86), 1998 (75 de 82), 1999 (116 de 126), 2000 (129 de 136), 2001 (117 de 126), 2002 (117 de 126), 2003 (117 de 126), 2004 (114 de 126), 2005 (117 de 126), 2006 (113 de 126), 2007 (115 de 126), 2008 (110 de 126), 2009 (115 de 126), 2010 (116 de 126), 2011 (111 de 126), 2012 (112 de 126), 2013 (158 de 172), 2014 (159 de 172), 2015 (158 de 172), 2016 (162 de 170).
+- Temporadas com menos jogos do que o ogol: 1989 (61 de 62), 1995 (69 de 70), 1996 (70 de 78), 1997 (78 de 86), 1998 (75 de 82), 1999 (117 de 126), 2000 (129 de 136), 2001 (117 de 126), 2002 (117 de 126), 2003 (117 de 126), 2004 (114 de 126), 2005 (117 de 126), 2006 (113 de 126), 2007 (115 de 126), 2008 (110 de 126), 2009 (115 de 126), 2010 (116 de 126), 2011 (111 de 126), 2012 (112 de 126), 2013 (158 de 172), 2014 (159 de 172), 2015 (158 de 172), 2016 (162 de 170).
 
 ## 4. Cobertura de cada campo, por década
 
@@ -32,12 +32,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | Década | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|
 | 1980s | 61 | 100% | 100% | 0% | 0% | 0% | 0% | 5% | 0.0 |
-| 1990s | 718 | 100% | 53% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1990s | 719 | 100% | 53% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 1164 | 100% | 53% | 0% | 0% | 0% | 0% | 46% | 0.0 |
 | 2010s | 1336 | 100% | 100% | 0% | 0% | 0% | 0% | 72% | 0.0 |
 | 2020s | 730 | 100% | 100% | 0% | 72% | 72% | 0% | 98% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 3907; ogol: 102.
+**Fonte de cada jogo:** RSSSF Brasil: 3907; ogol: 102; Futebol Nacional: 1.
 
 ## 5. Formato ao longo do tempo
 
@@ -48,7 +48,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1996: 40 clubes
 - 1997: 44 clubes
 - 1998: 41 clubes
-- 1999: 64 clubes
+- 1999: 65 clubes
 - 2000: 69 clubes
 - 2001 a 2012: 64 clubes
 - 2013 a 2015: 87 clubes
@@ -69,7 +69,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 - 1989 a 2025: mata-mata
 
-**Fases que aparecem** (número de temporadas): Primeira fase (37); Oitavas de final (37); Quartas de final (37); Semifinal (37); Final (37); Segunda fase (30); Terceira fase (14); Fase preliminar (4); Quarta fase (4).
+**Fases que aparecem** (número de temporadas): Primeira fase (37); Oitavas de final (37); Quartas de final (37); Semifinal (37); Final (37); Segunda fase (30); Terceira fase (14); Fase preliminar (5); Quarta fase (4).
 
 **Observações das edições:**
 
@@ -143,10 +143,13 @@ Registradas nos módulos de `coleta/bra-copa-do-brasil/`; cada uma também apare
 - **2014 · Cruzeiro · Atlético-MG · 2014-11-27:** [data=2014-11-26] o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - **2015 · Santos · Palmeiras · 2015-11-26:** [data=2015-11-25] o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - **2015 · Palmeiras · Santos · 2015-12-03:** [data=2015-12-02] o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
+- **1995 · Nacional-AM · Cristal · 1995-03-19:** [gm=1, gv=0] RSSSF, Bola n@ Área e Wikipédias pt e en: 1-0 (o ogol dá 2-0; revisão QC-005)
+- **1998 · Bahia · Botafogo-PB · 1998-02-18:** [gm=1, gv=2] RSSSF, Bola n@ Área e Wikipédias pt e en: 1-2; o Bahia passou pelo gol fora (4-4) (o ogol dá 2-1; revisão QC-005)
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
-- **1991:** o Grêmio venceu o Auto Esporte e o Fluminense de Feira pelos mesmos placares; o Fluminense(BA) da página é ligado à mão ao Fluminense de Feira do ogol
+- **1990:** volta Santa Cruz x América-RN (27/06): a RSSSF e o ogol dão América-RN 1-0; o Bola n@ Área, o Futebol Nacional e a Wikipédia (que cita o Bola) dão 0-1; fica o do pacote até um jornal da época (decisão D-13, revisão CB-005)
+- **1991:** quartas Vitória x Remo (25/04): o pacote, a RSSSF, o ogol e a Wikipédia en dão 0-0; o Bola, o FN e a pt dão 2-2; fica o do pacote até um jornal da época (D-13, CB-005) / o Grêmio venceu o Auto Esporte e o Fluminense de Feira pelos mesmos placares; o Fluminense(BA) da página é ligado à mão ao Fluminense de Feira do ogol
 - **1994:** vários jogos da página vêm com a data do título da fase (março), quando foram jogados em maio; casados com o ogol pelo par de clubes e pelo placar, e vale a data do ogol
 - **2000:** as oitavas vêm com uma letra antes de cada confronto ('E ABC (RN) x Palmeiras (SP)'); a letra sai
 - **2001:** a página começa com a seletiva do Espírito Santo, que não é Copa do Brasil; esse trecho fica de fora
@@ -217,8 +220,9 @@ Registradas nos módulos de `coleta/bra-copa-do-brasil/`; cada uma também apare
 
 ## 9. Pendências e próximos passos
 
-- Achados da revisão CB-001 a CB-015: tratados (docs/coleta/pedidos.md, partes 1 e 4). A revisão ainda não reconferiu.
-- Jogo preliminar de 1999 (Santa Cruz 1-0 Náutico, CB-007): entrou sem data; nenhuma fonte achada dá o dia.
+- Achados da revisão CB-001 a CB-015: tratados (docs/coleta/pedidos.md, partes 1 e 4). Plano da revisão (24/11): QC-005, QC-004 (datas_corrigidas.csv), CB-007 e QC-008 (D-14 C), CL-028 (Alegrense). A revisão ainda não reconferiu.
+- Jogo preliminar de 1999: entrou Náutico 0-1 Santa Cruz em 28/01/1999, pelo Futebol Nacional (D-14 C); a Wikipédia pt dá o mando ao contrário (Santa Cruz 1-0). Conferir no Diario de Pernambuco de 29/01/1999 só se o Guilherme pedir.
+- CB-005 (D-13): 1990 (volta Santa Cruz x América-RN) e 1991 (Vitória x Remo) ficam como estão até um jornal da época.
 - Autores dos gols antes de 2013 e cartões: jogo a jogo, pela ficha do ogol (prioridade baixa).
 
 ## 10. Arquivos e comandos

@@ -491,8 +491,8 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- Corrigidos em 23/11 ("ERRADO NO AR" do plano docs/revisao/plano-coleta-brasil.md): SP-011 (jogo falso de 1928 LAF), SP-002, SP-007 e SP-008 (ORDEM completo, FASE_ANO e FASE_JOGO, vice do quadrangular final, desempate pela Fase final; menos 2024 e 2025, que esperam as fases da FPF), QS-001 e SP-010 (CLUBES_FORA), QS-006 e QS-005 (JOGOS_FORA, JOGOS_EXTRA_WO, VICE_OFICIAL), QS-015 e SP-013 (PONTOS_FORA_DE_CAMPO; W.O. conta na campanha, SP-016), SP-009 (Corinthians de Santo André) e SP-012 (1942). SP-001: 1973 com co_campeao Santos e vice Palmeiras (D-07).
-- Resto do plano (docs/revisao/plano-coleta-brasil.md, seção do Paulista): SP-003 (3º lugar à mão), SP-004 (2026), SP-008 em 2024 e 2025 (fases pela API da FPF), SP-014, SP-015 (rebaixados), SP-017 a SP-024, QS-002 a QS-014, SP-026 e SP-027 (D-23). Só quando o Guilherme mandar.
+- Plano da revisão (docs/revisao/plano-coleta-brasil.md) concluído em 24/11, em 5 commits (ERRADO NO AR, jogos, FPF e 2026, pacote.py, pódio); detalhes em docs/coleta/pedidos.md.
+- Ficam como estão, com o motivo: 3º lugar de 1917 e 1954 (o FN confirma o pacote; a Wikipédia diverge), 1927 LAF, 1928 LAF e 1930 (3º dividido na RSSSF), 1959 (empate sem regra da época); 44 casos de clube com dois jogos no mesmo dia de 1906 a 1983 (conferir com o Futebol Nacional); artilheiro de 1927 APEA, 1928 LAF e 1936 LPF.
 - Autores dos gols e cartões nos anos sem RSSSF com autores: jogo a jogo, pela ficha do ogol (prioridade baixa).
 
 ## 10. Arquivos e comandos

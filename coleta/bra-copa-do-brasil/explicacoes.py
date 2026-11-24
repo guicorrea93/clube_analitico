@@ -25,7 +25,11 @@ INTRO = [
 
 # ano -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada ano)
 EXPLICACOES: dict[int, list[str]] = {
-    1991: ["o Grêmio venceu o Auto Esporte e o Fluminense de Feira pelos mesmos placares; o Fluminense(BA) da página é ligado à mão "
+    1990: ["volta Santa Cruz x América-RN (27/06): a RSSSF e o ogol dão América-RN 1-0; o Bola n@ Área, o Futebol Nacional e a "
+           "Wikipédia (que cita o Bola) dão 0-1; fica o do pacote até um jornal da época (decisão D-13, revisão CB-005)"],
+    1991: ["quartas Vitória x Remo (25/04): o pacote, a RSSSF, o ogol e a Wikipédia en dão 0-0; o Bola, o FN e a pt dão 2-2; "
+           "fica o do pacote até um jornal da época (D-13, CB-005)",
+           "o Grêmio venceu o Auto Esporte e o Fluminense de Feira pelos mesmos placares; o Fluminense(BA) da página é ligado à mão "
            "ao Fluminense de Feira do ogol"],
     1994: ["vários jogos da página vêm com a data do título da fase (março), quando foram jogados em maio; casados com o ogol pelo "
            "par de clubes e pelo placar, e vale a data do ogol"],

@@ -29,6 +29,7 @@ AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI.parent / "comum"))
 sys.path.insert(0, str(AQUI))
 import clubes_cb  # noqa: E402
+import datas_corrigidas  # noqa: E402
 import gols as gols_rsssf  # noqa: E402
 from observacao import penaltis_da_nota  # noqa: E402
 import rsssf_cb  # noqa: E402
@@ -177,7 +178,18 @@ CORRECAO_JOGO: dict[tuple, dict] = {
     (2014, "Cruzeiro", "Atlético-MG", "2014-11-27"): {"data": "2014-11-26", "motivo": _UM_DIA},
     (2015, "Santos", "Palmeiras", "2015-11-26"): {"data": "2015-11-25", "motivo": _UM_DIA},
     (2015, "Palmeiras", "Santos", "2015-12-03"): {"data": "2015-12-02", "motivo": _UM_DIA},
+    # placar só do ogol, contra a RSSSF, o Bola n@ Área e as Wikipédias pt e en (revisão QC-005)
+    (1995, "Nacional-AM", "Cristal", "1995-03-19"): {"gm": 1, "gv": 0, "motivo": "RSSSF, Bola n@ Área e Wikipédias pt e en: 1-0 "
+                                                                                 "(o ogol dá 2-0; revisão QC-005)"},
+    (1998, "Bahia", "Botafogo-PB", "1998-02-18"): {"gm": 1, "gv": 2, "motivo": "RSSSF, Bola n@ Área e Wikipédias pt e en: 1-2; o "
+                                                                              "Bahia passou pelo gol fora (4-4) (o ogol dá 2-1; revisão QC-005)"},
 }
+# jogos que faltam: (ano, data, código do mandante, código do visitante, gols, gols, fase, motivo)
+JOGOS_EXTRA: list[tuple] = [
+    (1999, "1999-01-28", "2247", "2253", 0, 1, "Fase preliminar",
+     "preliminar Náutico 0-1 Santa Cruz, pelo Futebol Nacional (data e mando; a Wikipédia pt dá Santa Cruz 1-0); a RSSSF, o "
+     "ogol e o Bola n@ Área não têm o jogo (decisão D-14 C, revisão CB-007)"),
+]
 
 
 def mapear_nomes(ano: int, rs: list, og: list[dict], log: list[str]) -> dict:
@@ -726,6 +738,10 @@ def corrigir_jogos(ano, partidas: list[Partida], log: list[str]) -> None:
         c = CORRECAO_JOGO.get((ano, nome(p.mandante), nome(p.visitante), p.data))
         if not c:
             continue
+        if "gm" in c:
+            p.gm, p.gv = c["gm"], c["gv"]
+            if p.gols and len(p.gols) != p.gm + p.gv:
+                p.gols = []
         p.data = c.get("data", p.data)
         p.obs = (p.obs + "; " if p.obs else "") + c["motivo"]
         log.append(f"{ano}: jogo corrigido à mão — {nome(p.mandante)} x {nome(p.visitante)}: {c['motivo']}")
@@ -883,6 +899,10 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     for tb in tabelas:
         tb.fase = fase_pt(tb.fase)
     fases_da_chave(ano, partidas, tabs, log)
+    for a, d, m, v, gm, gv, fase, motivo in JOGOS_EXTRA:
+        if a == ano:
+            partidas.append(Partida(ano, fase, "", None, d, m, v, gm, gv, fonte="Futebol Nacional", fonte_id="fn", obs=motivo))
+            log.append(f"{ano}: jogo que faltava: {nome(m)} {gm}-{gv} {nome(v)} ({d}, {fase}) — {motivo}")
     # autores: só quando fecham com o placar
     for p in partidas:
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:
@@ -898,6 +918,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     elif oficial and campeao != oficial:
         log.append(f"{ano}: vencedor da final pelos jogos ({nome(campeao)}) diferente do campeão oficial ({nome(oficial)}); fica o oficial")
         campeao = oficial
+    datas_corrigidas.aplicar(PASTA_DADOS, ano, partidas, nome, log)   # jogo noturno do ogol com o dia seguinte (QC-004)
     final = classificacao(ano, partidas, tabs, ajustes, campeao, log)
     conf = conferir(ano, partidas, tabs)
     return {"partidas": partidas, "tabelas": tabelas, "tabs": tabs, "final": final, "conf": conf, "rs": rs, "og": og,

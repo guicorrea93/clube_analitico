@@ -665,8 +665,9 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- Corrigidos em 23/11 ("ERRADO NO AR" do plano da revisão): A2-002 a A2-006 (vice pela fase final e pelo finalista), A2-007 (REBAIXADOS_WIKI), A2-008 ("Relegation Playoff" não é queda), A2-009 (acesso só de quem jogou a A1), A2-010 (Portuguesa Santista em 2002), A2-011 e A2-017 (2001: regra dos pênaltis, -5 do Sãocarlense, sem rebaixado). A2-001 feito em 23/11: as 17 edições de 1967-1978 e 1980-1984 (participantes da RSSSF, tabelas e jogos da Wikipédia, pódio da predefinição).
+- Plano da revisão concluído em 24/11 (ERRADO NO AR, A2-001 e as partes A, B e C); detalhes em docs/coleta/pedidos.md.
 - 1967-1984: só os jogos que a Wikipédia traz (finais e fases finais); os jogos dos campeões nas páginas da RSSSF de 1968, 1969, 1971, 1976, 1980 e 1984 ainda não entraram. Clubes novos a conferir pela revisão: Vasco da Gama (1969) e Americana (1976), os dois de Americana; Presidente Prudente FC (1974).
+- Datas que a própria página dá impossíveis (1985, 1986, 1987 e 1988, A2-027): sem 2ª fonte; ficam anotadas.
 - Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; 1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da Folha), em imagem. Só se o Guilherme pedir.
 
 ## 10. Arquivos e comandos

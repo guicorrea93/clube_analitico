@@ -43,31 +43,27 @@ PENDENCIAS: dict[str, list[str]] = {
         "Cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-copa-do-brasil": [
-        "Achados da revisão CB-001 a CB-015: tratados (docs/coleta/pedidos.md, partes 1 e 4). A revisão ainda não reconferiu.",
-        "Jogo preliminar de 1999 (Santa Cruz 1-0 Náutico, CB-007): entrou sem data; nenhuma fonte achada dá o dia.",
+        "Achados da revisão CB-001 a CB-015: tratados (docs/coleta/pedidos.md, partes 1 e 4). Plano da revisão (24/11): "
+        "QC-005, QC-004 (datas_corrigidas.csv), CB-007 e QC-008 (D-14 C), CL-028 (Alegrense). A revisão ainda não reconferiu.",
+        "Jogo preliminar de 1999: entrou Náutico 0-1 Santa Cruz em 28/01/1999, pelo Futebol Nacional (D-14 C); a Wikipédia "
+        "pt dá o mando ao contrário (Santa Cruz 1-0). Conferir no Diario de Pernambuco de 29/01/1999 só se o Guilherme pedir.",
+        "CB-005 (D-13): 1990 (volta Santa Cruz x América-RN) e 1991 (Vitória x Remo) ficam como estão até um jornal da época.",
         "Autores dos gols antes de 2013 e cartões: jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-sp-1": [
-        "Corrigidos em 23/11 (\"ERRADO NO AR\" do plano docs/revisao/plano-coleta-brasil.md): SP-011 (jogo falso de 1928 "
-        "LAF), SP-002, SP-007 e SP-008 (ORDEM completo, FASE_ANO e FASE_JOGO, vice do quadrangular final, desempate pela "
-        "Fase final; menos 2024 e 2025, que esperam as fases da FPF), QS-001 e SP-010 (CLUBES_FORA), QS-006 e QS-005 "
-        "(JOGOS_FORA, JOGOS_EXTRA_WO, VICE_OFICIAL), QS-015 e SP-013 (PONTOS_FORA_DE_CAMPO; W.O. conta na campanha, "
-        "SP-016), SP-009 (Corinthians de Santo André) e SP-012 (1942). SP-001: 1973 com co_campeao Santos e vice "
-        "Palmeiras (D-07).",
-        "Resto do plano (docs/revisao/plano-coleta-brasil.md, seção do Paulista): SP-003 (3º lugar à mão), SP-004 (2026), "
-        "SP-008 em 2024 e 2025 (fases pela API da FPF), SP-014, SP-015 (rebaixados), SP-017 a SP-024, QS-002 a QS-014, "
-        "SP-026 e SP-027 (D-23). Só quando o Guilherme mandar.",
+        "Plano da revisão (docs/revisao/plano-coleta-brasil.md) concluído em 24/11, em 5 commits (ERRADO NO AR, jogos, FPF e "
+        "2026, pacote.py, pódio); detalhes em docs/coleta/pedidos.md.",
+        "Ficam como estão, com o motivo: 3º lugar de 1917 e 1954 (o FN confirma o pacote; a Wikipédia diverge), 1927 LAF, "
+        "1928 LAF e 1930 (3º dividido na RSSSF), 1959 (empate sem regra da época); 44 casos de clube com dois jogos no "
+        "mesmo dia de 1906 a 1983 (conferir com o Futebol Nacional); artilheiro de 1927 APEA, 1928 LAF e 1936 LPF.",
         "Autores dos gols e cartões nos anos sem RSSSF com autores: jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-sp-2": [
-        "Corrigidos em 23/11 (\"ERRADO NO AR\" do plano da revisão): A2-002 a A2-006 (vice pela fase final e pelo finalista), "
-        "A2-007 (REBAIXADOS_WIKI), A2-008 (\"Relegation Playoff\" não é queda), A2-009 (acesso só de quem jogou a A1), "
-        "A2-010 (Portuguesa Santista em 2002), A2-011 e A2-017 (2001: regra dos pênaltis, -5 do Sãocarlense, sem rebaixado). "
-        "A2-001 feito em 23/11: as 17 edições de 1967-1978 e 1980-1984 (participantes da RSSSF, tabelas e jogos da "
-        "Wikipédia, pódio da predefinição).",
+        "Plano da revisão concluído em 24/11 (ERRADO NO AR, A2-001 e as partes A, B e C); detalhes em docs/coleta/pedidos.md.",
         "1967-1984: só os jogos que a Wikipédia traz (finais e fases finais); os jogos dos campeões nas páginas da RSSSF "
         "de 1968, 1969, 1971, 1976, 1980 e 1984 ainda não entraram. Clubes novos a conferir pela revisão: Vasco da Gama (1969) "
         "e Americana (1976), os dois de Americana; Presidente Prudente FC (1974).",
+        "Datas que a própria página dá impossíveis (1985, 1986, 1987 e 1988, A2-027): sem 2ª fonte; ficam anotadas.",
         "Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; "
         "1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da "
         "Folha), em imagem. Só se o Guilherme pedir.",
@@ -79,8 +75,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.",
         "Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela "
         "ano a ano (pt_lista.txt), ainda não lida.",
-        "Mesma correção dos artilheiros no Paulista: lá a lista da RSSSF nunca era usada (chave pelo ano em número), o que deve "
-        "explicar o SP-024.",
     ],
 }
 

@@ -99,6 +99,7 @@ def fichas() -> dict[str, dict]:
     d = json.loads((PASTA_DADOS / "ogol" / "clubes.json").read_text(encoding="utf-8"))
     for f in d.values():
         f["curto"] = (f.get("titulo") or "").split(" - ")[0].strip() or (f["nomes_ogol"][0] if f["nomes_ogol"] else f["id"])
+        registro.corrigir_ficha(f)   # cidade e UF corrigidas para todas as coletas (Botafogo-DF, Alegrense; CL-028)
     return d
 
 
