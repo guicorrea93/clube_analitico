@@ -172,6 +172,9 @@ rsssf.CORRECOES.setdefault("sp1942.htm", []).append(
      "o jogo vem sem os gols do Palmeiras; 3-1 pelo Futebol Nacional (achado SP-012)"))
 for _a in (1979, 1980):
     rsssf.CORRECOES.setdefault(f"sp{_a}.htm", []).append((_dois_pontos, None, "jogo em 'A - B 2:1' e data em 'dd.mm.aa'"))
+rsssf.CORRECOES.setdefault("sp1933.htm", []).append(
+    (r"(\d+x\d+[^\n]*?)[ \t]*\n(Itália|Bento|Paulo|Corinthians|Portuguesa)[ \t]*$", r"\1 \2",
+     "nome do clube quebrado em duas linhas (\"Corinthians 2x0 AA São\" / \"Bento\" virava Corinthians x São Paulo; SP-022)"))
 rsssf.CORRECOES.setdefault("sp1929.htm", []).append(
     (r"09/06/1959 AA das Palmeiras", "09/06/1929 AA das Palmeiras", "ano errado na data (FN: 09/06/1929; achado QS-002)"))
 rsssf.CORRECOES["sp1979.htm"].insert(0, (r"(?m)^19\.08\.78\b", "19.08.79",

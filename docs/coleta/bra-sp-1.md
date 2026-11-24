@@ -11,6 +11,16 @@ cada liga é uma temporada própria ("1913 LPF", "1913 APEA"), com o mesmo ano. 
 código de cada clube; confere placares, traz a rodada e completa jogos); Wikipédia (lista de campeões); FPF (API do site,
 `coleta/bra-sp-1/baixar_fpf.py`: data oficial de cada jogo de 2007 em diante e fase e grupo de 2024 a 2026).
 
+**Artilheiros:** RSSSF (`sptops.htm`, lida por colunas; a coluna da liga diz a temporada nos anos de duas ligas) até
+2021 e a artilharia oficial da FPF de 2022 em diante (decisão D-17); 2021 pela FPF e pelo Futebol Nacional (9 gols; a
+RSSSF dá 10). Sem artilheiro: 1927 APEA, 1928 LAF e 1936 LPF, que a lista da RSSSF não traz.
+
+**Rebaixados:** as marcas da RSSSF, menos quem jogou a 1ª divisão no ano seguinte, mais quem jogou a A2 no ano seguinte
+(pacote `bra-sp-2`), conferido com a Wikipédia pt; quem só jogou a repescagem ou o torneio do rebaixamento contra a A2
+é clube da A2 e não cai. 2026 pela Wikipédia pt (Ponte Preta e Velo Clube).
+
+**Observações:** em português; o público e o estádio que a página de 2018 escreve na nota vão para os campos próprios.
+
 **Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela,
 fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` ou nos pacotes
 das Séries C e D e da Copa do Brasil usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.json`).
@@ -63,7 +73,7 @@ como na RSSSF.
 | 1930 | RSSSF + ogol | 14 | 182 (182) | 801 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1931 | RSSSF + ogol | 14 | 182 (182) | 787 | 0 | 0 / 1 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1932 | RSSSF + ogol | 12 | 66 (66) | 322 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1933 | RSSSF + ogol | 8 | 57 (56) | 274 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1933 | RSSSF + ogol | 8 | 56 (56) | 272 | 0 | 1 / 0 | Palmeiras | RSSSF (classificação geral publicada) |
 | 1934 | RSSSF + ogol | 8 | 56 (56) | 219 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1935 LPF | RSSSF + ogol | 7 | 42 (42) | 164 | 0 | 0 / 1 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1935 APEA | RSSSF + ogol | 8 | 56 (58) | 263 | 0 | 0 / 1 | Portuguesa | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -548,13 +558,7 @@ como na RSSSF.
 
 ### 1933
 
-- tabela publicada x jogos — 2º Turno / -: São Paulo tabela [14, 11, 1, 2, 62, 16] jogos [15, 11, 1, 3, 62, 18] — a tabela conta 14 jogos e as fontes trazem 15
-- tabela publicada x jogos — 2º Turno / -: Corinthians tabela [14, 7, 1, 6, 31, 38] jogos [15, 8, 1, 6, 33, 38] — a tabela conta 14 jogos e as fontes trazem 15
 - placar diferente no ogol — São Bento de São Paulo x Portuguesa (1933-10-15): RSSSF 3-5, ogol 3-0; fica o da RSSSF
-- jogo só no ogol, incluído em 1o.TURNO: Palmeiras 5-1 Corinthians (1933-05-07)
-- jogo só no ogol, incluído em 2o.TURNO: Palmeiras 1-1 Portuguesa (1933-09-07)
-- jogo só no ogol, incluído em 2o.TURNO: Corinthians 2-0 São Bento de São Paulo (1933-11-15)
-- só na RSSSF (não achado no ogol): Corinthians 2-0 São Paulo (None)
 
 ### 1934
 
@@ -1918,6 +1922,7 @@ como na RSSSF.
 - tabela publicada x jogos — 2º Turno / -: Ituano tabela [30, 5, 9, 16, 22, 46] jogos [30, 5, 9, 16, 21, 46] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - placar diferente no ogol — Santo André x Portuguesa (1994-05-07): RSSSF 1-3, ogol 1-2; fica o da RSSSF
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 5 jogos (ex.: Santos x Bragantino, ogol 1994-03-15); fica a do ogol
+- Mogi Mirim tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 1995: não caiu (SP-015)
 
 ### 1995
 
@@ -1972,6 +1977,9 @@ como na RSSSF.
 - data corrigida — Portuguesa Santista 2-1 Juventus-SP: sem data -> 1998-02-11: jogo da 1ª fase, rodada 7 [Feb 11,12]; dia pelo FN e o ogol (QS-012)
 - data corrigida — Portuguesa Santista 2-4 Juventus-SP: 1998-02-11 -> 1998-03-22: jogo do torneio do descenso, rodada 2 [Mar 22] na página e no FN (QS-012)
 - 12 jogos da fase "Final" passam para "Torneio de rebaixamento" (FASE_ANO/FASE_JOGO)
+- Araçatuba tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 1999: não caiu (SP-015)
+- Inter de Limeira tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 1999: não caiu (SP-015)
+- Portuguesa Santista tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 1999: não caiu (SP-015)
 
 ### 1999
 
@@ -1982,6 +1990,8 @@ como na RSSSF.
 - Uniao SJ — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Uniao SJ)
 - placar diferente no ogol — Rio Branco-SP x São José-SP (1999-01-31): RSSSF 3-1, ogol 2-1; fica o da RSSSF
 - placar corrigido — Rio Branco-SP 3-1 -> 2-1 São José-SP (1999-01-31): FN e ogol (QS-012)
+- Araçatuba tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 2000: não caiu (SP-015)
+- União São João tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 2000: não caiu (SP-015)
 
 ### 2000
 
@@ -2016,6 +2026,7 @@ como na RSSSF.
 - só na RSSSF (não achado no ogol): Portuguesa Santista 2-2 Francana (2002-06-05)
 - 2 jogos da fase "Fase única" passam para "Repescagem" (FASE_ANO/FASE_JOGO)
 - campeão pela lista oficial, Ituano; o 1º pela soma dos jogos da última fase é Francana (desempate, jogo extra ou pontos tirados fora de campo)
+- Portuguesa Santista tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em 2003: não caiu (SP-015)
 
 ### 2003
 

@@ -5,12 +5,12 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 135, de 1902 a 2026.
-- **Jogos:** 21847; **gols:** 64380; **gols com autor:** 6405 (10%); **cartões:** 0.
-- **Clubes:** 113; **artilheiros:** 13 temporadas com artilheiro (18 linhas, com empates).
+- **Jogos:** 21846; **gols:** 64378; **gols com autor:** 6405 (10%); **cartões:** 0.
+- **Clubes:** 113; **artilheiros:** 132 temporadas com artilheiro (157 linhas, com empates).
 - **Classificação final:** 135 temporadas; **rodada a rodada:** 22 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2801 linhas.
-- **No banco (`db/futebol.db`):** sim (134 edições, 21775 jogos).
-- **Observação da competição:** 1ª divisão paulista, de 1902 a 2025. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
+- **No banco (`db/futebol.db`):** sim (135 edições, 21847 jogos).
+- **Observação da competição:** 1ª divisão paulista, de 1902 a 2026. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
 
 ## 2. Fontes e regras
 
@@ -22,8 +22,8 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF): 218 tabelas fecham com os jogos e 124 divergem (cada divergência é explicada no relatório, na temporada).
-- Temporadas com alguma tabela divergente: 1905, 1906, 1908, 1909, 1910, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1933, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1997, 1999, 2001, 2002, 2003, 2005, 2006, 2010, 2016, 2022, 2024.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF): 219 tabelas fecham com os jogos e 123 divergem (cada divergência é explicada no relatório, na temporada).
+- Temporadas com alguma tabela divergente: 1905, 1906, 1908, 1909, 1910, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1997, 1999, 2001, 2002, 2003, 2005, 2006, 2010, 2016, 2022, 2024.
 - Temporadas sem tabela para conferir: 1940, 1951, 1952, 1953, 1954, 1955, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1971, 1972, 1984, 2014, 2025, 2026.
 - Temporadas com menos jogos do que o ogol: 1913 LPF (20 de 24), 1914 LPF (19 de 32), 1916 APEA (41 de 43), 1927 LAF (45 de 73), 1935 APEA (56 de 58), 1938 (55 de 56), 2009 (196 de 202), 2010 (196 de 202), 2011 (198 de 202), 2012 (198 de 202), 2013 (198 de 202), 2017 (110 de 121), 2018 (110 de 121), 2019 (110 de 121), 2020 (104 de 110), 2021 (104 de 109), 2022 (104 de 109), 2023 (104 de 109).
 
@@ -36,7 +36,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1900s | 223 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1910s | 560 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1920s | 1088 | 100% | 0% | 4% | 0% | 0% | 0% | 0% | 0.0 |
-| 1930s | 1032 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1930s | 1031 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1940s | 1122 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 2593 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 2270 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
@@ -44,10 +44,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1980s | 3739 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 2898 | 100% | 9% | 19% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 1621 | 100% | 73% | 97% | 0% | 0% | 0% | 31% | 0.0 |
-| 2010s | 1594 | 100% | 100% | 93% | 0% | 0% | 0% | 95% | 0.0 |
+| 2010s | 1594 | 100% | 100% | 93% | 1% | 1% | 6% | 95% | 0.0 |
 | 2020s | 696 | 100% | 100% | 76% | 0% | 0% | 0% | 54% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 21444; ogol: 386; Futebol Nacional: 17.
+**Fonte de cada jogo:** RSSSF Brasil: 21446; ogol: 383; Futebol Nacional: 17.
 
 ## 5. Formato ao longo do tempo
 
@@ -222,7 +222,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Acessos:** nenhum marcado no pacote.
 
-**Rebaixamentos:** 83 no total; quem mais teve: Noroeste (4), Guarani (4), Comercial-RP (3), São Bento (3), Mogi Mirim (3), Santo André (3), América-SP (3), Inter de Limeira (3).
+**Rebaixamentos:** 140 no total; quem mais teve: Juventus-SP (5), Ponte Preta (5), XV de Piracicaba (5), Noroeste (5), São Bento (5), Santo André (5), Portuguesa Santista (4), América-SP (4).
 
 **Punições em pontos:**
 
@@ -380,7 +380,7 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 - **sp1930.htm:** letras trocadas por "�" na página
 - **sp1931.htm:** letras trocadas por "�" na página
 - **sp1932.htm:** letras trocadas por "�" na página
-- **sp1933.htm:** letras trocadas por "�" na página
+- **sp1933.htm:** letras trocadas por "�" na página; nome do clube quebrado em duas linhas ("Corinthians 2x0 AA São" / "Bento" virava Corinthians x São Paulo; SP-022)
 - **sp1934.htm:** letras trocadas por "�" na página
 - **sp1935.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada
 - **sp1936.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada

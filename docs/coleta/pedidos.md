@@ -848,3 +848,38 @@ O Guilherme mandou seguir o resto do plano `docs/revisao/plano-coleta-brasil.md`
    - testar_carga: `bra-sp-1: 135 edições, 21847 jogos, 0 clubes novos -> OK`; `bra-sp-2: 80 edições, 9223 jogos -> OK`.
 4. **Pedido ao agente 1:** recarregar o `bra-sp-1`, que ganha a edição de 2026, e o `bra-sp-2`. Se o seletor do site limita os anos, incluir 2026.
 5. **Próximo, parte 3** (`pacote.py`): rebaixados (SP-015), artilheiros pela `sptops.htm` e pela FPF (QS-010, SP-023, SP-024, QS-011) e observações em português (SP-022).
+
+## Correções da revisão — bra-sp-1 — 24/11/2026 (parte 3: pacote.py)
+
+1. **Corrigidos** (em `coleta/bra-sp-1/pacote.py`, com o motivo e a fonte ao lado de cada linha):
+   - **QS-010, SP-023, SP-024 e QS-011 (D-17 a):** artilheiros.
+     - A `sptops.htm` agora é lida por colunas. A coluna da liga diz a temporada nos anos de duas ligas, e nos empates os gols vêm na última linha do grupo.
+     - De 2022 em diante vale a artilharia oficial da FPF (`data/coleta/bra-sp-1/fpf/artilharia_<ano>.json`).
+     - 2021: Bruno Mezenga com 9 gols, porque a FPF e o Futebol Nacional batem contra a RSSSF, que dá 10.
+     - 2019: ficam os 4 empatados com 7, porque a RSSSF e o FN batem; a FPF só dá o Jean Mota.
+     - Agora são 132 edições com artilheiro (eram 13). Ficam sem: 1927 APEA, 1928 LAF e 1936 LPF, que a lista da RSSSF não traz.
+   - **SP-015:** rebaixados, pela soma de três coisas:
+     - as marcas da RSSSF, menos quem jogou a 1ª divisão no ano seguinte (saem 1994 Mogi Mirim; 1998 Inter de Limeira, Portuguesa Santista e Araçatuba; 1999 Araçatuba e União São João; 2002 Portuguesa Santista);
+     - quem jogou a A2 no ano seguinte, pelo pacote `bra-sp-2`;
+     - os casos à mão: 1959 Comercial Paulistano, 2026 Ponte Preta e Velo Clube (Wikipédia pt), e o Red Bull Brasil de 2019, que não caiu (fusão com o Bragantino).
+
+     Quem só jogou a repescagem ou o torneio do rebaixamento contra a A2 é da A2 e não cai.
+     - Entram 2014 a 2025, como no achado, e os anos antigos sem marca: 1952-1954, 1959-1961, 1963-1965, 1975, 1978, 1984, 1993 (14 clubes para a A2 de 1994), 1995 (XV de Piracicaba), 1996 e 2006 (Portuguesa Santista).
+     - Conferido com a Wikipédia pt nos anos em que ela traz os rebaixados. As páginas usadas ficam em `data/coleta/bra-sp-1/wikipedia/pt_<ano>.txt`.
+   - **SP-022:** observações em português (`observacao()`; o tradutor comum quebrava as notas no ";" de dentro dos parênteses).
+     - Saem o "*" de 1940 e as notas de pênaltis, que estão nos campos próprios.
+     - As dúvidas da página viram "placar em dúvida na página (2-0?)" e "data em dúvida na página (19/Mar?)".
+     - As notas de 1984 e 1986, que vinham coladas com linhas de outros jogos, foram reescritas.
+     - Em 2018, o público de 101 jogos e o estádio de 14 saem da nota para os campos `publico`, `estadio` e `cidade`.
+   - **Jogo falso de 1933** (do SP-022, "jogo sem data"): a página quebra "AA São" / "Bento" em duas linhas, e o leitor via Corinthians 2-0 São Paulo. Com a linha junta (`rsssf_sp1.py`), 1933 fica com 56 jogos, e a tabela da RSSSF fecha.
+2. **Números:**
+   - 135 edições e 21.846 jogos.
+   - Tabelas: 219 fecham e 123 divergem (eram 218 e 124).
+   - A A2 não muda.
+   - testar_carga: `bra-sp-1: 135 edições, 21846 jogos, 0 clubes novos -> OK`.
+3. **Pedido ao agente 1:** recarregar o `bra-sp-1` (rebaixados, artilheiros, observações e público de 2018).
+4. **Próximo, parte 4 (pódio):**
+   - os 3º lugares que sobram, quase todos empates em pontos: 1908, 1917, 1927 LAF, 1928 LAF, 1930, 1954, 1959, 1971, 1978, 1990 e 2008 (SP-003, SP-017);
+   - a identidade da AA São Bento de 1933 e do CA Paulista de 1935 (SP-026, SP-027, D-23).
+
+   Depois: A2, C, D e Copa.

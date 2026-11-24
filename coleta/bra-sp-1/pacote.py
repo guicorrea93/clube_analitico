@@ -72,7 +72,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     (PACOTE / "competicao.json").write_text(json.dumps({
         "slug": SLUG, "nome": "Campeonato Paulista", "nome_curto": "Paulista", "tipo": "estadual", "nivel": 1, "pais": "BRA",
         "regiao": "SP", "confederacao": "CONMEBOL",
-        "observacao": "1ª divisão paulista, de 1902 a 2025. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio "
+        "observacao": "1ª divisão paulista, de 1902 a 2026. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio "
                       "reconhecido pela federação é uma edição (\"1913 LPF\", \"1913 APEA\").",
         "rotulo_painel": "Paulista", "menu_painel": "Paulista", "do_painel": "do Paulistão", "o_painel": "o Paulistão"},
         ensure_ascii=False, indent=1), encoding="utf-8")
@@ -82,8 +82,13 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     nomes_fonte: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
     usados: set[str] = set()
     artilheiros_rsssf = artilheiros()
+    a2 = participantes_a2()
+    a1: dict[int, set[str]] = defaultdict(set)
+    for ano, e in edicoes.items():
+        a1[int(str(ano)[:4])] |= {nome(x) for p in e["partidas"] for x in (p.mandante, p.visitante) if p.fase != "Repescagem"}
     for ano, e in edicoes.items():
         ps = e["partidas"]
+        e["rebaixados"] = rebaixados(ano, e, a1, a2, log)
         for n, cid in e["mapa"].items():
             nomes_fonte[cid][f"rsssf:{n[0] if isinstance(n, tuple) else n}"].append(ano)
         for o in e["og"]:
@@ -110,21 +115,22 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         for k, p in enumerate(ordem_jogo, 1):
             pid = f"{ano}-{k:04d}"
             usados |= {p.mandante, p.visitante}
+            obs = observacao(p, log)   # antes da linha: tira o público e o estádio da nota (2018)
             linhas_p.append([pid, str(ano), p.fase, p.grupo, p.rodada, p.data, p.hora, nome(p.mandante), nome(p.visitante), p.gm, p.gv,
                              p.pen_m, p.pen_v, normalizar_especial(p.especial), p.estadio, p.cidade, p.publico, fonte_curta(p.fonte),
-                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", p.obs.strip("; ")])
+                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", obs])
             for g in p.gols:
                 linhas_g.append([pid, nome(p.mandante if g["lado"] == "mandante" else p.visitante), g["jogador"], g["minuto"],
                                  g["acrescimo"], g["tipo"], g["fonte"]])
         # classificação final
         final = e["final"]
         campeao = e["campeao"]
-        rebaixados = rebaixados_rsssf(e)   # marcas "Relegated" das tabelas da RSSSF
+        caidos = e["rebaixados"]
         ib = infobox(ano)
         subiram: set = set()   # 1ª divisão: acesso é de quem vem da A2 (fica para o pacote bra-sp-2)
         for f in final:
             c = f["clube"]
-            sit = "campeao" if c == campeao else "acesso" if nome(c) in subiram else "rebaixado" if c in rebaixados else ""
+            sit = "campeao" if c == campeao else "acesso" if nome(c) in subiram else "rebaixado" if c in caidos else ""
             if f["pos"] == 2 and sit == "" and len(final) > 1 and campeao:
                 sit = "vice"
             linhas_cf.append([str(ano), f["pos"], nome(c), f["j"], f["v"], f["e"], f["d"], f["gp"], f["gc"], f["pts"], f["ajuste"] or 0, sit,
@@ -136,8 +142,16 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                 linhas_tp.append([str(ano), tb.fase, tb.grupo, r["pos"], r["nome"], nome(c) if c else "", r["j"], r["v"], r["e"], r["d"],
                                   r["gp"], r["gc"], r["pts"], FONTE_RSSSF.format(ano=ano)])
         # artilheiros
-        lista = artilheiros_rsssf.get(ano)
-        if lista:
+        lista = artilheiros_rsssf.get(str(ano))
+        if int(str(ano)[:4]) >= ARTILHARIA_FPF_DESDE and artilheiros_fpf(ano):
+            for jog, clube_txt, n in artilheiros_fpf(ano):
+                linhas_art.append([str(ano), NOME_ARTILHEIRO_FPF.get(jog, jog), clube_fpf(clube_txt, ps), n,
+                                   "FPF (artilharia oficial)"])
+        elif str(ano) in ARTILHEIRO_CORRIGIDO:
+            lista, fonte = ARTILHEIRO_CORRIGIDO[str(ano)]
+            for jog, clube_txt, n in lista:
+                linhas_art.append([str(ano), jog, clube_txt, n, fonte])
+        elif lista:
             for jog, clube_txt, n in lista:
                 linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (sptops.htm)"])
         elif ib["artilheiros"]:
@@ -222,7 +236,7 @@ def classificacao_rodada(temporada: str, fase: str, ps: list, e: dict, ultima: b
         return []
     pv = pontos_vitoria(temporada)
     clubes = sorted({x for p in ps for x in (p.mandante, p.visitante)})
-    caidos = len(rebaixados_rsssf(e) & set(clubes)) if set(clubes) >= todos else 0
+    caidos = len(e["rebaixados"] & set(clubes)) if set(clubes) >= todos else 0
     saida = []
     for r in range(1, max(p.rodada for p in ps) + 1):
         camp = {c: [0] * 6 for c in clubes}
@@ -238,6 +252,86 @@ def classificacao_rodada(temporada: str, fase: str, ps: list, e: dict, ultima: b
             zona = "titulo" if pos == 1 and ultima else "rebaixamento" if caidos and pos > len(ordem) - caidos else "meio"
             saida.append([temporada, fase, r, nome(c), pos, pts[c], *camp[c], zona])
     return saida
+
+
+MESES_EN = {m: i for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split(), 1)}
+# notas da RSSSF em inglês -> português (achado SP-022); regex do pedaço inteiro, sem diferença de maiúsculas
+TRADUCOES: list[tuple[str, object]] = [
+    (r"awarded (\d+-\d+), or[i]?ginally (\d+-\d+), Port\..*used an ineligible player",
+     r"resultado \1 dado no tribunal (o jogo terminou \2; a Portuguesa escalou jogador irregular)"),
+    (r"awarded (\d+-\d+) to (.+)", r"resultado \1 dado ao \2"),
+    (r"victory awarded to (.+)", r"vitória dada ao \1"),
+    (r"points awarded to (.+?), or[i]?ginally (\d+-\d+)", r"pontos dados ao \1 (o jogo terminou \2)"),
+    (r"Due to irregularities in the sale of entrance tickets, the team of AA Palmeiras was eliminated from the championship\.?",
+     "a AA das Palmeiras foi eliminada do campeonato por irregularidades na venda de ingressos"),
+    (r"After this match, Internacional were eliminated from the championship, due to aggressiveness of a part of its "
+     r"players towards the referee\.?", "depois deste jogo o Internacional foi eliminado do campeonato pela agressão de "
+                                         "jogadores ao árbitro"),
+    (r"After this match, AA Palmeiras withdrew from the championship, due to disagreement with certain irregularities "
+     r"during this match\.?", "depois deste jogo a AA das Palmeiras desistiu do campeonato, em desacordo com irregularidades "
+                              "na partida"),
+    (r"(.+?) used ineligible player (.+)", r"o \1 escalou jogador irregular (\2)"),
+    (r"match suspended and awarded (\d+-\d+)", r"jogo suspenso; resultado \1 dado no tribunal"),
+    (r"(\d+-\d+)\?", r"placar em dúvida na página (\1?)"),
+    (r"(\d{1,2}/\w{3})\?", r"data em dúvida na página (\1?)"),
+    (r"(?:match )?postponed from (\d)º Turno", r"jogo adiado do \1º turno"),
+    (r"postponed to (\w{3}) (\d{1,2})", lambda m: f"adiado para {int(m[2]):02d}/{MESES_EN[m[1].lower()]:02d}"),
+    (r"(?:extra-time:|aet) (\d+-\d+)", r"prorrogação \1"),
+    (r"(?:abandoned|abd) at (\d+-\d+) in (\d+)'", r"abandonado aos \2 min com \1"),
+    (r"result stands", "resultado mantido"),
+    (r"abandoned at halftime due to heavy rain", "abandonado no intervalo por causa de chuva forte"),
+    (r"replay", "jogo refeito"),
+    (r"(.+?) qualified on better season record", r"\1 classificado pela melhor campanha"),
+    (r"1st leg in (.+)", r"jogo de ida em \1"),
+    (r"both legs in (.+)", r"os dois jogos em \1"),
+    (r"played at Estadio (.+?), in (.+)", r"jogo no estádio \1, em \2"),
+    (r"(?:match )?played in (.+)", r"jogo em \1"),
+    (r"Concluded on (\w{3})\w* (\d{1,2}), (\d{4})", lambda m: f"concluído em {int(m[2]):02d}/{MESES_EN[m[1].lower()]:02d}/{m[3]}"),
+]
+
+
+def _pedacos(t: str) -> list[str]:
+    """Separa a nota no ";" (e nos colchetes da RSSSF) só fora de parênteses."""
+    t = re.sub(r"\]\s*\[|\]", ";", t)
+    saida, nivel, atual = [], 0, ""
+    for ch in t:
+        nivel += (ch == "(") - (ch == ")")
+        if ch == ";" and nivel <= 0:
+            saida.append(atual); atual = ""
+        else:
+            atual += ch
+    return [x.strip(" [") for x in saida + [atual]]
+
+
+def observacao(p, log: list[str]) -> str:
+    """Observação do jogo em português (achado SP-022). Antes: o público e o estádio que a página de 2018 escreve na nota
+    ("Att.: 20,960] - Pacaembu, São Paulo") vão para os campos próprios; pênaltis saem (estão nos campos próprios)."""
+    t = p.obs or ""
+    m = re.search(r"Att\.:\s*([\d,.]+)\]?(?:\s*-\s*([^,;\]]+?),\s*([^;\]]+?))?\s*(?=;|$)", t)
+    if m:
+        if p.publico is None:
+            p.publico = int(re.sub(r"\D", "", m[1]))
+        if m[2] and not p.estadio:
+            p.estadio, p.cidade = m[2].strip(), m[3].strip()
+        t = t[:m.start()] + t[m.end():]
+    nossa = "pontos dados ao" in t   # nota de PONTOS_FORA_DE_CAMPO (importar.py): a da RSSSF sobre os pontos sai
+    partes = []
+    for x in _pedacos(t):
+        if x.startswith("(") and x.endswith(")") and x.count("(") == 1:
+            x = x[1:-1].strip()
+        if not x or x == "*" or re.fullmatch(r"\d+", x) or re.fullmatch(r"pen\w*\.?:?\s*\d+-\d+", x, re.I):
+            continue
+        if nossa and re.match(r"points awarded to", x, re.I):
+            continue
+        for padrao, troca in TRADUCOES:
+            if re.fullmatch(padrao, x, re.I):
+                x = re.sub(padrao, troca, x, flags=re.I)
+                break
+        if re.search(r"\b(the|was|were|after|match|awarded|played|postponed|due)\b", x, re.I):
+            log.append(f"{p.ano}: observação ainda em inglês: {x}")
+        if x not in partes:
+            partes.append(x)
+    return "; ".join(partes)
 
 
 def normalizar_especial(e: str) -> str:
@@ -259,6 +353,61 @@ def formato(desenho: list[str]) -> str:
     return " + ".join(saida)
 
 
+# rebaixados sem a A2 do ano seguinte para conferir: temporada -> (clubes, fonte)
+REBAIXADOS_MANUAL: dict[str, tuple[list[str], str]] = {
+    "2026": (["Ponte Preta", "Velo Clube"], "infobox da Wikipédia pt (data/coleta/bra-sp-1/wikipedia/pt_2026.txt); a A2 de 2027 "
+                                            "ainda não existe"),
+}
+# clube que foi para a A2 no ano seguinte sem cair em campo: (temporada, clube) -> motivo
+NAO_REBAIXADO: dict[tuple[str, str], str] = {
+    ("2019", "Red Bull Bragantino II"): "o Red Bull Brasil cedeu a vaga na 1ª divisão ao Bragantino (fusão) e foi para a A2; "
+                                        "os rebaixados de 2019 são São Bento e São Caetano (Wikipédia pt; SP-015)",
+}
+
+
+# rebaixado que não aparece na A2 do ano seguinte: (temporada, clube) -> fonte
+REBAIXADO_EXTRA: dict[tuple[str, str], str] = {
+    ("1959", "Comercial Paulistano"): "Wikipédia pt (infobox: XV de Jaú, Nacional e Comercial); não jogou a A2 de 1960",
+}
+
+
+def participantes_a2() -> dict[int, set[str]]:
+    """Ano -> clubes (nome de exibição) da A2, pelo pacote bra-sp-2 (que usa o mesmo cadastro de nomes)."""
+    saida: dict[int, set[str]] = defaultdict(set)
+    f = RAIZ / "data" / "coleta" / "bra-sp-2" / "pacote" / "classificacao_final.csv"
+    for r in csv.DictReader(open(f, encoding="utf-8")):
+        saida[int(r["temporada"][:4])].add(r["clube"])
+    return saida
+
+
+def rebaixados(ano, e: dict, a1: dict[int, set[str]], a2: dict[int, set[str]], log: list[str]) -> set[str]:
+    """Rebaixados da temporada (achado SP-015): as marcas "Relegated" das tabelas da RSSSF, menos quem jogou a 1ª divisão
+    no ano seguinte (1994, 1998, 1999, 2002), mais quem jogou a A2 no ano seguinte e não a 1ª (2014-2025, anos antigos sem
+    marca, 1995 XV de Piracicaba, 2006 Portuguesa Santista; conferido com a Wikipédia pt), menos NAO_REBAIXADO, mais
+    REBAIXADO_EXTRA; REBAIXADOS_MANUAL quando não há A2 seguinte. Clube que só jogou a repescagem ou o torneio do
+    rebaixamento contra a A2 é da A2 e não cai (1979 Santo André, 1980 Catanduvense, 2002 Francana)."""
+    t, y = str(ano), int(str(ano)[:4])
+    ids = {x for p in e["partidas"] for x in (p.mandante, p.visitante)}
+    da_a2 = {c for c in ids if all(p.fase in ("Repescagem", "Torneio de rebaixamento")
+                                   for p in e["partidas"] if c in (p.mandante, p.visitante))}
+    if t in REBAIXADOS_MANUAL:
+        nomes, fonte = REBAIXADOS_MANUAL[t]
+        saida = {c for c in ids if nome(c) in nomes}
+        if len(saida) != len(nomes):
+            raise ValueError(f"{t}: rebaixado manual fora da edição: {nomes}")
+        return saida
+    seguinte = a1.get(y + 1, set())
+    marcas = rebaixados_rsssf(e)
+    for c in sorted(marcas, key=nome):
+        if nome(c) in seguinte:
+            log.append(f"{t}: {nome(c)} tem a marca de rebaixado na RSSSF, mas jogou a 1ª divisão em {y + 1}: não caiu (SP-015)")
+    saida = {c for c in marcas if nome(c) not in seguinte}
+    if y + 1 in a2:
+        saida |= {c for c in ids if nome(c) in a2[y + 1] and nome(c) not in seguinte and (t, nome(c)) not in NAO_REBAIXADO}
+    saida |= {c for c in ids if (t, nome(c)) in REBAIXADO_EXTRA}
+    return saida - da_a2
+
+
 def rebaixados_rsssf(e: dict) -> set[str]:
     saida = set()
     for tb, linhas, nome_id in e["tabs"]:
@@ -269,26 +418,67 @@ def rebaixados_rsssf(e: dict) -> set[str]:
     return saida
 
 
-def artilheiros() -> dict[int, list[tuple[str, str, int]]]:
-    """sptops.htm: ano -> [(jogador, clube como está na página, gols)]. Empate: nomes em linhas seguidas, gols na última."""
+# liga da coluna da sptops.htm -> liga da temporada nos anos de duas ligas
+LIGA_SPTOPS = {"LPFB": "LPF", "APEA": "APEA", "LAFB": "LAF", "LFESP": "LPF", "FPF": ""}
+# de 2022 em diante a lista é a da FPF (a sptops.htm parou em 2021; decisão D-17 a)
+ARTILHARIA_FPF_DESDE = 2022
+
+
+def artilheiros() -> dict[str, list[tuple[str, str, int]]]:
+    """sptops.htm, em colunas ("1902    Charles Miller    São Paulo AC    10    LPFB"): temporada -> [(jogador, clube
+    como está na página, gols)]. Empate: um nome por linha, e os gols (e às vezes a liga) só na última linha do grupo.
+    A coluna da liga diz a temporada nos anos de duas ligas (achado QS-010)."""
+    from edicoes import LIGAS
     t = rsssf.texto(0, "sptops.htm")
-    saida: dict[int, list] = {}
-    ano, grupo = None, []
+    saida: dict[str, list] = {}
+    ano, pendentes = None, []
     for l in t.splitlines():
-        m = re.match(r"^(\d{4})\s+(.*)$", l)
-        if m:
-            ano, grupo, resto = int(m.group(1)), [], m.group(2)
-        elif ano and re.match(r"^\s{3,}\S", l):
-            resto = l.strip()
-        else:
+        m = re.match(r"^(?:(\d{4})|\s{4,})\s+(\S.*?)\s*$", l)
+        if not m:
             continue
-        x = re.match(r"^(.+?)\s+\((.+?)\)\s*(\d+)?", resto.strip())
-        if not x:
+        if m.group(1):
+            ano, pendentes = int(m.group(1)), []
+        if ano is None:
             continue
-        grupo.append((x.group(1).strip(), x.group(2).strip()))
-        if x.group(3):
-            saida[ano] = [(j, c, int(x.group(3))) for j, c in grupo]
+        cols = re.split(r"\s{2,}", m.group(2))
+        liga = cols.pop() if cols[-1] in LIGA_SPTOPS else None
+        gols = int(cols.pop()) if cols[-1].isdigit() else None
+        if len(cols) != 2:
+            continue
+        pendentes.append(tuple(cols))
+        if gols is None:
+            continue
+        sigla = LIGA_SPTOPS[liga or "FPF"]
+        temporada = f"{ano} {sigla}" if ano in LIGAS and sigla in LIGAS[ano] else str(ano)
+        saida.setdefault(temporada, []).extend((j, c, gols) for j, c in pendentes)
+        pendentes = []
     return saida
+
+
+# apelido da FPF -> nome pelo qual o jogador é conhecido
+NOME_ARTILHEIRO_FPF = {"Roger": "Róger Guedes", "Lopez": "Flaco López"}
+# artilheiro em que a FPF e o Futebol Nacional batem entre si contra a sptops.htm: temporada -> (lista, fonte)
+ARTILHEIRO_CORRIGIDO: dict[str, tuple[list[tuple[str, str, int]], str]] = {
+    "2021": ([("Bruno Mezenga", "Ferroviária-SP", 9)], "FPF e Futebol Nacional: 9 gols (a sptops.htm dá 10; achado SP-024)"),
+}
+
+
+def clube_fpf(txt: str, ps: list) -> str:
+    """Clube da edição com o nome popular de hoje da FPF ("Grêmio Novorizontino") -> nome de exibição."""
+    for c in {x for p in ps for x in (p.mandante, p.visitante)}:
+        if fpf_sp1.chave(nome(c)) == fpf_sp1.chave(txt):
+            return nome(c)
+    return casar_clube_texto(txt, ps)
+
+
+def artilheiros_fpf(ano) -> list[tuple[str, str, int]]:
+    """Artilharia oficial da FPF (data/coleta/bra-sp-1/fpf/artilharia_{ano}.json, de baixar_fpf.py): os de mais gols."""
+    f = PASTA_DADOS / "fpf" / f"artilharia_{ano}.json"
+    lista = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
+    if not lista:
+        return []
+    topo = max(x["Gols"] for x in lista)
+    return [(x["AtletaApelido"].strip(), x["ClubeNomePopular"], x["Gols"]) for x in lista if x["Gols"] == topo]
 
 
 def casar_clube_texto(txt: str, ps: list, mapa: dict | None = None) -> str:

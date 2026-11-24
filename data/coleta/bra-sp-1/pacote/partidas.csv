@@ -80,7 +80,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1905-0006,1905,Fase única,,,1905-06-04,,SC Internacional-SP,Germânia,1,1,,,,,,,RSSSF Brasil,ogol:2683967,,
 1905-0007,1905,Fase única,,,1905-06-18,,SC Internacional-SP,São Paulo Athletic,2,1,,,,,,,RSSSF Brasil,ogol:2683968,,
 1905-0008,1905,Fase única,,,1905-06-22,,Mackenzie-SP,AA das Palmeiras,6,0,,,,,,,RSSSF Brasil,ogol:2683969,,
-1905-0009,1905,Fase única,,,1905-06-29,,Paulistano-SP,AA das Palmeiras,0,0,,,awd,,,,RSSSF Brasil,ogol:2683970,,awarded 0-0 to Paulistano
+1905-0009,1905,Fase única,,,1905-06-29,,Paulistano-SP,AA das Palmeiras,0,0,,,awd,,,,RSSSF Brasil,ogol:2683970,,resultado 0-0 dado ao Paulistano
 1905-0010,1905,Fase única,,,1905-07-01,,Mackenzie-SP,São Paulo Athletic,3,5,,,,,,,RSSSF Brasil,ogol:2683971,,
 1905-0011,1905,Fase única,,,1905-07-02,,Germânia,São Paulo Athletic,6,0,,,,,,,RSSSF Brasil,ogol:2683972,,
 1905-0012,1905,Fase única,,,1905-07-09,,Germânia,AA das Palmeiras,2,1,,,,,,,RSSSF Brasil,ogol:2683973,,
@@ -129,7 +129,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1906-0025,1906,Fase única,,,1906-09-09,,Mackenzie-SP,AA das Palmeiras,,,,,awd,,,,Futebol Nacional,fn,,pontos dados ao AA das Palmeiras fora de campo: o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
 1906-0026,1906,Fase única,,,1906-09-09,,Mackenzie-SP,Paulistano-SP,,,,,awd,,,,Futebol Nacional,fn,,pontos dados ao Paulistano-SP fora de campo: o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
 1906-0027,1906,Fase única,,,1906-09-09,,Mackenzie-SP,Germânia,,,,,awd,,,,Futebol Nacional,fn,,pontos dados ao Germânia fora de campo: o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
-1906-0028,1906,Fase única,,,1906-09-30,,SC Internacional-SP,AA das Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:2686492,,"Due to irregularities in the sale of entrance tickets, the team of AA Palmeiras was eliminated from the championship."
+1906-0028,1906,Fase única,,,1906-09-30,,SC Internacional-SP,AA das Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:2686492,,a AA das Palmeiras foi eliminada do campeonato por irregularidades na venda de ingressos
 1906-0029,1906,Fase única,,,1906-10-07,,Paulistano-SP,SC Internacional-SP,1,3,,,,,,,RSSSF Brasil,ogol:2686493,,
 1907-0001,1907,Fase única,,,1907-05-03,,São Paulo Athletic,Germânia,4,0,,,,,,,RSSSF Brasil,ogol:2685893,,
 1907-0002,1907,Fase única,,,1907-05-12,,SC Internacional-SP,Americano-SP,1,1,,,,,,,RSSSF Brasil,ogol:2685894,,
@@ -173,19 +173,19 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1908-0010,1908,Fase única,,,1908-06-29,,Germânia,São Paulo Athletic,2,0,,,,,,,RSSSF Brasil,ogol:2687163,,
 1908-0011,1908,Fase única,,,1908-07-12,,CA Internacional-SP,SC Internacional-SP,0,5,,,,,,,RSSSF Brasil,ogol:2687164,,
 1908-0012,1908,Fase única,,,1908-07-19,,Germânia,CA Internacional-SP,2,0,,,,,,,RSSSF Brasil,ogol:2687165,,
-1908-0013,1908,Fase única,,,1908-07-26,,Americano-SP,São Paulo Athletic,,,,,awd,,,,RSSSF Brasil,ogol:2687166,,victory awarded to Americano
-1908-0014,1908,Fase única,,,1908-08-02,,CA Internacional-SP,Paulistano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687167,,victory awarded to Paulistano
+1908-0013,1908,Fase única,,,1908-07-26,,Americano-SP,São Paulo Athletic,,,,,awd,,,,RSSSF Brasil,ogol:2687166,,vitória dada ao Americano
+1908-0014,1908,Fase única,,,1908-08-02,,CA Internacional-SP,Paulistano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687167,,vitória dada ao Paulistano
 1908-0015,1908,Fase única,,,1908-08-09,,SC Internacional-SP,Paulistano-SP,2,2,,,,,,,RSSSF Brasil,ogol:2687168,,
-1908-0016,1908,Fase única,,,1908-08-15,,CA Internacional-SP,São Paulo Athletic,,,,,awd,,,,RSSSF Brasil,ogol:2687169,,victory awarded to São Paulo AC
+1908-0016,1908,Fase única,,,1908-08-15,,CA Internacional-SP,São Paulo Athletic,,,,,awd,,,,RSSSF Brasil,ogol:2687169,,vitória dada ao São Paulo AC
 1908-0017,1908,Fase única,,,1908-08-23,,Americano-SP,SC Internacional-SP,1,0,,,,,,,RSSSF Brasil,ogol:2687170,,
 1908-0018,1908,Fase única,,,1908-08-30,,Paulistano-SP,Germânia,2,1,,,,,,,RSSSF Brasil,ogol:2687171,,
 1908-0019,1908,Fase única,,,1908-09-07,,São Paulo Athletic,SC Internacional-SP,1,4,,,,,,,RSSSF Brasil,ogol:2687172,,
 1908-0020,1908,Fase única,,,1908-09-08,,São Paulo Athletic,Paulistano-SP,3,9,,,,,,,RSSSF Brasil,ogol:2687173,,
-1908-0021,1908,Fase única,,,1908-09-13,,São Paulo Athletic,Americano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687174,,victory awarded to Americano
-1908-0022,1908,Fase única,,,1908-09-20,,SC Internacional-SP,CA Internacional-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687175,,victory awarded to Inter/SP
+1908-0021,1908,Fase única,,,1908-09-13,,São Paulo Athletic,Americano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687174,,vitória dada ao Americano
+1908-0022,1908,Fase única,,,1908-09-20,,SC Internacional-SP,CA Internacional-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687175,,vitória dada ao Inter/SP
 1908-0023,1908,Fase única,,,1908-09-27,,Germânia,Paulistano-SP,1,1,,,,,,,RSSSF Brasil,ogol:2687176,,
 1908-0024,1908,Fase única,,,1908-10-04,,Germânia,SC Internacional-SP,2,0,,,,,,,RSSSF Brasil,ogol:2687177,,
-1908-0025,1908,Fase única,,,1908-10-12,,CA Internacional-SP,Americano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687178,,victory awarded to Americano
+1908-0025,1908,Fase única,,,1908-10-12,,CA Internacional-SP,Americano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687178,,vitória dada ao Americano
 1908-0026,1908,Fase única,,,1908-10-18,,CA Internacional-SP,Germânia,0,1,,,,,,,RSSSF Brasil,ogol:2687179,,
 1908-0027,1908,Fase única,,,1908-10-25,,SC Internacional-SP,Americano-SP,2,2,,,,,,,RSSSF Brasil,ogol:2687180,,
 1908-0028,1908,Fase única,,,1908-11-02,,São Paulo Athletic,Germânia,0,7,,,,,,,RSSSF Brasil,ogol:2687181,,
@@ -212,15 +212,15 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1909-0019,1909,Fase única,,,1909-09-19,,Americano-SP,Germânia,1,1,,,,,,,RSSSF Brasil,ogol:2687141,,
 1909-0020,1909,Fase única,,,1909-09-26,,AA das Palmeiras,SC Internacional-SP,4,0,,,,,,,RSSSF Brasil,ogol:2687142,,
 1909-0021,1909,Fase única,,,1909-10-03,,Paulistano-SP,SC Internacional-SP,1,1,,,,,,,RSSSF Brasil,ogol:2687143,,
-1909-0022,1909,Fase única,,,1909-10-10,,Germânia,AA das Palmeiras,,,,,awd,,,,RSSSF Brasil,ogol:2687144,,victory awarded to AA Palmeiras
-1909-0023,1909,Fase única,,,1909-10-17,,Germânia,SC Internacional-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687145,,victory awarded to Internacional
+1909-0022,1909,Fase única,,,1909-10-10,,Germânia,AA das Palmeiras,,,,,awd,,,,RSSSF Brasil,ogol:2687144,,vitória dada ao AA Palmeiras
+1909-0023,1909,Fase única,,,1909-10-17,,Germânia,SC Internacional-SP,,,,,awd,,,,RSSSF Brasil,ogol:2687145,,vitória dada ao Internacional
 1909-0024,1909,Fase única,,,1909-10-23,,Paulistano-SP,São Paulo Athletic,1,1,,,,,,,RSSSF Brasil,ogol:2687146,,
 1909-0025,1909,Fase única,,,1909-10-31,,SC Internacional-SP,Paulistano-SP,2,5,,,,,,,RSSSF Brasil,ogol:2687147,,
 1909-0026,1909,Fase única,,,1909-11-01,,São Paulo Athletic,Americano-SP,2,3,,,,,,,RSSSF Brasil,ogol:2687148,,
 1909-0027,1909,Fase única,,,1909-11-07,,Paulistano-SP,Americano-SP,1,1,,,,,,,RSSSF Brasil,ogol:2687149,,
 1909-0028,1909,Fase única,,,1909-11-13,,São Paulo Athletic,Paulistano-SP,2,4,,,,,,,RSSSF Brasil,ogol:2687150,,
 1909-0029,1909,Fase única,,,1909-11-15,,São Paulo Athletic,SC Internacional-SP,0,4,,,,,,,RSSSF Brasil,ogol:2687151,,
-1909-0030,1909,Fase única,,,1909-11-21,,Americano-SP,SC Internacional-SP,1,1,,,,,,,RSSSF Brasil,ogol:2687152,,"After this match, Internacional were eliminated from the championship, due to aggressiveness of a part of its players towards the referee."
+1909-0030,1909,Fase única,,,1909-11-21,,Americano-SP,SC Internacional-SP,1,1,,,,,,,RSSSF Brasil,ogol:2687152,,depois deste jogo o Internacional foi eliminado do campeonato pela agressão de jogadores ao árbitro
 1909-0031,1909,Fase única,,,1909-12-05,,AA das Palmeiras,Paulistano-SP,2,1,,,,,,,RSSSF Brasil,ogol:2687153,,
 1910-0001,1910,Fase única,,,1910-05-03,,AA das Palmeiras,Ypiranga-SP,4,1,,,,,,,RSSSF Brasil,ogol:2683819,,
 1910-0002,1910,Fase única,,,1910-05-15,,São Paulo Athletic,Ypiranga-SP,2,1,,,,,,,RSSSF Brasil,ogol:2683820,,
@@ -231,7 +231,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1910-0007,1910,Fase única,,,1910-06-19,,Americano-SP,Ypiranga-SP,4,0,,,,,,,RSSSF Brasil,ogol:2683825,,
 1910-0008,1910,Fase única,,,1910-06-26,,Paulistano-SP,Germânia,2,1,,,,,,,RSSSF Brasil,ogol:2683826,,
 1910-0009,1910,Fase única,,,1910-07-03,,São Paulo Athletic,Germânia,6,1,,,,,,,RSSSF Brasil,ogol:2683827,,
-1910-0010,1910,Fase única,,,1910-07-10,,Paulistano-SP,Americano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2683828,,"points awarded to Americano, orginally 2-1"
+1910-0010,1910,Fase única,,,1910-07-10,,Paulistano-SP,Americano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2683828,,pontos dados ao Americano (o jogo terminou 2-1)
 1910-0011,1910,Fase única,,,1910-07-17,,AA das Palmeiras,Germânia,6,2,,,,,,,RSSSF Brasil,ogol:2683829,,
 1910-0012,1910,Fase única,,,1910-07-24,,Americano-SP,Germânia,4,2,,,,,,,RSSSF Brasil,ogol:2683830,,
 1910-0013,1910,Fase única,,,1910-07-31,,Paulistano-SP,AA das Palmeiras,2,1,,,,,,,RSSSF Brasil,ogol:2683831,,
@@ -249,7 +249,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1910-0025,1910,Fase única,,,1910-10-23,,Ypiranga-SP,Germânia,1,0,,,,,,,RSSSF Brasil,ogol:2683843,,
 1910-0026,1910,Fase única,,,1910-10-30,,Ypiranga-SP,Americano-SP,2,4,,,,,,,RSSSF Brasil,ogol:2683844,,
 1910-0027,1910,Fase única,,,1910-11-01,,São Paulo Athletic,Paulistano-SP,3,2,,,,,,,RSSSF Brasil,ogol:2683845,,
-1910-0028,1910,Fase única,,,1910-11-06,,Germânia,Paulistano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2683846,,victory awarded to Germânia
+1910-0028,1910,Fase única,,,1910-11-06,,Germânia,Paulistano-SP,,,,,awd,,,,RSSSF Brasil,ogol:2683846,,vitória dada ao Germânia
 1910-0029,1910,Fase única,,,1910-11-13,,Germânia,Ypiranga-SP,2,2,,,,,,,RSSSF Brasil,ogol:2683847,,
 1910-0030,1910,Fase única,,,1910-11-20,,Ypiranga-SP,São Paulo Athletic,1,2,,,,,,,RSSSF Brasil,ogol:2683848,,
 1911-0001,1911,Fase única,,,1911-05-03,,AA das Palmeiras,Ypiranga-SP,6,1,,,,,,,RSSSF Brasil,ogol:2683849,,
@@ -265,7 +265,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1911-0011,1911,Fase única,,,1911-07-02,,Paulistano-SP,Germânia,3,0,,,,,,,RSSSF Brasil,ogol:2683859,,
 1911-0012,1911,Fase única,,,1911-07-09,,Ypiranga-SP,Americano-SP,2,7,,,,,,,RSSSF Brasil,ogol:2683860,,
 1911-0013,1911,Fase única,,,1911-07-14,,Paulistano-SP,Ypiranga-SP,2,2,,,,,,,RSSSF Brasil,ogol:2683861,,
-1911-0014,1911,Fase única,,,1911-07-16,,Germânia,AA das Palmeiras,4,3,,,,,,,RSSSF Brasil,ogol:2683862,,"After this match, AA Palmeiras withdrew from the championship, due to disagreement with certain irregularities during this match."
+1911-0014,1911,Fase única,,,1911-07-16,,Germânia,AA das Palmeiras,4,3,,,,,,,RSSSF Brasil,ogol:2683862,,"depois deste jogo a AA das Palmeiras desistiu do campeonato, em desacordo com irregularidades na partida"
 1911-0015,1911,Fase única,,,1911-07-23,,Ypiranga-SP,Paulistano-SP,0,3,,,,,,,RSSSF Brasil,ogol:2683863,,
 1911-0016,1911,Fase única,,,1911-08-20,,Americano-SP,São Paulo Athletic,2,2,,,,,,,RSSSF Brasil,ogol:2683864,,
 1911-0017,1911,Fase única,,,1911-08-27,,Americano-SP,Germânia,7,2,,,,,,,RSSSF Brasil,ogol:2683865,,
@@ -2300,7 +2300,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1932-0064,1932,Fase única,,,1932-12-18,,Portuguesa,EC Sírio,5,2,,,,,,,RSSSF Brasil,ogol:2683240,,
 1932-0065,1932,Fase única,,,1932-12-18,,AA São Bento,Atlético Santista,3,6,,,,,,,RSSSF Brasil,ogol:2683241,,
 1932-0066,1932,Fase única,,,1932-12-18,,São Paulo,Ypiranga-SP,2,1,,,,,,,RSSSF Brasil,ogol:2683242,,
-1933-0001,1933,1º Turno,,,1933-05-07,,Palmeiras,Corinthians,5,1,,,,,,,ogol,ogol:2680321,,
+1933-0001,1933,1º Turno,,,1933-05-07,,Palmeiras,Corinthians,5,1,,,,,,,RSSSF Brasil,ogol:2680321,,
 1933-0002,1933,1º Turno,,,1933-05-07,,Portuguesa,São Bento de São Paulo,3,3,,,,,,,RSSSF Brasil,ogol:2680322,,
 1933-0003,1933,1º Turno,,,1933-05-07,,Santos,Ypiranga-SP,6,2,,,,,,,RSSSF Brasil,ogol:2680323,,
 1933-0004,1933,1º Turno,,,1933-05-14,,Palmeiras,São Paulo,3,2,,,,,,,RSSSF Brasil,ogol:2680324,,
@@ -2331,7 +2331,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1933-0029,1933,2º Turno,,,1933-08-27,,Santos,Palmeiras,3,4,,,,,,,RSSSF Brasil,ogol:2680349,,
 1933-0030,1933,2º Turno,,,1933-08-27,,Ypiranga-SP,São Bento de São Paulo,0,1,,,,,,,RSSSF Brasil,ogol:2680350,,
 1933-0031,1933,2º Turno,,,1933-08-27,,São Paulo,EC Sírio,12,1,,,,,,,RSSSF Brasil,ogol:2680351,,
-1933-0032,1933,2º Turno,,,1933-09-07,,Palmeiras,Portuguesa,1,1,,,,,,,ogol,ogol:2680352,,
+1933-0032,1933,2º Turno,,,1933-09-07,,Palmeiras,Portuguesa,1,1,,,,,,,RSSSF Brasil,ogol:2680352,,
 1933-0033,1933,2º Turno,,,1933-09-07,,EC Sírio,Santos,0,1,,,,,,,RSSSF Brasil,ogol:2680353,,
 1933-0034,1933,2º Turno,,,1933-09-10,,Corinthians,São Paulo,1,6,,,,,,,RSSSF Brasil,ogol:2680354,,
 1933-0035,1933,2º Turno,,,1933-09-24,,Portuguesa,São Paulo,0,2,,,,,,,RSSSF Brasil,ogol:2680355,,
@@ -2353,10 +2353,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1933-0051,1933,2º Turno,,,1933-11-12,,São Paulo,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:2680371,,
 1933-0052,1933,2º Turno,,,1933-11-12,,Ypiranga-SP,Portuguesa,1,5,,,,,,,RSSSF Brasil,ogol:2680372,,
 1933-0053,1933,2º Turno,,,1933-11-12,,Corinthians,EC Sírio,6,0,,,,,,,RSSSF Brasil,ogol:2680373,,
-1933-0054,1933,2º Turno,,,1933-11-15,,Corinthians,São Bento de São Paulo,2,0,,,,,,,ogol,ogol:2680374,,
+1933-0054,1933,2º Turno,,,1933-11-15,,Corinthians,São Bento de São Paulo,2,0,,,,,,,RSSSF Brasil,ogol:2680374,,
 1933-0055,1933,2º Turno,,,1933-11-15,,Ypiranga-SP,São Paulo,1,4,,,,,,,RSSSF Brasil,ogol:2680375,,
 1933-0056,1933,2º Turno,,,1933-11-26,,Santos,Portuguesa,0,6,,,,,,,RSSSF Brasil,ogol:2680376,,
-1933-0057,1933,2º Turno,,,,,Corinthians,São Paulo,2,0,,,,,,,RSSSF Brasil,,,
 1934-0001,1934,Fase única,,,1934-03-25,,Ypiranga-SP,Corinthians,1,3,,,,,,,RSSSF Brasil,ogol:2680229,,
 1934-0002,1934,Fase única,,,1934-04-01,,São Paulo,EC Sírio,9,1,,,,,,,RSSSF Brasil,ogol:2680230,,
 1934-0003,1934,Fase única,,,1934-04-01,,Palmeiras,Ypiranga-SP,7,1,,,,,,,RSSSF Brasil,ogol:2680231,,
@@ -2914,14 +2913,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1940-0010,1940,Fase única,,,1940-06-09,,Ypiranga-SP,Palmeiras,1,3,,,,,,,RSSSF Brasil,ogol:2584295,,
 1940-0011,1940,Fase única,,,1940-06-09,,Portuguesa Santista,Jabaquara,3,1,,,,,,,RSSSF Brasil,ogol:2584296,,
 1940-0012,1940,Fase única,,,1940-06-16,,Juventus-SP,Corinthians,2,3,,,,,,,RSSSF Brasil,ogol:2584297,,
-1940-0013,1940,Fase única,,,1940-06-16,,Palmeiras,Portuguesa,3,0,,,,,,,RSSSF Brasil,ogol:2584298,,*
+1940-0013,1940,Fase única,,,1940-06-16,,Palmeiras,Portuguesa,3,0,,,,,,,RSSSF Brasil,ogol:2584298,,
 1940-0014,1940,Fase única,,,1940-06-16,,Comercial Paulistano,Jabaquara,3,2,,,,,,,RSSSF Brasil,ogol:2584299,,
 1940-0015,1940,Fase única,,,1940-06-16,,Santos,SPRAC,2,0,,,,,,,RSSSF Brasil,ogol:2584300,,
 1940-0016,1940,Fase única,,,1940-06-23,,Palmeiras,Juventus-SP,4,0,,,,,,,RSSSF Brasil,ogol:2584301,,
 1940-0017,1940,Fase única,,,1940-06-23,,São Paulo,Jabaquara,1,2,,,,,,,RSSSF Brasil,ogol:2584302,,
 1940-0018,1940,Fase única,,,1940-06-23,,Portuguesa Santista,Comercial Paulistano,4,1,,,,,,,RSSSF Brasil,ogol:2584303,,
 1940-0019,1940,Fase única,,,1940-06-23,,Portuguesa,Ypiranga-SP,2,0,,,,,,,RSSSF Brasil,ogol:2584304,,
-1940-0020,1940,Fase única,,,1940-06-30,,São Paulo,Portuguesa,0,2,,,,,,,RSSSF Brasil,ogol:2584305,,*
+1940-0020,1940,Fase única,,,1940-06-30,,São Paulo,Portuguesa,0,2,,,,,,,RSSSF Brasil,ogol:2584305,,
 1940-0021,1940,Fase única,,,1940-06-30,,Corinthians,Comercial Paulistano,7,0,,,,,,,RSSSF Brasil,ogol:2584306,,
 1940-0022,1940,Fase única,,,1940-06-30,,Ypiranga-SP,Jabaquara,4,2,,,,,,,RSSSF Brasil,ogol:2584307,,
 1940-0023,1940,Fase única,,,1940-06-30,,Santos,Juventus-SP,8,1,,,,,,,RSSSF Brasil,ogol:2584308,,
@@ -2939,18 +2938,18 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1940-0035,1940,Fase única,,,1940-07-28,,Corinthians,Santos,4,1,,,,,,,RSSSF Brasil,ogol:2584320,,
 1940-0036,1940,Fase única,,,1940-08-04,,Portuguesa Santista,Palmeiras,2,3,,,,,,,RSSSF Brasil,ogol:2584321,,
 1940-0037,1940,Fase única,,,1940-08-04,,SPRAC,Comercial Paulistano,1,3,,,,,,,RSSSF Brasil,ogol:2584322,,
-1940-0038,1940,Fase única,,,1940-08-04,,Corinthians,Portuguesa,1,3,,,,,,,RSSSF Brasil,ogol:2584323,,*
+1940-0038,1940,Fase única,,,1940-08-04,,Corinthians,Portuguesa,1,3,,,,,,,RSSSF Brasil,ogol:2584323,,
 1940-0039,1940,Fase única,,,1940-08-04,,Ypiranga-SP,São Paulo,4,0,,,,,,,RSSSF Brasil,ogol:2584324,,
 1940-0040,1940,Fase única,,,1940-08-11,,Corinthians,SPRAC,7,3,,,,,,,RSSSF Brasil,ogol:2584325,,
 1940-0041,1940,Fase única,,,1940-08-11,,Santos,Ypiranga-SP,2,3,,,,,,,RSSSF Brasil,ogol:2584326,,
-1940-0042,1940,Fase única,,,1940-08-11,,Palmeiras,São Paulo,3,1,,,,,,,RSSSF Brasil,ogol:2584327,,*
+1940-0042,1940,Fase única,,,1940-08-11,,Palmeiras,São Paulo,3,1,,,,,,,RSSSF Brasil,ogol:2584327,,
 1940-0043,1940,Fase única,,,1940-08-11,,Portuguesa,Comercial Paulistano,2,0,,,,,,,RSSSF Brasil,ogol:2584328,,
 1940-0044,1940,Fase única,,,1940-08-17,,Jabaquara,Juventus-SP,0,2,,,,,,,RSSSF Brasil,ogol:2584329,,
 1940-0045,1940,Fase única,,,1940-08-18,,Santos,São Paulo,5,1,,,,,,,RSSSF Brasil,ogol:2584330,,
 1940-0046,1940,Fase única,,,1940-08-18,,Ypiranga-SP,Portuguesa Santista,2,0,,,,,,,RSSSF Brasil,ogol:2584331,,
-1940-0047,1940,Fase única,,,1940-08-18,,Corinthians,Palmeiras,2,0,,,,,,,RSSSF Brasil,ogol:2584332,,*
+1940-0047,1940,Fase única,,,1940-08-18,,Corinthians,Palmeiras,2,0,,,,,,,RSSSF Brasil,ogol:2584332,,
 1940-0048,1940,Fase única,,,1940-08-25,,Portuguesa Santista,Portuguesa,3,2,,,,,,,RSSSF Brasil,ogol:2584333,,
-1940-0049,1940,Fase única,,,1940-08-25,,São Paulo,Corinthians,3,2,,,,,,,RSSSF Brasil,ogol:2584334,,*
+1940-0049,1940,Fase única,,,1940-08-25,,São Paulo,Corinthians,3,2,,,,,,,RSSSF Brasil,ogol:2584334,,
 1940-0050,1940,Fase única,,,1940-08-25,,Juventus-SP,Comercial Paulistano,3,3,,,,,,,RSSSF Brasil,ogol:2584335,,
 1940-0051,1940,Fase única,,,1940-08-25,,SPRAC,Jabaquara,5,3,,,,,,,RSSSF Brasil,ogol:2584336,,
 1940-0052,1940,Fase única,,,1940-09-01,,Juventus-SP,Portuguesa Santista,2,5,,,,,,,RSSSF Brasil,ogol:2584337,,
@@ -8603,11 +8602,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1968-0084,1968,1º Turno,,,1968-04-07,,Juventus-SP,Portuguesa Santista,3,2,,,,,,,RSSSF Brasil,ogol:2561441,,
 1968-0085,1968,1º Turno,,,1968-04-07,,América-SP,Ferroviária-SP,2,1,,,,,,,RSSSF Brasil,ogol:2561442,,
 1968-0086,1968,1º Turno,,,1968-04-07,,Guarani,São Bento,2,1,,,,,,,RSSSF Brasil,ogol:2561443,,
-1968-0087,1968,2º Turno,,,1968-04-10,,Palmeiras,Portuguesa,2,3,,,,,,,RSSSF Brasil,ogol:2561444,,match postponed from 1º Turno
+1968-0087,1968,2º Turno,,,1968-04-10,,Palmeiras,Portuguesa,2,3,,,,,,,RSSSF Brasil,ogol:2561444,,jogo adiado do 1º turno
 1968-0088,1968,2º Turno,,,1968-04-10,,São Bento,Corinthians,3,2,,,,,,,RSSSF Brasil,ogol:2561445,,
 1968-0089,1968,2º Turno,,,1968-04-10,,Portuguesa Santista,Botafogo-SP,3,1,,,,,,,RSSSF Brasil,ogol:2561446,,
 1968-0090,1968,2º Turno,,,1968-04-10,,Guarani,Santos,0,2,,,,,,,RSSSF Brasil,ogol:2561447,,
-1968-0091,1968,2º Turno,,,1968-04-13,,Santos,Palmeiras,1,0,,,,,,,RSSSF Brasil,ogol:2561448,,match postponed from 1º Turno
+1968-0091,1968,2º Turno,,,1968-04-13,,Santos,Palmeiras,1,0,,,,,,,RSSSF Brasil,ogol:2561448,,jogo adiado do 1º turno
 1968-0092,1968,2º Turno,,,1968-04-13,,Juventus-SP,Corinthians,1,3,,,,,,,RSSSF Brasil,ogol:2561449,,
 1968-0093,1968,2º Turno,,,1968-04-13,,Guarani,Comercial-RP,1,0,,,,,,,RSSSF Brasil,ogol:2561450,,
 1968-0094,1968,2º Turno,,,1968-04-13,,XV de Piracicaba,Ferroviária-SP,2,3,,,,,,,RSSSF Brasil,ogol:2561451,,
@@ -8687,17 +8686,17 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1968-0168,1968,2º Turno,,,1968-06-02,,Comercial-RP,Portuguesa,0,0,,,,,,,RSSSF Brasil,ogol:2561525,,placar da RSSSF 0-1 corrigido pelo ogol (fecha com a tabela publicada)
 1968-0169,1968,2º Turno,,,1968-06-02,,São Bento,Botafogo-SP,0,2,,,,,,,RSSSF Brasil,ogol:2561526,,
 1968-0170,1968,2º Turno,,,1968-06-02,,Guarani,XV de Piracicaba,2,1,,,,,,,RSSSF Brasil,ogol:2561527,,
-1968-0171,1968,2º Turno,,,1968-06-05,,XV de Piracicaba,Palmeiras,1,0,,,,,,,RSSSF Brasil,ogol:2561528,,match postponed from 1º Turno
+1968-0171,1968,2º Turno,,,1968-06-05,,XV de Piracicaba,Palmeiras,1,0,,,,,,,RSSSF Brasil,ogol:2561528,,jogo adiado do 1º turno
 1968-0172,1968,2º Turno,,,1968-06-05,,Ferroviária-SP,América-SP,2,1,,,,,,,RSSSF Brasil,ogol:2561529,,
 1968-0173,1968,2º Turno,,,1968-06-08,,Juventus-SP,América-SP,3,0,,,,,,,RSSSF Brasil,ogol:2561530,,
 1968-0174,1968,2º Turno,,,1968-06-08,,São Bento,Palmeiras,3,2,,,,,,,RSSSF Brasil,ogol:2561531,,
-1968-0175,1968,2º Turno,,,1968-06-11,,Palmeiras,Botafogo-SP,1,1,,,,,,,RSSSF Brasil,ogol:2561532,,match postponed from 1º Turno
-1968-0176,1968,2º Turno,,,1968-06-13,,Palmeiras,Guarani,1,3,,,,,,,RSSSF Brasil,ogol:2561533,,match postponed from 1º Turno
+1968-0175,1968,2º Turno,,,1968-06-11,,Palmeiras,Botafogo-SP,1,1,,,,,,,RSSSF Brasil,ogol:2561532,,jogo adiado do 1º turno
+1968-0176,1968,2º Turno,,,1968-06-13,,Palmeiras,Guarani,1,3,,,,,,,RSSSF Brasil,ogol:2561533,,jogo adiado do 1º turno
 1968-0177,1968,2º Turno,,,1968-06-16,,Palmeiras,XV de Piracicaba,1,0,,,,,,,RSSSF Brasil,ogol:2561534,,
 1968-0178,1968,2º Turno,,,1968-06-19,,Palmeiras,Portuguesa Santista,2,4,,,,,,,RSSSF Brasil,ogol:2561535,,
 1968-0179,1968,2º Turno,,,1968-06-23,,Botafogo-SP,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:2561536,,
 1968-0180,1968,2º Turno,,,1968-06-26,,América-SP,Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:2561537,,
-1968-0181,1968,2º Turno,,,1968-06-29,,Guarani,Palmeiras,,,,,awd,,,,RSSSF Brasil,ogol:2561538,,Guarani used ineligible player Flamarion; points awarded to Palmeiras; pontos dados ao Palmeiras fora de campo (o Guarani escalou jogador irregular (FN)); placar de campo 1-1
+1968-0181,1968,2º Turno,,,1968-06-29,,Guarani,Palmeiras,,,,,awd,,,,RSSSF Brasil,ogol:2561538,,o Guarani escalou jogador irregular (Flamarion); pontos dados ao Palmeiras fora de campo (o Guarani escalou jogador irregular (FN)); placar de campo 1-1
 1968-0182,1968,2º Turno,,,1968-07-03,,Palmeiras,Comercial-RP,2,3,,,,,,,RSSSF Brasil,ogol:2561539,,
 1969-0001,1969,1º Turno,,,1969-01-26,,América-SP,Paulista,3,1,,,,,,,RSSSF Brasil,ogol:2561164,,
 1969-0002,1969,1º Turno,,,1969-01-26,,Botafogo-SP,Ferroviária-SP,0,0,,,,,,,RSSSF Brasil,ogol:2561165,,
@@ -8761,7 +8760,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1969-0060,1969,1º Turno,,,1969-03-19,,Botafogo-SP,Portuguesa,2,2,,,,,,,RSSSF Brasil,ogol:2561223,,
 1969-0061,1969,1º Turno,,,1969-03-19,,Ferroviária-SP,São Paulo,1,0,,,,,,,RSSSF Brasil,ogol:2561224,,
 1969-0062,1969,1º Turno,,,1969-03-19,,São Bento,Palmeiras,1,2,,,,,,,RSSSF Brasil,ogol:2561225,,
-1969-0063,1969,1º Turno,,,1969-03-19,,Santos,América-SP,2,1,,,,,,,RSSSF Brasil,ogol:2561254,,19/Mar?
+1969-0063,1969,1º Turno,,,1969-03-19,,Santos,América-SP,2,1,,,,,,,RSSSF Brasil,ogol:2561254,,data em dúvida na página (19/Mar?)
 1969-0064,1969,1º Turno,,,1969-03-20,,Corinthians,Guarani,0,1,,,,,,,RSSSF Brasil,ogol:2561226,,
 1969-0065,1969,1º Turno,,,1969-03-22,,Palmeiras,Santos,3,2,,,,,,,RSSSF Brasil,ogol:2561227,,
 1969-0066,1969,1º Turno,,,1969-03-22,,Portuguesa Santista,Juventus-SP,2,3,,,,,,,RSSSF Brasil,ogol:2561228,,
@@ -8826,7 +8825,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1969-0125,1969,2º Turno,,,1969-06-01,,Guarani,Portuguesa,2,0,,,,,,,RSSSF Brasil,ogol:2561316,,
 1969-0126,1969,2º Turno,,,1969-06-01,,Portuguesa Santista,São Bento,3,0,,,,,,,RSSSF Brasil,ogol:2561317,,
 1969-0127,1969,2º Turno,,,1969-06-04,,Santos,Guarani,1,0,,,,,,,RSSSF Brasil,ogol:2561320,,
-1969-0128,1969,2º Turno,,,1969-06-04,,São Bento,Ferroviária-SP,2,2,,,,,,,RSSSF Brasil,ogol:2561321,,2-0?
+1969-0128,1969,2º Turno,,,1969-06-04,,São Bento,Ferroviária-SP,2,2,,,,,,,RSSSF Brasil,ogol:2561321,,placar em dúvida na página (2-0?)
 1969-0129,1969,2º Turno,,,1969-06-08,,Juventus-SP,América-SP,3,0,,,,,,,RSSSF Brasil,ogol:2561325,,
 1969-0130,1969,2º Turno,,,1969-06-08,,Corinthians,Portuguesa,2,2,,,,,,,RSSSF Brasil,,,
 1969-0131,1969,2º Turno,,,1969-06-15,,Botafogo-SP,Juventus-SP,0,0,,,,,,,RSSSF Brasil,ogol:2561331,,
@@ -8837,8 +8836,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1969-0136,1969,2º Turno,,,1969-07-03,,Portuguesa Santista,Paulista,1,2,,,,,,,RSSSF Brasil,ogol:2561337,,
 1969-0137,1969,2º Turno,,,1969-07-05,,Juventus-SP,São Bento,4,1,,,,,,,RSSSF Brasil,ogol:2561338,,
 1969-0138,1969,2º Turno,,,1969-07-06,,América-SP,Portuguesa Santista,1,1,,,,,,,RSSSF Brasil,ogol:2561339,,
-1969-0139,1969,2º Turno,,,1969-07-13,,Botafogo-SP,XV de Piracicaba,0,1,,,,,,,RSSSF Brasil,ogol:2561343,,03/Jul?
-1969-0140,1969,2º Turno,,,1969-07-27,,XV de Piracicaba,Paulista,2,0,,,,,,,RSSSF Brasil,ogol:2561345,,06/Jul?] [2-0?
+1969-0139,1969,2º Turno,,,1969-07-13,,Botafogo-SP,XV de Piracicaba,0,1,,,,,,,RSSSF Brasil,ogol:2561343,,data em dúvida na página (03/Jul?)
+1969-0140,1969,2º Turno,,,1969-07-27,,XV de Piracicaba,Paulista,2,0,,,,,,,RSSSF Brasil,ogol:2561345,,data em dúvida na página (06/Jul?); placar em dúvida na página (2-0?)
 1969-0141,1969,2º Turno,Grupo A,,1969-04-20,,Juventus-SP,Portuguesa,2,1,,,,,,,RSSSF Brasil,ogol:2561256,,
 1969-0142,1969,2º Turno,Grupo A,,1969-04-23,,Portuguesa,Santos,2,3,,,,,,,RSSSF Brasil,ogol:2561259,,
 1969-0143,1969,2º Turno,Grupo A,,1969-04-23,,XV de Piracicaba,Ferroviária-SP,0,0,,,,,,,RSSSF Brasil,ogol:2561261,,
@@ -8876,11 +8875,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1969-0175,1969,2º Turno,Grupo B,,1969-06-04,,Botafogo-SP,Corinthians,1,0,,,,,,,RSSSF Brasil,ogol:2561318,,
 1969-0176,1969,2º Turno,Grupo B,,1969-06-05,,São Paulo,Paulista,2,1,,,,,,,RSSSF Brasil,ogol:2561323,,
 1969-0177,1969,2º Turno,Grupo B,,1969-06-08,,Paulista,Botafogo-SP,2,1,,,,,,,RSSSF Brasil,ogol:2561326,,
-1969-0178,1969,2º Turno,Grupo B,,1969-06-08,,São Bento,Guarani,1,1,,,,,,,RSSSF Brasil,ogol:2561327,,1-0?
+1969-0178,1969,2º Turno,Grupo B,,1969-06-08,,São Bento,Guarani,1,1,,,,,,,RSSSF Brasil,ogol:2561327,,placar em dúvida na página (1-0?)
 1969-0179,1969,2º Turno,Grupo B,,1969-06-11,,Guarani,Botafogo-SP,2,2,,,,,,,RSSSF Brasil,ogol:2561330,,
 1969-0180,1969,2º Turno,Grupo B,,1969-06-29,,América-SP,Botafogo-SP,2,1,,,,,,,RSSSF Brasil,ogol:2561335,,
 1969-0181,1969,2º Turno,Grupo B,,1969-07-09,,América-SP,São Bento,1,1,,,,,,,RSSSF Brasil,ogol:2561340,,
-1969-0182,1969,2º Turno,Grupo B,,1969-07-13,,Paulista,América-SP,1,3,,,,,,,RSSSF Brasil,ogol:2561344,,1-2?
+1969-0182,1969,2º Turno,Grupo B,,1969-07-13,,Paulista,América-SP,1,3,,,,,,,RSSSF Brasil,ogol:2561344,,placar em dúvida na página (1-2?)
 1969-0183,1969,Final,,,1969-06-08,,Corinthians,Santos,1,3,,,,,,,RSSSF Brasil,ogol:2561352,,
 1969-0184,1969,Final,,,1969-06-11,,Palmeiras,São Paulo,1,0,,,,,,,RSSSF Brasil,ogol:2561353,,
 1969-0185,1969,Final,,,1969-06-15,,Corinthians,São Paulo,2,3,,,,,,,RSSSF Brasil,ogol:2561354,,
@@ -9787,7 +9786,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1975-0227,1975,2º Turno - 1ª fase,,,1975-06-29,,São Bento,Saad S. Caetano,1,2,,,,,,,RSSSF Brasil,ogol:2564404,,
 1975-0228,1975,2º Turno - 1ª fase,,,1975-07-05,,São Paulo,Comercial-RP,3,1,,,,,,,RSSSF Brasil,ogol:2564405,,
 1975-0229,1975,2º Turno - 1ª fase,,,1975-07-05,,Ponte Preta,São Bento,2,0,,,,,,,RSSSF Brasil,ogol:2564407,,
-1975-0230,1975,2º Turno - 1ª fase,,,1975-07-06,,Saad S. Caetano,Palmeiras,1,2,,,,,,,RSSSF Brasil,ogol:2564406,,match played in São Paulo
+1975-0230,1975,2º Turno - 1ª fase,,,1975-07-06,,Saad S. Caetano,Palmeiras,1,2,,,,,,,RSSSF Brasil,ogol:2564406,,jogo em São Paulo
 1975-0231,1975,2º Turno - 1ª fase,,,1975-07-06,,Portuguesa,Corinthians,5,1,,,,,,,RSSSF Brasil,ogol:2564408,,
 1975-0232,1975,2º Turno - 1ª fase,,,1975-07-06,,Marília,Ferroviária-SP,1,1,,,,,,,RSSSF Brasil,ogol:2564409,,
 1975-0233,1975,2º Turno - 1ª fase,,,1975-07-06,,XV de Piracicaba,Portuguesa Santista,2,1,,,,,,,RSSSF Brasil,ogol:2564410,,
@@ -10869,11 +10868,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1978-0433,1978,Primeira fase,Grupo D,,1978-12-07,,Portuguesa,XV de Piracicaba,0,1,,,,,,,RSSSF Brasil,ogol:2554360,,
 1978-0434,1978,Primeira fase,Grupo D,,1978-12-10,,Ferroviária-SP,Portuguesa,1,0,,,,,,,RSSSF Brasil,ogol:2554364,,
 1978-0435,1978,Primeira fase,Grupo D,,1978-12-17,,XV de Jaú,XV de Piracicaba,0,1,,,,,,,RSSSF Brasil,ogol:2554379,,
-1978-0436,1978,1º Turno - Quartas de final,,,1978-11-11,,São Paulo,Santos,0,0,,,,,,,RSSSF Brasil,ogol:2554324,,extra-time: 0-0
-1978-0437,1978,1º Turno - Quartas de final,,,1978-11-11,,Guarani,XV de Jaú,1,1,,,,,,,RSSSF Brasil,ogol:2554325,,extra-time: 0-0
+1978-0436,1978,1º Turno - Quartas de final,,,1978-11-11,,São Paulo,Santos,0,0,,,,,,,RSSSF Brasil,ogol:2554324,,prorrogação 0-0
+1978-0437,1978,1º Turno - Quartas de final,,,1978-11-11,,Guarani,XV de Jaú,1,1,,,,,,,RSSSF Brasil,ogol:2554325,,prorrogação 0-0
 1978-0438,1978,1º Turno - Quartas de final,,,1978-11-12,,Palmeiras,Corinthians,0,3,,,,,,,RSSSF Brasil,ogol:2554326,,
 1978-0439,1978,1º Turno - Quartas de final,,,1978-11-19,,Ponte Preta,Portuguesa,1,0,,,,,,,RSSSF Brasil,ogol:2554327,[Santos and Guarani qualified due to have scored more goals in 1st Phase],
-1978-0440,1978,1º Turno - Semifinal,,,1978-11-19,,Corinthians,Guarani,2,2,,,,,,,RSSSF Brasil,ogol:2554328,,extra-time: 1-0
+1978-0440,1978,1º Turno - Semifinal,,,1978-11-19,,Corinthians,Guarani,2,2,,,,,,,RSSSF Brasil,ogol:2554328,,prorrogação 1-0
 1978-0441,1978,1º Turno - Semifinal,,,1978-11-22,,Santos,Ponte Preta,1,0,,,,,,,RSSSF Brasil,ogol:2554329,,
 1978-0442,1978,1º Turno - Final,,,1978-11-26,,Corinthians,Santos,1,0,,,,,,,RSSSF Brasil,ogol:2554330,,
 1978-0443,1978,Final,,,1979-06-24,,Santos,São Paulo,1,1,,,,,,,ogol,ogol:2554576,,
@@ -12102,7 +12101,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1981-0407,1981,2º Turno,,,1981-09-10,,Ponte Preta,Ferroviária-SP,3,0,,,,,,,RSSSF Brasil,ogol:2537467,,
 1981-0408,1981,2º Turno,,,1981-09-13,,Palmeiras,Santos,0,0,,,,,,,RSSSF Brasil,ogol:2537468,,
 1981-0409,1981,2º Turno,,,1981-09-13,,Guarani,Comercial-RP,5,1,,,,,,,RSSSF Brasil,ogol:2537469,,
-1981-0410,1981,2º Turno,,,1981-09-13,,Botafogo-SP,Juventus-SP,1,3,,,,,,,RSSSF Brasil,ogol:2537470,,21/Sep?
+1981-0410,1981,2º Turno,,,1981-09-13,,Botafogo-SP,Juventus-SP,1,3,,,,,,,RSSSF Brasil,ogol:2537470,,data em dúvida na página (21/Sep?)
 1981-0411,1981,2º Turno,,,1981-09-13,,São José-SP,América-SP,3,0,,,,,,,RSSSF Brasil,ogol:2537471,,
 1981-0412,1981,2º Turno,,,1981-09-13,,Taubaté,São Paulo,1,2,,,,,,,RSSSF Brasil,ogol:2537472,,
 1981-0413,1981,2º Turno,,,1981-09-13,,Inter de Limeira,Corinthians,2,1,,,,,,,RSSSF Brasil,ogol:2537473,,
@@ -13191,7 +13190,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1984-0167,1984,Fase única,,,1984-09-09,,Comercial-RP,Botafogo-SP,1,0,,,,,,,RSSSF Brasil,ogol:2533243,,
 1984-0168,1984,Fase única,,,1984-09-09,,Guarani,Corinthians,2,1,,,,,,,RSSSF Brasil,ogol:2533244,,
 1984-0169,1984,Fase única,,,1984-09-09,,Inter de Limeira,Juventus-SP,3,1,,,,,,,RSSSF Brasil,ogol:2533245,,
-1984-0170,1984,Fase única,,,1984-09-09,,Palmeiras,São Paulo,,,,,awd,,,,RSSSF Brasil,ogol:2533246,,points awarded to São Paulo 09/09/1984 Portuguesa 2-0 São Bento-SP    due to a Palmeiras' player be 09/09/1984 Taquaritinga 1-0 Marília       caught in the antidoping exam; pontos dados ao São Paulo fora de campo (doping de jogador do Palmeiras (FN)); placar de campo 2-1
+1984-0170,1984,Fase única,,,1984-09-09,,Palmeiras,São Paulo,,,,,awd,,,,RSSSF Brasil,ogol:2533246,,pontos dados ao São Paulo fora de campo (doping de jogador do Palmeiras (FN)); placar de campo 2-1
 1984-0171,1984,Fase única,,,1984-09-09,,Taubaté,Santo André,0,1,,,,,,,RSSSF Brasil,ogol:2533249,,
 1984-0172,1984,Fase única,,,1984-09-09,,XV de Piracicaba,Ponte Preta,2,2,,,,,,,RSSSF Brasil,ogol:2533250,,
 1984-0173,1984,Fase única,,,1984-09-12,,Ferroviária-SP,Portuguesa,1,1,,,,,,,RSSSF Brasil,ogol:2533251,,
@@ -14014,7 +14013,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1986-0224,1986,Segunda fase,,,1986-06-14,,Botafogo-SP,Ponte Preta,2,1,,,,,,,RSSSF Brasil,ogol:2524119,,
 1986-0225,1986,Segunda fase,,,1986-06-14,,América-SP,Comercial-RP,1,0,,,,,,,RSSSF Brasil,ogol:2524120,,
 1986-0226,1986,Segunda fase,,,1986-06-19,,Palmeiras,XV de Piracicaba,0,0,,,,,,,ogol,ogol:2524122,,
-1986-0227,1986,Segunda fase,,,1986-06-19,,GE Novorizontino,Portuguesa,1,0,,,awd,,,,RSSSF Brasil,ogol:2524121,,"awarded 1-0, orginally 0-0, Port. Palmeiras         0-0  XV de Novembro/P      used an ineligible player"
+1986-0227,1986,Segunda fase,,,1986-06-19,,GE Novorizontino,Portuguesa,1,0,,,awd,,,,RSSSF Brasil,ogol:2524121,,resultado 1-0 dado no tribunal (o jogo terminou 0-0; a Portuguesa escalou jogador irregular)
 1986-0228,1986,Segunda fase,,,1986-06-19,,Corinthians,Comercial-RP,1,1,,,,,,,RSSSF Brasil,ogol:2524123,,
 1986-0229,1986,Segunda fase,,,1986-06-19,,XV de Jaú,Santos,4,0,,,,,,,RSSSF Brasil,ogol:2524124,,
 1986-0230,1986,Segunda fase,,,1986-06-19,,Botafogo-SP,Santo André,0,0,,,,,,,RSSSF Brasil,ogol:2524125,,
@@ -14170,7 +14169,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1986-0380,1986,Segunda fase,,,1986-08-17,,XV de Jaú,Santo André,0,1,,,,,,,RSSSF Brasil,ogol:2524275,,
 1986-0381,1986,Semifinal,,,1986-08-24,,Corinthians,Palmeiras,1,0,,,,,,,RSSSF Brasil,ogol:2524276,,
 1986-0382,1986,Semifinal,,,1986-08-24,,Santos,Inter de Limeira,0,2,,,,,,,RSSSF Brasil,ogol:2524278,,
-1986-0383,1986,Semifinal,,,1986-08-27,17:00,Palmeiras,Corinthians,1,0,,,,,,,RSSSF Brasil,ogol:2524277,,aet 0-2
+1986-0383,1986,Semifinal,,,1986-08-27,17:00,Palmeiras,Corinthians,1,0,,,,,,,RSSSF Brasil,ogol:2524277,,prorrogação 0-2
 1986-0384,1986,Semifinal,,,1986-08-28,,Inter de Limeira,Santos,2,1,,,,,,,RSSSF Brasil,ogol:2524279,,
 1986-0385,1986,Final,,,1986-08-31,,Palmeiras,Inter de Limeira,0,0,,,,,,,RSSSF Brasil,ogol:2524280,,
 1986-0386,1986,Final,,,1986-09-03,,Inter de Limeira,Palmeiras,2,1,,,,,,,RSSSF Brasil,ogol:2524281,,
@@ -15404,7 +15403,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-0365,1990,Terceira fase,Grupo Preto,,1990-08-01,,Santos,Mogi Mirim,0,0,,,,,,,RSSSF Brasil,ogol:2556820,,
 1990-0366,1990,Terceira fase,Grupo Preto,,1990-08-01,,Corinthians,Ituano,1,1,,,,,,,RSSSF Brasil,ogol:2556821,,
 1990-0367,1990,Terceira fase,Grupo Preto,,1990-08-05,,Ituano,Santos,1,1,,,,,,,RSSSF Brasil,ogol:2556825,,
-1990-0368,1990,Terceira fase,Grupo Preto,,1990-08-05,,Botafogo-SP,Corinthians,,,,,awd,,,,RSSSF Brasil,ogol:2556826,,match suspended and awarded 0-2; pontos dados ao Corinthians fora de campo (W.O. 0-2 dado ao Corinthians (FN)); placar de campo 1-1
+1990-0368,1990,Terceira fase,Grupo Preto,,1990-08-05,,Botafogo-SP,Corinthians,,,,,awd,,,,RSSSF Brasil,ogol:2556826,,jogo suspenso; resultado 0-2 dado no tribunal; pontos dados ao Corinthians fora de campo (W.O. 0-2 dado ao Corinthians (FN)); placar de campo 1-1
 1990-0369,1990,Terceira fase,Grupo Preto,,1990-08-05,,Mogi Mirim,Bragantino,0,0,,,,,,,RSSSF Brasil,ogol:2556827,,
 1990-0370,1990,Terceira fase,Grupo Preto,,1990-08-08,,XV de Jaú,Mogi Mirim,1,2,,,,,,,RSSSF Brasil,ogol:2556831,,
 1990-0371,1990,Terceira fase,Grupo Preto,,1990-08-08,,Bragantino,Ituano,1,1,,,,,,,RSSSF Brasil,ogol:2556832,,
@@ -15458,7 +15457,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-0419,1990,Terceira fase,Grupo Vermelho,,1990-08-15,,Portuguesa,GE Novorizontino,1,1,,,,,,,RSSSF Brasil,ogol:2556841,,
 1990-0420,1990,Terceira fase,Grupo Vermelho,,1990-08-15,,XV de Piracicaba,Guarani,1,1,,,,,,,RSSSF Brasil,ogol:2556842,,
 1990-0421,1990,Final,,,1990-08-22,20:35,GE Novorizontino,Bragantino,1,1,,,,,,,RSSSF Brasil,ogol:2556846,,
-1990-0422,1990,Final,,,1990-08-26,,Bragantino,GE Novorizontino,1,1,,,,,,,RSSSF Brasil,ogol:2556847,,extra-time: 0-0
+1990-0422,1990,Final,,,1990-08-26,,Bragantino,GE Novorizontino,1,1,,,,,,,RSSSF Brasil,ogol:2556847,,prorrogação 0-0
 1991-0001,1991,Primeira fase,Grupo Amarelo,,1991-07-24,,Olímpia,São Paulo,1,1,,,,,,,RSSSF Brasil,ogol:2551417,,
 1991-0002,1991,Primeira fase,Grupo Amarelo,,1991-07-24,,Santo André,São Bento,3,2,,,,,,,RSSSF Brasil,ogol:2551419,,
 1991-0003,1991,Primeira fase,Grupo Amarelo,,1991-07-24,14:00,Juventus-SP,São José-SP,1,0,,,,,,,RSSSF Brasil,ogol:2551416,,
@@ -16686,7 +16685,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1993-0445,1993,Segunda fase,Grupo 2,,1993-06-03,,GE Novorizontino,Corinthians,0,3,,,,,,,RSSSF Brasil,ogol:2544825,,
 1993-0446,1993,Segunda fase,Grupo 2,,1993-06-03,,São Paulo,Santos,6,1,,,,,,,RSSSF Brasil,ogol:2544826,,
 1993-0447,1993,Final,,,1993-06-06,,Corinthians,Palmeiras,1,0,,,,,,,RSSSF Brasil,ogol:2544827,,
-1993-0448,1993,Final,,,1993-06-12,15:00,Palmeiras,Corinthians,3,0,,,,,,,RSSSF Brasil,ogol:2544828,,extra-time: 1-0
+1993-0448,1993,Final,,,1993-06-12,15:00,Palmeiras,Corinthians,3,0,,,,,,,RSSSF Brasil,ogol:2544828,,prorrogação 1-0
 1994-0001,1994,1º Turno,,,1994-01-23,,Portuguesa,Corinthians,1,3,,,,,,,RSSSF Brasil,ogol:2678183,,
 1994-0002,1994,1º Turno,,,1994-01-23,,Guarani,América-SP,1,2,,,,,,,RSSSF Brasil,ogol:2678184,,
 1994-0003,1994,1º Turno,,,1994-01-23,,Ituano,Mogi Mirim,0,0,,,,,,,RSSSF Brasil,ogol:2678185,,
@@ -16956,7 +16955,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0027,1995,1º Turno,,,1995-02-12,,GE Novorizontino,União São João,0,2,,,,,,,RSSSF Brasil,ogol:2536270,,
 1995-0028,1995,1º Turno,,,1995-02-12,,Rio Branco-SP,Guarani,2,1,,,,,,,RSSSF Brasil,ogol:2536271,,
 1995-0029,1995,1º Turno,,,1995-02-12,,XV de Piracicaba,Santos,0,0,,,,,,,RSSSF Brasil,ogol:2536272,,
-1995-0030,1995,1º Turno,,,1995-02-15,,Portuguesa,Juventus-SP,0,0,,,,,,,RSSSF Brasil,ogol:2536265,,postponed to Feb 15
+1995-0030,1995,1º Turno,,,1995-02-15,,Portuguesa,Juventus-SP,0,0,,,,,,,RSSSF Brasil,ogol:2536265,,adiado para 15/02
 1995-0031,1995,1º Turno,,,1995-02-18,,Juventus-SP,São Paulo,0,1,,,,,,,RSSSF Brasil,ogol:2536274,,
 1995-0032,1995,1º Turno,,,1995-02-19,,Palmeiras,Santos,2,2,,,,,,,RSSSF Brasil,ogol:2536275,,
 1995-0033,1995,1º Turno,,,1995-02-19,,Guarani,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:2536276,,
@@ -16991,10 +16990,10 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0062,1995,1º Turno,,,1995-03-12,,Rio Branco-SP,América-SP,0,1,,,,,,,RSSSF Brasil,ogol:2536311,,
 1995-0063,1995,1º Turno,,,1995-03-12,,Araçatuba,Juventus-SP,3,0,,,,,,,RSSSF Brasil,ogol:2536312,,
 1995-0064,1995,1º Turno,,,1995-03-12,,XV de Piracicaba,Bragantino,1,2,,,,,,,RSSSF Brasil,ogol:2536313,,
-1995-0065,1995,1º Turno,,,1995-03-15,,Corinthians,Santos,0,0,,,,,,,RSSSF Brasil,ogol:2536256,,postponed to Mar 15
-1995-0066,1995,1º Turno,,,1995-03-15,,Ponte Preta,Juventus-SP,3,2,,,,,,,RSSSF Brasil,ogol:2536273,,postponed to Mar 15
-1995-0067,1995,1º Turno,,,1995-03-15,,União São João,Portuguesa,1,2,,,,,,,RSSSF Brasil,ogol:2536280,,postponed to Mar 15
-1995-0068,1995,1º Turno,,,1995-03-16,,Palmeiras,Rio Branco-SP,2,2,,,,,,,RSSSF Brasil,ogol:2536303,,postponed to Mar 16
+1995-0065,1995,1º Turno,,,1995-03-15,,Corinthians,Santos,0,0,,,,,,,RSSSF Brasil,ogol:2536256,,adiado para 15/03
+1995-0066,1995,1º Turno,,,1995-03-15,,Ponte Preta,Juventus-SP,3,2,,,,,,,RSSSF Brasil,ogol:2536273,,adiado para 15/03
+1995-0067,1995,1º Turno,,,1995-03-15,,União São João,Portuguesa,1,2,,,,,,,RSSSF Brasil,ogol:2536280,,adiado para 15/03
+1995-0068,1995,1º Turno,,,1995-03-16,,Palmeiras,Rio Branco-SP,2,2,,,,,,,RSSSF Brasil,ogol:2536303,,adiado para 16/03
 1995-0069,1995,1º Turno,,,1995-03-18,,Palmeiras,GE Novorizontino,2,1,,,,,,,RSSSF Brasil,ogol:2536314,,
 1995-0070,1995,1º Turno,,,1995-03-18,,Santos,Portuguesa,1,1,,,,,,,RSSSF Brasil,ogol:2536315,,
 1995-0071,1995,1º Turno,,,1995-03-19,,São Paulo,Corinthians,1,2,,,,,,,RSSSF Brasil,ogol:2536316,,
@@ -17003,7 +17002,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0074,1995,1º Turno,,,1995-03-19,,América-SP,XV de Piracicaba,5,2,,,,,,,RSSSF Brasil,ogol:2536319,,
 1995-0075,1995,1º Turno,,,1995-03-19,,Bragantino,Guarani,2,2,,,,,,,RSSSF Brasil,ogol:2536320,,
 1995-0076,1995,1º Turno,,,1995-03-19,,União São João,Araçatuba,1,0,,,,,,,RSSSF Brasil,ogol:2536321,,
-1995-0077,1995,1º Turno,,,1995-03-20,,Santos,Ponte Preta,4,1,,,,,,,RSSSF Brasil,ogol:2536304,,postponed to Mar 20; placar 4-2 da RSSSF trocado por 4-1: FN e ogol (QS-012)
+1995-0077,1995,1º Turno,,,1995-03-20,,Santos,Ponte Preta,4,1,,,,,,,RSSSF Brasil,ogol:2536304,,adiado para 20/03; placar 4-2 da RSSSF trocado por 4-1: FN e ogol (QS-012)
 1995-0078,1995,1º Turno,,,1995-03-22,,Corinthians,América-SP,3,0,,,,,,,RSSSF Brasil,ogol:2536322,,
 1995-0079,1995,1º Turno,,,1995-03-22,,São Paulo,Ferroviária-SP,2,1,,,,,,,RSSSF Brasil,ogol:2536323,,
 1995-0080,1995,1º Turno,,,1995-03-22,,Ponte Preta,GE Novorizontino,0,2,,,,,,,RSSSF Brasil,ogol:2536324,,
@@ -17019,8 +17018,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0090,1995,1º Turno,,,1995-03-26,,Ferroviária-SP,XV de Piracicaba,3,2,,,,,,,RSSSF Brasil,ogol:2536335,,
 1995-0091,1995,1º Turno,,,1995-03-26,,GE Novorizontino,Santos,2,1,,,,,,,RSSSF Brasil,ogol:2536336,,
 1995-0092,1995,1º Turno,,,1995-03-26,,Araçatuba,Ponte Preta,2,0,,,,,,,RSSSF Brasil,ogol:2536337,,
-1995-0093,1995,1º Turno,,,1995-03-29,,Ponte Preta,São Paulo,2,2,,,,,,,RSSSF Brasil,ogol:2536297,,postponed to Mar 29
-1995-0094,1995,1º Turno,,,1995-03-30,,União São João,Palmeiras,4,2,,,,,,,RSSSF Brasil,ogol:2536329,,postponed to Mar 30
+1995-0093,1995,1º Turno,,,1995-03-29,,Ponte Preta,São Paulo,2,2,,,,,,,RSSSF Brasil,ogol:2536297,,adiado para 29/03
+1995-0094,1995,1º Turno,,,1995-03-30,,União São João,Palmeiras,4,2,,,,,,,RSSSF Brasil,ogol:2536329,,adiado para 30/03
 1995-0095,1995,1º Turno,,,1995-04-01,,Portuguesa,GE Novorizontino,2,2,,,,,,,RSSSF Brasil,ogol:2536533,,
 1995-0096,1995,1º Turno,,,1995-04-01,,Juventus-SP,XV de Piracicaba,1,0,,,,,,,RSSSF Brasil,ogol:2536534,,
 1995-0097,1995,1º Turno,,,1995-04-01,,Bragantino,São Paulo,0,2,,,,,,,RSSSF Brasil,ogol:2536535,,
@@ -17045,8 +17044,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0116,1995,1º Turno,,,1995-04-09,,Guarani,Araçatuba,2,0,,,,,,,RSSSF Brasil,ogol:2536359,,
 1995-0117,1995,1º Turno,,,1995-04-09,,América-SP,Ponte Preta,0,0,,,,,,,RSSSF Brasil,ogol:2536360,,
 1995-0118,1995,1º Turno,,,1995-04-09,,Bragantino,GE Novorizontino,3,0,,,,,,,RSSSF Brasil,ogol:2536361,,
-1995-0119,1995,1º Turno,,,1995-04-12,,Ferroviária-SP,Ponte Preta,1,2,,,,,,,RSSSF Brasil,ogol:2536281,,postponed to Apr 12
-1995-0120,1995,1º Turno,,,1995-04-12,,São Paulo,XV de Piracicaba,2,2,,,,,,,RSSSF Brasil,ogol:2536305,,postponed to Apr 12
+1995-0119,1995,1º Turno,,,1995-04-12,,Ferroviária-SP,Ponte Preta,1,2,,,,,,,RSSSF Brasil,ogol:2536281,,adiado para 12/04
+1995-0120,1995,1º Turno,,,1995-04-12,,São Paulo,XV de Piracicaba,2,2,,,,,,,RSSSF Brasil,ogol:2536305,,adiado para 12/04
 1995-0121,1995,2º Turno,,,1995-04-15,,Ponte Preta,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:2536403,,
 1995-0122,1995,2º Turno,,,1995-04-15,,Juventus-SP,Bragantino,2,0,,,,,,,RSSSF Brasil,ogol:2536404,,
 1995-0123,1995,2º Turno,,,1995-04-15,,Palmeiras,Portuguesa,3,0,,,,,,,RSSSF Brasil,ogol:2536405,,
@@ -17757,7 +17756,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1998-0132,1998,Segunda fase,Grupo 4,,1998-04-12,,São Paulo,São José-SP,6,1,,,,,,,RSSSF Brasil,ogol:2535536,,
 1998-0133,1998,Semifinal,,,1998-04-18,,Portuguesa,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:2532843,,
 1998-0134,1998,Semifinal,,,1998-04-19,,Palmeiras,São Paulo,1,2,,,,,,,RSSSF Brasil,ogol:2532844,,
-1998-0135,1998,Semifinal,,,1998-04-25,,Corinthians,Portuguesa,2,2,,,,,,,RSSSF Brasil,ogol:2532845,,Corinthians qualified on better season record
+1998-0135,1998,Semifinal,,,1998-04-25,,Corinthians,Portuguesa,2,2,,,,,,,RSSSF Brasil,ogol:2532845,,Corinthians classificado pela melhor campanha
 1998-0136,1998,Semifinal,,,1998-04-26,,São Paulo,Palmeiras,3,1,,,,,,,RSSSF Brasil,ogol:2532846,,
 1998-0137,1998,Final,,,1998-05-03,,Corinthians,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:2532847,"[24' Marcelinho, 67' Cris; 36' Fabiano]",
 1998-0138,1998,Final,,,1998-05-10,16:00,São Paulo,Corinthians,3,1,,,,,,,RSSSF Brasil,ogol:2532848,"[30' Rai, 46' and 83' Franca; 50' Didi]",
@@ -17851,7 +17850,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1999-0088,1999,Segunda fase,,4,1999-03-24,,Santos,São Paulo,1,2,,,,,,,RSSSF Brasil,ogol:2522633,,
 1999-0089,1999,Segunda fase,,4,1999-03-24,,Guarani,Portuguesa,2,3,,,,,,,RSSSF Brasil,ogol:2522632,,
 1999-0090,1999,Segunda fase,,4,1999-03-24,,Rio Branco-SP,Mogi Mirim,7,1,,,,,,,RSSSF Brasil,ogol:2522631,,
-1999-0091,1999,Segunda fase,,4,1999-03-24,,Matonense,União Barbarense,3,1,,,,,,,RSSSF Brasil,ogol:2522634,,2-1?
+1999-0091,1999,Segunda fase,,4,1999-03-24,,Matonense,União Barbarense,3,1,,,,,,,RSSSF Brasil,ogol:2522634,,placar em dúvida na página (2-1?)
 1999-0092,1999,Segunda fase,,5,1999-03-27,,São Paulo,Mogi Mirim,4,0,,,,,,,RSSSF Brasil,ogol:2522636,,
 1999-0093,1999,Segunda fase,,5,1999-03-27,,Rio Branco-SP,Santos,1,2,,,,,,,RSSSF Brasil,ogol:2522637,,
 1999-0094,1999,Segunda fase,,5,1999-03-28,,Portuguesa,União Barbarense,1,5,,,,,,,RSSSF Brasil,ogol:2522641,,
@@ -17934,7 +17933,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1999-0171,1999,Semifinal,,,1999-06-08,,Santos,Palmeiras,1,2,,,,,,,RSSSF Brasil,ogol:2523399,,
 1999-0172,1999,Semifinal,,,1999-06-09,,São Paulo,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:2523400,[Palmeiras qualified on better season record],
 1999-0173,1999,Final,,,1999-06-13,,Corinthians,Palmeiras,3,0,,,,,,,RSSSF Brasil,ogol:2523401,,
-1999-0174,1999,Final,,,1999-06-20,,Palmeiras,Corinthians,2,2,,,abd,,,,RSSSF Brasil,ogol:2523402,"[Evair 34, 39; Marcelinho 33, Edilson 74] [match abandoned after Edilson was attacked by three Palmeiras players  because he had juggled a bit with the ball]",abandoned at 2-2 in 76'; result stands
+1999-0174,1999,Final,,,1999-06-20,,Palmeiras,Corinthians,2,2,,,abd,,,,RSSSF Brasil,ogol:2523402,"[Evair 34, 39; Marcelinho 33, Edilson 74] [match abandoned after Edilson was attacked by three Palmeiras players  because he had juggled a bit with the ball]",abandonado aos 76 min com 2-2; resultado mantido
 2000-0001,2000,Primeira fase,Grupo 1,1,2000-01-23,,Portuguesa Santista,Matonense,2,2,,,,,,,RSSSF Brasil,ogol:2520968,,
 2000-0002,2000,Primeira fase,Grupo 1,1,2000-01-23,,Ponte Preta,Inter de Limeira,4,3,,,,,,,RSSSF Brasil,ogol:2520969,,
 2000-0003,2000,Primeira fase,Grupo 1,2,2000-01-26,,Araçatuba,Ponte Preta,0,2,,,,,,,RSSSF Brasil,ogol:2520973,,
@@ -17962,8 +17961,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2000-0025,2000,Primeira fase,Grupo 2,2,2000-01-26,,União Barbarense,América-SP,6,1,,,,,,,RSSSF Brasil,ogol:2520975,,
 2000-0026,2000,Primeira fase,Grupo 2,2,2000-01-26,,Guarani,União São João,1,0,,,,,,,RSSSF Brasil,ogol:2520976,,
 2000-0027,2000,Primeira fase,Grupo 2,2,2000-01-26,,Mogi Mirim,Rio Branco-SP,0,0,,,,,,,RSSSF Brasil,ogol:2520977,,
-2000-0028,2000,Primeira fase,Grupo 2,2,2000-01-26,,Matonense,Portuguesa,,,,,abd,,,,RSSSF Brasil,,,abd at 0-0 in 20'
-2000-0029,2000,Primeira fase,Grupo 2,2,2000-01-27,,Matonense,Portuguesa,0,2,,,,,,,RSSSF Brasil,ogol:2520978,,replay
+2000-0028,2000,Primeira fase,Grupo 2,2,2000-01-26,,Matonense,Portuguesa,,,,,abd,,,,RSSSF Brasil,,,abandonado aos 20 min com 0-0
+2000-0029,2000,Primeira fase,Grupo 2,2,2000-01-27,,Matonense,Portuguesa,0,2,,,,,,,RSSSF Brasil,ogol:2520978,,jogo refeito
 2000-0030,2000,Primeira fase,Grupo 2,3,2000-01-30,,Ponte Preta,Portuguesa,1,4,,,,,,,RSSSF Brasil,ogol:2520981,,
 2000-0031,2000,Primeira fase,Grupo 2,3,2000-01-30,,União São João,União Barbarense,1,1,,,,,,,RSSSF Brasil,ogol:2520982,,
 2000-0032,2000,Primeira fase,Grupo 2,3,2000-01-30,,América-SP,Rio Branco-SP,1,4,,,,,,,RSSSF Brasil,ogol:2520983,,
@@ -18107,30 +18106,30 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2000-0170,2000,Final,,,2000-06-10,,Santos,São Paulo,0,1,,,,,,,RSSSF Brasil,ogol:2521136,,
 2000-0171,2000,Final,,,2000-06-18,,São Paulo,Santos,2,2,,,,,,,RSSSF Brasil,ogol:2521137,,
 2001-0001,2001,Primeira fase,,1,2001-01-20,,Mogi Mirim,São Paulo,0,1,,,,,,,RSSSF Brasil,ogol:2519092,,
-2001-0002,2001,Primeira fase,,1,2001-01-21,15:00,Corinthians,Rio Branco-SP,3,3,1,2,,,,,RSSSF Brasil,ogol:2519093,,pen 1-2
+2001-0002,2001,Primeira fase,,1,2001-01-21,15:00,Corinthians,Rio Branco-SP,3,3,1,2,,,,,RSSSF Brasil,ogol:2519093,,
 2001-0003,2001,Primeira fase,,1,2001-01-21,15:00,Santos,Guarani,1,0,,,,,,,RSSSF Brasil,ogol:2519094,,
 2001-0004,2001,Primeira fase,,1,2001-01-21,15:00,Portuguesa,União São João,6,1,,,,,,,RSSSF Brasil,ogol:2519095,,
 2001-0005,2001,Primeira fase,,1,2001-01-21,15:00,Ponte Preta,Portuguesa Santista,1,0,,,,,,,RSSSF Brasil,ogol:2519096,,
 2001-0006,2001,Primeira fase,,1,2001-01-21,15:00,Inter de Limeira,União Barbarense,1,2,,,,,,,RSSSF Brasil,ogol:2519097,,
 2001-0007,2001,Primeira fase,,1,2001-01-21,15:00,Matonense,São Caetano,1,4,,,,,,,RSSSF Brasil,ogol:2519098,,
-2001-0008,2001,Primeira fase,,1,2001-01-21,15:00,Botafogo-SP,Palmeiras,3,3,3,1,,,,,RSSSF Brasil,ogol:2519099,,pen 3-1
+2001-0008,2001,Primeira fase,,1,2001-01-21,15:00,Botafogo-SP,Palmeiras,3,3,3,1,,,,,RSSSF Brasil,ogol:2519099,,
 2001-0009,2001,Primeira fase,,2,2001-01-27,17:00,Ponte Preta,Corinthians,3,1,,,,,,,RSSSF Brasil,ogol:2519100,,
 2001-0010,2001,Primeira fase,,2,2001-01-28,,União São João,Inter de Limeira,3,2,,,,,,,RSSSF Brasil,ogol:2519103,,
-2001-0011,2001,Primeira fase,,2,2001-01-28,,Guarani,Mogi Mirim,1,1,1,2,,,,,RSSSF Brasil,ogol:2519107,,pen 1-2
+2001-0011,2001,Primeira fase,,2,2001-01-28,,Guarani,Mogi Mirim,1,1,1,2,,,,,RSSSF Brasil,ogol:2519107,,
 2001-0012,2001,Primeira fase,,2,2001-01-28,15:00,Portuguesa,Palmeiras,4,2,,,,,,,RSSSF Brasil,ogol:2519101,,
 2001-0013,2001,Primeira fase,,2,2001-01-28,15:00,Santos,Portuguesa Santista,5,0,,,,,,,RSSSF Brasil,ogol:2519102,,
 2001-0014,2001,Primeira fase,,2,2001-01-28,15:00,Rio Branco-SP,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:2519104,,
-2001-0015,2001,Primeira fase,,2,2001-01-28,15:00,São Caetano,Botafogo-SP,2,2,4,3,,,,,RSSSF Brasil,ogol:2519105,,pen 4-3
-2001-0016,2001,Primeira fase,,2,2001-01-28,15:00,União Barbarense,Matonense,2,2,3,2,,,,,RSSSF Brasil,ogol:2519106,,pen 3-2
+2001-0015,2001,Primeira fase,,2,2001-01-28,15:00,São Caetano,Botafogo-SP,2,2,4,3,,,,,RSSSF Brasil,ogol:2519105,,
+2001-0016,2001,Primeira fase,,2,2001-01-28,15:00,União Barbarense,Matonense,2,2,3,2,,,,,RSSSF Brasil,ogol:2519106,,
 2001-0017,2001,Primeira fase,,3,2001-02-03,,Matonense,Palmeiras,2,3,,,,,,,RSSSF Brasil,ogol:2519108,,
 2001-0018,2001,Primeira fase,,3,2001-02-03,15:00,Portuguesa Santista,Corinthians,2,1,,,,,,,RSSSF Brasil,ogol:2519109,,
 2001-0019,2001,Primeira fase,,3,2001-02-04,,São Paulo,Santos,4,2,,,,,,,RSSSF Brasil,ogol:2519110,,
-2001-0020,2001,Primeira fase,,3,2001-02-04,,Mogi Mirim,Rio Branco-SP,2,2,2,3,,,,,RSSSF Brasil,ogol:2519115,,pen 2-3
+2001-0020,2001,Primeira fase,,3,2001-02-04,,Mogi Mirim,Rio Branco-SP,2,2,2,3,,,,,RSSSF Brasil,ogol:2519115,,
 2001-0021,2001,Primeira fase,,3,2001-02-04,15:00,Guarani,Ponte Preta,2,1,,,,,,,RSSSF Brasil,ogol:2519111,,
 2001-0022,2001,Primeira fase,,3,2001-02-04,15:00,União Barbarense,Portuguesa,1,2,,,,,,,RSSSF Brasil,ogol:2519112,"[Mauro 89', Irênio 52', 74']",
 2001-0023,2001,Primeira fase,,3,2001-02-04,15:00,Botafogo-SP,União São João,2,1,,,,,,,RSSSF Brasil,ogol:2519113,,
 2001-0024,2001,Primeira fase,,3,2001-02-04,15:00,São Caetano,Inter de Limeira,2,1,,,,,,,RSSSF Brasil,ogol:2519114,,
-2001-0025,2001,Primeira fase,,4,2001-02-10,,Inter de Limeira,São Paulo,2,2,2,3,,,,,RSSSF Brasil,ogol:2519116,,pen 2-3
+2001-0025,2001,Primeira fase,,4,2001-02-10,,Inter de Limeira,São Paulo,2,2,2,3,,,,,RSSSF Brasil,ogol:2519116,,
 2001-0026,2001,Primeira fase,,4,2001-02-11,15:00,Palmeiras,Corinthians,1,2,,,,,,,RSSSF Brasil,ogol:2519117,,
 2001-0027,2001,Primeira fase,,4,2001-02-11,15:00,Portuguesa,Guarani,1,2,,,,,,,RSSSF Brasil,ogol:2519118,,
 2001-0028,2001,Primeira fase,,4,2001-02-11,15:00,Ponte Preta,União São João,2,1,,,,,,,RSSSF Brasil,ogol:2519119,,
@@ -18139,38 +18138,38 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2001-0031,2001,Primeira fase,,4,2001-02-11,15:00,São Caetano,Mogi Mirim,3,4,,,,,,,RSSSF Brasil,ogol:2519122,,
 2001-0032,2001,Primeira fase,,4,2001-02-11,15:00,União Barbarense,Santos,1,5,,,,,,,RSSSF Brasil,ogol:2519123,,
 2001-0033,2001,Primeira fase,,5,2001-02-17,,Santos,Portuguesa,4,0,,,,,,,RSSSF Brasil,ogol:2519124,,
-2001-0034,2001,Primeira fase,,5,2001-02-17,,Rio Branco-SP,Palmeiras,2,2,4,5,,,,,RSSSF Brasil,ogol:2519125,,pen 4-5
+2001-0034,2001,Primeira fase,,5,2001-02-17,,Rio Branco-SP,Palmeiras,2,2,4,5,,,,,RSSSF Brasil,ogol:2519125,,
 2001-0035,2001,Primeira fase,,5,2001-02-18,,Matonense,Corinthians,3,2,,,,,,,RSSSF Brasil,ogol:2519128,,
 2001-0036,2001,Primeira fase,,5,2001-02-18,15:00,São Paulo,São Caetano,0,2,,,,,,,RSSSF Brasil,ogol:2519126,,
-2001-0037,2001,Primeira fase,,5,2001-02-18,15:00,Botafogo-SP,Ponte Preta,1,1,3,2,,,,,RSSSF Brasil,ogol:2519127,,pen 3-2
+2001-0037,2001,Primeira fase,,5,2001-02-18,15:00,Botafogo-SP,Ponte Preta,1,1,3,2,,,,,RSSSF Brasil,ogol:2519127,,
 2001-0038,2001,Primeira fase,,5,2001-02-18,15:00,Guarani,União Barbarense,2,1,,,,,,,RSSSF Brasil,ogol:2519129,,
 2001-0039,2001,Primeira fase,,5,2001-02-18,15:00,União São João,Portuguesa Santista,7,2,,,,,,,RSSSF Brasil,ogol:2519130,,
-2001-0040,2001,Primeira fase,,5,2001-02-18,15:00,Mogi Mirim,Inter de Limeira,2,2,3,2,,,,,RSSSF Brasil,ogol:2519131,,pen 3-2
-2001-0041,2001,Primeira fase,,6,2001-02-24,,São Caetano,Corinthians,1,1,3,1,,,,,RSSSF Brasil,ogol:2519133,,pen 3-1
+2001-0040,2001,Primeira fase,,5,2001-02-18,15:00,Mogi Mirim,Inter de Limeira,2,2,3,2,,,,,RSSSF Brasil,ogol:2519131,,
+2001-0041,2001,Primeira fase,,6,2001-02-24,,São Caetano,Corinthians,1,1,3,1,,,,,RSSSF Brasil,ogol:2519133,,
 2001-0042,2001,Primeira fase,,6,2001-02-24,,Ponte Preta,Palmeiras,3,2,,,,,,,RSSSF Brasil,ogol:2519136,,
-2001-0043,2001,Primeira fase,,6,2001-02-24,,Botafogo-SP,Rio Branco-SP,2,2,2,0,,,,,RSSSF Brasil,ogol:2519137,,pen 2-0
-2001-0044,2001,Primeira fase,,6,2001-02-24,,Mogi Mirim,União Barbarense,1,1,6,5,,,,,RSSSF Brasil,ogol:2519139,,pen 6-5
-2001-0045,2001,Primeira fase,,6,2001-02-24,15:00,Inter de Limeira,Guarani,3,3,4,3,,,,,RSSSF Brasil,ogol:2519132,,pen 4-3
-2001-0046,2001,Primeira fase,,6,2001-02-24,15:00,União São João,Santos,1,1,1,2,,,,,RSSSF Brasil,ogol:2519134,,pen 1-2
+2001-0043,2001,Primeira fase,,6,2001-02-24,,Botafogo-SP,Rio Branco-SP,2,2,2,0,,,,,RSSSF Brasil,ogol:2519137,,
+2001-0044,2001,Primeira fase,,6,2001-02-24,,Mogi Mirim,União Barbarense,1,1,6,5,,,,,RSSSF Brasil,ogol:2519139,,
+2001-0045,2001,Primeira fase,,6,2001-02-24,15:00,Inter de Limeira,Guarani,3,3,4,3,,,,,RSSSF Brasil,ogol:2519132,,
+2001-0046,2001,Primeira fase,,6,2001-02-24,15:00,União São João,Santos,1,1,1,2,,,,,RSSSF Brasil,ogol:2519134,,
 2001-0047,2001,Primeira fase,,6,2001-02-24,15:00,Portuguesa Santista,Portuguesa,3,2,,,,,,,RSSSF Brasil,ogol:2519135,,
 2001-0048,2001,Primeira fase,,6,2001-02-24,15:00,Matonense,São Paulo,0,2,,,,,,,RSSSF Brasil,ogol:2519138,,
-2001-0049,2001,Primeira fase,,7,2001-03-03,15:00,Ponte Preta,São Paulo,2,2,2,3,,,,,RSSSF Brasil,ogol:2519140,,pen 2-3
+2001-0049,2001,Primeira fase,,7,2001-03-03,15:00,Ponte Preta,São Paulo,2,2,2,3,,,,,RSSSF Brasil,ogol:2519140,,
 2001-0050,2001,Primeira fase,,7,2001-03-03,15:00,Rio Branco-SP,Santos,3,2,,,,,,,RSSSF Brasil,ogol:2519141,,
-2001-0051,2001,Primeira fase,,7,2001-03-04,15:00,Palmeiras,Inter de Limeira,0,0,12,13,,,,,RSSSF Brasil,ogol:2519142,,pen 12-13
-2001-0052,2001,Primeira fase,,7,2001-03-04,15:00,São Caetano,Portuguesa,1,1,2,1,,,,,RSSSF Brasil,ogol:2519143,,pen 2-1
-2001-0053,2001,Primeira fase,,7,2001-03-04,15:00,União Barbarense,Botafogo-SP,1,1,2,3,,,,,RSSSF Brasil,ogol:2519144,,pen 2-3
+2001-0051,2001,Primeira fase,,7,2001-03-04,15:00,Palmeiras,Inter de Limeira,0,0,12,13,,,,,RSSSF Brasil,ogol:2519142,,
+2001-0052,2001,Primeira fase,,7,2001-03-04,15:00,São Caetano,Portuguesa,1,1,2,1,,,,,RSSSF Brasil,ogol:2519143,,
+2001-0053,2001,Primeira fase,,7,2001-03-04,15:00,União Barbarense,Botafogo-SP,1,1,2,3,,,,,RSSSF Brasil,ogol:2519144,,
 2001-0054,2001,Primeira fase,,7,2001-03-04,15:00,Guarani,Corinthians,2,1,,,,,,,RSSSF Brasil,ogol:2519145,,
 2001-0055,2001,Primeira fase,,7,2001-03-04,15:00,União São João,Matonense,3,1,,,,,,,RSSSF Brasil,ogol:2519146,,
 2001-0056,2001,Primeira fase,,7,2001-03-04,15:00,Portuguesa Santista,Mogi Mirim,4,3,,,,,,,RSSSF Brasil,ogol:2519147,,
 2001-0057,2001,Primeira fase,,8,2001-03-10,,Inter de Limeira,Corinthians,1,2,,,,,,,RSSSF Brasil,ogol:2519148,,
 2001-0058,2001,Primeira fase,,8,2001-03-11,,Palmeiras,São Paulo,0,3,,,,,,,RSSSF Brasil,ogol:2519149,,
-2001-0059,2001,Primeira fase,,8,2001-03-11,15:00,Portuguesa,Mogi Mirim,1,1,4,3,,,,,RSSSF Brasil,ogol:2519150,,pen 4-3
+2001-0059,2001,Primeira fase,,8,2001-03-11,15:00,Portuguesa,Mogi Mirim,1,1,4,3,,,,,RSSSF Brasil,ogol:2519150,,
 2001-0060,2001,Primeira fase,,8,2001-03-11,15:00,Botafogo-SP,Santos,2,1,,,,,,,RSSSF Brasil,ogol:2519151,,
 2001-0061,2001,Primeira fase,,8,2001-03-11,15:00,Matonense,Ponte Preta,2,0,,,,,,,RSSSF Brasil,ogol:2519152,,
 2001-0062,2001,Primeira fase,,8,2001-03-11,15:00,Guarani,São Caetano,0,2,,,,,,,RSSSF Brasil,ogol:2519153,,
-2001-0063,2001,Primeira fase,,8,2001-03-11,15:00,União Barbarense,Portuguesa Santista,3,3,3,2,,,,,RSSSF Brasil,ogol:2519154,,pen 3-2
-2001-0064,2001,Primeira fase,,8,2001-03-11,15:00,Rio Branco-SP,União São João,1,1,2,0,,,,,RSSSF Brasil,ogol:2519155,"[Anaílson 24', Edu Sales 39']",pen 2-0
-2001-0065,2001,Primeira fase,,9,2001-03-17,15:00,Portuguesa Santista,São Paulo,4,4,2,3,,,,,RSSSF Brasil,ogol:2519156,,pen 2-3
+2001-0063,2001,Primeira fase,,8,2001-03-11,15:00,União Barbarense,Portuguesa Santista,3,3,3,2,,,,,RSSSF Brasil,ogol:2519154,,
+2001-0064,2001,Primeira fase,,8,2001-03-11,15:00,Rio Branco-SP,União São João,1,1,2,0,,,,,RSSSF Brasil,ogol:2519155,"[Anaílson 24', Edu Sales 39']",
+2001-0065,2001,Primeira fase,,9,2001-03-17,15:00,Portuguesa Santista,São Paulo,4,4,2,3,,,,,RSSSF Brasil,ogol:2519156,,
 2001-0066,2001,Primeira fase,,9,2001-03-17,15:00,Ponte Preta,Mogi Mirim,2,1,,,,,,,RSSSF Brasil,ogol:2519157,,
 2001-0067,2001,Primeira fase,,9,2001-03-18,,Corinthians,Santos,5,0,,,,,,,RSSSF Brasil,ogol:2519158,,
 2001-0068,2001,Primeira fase,,9,2001-03-18,,Portuguesa,Matonense,2,0,,,,,,,RSSSF Brasil,ogol:2519159,,
@@ -18191,15 +18190,15 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2001-0083,2001,Primeira fase,,11,2001-04-01,15:00,Santos,Palmeiras,3,1,,,,,,,RSSSF Brasil,ogol:2519174,,
 2001-0084,2001,Primeira fase,,11,2001-04-01,15:00,Portuguesa,Rio Branco-SP,4,3,,,,,,,RSSSF Brasil,ogol:2519175,,
 2001-0085,2001,Primeira fase,,11,2001-04-01,15:00,Inter de Limeira,Portuguesa Santista,4,0,,,,,,,RSSSF Brasil,ogol:2519176,,
-2001-0086,2001,Primeira fase,,11,2001-04-01,15:00,Guarani,Matonense,0,0,4,5,,,,,RSSSF Brasil,ogol:2519177,,pen 4-5
-2001-0087,2001,Primeira fase,,11,2001-04-01,15:00,São Caetano,Ponte Preta,2,2,0,1,,,,,RSSSF Brasil,ogol:2519178,,pen 0-1
+2001-0086,2001,Primeira fase,,11,2001-04-01,15:00,Guarani,Matonense,0,0,4,5,,,,,RSSSF Brasil,ogol:2519177,,
+2001-0087,2001,Primeira fase,,11,2001-04-01,15:00,São Caetano,Ponte Preta,2,2,0,1,,,,,RSSSF Brasil,ogol:2519178,,
 2001-0088,2001,Primeira fase,,11,2001-04-01,15:00,Mogi Mirim,União São João,4,2,,,,,,,RSSSF Brasil,ogol:2519179,,
 2001-0089,2001,Primeira fase,,12,2001-04-07,,União São João,São Paulo,4,3,,,,,,,RSSSF Brasil,ogol:2519180,,
 2001-0090,2001,Primeira fase,,12,2001-04-07,15:00,Matonense,Santos,4,5,,,,,,,RSSSF Brasil,ogol:2519181,,
 2001-0091,2001,Primeira fase,,12,2001-04-08,,Guarani,Palmeiras,1,2,,,,,,,RSSSF Brasil,ogol:2519184,,
 2001-0092,2001,Primeira fase,,12,2001-04-08,,Portuguesa Santista,São Caetano,1,0,,,,,,,RSSSF Brasil,ogol:2519186,,
 2001-0093,2001,Primeira fase,,12,2001-04-08,15:00,Corinthians,Portuguesa,5,2,,,,,,,RSSSF Brasil,ogol:2519182,,
-2001-0094,2001,Primeira fase,,12,2001-04-08,15:00,Mogi Mirim,Botafogo-SP,1,1,1,2,,,,,RSSSF Brasil,ogol:2519183,,pen 1-2
+2001-0094,2001,Primeira fase,,12,2001-04-08,15:00,Mogi Mirim,Botafogo-SP,1,1,1,2,,,,,RSSSF Brasil,ogol:2519183,,
 2001-0095,2001,Primeira fase,,12,2001-04-08,15:00,Inter de Limeira,Ponte Preta,0,1,,,,,,,RSSSF Brasil,ogol:2519185,,
 2001-0096,2001,Primeira fase,,12,2001-04-08,15:00,Rio Branco-SP,União Barbarense,2,0,,,,,,,RSSSF Brasil,ogol:2519187,,
 2001-0097,2001,Primeira fase,,13,2001-04-14,,União Barbarense,São Paulo,3,2,,,,,,,RSSSF Brasil,ogol:2519188,,
@@ -18213,15 +18212,15 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2001-0105,2001,Primeira fase,,14,2001-04-21,15:00,São Caetano,Santos,1,2,,,,,,,RSSSF Brasil,ogol:2519196,,
 2001-0106,2001,Primeira fase,,14,2001-04-21,15:00,Mogi Mirim,Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:2519197,,
 2001-0107,2001,Primeira fase,,14,2001-04-22,,Corinthians,União São João,3,2,,,,,,,RSSSF Brasil,ogol:2519200,,
-2001-0108,2001,Primeira fase,,14,2001-04-22,,Rio Branco-SP,Inter de Limeira,1,1,6,5,,,,,RSSSF Brasil,ogol:2519201,,pen 6-5
+2001-0108,2001,Primeira fase,,14,2001-04-22,,Rio Branco-SP,Inter de Limeira,1,1,6,5,,,,,RSSSF Brasil,ogol:2519201,,
 2001-0109,2001,Primeira fase,,14,2001-04-22,15:00,Matonense,Portuguesa Santista,5,0,,,,,,,RSSSF Brasil,ogol:2519198,,
 2001-0110,2001,Primeira fase,,14,2001-04-22,15:00,Portuguesa,São Paulo,1,0,,,,,,,RSSSF Brasil,ogol:2519199,,
-2001-0111,2001,Primeira fase,,14,2001-04-22,15:00,Ponte Preta,União Barbarense,0,0,5,6,,,,,RSSSF Brasil,ogol:2519202,,pen 5-6
+2001-0111,2001,Primeira fase,,14,2001-04-22,15:00,Ponte Preta,União Barbarense,0,0,5,6,,,,,RSSSF Brasil,ogol:2519202,,
 2001-0112,2001,Primeira fase,,14,2001-04-22,15:00,Botafogo-SP,Guarani,2,1,,,,,,,RSSSF Brasil,ogol:2519203,,
 2001-0113,2001,Primeira fase,,15,2001-04-28,15:00,Portuguesa,Botafogo-SP,0,1,,,,,,,RSSSF Brasil,ogol:2519204,,
 2001-0114,2001,Primeira fase,,15,2001-04-28,15:00,Inter de Limeira,Matonense,2,0,,,,,,,RSSSF Brasil,ogol:2519205,,
 2001-0115,2001,Primeira fase,,15,2001-04-28,15:00,Mogi Mirim,Santos,1,5,,,,,,,RSSSF Brasil,ogol:2519206,,
-2001-0116,2001,Primeira fase,,15,2001-04-28,15:00,Guarani,Portuguesa Santista,0,0,3,1,,,,,RSSSF Brasil,ogol:2519207,,pen 3-1
+2001-0116,2001,Primeira fase,,15,2001-04-28,15:00,Guarani,Portuguesa Santista,0,0,3,1,,,,,RSSSF Brasil,ogol:2519207,,
 2001-0117,2001,Primeira fase,,15,2001-04-28,15:00,Rio Branco-SP,Ponte Preta,1,2,,,,,,,RSSSF Brasil,ogol:2519208,,
 2001-0118,2001,Primeira fase,,15,2001-04-28,15:00,São Caetano,União Barbarense,5,0,,,,,,,RSSSF Brasil,ogol:2519209,,
 2001-0119,2001,Primeira fase,,15,2001-04-29,15:00,União São João,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:2519210,,
@@ -18233,7 +18232,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2001-0125,2001,Final,,,2001-05-20,,Botafogo-SP,Corinthians,0,3,,,,,,,RSSSF Brasil,ogol:2519288,,
 2001-0126,2001,Final,,,2001-05-27,,Corinthians,Botafogo-SP,0,0,,,,,,,RSSSF Brasil,ogol:2519289,"[Marcelinho Carioca 58', 73', João Carlos 75']",
 2002-0001,2002,Repescagem,,22,2002-06-02,,Francana,Portuguesa Santista,2,2,,,,,,,RSSSF Brasil,,,
-2002-0002,2002,Repescagem,,22,2002-06-05,,Portuguesa Santista,Francana,2,2,3,2,,,,,RSSSF Brasil,,,pen 3-2
+2002-0002,2002,Repescagem,,22,2002-06-05,,Portuguesa Santista,Francana,2,2,3,2,,,,,RSSSF Brasil,,,
 2002-0003,2002,Fase única,,1,2002-01-20,,Juventus-SP,Ituano,2,2,,,,,,,RSSSF Brasil,ogol:2518889,,
 2002-0004,2002,Fase única,,1,2002-01-20,,América-SP,União São João,2,1,,,,,,,RSSSF Brasil,ogol:2518888,,
 2002-0005,2002,Fase única,,1,2002-01-20,,Botafogo-SP,Rio Branco-SP,3,1,,,,,,,RSSSF Brasil,ogol:2518890,,
@@ -18487,7 +18486,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2004-0008,2004,Primeira fase,Grupo 1,2,2004-01-25,17:00,Ponte Preta,Portuguesa Santista,3,3,,,,,,,RSSSF Brasil,ogol:2258186,,
 2004-0009,2004,Primeira fase,Grupo 1,2,2004-01-25,17:00,União Barbarense,América-SP,0,0,,,,,,,RSSSF Brasil,ogol:2258187,,
 2004-0010,2004,Primeira fase,Grupo 1,2,2004-01-25,17:00,Portuguesa,São Paulo,2,3,,,,,,,RSSSF Brasil,ogol:2258185,,
-2004-0011,2004,Primeira fase,Grupo 1,3,2004-01-31,,Juventus-SP,Ponte Preta,,,,,abd,,,,RSSSF Brasil,,,abandoned at halftime due to heavy rain
+2004-0011,2004,Primeira fase,Grupo 1,3,2004-01-31,,Juventus-SP,Ponte Preta,,,,,abd,,,,RSSSF Brasil,,,abandonado no intervalo por causa de chuva forte
 2004-0012,2004,Primeira fase,Grupo 1,3,2004-02-01,17:00,Portuguesa,Atlético Sorocaba,2,3,,,,,,,RSSSF Brasil,ogol:2258199,,
 2004-0013,2004,Primeira fase,Grupo 1,3,2004-02-01,17:00,América-SP,Rio Branco-SP,1,0,,,,,,,RSSSF Brasil,ogol:2258200,,
 2004-0014,2004,Primeira fase,Grupo 1,3,2004-02-01,17:00,Portuguesa Santista,São Paulo,1,4,,,,,,,RSSSF Brasil,ogol:2258198,,
@@ -18579,13 +18578,13 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2004-0100,2004,Primeira fase,Grupo 2,11,2004-03-14,17:00,União São João,São Caetano,0,1,,,,,,,RSSSF Brasil,ogol:2258270,,
 2004-0101,2004,Primeira fase,Grupo 2,11,2004-03-14,17:00,Marília,Oeste,2,2,,,,,,,RSSSF Brasil,ogol:2258268,,
 2004-0102,2004,Quartas de final,,,2004-03-20,13:00,Santos,União Barbarense,1,0,,,,,,,RSSSF Brasil,ogol:2258293,,
-2004-0103,2004,Quartas de final,,,2004-03-20,15:00,Paulista,Ponte Preta,2,2,,,,,,,RSSSF Brasil,ogol:2258294,"[Lucas 70', Aílton 72', 111', Danilo Laranjeira 102'; Weldon 13', Piá 36', André Cunha 116']",aet 2-1
+2004-0103,2004,Quartas de final,,,2004-03-20,15:00,Paulista,Ponte Preta,2,2,,,,,,,RSSSF Brasil,ogol:2258294,"[Lucas 70', Aílton 72', 111', Danilo Laranjeira 102'; Weldon 13', Piá 36', André Cunha 116']",prorrogação 2-1
 2004-0104,2004,Quartas de final,,,2004-03-21,13:00,Portuguesa Santista,Palmeiras,1,2,,,,,,,RSSSF Brasil,ogol:2258296,,
 2004-0105,2004,Quartas de final,,,2004-03-21,13:00,São Paulo,São Caetano,0,2,,,,,,,RSSSF Brasil,ogol:2258295,,
 2004-0106,2004,Semifinal,,,2004-03-27,13:00,Palmeiras,Paulista,1,1,,,,,,,RSSSF Brasil,ogol:2258297,,
 2004-0107,2004,Semifinal,,,2004-03-28,12:00,Santos,São Caetano,3,3,,,,,,,RSSSF Brasil,ogol:2258298,,
 2004-0108,2004,Semifinal,,,2004-04-03,12:00,São Caetano,Santos,4,0,,,,,,,RSSSF Brasil,ogol:2258299,"[Basílio 54', Gustavo Caiche 62'og, Robinho 81'; Anderson Lima 33', Warley 43', Mineiro 86'] [Euller 38', Fabrício Carvalho 51', Marcinho 74', 90']",
-2004-0109,2004,Semifinal,,,2004-04-04,12:00,Paulista,Palmeiras,3,3,4,3,,,,,RSSSF Brasil,ogol:2258300,"[Darío Muñoz 38'; Canindé 24'] [Vágner Love 41', Élson Falcão 84'p, Pedrinho 90+4'; Galego 8', João Paulo Daniel 17', Davi 79']",pen 4-3
+2004-0109,2004,Semifinal,,,2004-04-04,12:00,Paulista,Palmeiras,3,3,4,3,,,,,RSSSF Brasil,ogol:2258300,"[Darío Muñoz 38'; Canindé 24'] [Vágner Love 41', Élson Falcão 84'p, Pedrinho 90+4'; Galego 8', João Paulo Daniel 17', Davi 79']",
 2004-0110,2004,Final,,,2004-04-11,,Paulista,São Caetano,1,3,,,,,,,RSSSF Brasil,ogol:2258301,,
 2004-0111,2004,Final,,,2004-04-18,,São Caetano,Paulista,2,0,,,,,,,RSSSF Brasil,ogol:2258302,"[Canindé 12'; Euller 19', Warley 76', 90+2'p] [Marcinho 20', Mineiro 88']",
 2005-0001,2005,Fase única,,1,2005-01-19,22:00,Inter de Limeira,Palmeiras,3,5,,,,,,,RSSSF Brasil,ogol:179446,,
@@ -19144,7 +19143,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2007-0174,2007,Primeira fase,,18,2007-04-08,15:00,Rio Claro,Rio Branco-SP,4,0,,,,,,,RSSSF Brasil,ogol:246079,,
 2007-0175,2007,Primeira fase,,18,2007-04-08,16:00,Ituano,Santo André,4,2,,,,,,,RSSSF Brasil,ogol:246074,,
 2007-0176,2007,Primeira fase,,18,2007-04-08,16:00,Palmeiras,Guaratinguetá,2,2,,,,,,,RSSSF Brasil,ogol:246078,,
-2007-0177,2007,Primeira fase,,18,2007-04-08,16:00,Barueri,São Paulo,0,5,,,,,,,RSSSF Brasil,ogol:246072,,played in Sorocaba
+2007-0177,2007,Primeira fase,,18,2007-04-08,16:00,Barueri,São Paulo,0,5,,,,,,,RSSSF Brasil,ogol:246072,,jogo em Sorocaba
 2007-0178,2007,Primeira fase,,18,2007-04-08,16:00,Noroeste,Santos,1,4,,,,,,,RSSSF Brasil,ogol:246077,,
 2007-0179,2007,Primeira fase,,18,2007-04-08,16:00,Marília,Ponte Preta,0,2,,,,,,,RSSSF Brasil,ogol:246076,,
 2007-0180,2007,Primeira fase,,18,2007-04-08,16:00,Sertãozinho,Bragantino,1,0,,,,,,,RSSSF Brasil,ogol:246081,,
@@ -19160,10 +19159,10 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2007-0190,2007,Primeira fase,,19,2007-04-11,19:00,Rio Branco-SP,São Caetano,3,2,,,,,,,RSSSF Brasil,ogol:246087,,
 2007-0191,2007,Semifinal,,,2007-04-14,16:00,Bragantino,Santos,0,0,,,,,,,RSSSF Brasil,ogol:253606,,
 2007-0192,2007,Semifinal,,,2007-04-15,14:00,São Caetano,São Paulo,1,1,,,,,,,RSSSF Brasil,ogol:253608,,
-2007-0193,2007,Semifinal,,,2007-04-21,14:10,São Paulo,São Caetano,1,4,,,,,,,RSSSF Brasil,ogol:253609,,1st leg in São Paulo
-2007-0194,2007,Semifinal,,,2007-04-22,12:00,Santos,Bragantino,0,0,,,,,,,RSSSF Brasil,ogol:253607,,both legs in São Paulo
+2007-0193,2007,Semifinal,,,2007-04-21,14:10,São Paulo,São Caetano,1,4,,,,,,,RSSSF Brasil,ogol:253609,,jogo de ida em São Paulo
+2007-0194,2007,Semifinal,,,2007-04-22,12:00,Santos,Bragantino,0,0,,,,,,,RSSSF Brasil,ogol:253607,,os dois jogos em São Paulo
 2007-0195,2007,Final,,,2007-04-29,16:00,São Caetano,Santos,2,0,,,,,,,RSSSF Brasil,ogol:253617,,
-2007-0196,2007,Final,,,2007-05-06,16:00,Santos,São Caetano,2,0,,,,,,,RSSSF Brasil,ogol:253618,,both legs in São Paulo
+2007-0196,2007,Final,,,2007-05-06,16:00,Santos,São Caetano,2,0,,,,,,,RSSSF Brasil,ogol:253618,,os dois jogos em São Paulo
 2008-0001,2008,Primeira fase,,1,2008-01-16,16:00,Juventus-SP,Noroeste,1,1,,,,,,,RSSSF Brasil,ogol:318180,,
 2008-0002,2008,Primeira fase,,1,2008-01-16,19:30,Rio Claro,Paulista,2,0,,,,,,,RSSSF Brasil,ogol:318182,,
 2008-0003,2008,Primeira fase,,1,2008-01-16,19:30,Ponte Preta,Ituano,4,2,,,,,,,RSSSF Brasil,ogol:318183,,
@@ -19764,14 +19763,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2011-0010,2011,Primeira fase,,1,2011-01-16,19:30,Paulista,Ituano,2,1,,,,,,,RSSSF Brasil,ogol:1582472,,
 2011-0011,2011,Primeira fase,,2,2011-01-19,17:00,Ponte Preta,Mogi Mirim,0,2,,,,,,,RSSSF Brasil,ogol:1582475,,
 2011-0012,2011,Primeira fase,,2,2011-01-19,17:00,Portuguesa,Oeste,1,0,,,,,,,RSSSF Brasil,ogol:1582476,,
-2011-0013,2011,Primeira fase,,2,2011-01-19,19:30,Santos,Mirassol,3,0,,,,,,,RSSSF Brasil,ogol:1582478,,played in São Paulo
+2011-0013,2011,Primeira fase,,2,2011-01-19,19:30,Santos,Mirassol,3,0,,,,,,,RSSSF Brasil,ogol:1582478,,jogo em São Paulo
 2011-0014,2011,Primeira fase,,2,2011-01-19,19:30,Santo André,Linense,1,1,,,,,,,RSSSF Brasil,ogol:1582477,"[Juan 90'+2',Gilsinho 31']",
 2011-0015,2011,Primeira fase,,2,2011-01-19,19:30,São Caetano,Guaratinguetá,0,1,,,,,,,RSSSF Brasil,ogol:1582479,,
 2011-0016,2011,Primeira fase,,2,2011-01-19,22:00,São Paulo,São Bernardo,3,0,,,,,,,RSSSF Brasil,ogol:1582480,,
 2011-0017,2011,Primeira fase,,2,2011-01-19,22:00,Bragantino,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:1582481,"[Chicão 16'og, Jorge Henrique 82']",
 2011-0018,2011,Primeira fase,,2,2011-01-20,17:00,Barueri,Paulista,1,2,,,,,,,RSSSF Brasil,ogol:1582484,,
 2011-0019,2011,Primeira fase,,2,2011-01-20,19:30,Botafogo-SP,Noroeste,2,2,,,,,,,RSSSF Brasil,ogol:1582482,,
-2011-0020,2011,Primeira fase,,2,2011-01-20,21:00,Ituano,Palmeiras,1,4,,,,,,,RSSSF Brasil,ogol:1582483,,played in Piracicaba
+2011-0020,2011,Primeira fase,,2,2011-01-20,21:00,Ituano,Palmeiras,1,4,,,,,,,RSSSF Brasil,ogol:1582483,,jogo em Piracicaba
 2011-0021,2011,Primeira fase,,3,2011-01-22,17:00,Bragantino,Santo André,2,1,,,,,,,RSSSF Brasil,ogol:1582485,,
 2011-0022,2011,Primeira fase,,3,2011-01-22,19:30,Mogi Mirim,Mirassol,0,1,,,,,,,RSSSF Brasil,ogol:1582487,,
 2011-0023,2011,Primeira fase,,3,2011-01-22,19:30,São Paulo,Ponte Preta,0,1,,,,,,,RSSSF Brasil,ogol:1582486,,
@@ -19796,7 +19795,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2011-0042,2011,Primeira fase,,5,2011-01-29,19:30,Oeste,Mirassol,0,1,,,,,,,RSSSF Brasil,ogol:1582507,,
 2011-0043,2011,Primeira fase,,5,2011-01-29,19:30,Ponte Preta,São Caetano,0,0,,,,,,,RSSSF Brasil,ogol:1582506,,
 2011-0044,2011,Primeira fase,,5,2011-01-30,17:00,Portuguesa,Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:1582510,,
-2011-0045,2011,Primeira fase,,5,2011-01-30,17:00,Santos,São Paulo,2,0,,,,,,,RSSSF Brasil,ogol:1582509,,played in Barueri
+2011-0045,2011,Primeira fase,,5,2011-01-30,17:00,Santos,São Paulo,2,0,,,,,,,RSSSF Brasil,ogol:1582509,,jogo em Barueri
 2011-0046,2011,Primeira fase,,5,2011-01-30,19:30,Botafogo-SP,Bragantino,1,1,,,,,,,RSSSF Brasil,ogol:1582513,,
 2011-0047,2011,Primeira fase,,5,2011-01-30,19:30,Linense,Paulista,3,2,,,,,,,RSSSF Brasil,ogol:1582511,,
 2011-0048,2011,Primeira fase,,5,2011-01-30,19:30,Mogi Mirim,Barueri,3,1,,,,,,,RSSSF Brasil,ogol:1582514,,
@@ -19810,7 +19809,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2011-0056,2011,Primeira fase,,6,2011-02-03,19:30,São Paulo,Linense,3,2,,,,,,,RSSSF Brasil,ogol:1582521,,
 2011-0057,2011,Primeira fase,,6,2011-02-03,19:30,Bragantino,São Bernardo,3,0,,,,,,,RSSSF Brasil,ogol:1582522,,
 2011-0058,2011,Primeira fase,,6,2011-02-03,21:00,São Caetano,Barueri,1,0,,,,,,,RSSSF Brasil,ogol:1582523,,
-2011-0059,2011,Primeira fase,,7,2011-02-05,19:30,Santo André,Santos,1,1,,,,,,,RSSSF Brasil,ogol:1582525,,played in São Paulo
+2011-0059,2011,Primeira fase,,7,2011-02-05,19:30,Santo André,Santos,1,1,,,,,,,RSSSF Brasil,ogol:1582525,,jogo em São Paulo
 2011-0060,2011,Primeira fase,,7,2011-02-05,19:30,Noroeste,Mogi Mirim,4,1,,,,,,,RSSSF Brasil,ogol:1582526,,
 2011-0061,2011,Primeira fase,,7,2011-02-05,19:30,Guaratinguetá,Oeste,1,1,,,,,,,RSSSF Brasil,ogol:1582527,,
 2011-0062,2011,Primeira fase,,7,2011-02-06,17:00,Palmeiras,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:1582528,,
@@ -19880,7 +19879,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2011-0126,2011,Primeira fase,,13,2011-03-13,16:00,São Paulo,Santo André,3,0,,,,,,,RSSSF Brasil,ogol:1582591,,
 2011-0127,2011,Primeira fase,,13,2011-03-13,16:00,Mirassol,Corinthians,2,3,,,,,,,RSSSF Brasil,ogol:1582592,,
 2011-0128,2011,Primeira fase,,13,2011-03-13,18:30,Guaratinguetá,Paulista,0,2,,,,,,,RSSSF Brasil,ogol:1582585,,
-2011-0129,2011,Primeira fase,,13,2011-03-13,18:30,Ituano,Portuguesa,0,0,,,,,,,RSSSF Brasil,ogol:1582593,,played in Mogi Mirim
+2011-0129,2011,Primeira fase,,13,2011-03-13,18:30,Ituano,Portuguesa,0,0,,,,,,,RSSSF Brasil,ogol:1582593,,jogo em Mogi Mirim
 2011-0130,2011,Primeira fase,,13,2011-03-13,18:30,Oeste,Bragantino,2,0,,,,,,,RSSSF Brasil,ogol:1582590,,
 2011-0131,2011,Primeira fase,,14,2011-03-19,16:00,Noroeste,Ponte Preta,1,0,,,,,,,RSSSF Brasil,ogol:1582595,,
 2011-0132,2011,Primeira fase,,14,2011-03-19,16:00,Portuguesa,Mirassol,4,1,,,,,,,RSSSF Brasil,ogol:1582596,,
@@ -19947,7 +19946,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2011-0193,2011,Quartas de final,,,2011-04-24,16:00,São Paulo,Portuguesa,2,0,,,,,,,RSSSF Brasil,ogol:1673136,,
 2011-0194,2011,Quartas de final,,,2011-04-24,18:30,Palmeiras,Mirassol,2,1,,,,,,,RSSSF Brasil,ogol:1673137,,
 2011-0195,2011,Semifinal,,,2011-04-30,16:00,São Paulo,Santos,0,2,,,,,,,RSSSF Brasil,ogol:1675679,,
-2011-0196,2011,Semifinal,,,2011-05-01,16:00,Palmeiras,Corinthians,1,1,5,6,,,,,RSSSF Brasil,ogol:1675680,,pen. 5-6
+2011-0196,2011,Semifinal,,,2011-05-01,16:00,Palmeiras,Corinthians,1,1,5,6,,,,,RSSSF Brasil,ogol:1675680,,
 2011-0197,2011,Final,,,2011-05-08,16:00,Corinthians,Santos,0,0,,,,,,,RSSSF Brasil,ogol:1681016,,
 2011-0198,2011,Final,,,2011-05-15,16:00,Santos,Corinthians,2,1,,,,,,,RSSSF Brasil,ogol:1681017,,
 2012-0001,2012,Primeira fase,,1,2012-01-21,17:00,Corinthians,Mirassol,2,1,,,,,,,RSSSF Brasil,ogol:2049554,,
@@ -20016,7 +20015,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2012-0064,2012,Primeira fase,,7,2012-02-12,17:00,Oeste,Guaratinguetá,2,1,,,,,,,RSSSF Brasil,ogol:2049620,,
 2012-0065,2012,Primeira fase,,7,2012-02-12,17:00,Guarani,Paulista,2,1,,,,,,,RSSSF Brasil,ogol:2049619,,
 2012-0066,2012,Primeira fase,,7,2012-02-12,17:00,Corinthians,São Paulo,1,0,,,,,,,RSSSF Brasil,ogol:2049612,,
-2012-0067,2012,Primeira fase,,7,2012-02-12,19:30,Santos,Linense,4,1,,,,,,,RSSSF Brasil,ogol:2049613,,played in Barueri
+2012-0067,2012,Primeira fase,,7,2012-02-12,19:30,Santos,Linense,4,1,,,,,,,RSSSF Brasil,ogol:2049613,,jogo em Barueri
 2012-0068,2012,Primeira fase,,7,2012-02-12,19:30,Portuguesa,Botafogo-SP,3,0,,,,,,,RSSSF Brasil,ogol:2049621,,
 2012-0069,2012,Primeira fase,,7,2012-02-12,19:30,São Caetano,Comercial-RP,2,0,,,,,,,RSSSF Brasil,ogol:2049618,,
 2012-0070,2012,Primeira fase,,7,2012-02-12,19:30,XV de Piracicaba,Catanduvense,0,2,,,,,,,RSSSF Brasil,ogol:2049617,,
@@ -20034,14 +20033,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2012-0082,2012,Primeira fase,,9,2012-02-22,19:30,Paulista,Botafogo-SP,0,1,,,,,,,RSSSF Brasil,ogol:2049636,,
 2012-0083,2012,Primeira fase,,9,2012-02-22,19:30,Linense,Mirassol,1,1,,,,,,,RSSSF Brasil,ogol:2049637,,
 2012-0084,2012,Primeira fase,,9,2012-02-22,19:30,Ponte Preta,Ituano,1,0,,,,,,,RSSSF Brasil,ogol:2049641,,
-2012-0085,2012,Primeira fase,,9,2012-02-22,19:30,Santos,Comercial-RP,2,0,,,,,,,RSSSF Brasil,ogol:2049632,,played in Barueri
+2012-0085,2012,Primeira fase,,9,2012-02-22,19:30,Santos,Comercial-RP,2,0,,,,,,,RSSSF Brasil,ogol:2049632,,jogo em Barueri
 2012-0086,2012,Primeira fase,,9,2012-02-22,22:00,Bragantino,São Paulo,3,3,,,,,,,RSSSF Brasil,ogol:2049634,,
 2012-0087,2012,Primeira fase,,9,2012-02-22,22:00,Portuguesa,Corinthians,0,2,,,,,,,RSSSF Brasil,ogol:2049633,,
 2012-0088,2012,Primeira fase,,9,2012-02-23,19:30,Palmeiras,Oeste,1,1,,,,,,,RSSSF Brasil,ogol:2049635,,
 2012-0089,2012,Primeira fase,,9,2012-02-23,21:00,Guarani,XV de Piracicaba,2,0,,,,,,,RSSSF Brasil,ogol:2049639,,
 2012-0090,2012,Primeira fase,,9,2012-02-23,21:50,Catanduvense,Guaratinguetá,1,3,,,,,,,RSSSF Brasil,ogol:2049640,,
 2012-0091,2012,Primeira fase,,10,2012-02-25,16:00,Paulista,Linense,1,2,,,,,,,RSSSF Brasil,ogol:2049645,,
-2012-0092,2012,Primeira fase,,10,2012-02-25,18:30,Santos,Ponte Preta,6,1,,,,,,,RSSSF Brasil,ogol:2049643,,played in Barueri
+2012-0092,2012,Primeira fase,,10,2012-02-25,18:30,Santos,Ponte Preta,6,1,,,,,,,RSSSF Brasil,ogol:2049643,,jogo em Barueri
 2012-0093,2012,Primeira fase,,10,2012-02-25,18:30,Corinthians,Botafogo-SP,1,0,,,,,,,RSSSF Brasil,ogol:2049644,,
 2012-0094,2012,Primeira fase,,10,2012-02-26,16:00,Palmeiras,São Paulo,3,3,,,,,,,RSSSF Brasil,ogol:2049642,,
 2012-0095,2012,Primeira fase,,10,2012-02-26,16:00,XV de Piracicaba,Ituano,1,2,,,,,,,RSSSF Brasil,ogol:2049648,,
@@ -20108,7 +20107,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2012-0156,2012,Primeira fase,,16,2012-03-28,22:00,Corinthians,XV de Piracicaba,1,0,,,,,,,RSSSF Brasil,ogol:2049703,,
 2012-0157,2012,Primeira fase,,16,2012-03-28,22:00,Paulista,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:2049704,,
 2012-0158,2012,Primeira fase,,16,2012-03-29,19:30,Guarani,Linense,2,1,,,,,,,RSSSF Brasil,ogol:2049708,,
-2012-0159,2012,Primeira fase,,16,2012-03-29,19:30,São Paulo,Catanduvense,2,0,,,,,,,RSSSF Brasil,ogol:2049705,,played in Barueri
+2012-0159,2012,Primeira fase,,16,2012-03-29,19:30,São Paulo,Catanduvense,2,0,,,,,,,RSSSF Brasil,ogol:2049705,,jogo em Barueri
 2012-0160,2012,Primeira fase,,16,2012-03-29,21:00,Santos,Guaratinguetá,5,0,,,,,,,RSSSF Brasil,ogol:2049702,,
 2012-0161,2012,Primeira fase,,17,2012-03-31,18:30,Palmeiras,Mirassol,0,1,,,,,,,RSSSF Brasil,ogol:2049715,,
 2012-0162,2012,Primeira fase,,17,2012-03-31,18:30,Mogi Mirim,Paulista,3,1,,,,,,,RSSSF Brasil,ogol:2049719,,
@@ -20123,7 +20122,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2012-0171,2012,Primeira fase,,18,2012-04-07,18:30,Portuguesa,Linense,2,2,,,,,,,RSSSF Brasil,ogol:2049726,,
 2012-0172,2012,Primeira fase,,18,2012-04-07,18:30,Bragantino,Oeste,1,4,,,,,,,RSSSF Brasil,ogol:2049728,,
 2012-0173,2012,Primeira fase,,18,2012-04-07,18:30,Ituano,Mirassol,1,1,,,,,,,RSSSF Brasil,ogol:2049727,,
-2012-0174,2012,Primeira fase,,18,2012-04-07,18:30,São Paulo,Mogi Mirim,2,0,,,,,,,RSSSF Brasil,ogol:2049725,,played in Barueri
+2012-0174,2012,Primeira fase,,18,2012-04-07,18:30,São Paulo,Mogi Mirim,2,0,,,,,,,RSSSF Brasil,ogol:2049725,,jogo em Barueri
 2012-0175,2012,Primeira fase,,18,2012-04-08,16:00,Guarani,Palmeiras,3,1,,,,,,,RSSSF Brasil,ogol:2049723,,
 2012-0176,2012,Primeira fase,,18,2012-04-08,16:00,Corinthians,Paulista,1,0,,,,,,,RSSSF Brasil,ogol:2049724,,
 2012-0177,2012,Primeira fase,,18,2012-04-08,18:30,São Caetano,Santos,2,1,,,,,,,RSSSF Brasil,ogol:2049722,,
@@ -20146,7 +20145,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2012-0194,2012,Quartas de final,,,2012-04-22,18:30,Guarani,Palmeiras,3,2,,,,,,,RSSSF Brasil,ogol:2215192,,
 2012-0195,2012,Semifinal,,,2012-04-29,16:00,São Paulo,Santos,1,3,,,,,,,RSSSF Brasil,ogol:2220608,,
 2012-0196,2012,Semifinal,,,2012-04-29,18:30,Guarani,Ponte Preta,3,1,,,,,,,RSSSF Brasil,ogol:2220609,,
-2012-0197,2012,Final,,,2012-05-06,16:00,Guarani,Santos,0,3,,,,,,,RSSSF Brasil,ogol:2224604,,played in São Paulo
+2012-0197,2012,Final,,,2012-05-06,16:00,Guarani,Santos,0,3,,,,,,,RSSSF Brasil,ogol:2224604,,jogo em São Paulo
 2012-0198,2012,Final,,,2012-05-13,16:00,Santos,Guarani,4,2,,,,,,,ogol,ogol:2224605,,
 2013-0001,2013,Primeira fase,,1,2013-01-19,17:00,São Paulo,Mirassol,2,0,,,,,,,RSSSF Brasil,ogol:2592223,,
 2013-0002,2013,Primeira fase,,1,2013-01-19,17:00,União Barbarense,XV de Piracicaba,1,1,,,,,,,RSSSF Brasil,ogol:2592224,,
@@ -20156,14 +20155,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2013-0006,2013,Primeira fase,,1,2013-01-19,19:30,Penapolense,Ituano,3,0,,,,,,,RSSSF Brasil,ogol:2592227,,
 2013-0007,2013,Primeira fase,,1,2013-01-20,17:00,Paulista,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:2592228,,
 2013-0008,2013,Primeira fase,,1,2013-01-20,17:00,Palmeiras,Bragantino,0,0,,,,,,,RSSSF Brasil,ogol:2592229,,
-2013-0009,2013,Primeira fase,,1,2013-01-20,19:30,Ponte Preta,Mogi Mirim,0,0,,,,,,,RSSSF Brasil,ogol:2592230,,played in Americana
+2013-0009,2013,Primeira fase,,1,2013-01-20,19:30,Ponte Preta,Mogi Mirim,0,0,,,,,,,RSSSF Brasil,ogol:2592230,,jogo em Americana
 2013-0010,2013,Primeira fase,,1,2013-01-20,19:30,Botafogo-SP,Oeste,2,0,,,,,,,RSSSF Brasil,ogol:2592231,,
 2013-0011,2013,Primeira fase,,2,2013-01-23,17:00,Corinthians,Ponte Preta,0,1,,,,,,,RSSSF Brasil,ogol:2592237,,
 2013-0012,2013,Primeira fase,,2,2013-01-23,17:00,Bragantino,Linense,2,2,,,,,,,RSSSF Brasil,ogol:2592233,,
 2013-0013,2013,Primeira fase,,2,2013-01-23,19:30,Santos,Botafogo-SP,3,0,,,,,,,RSSSF Brasil,ogol:2592241,,
 2013-0014,2013,Primeira fase,,2,2013-01-23,19:30,Guarani,São Bernardo,0,0,,,,,,,RSSSF Brasil,ogol:2592234,,
 2013-0015,2013,Primeira fase,,2,2013-01-23,19:30,Ituano,Atlético Sorocaba,0,0,,,,,,,RSSSF Brasil,ogol:2592235,,
-2013-0016,2013,Primeira fase,,2,2013-01-23,22:00,Oeste,Palmeiras,1,3,,,,,,,RSSSF Brasil,ogol:2592236,,played in São José do Rio Preto
+2013-0016,2013,Primeira fase,,2,2013-01-23,22:00,Oeste,Palmeiras,1,3,,,,,,,RSSSF Brasil,ogol:2592236,,jogo em São José do Rio Preto
 2013-0017,2013,Primeira fase,,2,2013-01-24,19:30,Mirassol,União Barbarense,1,2,,,,,,,RSSSF Brasil,ogol:2592238,,
 2013-0018,2013,Primeira fase,,2,2013-01-24,19:30,Mogi Mirim,Penapolense,3,0,,,,,,,RSSSF Brasil,ogol:2592239,,
 2013-0019,2013,Primeira fase,,2,2013-01-24,19:30,XV de Piracicaba,Paulista,2,1,,,,,,,RSSSF Brasil,ogol:2592240,,
@@ -20338,12 +20337,12 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2013-0188,2013,Primeira fase,,19,2013-04-21,16:00,São Caetano,Paulista,0,2,,,,,,,RSSSF Brasil,ogol:2592410,,
 2013-0189,2013,Primeira fase,,19,2013-04-21,16:00,Guarani,União Barbarense,1,3,,,,,,,RSSSF Brasil,ogol:2592411,,
 2013-0190,2013,Primeira fase,,19,2013-04-21,16:00,XV de Piracicaba,Botafogo-SP,4,1,,,,,,,RSSSF Brasil,ogol:2592412,,
-2013-0191,2013,Quartas de final,,,2013-04-27,16:15,Santos,Palmeiras,1,1,4,2,,,,,RSSSF Brasil,ogol:2804430,,Pen 4-2
+2013-0191,2013,Quartas de final,,,2013-04-27,16:15,Santos,Palmeiras,1,1,4,2,,,,,RSSSF Brasil,ogol:2804430,,
 2013-0192,2013,Quartas de final,,,2013-04-27,18:30,Mogi Mirim,Botafogo-SP,6,0,,,,,,,RSSSF Brasil,ogol:2804429,,
 2013-0193,2013,Quartas de final,,,2013-04-28,16:00,Ponte Preta,Corinthians,0,4,,,,,,,RSSSF Brasil,ogol:2804428,,
 2013-0194,2013,Quartas de final,,,2013-04-28,18:30,São Paulo,Penapolense,1,0,,,,,,,RSSSF Brasil,ogol:2804427,,
-2013-0195,2013,Semifinal,,,2013-05-04,18:30,Mogi Mirim,Santos,1,1,4,5,,,,,RSSSF Brasil,ogol:2807472,,Pen 4-5
-2013-0196,2013,Semifinal,,,2013-05-05,16:00,São Paulo,Corinthians,0,0,3,4,,,,,RSSSF Brasil,ogol:2807471,,Pen 3-4
+2013-0195,2013,Semifinal,,,2013-05-04,18:30,Mogi Mirim,Santos,1,1,4,5,,,,,RSSSF Brasil,ogol:2807472,,
+2013-0196,2013,Semifinal,,,2013-05-05,16:00,São Paulo,Corinthians,0,0,3,4,,,,,RSSSF Brasil,ogol:2807471,,
 2013-0197,2013,Final,,,2013-05-12,16:00,Corinthians,Santos,2,1,,,,,,,RSSSF Brasil,ogol:2810049,,
 2013-0198,2013,Final,,,2013-05-19,16:00,Santos,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:2810050,,
 2014-0001,2014,Primeira fase,,1,2014-01-18,17:00,Paulista,Osasco Audax,0,0,,,,,,,RSSSF Brasil,ogol:3304683,,
@@ -20386,7 +20385,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2014-0038,2014,Primeira fase,,2,2014-01-30,19:30,Palmeiras,Penapolense,1,0,,,,,,,RSSSF Brasil,ogol:3304720,,
 2014-0039,2014,Primeira fase,,2,2014-01-30,21:00,XV de Piracicaba,Ponte Preta,4,1,,,,,,,RSSSF Brasil,ogol:3304721,,
 2014-0040,2014,Primeira fase,,2,2014-02-01,17:00,Ituano,São Bernardo,0,0,,,,,,,RSSSF Brasil,ogol:3304722,,
-2014-0041,2014,Primeira fase,,2,2014-02-01,17:00,Oeste,Linense,0,1,,,,,,,RSSSF Brasil,ogol:3304723,,played in Matão
+2014-0041,2014,Primeira fase,,2,2014-02-01,17:00,Oeste,Linense,0,1,,,,,,,RSSSF Brasil,ogol:3304723,,jogo em Matão
 2014-0042,2014,Primeira fase,,2,2014-02-01,19:30,Santos,Botafogo-SP,5,1,,,,,,,RSSSF Brasil,ogol:3304725,,
 2014-0043,2014,Primeira fase,,2,2014-02-01,19:30,Comercial-RP,Rio Claro,1,2,,,,,,,RSSSF Brasil,ogol:3304724,,
 2014-0044,2014,Primeira fase,,2,2014-02-01,21:00,Bragantino,Atlético Sorocaba,2,0,,,,,,,RSSSF Brasil,ogol:3304726,,
@@ -20405,7 +20404,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2014-0057,2014,Primeira fase,,2,2014-02-06,19:30,Penapolense,São Bernardo,1,0,,,,,,,RSSSF Brasil,ogol:3304739,,
 2014-0058,2014,Primeira fase,,2,2014-02-06,21:00,Linense,Santos,1,2,,,,,,,RSSSF Brasil,ogol:3304741,,
 2014-0059,2014,Primeira fase,,2,2014-02-06,21:00,Mogi Mirim,Osasco Audax,3,1,,,,,,,RSSSF Brasil,ogol:3304740,,
-2014-0060,2014,Primeira fase,,2,2014-02-07,19:30,Oeste,Ituano,1,2,,,,,,,RSSSF Brasil,ogol:3304742,,played in Catanduva
+2014-0060,2014,Primeira fase,,2,2014-02-07,19:30,Oeste,Ituano,1,2,,,,,,,RSSSF Brasil,ogol:3304742,,jogo em Catanduva
 2014-0061,2014,Primeira fase,,2,2014-02-08,19:30,Rio Claro,XV de Piracicaba,3,0,,,,,,,RSSSF Brasil,ogol:3304744,,
 2014-0062,2014,Primeira fase,,2,2014-02-08,19:30,Bragantino,Botafogo-SP,1,1,,,,,,,RSSSF Brasil,ogol:3304743,,
 2014-0063,2014,Primeira fase,,2,2014-02-09,17:00,Ponte Preta,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:3304746,,
@@ -20498,12 +20497,12 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2014-0150,2014,Primeira fase,,14,2014-03-23,16:00,Portuguesa,Rio Claro,4,3,,,,,,,RSSSF Brasil,ogol:3304831,,
 2014-0151,2014,Quartas de final,,,2014-03-26,19:30,Santos,Ponte Preta,4,0,,,,,,,RSSSF Brasil,ogol:3478366,,
 2014-0152,2014,Quartas de final,,,2014-03-26,19:30,Botafogo-SP,Ituano,0,0,1,4,,,,,RSSSF Brasil,ogol:3478365,[Penal: 1-4],
-2014-0153,2014,Quartas de final,,,2014-03-26,22:00,São Paulo,Penapolense,0,0,4,5,,,,,RSSSF Brasil,ogol:3478364,,Penal: 4-5
+2014-0153,2014,Quartas de final,,,2014-03-26,22:00,São Paulo,Penapolense,0,0,4,5,,,,,RSSSF Brasil,ogol:3478364,,
 2014-0154,2014,Quartas de final,,,2014-03-27,21:00,Palmeiras,Bragantino,2,0,,,,,,,RSSSF Brasil,ogol:3478367,,
 2014-0155,2014,Semifinal,,,2014-03-30,16:00,Santos,Penapolense,3,2,,,,,,,RSSSF Brasil,ogol:3484619,,
 2014-0156,2014,Semifinal,,,2014-03-30,18:30,Palmeiras,Ituano,0,1,,,,,,,RSSSF Brasil,ogol:3484620,,
 2014-0157,2014,Final,,,2014-04-06,16:00,Ituano,Santos,1,0,,,,,,,RSSSF Brasil,ogol:3488935,[played in São Paulo] [Cristian],
-2014-0158,2014,Final,,,2014-04-13,16:00,Santos,Ituano,1,0,6,7,,,,,RSSSF Brasil,ogol:3488936,[played in São Paulo] [Cícero],Penal: 6-7
+2014-0158,2014,Final,,,2014-04-13,16:00,Santos,Ituano,1,0,6,7,,,,,RSSSF Brasil,ogol:3488936,[played in São Paulo] [Cícero],
 2015-0001,2015,Primeira fase,,1,2015-01-31,17:00,Bragantino,São Bernardo,1,0,,,,,,,RSSSF Brasil,ogol:4244906,,
 2015-0002,2015,Primeira fase,,1,2015-01-31,17:00,Osasco Audax,Palmeiras,1,3,,,,,,,RSSSF Brasil,ogol:4244908,,
 2015-0003,2015,Primeira fase,,1,2015-01-31,17:00,Rio Claro,Botafogo-SP,0,1,,,,,,,RSSSF Brasil,ogol:4244912,,
@@ -20658,10 +20657,10 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2015-0152,2015,Segunda fase,,,2015-04-11,18:30,São Paulo,Red Bull Bragantino II,3,0,,,,,,,RSSSF Brasil,ogol:4435584,,
 2015-0153,2015,Segunda fase,,,2015-04-12,11:00,Palmeiras,Botafogo-SP,1,0,,,,,,,RSSSF Brasil,ogol:4435586,,
 2015-0154,2015,Segunda fase,,,2015-04-12,16:00,Santos,XV de Piracicaba,3,0,,,,,,,RSSSF Brasil,ogol:4435587,,
-2015-0155,2015,Semifinal,,,2015-04-19,16:00,Corinthians,Palmeiras,2,2,5,6,,,,,RSSSF Brasil,ogol:4436282,,Pen 5-6
+2015-0155,2015,Semifinal,,,2015-04-19,16:00,Corinthians,Palmeiras,2,2,5,6,,,,,RSSSF Brasil,ogol:4436282,,
 2015-0156,2015,Semifinal,,,2015-04-19,18:30,Santos,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:4436283,,
 2015-0157,2015,Final,,,2015-04-26,16:00,Palmeiras,Santos,1,0,,,,,,,RSSSF Brasil,ogol:4438992,,
-2015-0158,2015,Final,,,2015-05-03,16:00,Santos,Palmeiras,2,1,4,2,,,,,RSSSF Brasil,ogol:4438993,,Pen 4-2]  (Santos campeão)
+2015-0158,2015,Final,,,2015-05-03,16:00,Santos,Palmeiras,2,1,4,2,,,,,RSSSF Brasil,ogol:4438993,,Santos campeão
 2016-0001,2016,Primeira fase,,1,2016-01-30,16:00,EC Água Santa,Ferroviária-SP,1,0,,,,,,,RSSSF Brasil,ogol:4824860,,
 2016-0002,2016,Primeira fase,,1,2016-01-30,17:00,Santos,São Bernardo,1,1,,,,,,,RSSSF Brasil,ogol:4824853,,
 2016-0003,2016,Primeira fase,,1,2016-01-30,17:00,São Bento,Ituano,1,1,,,,,,,RSSSF Brasil,ogol:4824854,,
@@ -20686,7 +20685,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2016-0022,2016,Primeira fase,,3,2016-02-10,17:00,São Bento,Novorizontino,1,0,,,,,,,RSSSF Brasil,ogol:4824915,,
 2016-0023,2016,Primeira fase,,3,2016-02-10,19:30,Linense,Ponte Preta,2,2,,,,,,,RSSSF Brasil,ogol:4824914,,
 2016-0024,2016,Primeira fase,,3,2016-02-10,21:45,Ferroviária-SP,Rio Claro,3,1,,,,,,,RSSSF Brasil,ogol:4824919,,
-2016-0025,2016,Primeira fase,,3,2016-02-10,21:45,Oeste,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:4824912,,played in São José do Rio Preto
+2016-0025,2016,Primeira fase,,3,2016-02-10,21:45,Oeste,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:4824912,,jogo em São José do Rio Preto
 2016-0026,2016,Primeira fase,,3,2016-02-11,18:30,Botafogo-SP,São Bernardo,1,1,,,,,,,RSSSF Brasil,ogol:4824916,,
 2016-0027,2016,Primeira fase,,3,2016-02-11,19:00,XV de Piracicaba,EC Água Santa,0,0,,,,,,,RSSSF Brasil,ogol:4824920,,
 2016-0028,2016,Primeira fase,,3,2016-02-11,21:00,Corinthians,Capivariano,2,1,,,,,,,RSSSF Brasil,ogol:4824917,,
@@ -20730,7 +20729,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2016-0066,2016,Primeira fase,,7,2016-02-28,17:00,Palmeiras,Ferroviária-SP,1,2,,,,,,,RSSSF Brasil,ogol:4824897,,
 2016-0067,2016,Primeira fase,,7,2016-02-28,19:30,São Bernardo,XV de Piracicaba,1,2,,,,,,,RSSSF Brasil,ogol:4824900,,
 2016-0068,2016,Primeira fase,,7,2016-02-28,19:30,Ituano,Capivariano,2,1,,,,,,,RSSSF Brasil,ogol:4824899,,
-2016-0069,2016,Primeira fase,,7,2016-02-28,19:30,Red Bull Bragantino II,Santos,2,0,,,,,,,RSSSF Brasil,ogol:4824892,,played in São José dos Campos
+2016-0069,2016,Primeira fase,,7,2016-02-28,19:30,Red Bull Bragantino II,Santos,2,0,,,,,,,RSSSF Brasil,ogol:4824892,,jogo em São José dos Campos
 2016-0070,2016,Primeira fase,,3,2016-03-01,20:30,São Paulo,Mogi Mirim,2,0,,,,,,,RSSSF Brasil,ogol:4824918,,
 2016-0071,2016,Primeira fase,,8,2016-03-05,16:00,Oeste,EC Água Santa,1,0,,,,,,,RSSSF Brasil,ogol:4824926,,
 2016-0072,2016,Primeira fase,,8,2016-03-05,16:00,São Paulo,São Bernardo,1,3,,,,,,,RSSSF Brasil,ogol:4824928,,
@@ -20923,123 +20922,123 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2017-0101,2017,Segunda fase,,,2017-04-07,21:00,Palmeiras,Novorizontino,3,0,,,,,,,RSSSF Brasil,ogol:5356282,,
 2017-0102,2017,Segunda fase,,,2017-04-08,16:00,São Paulo,Linense,5,0,,,,,,,RSSSF Brasil,ogol:5356281,,
 2017-0103,2017,Segunda fase,,,2017-04-09,16:00,Corinthians,Botafogo-SP,1,0,,,,,,,RSSSF Brasil,ogol:5356280,,
-2017-0104,2017,Segunda fase,,,2017-04-10,20:00,Santos,Ponte Preta,1,0,4,5,,,,,RSSSF Brasil,ogol:5356283,,Pen 4-5
+2017-0104,2017,Segunda fase,,,2017-04-10,20:00,Santos,Ponte Preta,1,0,4,5,,,,,RSSSF Brasil,ogol:5356283,,
 2017-0105,2017,Semifinal,,,2017-04-16,16:00,Ponte Preta,Palmeiras,3,0,,,,,,,RSSSF Brasil,ogol:5363077,"[William Pottker 00'41, Lucca 07, Jeferson 33]",
 2017-0106,2017,Semifinal,,,2017-04-16,19:00,São Paulo,Corinthians,0,2,,,,,,,RSSSF Brasil,ogol:5363078,,
 2017-0107,2017,Semifinal,,,2017-04-22,19:00,Palmeiras,Ponte Preta,1,0,,,,,,,RSSSF Brasil,ogol:5363079,,
 2017-0108,2017,Semifinal,,,2017-04-23,16:00,Corinthians,São Paulo,1,1,,,,,,,RSSSF Brasil,ogol:5363080,,
 2017-0109,2017,Final,,,2017-04-30,16:00,Ponte Preta,Corinthians,0,3,,,,,,,RSSSF Brasil,ogol:5370887,,
 2017-0110,2017,Final,,,2017-05-07,16:00,Corinthians,Ponte Preta,1,1,,,,,,,RSSSF Brasil,ogol:5370888,,
-2018-0001,2018,Primeira fase,,1,2018-01-17,17:00,Red Bull Bragantino II,Ferroviária-SP,0,0,,,,,,,RSSSF Brasil,ogol:5868024,,"Att.:    389] - Moisés Lucarelli, Campinas"
+2018-0001,2018,Primeira fase,,1,2018-01-17,17:00,Red Bull Bragantino II,Ferroviária-SP,0,0,,,,Moisés Lucarelli,Campinas,389,RSSSF Brasil,ogol:5868024,,
 2018-0002,2018,Primeira fase,,,2018-01-17,19:30,São Bento,São Paulo,2,0,,,,,,,ogol,ogol:5868017,,
-2018-0003,2018,Primeira fase,,1,2018-01-17,19:30,Linense,Santos,0,3,,,,,,,RSSSF Brasil,ogol:5868019,"[Arthur 21, Rodrigão 47 1T; Arthur 10 2T) São Bento       2-0     São Paulo               [Att.:  9,147] [Anderson 23 e Maicon Souza 31 2T]","Att.:  5,866"
-2018-0004,2018,Primeira fase,,1,2018-01-17,19:30,Ituano,São Caetano,3,1,,,,,,,RSSSF Brasil,ogol:5868022,[Igor 35 e Sidnei 41 1T; Carlão (SCA) 9 e  Claudinho 26 2T],"Att.:  1,431"
-2018-0005,2018,Primeira fase,,1,2018-01-17,19:30,Novorizontino,Mirassol,3,1,,,,,,,RSSSF Brasil,ogol:5868023,[Safira 17 e Paulinho (MIR) 30 1T; Juninho 22  e Cleo Silva 38 2T],"Att.:  2,918"
-2018-0006,2018,Primeira fase,,1,2018-01-17,21:45,Corinthians,Ponte Preta,0,1,,,,,,,RSSSF Brasil,ogol:5868020,,"Att.: 20,960] - Pacaembu, São Paulo"
-2018-0007,2018,Primeira fase,,1,2018-01-18,19:30,Palmeiras,Santo André,3,1,,,,,,,RSSSF Brasil,ogol:5868018,[Willian 27 e Lucas Lima 36 1T; João Lucas  (SA) 12 e Keno 38 2T],"Att.: 31,678"
-2018-0008,2018,Primeira fase,,1,2018-01-18,19:30,Bragantino,Botafogo-SP,2,0,,,,,,,RSSSF Brasil,ogol:5868021,,Att.:    913
-2018-0009,2018,Primeira fase,,2,2018-01-20,16:30,Mirassol,São Bento,0,0,,,,,,,RSSSF Brasil,ogol:5868031,,"Att.:  1,835"
-2018-0010,2018,Primeira fase,,2,2018-01-20,19:00,São Paulo,Novorizontino,0,0,,,,,,,RSSSF Brasil,ogol:5868025,,"Att.: 17,171"
-2018-0011,2018,Primeira fase,,2,2018-01-20,21:00,Ferroviária-SP,Ituano,1,1,,,,,,,RSSSF Brasil,ogol:5868032,,Att.:    929
-2018-0012,2018,Primeira fase,,2,2018-01-21,17:00,Botafogo-SP,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:5868026,,"Att.: 20,088"
-2018-0013,2018,Primeira fase,,2,2018-01-21,19:30,São Caetano,Corinthians,0,4,,,,,,,RSSSF Brasil,ogol:5868028,"[Jadson 16 1T; Sérgio 18, Jadson 30 e  Romero 41 2T]","Att.:  8,030] - Pacaembu, São Paulo"
-2018-0014,2018,Primeira fase,,2,2018-01-21,19:30,Santo André,Red Bull Bragantino II,1,1,,,,,,,RSSSF Brasil,ogol:5868029,,"Att.:    824] - Primeiro de Maio, São Bernardo do Campo"
-2018-0015,2018,Primeira fase,,2,2018-01-21,19:30,Ponte Preta,Linense,0,1,,,,,,,RSSSF Brasil,ogol:5868030,,"Att.:  2,996"
-2018-0016,2018,Primeira fase,,2,2018-01-22,20:00,Santos,Bragantino,0,1,,,,,,,RSSSF Brasil,ogol:5868027,,"Att.:  7,508"
-2018-0017,2018,Primeira fase,,3,2018-01-24,17:00,Linense,São Caetano,0,2,,,,,,,RSSSF Brasil,ogol:5868037,"[Régis 26 1T; Paulo 48 2T Corinthians     2-1     Ferroviária             [Att.: 21,202] - Pacaembu, São Paulo [Leo (FER) 18 1T; Balbuena 2 e Clayson 38 2T]","Att.:  3,624"
+2018-0003,2018,Primeira fase,,1,2018-01-17,19:30,Linense,Santos,0,3,,,,,,5866,RSSSF Brasil,ogol:5868019,"[Arthur 21, Rodrigão 47 1T; Arthur 10 2T) São Bento       2-0     São Paulo               [Att.:  9,147] [Anderson 23 e Maicon Souza 31 2T]",
+2018-0004,2018,Primeira fase,,1,2018-01-17,19:30,Ituano,São Caetano,3,1,,,,,,1431,RSSSF Brasil,ogol:5868022,[Igor 35 e Sidnei 41 1T; Carlão (SCA) 9 e  Claudinho 26 2T],
+2018-0005,2018,Primeira fase,,1,2018-01-17,19:30,Novorizontino,Mirassol,3,1,,,,,,2918,RSSSF Brasil,ogol:5868023,[Safira 17 e Paulinho (MIR) 30 1T; Juninho 22  e Cleo Silva 38 2T],
+2018-0006,2018,Primeira fase,,1,2018-01-17,21:45,Corinthians,Ponte Preta,0,1,,,,Pacaembu,São Paulo,20960,RSSSF Brasil,ogol:5868020,,
+2018-0007,2018,Primeira fase,,1,2018-01-18,19:30,Palmeiras,Santo André,3,1,,,,,,31678,RSSSF Brasil,ogol:5868018,[Willian 27 e Lucas Lima 36 1T; João Lucas  (SA) 12 e Keno 38 2T],
+2018-0008,2018,Primeira fase,,1,2018-01-18,19:30,Bragantino,Botafogo-SP,2,0,,,,,,913,RSSSF Brasil,ogol:5868021,,
+2018-0009,2018,Primeira fase,,2,2018-01-20,16:30,Mirassol,São Bento,0,0,,,,,,1835,RSSSF Brasil,ogol:5868031,,
+2018-0010,2018,Primeira fase,,2,2018-01-20,19:00,São Paulo,Novorizontino,0,0,,,,,,17171,RSSSF Brasil,ogol:5868025,,
+2018-0011,2018,Primeira fase,,2,2018-01-20,21:00,Ferroviária-SP,Ituano,1,1,,,,,,929,RSSSF Brasil,ogol:5868032,,
+2018-0012,2018,Primeira fase,,2,2018-01-21,17:00,Botafogo-SP,Palmeiras,0,1,,,,,,20088,RSSSF Brasil,ogol:5868026,,
+2018-0013,2018,Primeira fase,,2,2018-01-21,19:30,São Caetano,Corinthians,0,4,,,,Pacaembu,São Paulo,8030,RSSSF Brasil,ogol:5868028,"[Jadson 16 1T; Sérgio 18, Jadson 30 e  Romero 41 2T]",
+2018-0014,2018,Primeira fase,,2,2018-01-21,19:30,Santo André,Red Bull Bragantino II,1,1,,,,Primeiro de Maio,São Bernardo do Campo,824,RSSSF Brasil,ogol:5868029,,
+2018-0015,2018,Primeira fase,,2,2018-01-21,19:30,Ponte Preta,Linense,0,1,,,,,,2996,RSSSF Brasil,ogol:5868030,,
+2018-0016,2018,Primeira fase,,2,2018-01-22,20:00,Santos,Bragantino,0,1,,,,,,7508,RSSSF Brasil,ogol:5868027,,
+2018-0017,2018,Primeira fase,,3,2018-01-24,17:00,Linense,São Caetano,0,2,,,,,,3624,RSSSF Brasil,ogol:5868037,"[Régis 26 1T; Paulo 48 2T Corinthians     2-1     Ferroviária             [Att.: 21,202] - Pacaembu, São Paulo [Leo (FER) 18 1T; Balbuena 2 e Clayson 38 2T]",
 2018-0018,2018,Primeira fase,,,2018-01-24,19:30,Corinthians,Ferroviária-SP,2,1,,,,,,,ogol,ogol:5868033,,
-2018-0019,2018,Primeira fase,,3,2018-01-24,19:30,Botafogo-SP,Novorizontino,3,1,,,,,,,RSSSF Brasil,ogol:5868038,"[Bruno Moraes 18 e Dodô 23 1T; Safira (NOVO)  (penâlti) 8 e Bruno Moraes 45 2T Mirassol        0-2     São Paulo               [Att.:  7,663] [Diego Souza 38 e Marcos Guilherme 44 2T]","Att.:  2,988"
+2018-0019,2018,Primeira fase,,3,2018-01-24,19:30,Botafogo-SP,Novorizontino,3,1,,,,,,2988,RSSSF Brasil,ogol:5868038,"[Bruno Moraes 18 e Dodô 23 1T; Safira (NOVO)  (penâlti) 8 e Bruno Moraes 45 2T Mirassol        0-2     São Paulo               [Att.:  7,663] [Diego Souza 38 e Marcos Guilherme 44 2T]",
 2018-0020,2018,Primeira fase,,,2018-01-24,21:45,Mirassol,São Paulo,0,2,,,,,,,ogol,ogol:5868034,,
-2018-0021,2018,Primeira fase,,3,2018-01-25,18:30,Bragantino,São Bento,0,1,,,,,,,RSSSF Brasil,ogol:5868039,,Att.:    758
+2018-0021,2018,Primeira fase,,3,2018-01-25,18:30,Bragantino,São Bento,0,1,,,,,,758,RSSSF Brasil,ogol:5868039,,
 2018-0022,2018,Primeira fase,,,2018-01-25,19:30,Ponte Preta,Santos,1,2,,,,,,,ogol,ogol:5868036,,
 2018-0023,2018,Primeira fase,,,2018-01-25,19:30,Ituano,Santo André,0,0,,,,,,,ogol,ogol:5868040,,
-2018-0024,2018,Primeira fase,,3,2018-01-25,21:00,Palmeiras,Red Bull Bragantino II,2,1,,,,,,,RSSSF Brasil,ogol:5868035,[Deivid (RED) 22 1T; Thiago Santos 42 e 47 2T],"Att.: 26,559"
-2018-0025,2018,Primeira fase,,4,2018-01-27,17:00,Corinthians,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:5868041,"[Jadson 1, Brenner (SPA) 25 e Balbuena 33 1T]","Att.: 34,167] - Pacaembu, São Paulo"
-2018-0026,2018,Primeira fase,,4,2018-01-27,19:00,Novorizontino,São Caetano,1,0,,,,,,,RSSSF Brasil,ogol:5868044,,"Att.:  2,263"
-2018-0027,2018,Primeira fase,,4,2018-01-28,17:00,Bragantino,Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:5868043,,"Att.:  7,775"
-2018-0028,2018,Primeira fase,,4,2018-01-28,17:00,São Bento,Ponte Preta,0,1,,,,,,,RSSSF Brasil,ogol:5868048,,"Att.:  3,195"
-2018-0029,2018,Primeira fase,,4,2018-01-28,19:30,Santos,Ituano,1,1,,,,,,,RSSSF Brasil,ogol:5868042,[Baralhas (ITU) 16 1T e Rodrygo 45 2T),"Att.: 13,609] - Pacaembu, São Paulo"
-2018-0030,2018,Primeira fase,,4,2018-01-29,17:30,Santo André,Mirassol,1,1,,,,,,,RSSSF Brasil,ogol:5868047,"[Aloisio 13 e Jesiel 43 (MIR) 2T Red Bull        2-1     Linense                 [Att.:    912] - Moisés Lucarelli, Campinas [Deivid 4, Marcos (LIN) 12 e Edmilson 44 2T]","Att.:  3,958"
+2018-0024,2018,Primeira fase,,3,2018-01-25,21:00,Palmeiras,Red Bull Bragantino II,2,1,,,,,,26559,RSSSF Brasil,ogol:5868035,[Deivid (RED) 22 1T; Thiago Santos 42 e 47 2T],
+2018-0025,2018,Primeira fase,,4,2018-01-27,17:00,Corinthians,São Paulo,2,1,,,,Pacaembu,São Paulo,34167,RSSSF Brasil,ogol:5868041,"[Jadson 1, Brenner (SPA) 25 e Balbuena 33 1T]",
+2018-0026,2018,Primeira fase,,4,2018-01-27,19:00,Novorizontino,São Caetano,1,0,,,,,,2263,RSSSF Brasil,ogol:5868044,,
+2018-0027,2018,Primeira fase,,4,2018-01-28,17:00,Bragantino,Palmeiras,0,2,,,,,,7775,RSSSF Brasil,ogol:5868043,,
+2018-0028,2018,Primeira fase,,4,2018-01-28,17:00,São Bento,Ponte Preta,0,1,,,,,,3195,RSSSF Brasil,ogol:5868048,,
+2018-0029,2018,Primeira fase,,4,2018-01-28,19:30,Santos,Ituano,1,1,,,,Pacaembu,São Paulo,13609,RSSSF Brasil,ogol:5868042,[Baralhas (ITU) 16 1T e Rodrygo 45 2T),
+2018-0030,2018,Primeira fase,,4,2018-01-29,17:30,Santo André,Mirassol,1,1,,,,,,3958,RSSSF Brasil,ogol:5868047,"[Aloisio 13 e Jesiel 43 (MIR) 2T Red Bull        2-1     Linense                 [Att.:    912] - Moisés Lucarelli, Campinas [Deivid 4, Marcos (LIN) 12 e Edmilson 44 2T]",
 2018-0031,2018,Primeira fase,,,2018-01-29,19:30,Red Bull Bragantino II,Linense,2,1,,,,,,,ogol,ogol:5868046,,
-2018-0032,2018,Primeira fase,,4,2018-01-29,20:00,Ferroviária-SP,Botafogo-SP,1,2,,,,,,,RSSSF Brasil,ogol:5868045,"[Moacir 10, Bruno Moraes (BOT) 28 e Jheimy  (BOT) 44 2T]","Att.:  1,899"
-2018-0033,2018,Primeira fase,,5,2018-02-02,19:15,São Bento,Santo André,2,2,,,,,,,RSSSF Brasil,ogol:5868052,,"Att.:  2,618"
-2018-0034,2018,Primeira fase,,5,2018-02-03,16:30,Ituano,Ponte Preta,1,1,,,,,,,RSSSF Brasil,ogol:5868054,,Att.:    957
-2018-0035,2018,Primeira fase,,5,2018-02-03,17:00,São Paulo,Botafogo-SP,2,0,,,,,,,RSSSF Brasil,ogol:5868050,,"Att.: 13,624"
-2018-0036,2018,Primeira fase,,5,2018-02-03,19:00,Red Bull Bragantino II,Bragantino,1,1,,,,,,,RSSSF Brasil,ogol:5868053,,"Att.:    738] - Moisés Lucarelli, Campinas"
-2018-0037,2018,Primeira fase,,5,2018-02-04,17:00,Palmeiras,Santos,2,1,,,,,,,RSSSF Brasil,ogol:5868049,[Antonio Carlos 2 1T; Borja 4 e Renato (SAN)  17 2T],"Att.: 37,867"
-2018-0038,2018,Primeira fase,,5,2018-02-04,19:30,Novorizontino,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:5868051,,"Att.:  8,919"
-2018-0039,2018,Primeira fase,,5,2018-02-04,19:30,São Caetano,Mirassol,0,2,,,,,,,RSSSF Brasil,ogol:5868055,,"Att.:  1,939"
-2018-0040,2018,Primeira fase,,5,2018-02-05,20:00,Linense,Ferroviária-SP,1,2,,,,,,,RSSSF Brasil,ogol:5868056,[Velicka (FER) 5 e Hygor (FER) 9 1T; Kaue 41 2T],"Att.:  3,505"
-2018-0041,2018,Primeira fase,,6,2018-02-07,21:45,São Paulo,Bragantino,1,0,,,,,,,RSSSF Brasil,ogol:5868058,,"Att.: 10,278"
+2018-0032,2018,Primeira fase,,4,2018-01-29,20:00,Ferroviária-SP,Botafogo-SP,1,2,,,,,,1899,RSSSF Brasil,ogol:5868045,"[Moacir 10, Bruno Moraes (BOT) 28 e Jheimy  (BOT) 44 2T]",
+2018-0033,2018,Primeira fase,,5,2018-02-02,19:15,São Bento,Santo André,2,2,,,,,,2618,RSSSF Brasil,ogol:5868052,,
+2018-0034,2018,Primeira fase,,5,2018-02-03,16:30,Ituano,Ponte Preta,1,1,,,,,,957,RSSSF Brasil,ogol:5868054,,
+2018-0035,2018,Primeira fase,,5,2018-02-03,17:00,São Paulo,Botafogo-SP,2,0,,,,,,13624,RSSSF Brasil,ogol:5868050,,
+2018-0036,2018,Primeira fase,,5,2018-02-03,19:00,Red Bull Bragantino II,Bragantino,1,1,,,,Moisés Lucarelli,Campinas,738,RSSSF Brasil,ogol:5868053,,
+2018-0037,2018,Primeira fase,,5,2018-02-04,17:00,Palmeiras,Santos,2,1,,,,,,37867,RSSSF Brasil,ogol:5868049,[Antonio Carlos 2 1T; Borja 4 e Renato (SAN)  17 2T],
+2018-0038,2018,Primeira fase,,5,2018-02-04,19:30,Novorizontino,Corinthians,0,1,,,,,,8919,RSSSF Brasil,ogol:5868051,,
+2018-0039,2018,Primeira fase,,5,2018-02-04,19:30,São Caetano,Mirassol,0,2,,,,,,1939,RSSSF Brasil,ogol:5868055,,
+2018-0040,2018,Primeira fase,,5,2018-02-05,20:00,Linense,Ferroviária-SP,1,2,,,,,,3505,RSSSF Brasil,ogol:5868056,[Velicka (FER) 5 e Hygor (FER) 9 1T; Kaue 41 2T],
+2018-0041,2018,Primeira fase,,6,2018-02-07,21:45,São Paulo,Bragantino,1,0,,,,,,10278,RSSSF Brasil,ogol:5868058,,
 2018-0042,2018,Primeira fase,,,2018-02-09,19:00,Santo André,Corinthians,2,1,,,,,,,ogol,ogol:5868057,,
-2018-0043,2018,Primeira fase,,6,2018-02-09,19:15,São Bento,Linense,2,2,,,,,,,RSSSF Brasil,ogol:5868063,"[Celsinho 17, Fábio Bahia (contra para LIN)  31 1T. Luizão 43 e Matheus (LIN) 47 2T]","Att.:  2,756"
-2018-0044,2018,Primeira fase,,6,2018-02-10,16:30,Ferroviária-SP,Santos,2,2,,,,,,,RSSSF Brasil,ogol:5868059,"[Eduardo Sasha (SAN) 28 1T; Léo 18, Gabriel  Barbosa (SAN) 20 e Luan Bueno 32 2T]","Att.:  3,861"
-2018-0045,2018,Primeira fase,,6,2018-02-10,16:30,Ponte Preta,Novorizontino,1,1,,,,,,,RSSSF Brasil,ogol:5868061,[Wanderson 18 e Jean Carlos (NOVO) 34 1T],"Att.:  3,800"
-2018-0046,2018,Primeira fase,,6,2018-02-10,16:30,Botafogo-SP,Ituano,1,0,,,,,,,RSSSF Brasil,ogol:5868064,,"Att.:  2,594"
-2018-0047,2018,Primeira fase,,6,2018-02-10,19:00,Mirassol,Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:5868060,,"Att.: 11,967"
-2018-0048,2018,Primeira fase,,6,2018-02-10,19:00,São Caetano,Red Bull Bragantino II,1,1,,,,,,,RSSSF Brasil,ogol:5868062,[Marlon 41 e Matheus (RED) 43 1T],"Att.:  1,476"
-2018-0049,2018,Primeira fase,,7,2018-02-14,17:00,Bragantino,Mirassol,0,0,,,,,,,RSSSF Brasil,ogol:5868069,,Att.:    432
-2018-0050,2018,Primeira fase,,7,2018-02-14,19:30,Ferroviária-SP,Santo André,2,1,,,,,,,RSSSF Brasil,ogol:5868072,"[Moacir 18, Lincon (SA) 31 e Hygor 37 1T]","Att.:  3,558"
-2018-0051,2018,Primeira fase,,7,2018-02-14,19:30,Botafogo-SP,Ponte Preta,1,1,,,,,,,RSSSF Brasil,ogol:5868071,[Wanderson (PP) 8 1T e Bruno Moraes 7 2T],"Att.:  3,296"
-2018-0052,2018,Primeira fase,,7,2018-02-14,19:30,Santos,São Caetano,2,0,,,,,,,RSSSF Brasil,ogol:5868067,,"Att.:  4,165"
-2018-0053,2018,Primeira fase,,7,2018-02-14,21:45,Corinthians,São Bento,0,1,,,,,,,RSSSF Brasil,ogol:5868065,,"Att.: 14,493"
-2018-0054,2018,Primeira fase,,7,2018-02-15,19:00,Novorizontino,Red Bull Bragantino II,0,2,,,,,,,RSSSF Brasil,ogol:5868070,,"Att.:  2,142"
-2018-0055,2018,Primeira fase,,7,2018-02-15,21:00,Palmeiras,Linense,2,2,,,,,,,RSSSF Brasil,ogol:5868068,,"Att.: 25,712"
-2018-0056,2018,Primeira fase,,8,2018-02-17,16:30,Santo André,Bragantino,1,1,,,,,,,RSSSF Brasil,ogol:5868079,[Gerley (BRA) 5 e Hugo 32 1T],"Att.:  1,744"
-2018-0057,2018,Primeira fase,,8,2018-02-17,19:00,São Caetano,Ferroviária-SP,1,0,,,,,,,RSSSF Brasil,ogol:5868078,,Att.:    661
-2018-0058,2018,Primeira fase,,8,2018-02-18,10:00,Mirassol,Ituano,1,1,,,,,,,RSSSF Brasil,ogol:5868080,"[Zé Roberto 19 e Claudinho 39 (ITU) 1T São Paulo       0-1     Santos                  [Att.: 36,118] [Gabriel Barbosa 9 2T]","Att.:  1,851"
+2018-0043,2018,Primeira fase,,6,2018-02-09,19:15,São Bento,Linense,2,2,,,,,,2756,RSSSF Brasil,ogol:5868063,"[Celsinho 17, Fábio Bahia (contra para LIN)  31 1T. Luizão 43 e Matheus (LIN) 47 2T]",
+2018-0044,2018,Primeira fase,,6,2018-02-10,16:30,Ferroviária-SP,Santos,2,2,,,,,,3861,RSSSF Brasil,ogol:5868059,"[Eduardo Sasha (SAN) 28 1T; Léo 18, Gabriel  Barbosa (SAN) 20 e Luan Bueno 32 2T]",
+2018-0045,2018,Primeira fase,,6,2018-02-10,16:30,Ponte Preta,Novorizontino,1,1,,,,,,3800,RSSSF Brasil,ogol:5868061,[Wanderson 18 e Jean Carlos (NOVO) 34 1T],
+2018-0046,2018,Primeira fase,,6,2018-02-10,16:30,Botafogo-SP,Ituano,1,0,,,,,,2594,RSSSF Brasil,ogol:5868064,,
+2018-0047,2018,Primeira fase,,6,2018-02-10,19:00,Mirassol,Palmeiras,0,2,,,,,,11967,RSSSF Brasil,ogol:5868060,,
+2018-0048,2018,Primeira fase,,6,2018-02-10,19:00,São Caetano,Red Bull Bragantino II,1,1,,,,,,1476,RSSSF Brasil,ogol:5868062,[Marlon 41 e Matheus (RED) 43 1T],
+2018-0049,2018,Primeira fase,,7,2018-02-14,17:00,Bragantino,Mirassol,0,0,,,,,,432,RSSSF Brasil,ogol:5868069,,
+2018-0050,2018,Primeira fase,,7,2018-02-14,19:30,Ferroviária-SP,Santo André,2,1,,,,,,3558,RSSSF Brasil,ogol:5868072,"[Moacir 18, Lincon (SA) 31 e Hygor 37 1T]",
+2018-0051,2018,Primeira fase,,7,2018-02-14,19:30,Botafogo-SP,Ponte Preta,1,1,,,,,,3296,RSSSF Brasil,ogol:5868071,[Wanderson (PP) 8 1T e Bruno Moraes 7 2T],
+2018-0052,2018,Primeira fase,,7,2018-02-14,19:30,Santos,São Caetano,2,0,,,,,,4165,RSSSF Brasil,ogol:5868067,,
+2018-0053,2018,Primeira fase,,7,2018-02-14,21:45,Corinthians,São Bento,0,1,,,,,,14493,RSSSF Brasil,ogol:5868065,,
+2018-0054,2018,Primeira fase,,7,2018-02-15,19:00,Novorizontino,Red Bull Bragantino II,0,2,,,,,,2142,RSSSF Brasil,ogol:5868070,,
+2018-0055,2018,Primeira fase,,7,2018-02-15,21:00,Palmeiras,Linense,2,2,,,,,,25712,RSSSF Brasil,ogol:5868068,,
+2018-0056,2018,Primeira fase,,8,2018-02-17,16:30,Santo André,Bragantino,1,1,,,,,,1744,RSSSF Brasil,ogol:5868079,[Gerley (BRA) 5 e Hugo 32 1T],
+2018-0057,2018,Primeira fase,,8,2018-02-17,19:00,São Caetano,Ferroviária-SP,1,0,,,,,,661,RSSSF Brasil,ogol:5868078,,
+2018-0058,2018,Primeira fase,,8,2018-02-18,10:00,Mirassol,Ituano,1,1,,,,,,1851,RSSSF Brasil,ogol:5868080,"[Zé Roberto 19 e Claudinho 39 (ITU) 1T São Paulo       0-1     Santos                  [Att.: 36,118] [Gabriel Barbosa 9 2T]",
 2018-0059,2018,Primeira fase,,,2018-02-18,17:00,São Paulo,Santos,0,1,,,,,,,ogol,ogol:5868073,,
-2018-0060,2018,Primeira fase,,8,2018-02-18,19:30,Ponte Preta,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:5868074,,"Att.:  3,401"
-2018-0061,2018,Primeira fase,,8,2018-02-18,19:30,São Bento,Botafogo-SP,0,0,,,,,,,RSSSF Brasil,ogol:5868077,,"Att.:  2,869"
-2018-0062,2018,Primeira fase,,8,2018-02-19,20:00,Linense,Novorizontino,2,3,,,,,,,RSSSF Brasil,ogol:5868076,,Att.:    711
-2018-0063,2018,Primeira fase,,8,2018-02-19,20:00,Red Bull Bragantino II,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:5868075,[Tiago (contra para o Red Bull) (COR) 6 e  Juninho (contra para o Corinthians) 12 2T],"Att.:  7,439] - Moisés Lucarelli, Campinas"
-2018-0064,2018,Primeira fase,,7,2018-02-21,21:45,Ituano,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:5868066,[Ronaldo 22 1T; Cueva (SP) 6 e Alison 16 2T],"Att.:  5,203"
-2018-0065,2018,Primeira fase,,9,2018-02-24,17:00,Corinthians,Palmeiras,2,0,,,,,,,RSSSF Brasil,ogol:5868081,"[Rodriguinho 39 1T e Clayson (penâlti) 38 2T São Caetano     1-0     São Bento               [Att.:  1,330] [Bruno Recife 45 2T]","Att.: 42,178"
+2018-0060,2018,Primeira fase,,8,2018-02-18,19:30,Ponte Preta,Palmeiras,0,0,,,,,,3401,RSSSF Brasil,ogol:5868074,,
+2018-0061,2018,Primeira fase,,8,2018-02-18,19:30,São Bento,Botafogo-SP,0,0,,,,,,2869,RSSSF Brasil,ogol:5868077,,
+2018-0062,2018,Primeira fase,,8,2018-02-19,20:00,Linense,Novorizontino,2,3,,,,,,711,RSSSF Brasil,ogol:5868076,,
+2018-0063,2018,Primeira fase,,8,2018-02-19,20:00,Red Bull Bragantino II,Corinthians,1,1,,,,Moisés Lucarelli,Campinas,7439,RSSSF Brasil,ogol:5868075,[Tiago (contra para o Red Bull) (COR) 6 e  Juninho (contra para o Corinthians) 12 2T],
+2018-0064,2018,Primeira fase,,7,2018-02-21,21:45,Ituano,São Paulo,2,1,,,,,,5203,RSSSF Brasil,ogol:5868066,[Ronaldo 22 1T; Cueva (SP) 6 e Alison 16 2T],
+2018-0065,2018,Primeira fase,,9,2018-02-24,17:00,Corinthians,Palmeiras,2,0,,,,,,42178,RSSSF Brasil,ogol:5868081,"[Rodriguinho 39 1T e Clayson (penâlti) 38 2T São Caetano     1-0     São Bento               [Att.:  1,330] [Bruno Recife 45 2T]",
 2018-0066,2018,Primeira fase,,,2018-02-24,21:30,São Caetano,São Bento,1,0,,,,,,,ogol,ogol:5868086,,
-2018-0067,2018,Primeira fase,,9,2018-02-25,11:00,Bragantino,Novorizontino,2,1,,,,,,,RSSSF Brasil,ogol:5868087,"[Juninho (NOVO) 17, Lázaro 44 e Matheus 46 1T]",Att.:    873
-2018-0068,2018,Primeira fase,,9,2018-02-25,17:00,São Paulo,Ferroviária-SP,0,0,,,,,,,RSSSF Brasil,ogol:5868083,,"Att.: 11,434"
-2018-0069,2018,Primeira fase,,9,2018-02-25,19:30,Santos,Santo André,2,0,,,,,,,RSSSF Brasil,ogol:5868082,,"Att.:  6,687"
-2018-0070,2018,Primeira fase,,9,2018-02-25,19:30,Mirassol,Ponte Preta,1,0,,,,,,,RSSSF Brasil,ogol:5868084,,"Att.:  1,919"
-2018-0071,2018,Primeira fase,,9,2018-02-26,17:30,Ituano,Red Bull Bragantino II,1,0,,,,,,,RSSSF Brasil,ogol:5868088,,"Att.:  3,115"
-2018-0072,2018,Primeira fase,,9,2018-02-26,20:00,Botafogo-SP,Linense,1,1,,,,,,,RSSSF Brasil,ogol:5868085,[Wilson (LIN) 19 1T e Jheimy 6 2T],"Att.:  2,285"
-2018-0073,2018,Primeira fase,,10,2018-03-02,19:15,Ferroviária-SP,Mirassol,2,2,,,,,,,RSSSF Brasil,ogol:5868093,,"Att.:  1,454"
-2018-0074,2018,Primeira fase,,10,2018-03-03,16:30,Red Bull Bragantino II,São Bento,0,0,,,,,,,RSSSF Brasil,ogol:5868095,,"Att.:    633] - Moisés Lucarelli, Campinas"
-2018-0075,2018,Primeira fase,,10,2018-03-03,19:00,Santo André,Botafogo-SP,0,1,,,,,,,RSSSF Brasil,ogol:5868094,,"Att.:  4,541"
-2018-0076,2018,Primeira fase,,10,2018-03-03,21:30,Novorizontino,Ituano,3,2,,,,,,,RSSSF Brasil,ogol:5868096,"[José Antonio (ITU) 25 1T; Marcelinho (ITU) 2,  Safira 15 e 18 e Dilsinho 19 2T]","Att.:  2,307"
-2018-0077,2018,Primeira fase,,10,2018-03-04,17:00,Santos,Corinthians,1,1,,,,,,,RSSSF Brasil,ogol:5868089,[Rene Junior (COR) 20 1T e Diogo 42 2T],"Att.: 37,431] - Pacaembu, São Paulo"
-2018-0078,2018,Primeira fase,,10,2018-03-04,19:30,Linense,São Paulo,1,2,,,,,,,RSSSF Brasil,ogol:5868091,[Murilo 38 e Reinaldo (SP) 42 1T; Rodrigo  Caio (SP) 48 2T],"Att.:  4,367"
-2018-0079,2018,Primeira fase,,10,2018-03-05,20:00,Ponte Preta,Bragantino,0,1,,,,,,,RSSSF Brasil,ogol:5868092,,"Att.:  5,326"
-2018-0080,2018,Primeira fase,,10,2018-03-05,20:30,Palmeiras,São Caetano,0,1,,,,,,,RSSSF Brasil,ogol:5868090,,"Att.: 22,597"
-2018-0081,2018,Primeira fase,,11,2018-03-06,19:15,São Bento,Ituano,0,1,,,,,,,RSSSF Brasil,ogol:5868100,,"Att.:  2,585"
-2018-0082,2018,Primeira fase,,11,2018-03-07,17:00,Linense,Santo André,1,0,,,,,,,RSSSF Brasil,ogol:5868102,,Att.:    757
-2018-0083,2018,Primeira fase,,11,2018-03-07,19:30,Novorizontino,Santos,2,1,,,,,,,RSSSF Brasil,ogol:5868099,[Juninho 19 1T; Yuri (SAN) 9 e Lucas Veríssimo (contra) 15 2T],"Att.:  5,426"
-2018-0084,2018,Primeira fase,,11,2018-03-07,21:45,Corinthians,Mirassol,1,0,,,,,,,RSSSF Brasil,ogol:5868098,,"Att.: 15,144"
-2018-0085,2018,Primeira fase,,11,2018-03-08,17:00,Ferroviária-SP,Bragantino,0,0,,,,,,,RSSSF Brasil,ogol:5868104,,"Att.:  3,040"
-2018-0086,2018,Primeira fase,,11,2018-03-08,19:15,São Caetano,Botafogo-SP,0,0,,,,,,,RSSSF Brasil,ogol:5868103,,"Att.:  1,882"
-2018-0087,2018,Primeira fase,,11,2018-03-08,20:30,Palmeiras,São Paulo,2,0,,,,,,,RSSSF Brasil,ogol:5868097,,"Att.: 34,916"
-2018-0088,2018,Primeira fase,,11,2018-03-08,21:30,Red Bull Bragantino II,Ponte Preta,0,0,,,,,,,RSSSF Brasil,ogol:5868101,,"Att.:    706] - Moisés Lucarelli, Campinas"
-2018-0089,2018,Primeira fase,,12,2018-03-11,17:00,São Paulo,Red Bull Bragantino II,3,1,,,,,,,RSSSF Brasil,ogol:5868105,[Edmilson (RED) 9 e Nininho (RED) (contra) 32  1T; Arboleda 22 e Marcos Guilherme 27 2T],"Att.:  9,226"
-2018-0090,2018,Primeira fase,,12,2018-03-11,17:00,Ituano,Palmeiras,0,3,,,,,,,RSSSF Brasil,ogol:5868106,[Gustavo Scarpa 43 1T; Gustavo Scarpa 17 e  Fernando dos Santos 34 2T],"Att.:  7,604"
-2018-0091,2018,Primeira fase,,12,2018-03-11,17:00,Santos,São Bento,1,3,,,,,,,RSSSF Brasil,ogol:5868107,[Marcelo Cordeiro (SB) (penâlti) 43 e Arthur  (penâlti) 45 1T; Lucio Flávio (SB) 33 e Fábio  Bahia (SB) 49 2T],"Att.:  3,816"
-2018-0092,2018,Primeira fase,,12,2018-03-11,17:00,Botafogo-SP,Corinthians,0,2,,,,,,,RSSSF Brasil,ogol:5868108,,"Att.: 13,978"
-2018-0093,2018,Primeira fase,,12,2018-03-11,17:00,Mirassol,Linense,1,1,,,,,,,RSSSF Brasil,ogol:5868109,[Murilo (LIN) 3 1T e Alison 42 2T],"Att.:  5,490"
-2018-0094,2018,Primeira fase,,12,2018-03-11,17:00,Santo André,Novorizontino,2,3,,,,,,,RSSSF Brasil,ogol:5868110,,"Att.:  1,110"
-2018-0095,2018,Primeira fase,,12,2018-03-11,17:00,Ponte Preta,Ferroviária-SP,0,0,,,,,,,RSSSF Brasil,ogol:5868111,,"Att.:  3,504"
-2018-0096,2018,Primeira fase,,12,2018-03-11,17:00,Bragantino,São Caetano,1,1,,,,,,,RSSSF Brasil,ogol:5868112,[Marino (SCA) 12 1T e Leo Jaime 5 2T],"Att.:  5,319"
-2018-0097,2018,Segunda fase,,,2018-03-17,16:00,São Caetano,São Paulo,1,0,,,,,,,RSSSF Brasil,ogol:5983448,,"Att.:  5,224"
-2018-0098,2018,Segunda fase,,,2018-03-17,19:00,Novorizontino,Palmeiras,0,3,,,,,,,RSSSF Brasil,ogol:5983449,[Dudu (penâlti) 21 1T; Willian 32 e Keno 44 2T],"Att.:  8,121"
-2018-0099,2018,Segunda fase,,,2018-03-18,16:00,Bragantino,Corinthians,3,2,,,,,,,RSSSF Brasil,ogol:5983447,"[Matheus 47 1T; Balbuena (COR) 20, Vitinho 26, Ítalo Andrade 31 e Pedro Victor (COR) 42 2T]","Att.: 15,317] - Pacaembu, São Paulo"
-2018-0100,2018,Segunda fase,,,2018-03-18,19:30,Botafogo-SP,Santos,0,0,,,,,,,RSSSF Brasil,ogol:5983450,,"Att.: 11,933"
-2018-0101,2018,Segunda fase,,,2018-03-20,21:00,São Paulo,São Caetano,2,0,,,,,,,RSSSF Brasil,ogol:5983452,,"Att.: 17,899"
-2018-0102,2018,Segunda fase,,,2018-03-21,19:30,Santos,Botafogo-SP,0,0,,,,,,,RSSSF Brasil,ogol:5983454,[Pen Santos 3-1 Botafogo],"Att.:  6,209"
-2018-0103,2018,Segunda fase,,,2018-03-21,21:45,Palmeiras,Novorizontino,5,0,,,,,,,RSSSF Brasil,ogol:5983453,"[Bruno 5, Keno 18, Willian 34 e Dudu 45 1T;  Rafael Elias 34 2T]","Att.: 25,446"
-2018-0104,2018,Segunda fase,,,2018-03-22,20:00,Corinthians,Bragantino,2,0,,,,,,,RSSSF Brasil,ogol:5983451,,"Att.: 32,930"
-2018-0105,2018,Semifinal,,,2018-03-24,19:00,Santos,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:5993504,,"Att.: 19,546] - Pacaembu, São Paulo"
-2018-0106,2018,Semifinal,,,2018-03-25,16:00,São Paulo,Corinthians,1,0,,,,,,,RSSSF Brasil,ogol:5993505,,"Att.: 42,830"
-2018-0107,2018,Semifinal,,,2018-03-27,20:30,Palmeiras,Santos,1,2,,,,,,,RSSSF Brasil,ogol:5993506,"[Eduardo Sasha (SAN) 13, Bruno 16 e Rodrygo  (SAN) 39 1T] [Pen Palmeiras 5-3 Santos]","Att.: 36,591] - Pacaembu, São Paulo"
-2018-0108,2018,Semifinal,,,2018-03-28,21:45,Corinthians,São Paulo,1,0,,,,,,,RSSSF Brasil,ogol:5993507,[Rodriguinho 47 2T] [Pen Corinthians 5-4 São Paulo],"Att.: 43,062"
-2018-0109,2018,Final,,,2018-03-31,16:30,Corinthians,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:6000479,,"Att.: 43,535"
-2018-0110,2018,Final,,,2018-04-08,16:00,Palmeiras,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:6000480,,"Att.: 41,227"
+2018-0067,2018,Primeira fase,,9,2018-02-25,11:00,Bragantino,Novorizontino,2,1,,,,,,873,RSSSF Brasil,ogol:5868087,"[Juninho (NOVO) 17, Lázaro 44 e Matheus 46 1T]",
+2018-0068,2018,Primeira fase,,9,2018-02-25,17:00,São Paulo,Ferroviária-SP,0,0,,,,,,11434,RSSSF Brasil,ogol:5868083,,
+2018-0069,2018,Primeira fase,,9,2018-02-25,19:30,Santos,Santo André,2,0,,,,,,6687,RSSSF Brasil,ogol:5868082,,
+2018-0070,2018,Primeira fase,,9,2018-02-25,19:30,Mirassol,Ponte Preta,1,0,,,,,,1919,RSSSF Brasil,ogol:5868084,,
+2018-0071,2018,Primeira fase,,9,2018-02-26,17:30,Ituano,Red Bull Bragantino II,1,0,,,,,,3115,RSSSF Brasil,ogol:5868088,,
+2018-0072,2018,Primeira fase,,9,2018-02-26,20:00,Botafogo-SP,Linense,1,1,,,,,,2285,RSSSF Brasil,ogol:5868085,[Wilson (LIN) 19 1T e Jheimy 6 2T],
+2018-0073,2018,Primeira fase,,10,2018-03-02,19:15,Ferroviária-SP,Mirassol,2,2,,,,,,1454,RSSSF Brasil,ogol:5868093,,
+2018-0074,2018,Primeira fase,,10,2018-03-03,16:30,Red Bull Bragantino II,São Bento,0,0,,,,Moisés Lucarelli,Campinas,633,RSSSF Brasil,ogol:5868095,,
+2018-0075,2018,Primeira fase,,10,2018-03-03,19:00,Santo André,Botafogo-SP,0,1,,,,,,4541,RSSSF Brasil,ogol:5868094,,
+2018-0076,2018,Primeira fase,,10,2018-03-03,21:30,Novorizontino,Ituano,3,2,,,,,,2307,RSSSF Brasil,ogol:5868096,"[José Antonio (ITU) 25 1T; Marcelinho (ITU) 2,  Safira 15 e 18 e Dilsinho 19 2T]",
+2018-0077,2018,Primeira fase,,10,2018-03-04,17:00,Santos,Corinthians,1,1,,,,Pacaembu,São Paulo,37431,RSSSF Brasil,ogol:5868089,[Rene Junior (COR) 20 1T e Diogo 42 2T],
+2018-0078,2018,Primeira fase,,10,2018-03-04,19:30,Linense,São Paulo,1,2,,,,,,4367,RSSSF Brasil,ogol:5868091,[Murilo 38 e Reinaldo (SP) 42 1T; Rodrigo  Caio (SP) 48 2T],
+2018-0079,2018,Primeira fase,,10,2018-03-05,20:00,Ponte Preta,Bragantino,0,1,,,,,,5326,RSSSF Brasil,ogol:5868092,,
+2018-0080,2018,Primeira fase,,10,2018-03-05,20:30,Palmeiras,São Caetano,0,1,,,,,,22597,RSSSF Brasil,ogol:5868090,,
+2018-0081,2018,Primeira fase,,11,2018-03-06,19:15,São Bento,Ituano,0,1,,,,,,2585,RSSSF Brasil,ogol:5868100,,
+2018-0082,2018,Primeira fase,,11,2018-03-07,17:00,Linense,Santo André,1,0,,,,,,757,RSSSF Brasil,ogol:5868102,,
+2018-0083,2018,Primeira fase,,11,2018-03-07,19:30,Novorizontino,Santos,2,1,,,,,,5426,RSSSF Brasil,ogol:5868099,[Juninho 19 1T; Yuri (SAN) 9 e Lucas Veríssimo (contra) 15 2T],
+2018-0084,2018,Primeira fase,,11,2018-03-07,21:45,Corinthians,Mirassol,1,0,,,,,,15144,RSSSF Brasil,ogol:5868098,,
+2018-0085,2018,Primeira fase,,11,2018-03-08,17:00,Ferroviária-SP,Bragantino,0,0,,,,,,3040,RSSSF Brasil,ogol:5868104,,
+2018-0086,2018,Primeira fase,,11,2018-03-08,19:15,São Caetano,Botafogo-SP,0,0,,,,,,1882,RSSSF Brasil,ogol:5868103,,
+2018-0087,2018,Primeira fase,,11,2018-03-08,20:30,Palmeiras,São Paulo,2,0,,,,,,34916,RSSSF Brasil,ogol:5868097,,
+2018-0088,2018,Primeira fase,,11,2018-03-08,21:30,Red Bull Bragantino II,Ponte Preta,0,0,,,,Moisés Lucarelli,Campinas,706,RSSSF Brasil,ogol:5868101,,
+2018-0089,2018,Primeira fase,,12,2018-03-11,17:00,São Paulo,Red Bull Bragantino II,3,1,,,,,,9226,RSSSF Brasil,ogol:5868105,[Edmilson (RED) 9 e Nininho (RED) (contra) 32  1T; Arboleda 22 e Marcos Guilherme 27 2T],
+2018-0090,2018,Primeira fase,,12,2018-03-11,17:00,Ituano,Palmeiras,0,3,,,,,,7604,RSSSF Brasil,ogol:5868106,[Gustavo Scarpa 43 1T; Gustavo Scarpa 17 e  Fernando dos Santos 34 2T],
+2018-0091,2018,Primeira fase,,12,2018-03-11,17:00,Santos,São Bento,1,3,,,,,,3816,RSSSF Brasil,ogol:5868107,[Marcelo Cordeiro (SB) (penâlti) 43 e Arthur  (penâlti) 45 1T; Lucio Flávio (SB) 33 e Fábio  Bahia (SB) 49 2T],
+2018-0092,2018,Primeira fase,,12,2018-03-11,17:00,Botafogo-SP,Corinthians,0,2,,,,,,13978,RSSSF Brasil,ogol:5868108,,
+2018-0093,2018,Primeira fase,,12,2018-03-11,17:00,Mirassol,Linense,1,1,,,,,,5490,RSSSF Brasil,ogol:5868109,[Murilo (LIN) 3 1T e Alison 42 2T],
+2018-0094,2018,Primeira fase,,12,2018-03-11,17:00,Santo André,Novorizontino,2,3,,,,,,1110,RSSSF Brasil,ogol:5868110,,
+2018-0095,2018,Primeira fase,,12,2018-03-11,17:00,Ponte Preta,Ferroviária-SP,0,0,,,,,,3504,RSSSF Brasil,ogol:5868111,,
+2018-0096,2018,Primeira fase,,12,2018-03-11,17:00,Bragantino,São Caetano,1,1,,,,,,5319,RSSSF Brasil,ogol:5868112,[Marino (SCA) 12 1T e Leo Jaime 5 2T],
+2018-0097,2018,Segunda fase,,,2018-03-17,16:00,São Caetano,São Paulo,1,0,,,,,,5224,RSSSF Brasil,ogol:5983448,,
+2018-0098,2018,Segunda fase,,,2018-03-17,19:00,Novorizontino,Palmeiras,0,3,,,,,,8121,RSSSF Brasil,ogol:5983449,[Dudu (penâlti) 21 1T; Willian 32 e Keno 44 2T],
+2018-0099,2018,Segunda fase,,,2018-03-18,16:00,Bragantino,Corinthians,3,2,,,,Pacaembu,São Paulo,15317,RSSSF Brasil,ogol:5983447,"[Matheus 47 1T; Balbuena (COR) 20, Vitinho 26, Ítalo Andrade 31 e Pedro Victor (COR) 42 2T]",
+2018-0100,2018,Segunda fase,,,2018-03-18,19:30,Botafogo-SP,Santos,0,0,,,,,,11933,RSSSF Brasil,ogol:5983450,,
+2018-0101,2018,Segunda fase,,,2018-03-20,21:00,São Paulo,São Caetano,2,0,,,,,,17899,RSSSF Brasil,ogol:5983452,,
+2018-0102,2018,Segunda fase,,,2018-03-21,19:30,Santos,Botafogo-SP,0,0,,,,,,6209,RSSSF Brasil,ogol:5983454,[Pen Santos 3-1 Botafogo],
+2018-0103,2018,Segunda fase,,,2018-03-21,21:45,Palmeiras,Novorizontino,5,0,,,,,,25446,RSSSF Brasil,ogol:5983453,"[Bruno 5, Keno 18, Willian 34 e Dudu 45 1T;  Rafael Elias 34 2T]",
+2018-0104,2018,Segunda fase,,,2018-03-22,20:00,Corinthians,Bragantino,2,0,,,,,,32930,RSSSF Brasil,ogol:5983451,,
+2018-0105,2018,Semifinal,,,2018-03-24,19:00,Santos,Palmeiras,0,1,,,,Pacaembu,São Paulo,19546,RSSSF Brasil,ogol:5993504,,
+2018-0106,2018,Semifinal,,,2018-03-25,16:00,São Paulo,Corinthians,1,0,,,,,,42830,RSSSF Brasil,ogol:5993505,,
+2018-0107,2018,Semifinal,,,2018-03-27,20:30,Palmeiras,Santos,1,2,,,,Pacaembu,São Paulo,36591,RSSSF Brasil,ogol:5993506,"[Eduardo Sasha (SAN) 13, Bruno 16 e Rodrygo  (SAN) 39 1T] [Pen Palmeiras 5-3 Santos]",
+2018-0108,2018,Semifinal,,,2018-03-28,21:45,Corinthians,São Paulo,1,0,,,,,,43062,RSSSF Brasil,ogol:5993507,[Rodriguinho 47 2T] [Pen Corinthians 5-4 São Paulo],
+2018-0109,2018,Final,,,2018-03-31,16:30,Corinthians,Palmeiras,0,1,,,,,,43535,RSSSF Brasil,ogol:6000479,,
+2018-0110,2018,Final,,,2018-04-08,16:00,Palmeiras,Corinthians,0,1,,,,,,41227,RSSSF Brasil,ogol:6000480,,
 2019-0001,2019,Primeira fase,,1,2019-01-19,16:30,Ponte Preta,Oeste,0,0,,,,,,,RSSSF Brasil,ogol:6381130,,
 2019-0002,2019,Primeira fase,,1,2019-01-19,17:00,Santos,Ferroviária-SP,1,0,,,,,,,RSSSF Brasil,ogol:6381127,,
 2019-0003,2019,Primeira fase,,1,2019-01-19,19:30,São Paulo,Mirassol,4,1,,,,,,,RSSSF Brasil,ogol:6381126,,
@@ -21052,7 +21051,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2019-0010,2019,Primeira fase,,2,2019-01-23,19:15,Guarani,Corinthians,2,1,,,,,,,RSSSF Brasil,ogol:6381148,,
 2019-0011,2019,Primeira fase,,2,2019-01-23,19:15,Oeste,Bragantino,0,0,,,,,,,RSSSF Brasil,ogol:6381152,,
 2019-0012,2019,Primeira fase,,2,2019-01-23,21:00,Palmeiras,Botafogo-SP,1,0,,,,,,,RSSSF Brasil,ogol:6381149,,
-2019-0013,2019,Primeira fase,,2,2019-01-24,15:00,Mirassol,Red Bull Bragantino II,1,0,,,,,,,RSSSF Brasil,ogol:6381153,,"Concluded on Jan 25, 2019"
+2019-0013,2019,Primeira fase,,2,2019-01-24,15:00,Mirassol,Red Bull Bragantino II,1,0,,,,,,,RSSSF Brasil,ogol:6381153,,concluído em 25/01/2019
 2019-0014,2019,Primeira fase,,2,2019-01-24,19:15,São Bento,Santos,0,4,,,,,,,RSSSF Brasil,ogol:6381151,"[Jean Mota 00'16, Derlis González 18, Soteldo 69, Copete 77]",
 2019-0015,2019,Primeira fase,,2,2019-01-24,21:00,Novorizontino,São Paulo,0,3,,,,,,,RSSSF Brasil,ogol:6381150,,
 2019-0016,2019,Primeira fase,,2,2019-01-24,21:00,São Caetano,Ituano,0,0,,,,,,,RSSSF Brasil,ogol:6381155,,
@@ -21143,11 +21142,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2019-0101,2019,Segunda fase,,,2019-03-26,20:00,Red Bull Bragantino II,Santos,0,0,,,,,,,RSSSF Brasil,ogol:6506472,,
 2019-0102,2019,Segunda fase,,,2019-03-26,21:00,Palmeiras,Novorizontino,5,0,,,,,,,RSSSF Brasil,ogol:6506473,,
 2019-0103,2019,Segunda fase,,,2019-03-27,19:15,Ituano,São Paulo,0,1,,,,,,,RSSSF Brasil,ogol:6506475,,
-2019-0104,2019,Segunda fase,,,2019-03-27,21:30,Corinthians,Ferroviária-SP,1,1,4,3,,,,,RSSSF Brasil,ogol:6506474,,Pen 4-3
+2019-0104,2019,Segunda fase,,,2019-03-27,21:30,Corinthians,Ferroviária-SP,1,1,4,3,,,,,RSSSF Brasil,ogol:6506474,,
 2019-0105,2019,Semifinal,,,2019-03-30,18:00,São Paulo,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:6511453,,
 2019-0106,2019,Semifinal,,,2019-03-31,15:00,Corinthians,Santos,2,1,,,,,,,RSSSF Brasil,ogol:6511454,,
-2019-0107,2019,Semifinal,,,2019-04-07,16:00,Palmeiras,São Paulo,0,0,4,5,,,,,RSSSF Brasil,ogol:6511455,,Pen 4-5
-2019-0108,2019,Semifinal,,,2019-04-08,20:00,Santos,Corinthians,1,0,6,7,,,,,RSSSF Brasil,ogol:6511456,,Pen 6-7
+2019-0107,2019,Semifinal,,,2019-04-07,16:00,Palmeiras,São Paulo,0,0,4,5,,,,,RSSSF Brasil,ogol:6511455,,
+2019-0108,2019,Semifinal,,,2019-04-08,20:00,Santos,Corinthians,1,0,6,7,,,,,RSSSF Brasil,ogol:6511456,,
 2019-0109,2019,Final,,,2019-04-14,16:00,São Paulo,Corinthians,0,0,,,,,,,RSSSF Brasil,ogol:6555888,,
 2019-0110,2019,Final,,,2019-04-21,16:00,Corinthians,São Paulo,2,1,,,,,,,RSSSF Brasil,ogol:6555889,,
 2020-0001,2020,Primeira fase,,1,2020-01-22,17:00,Novorizontino,Oeste,2,0,,,,,,,RSSSF Brasil,ogol:7248207,,
@@ -21253,7 +21252,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2020-0101,2020,Semifinal,,,2020-08-02,16:00,Corinthians,Mirassol,1,0,,,,,,,RSSSF Brasil,ogol:7595365,,
 2020-0102,2020,Semifinal,,,2020-08-02,19:00,Palmeiras,Ponte Preta,1,0,,,,,,,RSSSF Brasil,ogol:7595364,,
 2020-0103,2020,Final,,,2020-08-05,21:30,Corinthians,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:7596825,,
-2020-0104,2020,Final,,,2020-08-08,16:30,Palmeiras,Corinthians,1,1,4,3,,,,,RSSSF Brasil,ogol:7596826,,Pen 4-3]  (Palmeiras campeão)
+2020-0104,2020,Final,,,2020-08-08,16:30,Palmeiras,Corinthians,1,1,4,3,,,,,RSSSF Brasil,ogol:7596826,,Palmeiras campeão
 2021-0001,2021,Primeira fase,,1,2021-02-27,16:30,São Bento,Mirassol,1,2,,,,,,,RSSSF Brasil,ogol:7832825,,
 2021-0002,2021,Primeira fase,,1,2021-02-27,19:00,Novorizontino,Ponte Preta,1,1,,,,,,,RSSSF Brasil,ogol:7832821,,
 2021-0003,2021,Primeira fase,,1,2021-02-28,18:00,Bragantino,Corinthians,0,0,,,,,,,RSSSF Brasil,ogol:7832823,,
@@ -21285,8 +21284,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2021-0029,2021,Primeira fase,,4,2021-03-14,16:00,Palmeiras,Ferroviária-SP,2,0,,,,,,,RSSSF Brasil,ogol:7832895,,
 2021-0030,2021,Primeira fase,,4,2021-03-14,19:00,São Caetano,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:7832898,,
 2021-0031,2021,Primeira fase,,4,2021-03-14,19:00,Bragantino,Santo André,2,1,,,,,,,RSSSF Brasil,ogol:7832896,,
-2021-0032,2021,Primeira fase,,5,2021-03-23,21:00,Mirassol,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:7832830,,"played at Estadio Raulino de Oliveira, in Volta Redonda-RJ"
-2021-0033,2021,Primeira fase,,3,2021-03-24,22:00,São Bento,Palmeiras,1,1,,,,,,,RSSSF Brasil,ogol:7832873,,"played at Estadio Raulino de Oliveira, in Volta Redonda-RJ"
+2021-0032,2021,Primeira fase,,5,2021-03-23,21:00,Mirassol,Corinthians,0,1,,,,,,,RSSSF Brasil,ogol:7832830,,"jogo no estádio Raulino de Oliveira, em Volta Redonda-RJ"
+2021-0033,2021,Primeira fase,,3,2021-03-24,22:00,São Bento,Palmeiras,1,1,,,,,,,RSSSF Brasil,ogol:7832873,,"jogo no estádio Raulino de Oliveira, em Volta Redonda-RJ"
 2021-0034,2021,Primeira fase,,9,2021-04-10,20:00,São Bento,Bragantino,1,2,,,,,,,RSSSF Brasil,ogol:7832840,,
 2021-0035,2021,Primeira fase,,11,2021-04-10,20:00,São Paulo,São Caetano,5,1,,,,,,,RSSSF Brasil,ogol:7832890,,
 2021-0036,2021,Primeira fase,,9,2021-04-10,22:00,Santos,Botafogo-SP,0,0,,,,,,,RSSSF Brasil,ogol:7832839,,
@@ -21351,7 +21350,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2021-0095,2021,Primeira fase,,12,2021-05-09,16:00,Santos,São Bento,2,0,,,,,,,RSSSF Brasil,ogol:7832913,,
 2021-0096,2021,Primeira fase,,12,2021-05-09,16:00,São Caetano,Ferroviária-SP,0,3,,,,,,,RSSSF Brasil,ogol:7832914,,
 2021-0097,2021,Segunda fase,,,2021-05-11,16:00,Corinthians,Inter de Limeira,4,1,,,,,,,RSSSF Brasil,ogol:7997529,,
-2021-0098,2021,Segunda fase,,,2021-05-12,21:00,Mirassol,Guarani,0,0,4,3,,,,,RSSSF Brasil,ogol:7997532,,Pen. 4-3
+2021-0098,2021,Segunda fase,,,2021-05-12,21:00,Mirassol,Guarani,0,0,4,3,,,,,RSSSF Brasil,ogol:7997532,,
 2021-0099,2021,Segunda fase,,,2021-05-14,19:30,Bragantino,Palmeiras,0,1,,,,,,,RSSSF Brasil,ogol:7997531,,
 2021-0100,2021,Segunda fase,,,2021-05-14,21:30,São Paulo,Ferroviária-SP,4,2,,,,,,,RSSSF Brasil,ogol:7997530,,
 2021-0101,2021,Semifinal,,,2021-05-16,16:00,Corinthians,Palmeiras,0,2,,,,,,,RSSSF Brasil,ogol:8000289,,
@@ -21559,11 +21558,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2023-0095,2023,Primeira fase,,12,2023-03-05,16:00,Guarani,Palmeiras,0,0,,,,,,,RSSSF Brasil,ogol:9112281,,
 2023-0096,2023,Primeira fase,,12,2023-03-05,16:00,Ferroviária-SP,Inter de Limeira,0,0,,,,,,,RSSSF Brasil,ogol:9112280,,
 2023-0097,2023,Segunda fase,,,2023-03-11,19:00,Palmeiras,São Bernardo,1,0,,,,,,,RSSSF Brasil,ogol:9298805,,
-2023-0098,2023,Segunda fase,,,2023-03-12,16:00,Corinthians,Ituano,1,1,6,7,,,,,RSSSF Brasil,ogol:9298804,,Pen 6-7
+2023-0098,2023,Segunda fase,,,2023-03-12,16:00,Corinthians,Ituano,1,1,6,7,,,,,RSSSF Brasil,ogol:9298804,,
 2023-0099,2023,Segunda fase,,,2023-03-12,19:30,Bragantino,Botafogo-SP,2,0,,,,,,,RSSSF Brasil,ogol:9298802,,
-2023-0100,2023,Segunda fase,,,2023-03-13,20:00,São Paulo,EC Água Santa,0,0,5,6,,,,,RSSSF Brasil,ogol:9298803,,Pen 5-6
+2023-0100,2023,Segunda fase,,,2023-03-13,20:00,São Paulo,EC Água Santa,0,0,5,6,,,,,RSSSF Brasil,ogol:9298803,,
 2023-0101,2023,Semifinal,,,2023-03-19,16:00,Palmeiras,Ituano,1,0,,,,,,,RSSSF Brasil,ogol:9308412,,
-2023-0102,2023,Semifinal,,,2023-03-20,21:00,EC Água Santa,Bragantino,1,1,4,2,,,,,RSSSF Brasil,ogol:9308413,,Pen 4-2
+2023-0102,2023,Semifinal,,,2023-03-20,21:00,EC Água Santa,Bragantino,1,1,4,2,,,,,RSSSF Brasil,ogol:9308413,,
 2023-0103,2023,Final,,,2023-04-02,16:00,EC Água Santa,Palmeiras,2,1,,,,,,,RSSSF Brasil,ogol:9326079,,
 2023-0104,2023,Final,,,2023-04-09,16:00,Palmeiras,EC Água Santa,4,0,,,,,,,RSSSF Brasil,ogol:9326080,,
 2024-0001,2024,Primeira fase,Grupo A,2,2024-01-24,19:30,Ituano,Corinthians,1,0,,,,,,,RSSSF Brasil,ogol:9837445,,
