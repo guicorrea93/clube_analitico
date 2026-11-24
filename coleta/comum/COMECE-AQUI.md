@@ -69,7 +69,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 
 | Competição | Temporadas | Jogos | Último commit | No banco | Teste de carga (22/11) |
 |---|---|---|---|---|---|
-| `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be; plano da revisão neste commit (24/11) | sim; recarregar | OK (Santo Amaro-PE = Manchete do banco) |
+| `bra-serie-c` Série C | 39 (1981–2026; 3 não oficiais: 1987 Azul, 1987 Branco, 2000) | 8.705 | d1a8fbb9; D-10 neste commit (24/11) | sim; recarregar (coluna `oficial`) | OK |
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e; plano da revisão neste commit (24/11) | sim; recarregar | OK (Espírito Santo FC = Rive A.C. do banco) |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.010 | c4f83be; plano da revisão neste commit (24/11) | sim; recarregar | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 046e6e4; Grêmio Catanduvense separado (A2-022) neste commit (24/11) | sim; recarregar | OK (1 clube novo) |
@@ -118,7 +118,11 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
    - Feito 24/11: Copa do Brasil (QC-005, QC-004, CB-007 e QC-008 pela D-14 C, CB-005 anotado pela D-13, CL-028).
    - Feito 24/11: "Todas as coletas Brasil" (QC-006: as 100 datas entram nos `datas_corrigidas.csv` da C, D e Copa;
      QC-007: `observacao.TRADUCOES` e `observacao.limpar_gols_texto`, também na A2).
-   - Próximo: a D-10 (SC-029: Série C de 1987 e 2000 como edições não oficiais). É o último bloco do plano do Brasil.
+   - Feito 24/11: D-10 (SC-029). Série C de 1987 (Módulos Azul e Branco, duas temporadas: "1987 Azul" e "1987 Branco";
+     decisão do Guilherme em 24/11: entram na C, como no Bola) e 2000 (Módulos Verde e Branco), pelo Bola n@ Área
+     (`baixar_bola.py`, `bola_c.py`, `importar.montar_bola`); coluna nova `oficial` ("não") em `edicoes.csv`.
+   - **Plano da revisão do Brasil (`docs/revisao/plano-coleta-brasil.md`) concluído em 24/11.** Próximo: o que o Guilherme
+     mandar (o Mineiro estava na fila, seção 4).
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO, JOGO_CORRIGIDO, JOGOS_EXTRA): se um nome não casar, o importador para com erro
      (não passa calado). `RSSSF_FORA` e `JOGOS_ANULADOS` usam o nome como está na página e tiram o jogo antes do ogol.

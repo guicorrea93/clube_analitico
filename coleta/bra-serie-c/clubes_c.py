@@ -101,6 +101,10 @@ def banco() -> dict[str, dict]:
     return saida
 
 
+# códigos de clubes que só aparecem nas edições do Bola n@ Área (1987 e 2000): a ficha vem do cadastro comum
+CODIGOS_EXTRA: set[str] = set()
+
+
 @lru_cache(maxsize=1)
 def fichas() -> dict[str, dict]:
     """Fichas do ogol (data/coleta/bra-serie-c/ogol/clubes.json), com o nome curto tirado do título da página."""
@@ -108,6 +112,10 @@ def fichas() -> dict[str, dict]:
     for f in d.values():
         f["curto"] = (f.get("titulo") or "").split(" - ")[0].strip() or (f["nomes_ogol"][0] if f["nomes_ogol"] else f["id"])
         registro.corrigir_ficha(f)   # cidade e UF corrigidas para todas as coletas ("Limoeiro Do Norte", Botafogo-DF; CL-028)
+    reg = registro.ler()
+    for i in CODIGOS_EXTRA - set(d):
+        r = reg[i]
+        d[i] = {"id": i, "curto": r["clube"], "nomes_ogol": [], "uf": r["uf"], "cidade": r["cidade"], "nome_completo": None}
     return d
 
 

@@ -83,8 +83,9 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     (PACOTE / "competicao.json").write_text(json.dumps({
         "slug": SLUG, "nome": "Campeonato Brasileiro Série C", "nome_curto": "Série C", "tipo": "liga", "nivel": 3, "pais": "BRA",
         "regiao": None, "confederacao": "CONMEBOL",
-        "observacao": "Inclui a Taça de Bronze (1981). Não inclui 1987 (módulos Azul e Branco) nem 2000 (Módulo Verde e Branco "
-                      "da Copa João Havelange), que RSSSF e Wikipédia não contam como Série C oficial.",
+        "observacao": "Inclui a Taça de Bronze (1981) e, como edições não oficiais (coluna oficial = não em edicoes.csv; "
+                      "decisão D-10), 1987 (Módulos Azul e Branco da Copa União) e 2000 (Módulos Verde e Branco da Copa "
+                      "João Havelange), que a CBF, a RSSSF e a Wikipédia não contam como Série C.",
         "rotulo_painel": "Série C", "menu_painel": "Brasileirão Série C"}, ensure_ascii=False, indent=1), encoding="utf-8")
     # ------------------------------------------------------------------ partidas, gols, fases, edições
     linhas_p, linhas_g, linhas_f, linhas_e, linhas_cf, linhas_tp, linhas_conf, linhas_art = [], [], [], [], [], [], [], []
@@ -93,6 +94,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     artilheiros_rsssf = artilheiros()
     for ano, e in edicoes.items():
         ps = e["partidas"]
+        bola = e.get("bola", False)   # edição não oficial pelo Bola n@ Área (1987 e 2000; decisão D-10)
         for n, cid in e["mapa"].items():
             nomes_fonte[cid][f"rsssf:{n[0] if isinstance(n, tuple) else n}"].append(ano)
         for o in e["og"]:
@@ -100,6 +102,9 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                 # código trocado à mão (CORRIGE_OGOL): o nome do ogol é do outro clube e não entra (revisão CL-031)
                 if o.get(f"{lado}_id") and not o.get(f"{lado}_corrigido"):
                     nomes_fonte[o[f"{lado}_id"]][f"ogol:{o[lado]}"].append(ano)
+        for cid, ns in e.get("nomes_bola", {}).items():   # edições do Bola n@ Área (1987 e 2000)
+            for n in ns:
+                nomes_fonte[cid][f"bola:{n}"].append(int(str(ano)[:4]))
         # fases na ordem da competição
         por_fase = defaultdict(list)
         for p in ps:
@@ -127,8 +132,8 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         final = e["final"]
         campeao = e["campeao"]
         rebaixados = rebaixados_rsssf(e)
-        ib = infobox(ano)
-        subiram = {casar_clube_texto(x, ps, e["mapa"]) for x in ib["promovidos"]} | serie_b.get(ano + 1, set())
+        ib = infobox(ano) if not bola else {"promovidos": [], "rebaixados": [], "artilheiros": []}
+        subiram = ({casar_clube_texto(x, ps, e["mapa"]) for x in ib["promovidos"]} | serie_b.get(ano + 1, set())) if not bola else set()
         if ano in ACESSO_SO_ESTES:
             subiram = ACESSO_SO_ESTES[ano]
         subiram |= ACESSO_MANUAL.get(ano, set())
@@ -136,7 +141,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                        if nome(c) in {casar_clube_texto(x, ps, e["mapa"]) for x in ib["rebaixados"]}}
         # quem jogou a Série D do ano seguinte caiu (revisão SC-004; a Série D existe desde 2009: em 2008 a Série C foi
         # reduzida a 20 clubes, e os outros foram para a nova Série D ou para os estaduais)
-        if ano >= 2009:
+        if not bola and ano >= 2009:
             rebaixados |= {c for c in {x for p in ps for x in (p.mandante, p.visitante)} if nome(c) in serie_d.get(ano + 1, set())}
         rebaixados |= {c for c in {x for p in ps for x in (p.mandante, p.visitante)} if nome(c) in REBAIXADO_MANUAL.get(ano, set())}
         for f in final:
@@ -175,12 +180,15 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         num_clubes = len({x for p in ps for x in (p.mandante, p.visitante)})
         vice = next((nome(f["clube"]) for f in final if f["pos"] == 2), "") if campeao else ""
         fontes = " + ".join(x for x, ok in (("RSSSF Brasil", bool(e["rs"]) and ano != 2019), ("ogol", bool(e["og"])),
-                                               ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"]))) if ok)
-        obs = []
+                                               ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"])),
+                                               ("Bola n@ Área", bola)) if ok)
+        obs = list(e.get("obs", []))
         if ano == 2019:
             obs.append("jogos pelo ogol (a página da RSSSF parou na 1ª rodada)")
-        linhas_e.append([str(ano), ano, ano if ano != 2020 else 2021, NOME_OFICIAL.get(ano, NOME_PADRAO), num_clubes, pontos_vitoria(ano),
-                         formato(desenho), nome(campeao) if campeao else "", vice, fontes, "; ".join(obs)])
+        a = int(str(ano)[:4])
+        linhas_e.append([str(ano), a, a if a != 2020 else 2021, e.get("nome_oficial") or NOME_OFICIAL.get(ano, NOME_PADRAO), num_clubes,
+                         pontos_vitoria(ano), formato(desenho), nome(campeao) if campeao else "", vice, fontes, "; ".join(obs),
+                         "não" if bola else ""])
         ng = sum((p.gm or 0) + (p.gv or 0) for p in ps)
         conf = e["conf"]
         linhas_conf.append([str(ano), len(ps), len(e["og"]) or "", conf["ok"], conf["dif"], ng, sum(len(p.gols) for p in ps),
@@ -205,7 +213,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         linhas_c.append([n, c.get("uf"), registro.cidade_pt(c.get("cidade")), "BRA", "|".join(partes)])
     _csv("clubes.csv", ["clube", "regiao", "cidade", "pais", "nomes_fonte"], linhas_c)
     _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "formato", "campeao", "vice",
-                         "fontes", "observacao"], linhas_e)
+                         "fontes", "observacao", "oficial"], linhas_e)
     _csv("fases.csv", ["temporada", "ordem", "fase", "tipo", "num_grupos", "formato_serie", "criterio"], linhas_f)
     _csv("partidas.csv", ["id", "temporada", "fase", "grupo", "rodada", "data", "hora", "mandante", "visitante", "gols_mandante",
                           "gols_visitante", "penaltis_mandante", "penaltis_visitante", "resultado_especial", "estadio", "cidade", "publico",

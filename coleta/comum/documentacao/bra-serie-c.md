@@ -4,13 +4,13 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 1. O que temos
 
-- **Edições:** 36, de 1981 a 2026.
-- **Jogos:** 8123; **gols:** 19790; **gols com autor:** 6051 (31%); **cartões:** 0.
-- **Clubes:** 373; **artilheiros:** 34 temporadas com artilheiro (46 linhas, com empates).
-- **Classificação final:** 36 temporadas; **rodada a rodada:** 0 temporadas.
+- **Edições:** 39, de 1981 a 2026.
+- **Jogos:** 8705; **gols:** 21235; **gols com autor:** 6051 (28%); **cartões:** 0.
+- **Clubes:** 379; **artilheiros:** 34 temporadas com artilheiro (46 linhas, com empates).
+- **Classificação final:** 39 temporadas; **rodada a rodada:** 0 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2117 linhas.
 - **No banco (`db/futebol.db`):** sim (36 edições, 8123 jogos).
-- **Observação da competição:** Inclui a Taça de Bronze (1981). Não inclui 1987 (módulos Azul e Branco) nem 2000 (Módulo Verde e Branco da Copa João Havelange), que RSSSF e Wikipédia não contam como Série C oficial.
+- **Observação da competição:** Inclui a Taça de Bronze (1981) e, como edições não oficiais (coluna oficial = não em edicoes.csv; decisão D-10), 1987 (Módulos Azul e Branco da Copa União) e 2000 (Módulos Verde e Branco da Copa João Havelange), que a CBF, a RSSSF e a Wikipédia não contam como Série C.
 
 ## 2. Fontes e regras
 
@@ -20,7 +20,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF): 388 tabelas fecham com os jogos e 30 divergem (cada divergência é explicada no relatório, na temporada).
+- Cada temporada é comparada com as tabelas publicadas (RSSSF): 418 tabelas fecham com os jogos e 30 divergem (cada divergência é explicada no relatório, na temporada).
 - Temporadas com alguma tabela divergente: 1988, 1992, 1994, 1995, 1996, 1997, 1999, 2002, 2003, 2005, 2006, 2007, 2008, 2010, 2011.
 - Temporadas sem tabela para conferir: 2019, 2026.
 - Temporadas com menos jogos do que o ogol: nenhuma.
@@ -31,19 +31,19 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|
-| 1980s | 254 | 100% | 0% | 0% | 0% | 0% | 0% | 12% | 0.0 |
+| 1980s | 438 | 100% | 5% | 0% | 10% | 0% | 1% | 7% | 0.0 |
 | 1990s | 1859 | 100% | 64% | 28% | 0% | 0% | 0% | 5% | 0.0 |
-| 2000s | 2746 | 100% | 28% | 89% | 0% | 0% | 0% | 8% | 0.0 |
+| 2000s | 3144 | 100% | 25% | 78% | 0% | 0% | 0% | 7% | 0.0 |
 | 2010s | 1772 | 100% | 100% | 51% | 55% | 53% | 0% | 69% | 0.0 |
 | 2020s | 1492 | 100% | 100% | 68% | 43% | 43% | 0% | 69% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 7688; ogol: 435.
+**Fonte de cada jogo:** RSSSF Brasil: 7688; Bola n@ Área: 582; ogol: 435.
 
 ## 5. Formato ao longo do tempo
 
 **Número de clubes:**
 
-- 1981: 24 clubes
+- 1981 a 1987 Branco: 24 clubes
 - 1988: 43 clubes
 - 1990: 30 clubes
 - 1992: 31 clubes
@@ -53,6 +53,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1997: 64 clubes
 - 1998: 65 clubes
 - 1999: 36 clubes
+- 2000: 53 clubes
 - 2001: 65 clubes
 - 2002: 61 clubes
 - 2003: 93 clubes
@@ -66,7 +67,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Pontos por vitória:**
 
-- 1981: 2
+- 1981 a 1987 Branco: 2
 - 1988: 3
 - 1990 a 1994: 2
 - 1995 a 2026: 3
@@ -74,11 +75,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Nome oficial:**
 
 - 1981: Taça de Bronze
-- 1988 a 2026: Campeonato Brasileiro Série C
+- 1987 Azul: Copa União - Módulo Azul
+- 1987 Branco: Copa União - Módulo Branco
+- 1988 a 1999: Campeonato Brasileiro Série C
+- 2000: Copa João Havelange - Módulos Verde e Branco
+- 2001 a 2026: Campeonato Brasileiro Série C
 
 **Formato de cada edição** (fases na ordem; grupos; mata-mata):
 
 - 1981: mata-mata + 2 grupos + mata-mata
+- 1987 Azul a 1987 Branco: 6 grupos + mata-mata + pontos corridos
 - 1988: 12 grupos + 6 grupos + 2 grupos + mata-mata
 - 1990: 6 grupos + mata-mata
 - 1992: 7 grupos + 2 grupos + mata-mata
@@ -88,6 +94,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1997: 16 grupos + mata-mata + pontos corridos
 - 1998: 11 grupos + mata-mata + pontos corridos
 - 1999: 6 grupos + pontos corridos + mata-mata + pontos corridos
+- 2000: 8 grupos + 6 grupos + 2 grupos + mata-mata
 - 2001: 10 grupos + 4 grupos + pontos corridos
 - 2002: 16 grupos + mata-mata + pontos corridos
 - 2003: 28 grupos + mata-mata + pontos corridos
@@ -99,10 +106,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2021: pontos corridos + mata-mata
 - 2022 a 2026: pontos corridos + 2 grupos + mata-mata
 
-**Fases que aparecem** (número de temporadas): Primeira fase (36); Segunda fase (28); Final (24); Semifinal (15); Quartas de final (15); Terceira fase (11); Fase final (11); Oitavas de final (4); Quarta fase (3); Quinta fase (1).
+**Fases que aparecem** (número de temporadas): Primeira fase (39); Segunda fase (31); Final (25); Semifinal (15); Quartas de final (15); Terceira fase (14); Fase final (13); Oitavas de final (4); Quarta fase (3); Quinta fase (1).
 
 **Observações das edições:**
 
+- 1987 Azul: edição não oficial: o Módulo Azul da Copa União de 1987 (a CBF disse que nenhum módulo seria a 3ª divisão; decisão D-10); jogos pelo Bola n@ Área
+- 1987 Branco: edição não oficial: o Módulo Branco da Copa União de 1987 (a CBF disse que nenhum módulo seria a 3ª divisão; decisão D-10); jogos pelo Bola n@ Área
+- 2000: edição não oficial: os Módulos Verde e Branco da Copa João Havelange (equivalente à 3ª divisão, título não reconhecido pela CBF; decisão D-10); jogos pelo Bola n@ Área
 - 2019: jogos pelo ogol (a página da RSSSF parou na 1ª rodada)
 
 ## 6. Campeões, acessos, rebaixados e punições
@@ -113,6 +123,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Atlético-GO: 2
 - Ituano: 2
 - Olaria: 1
+- Americano-RJ: 1
+- Operário-MS: 1
 - União São João: 1
 - Tuna Luso: 1
 - GE Novorizontino: 1
@@ -120,6 +132,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Sampaio Corrêa: 1
 - Avaí: 1
 - Fluminense: 1
+- J.Malucelli: 1
 - Paulista: 1
 - Brasiliense: 1
 - União Barbarense: 1
@@ -273,6 +286,8 @@ Registradas nos módulos de `coleta/bra-serie-c/`; cada uma também aparece no r
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
+- **1987 Branco:** a colocação final da página principal do Bola não fecha com a lista de jogos do próprio site (o Sobradinho com 5 jogos e 6 resultados; a prorrogação do Moto Club x Tuna Luso fora, a do Uberlândia dentro); valem os jogos, que fecham com as 7 tabelas de grupo do Bola
+- **2000:** o Malutrom, campeão, é o J. Malucelli de hoje (o mesmo clube do banco); o Internacional do grupo H é o de Santa Maria ("Internacional-SM" nos jogos), e o Etti Jundiaí é o Paulista de Jundiaí
 - **2026:** a RSSSF ainda não tem a página de 2026: os jogos, as fases e os grupos vêm do ogol, e o campeão, os acessos e os rebaixados da Wikipédia (revisão SC-001). Sem autores de gols
 - **1981:** o ogol liga o Matsubara (Cambará-PR) ao J. Malucelli, fundado em 1994; corrigido no código (CORRIGE_OGOL): fica a SE Matsubara, como na RSSSF
 - **1988:** a final (Esportivo-MG x União São João, 1-1 e 2-2) foi decidida pela campanha (número de vitórias): campeão pela lista oficial / vitória valia 3 pontos e o empate ia para os pênaltis: 2 para quem vencia, 1 para quem perdia (revisão SC-007). No grupo 18 da 2ª fase o ogol põe a Desportiva Ferroviária no lugar da Ferroviária-SP; corrigido (revisão SC-008)
@@ -348,10 +363,12 @@ Registradas nos módulos de `coleta/bra-serie-c/`; cada uma também aparece no r
 
 | Arquivo | O que faz |
 |---|---|
+| `coleta/bra-serie-c/baixar_bola.py` | Baixa do Bola n@ Área (bolanaarea.com) as páginas das Séries C não oficiais de 1987 (Módulos Azul e Branco da Copa União) e 2000 (Módulos Verde e Branco da Copa João Havelange), para data/coleta/bra-serie-c/bola/ (decisã |
 | `coleta/bra-serie-c/baixar_espn_wiki.py` | Baixa as fontes complementares da Série C: - ESPN (liga "bra.3"), 2016 em diante: data e hora, estádio e cidade de cada jogo -> data/coleta/bra-serie-c/espn/serie_c_{ano}.json. A ESPN não traz gols, cartões nem público d |
 | `coleta/bra-serie-c/baixar_ogol.py` | Baixa o calendário de cada edição da Série C no ogol para data/coleta/bra-serie-c/ogol/serie_c_{ano}.json. |
 | `coleta/bra-serie-c/baixar_ogol_clubes.py` | Baixa a ficha no ogol de cada clube que aparece nos calendários da Série C (nome completo, cidade, UF) e grava data/coleta/bra-serie-c/ogol/clubes.json. As páginas ficam em data/cache/ogol_equipes/. |
 | `coleta/bra-serie-c/baixar_rsssf.py` | Baixa as páginas da Série C da RSSSF Brasil para data/coleta/bra-serie-c/rsssfbrasil/. |
+| `coleta/bra-serie-c/bola_c.py` | Leitor das páginas do Bola n@ Área (data/coleta/bra-serie-c/bola/, de baixar_bola.py) das Séries C não oficiais de 1987 e 2000 (decisão D-10, achado SC-029). A página é lida célula a célula (o mesmo jeito de revisao/QC/b |
 | `coleta/bra-serie-c/clubes_c.py` | Identidade dos clubes da Série C. |
 | `coleta/bra-serie-c/edicoes.py` | Edições da Série C: anos, nomes oficiais e campeões (conferidos em duas fontes). |
 | `coleta/bra-serie-c/explicacoes.py` | Textos do relatório da Série C que não saem do código: introdução e explicações de cada edição (divergências que ficaram, depois de conferidas à mão). |
@@ -359,10 +376,11 @@ Registradas nos módulos de `coleta/bra-serie-c/`; cada uma também aparece no r
 | `coleta/bra-serie-c/pacote.py` | Grava o pacote da Série C (data/coleta/bra-serie-c/pacote/) e o relatório (docs/coleta/bra-serie-c.md), no formato de docs/agente-coleta-COMECE-AQUI.md, seção 4. Chamado por importar.py. |
 | `coleta/bra-serie-c/rsssf_c.py` | Leitura das páginas da Série C da RSSSF Brasil (data/coleta/bra-serie-c/rsssfbrasil/br{ano}l3.htm). |
 
-- Fontes baixadas: `data/coleta/bra-serie-c/` (espn, ogol, rsssfbrasil, wikipedia). Pacote: `data/coleta/bra-serie-c/pacote/`. Relatório: `docs/coleta/bra-serie-c.md`.
+- Fontes baixadas: `data/coleta/bra-serie-c/` (bola, espn, ogol, rsssfbrasil, wikipedia). Pacote: `data/coleta/bra-serie-c/pacote/`. Relatório: `docs/coleta/bra-serie-c.md`.
 - Código comum: `coleta/comum/` (`rsssf.py` leitor das páginas da RSSSF Brasil, `ogol.py` calendários e fichas, `gols.py` autores dos gols, `registro.py` cadastro comum de nomes `data/coleta/comum/clubes_ogol.json`, `baixar.py` download educado).
 - Refazer do zero (da raiz do `clube_analitico`, logs no scratchpad):
 
+  - `python coleta/bra-serie-c/baixar_bola.py` (ver o docstring)
   - `python coleta/bra-serie-c/baixar_espn_wiki.py` (ver o docstring)
   - `python coleta/bra-serie-c/baixar_ogol.py` (ver o docstring)
   - `python coleta/bra-serie-c/baixar_ogol_clubes.py` (ver o docstring)

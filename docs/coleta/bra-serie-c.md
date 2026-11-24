@@ -4,9 +4,15 @@ Gerado por `python coleta/bra-serie-c/importar.py`. Pacote em `data/coleta/bra-s
 
 **Edições:** 36 oficiais, de 1981 a 2026 (1981, 1988, 1990, 1992, 1994-1999 e 2001-2026), conferidas na RSSSF Brasil
 (lista de campeões da 3ª divisão) e na Wikipédia em português (artigo da Série C). As duas trazem os mesmos anos e os mesmos
-campeões. Ficam de fora 1987 (módulos Azul e Branco da Copa União: a CBF disse que nenhum módulo seria a 3ª divisão) e 2000
-(Módulo Verde e Branco da Copa João Havelange, equivalente à 3ª divisão, mas sem título oficial). Nome oficial: Taça de Bronze
-em 1981; Campeonato Brasileiro Série C nas outras.
+campeões. Nome oficial: Taça de Bronze em 1981; Campeonato Brasileiro Série C nas outras.
+
+**Edições não oficiais (decisão D-10, achado SC-029; coluna `oficial` = "não" em `edicoes.csv`):** "1987 Azul" e
+"1987 Branco" (os Módulos Azul e Branco da Copa União, dois torneios paralelos, cada um com seu campeão; a CBF disse que
+nenhum módulo seria a 3ª divisão; o Guilherme decidiu em 24/11 que entram na Série C, como no Bola n@ Área) e "2000" (os
+Módulos Verde e Branco da Copa João Havelange, equivalente à 3ª divisão, título não reconhecido). Jogos, fases e grupos pelo
+Bola n@ Área (`coleta/bra-serie-c/baixar_bola.py` e `bola_c.py`; o ogol tem essas edições sem jogos e a RSSSF não as tem);
+clubes ligados ao cadastro comum pelo nome, pela UF e pela cidade da lista de participantes (`importar.MANUAL_BOLA` para
+os casos à mão); o placar inclui a prorrogação, como nas tabelas do Bola. As tabelas de grupo do Bola fecham com os jogos.
 
 **Fontes:** RSSSF Brasil (`br{ano}l3.htm`, base de jogos, fases, grupos, datas e autores; as tabelas publicadas são a conferência);
 ogol (calendário de todas as edições e o código de cada clube, que dá a identidade entre anos e mudanças de nome; completa os
@@ -29,6 +35,8 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 | Ano | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|---|
 | 1981 | RSSSF + ogol | 24 | 52 (52) | 108 | 29 | 2 / 0 | Olaria | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1987 Azul |  | 24 | 92 (0) | 160 | 0 | 7 / 0 | Americano-RJ | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1987 Branco |  | 24 | 92 (0) | 193 | 0 | 7 / 0 | Operário-MS | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1988 | RSSSF + ogol | 43 | 202 (202) | 414 | 36 | 19 / 1 | União São João | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1990 | RSSSF + ogol | 30 | 74 (74) | 143 | 38 | 7 / 0 | Atlético-GO | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1992 | RSSSF + ogol | 31 | 122 (122) | 254 | 25 | 10 / 6 | Tuna Luso | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -38,6 +46,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 | 1997 | RSSSF + ogol | 64 | 260 (259) | 634 | 0 | 17 / 2 | Sampaio Corrêa | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1998 | RSSSF + ogol | 65 | 388 (387) | 1035 | 0 | 15 / 0 | Avaí | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1999 | RSSSF + ogol | 36 | 226 (224) | 618 | 174 | 5 / 2 | Fluminense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2000 |  | 53 | 398 (0) | 1092 | 0 | 16 / 0 | J.Malucelli | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2001 | RSSSF + ogol | 65 | 412 (412) | 1124 | 0 | 15 / 0 | Paulista | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2002 | RSSSF + ogol | 61 | 244 (244) | 595 | 28 | 16 / 1 | Brasiliense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2003 | RSSSF + ogol | 93 | 340 (340) | 825 | 169 | 27 / 2 | Ituano | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -71,6 +80,14 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 - o ogol liga o Matsubara (Cambará-PR) ao J. Malucelli, fundado em 1994; corrigido no código (CORRIGE_OGOL): fica a SE Matsubara, como na RSSSF
 - 4 datas corrigidas (datas_corrigidas.csv; ex.: Guarani-MG x Atlético-BA 1981-03-26 -> 1981-03-28, ogol e Bola n@ Área contra a RSSSF (QC-006))
+
+### 1987 Azul
+
+- sem ocorrências
+
+### 1987 Branco
+
+- a colocação final da página principal do Bola não fecha com a lista de jogos do próprio site (o Sobradinho com 5 jogos e 6 resultados; a prorrogação do Moto Club x Tuna Luso fora, a do Uberlândia dentro); valem os jogos, que fecham com as 7 tabelas de grupo do Bola
 
 ### 1988
 
@@ -214,6 +231,10 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - jogo só no ogol, incluído em First Phase / Grupo A: Ji-Paraná 0-2 São Raimundo (1999-10-03)
 - só na RSSSF (não achado no ogol): Anapolina 2-0 São Raimundo (1999-11-07)
 - só na RSSSF (não achado no ogol): Brasil de Pelotas 0-1 Serra (1999-11-07)
+
+### 2000
+
+- o Malutrom, campeão, é o J. Malucelli de hoje (o mesmo clube do banco); o Internacional do grupo H é o de Santa Maria ("Internacional-SM" nos jogos), e o Etti Jundiaí é o Paulista de Jundiaí
 
 ### 2001
 

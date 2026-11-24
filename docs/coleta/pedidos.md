@@ -1068,3 +1068,32 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - testar_carga OK nas quatro, com 0 clubes novos (o banco já tem o Santo Amaro-PE e o Espírito Santo FC).
 4. **Pedido ao agente 1:** recarregar o `bra-serie-c`, o `bra-serie-d`, o `bra-copa-do-brasil` e o `bra-sp-2`.
 5. **Próximo:** a D-10 (SC-029), as Séries C de 1987 e 2000 como edições não oficiais. É o último bloco do plano do Brasil.
+
+## Recado de fim de coleta — bra-serie-c (edições não oficiais 1987 e 2000) — 24/11/2026
+
+1. **O que entrou** (decisão D-10, achado SC-029): três edições não oficiais da Série C, com aviso e sem contar título.
+   - **"1987 Azul" e "1987 Branco":** os Módulos Azul e Branco da Copa União.
+     - São dois torneios paralelos, cada um com seu campeão: Americano-RJ (Azul) e Operário-MS (Branco).
+     - Têm 24 clubes e 92 jogos cada.
+     - O Guilherme decidiu em 24/11 que eles entram na Série C, como no Bola n@ Área. A D-10 citava "Série B 1987 (Módulos Azul e Branco)", mas o próprio Bola chama de "Série C 1987", e o Módulo Amarelo já é Série A (SA-031).
+   - **"2000":** os Módulos Verde e Branco da Copa João Havelange, com a fase final. Têm 53 clubes e 398 jogos, e o campeão é o Malutrom, hoje J. Malucelli.
+2. **Fontes:** Bola n@ Área, com 7 páginas em `data/coleta/bra-serie-c/bola/`, baixadas por `coleta/bra-serie-c/baixar_bola.py` e lidas por `bola_c.py`.
+   - O ogol tem as edições, mas sem jogos.
+   - A RSSSF não tem as edições.
+   - Os números batem com o resumo do Bola: 1987 com 48 clubes e 184 jogos; 2000 com 53 clubes e 398 jogos.
+3. **Identidade:** os clubes saem da lista de participantes do Bola (nome, cidade e UF), ligados ao cadastro comum. Todos já existiam (0 clubes novos). Casos à mão (`importar.MANUAL_BOLA`):
+   - Etti Jundiaí = Paulista;
+   - Internacional (SP) = Inter de Limeira;
+   - Internacional (RS) = Inter de Santa Maria ("Internacional-SM" nos jogos);
+   - Malutrom = J. Malucelli;
+   - União (MT) = União-MT;
+   - Serrano (BA) = Serrano-BA: o Bola escreve Juazeiro, mas é o de Vitória da Conquista, hoje em Teixeira de Freitas.
+4. **Conferência:** as 30 tabelas de grupo do Bola fecham com os jogos. O placar inclui a prorrogação, como no esquema do banco. A "colocação final" da página principal de 1987 não fecha com os jogos do próprio Bola, e isso está anotado no relatório.
+5. **Formato novo para o agente 1:** coluna `oficial` no fim de `data/coleta/bra-serie-c/pacote/edicoes.csv`. Ela fica vazia nas edições oficiais e com "não" nas três novas, que têm também o aviso na `observacao` e o `nome_oficial` do módulo.
+   - Pelo TL-005, o painel precisa ler essa marca, mostrar o aviso e tirar o título do Pódio, da Corrida e das contagens, mantendo jogos e participações.
+   - Se preferir outro formato, é só dizer.
+6. **Números:** 39 edições (36 oficiais e 3 não oficiais) e 8.705 jogos (eram 8.123). testar_carga: `bra-serie-c: 39 edições, 8705 jogos, 0 clubes novos -> OK`.
+7. **Pedidos ao agente 1:**
+   - recarregar o `bra-serie-c`, lendo a coluna `oficial`;
+   - na Série B, não importar os Módulos Azul e Branco de 1987, que agora são Série C (SB-026 fica só com 1979, 1986 e o Módulo Amarelo de 2000).
+8. **Com isso o plano da revisão do Brasil (`docs/revisao/plano-coleta-brasil.md`) está concluído.**

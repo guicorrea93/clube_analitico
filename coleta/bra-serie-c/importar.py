@@ -28,6 +28,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI.parent / "comum"))
 sys.path.insert(0, str(AQUI))
+import bola_c  # noqa: E402
 import clubes_c  # noqa: E402
 import datas_corrigidas  # noqa: E402
 import gols as gols_rsssf  # noqa: E402
@@ -676,8 +677,9 @@ def nome(cid: str) -> str:
 
 # --------------------------------------------------------------------------------------------- classificação
 
-def pontos_vitoria(ano: int) -> int:
-    return 3 if ano >= 1995 or ano == 1988 else 2
+def pontos_vitoria(ano) -> int:
+    a = int(str(ano)[:4])   # temporada em texto nas edições do Bola ("1987 Azul")
+    return 3 if a >= 1995 or a == 1988 else 2
 
 
 def pontos_jogos(ano: int, jogos: list[Partida]) -> dict[str, int]:
@@ -964,6 +966,156 @@ def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict) -
 
 
 # edições em que a RSSSF não serve de base (o ogol é a base dos jogos)
+# ------------------------------------------------------------------ edições não oficiais (decisão D-10, achado SC-029)
+# Séries C não oficiais, com os jogos do Bola n@ Área (o ogol tem as edições sem jogos e a RSSSF não as tem): 1987, os
+# Módulos Azul e Branco da Copa União (dois torneios paralelos, cada um com seu campeão; o Guilherme decidiu em 24/11 que
+# entram na C, como no Bola); 2000, os Módulos Verde e Branco da Copa João Havelange, com a fase final
+BOLA: dict[str, dict] = {
+    "1987 Azul": {"paginas": ["serie_c_1987_md-azul"], "nome": "Copa União - Módulo Azul",
+                  "obs": "edição não oficial: o Módulo Azul da Copa União de 1987 (a CBF disse que nenhum módulo seria a 3ª "
+                         "divisão; decisão D-10); jogos pelo Bola n@ Área"},
+    "1987 Branco": {"paginas": ["serie_c_1987_md-branco"], "nome": "Copa União - Módulo Branco",
+                    "obs": "edição não oficial: o Módulo Branco da Copa União de 1987 (a CBF disse que nenhum módulo seria a "
+                           "3ª divisão; decisão D-10); jogos pelo Bola n@ Área"},
+    "2000": {"paginas": ["serie_c_2000_modulo_verde", "serie_c_2000_modulo_branco", "serie_c_2000_fasefinal"],
+             "nome": "Copa João Havelange - Módulos Verde e Branco",
+             "obs": "edição não oficial: os Módulos Verde e Branco da Copa João Havelange (equivalente à 3ª divisão, título "
+                    "não reconhecido pela CBF; decisão D-10); jogos pelo Bola n@ Área"},
+}
+# nome do participante abreviado na lista do Bola -> nome dos jogos
+ALIAS_BOLA = {"U Bandeirante": "União Bandeirante", "U Barbarense": "União Barbarense", "Port Santista": "Portuguesa Santista",
+              "U Rondonópolis": "União-MT", "Internacional-SM": "Internacional"}
+UFS = set("AC AL AM AP BA CE DF ES GO MA MG MS MT PA PB PE PI PR RJ RN RO RR RS SC SE SP TO".split())
+# clube do Bola que o casamento por nome, UF e cidade não acha ou acharia errado: (nome, UF) -> (código do cadastro, motivo)
+MANUAL_BOLA: dict[tuple[str, str], tuple[str, str]] = {
+    ("Etti Jundiaí", "SP"): ("3388", "Paulista de Jundiaí (chamado Etti Jundiaí de 1999 a 2001)"),
+    ("Internacional", "SP"): ("3291", "Internacional de Limeira (Inter de Limeira)"),
+    ("Malutrom", "PR"): ("3333", "Malutrom, de Curitiba, depois J. Malucelli (o mesmo do banco)"),
+    ("União-MT", "MT"): ("3509", "União Esporte Clube, de Rondonópolis"),
+    ("Serrano", "BA"): ("3475", "Serrano Sport Club, de Vitória da Conquista (mudou-se para Teixeira de Freitas em 2013); o "
+                                "Bola escreve Juazeiro (Wikipédia pt: jogou o Módulo Branco de 1987)"),
+    ("Brasília", "DF"): ("3158", "Brasília Esporte Clube"),
+    ("Dom Pedro II", "DF"): ("3228", "Dom Pedro II, do Núcleo Bandeirante"),
+    ("Comercial", "SP"): ("3202", "Comercial de Ribeirão Preto"),
+    ("Internacional", "RS"): ("3292", "Internacional de Santa Maria (\"Internacional-SM\" nos jogos); o de Porto Alegre jogou o "
+                                      "Módulo Azul, o principal"),
+}
+# campeão pela página do Bola ("O campeão do Módulo ...") -> conferido com o calculado pelos jogos
+CAMPEAO_BOLA = {"1987 Azul": "Americano-RJ", "1987 Branco": "Operário-MS", "2000": "J.Malucelli"}
+
+
+def _clube_bola(nome_bola: str, uf: str | None, cidade: str | None, log: list[str]) -> str:
+    """Código do cadastro comum para um clube do Bola: MANUAL_BOLA; senão o do cadastro com a mesma UF e o nome (sem o
+    "-UF") igual ou quase, preferindo a mesma cidade."""
+    if (nome_bola, uf) in MANUAL_BOLA:
+        return MANUAL_BOLA[(nome_bola, uf)][0]
+    reg = clubes_c.registro.ler()
+    k = lambda n: bola_c.chave(re.sub(r"-[A-Z]{2}$", "", n))
+    cands = []
+    for i, r in reg.items():
+        if r.get("uf") != uf:
+            continue
+        s = SequenceMatcher(None, k(nome_bola), k(r["clube"])).ratio()
+        if cidade and r.get("cidade") and bola_c.chave(cidade) == bola_c.chave(r["cidade"]):
+            s += 0.15
+        cands.append((s, i))
+    cands.sort(reverse=True)
+    if not cands or cands[0][0] < 0.95 or (len(cands) > 1 and cands[1][0] == cands[0][0]):
+        raise ValueError(f"clube do Bola sem par no cadastro: {nome_bola} ({cidade}/{uf}); melhores: {cands[:3]}")
+    return cands[0][1]
+
+
+def montar_bola(t: str, log: list[str]) -> dict:
+    """Edição não oficial pelas páginas do Bola n@ Área: participantes (nome, cidade, UF), jogos com fase e grupo, campeão
+    pelos jogos (conferido com a página), classificação como as outras edições e conferência com as tabelas do Bola."""
+    cfg = BOLA[t]
+    lidas = [(pg, bola_c.ler(pg)) for pg in cfg["paginas"]]
+    part = [p for _, r in lidas for p in r["participantes"]]
+    for p in part:
+        n = p["nome"]
+        if n.isupper():
+            n = n.title().replace(" Do ", " do ").replace(" De ", " de ").replace("Crb", "CRB").replace("Abc", "ABC")
+        p["nome"] = ALIAS_BOLA.get(n, n)
+    por_chave: dict[str, list[dict]] = defaultdict(list)
+    for p in part:
+        por_chave[bola_c.chave(p["nome"])].append(p)
+    codigo: dict[int, str] = {}   # id(participante) -> código
+    for p in part:
+        codigo[id(p)] = _clube_bola(p["nome"], p["uf"], p["cidade"], log)
+    faltam: list[str] = []
+    nomes_bola: dict[str, set] = defaultdict(set)   # código -> nomes que o Bola usa (clubes.csv, nomes_fonte)
+    vivos: set[str] = set()   # clubes da fase anterior (desempata nome sem UF nas fases seguintes: "Operário", "Botafogo")
+    partidas: list[Partida] = []
+    fase_ant = None
+    for pg, r in lidas:
+        for j in r["jogos"]:
+            if j["fase"] != fase_ant:
+                vivos = {x for q in partidas if q.fase == fase_ant for x in (q.mandante, q.visitante)} if fase_ant else set()
+                fase_ant = j["fase"]
+            lados = []
+            for n in (j["mandante"], j["visitante"]):
+                m = re.match(r"^(.+?)-([A-Z]{2})$", n)
+                base, uf = (m.group(1), m.group(2)) if m and m.group(2) in UFS else (n, None)
+                alvo = {bola_c.chave(k): v for k, v in ALIAS_BOLA.items()}.get(bola_c.chave(base), base)   # "U.Bandeirante"
+                cs = por_chave.get(bola_c.chave(alvo), []) + por_chave.get(bola_c.chave(n), [])
+                cs = [p for p in {id(p): p for p in cs}.values() if uf is None or p["uf"] == uf]
+                if len(cs) > 1:   # mesmo nome em UFs diferentes: o do grupo do jogo, ou quem jogou a fase anterior
+                    cs = [p for p in cs if p["grupo"] == j["grupo"]] or [p for p in cs if codigo[id(p)] in vivos] or cs
+                if len(cs) != 1 and (base, uf) in MANUAL_BOLA:
+                    lados.append(MANUAL_BOLA[(base, uf)][0])
+                    nomes_bola[lados[-1]].add(n)
+                    continue
+                if len(cs) != 1:
+                    faltam.append(f"{n} ({j['data']}, {j['fase']} {j['grupo']}): {[(p['nome'], p['uf'], p['grupo']) for p in cs]}")
+                    lados.append("?")
+                    continue
+                lados.append(codigo[id(cs[0])])
+                nomes_bola[lados[-1]].add(n)
+            q = Partida(t, j["fase"], f"Grupo {j['grupo']}" if j["grupo"] else "", None, j["data"], lados[0], lados[1], j["gm"],
+                        j["gv"], hora=j["hora"], pen_m=j.get("pen_m"), pen_v=j.get("pen_v"), estadio=j["local"],
+                        publico=j["publico"], fonte="Bola n@ Área", fonte_id=f"bola:{pg}", gols_texto=j["gols_texto"],
+                        obs=j["nota"])
+            partidas.append(q)
+    if faltam:
+        raise ValueError(f"{t}: nomes dos jogos sem participante único: " + " | ".join(sorted(set(faltam))[:20]))
+    clubes_c.CODIGOS_EXTRA.update(x for q in partidas for x in (q.mandante, q.visitante))
+    clubes_c.fichas.cache_clear()
+    clubes_c.exibicao.cache_clear()
+    # campeão: o 1º da fase final (1987) ou o vencedor da final (2000), conferido com a página
+    campeao = vencedor_final(partidas)
+    if campeao is None:
+        ff = [q for q in partidas if q.fase == "Fase final"]
+        pts = pontos_jogos(t, ff)
+        cf = campanha(ff)
+        campeao = max(pts, key=lambda c: (pts[c], cf[c][1], cf[c][4] - cf[c][5])) if ff else None
+    if campeao is None or nome(campeao) != CAMPEAO_BOLA[t]:
+        raise ValueError(f"{t}: campeão pelos jogos {nome(campeao) if campeao else '?'}, na página {CAMPEAO_BOLA[t]}")
+    final = classificacao(t, partidas, [], {}, campeao, log)
+    # conferência: as tabelas de classificação do Bola contra a campanha pelos jogos
+    ok, dif, linhas = 0, 0, []
+    for pg, r in lidas:
+        for tb in r["tabelas"]:
+            bl = [q for q in partidas if q.fase == tb["fase"] and (not tb["grupo"] or q.grupo == f"Grupo {tb['grupo']}")]
+            camp = campanha(bl)
+            erros = []
+            for l in tb["linhas"]:
+                cs = [c for c in camp if clubes_c.exibicao().get(c, {}).get("uf") == l["uf"]
+                      and bola_c.chave(nome(c)).startswith(bola_c.chave(ALIAS_BOLA.get(l["nome"], l["nome"]))[:5])]
+                c = cs[0] if len(cs) == 1 else None
+                if c is None or camp[c] != [l["j"], l["v"], l["e"], l["d"], l["gp"], l["gc"]]:
+                    erros.append(f"{l['nome']}: tabela {[l['j'], l['v'], l['e'], l['d'], l['gp'], l['gc']]} jogos {camp.get(c) if c else '?'}")
+            if erros:
+                dif += 1
+                linhas += [f"{tb['fase']} / {tb['grupo']}: {x}" for x in erros]
+            else:
+                ok += 1
+    log.append(f"{t}: {len(partidas)} jogos e {len({x for q in partidas for x in (q.mandante, q.visitante)})} clubes pelo Bola n@ "
+               f"Área; tabelas do Bola: {ok} fecham, {dif} divergem; campeão {nome(campeao)}")
+    return {"partidas": partidas, "tabelas": [], "tabs": [], "final": final, "conf": {"ok": ok, "dif": dif, "linhas": linhas},
+            "rs": [], "og": [], "mapa": {}, "campeao": campeao, "ajustes": {}, "bola": True, "nome_oficial": cfg["nome"],
+            "obs": [cfg["obs"]], "nomes_bola": nomes_bola}
+
+
 BASE_OGOL = {2019: "a página da RSSSF parou na 1ª rodada (40 jogos): a base dos jogos é o ogol (194 jogos)",
              2026: "a RSSSF ainda não tem a página de 2026: a base dos jogos é o ogol (revisão SC-001)"}
 
@@ -1042,7 +1194,7 @@ def main(anos: list[int], gravar: bool) -> None:
     rs_c, wk_c = campeoes()
     edicoes = {}
     for ano in anos:
-        e = montar_edicao(ano, log, rs_c, wk_c)
+        e = montar_bola(ano, log) if ano in BOLA else montar_edicao(ano, log, rs_c, wk_c)
         edicoes[ano] = e
         ps = e["partidas"]
         print(f"{ano}: {len(ps)} jogos (RSSSF {len(e['rs'])}, ogol {len(e['og'])}), tabelas ok {e['conf']['ok']} / divergentes "
@@ -1061,5 +1213,6 @@ def main(anos: list[int], gravar: bool) -> None:
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
-    anos = [int(a) for a in sys.argv[1:] if a.isdigit()]
-    main(anos or ANOS, gravar=not anos)
+    anos = [a if a in BOLA else int(a) for a in sys.argv[1:] if a in BOLA or a.isdigit()]
+    todos = sorted([*ANOS, *BOLA], key=lambda x: (int(str(x)[:4]), str(x)))   # 1987 e 2000 (D-10) na ordem dos anos
+    main(anos or todos, gravar=not anos)

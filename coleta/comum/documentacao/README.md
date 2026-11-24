@@ -6,7 +6,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Tabelas ok / div. | No banco | Pendências | Ficha |
 |---|---|---|---|---|---|---|---|---|---|
-| Campeonato Brasileiro Série C | 36 (1981–2026) | 8123 | 6051 | 0 | 373 | 388 / 30 | sim (36 edições, 8123 jogos) | 2 | [bra-serie-c](bra-serie-c.md) |
+| Campeonato Brasileiro Série C | 39 (1981–2026) | 8705 | 6051 | 0 | 379 | 418 / 30 | sim (36 edições, 8123 jogos) | 2 | [bra-serie-c](bra-serie-c.md) |
 | Campeonato Brasileiro Série D | 18 (2009–2026) | 6032 | 11227 | 0 | 333 | 431 / 4 | sim (18 edições, 6032 jogos) | 2 | [bra-serie-d](bra-serie-d.md) |
 | Copa do Brasil | 37 (1989–2025) | 4010 | 5764 | 0 | 399 | 61 / 0 | sim (37 edições, 4010 jogos) | 4 | [bra-copa-do-brasil](bra-copa-do-brasil.md) |
 | Campeonato Paulista | 135 (1902–2026) | 21849 | 6405 | 0 | 112 | 222 / 120 | sim (135 edições, 21849 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
