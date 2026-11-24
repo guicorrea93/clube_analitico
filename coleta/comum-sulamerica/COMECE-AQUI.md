@@ -87,7 +87,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `ecu-copa` Copa Ecuador | 5 (1970, 2018/19–2025) | 208 | 80 | e216792 | não |
 | `col-copa` Copa Colombia | 21 (1950-51, 1952-53, 1956-57, 2008–2025) | 2.441 | 58 | 3683817 | não |
 | `arg-copa` Copa Argentina | 15 (1969, 1970, 2011/12–2025; só a fase final) | 952 | 174 | 1dbc701 | não |
-| `chi-copa` Copa Chile | 45 (1958–2025, com buracos) | 3.497 | 174 | (hash no próximo commit) | não |
+| `chi-copa` Copa Chile | 45 (1958–2025, com buracos) | 3.497 | 174 | 683177b | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).

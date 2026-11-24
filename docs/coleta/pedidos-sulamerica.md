@@ -1150,7 +1150,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Edições:** 1958-1962, 1974, 1975, 1977/78, 1979-1996, 1998, 2000, 2008/09 e 2009-2025 (sem 2020), pela contagem
      da Wikipédia em espanhol. Entra tudo o que a RSSSF traz de cada uma.
    - **Campeões:** os 45 batem com a lista de finais da RSSSF e com a Wikipédia.
-2. **Commits:** `(hash no próximo commit)`.
+2. **Commits:** `683177b`.
 3. **Teste de carga:** `chi-copa: 45 edições, 3497 jogos, 129 clubes novos -> OK`. Cruzei os 174 nomes com os
    `clubes.csv` de todos os pacotes em `data/coleta/`: nenhum repetido em outro país.
 4. **Pedidos ao banco e ao painel:** carregar a `chi-copa`. As outras copas não mudam (rodei de novo: mesmos números).
