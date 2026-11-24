@@ -50,6 +50,8 @@ class EdicaoCopa:
     datas: bool = True                   # False: a página só dá o mês ("Jan 1970"), a data lida não vale
     fases: list | None = None            # (regex, fase) desta edição, quando os títulos mudam de sentido (Copa Colombia: "Round 1")
     extras: object = None                # função() -> [Jogo] de outra fonte (Wikipédia), com texto "wiki-..."; somam-se à RSSSF
+    anos_leitura: tuple[int, int] | None = None   # (ano_ini, ano_fim) para datar os jogos, quando diferem da edição
+    # (Copa Argentina 2019/20: começa em fev/2020 e vira para 2021 pelo "Dec -> Jan"; com ano_fim 2021 o fev iria para 2021)
 
 
 @dataclass
@@ -65,6 +67,7 @@ class Copa:
     campeoes_wiki: dict[str, str]        # temporada -> campeão pela Wikipédia (conferência)
     fonte_pagina: str = "https://www.rsssf.org/tablesu/{pagina}.html"
     ignorar: list[str] = field(default_factory=list)   # regex de linhas que não são jogo
+    trocas: list[tuple[str, str]] = field(default_factory=list)   # (regex, troca) nas linhas antes de ler: "[Mar 18 We]" -> "[Mar 18]"
 
 
 def _wo(x: rsssf_sul.Jogo) -> tuple[int, int, str] | None:
@@ -128,7 +131,10 @@ def ler_edicao(copa: Copa, ed: EdicaoCopa) -> tuple[list[rsssf_sul.Jogo], list[r
         fim = len(ls) if fim is None else fim
         # "Cúcuta  o/w Tolima  [awarded 0-3]" (Copa Colombia 2020): o leitor comum só conhece "w/o"; vira "awd"
         trecho = [re.sub(r"(?<=\S)\s+o/w\s+(?=\S)", "  awd ", l) for l in ls[ini:fim]]
-        j, t = rsssf_sul.ler([""] * ini + trecho, ed.ano_inicio, ed.ano_fim, fases=ed.fases or copa.fases, ignorar=copa.ignorar)
+        for rx, troca in copa.trocas:
+            trecho = [re.sub(rx, troca, l) for l in trecho]
+        a0, a1 = ed.anos_leitura or (ed.ano_inicio, ed.ano_fim)
+        j, t = rsssf_sul.ler([""] * ini + trecho, a0, a1, fases=ed.fases or copa.fases, ignorar=copa.ignorar)
         regiao, por_linha = "", {}
         for i in range(ini, fim):
             s = ls[i].strip()

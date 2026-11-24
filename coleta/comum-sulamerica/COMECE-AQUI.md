@@ -86,6 +86,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `par-copa` Copa Paraguay | 7 (2018–2025, sem 2020) | 296 | 110 | e31a932 | não |
 | `ecu-copa` Copa Ecuador | 5 (1970, 2018/19–2025) | 208 | 80 | e216792 | não |
 | `col-copa` Copa Colombia | 21 (1950-51, 1952-53, 1956-57, 2008–2025) | 2.441 | 58 | 3683817 | não |
+| `arg-copa` Copa Argentina | 15 (1969, 1970, 2011/12–2025; só a fase final) | 952 | 174 | (hash no próximo commit) | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
@@ -124,29 +125,19 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
 3. **Copas nacionais (EM ANDAMENTO desde 24/11; decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
    COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai (FEITO, `par-copa`), Equador (FEITO, `ecu-copa`),
-   Colômbia (FEITO, `col-copa`), Argentina, Chile, Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
+   Colômbia (FEITO, `col-copa`), Argentina (FEITO, `arg-copa`), Chile, Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
    cada copa só configura edições (página e trecho da RSSSF), fases, regiões e clubes (`clubes_copa.py`: regras da copa
    antes das da liga, nome inteiro, interior com a cidade). Não entra no `documentar.py` (que é de liga): o relatório
    `docs/coleta/<slug>.md` sai do próprio importador. Ver também: o leitor comum perde a continuação do colchete dos
    autores ("[A 9, B 68;" + "   C 87]"); o importador das copas junta (`_autores_inteiros`); conferir se as ligas perdem
    autores por isso (pendência).
-   - **Próxima: Copa Argentina (`arg-copa`). PARADO AQUI (24/11), diagnóstico feito, nada escrito.** Decisão do
-     Guilherme (24/11): **só a fase final** (dos 32-avos em diante; as preliminares regionais ficam fora, registradas).
-     - Páginas: as do arg-1 (`arg2012` ... `arg2025`, sem 2021) e `argcup69`/`argcup70` (já baixadas em
-       `data/coleta/arg-copa/rsssf/`; 1969 e 1970 inteiras: regiões e rodadas, poucos jogos).
-     - Trecho da fase final (linha inicial, final) no texto do `ler_rsssf.linhas` do arg-1: arg2012 (1017, 1130), arg2013
-       (1034, 1437; com "Preliminary round" e "1/24"), arg2014 (1224, 1387; "I Round" e "II Round" antes dos 16-avos; há
-       fragmentos lidos como clube: "over", "saved", "(CAH)"), arg2015 (1000, 1240), arg2016 (763, 983; começar no
-       "Round 3:", que é o dos 32-avos), arg2017 (980, 1146), arg2018 (804, 929), arg2019 (787, 1011), arg2020 (1206, 1425),
-       arg2022 (1112, 1228), arg2023 (1200, 1317), arg2024 (1162, 1285), arg2025 (1111, 1232).
-     - Contagem por fase conferida: 32 + 16 + 8 + 4 + 2 + 1 = 63 jogos na maioria dos anos.
-     - Maior trabalho: ~180 grafias (~100 clubes da Primera B Metro, Federal A e B Nacional) que o `clubes_arg.py` não
-       tem; nomes completos com a cidade na linha de baixo ("(Río Cuarto, X)"). Fazer um `coleta/arg-copa/clubes_copa.py`
-       como o das outras copas (nome inteiro, cidade, nome único no mundo).
-     - Campeões (Wikipédia): 1969 Boca; 2011/12 Boca, 2012/13 Arsenal, 2013/14 Huracán, 2014/15 Boca, 2015/16 River,
-       2016/17 River, 2017/18 Rosario Central, 2018/19 River, 2019/20 Boca (final em 2021); 2022 Patronato, 2023 Estudiantes,
-       2024 Central Córdoba (SdE), 2025 Independiente Rivadavia; 1970 não terminou (sem campeão).
-     - Depois: Chile e Venezuela.
+   - **Copa Argentina (`arg-copa`) FEITA em 24/11:** só a fase final (decisão do Guilherme); 1969 e 1970 inteiras.
+     Trechos e títulos de fase por página em `coleta/arg-copa/importar.py` (`TRECHOS`, `F_PAG`); homônimos desfeitos em
+     `coleta/arg-copa/clubes_copa.py` (o ano das regras é o `ano_inicio` da edição: 2018/19 = 2018). O importador comum
+     ganhou `anos_leitura` (datar 2019/20, que vai de fev/2020 a dez/2021) e `Copa.trocas` (troca de texto antes de ler:
+     "[Mar 18 We]" da arg2015). 1969 é lida em trechos (cada região volta a dezembro).
+   - **Próxima: Copa Chile (`chi-copa`)**, depois a Venezuela (`ven-copa`). Fazer o diagnóstico como o da Argentina:
+     páginas, trechos, contagem por fase, grafias que a liga não tem, campeões da Wikipédia.
 4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
    `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as

@@ -1087,3 +1087,47 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 7. **Onde a revisão deve olhar primeiro:** as identidades acima (`coleta/col-copa/clubes_copa.py`) e a mistura de fontes
    por edição (`_extras` em `coleta/col-copa/importar.py`).
 8. **Próxima competição:** Copa Argentina (`arg-copa`).
+
+## Recado de fim de coleta — arg-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa Argentina (`arg-copa`, `tipo` "copa"), a quinta das sete copas.
+   - **Números:** 15 edições, 952 jogos e 174 clubes, dos quais 91 só jogam a copa.
+   - **Edições:** 1969, 1970 e de 2011/12 a 2025, pela contagem da Wikipédia em espanhol. Não houve edição de 2021: a de
+     2019/20 terminou em dezembro de 2021.
+   - **Escopo (decisão do Guilherme, 24/11):** das edições modernas, só a fase final, dos 32-avos de final em diante. As
+     fases regionais e preliminares do interior ficam de fora. 1969 e 1970 entram inteiras.
+   - **Campeões:** os 14 batem com a Wikipédia. A de 1970 ficou sem campeão: a final de volta nunca foi jogada.
+2. **Commits:** `(hash no próximo commit)`.
+3. **Teste de carga:** `arg-copa: 15 edições, 952 jogos, 93 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:** carregar a `arg-copa`. As outras copas não mudam (rodei de novo: mesmos números).
+5. **Fontes e decisões:**
+   - **RSSSF:** `argcup69.html` e `argcup70.html` e a seção da copa nas páginas do arg-1 (arg2012 a arg2025).
+     - 2012/13 e 2013/14 entram como a RSSSF chama a "Final phase". Antes dos 16-avos há uma fase preliminar e os 24-avos
+       (2012/13) ou duas rodadas (2013/14).
+     - Em 1969 a fase regional (regiões A a D) e a segunda fase (chaves A a H) são todas de mata-mata, com a letra no
+       campo `grupo`.
+   - **Wikipédia em espanhol:** campeões e, com as tabelas da RSSSF, os homônimos.
+   - **Identidades** (`coleta/arg-copa/clubes_copa.py`):
+     - "CA Gimnasia y Esgrima" sem cidade: o de Jujuy em 2012/13 a 2015/16 e o de Mendoza de 2016/17 em diante.
+     - "CA San Martín" sem cidade: o General San Martín de Formosa em 2016/17 e o de Tucumán em 2022.
+     - "Atlético Club San Martín" é o de Mendoza, e "CSyD San Martín" o de Burzaco.
+     - Boca Unidos, Gimnasia y Tiro, Talleres de Remedios de Escalada, Huracán Las Heras e Argentino de Quilmes ficam
+       separados. As regras do arg-1 casam o começo do nome e os juntavam a Boca Juniors, Gimnasia La Plata, Talleres,
+       Huracán e Quilmes.
+     - Em 1969 o All Boys é o de Santa Rosa e o Sarmiento o de La Banda (tabela final da página).
+     - Em 1970 "Quilmes (MDQ)" é o de Mar del Plata.
+     - Nomes com o país, para não repetir no mundo: "Atlas (Argentina)", "Comunicaciones (Argentina)", "Sacachispas
+       (Argentina)" e "San Miguel (Argentina)".
+   - **Importador comum (`copa_rsssf.py`):**
+     - `anos_leitura`: data a 2019/20, que vai de fevereiro de 2020 a dezembro de 2021.
+     - `Copa.trocas`: troca de texto antes de ler, como o "[Mar 18 We]" da arg2015.
+6. **O que não deu:**
+   - Quase não há autores de gol: a RSSSF só os traz em poucas finais, e o da final de 2015/16 ("Alario 11m pen") não
+     é lido pelo separador do arg-1 (8 gols com autor no total).
+   - Uma cidade ficou vazia (Social y Recreativo Español).
+   - A cidade do Atenas de 1970 é a da lista da página (Santo Tomé), sem a província.
+7. **Onde a revisão deve olhar primeiro:** os homônimos acima (`clubes_copa.py`) e as datas de 1969, que a página não
+   traz em ordem e por isso são lidas por região.
+8. **Próxima competição:** Copa Chile (`chi-copa`).
