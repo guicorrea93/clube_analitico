@@ -1,7 +1,7 @@
 clube,regiao,cidade,pais,nomes_fonte
 4 de Julho,PI,Piripiri,BRA,ogol:4 de Julho:2018-2022|rsssf:4 de Julho:2021|rsssf:4 de Julho/PI:2018-2022
 7 de Setembro-MS,MS,Dourados,BRA,ogol:7 de Setembro-MS:2016-2017|rsssf:7 de Setembro/MS:2016-2017
-AA Araguaia,MT,Cuiabá,BRA,ogol:AA Araguaia:2016|rsssf:Araguaia/MT:2016
+AA Araguaia,MT,Água Boa,BRA,ogol:AA Araguaia:2016|rsssf:Araguaia/MT:2016
 ABC,RN,Natal,BRA,ogol:ABC:2020-2026|rsssf:ABC:2021|rsssf:ABC/RN:2020
 ASA,AL,Arapiraca,BRA,ogol:ASA:2018-2026|rsssf:ASA:2021|rsssf:ASA/AL:2018-2025|rsssf:Asa-AL:2023
 ASSU,RN,Assú,BRA,ogol:ASSU:2018|rsssf:ASSU/RN:2018
@@ -51,7 +51,7 @@ Betim Futebol,MG,Betim,BRA,ogol:Betim Futebol:2026
 Blumenau,SC,Blumenau,BRA,ogol:Blumenau:2026
 Boa Esporte,MG,Ituiutaba,BRA,ogol:Boa Esporte:2021|rsssf:Boa:2021
 Boavista-RJ,RJ,"Bacaxá, Saquarema",BRA,ogol:Boavista-RJ:2014-2025|rsssf:Boavista:2021|rsssf:Boavista-RJ:2014|rsssf:Boavista/RJ:2016-2025
-Botafogo-DF,GO,Novo Gama,BRA,ogol:Botafogo-DF:2010|rsssf:Botafogo-DF:2010
+Botafogo-DF,DF,Guará,BRA,ogol:Botafogo-DF:2010|rsssf:Botafogo-DF:2010
 Botafogo-PB,PB,João Pessoa,BRA,ogol:Botafogo-PB:2013|rsssf:Botafogo-PB:2013
 Botafogo-SP,SP,Ribeirão Preto,BRA,ogol:Botafogo-SP:2010-2015|rsssf:Botafogo-SP:2010-2015
 Bragantino-PA,PA,Bragança,BRA,ogol:Bragantino-PA:2019-2020|rsssf:Bragantino/PA:2019-2020
@@ -103,6 +103,7 @@ Dom Bosco-MT,MT,Cuiabá,BRA,ogol:Dom Bosco:2018|rsssf:Dom Bosco/MT:2018
 Duque de Caxias,RJ,Duque de Caxias,BRA,ogol:Duque de Caxias:2015|rsssf:Duque de Caxias-RJ:2015
 EC Água Santa,SP,Diadema,BRA,ogol:EC Água Santa:2024-2026|rsssf:Água Santa/SP:2024-2025
 Esportivo-RS,RS,Bento Gonçalves,BRA,ogol:Esportivo:2021|rsssf:Esportivo:2021
+Espírito Santo FC,ES,Alegre,BRA,ogol:Espírito Santo FC:2016-2018|rsssf:Espírito Santo/ES:2016-2018
 Estanciano,SE,Estância,BRA,ogol:Estanciano:2015|rsssf:Estanciano-SE:2015
 Estrela do Norte,ES,Cachoeiro de Itapemirim,BRA,ogol:Estrela do Norte:2014|rsssf:Estrela do Norte-ES:2014
 FC Cascavel,PR,Cascavel,BRA,ogol:FC Cascavel:2020-2026|rsssf:Cascavel/PR:2020-2025|rsssf:FC Cascavel:2021|rsssf:Fc Cascavel-PR:2023
@@ -132,9 +133,9 @@ Goianésia,GO,Goianésia,BRA,ogol:Goianésia:2013-2025|rsssf:Goianesia-GO:2013-2
 Goiatuba EC,GO,Goiatuba,BRA,ogol:Goiatuba EC:2025-2026|rsssf:Goiatuba/GO:2025
 Goiânia,GO,Goiânia,BRA,ogol:Goiânia:2020-2025|rsssf:Goiânia/GO:2020-2025
 Grêmio Anápolis,GO,Anápolis,BRA,ogol:Grêmio Anápolis:2022|rsssf:Grêmio Anápolis/GO:2022
-Guaporé,RO,Rolim De Moura,BRA,ogol:Guaporé:2026
+Guaporé,RO,Rolim de Moura,BRA,ogol:Guaporé:2026
 Guarani de Juazeiro,CE,Juazeiro do Norte,BRA,ogol:Guarani de Juazeiro:2011-2018|rsssf:Guarani:2011|rsssf:Guarani(J)/CE:2016-2018|rsssf:Guarani-CE:2015
-Guarani-MG,MG,Divinopolis,BRA,ogol:Guarani-MG:2012|rsssf:Guarani:2012
+Guarani-MG,MG,Divinópolis,BRA,ogol:Guarani-MG:2012|rsssf:Guarani:2012
 Guarani-SC,SC,Palhoça,BRA,ogol:Guarani-SC:2014|rsssf:Guarani-SC:2014
 Guarany,CE,Sobral,BRA,ogol:Guarany de Sobral:2010-2021|rsssf:Guarany:2010-2021|rsssf:Guarany(S)/CE:2017-2020|rsssf:Guarany-CE:2013-2014
 Guarany de Bagé,RS,Bagé,BRA,ogol:Guarany de Bagé:2025-2026|rsssf:Guarany(B)/RS:2025
@@ -247,7 +248,7 @@ Primavera AC,MT,Primavera do Leste,BRA,ogol:Primavera AC:2026
 Princesa,AM,Manacapuru,BRA,ogol:Princesa:2014-2024|rsssf:Princesa do Solimões-AM:2014-2023|rsssf:Princesa do Solimões/AM:2016-2024
 Prudentópolis,PR,Prudentópolis,BRA,ogol:Prudentópolis:2018|rsssf:Prudentópolis/PR:2018
 Próspera,SC,Criciúma,BRA,ogol:Próspera:2022|rsssf:Próspera/SC:2022
-Pérolas Negras,RJ,Rio De Janeiro,BRA,ogol:Pérolas Negras:2022|rsssf:Pérolas Negras/RJ:2022
+Pérolas Negras,RJ,Rio de Janeiro,BRA,ogol:Pérolas Negras:2022|rsssf:Pérolas Negras/RJ:2022
 Real Ariquemes,RO,Ariquemes,BRA,ogol:Real Ariquemes:2017-2023|rsssf:Real Ariquemes:2021|rsssf:Real Ariquemes-RO:2023|rsssf:Real Desportivo/RO:2017-2019
 Real Brasília,DF,Núcleo Bandeirante,BRA,ogol:Real Brasília:2024|rsssf:Real Brasília/DF:2024
 Real Noroeste,ES,Águia Branca,BRA,ogol:Real Noroeste:2020-2026|rsssf:Real Noroeste-ES:2023|rsssf:Real Noroeste/ES:2020-2024
@@ -259,7 +260,6 @@ Rio Branco de Venda Nova,ES,Venda Nova do Imigrante,BRA,ogol:Rio Branco de Venda
 Rio Branco-AC,AC,Rio Branco,BRA,ogol:Rio Branco-AC:2014-2024|rsssf:Rio Branco-AC:2014-2015|rsssf:Rio Branco/AC:2016-2024
 Rio Branco-ES,ES,Vitória,BRA,ogol:Rio Branco-ES:2009-2026|rsssf:Rio Branco:2009-2010|rsssf:Rio Branco-ES:2015|rsssf:Rio Branco-VTA:2021|rsssf:Rio Branco-VTA/ES:2021|rsssf:Rio Branco/ES:2025
 Rio Branco-PR,PR,Paranaguá,BRA,ogol:Rio Branco-PR:2021|rsssf:Rio Branco/PR:2021
-Rive A.C.,ES,Alegre,BRA,ogol:Espírito Santo FC:2016-2018|rsssf:Espírito Santo/ES:2016-2018
 River Plate-SE,SE,Carmópolis,BRA,ogol:River Plate-SE:2010-2011|rsssf:River Plate:2010-2011
 River-PI,PI,Teresina,BRA,ogol:River-PI:2014-2024|rsssf:River/PI:2017-2024|rsssf:Ríver-PI:2014-2015
 Rondoniense,RO,Porto Velho,BRA,ogol:Rondoniense:2016|rsssf:Rondoniense/RO:2016
@@ -279,7 +279,7 @@ Sergipe,SE,Aracaju,BRA,ogol:Sergipe:2009-2026|rsssf:Sergipe:2009-2021|rsssf:Serg
 Serra,ES,Serra,BRA,ogol:Serra:2019-2024|rsssf:Serra/ES:2019-2024
 Serra Branca-PB,PB,Serra Branca,BRA,ogol:Serra Branca-PB:2026
 Serra Talhada,PE,Serra Talhada,BRA,ogol:Serra Talhada:2015-2016|rsssf:Serra Talhada-PE:2015|rsssf:Serra Talhada/PE:2016
-Serrano-BA,BA,Teixeira De Freitas,BRA,ogol:Serrano-BA:2015|rsssf:Serrano-BA:2015
+Serrano-BA,BA,Teixeira de Freitas,BRA,ogol:Serrano-BA:2015|rsssf:Serrano-BA:2015
 Serrano-PB,PB,Campina Grande,BRA,ogol:Serrano-PB:2019|rsssf:Serrano/PB:2019
 Sinop,MT,Sinop,BRA,ogol:Sinop:2016-2020|rsssf:Sinop/MT:2016-2020
 Sobradinho,DF,Sobradinho,BRA,ogol:Sobradinho:2012-2019|rsssf:Sobradinho:2012|rsssf:Sobradinho/DF:2019
@@ -295,7 +295,7 @@ São José-RS,RS,Porto Alegre,BRA,ogol:São José-RS:2009-2026|rsssf:São José:
 São José-SP,SP,São José dos Campos,BRA,ogol:São José:2024|rsssf:São José/SP:2024
 São Luiz,RS,Ijuí,BRA,ogol:São Luiz:2020-2026|rsssf:São Luiz/RS:2020-2025
 São Mateus,ES,São Mateus,BRA,ogol:São Mateus:2011|rsssf:São Mateus:2011
-São Paulo Crystal,PB,Cruz Do Espírito Santo,BRA,ogol:São Paulo Crystal:2022|rsssf:São Paulo Crystal/PB:2022
+São Paulo Crystal,PB,Cruz do Espírito Santo,BRA,ogol:São Paulo Crystal:2022|rsssf:São Paulo Crystal/PB:2022
 São Paulo-RS,RS,Rio Grande,BRA,ogol:São Paulo-RS:2016-2017|rsssf:São Paulo/RS:2016-2017
 São Raimundo,AM,Manaus,BRA,ogol:São Raimundo-AM:2022|rsssf:São Raimundo/AM:2022
 São Raimundo-PA,PA,Santarém,BRA,ogol:São Raimundo-PA:2009-2019|rsssf:São Raimundo:2009-2011|rsssf:São Raimundo/PA:2016-2019
@@ -323,7 +323,7 @@ Vilhena,RO,Vilhena,BRA,ogol:Vilhena:2010-2015|rsssf:VEC:2010-2012|rsssf:Vilhena-
 Vilhenense,RO,Vilhena,BRA,ogol:Vilhenense:2020|rsssf:Vilhenense/RO:2020
 Villa Nova-MG,MG,Nova Lima,BRA,ogol:Villa Nova-MG:2011-2020|rsssf:Villa Nova:2011|rsssf:Villa Nova-MG:2013-2015|rsssf:Villa Nova/MG:2016-2020
 Vitória da Conquista,BA,Vitória da Conquista,BRA,ogol:Vitória da Conquista:2011-2020|rsssf:V. da Conquista:2011-2012|rsssf:Vitória da Conquista:2011-2012|rsssf:Vitória da Conquista-BA:2013-2014|rsssf:Vitória da Conquista/BA:2018-2020
-Vitória das Tabocas,PE,Vitória De Santo Antão,BRA,ogol:Vitória das Tabocas:2019|rsssf:Vitória/PE:2019
+Vitória das Tabocas,PE,Vitória de Santo Antão,BRA,ogol:Vitória das Tabocas:2019|rsssf:Vitória/PE:2019
 Vitória-ES,ES,Vitória,BRA,ogol:Vitória-ES:2019-2026|rsssf:Vitoria-ES:2023|rsssf:Vitória/ES:2019-2020
 Volta Redonda,RJ,Volta Redonda,BRA,ogol:Volta Redonda:2011-2016|rsssf:Volta Redonda:2011-2012|rsssf:Volta Redonda-RJ:2015|rsssf:Volta Redonda/RJ:2016
 XV de Piracicaba,SP,Piracicaba,BRA,ogol:XV de Piracicaba:2017-2026|rsssf:XV de Piracicaba/SP:2017|rsssf:Xv de Piracicaba-SP:2023

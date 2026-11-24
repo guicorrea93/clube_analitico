@@ -10,6 +10,7 @@ import sqlite3
 from collections import Counter, defaultdict
 
 import clubes_d
+import registro
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
 from importar import FONTE_RSSSF, ORDEM, nome, pontos_vitoria
 from observacao import obs_pt
@@ -176,7 +177,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         for nf, anos in sorted(juntos.items()):
             a = sorted(set(anos))
             partes.append(f"{nf}:{a[0]}" + (f"-{a[-1]}" if a[-1] != a[0] else ""))
-        linhas_c.append([n, c.get("uf"), c.get("cidade"), "BRA", "|".join(partes)])
+        linhas_c.append([n, c.get("uf"), registro.cidade_pt(c.get("cidade")), "BRA", "|".join(partes)])
     _csv("clubes.csv", ["clube", "regiao", "cidade", "pais", "nomes_fonte"], linhas_c)
     _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "formato", "campeao", "vice",
                          "fontes", "observacao"], linhas_e)
@@ -193,7 +194,6 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     _csv("artilheiros.csv", ["temporada", "jogador", "clube", "gols", "fonte"], linhas_art)
     _csv("conferencia.csv", ["temporada", "jogos", "jogos_esperados", "tabelas_conferidas", "tabelas_divergentes", "gols", "gols_com_autor",
                              "observacao"], linhas_conf)
-    import registro   # cadastro comum de clubes (o mesmo nome em todos os pacotes)
     registro.acrescentar({cid: ex[cid] for cid in usados if cid in ex}, SLUG)
     relatorio(edicoes, log, rs_c, wk_c)
 

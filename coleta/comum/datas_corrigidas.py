@@ -57,7 +57,7 @@ def gerar(raiz: Path) -> None:
         if m and m[1] in PLANO and m[2] in PLANO[m[1]]:
             saida[m[1]].append([m[2], m[3], m[4], m[7], f"{m[5]}-{m[6]}", m[8],
                                 f"Bola n@ Área e transfermarkt ({ACHADO[m[1]]})"])
-    tm = re.compile(r"^(\S+) (2026) \| pacote (\d{4}-\d\d-\d\d) (.+?) (\d+)-(\d+) (.+?) \d\d:\d\d \| tm (\d{4}-\d\d-\d\d)")
+    tm = re.compile(r"^(\S+) (2026) \| pacote (\d{4}-\d\d-\d\d) (.+?) (\d+)-(\d+) (.+?)\s+(?:\d\d:\d\d\s+)?\| tm (\d{4}-\d\d-\d\d)")
     for l in open(raiz / "revisao" / "QC" / "saida_tm_2026.txt", encoding="utf-8"):
         m = tm.match(l)
         if m and m[1] in PLANO:

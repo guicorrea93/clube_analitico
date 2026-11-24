@@ -136,6 +136,24 @@ Registradas nos módulos de `coleta/bra-serie-d/`; cada uma também aparece no r
 
 ### Jogos corrigidos (placar, data, mando) (`importar.CORRECAO_JOGO`)
 
+- **2013 · Botafogo-PB · Salgueiro · 2013-09-06:** [data=2013-10-06] volta da semifinal em 06/10 (súmula da CBF, jogo 186; Bola e transfermarkt; revisão SD-011)
+- **2011 · Oeste · Cianorte · 2011-09-30:** [pm=4, pv=3] pênaltis 4-3 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2011 · Mirassol · Oeste · 2011-10-16:** [pm=3, pv=4] pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2012 · Cianorte · Mogi Mirim · 2012-09-23:** [pm=2, pv=4] pênaltis 2-4 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2014 · Rio Branco-AC · Anapolina · 2014-10-04:** [pm=12, pv=13] pênaltis 12-13 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2020 · Bragantino-PA · Juventude-MA · 2020-12-12:** [pm=3, pv=4] pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2020 · Mirassol · Caxias · 2020-12-13:** [pm=3, pv=0] pênaltis 3-0 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2020 · Fast-AM · Moto Club · 2020-12-13:** [pm=6, pv=5] pênaltis 6-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2020 · Fast-AM · Globo FC · 2020-12-26:** [pm=6, pv=5] pênaltis 6-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2020 · Altos · Salgueiro · 2020-12-27:** [pm=4, pv=2] pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Campinense · Sergipe · 2021-09-18:** [pm=4, pv=2] pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Joinville · Bangu · 2021-09-18:** [pm=4, pv=3] pênaltis 4-3 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Santo André · Esportivo-RS · 2021-09-18:** [pm=4, pv=5] pênaltis 4-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Juazeirense · Atlético Cearense · 2021-09-18:** [pm=3, pv=5] pênaltis 3-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Portuguesa · Caxias · 2021-09-18:** [pm=1, pv=4] pênaltis 1-4 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Joinville · Uberlândia · 2021-10-02:** [pm=1, pv=3] pênaltis 1-3 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Campinense · América-RN · 2021-10-16:** [pm=4, pv=2] pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
+- **2021 · Ferroviária-SP · Atlético Cearense · 2021-10-17:** [pm=3, pv=4] pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
 - **2024 · Princesa · Manaus FC · 2024-05-11:** [gm=3, gv=3] ogol e Wikipédia: 3-3 (revisão SD-010)
 - **2016 · CSA · Volta Redonda · 2016-09-29:** [data=2016-09-25] a ida da final foi em 25/09 (borderô da CBF; revisão SD-012)
 - **2014 · Itaporã · Villa Nova-MG · 2014-09-07:** [especial=w.o.] W.O.: o Itaporã abandonou a competição (revisão SD-013)
@@ -176,6 +194,7 @@ Registradas nos módulos de `coleta/bra-serie-d/`; cada uma também aparece no r
 
 ### Nome de exibição de clube novo, dado à mão (`clubes_d.MANUAL_NOVO`)
 
+- **35176:** [Espírito Santo FC] Espírito Santo FC, de Alegre: jogou a Série D (2016-2018) com este nome (ogol e RSSSF); "Rive A.C." é nome posterior. Nome da época no cadastro (decisão D-03)
 - **68358:** [Corinthians Prudente] EC Corinthians de Presidente Prudente (1996): não é o Corinthians paulistano do banco
 - **45210:** [Maringá] Maringá FC fundado em 2010 (Série D 2025): não é o GE Maringá do banco
 - **241210:** [Maringá FC 1995] Maringá FC fundado em 1995 (Série D 1997): outro clube, nome como no ogol

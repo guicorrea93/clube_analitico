@@ -1004,3 +1004,30 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - recarregar o `bra-serie-c`;
    - no banco, renomear o clube 686 ("Manchete") para "Santo Amaro-PE" em vez de criar outro (D-03; o `clube_nome` dele já tem "Santo Amaro-PE" em 1981).
 5. **Próximo:** Série D (QC-001, SD-011, QC-003 e a parte da D do CL-028), depois Copa do Brasil.
+
+## Correções da revisão — bra-serie-d — 24/11/2026 (plano da Série D)
+
+1. **Corrigidos** (`coleta/bra-serie-d/importar.py`):
+   - **QC-001:** as 17 disputas de pênaltis que faltavam (2011 a 2021), pelo Bola n@ Área e pelo transfermarkt. `CORRECAO_JOGO` agora aceita as chaves `pm` e `pv`.
+   - **SD-011:** 2013, a volta da semifinal Botafogo-PB 2-0 Salgueiro vai para 06/10, pela súmula da CBF (jogo 186), pelo Bola e pelo transfermarkt.
+   - **QC-003:** 37 datas de `data/coleta/bra-serie-d/datas_corrigidas.csv`, pelo mesmo aplicador da Série C:
+     - 2010: 13 jogos, pelo Bola e pelo transfermarkt;
+     - 2021: 1 jogo;
+     - 2026: 23 jogos noturnos, pelo transfermarkt e pelo Futebol Nacional.
+
+     O gerador agora lê também a linha de 2026 sem hora (Galvez EC x Gazin Porto Velho).
+   - **SC-018 (D-02 A):** a mesma regra da Série C entrou na D. Nada muda, porque a D já segue a classificação geral publicada pela RSSSF, que bate com a Wikipédia (2012: Comercial-PI 29º).
+   - **CL-028 (parte da D):**
+     - Botafogo-DF passa a Guará (DF), onde jogava em 2007-2010.
+     - AA Araguaia passa a Água Boa (MT).
+     - Grafias: Rolim de Moura, Teixeira de Freitas, Cruz do Espírito Santo, Vitória de Santo Antão e Divinópolis.
+     - A correção de ficha é comum a todas as coletas (`registro.FICHA_COMUM` / `corrigir_ficha`, também no cadastro). Por isso a Série C foi rodada de novo, e só o `clubes.csv` dela muda (Botafogo-DF).
+   - **D-03:** o "Rive A.C." passa a "Espírito Santo FC", o nome com que jogou a D em 2016-2018 (ogol e RSSSF).
+2. **Números:**
+   - 18 edições e 6.032 jogos (sem mudança); mudam 55 jogos (datas e pênaltis).
+   - testar_carga: `bra-serie-d: 18 edições, 6032 jogos, 1 clubes novos -> OK`. O "novo" é o Espírito Santo FC, que no banco é o clube 768, "Rive A.C.".
+3. **Pedidos ao agente 1:**
+   - recarregar o `bra-serie-d` e o `bra-serie-c` (este só pelo Botafogo-DF);
+   - no banco, renomear o clube 768 ("Rive A.C.") para "Espírito Santo FC" (D-03; o `clube_nome` dele já tem esse nome em 2016-2018);
+   - pôr o Botafogo-DF (442) em DF/Guará e a AA Araguaia (731) em Água Boa.
+4. **Próximo:** Copa do Brasil.

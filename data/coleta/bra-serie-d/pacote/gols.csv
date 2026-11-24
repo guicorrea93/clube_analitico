@@ -571,14 +571,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0076,Araguaína,Martony,11,,normal,RSSSF
 2010-0076,Araguaína,Jocion,55,,normal,RSSSF
 2010-0076,Ceilândia,Dimba,3,,penalti,RSSSF
-2010-0077,Ceilândia,Dimba,56,,normal,RSSSF
-2010-0077,Ceilândia,Thiago Félix,70,,normal,RSSSF
-2010-0077,Botafogo-DF,Cafu,62,,normal,RSSSF
-2010-0077,Botafogo-DF,Cafu,66,,normal,RSSSF
-2010-0078,Brasília EC,Thiago Silva,61,,normal,RSSSF
-2010-0078,Brasília EC,Iron,85,,normal,RSSSF
-2010-0078,Araguaína,Ederson,12,,normal,RSSSF
-2010-0078,Araguaína,Marquinhos,15,,normal,RSSSF
+2010-0077,Brasília EC,Thiago Silva,61,,normal,RSSSF
+2010-0077,Brasília EC,Iron,85,,normal,RSSSF
+2010-0077,Araguaína,Ederson,12,,normal,RSSSF
+2010-0077,Araguaína,Marquinhos,15,,normal,RSSSF
+2010-0078,Ceilândia,Dimba,56,,normal,RSSSF
+2010-0078,Ceilândia,Thiago Félix,70,,normal,RSSSF
+2010-0078,Botafogo-DF,Cafu,62,,normal,RSSSF
+2010-0078,Botafogo-DF,Cafu,66,,normal,RSSSF
 2010-0079,Botafogo-DF,Fábio Luís,40,,normal,RSSSF
 2010-0079,Ceilândia,Dimba,34,,normal,RSSSF
 2010-0080,Araguaína,Ederson,90,,normal,RSSSF
@@ -618,15 +618,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0092,Uberaba,Fabiano,15,,normal,RSSSF
 2010-0092,Uberaba,Luciano,64,,normal,RSSSF
 2010-0092,Uberaba,Luciano,80,,normal,RSSSF
-2010-0093,América-RJ,Bruno Reis,28,,normal,RSSSF
-2010-0093,América-RJ,Fabiano,36,,penalti,RSSSF
-2010-0094,Uberaba,Rafael,18,,normal,RSSSF
-2010-0094,Uberaba,Nascimento,25,,normal,RSSSF
-2010-0094,Uberaba,Augusto,38,,normal,RSSSF
-2010-0094,Uberaba,Luciano,66,,normal,RSSSF
-2010-0094,Uberaba,Balduino,78,,normal,RSSSF
-2010-0094,Uberaba,Marcel,89,,normal,RSSSF
-2010-0094,Rio Branco-ES,Cleyton,74,,normal,RSSSF
+2010-0093,Uberaba,Rafael,18,,normal,RSSSF
+2010-0093,Uberaba,Nascimento,25,,normal,RSSSF
+2010-0093,Uberaba,Augusto,38,,normal,RSSSF
+2010-0093,Uberaba,Luciano,66,,normal,RSSSF
+2010-0093,Uberaba,Balduino,78,,normal,RSSSF
+2010-0093,Uberaba,Marcel,89,,normal,RSSSF
+2010-0093,Rio Branco-ES,Cleyton,74,,normal,RSSSF
+2010-0094,América-RJ,Bruno Reis,28,,normal,RSSSF
+2010-0094,América-RJ,Fabiano,36,,penalti,RSSSF
 2010-0095,Rio Branco-ES,Cleyton,20,,normal,RSSSF
 2010-0095,Rio Branco-ES,Eduardo,25,,normal,RSSSF
 2010-0095,Rio Branco-ES,Evandro,61,,normal,RSSSF
@@ -639,10 +639,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0099,Tupi,Cassiano,84,,normal,RSSSF
 2010-0099,CENE,Giliard,42,,normal,RSSSF
 2010-0100,Madureira,Obina,32,,normal,RSSSF
-2010-0101,Madureira,Maciel,73,,normal,RSSSF
-2010-0101,CENE,Naka,25,,normal,RSSSF
-2010-0102,Botafogo-SP,Daniel Costa,40,,normal,RSSSF
-2010-0102,Tupi,Robson,58,,penalti,RSSSF
+2010-0101,Botafogo-SP,Daniel Costa,40,,normal,RSSSF
+2010-0101,Tupi,Robson,58,,penalti,RSSSF
+2010-0102,Madureira,Maciel,73,,normal,RSSSF
+2010-0102,CENE,Naka,25,,normal,RSSSF
 2010-0103,Tupi,Valdiram,24,,normal,RSSSF
 2010-0104,CENE,Marino,18,,normal,RSSSF
 2010-0104,CENE,Marino,49,,normal,RSSSF
@@ -772,9 +772,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0158,Guarany,Danilo Pitbull,68,,normal,RSSSF
 2010-0158,Guarany,Jonhy,72,,normal,RSSSF
 2010-0158,Vila Aurora,Dinei,41,,normal,RSSSF
-2010-0159,América-AM,Rodrigo,4,,normal,RSSSF
-2010-0159,Madureira,Serginho,25,,normal,RSSSF
-2010-0159,Madureira,Valdir,84,,normal,RSSSF
+2010-0160,América-AM,Rodrigo,4,,normal,RSSSF
+2010-0160,Madureira,Serginho,25,,normal,RSSSF
+2010-0160,Madureira,Valdir,84,,normal,RSSSF
 2010-0161,América-AM,Felipe,50,,normal,RSSSF
 2010-0161,América-AM,Felipe,72,,normal,RSSSF
 2010-0163,América-AM,Edinho,12,,normal,RSSSF
@@ -1693,11 +1693,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0184,Tupi,Kal,53,,contra,RSSSF
 2013-0184,Mixto,Jonatas Obina,33,,normal,RSSSF
 2013-0184,Mixto,Jonatas Obina,60,,normal,RSSSF
-2013-0185,Botafogo-PB,Ferreira,31,,normal,RSSSF
-2013-0185,Botafogo-PB,Izaias,79,,normal,RSSSF
-2013-0186,Salgueiro,Alemao,45,,normal,RSSSF
-2013-0186,Botafogo-PB,Dóda,12,,normal,RSSSF
-2013-0186,Botafogo-PB,Izaias,62,,normal,RSSSF
+2013-0185,Salgueiro,Alemao,45,,normal,RSSSF
+2013-0185,Botafogo-PB,Dóda,12,,normal,RSSSF
+2013-0185,Botafogo-PB,Izaias,62,,normal,RSSSF
+2013-0186,Botafogo-PB,Ferreira,31,,normal,RSSSF
+2013-0186,Botafogo-PB,Izaias,79,,normal,RSSSF
 2013-0187,Juventude,Zulu,1,,normal,RSSSF
 2013-0187,Juventude,De,30,,normal,RSSSF
 2013-0187,Juventude,Rogerinho,52,,normal,RSSSF
@@ -3026,15 +3026,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0146,Caldense,Léo Guerreiro,30,,normal,RSSSF
 2016-0147,Caldense,Álvaro,76,,normal,RSSSF
 2016-0147,Caldense,Éwerton Maradona,83,,normal,RSSSF
-2016-0150,Rive A.C.,Eraldo,63,,normal,RSSSF
-2016-0150,Rive A.C.,João Paulo,79,,normal,RSSSF
+2016-0150,Espírito Santo FC,Eraldo,63,,normal,RSSSF
+2016-0150,Espírito Santo FC,João Paulo,79,,normal,RSSSF
 2016-0151,Boavista-RJ,Romarinho,10,,normal,RSSSF
 2016-0152,Caldense,Wágner,39,,normal,RSSSF
 2016-0152,Caldense,Tito,65,,normal,RSSSF
-2016-0153,Rive A.C.,Joelson,69,,normal,RSSSF
+2016-0153,Espírito Santo FC,Joelson,69,,normal,RSSSF
 2016-0153,Osasco Audax,Vinícius,89,,normal,RSSSF
 2016-0154,Caldense,Éwerton Maradona,45,,normal,RSSSF
-2016-0155,Rive A.C.,Denis Pedra,90,2,normal,RSSSF
+2016-0155,Espírito Santo FC,Denis Pedra,90,2,normal,RSSSF
 2016-0156,Boavista-RJ,Luan,9,,normal,RSSSF
 2016-0156,Boavista-RJ,Romarinho,88,,penalti,RSSSF
 2016-0157,São Bento,Tiago Tremonti,11,,normal,RSSSF
@@ -3183,7 +3183,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0225,Itabaiana,Paulinho Macaíba,71,,normal,RSSSF
 2016-0226,J.Malucelli,Eltinho,64,,normal,RSSSF
 2016-0226,J.Malucelli,Jenison,79,,normal,RSSSF
-2016-0226,Rive A.C.,Vinícius Leandro,1,,normal,RSSSF
+2016-0226,Espírito Santo FC,Vinícius Leandro,1,,normal,RSSSF
 2016-0228,Volta Redonda,David,49,,normal,RSSSF
 2016-0228,Volta Redonda,João Cleriston,90,1,normal,RSSSF
 2016-0229,CSA,Panda,8,,normal,RSSSF
@@ -3666,8 +3666,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0158,Boavista-RJ,Anderson Luiz,84,,normal,RSSSF
 2017-0159,Boavista-RJ,Felipe Augusto,37,,normal,RSSSF
 2017-0159,Boavista-RJ,Caio,56,,normal,RSSSF
-2017-0159,Rive A.C.,Vitinho,36,,normal,RSSSF
-2017-0159,Rive A.C.,Vitinho,90,2,normal,RSSSF
+2017-0159,Espírito Santo FC,Vitinho,36,,normal,RSSSF
+2017-0159,Espírito Santo FC,Vitinho,90,2,normal,RSSSF
 2017-0160,Red Bull Bragantino II,Nando Carandina,46,,normal,RSSSF
 2017-0160,Red Bull Bragantino II,Edmilson,70,,penalti,RSSSF
 2017-0160,Red Bull Bragantino II,Tatá,79,,normal,RSSSF
@@ -3676,13 +3676,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0162,Boavista-RJ,Vitor Faísca,84,,normal,RSSSF
 2017-0163,Red Bull Bragantino II,Edmilson,52,,normal,RSSSF
 2017-0163,Red Bull Bragantino II,Doriva,62,,normal,RSSSF
-2017-0164,Rive A.C.,Marcelinho,25,,normal,RSSSF
-2017-0164,Rive A.C.,Vitinho,47,,normal,RSSSF
+2017-0164,Espírito Santo FC,Marcelinho,25,,normal,RSSSF
+2017-0164,Espírito Santo FC,Vitinho,47,,normal,RSSSF
 2017-0165,Caldense,Luiz Eduardo,4,,normal,RSSSF
 2017-0165,Caldense,Luiz Eduardo,80,,penalti,RSSSF
-2017-0166,Rive A.C.,Edmar Chazinho,80,,normal,RSSSF
+2017-0166,Espírito Santo FC,Edmar Chazinho,80,,normal,RSSSF
 2017-0166,Boavista-RJ,Lucas,84,,normal,RSSSF
-2017-0167,Rive A.C.,Nilo,9,,normal,RSSSF
+2017-0167,Espírito Santo FC,Nilo,9,,normal,RSSSF
 2017-0168,Boavista-RJ,Felipe Augusto,42,,normal,RSSSF
 2017-0168,Boavista-RJ,Lucas Perdomo,49,,penalti,RSSSF
 2017-0168,Boavista-RJ,Caio,89,,normal,RSSSF
@@ -3779,7 +3779,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0214,Juazeirense,Juninho Tardelli,39,,normal,RSSSF
 2017-0215,Villa Nova-MG,Jhonatan,39,,normal,RSSSF
 2017-0215,Villa Nova-MG,Douglas,50,,penalti,RSSSF
-2017-0216,Rive A.C.,Nilo,32,,normal,RSSSF
+2017-0216,Espírito Santo FC,Nilo,32,,normal,RSSSF
 2017-0217,Princesa,Branco,19,,normal,RSSSF
 2017-0217,Princesa,Weverton,56,,penalti,RSSSF
 2017-0217,Princesa,Weverton,79,,normal,RSSSF
@@ -3805,9 +3805,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0221,Metropolitano,Elton,90,3,normal,RSSSF
 2017-0222,São José-RS,Flávio Torres,32,,normal,RSSSF
 2017-0223,Boavista-RJ,Lucas,52,,penalti,RSSSF
-2017-0223,Rive A.C.,Rodrigo Pardal,23,,normal,RSSSF
-2017-0223,Rive A.C.,Nilo,63,,normal,RSSSF
-2017-0223,Rive A.C.,Rafael Serrano,88,,normal,RSSSF
+2017-0223,Espírito Santo FC,Rodrigo Pardal,23,,normal,RSSSF
+2017-0223,Espírito Santo FC,Nilo,63,,normal,RSSSF
+2017-0223,Espírito Santo FC,Rafael Serrano,88,,normal,RSSSF
 2017-0224,Ceilândia,Felipe Cirne,60,,normal,RSSSF
 2017-0224,Comercial-MS,Adriano,23,,normal,RSSSF
 2017-0225,América-RN,Tadeu,88,,normal,RSSSF
@@ -3839,7 +3839,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0236,Villa Nova-MG,Gilberto Carrara,18,,normal,RSSSF
 2017-0236,Villa Nova-MG,Rafael Freitas,67,,normal,RSSSF
 2017-0238,América-RN,Jean Silva,76,,normal,RSSSF
-2017-0239,Rive A.C.,Rodrigo César,33,,normal,RSSSF
+2017-0239,Espírito Santo FC,Rodrigo César,33,,normal,RSSSF
 2017-0241,Fluminense-BA,Jonatas Obina,24,,normal,RSSSF
 2017-0241,Fluminense-BA,Jonatas Obina,85,,normal,RSSSF
 2017-0241,Fluminense-BA,Rafael Granja,87,,normal,RSSSF
@@ -4250,7 +4250,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0132,Novoperário,Luizinho,62,,normal,RSSSF
 2018-0132,Novoperário,Emerson Mi,66,,normal,RSSSF
 2018-0132,Novoperário,Naldinho,76,,normal,RSSSF
-2018-0133,Rive A.C.,Vitinho,58,,normal,RSSSF
+2018-0133,Espírito Santo FC,Vitinho,58,,normal,RSSSF
 2018-0133,URT,Toni,42,,penalti,RSSSF
 2018-0134,Itumbiara,Xandão,23,,normal,RSSSF
 2018-0134,Itumbiara,Bruno Aquino,78,,normal,RSSSF
@@ -4258,7 +4258,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0134,Macaé,Pipico,90,3,normal,RSSSF
 2018-0135,Macaé,Belarmino,12,,normal,RSSSF
 2018-0135,Macaé,Pipico,45,6,penalti,RSSSF
-2018-0135,Rive A.C.,Edinho,45,3,falta,RSSSF
+2018-0135,Espírito Santo FC,Edinho,45,3,falta,RSSSF
 2018-0136,URT,Pavone,63,,normal,RSSSF
 2018-0136,URT,Pavone,88,,normal,RSSSF
 2018-0137,Itumbiara,Danielzinho,18,,normal,RSSSF
@@ -4272,16 +4272,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0139,URT,Rafael Oller,41,,normal,RSSSF
 2018-0140,Itumbiara,Diogo Capela,12,,normal,RSSSF
 2018-0140,Itumbiara,Danielzinho,32,,normal,RSSSF
-2018-0140,Rive A.C.,Vitinho,24,,falta,RSSSF
-2018-0141,Rive A.C.,Vitinho,17,,normal,RSSSF
+2018-0140,Espírito Santo FC,Vitinho,24,,falta,RSSSF
+2018-0141,Espírito Santo FC,Vitinho,17,,normal,RSSSF
 2018-0141,Macaé,Maranhão,2,,normal,RSSSF
 2018-0142,URT,Rafael Oller,90,1,normal,RSSSF
 2018-0143,URT,Pavone,15,,normal,RSSSF
 2018-0143,URT,Jean Carioca,69,,normal,RSSSF
 2018-0143,URT,Felipe Souza,79,,normal,RSSSF
 2018-0143,URT,Felipe Souza,83,,normal,RSSSF
-2018-0143,Rive A.C.,Baiano,4,,normal,RSSSF
-2018-0143,Rive A.C.,Vitinho,8,,normal,RSSSF
+2018-0143,Espírito Santo FC,Baiano,4,,normal,RSSSF
+2018-0143,Espírito Santo FC,Vitinho,8,,normal,RSSSF
 2018-0144,Itumbiara,Bruno Aquino,22,,normal,RSSSF
 2018-0144,Itumbiara,Jonathan Oliveira,63,,normal,RSSSF
 2018-0145,Uberlândia,Thiago Amaral,45,1,normal,RSSSF

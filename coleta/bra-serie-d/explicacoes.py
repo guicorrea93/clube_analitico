@@ -43,6 +43,8 @@ FIM = [
     "- Cada clube é o código dele no ogol; nome, cidade e UF vêm da ficha do clube no ogol (`data/coleta/bra-serie-d/ogol/clubes.json`).",
     "- Clube do `futebol.db` usa o nome de lá; clube da Série C usa o nome do pacote da Série C; os outros seguem o nome curto do",
     "  ogol, com \"-UF\" só quando outro clube tem o mesmo nome. Os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).",
+    "- O Espírito Santo FC (Alegre-ES, 2016-2018) aparece com o nome com que jogou, e não com o posterior \"Rive A.C.\" (D-03).",
+    "  Botafogo-DF no Guará (DF), onde jogava em 2007-2010, e AA Araguaia em Água Boa (MT) (revisão CL-028).",
     "",
     "## O que não deu para coletar",
     "",

@@ -26,6 +26,21 @@ def cidade_pt(cidade: str | None) -> str | None:
     return CIDADE_GRAFIA.get(cidade, cidade)
 
 
+# ficha do ogol corrigida para todas as coletas: código -> (campos certos, motivo) (achado CL-028)
+FICHA_COMUM: dict[str, tuple[dict, str]] = {
+    "3272": ({"uf": "DF", "cidade": "Guará"}, "Botafogo-DF (ex-Esportivo Guará): sediado no Guará (DF) nos anos em que jogou "
+                                              "(2007-2010; Bola n@ Área: 'Botafogo (DF)'); só depois foi para Novo Gama (GO)"),
+    "94274": ({"cidade": "Água Boa"}, "AA Araguaia (2014, substituta do Barra do Garças FC): Água Boa (MT), não Cuiabá"),
+}
+
+
+def corrigir_ficha(f: dict) -> dict:
+    """Aplica FICHA_COMUM e a grafia da cidade (cidade_pt) a uma ficha do ogol (com "id")."""
+    f.update(FICHA_COMUM.get(str(f.get("id")), ({}, ""))[0])
+    f["cidade"] = cidade_pt(f.get("cidade"))
+    return f
+
+
 def ler() -> dict[str, dict]:
     return json.loads(ARQUIVO.read_text(encoding="utf-8")) if ARQUIVO.exists() else {}
 
@@ -35,6 +50,7 @@ def acrescentar(clubes: dict[str, dict], slug: str) -> None:
     reg = ler()
     for i, c in clubes.items():
         atual = reg.setdefault(i, {"clube": c["clube"], "uf": c.get("uf"), "cidade": c.get("cidade"), "competicoes": []})
+        atual.update(FICHA_COMUM.get(i, ({}, ""))[0])
         atual["cidade"] = cidade_pt(atual.get("cidade"))
         if slug not in atual["competicoes"]:
             atual["competicoes"].append(slug)

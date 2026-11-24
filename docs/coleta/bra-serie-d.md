@@ -56,22 +56,27 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 ### 2010
 
 - tabela publicada x jogos — Segunda fase / -: Metropolitano tabela [8, 3, 3, 2, 11, 8] jogos [8, 3, 2, 3, 11, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- 13 datas corrigidas (datas_corrigidas.csv; ex.: São José-RS x Operário-PR 2010-07-18 -> 2010-07-17, Bola n@ Área e transfermarkt (QC-003))
 
 ### 2011
 
 - dois jogos da página foram anulados e ficam de fora (motivo abaixo); com isso, jogos e tabelas batem com o ogol
 - jogo anulado fica de fora (1): Anapolina 4-1 Tocantinópolis — 1ª fase: anulado pelo STJD (o Tocantinópolis terminou com 6 jogadores); o jogo foi refeito em 17/10 (6-1), e a tabela do grupo A5 conta só o novo jogo
 - jogo anulado fica de fora (1): Itumbiara 3-1 Villa Nova — 2ª fase: jogado em 25/09 e anulado depois que o jogo Anapolina x Tocantinópolis da 1ª fase foi refeito (nota da página da RSSSF)
+- jogo corrigido à mão — Oeste x Cianorte: pênaltis 4-3 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Mirassol x Oeste: pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 18 jogos: Segunda fase/- → Oitavas de final/- (16); Semifinal/- → Final/- (2)
 
 ### 2012
 
 - a página da RSSSF não traz os autores dos gols
+- jogo corrigido à mão — Cianorte x Mogi Mirim: pênaltis 2-4 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 16 jogos: Segunda fase/- → Oitavas de final/- (16)
 
 ### 2013
 
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Botafogo-PB x Salgueiro, ogol 2013-09-06); fica a do ogol
+- jogo corrigido à mão — Botafogo-PB x Salgueiro: volta da semifinal em 06/10 (súmula da CBF, jogo 186; Bola e transfermarkt; revisão SD-011)
 - fases e grupos pelo ogol em 30 jogos: Terceira fase/Grupo C1 → Quartas de final/- (4); Segunda fase/Grupo B1 → Oitavas de final/- (2); Segunda fase/Grupo B2 → Oitavas de final/- (2); Segunda fase/Grupo B3 → Oitavas de final/- (2); Segunda fase/Grupo B4 → Oitavas de final/- (2); Segunda fase/Grupo B5 → Oitavas de final/- (2); Segunda fase/Grupo B6 → Oitavas de final/- (2); Segunda fase/Grupo B7 → Oitavas de final/- (2) ...
 
 ### 2014
@@ -79,6 +84,7 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - jogo corrigido à mão — Itaporã x Villa Nova-MG: W.O.: o Itaporã abandonou a competição (revisão SD-013)
 - jogo corrigido à mão — Anapolina x Itaporã: W.O.: o Itaporã abandonou a competição (revisão SD-013)
 - jogo corrigido à mão — Barueri x CEOV Operário: W.O. (revisão SD-013)
+- jogo corrigido à mão — Rio Branco-AC x Anapolina: pênaltis 12-13 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 30 jogos: Segunda fase/Grupo B1 → Oitavas de final/- (2); Segunda fase/Grupo B2 → Oitavas de final/- (2); Segunda fase/Grupo B3 → Oitavas de final/- (2); Segunda fase/Grupo B4 → Oitavas de final/- (2); Segunda fase/Grupo B5 → Oitavas de final/- (2); Segunda fase/Grupo B6 → Oitavas de final/- (2); Segunda fase/Grupo B7 → Oitavas de final/- (2); Segunda fase/Grupo B8 → Oitavas de final/- (2) ...
 
 ### 2015
@@ -154,6 +160,11 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - jogo só no ogol, incluído em Second Phase: Altos 0-1 Mirassol (2021-01-24)
 - jogo só no ogol, incluído em Second Phase: Floresta-CE 0-1 Mirassol (2021-01-30)
 - jogo só no ogol, incluído em Second Phase: Mirassol 1-0 Floresta-CE (2021-02-06)
+- jogo corrigido à mão — Bragantino-PA x Juventude-MA: pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Mirassol x Caxias: pênaltis 3-0 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Fast-AM x Moto Club: pênaltis 6-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Fast-AM x Globo FC: pênaltis 6-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Altos x Salgueiro: pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 486 jogos: Primeira fase/Grupo A → Primeira fase/Grupo A6 (56); Primeira fase/Grupo A → Primeira fase/Grupo A5 (56); Primeira fase/Grupo A → Primeira fase/Grupo A8 (56); Primeira fase/Grupo A → Primeira fase/Grupo A1 (56); Primeira fase/Grupo A → Primeira fase/Grupo A3 (56); Primeira fase/Grupo A → Primeira fase/Grupo A7 (56); Primeira fase/Grupo A → Primeira fase/Grupo A2 (56); Primeira fase/Grupo A → Primeira fase/Grupo A4 (56) ...
 
 ### 2021
@@ -575,7 +586,16 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - jogo só no ogol, incluído em Semifinal: ABC 1-0 Aparecidense (2021-10-31)
 - jogo só no ogol, incluído em Final: Campinense 0-1 Aparecidense (2021-11-06)
 - jogo só no ogol, incluído em Final: Aparecidense 1-1 Campinense (2021-11-13)
+- jogo corrigido à mão — Joinville x Bangu: pênaltis 4-3 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Santo André x Esportivo-RS: pênaltis 4-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Campinense x Sergipe: pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Juazeirense x Atlético Cearense: pênaltis 3-5 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Portuguesa x Caxias: pênaltis 1-4 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Joinville x Uberlândia: pênaltis 1-3 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Campinense x América-RN: pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
+- jogo corrigido à mão — Ferroviária-SP x Atlético Cearense: pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 12 jogos: PRELIMINARY STAGE/- → Fase preliminar/- (8); Primeira fase/Grupo A03 → Quartas de final/- (2); Primeira fase/Grupo A03 → Semifinal/- (2)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Atlético-AC x Fast-AM 2021-06-28 -> 2021-06-27, Bola n@ Área e transfermarkt (QC-003))
 
 ### 2022
 
@@ -635,12 +655,15 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - a RSSSF ainda não tem a página de 2026: os jogos, as fases e os grupos vêm do ogol (revisão SD-001). Os perdedores das quartas jogaram uma repescagem pelas duas últimas vagas de acesso (Nacional-AM e Goiatuba subiram). Sem autores de gols
 - a RSSSF ainda não tem a página de 2026: a base dos jogos é o ogol (revisão SD-001)
 - fases e grupos pelo ogol em 4 jogos: Primeira fase/- → Repescagem/- (4)
+- 23 datas corrigidas (datas_corrigidas.csv; ex.: Galvez EC x Araguaína 2026-04-05 -> 2026-04-04, transfermarkt e Futebol Nacional, jogo noturno (QC-003))
 
 ## Identidade dos clubes
 
 - Cada clube é o código dele no ogol; nome, cidade e UF vêm da ficha do clube no ogol (`data/coleta/bra-serie-d/ogol/clubes.json`).
 - Clube do `futebol.db` usa o nome de lá; clube da Série C usa o nome do pacote da Série C; os outros seguem o nome curto do
   ogol, com "-UF" só quando outro clube tem o mesmo nome. Os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).
+- O Espírito Santo FC (Alegre-ES, 2016-2018) aparece com o nome com que jogou, e não com o posterior "Rive A.C." (D-03).
+  Botafogo-DF no Guará (DF), onde jogava em 2007-2010, e AA Araguaia em Água Boa (MT) (revisão CL-028).
 
 ## O que não deu para coletar
 
