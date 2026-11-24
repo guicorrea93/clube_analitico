@@ -129,6 +129,17 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    `docs/coleta/<slug>.md` sai do próprio importador. Ver também: o leitor comum perde a continuação do colchete dos
    autores ("[A 9, B 68;" + "   C 87]"); o importador das copas junta (`_autores_inteiros`); conferir se as ligas perdem
    autores por isso (pendência).
+   - **PARADO AQUI (24/11): próxima é a Copa Colombia (`col-copa`).** Diagnóstico feito, nada escrito ainda:
+     - páginas `col08` ... `col2025` (já no col-1); título muda (Copa Colombia-Postobón, Postobón, Colombia-Águila, Águila,
+       BetPlay, Colombia); a última ocorrência do título nem sempre é a seção (2011, 2012: achar o título certo);
+     - o fim da seção precisa parar na competição seguinte (em 2008-2010 a leitura até "list of champions" pega 584
+       jogos/ano: outra competição junto);
+     - 2013-2017 e 2019: a RSSSF só tem as tabelas dos grupos (30 jogos = mata-mata). Os jogos dos grupos estão na
+       Wikipédia em espanhol: usar o `wikipedia_jogos.py` do col-1 (páginas "Copa Colombia <ano>");
+     - 2018: fases I e II entre clubes da 2ª divisão antes; 2020/21 com final em fev/2021 (temporada "2020");
+     - antigas (1950-51, 1951-52, 1952-53, 1956-57 inacabada, 1981, 1989): baixar `colcuphist.html` (tablesc) para
+       `data/coleta/col-copa/rsssf/` e criar edições à parte, com aviso (decisão do Guilherme);
+     - campeões: conferir com a Wikipédia em espanhol ("Copa Colombia").
 4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
    `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as
