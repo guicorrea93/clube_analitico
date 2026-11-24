@@ -76,7 +76,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 30f0b00, e698941 | sim (versão antes das correções) |
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.456 | 84 | 0ead727; correções 31c14b0 | sim (versão antes das correções) |
 | `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e, b8b5a57 | sim (versão antes das correções) |
-| `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
+| `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d, d6bec05 | sim (versão antes das correções) |
 | `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e, a22c1ff | sim (versão antes das correções) |
 | `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066, 70d8caf | sim (versão antes das correções) |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 4577457, cf612c6 | sim (versão antes das correções) |
@@ -112,7 +112,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Argentina: feito (`e698941`)** (AR-020, AR-021, QU-003; QU-005 aberto sem 3ª fonte). Novo:
      `coleta/arg-1/rebaixados_es.py` (anexo "Movilidad interdivisional" da es), `FASE_PELA_TABELA`, `FORA_DA_TABELA` e o
      3º passo da ESPN (jogo adiado, `adiado`) no `outras_fontes.py`.
-   - **Colômbia: feito (commit no recado)**: CO-004, CO-006 (1976, 1989), CO-009, CO-012, CO-013, CO-015 (1948-1949),
+   - **Colômbia: feito (`d6bec05`)**: CO-004, CO-006 (1976, 1989), CO-009, CO-012, CO-013, CO-015 (1948-1949),
      CO-016, CO-017, CO-018, CO-020. Abertos: CO-006 (1986, 1988), CO-004 (1966), CO-015 (2001-2018), CO-022. Novo:
      `goleadores_es.py`, `bonus_fase_final()`, `acerta_grupos()`, `ler_rsssf.cruzada()` (tabela de confrontos) e, no
      `wikipedia_jogos.py`, `ANOS_LISTAS`/`ANOS_TEXTO` (formatos de lista só nesses anos). ATENÇÃO: a chave do CORRIGE para

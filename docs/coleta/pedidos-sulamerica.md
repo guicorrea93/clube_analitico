@@ -942,5 +942,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - `uru-1: 126 edições, 12456 jogos, 3 clubes novos -> OK`.
 - **Pedido ao agente 1:** recarregar `col-1`, `arg-1` e `uru-1`. Com isso, os abertos da revisão da América do Sul acabam,
   fora os que esperam 3ª fonte.
-- **Commit:** (abaixo).
+- **Commit:** `d6bec05`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
