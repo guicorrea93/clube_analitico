@@ -7,8 +7,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Neozelandês | 55 (1970–2025) | 0 | 7480 | 2888 | 0 | 101 | 45 / 10 | sim | d7a6379 | 0 | [nzl-1](nzl-1.md) |
-| Campeonato Taitiano | 79 (1948–2025/26) | 48 | 2647 | 113 | 0 | 35 | 23 / 0 | não | 82549d6 | 0 | [tah-1](tah-1.md) |
-| Campeonato Neocaledônio | 76 (1950–2026) | 40 | 2472 | 188 | 0 | 63 | 21 / 4 | não | — | 0 | [ncl-1](ncl-1.md) |
+| Campeonato Taitiano | 79 (1948–2025/26) | 48 | 2647 | 113 | 0 | 35 | 23 / 0 | sim | 8f154e1 | 0 | [tah-1](tah-1.md) |
+| Campeonato Neocaledônio | 76 (1950–2026) | 40 | 2472 | 188 | 0 | 63 | 21 / 4 | sim | 8f154e1 | 0 | [ncl-1](ncl-1.md) |
+| Campeonato Fijiano | 50 (1977–2026) | 22 | 2177 | 194 | 0 | 17 | 20 / 1 | não | — | 0 | [fij-1](fij-1.md) |
 
 ## Pendências de todas as competições
 
@@ -25,6 +26,10 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **ncl-1:** 1963 e 1964: Club Sportif Militaire pela RSSSF atual; a versão antiga (USC, JS Vallée du Tir), copiada pela Wikipédia e pelo ogol, fica registrada. Um jornal da época (La France Australe) resolveria de vez.
 - **ncl-1:** Identidades com evidência parcial: Entente Gélima, Wé-Luécilla, AS Auteuil x FC Auteuil (separados).
 - **ncl-1:** Jogos sem placar ("bt", "drw", "lt") em 2004/05, 2013 e 2015; ligas das províncias e torneio das ilhas fora.
+- **fij-1:** 1977-1982, 1987, 1989-1993, 1995 e 1996 só com o campeão (vice em poucos anos); 1983-1988, 1994 e 1997 só a tabela.
+- **fij-1:** 1998-2004 com parte dos jogos (as tabelas da página são as publicadas, algumas "based on known results"); 2011 e 2012 só a tabela na RSSSF.
+- **fij-1:** Tabelas com erro de digitação na própria página (vitórias + empates + derrotas diferente de jogos) entram com nota.
+- **fij-1:** Autores dos gols só em parte de 2001-2010; artilheiros, cartões, estádio e público não coletados.
 
 ## Próximas competições
 

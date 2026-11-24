@@ -10,6 +10,7 @@ Uso: python coleta/tah-1/importar.py
 """
 from __future__ import annotations
 
+import copy
 import csv
 import json
 import re
@@ -129,6 +130,7 @@ def _junta(tabs: list) -> list:
     for t in tabs:
         if out and out[-1].fase == t.fase and out[-1].pagina == t.pagina and t.linhas and t.linhas[0]["pos"] and \
                 out[-1].linhas[-1]["pos"] and t.linhas[0]["pos"] == out[-1].linhas[-1]["pos"] + 1:
+            out[-1] = copy.copy(out[-1])   # cópia: a tabela original (tabelas_publicadas) fica como a página publica
             out[-1].linhas = out[-1].linhas + t.linhas
         else:
             out.append(t)

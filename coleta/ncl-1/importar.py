@@ -12,6 +12,7 @@ Uso: python coleta/ncl-1/importar.py
 """
 from __future__ import annotations
 
+import copy
 import csv
 import json
 import re
@@ -92,7 +93,7 @@ def montar(e: Edicao, cps: dict, wcp: dict) -> dict:
         d["vice"] = fin[-1].visitante if fin[-1].mandante == d["campeao"] else fin[-1].mandante
     if not d["vice"]:
         for f in (TITULO, UNICA):
-            tabs = [t for t in d["tabelas"] if t.fase == f and len(t.linhas) > 1]
+            tabs = [t for t in _junta([x for x in d["tabelas"] if x.linhas]) if t.fase == f and len(t.linhas) > 1]
             if tabs:
                 d["vice"] = next(r["clube"] for r in tabs[-1].linhas if r["clube"] != d["campeao"])
                 break
@@ -109,6 +110,7 @@ def _junta(tabs: list) -> list:
     for t in tabs:
         if out and out[-1].fase == t.fase and out[-1].pagina == t.pagina and t.linhas and t.linhas[0]["pos"] and \
                 out[-1].linhas[-1]["pos"] and t.linhas[0]["pos"] == out[-1].linhas[-1]["pos"] + 1:
+            out[-1] = copy.copy(out[-1])   # cópia: a tabela original (tabelas_publicadas) fica como a página publica
             out[-1].linhas = out[-1].linhas + t.linhas
         else:
             out.append(t)

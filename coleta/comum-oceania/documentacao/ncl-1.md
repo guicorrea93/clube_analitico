@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 - **Jogos:** 2472 (2467 com placar); **gols:** 9956; **gols com autor:** 188 (2%); **cartões:** 0.
 - **Clubes:** 63; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 76 edições; **tabelas publicadas guardadas para conferência:** 296 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** 8f154e1.
 - **Observação da competição:** 1ª divisão da Nova Caledônia de 1950 a 2026, uma edição por título, como na lista de campeões da RSSSF: campeonato territorial entre os campeões regionais (até 2001), liga da Grande Terre e playoff nacional com o campeão das ilhas (2002-2011) e Super Ligue (2012 em diante). Sem campeão em 1955 e 2024 (fora). Até 1996 quase só o campeão; jogos desde 1999 (e a final em parte dos anos antes). Pontuação de 4 pontos por vitória, 2 por empate e 1 por derrota; a classificação traz os pontos oficiais.
 
 ## 2. Edições, fontes e regras

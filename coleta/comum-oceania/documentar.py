@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
-PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1", "fij-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
+PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl", "fij-1": "fij"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -53,6 +53,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "e pelo ogol, fica registrada. Um jornal da época (La France Australe) resolveria de vez.",
         "Identidades com evidência parcial: Entente Gélima, Wé-Luécilla, AS Auteuil x FC Auteuil (separados).",
         "Jogos sem placar (\"bt\", \"drw\", \"lt\") em 2004/05, 2013 e 2015; ligas das províncias e torneio das ilhas fora.",
+    ],
+    "fij-1": [
+        "1977-1982, 1987, 1989-1993, 1995 e 1996 só com o campeão (vice em poucos anos); 1983-1988, 1994 e 1997 só a tabela.",
+        "1998-2004 com parte dos jogos (as tabelas da página são as publicadas, algumas \"based on known results\"); 2011 e 2012 "
+        "só a tabela na RSSSF.",
+        "Tabelas com erro de digitação na própria página (vitórias + empates + derrotas diferente de jogos) entram com nota.",
+        "Autores dos gols só em parte de 2001-2010; artilheiros, cartões, estádio e público não coletados.",
     ],
 }
 

@@ -32,7 +32,8 @@ da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e d
 |---|---|---|---|---|---|
 | `nzl-1` Neozelandês | 55 (1970–2025) | 7.480 | 101 | d7a6379 | não |
 | `tah-1` Taitiano | 79 (1948–2025/26; 31 com jogos) | 2.647 | 35 | 82549d6 | não |
-| `ncl-1` Neocaledônio | 76 (1950–2026, sem 1955 e 2024; 36 com jogos) | 2.472 | 63 | ainda não (esperando o ok) | não |
+| `ncl-1` Neocaledônio | 76 (1950–2026, sem 1955 e 2024; 36 com jogos) | 2.472 | 63 | 8f154e1 | não |
+| `fij-1` Fijiano | 50 (1977–2026; 28 com jogos) | 2.177 | 17 | ainda não (esperando o ok) | não |
 
 Números de gols, conferência e cobertura: `coleta/comum-oceania/documentacao/` (gerada por `documentar.py`). Detalhe edição a
 edição: `docs/coleta/nzl-1.md`.
@@ -42,10 +43,12 @@ edição: `docs/coleta/nzl-1.md`.
 1. **Nova Zelândia (`nzl-1`): pacote pronto e commitado em 23/11 (`d7a6379`, sem push)**; falta o agente 1 carregar. Recado
    de fim de coleta no fim de `docs/coleta/pedidos-oceania.md`.
 2. **Taiti (`tah-1`): commitado em 24/11 (`82549d6`, sem push)**; falta o agente 1 carregar.
-3. **Nova Caledônia (`ncl-1`): pacote pronto em 24/11**, teste de carga OK; esperando o ok do Guilherme para o commit. Recado no
-   fim de `docs/coleta/pedidos-oceania.md`. **Próxima: Fiji (`fij-1`)**, quando o Guilherme mandar; antes, pesquisa a fundo
-   (como no Taiti e na Nova Caledônia) e as decisões de escopo.
-4. Depois, na ordem: `png-1`, `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
+3. **Nova Caledônia (`ncl-1`): commitada em 24/11 (`8f154e1`, sem push)**, junto com as colunas de pontos do Taiti; falta o
+   agente 1 carregar. Recado no fim de `docs/coleta/pedidos-oceania.md`. Fiji depois.
+4. **Fiji (`fij-1`): pacote pronto em 24/11**, teste de carga OK; esperando o ok do Guilherme para o commit. Recado no fim de
+   `docs/coleta/pedidos-oceania.md`. **Próxima: Papua-Nova Guiné (`png-1`)**, quando o Guilherme mandar; antes, pesquisa a
+   fundo (como nas três últimas) e as decisões de escopo.
+5. Depois, na ordem: `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
    `cok-1`. Tuvalu e Kiribati ficam de fora por enquanto (aprovado em 23/11; entram no fim se ele quiser).
 
 ### Decisões do Guilherme (23/11)
@@ -66,6 +69,11 @@ edição: `docs/coleta/nzl-1.md`.
   "AS Baco"; Entente Gélima separada do US Gélima; nomes oficiais/de uso ("AS Tiga Sport", não "Tiga Sports"). Formato: até
   2001 só a fase nacional (as ligas das províncias eram competições regionais à parte); 2002-2011 liga da Grande Terre como
   1ª fase + playoff com o campeão das ilhas; 2012 em diante Super Ligue única.
+- Fiji (24/11, depois de pesquisa a fundo): a 1ª divisão é a liga dos distritos, de 1977 a 2026 (RSSSF e Wikipédia batem em
+  todos os anos); fora Inter-District Championship, National Club Championship, Club Franchise League (2004/05-2006), copas,
+  2ª divisão e repescagens; 2003 = Ba (decisão da federação em 2006; Olympians em 2º); 2010 = Ba (o título dado ao Lautoka foi
+  revogado); nomes = o distrito puro ("Nadi", "Lautoka"...), salvo "Ba FC"; seleções: "Fiji Olympians" (um clube só, 1998-2006),
+  "Fiji U-20" (2010), "Fiji Youth Teams" (2011, a campanha somada que a RSSSF dá); os 8 jogos do sub-20 em 2000 foram anulados.
 
 ### Como a NZ foi feita (modelo para as próximas)
 
@@ -122,6 +130,17 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   de resultados às vezes erradas ou incompletas (2023-2025): confira com a tabela da RSSSF antes de usar.
 - **ogol**: o calendário de uma edição pode juntar ligas regionais e fase nacional (NZ 2025): separe pelos clubes de cada
   grupo e pela data do primeiro jogo entre regiões.
+- **Fiji (24/11):**
+  - os times da liga são as associações dos distritos ("Ba", "Nadi"...); a página traz junto copas, campeonato de clubes e
+    ligas locais: `edicoes._trecho` acha o começo (o 1º título seguido de tabela ou rodada; o índice do topo repete os
+    títulos) e o fim (próxima competição);
+  - linha de tabela com erro de digitação (V+E+D diferente de J) é descartada pelo leitor comum e corta a tabela:
+    `ler._tabelas_inteiras` relê a tabela inteira;
+  - duas tabelas da mesma fase (2002: a montada com os resultados conhecidos e a final divulgada): vale a última;
+  - "Tavua/Lautoka" = adversário incerto (o jogo sai); "possibly awarded" e "awarded... revogado": vale o placar de campo;
+  - o ogol tem a liga completa de 2011 (fecha com a tabela) e a de 2012 (não fecha: fica de fora).
+- `_junta` (importadores do Taiti, da Nova Caledônia e de Fiji) agora copia a tabela antes de juntar os pedaços (antes
+  alterava a original).
 - **Nova Caledônia (24/11):**
   - a lista de campeões da RSSSF muda de colunas no meio (final "X 2-1 Y" até 2005; "Champions / Runners-Up / Third" depois):
     `ler.campeoes()` lê os dois;

@@ -94,7 +94,7 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    63 clubes, 9.956 gols, 188 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e páginas por temporada), Wikipédia em
    inglês (2ª fonte do campeão) e ogol (datas e grafia para os escudos, 2010-2026). Campeão de toda edição confere com a RSSSF;
    a Wikipédia diverge em 1963, 1964 (decidido) e 1965 (erro dela: ogol e RSSSF dão AS Frégate).
-2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+2. **Commits:** `8f154e1` (com o ok do Guilherme em 24/11; sem push; leva também `pontos_empate`/`pontos_derrota` do `tah-1`).
 3. **Teste de carga:** `ncl-1: 76 edições, 2472 jogos, 63 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `ncl-1`; país novo `NCL` (Nova Caledônia, OFC). Nunca foi à Copa: **falta a bandeira**;
@@ -119,3 +119,31 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    separado); Entente Gélima, Wé-Luécilla, AS Auteuil x FC Auteuil; a classificação das edições com mata-mata (ordem dos
    eliminados); 2002/03 (placar 1-9 deduzido da tabela).
 8. **Próxima competição:** Fiji (`fij-1`), quando o Guilherme mandar.
+
+## Recado de fim de coleta — fij-1 — 24/11/2026
+
+1. **O que foi feito:** Campeonato Fijiano (`fij-1`), 50 edições (1977 a 2026), 28 com jogos; 2.177 jogos, 17 times, 6.722
+   gols, 194 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e páginas por ano), Wikipédia em inglês (2ª fonte do
+   campeão: bate em todos os anos) e ogol (os jogos de 2011 e a grafia para os escudos, 2009-2026).
+2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+3. **Teste de carga:** `fij-1: 50 edições, 2177 jogos, 17 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `fij-1`; país novo `FIJ` (Fiji, OFC). Nunca foi à Copa: **falta a bandeira**;
+   - os times são as associações dos distritos ("Nadi", "Lautoka"...; "Ba FC"); região = ilha ("Viti Levu", "Vanua Levu");
+   - seleções de base que jogaram a liga: "Fiji Olympians" (1998-2006), "Fiji U-20" (2010) e "Fiji Youth Teams" (2011);
+   - pontuação: 2 por vitória até 1986 e 3 depois (empate 1, derrota 0: colunas novas vazias);
+   - 22 edições só com o campeão (vice em poucos anos) ou só com a tabela; "jogos incompletos" de 1998 a 2004 e em 2012 (só a
+     tabela);
+   - fases novas: "Grupo do título" e "Grupo do rebaixamento" (2005, 2007, 2008), "Fase de grupos" (2005);
+   - escudos: calendários do ogol em `data/cache/ogol-fij-1/`.
+5. **Decisões** (Guilherme, 24/11, depois de pesquisa a fundo): a 1ª divisão é a liga dos distritos desde 1977 (fora o
+   Inter-District Championship, o National Club Championship, a Club Franchise League, as copas, a 2ª divisão e as
+   repescagens); 2003 = Ba FC (decisão da federação em 2006; os Olympians, 1º na tabela, ficam em 2º); 2010 = Ba FC (o título
+   dado ao Lautoka foi revogado); nomes = distrito puro, salvo "Ba FC". Correções com motivo em `coleta/fij-1/explicacoes.py`.
+   Nada esperando o Guilherme.
+6. **O que não deu para coletar:** jogos de 1977-1997 (só campeão ou tabela), parte dos jogos de 1998-2004, os de 2012 (o
+   calendário do ogol não fecha com a tabela); autores dos gols (pouco), artilheiros, cartões, estádio e público.
+7. **Onde a revisão deve olhar primeiro:** 2003 (o campeão oficial não é o 1º da tabela); 1983 (tabela inconsistente na
+   página); as tabelas com erro de digitação (V+E+D ≠ J), que entram com nota; 2002 (duas tabelas na página: vale a final
+   divulgada); 2011 (jogos do ogol, com a seleção sub-23 como "Fiji Youth Teams").
+8. **Próxima competição:** Papua-Nova Guiné (`png-1`), quando o Guilherme mandar.
