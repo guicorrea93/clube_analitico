@@ -8,7 +8,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Japonês | 60 (1965–2025) | 0 | 12190 | 27554 | 31272 | 40 | 57 / 3 | sim | 71d50064 | 0 | [jpn-1](jpn-1.md) |
 | Campeonato Sul-Coreano | 43 (1983–2025) | 0 | 7163 | 17984 | 24627 | 25 | 37 / 6 | sim | e04507f1 | 0 | [kor-1](kor-1.md) |
-| Campeonato Saudita | 69 (1957/58–2025/26) | 12 | 5965 | 7296 | 4801 | 43 | 35 / 8 | não | — | 0 | [ksa-1](ksa-1.md) |
+| Campeonato Saudita | 69 (1957/58–2025/26) | 12 | 5965 | 7296 | 4801 | 43 | 35 / 8 | não | 204e7d6d | 0 | [ksa-1](ksa-1.md) |
 
 ## Pendências de todas as competições
 

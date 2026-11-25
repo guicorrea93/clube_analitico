@@ -109,7 +109,7 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    autores até 2005/06), ogol (fase de liga 1999/00-2025/26), ESPN (2022/23-2025/26: autores, cartões, estádio, público,
    hora), Wikipédia (lista oficial de campeões e vices). Pacote em `data/coleta/ksa-1/pacote/`, relatório em
    `docs/coleta/ksa-1.md`, ficha em `coleta/comum-asia/documentacao/ksa-1.md`.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** `204e7d6d` (25/11, sem push).
 3. **Teste de carga:** `ksa-1: 69 edições, 5965 jogos, 43 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `ksa-1`; **país novo: Arábia Saudita (`KSA`, AFC)**: a Arábia Saudita foi a Copas, deve já haver bandeira;
