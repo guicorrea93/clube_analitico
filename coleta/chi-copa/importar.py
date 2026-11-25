@@ -31,6 +31,7 @@ import ler_rsssf  # noqa: E402  (o do chi-1: páginas em data/coleta/chi-1/rsssf
 import rsssf_sul  # noqa: E402
 from clubes_copa import CLUBES, SIGLAS, clube  # noqa: E402
 from copa_rsssf import Copa, EdicaoCopa, importar  # noqa: E402
+import wiki_copas  # noqa: E402
 
 SLUG = "chi-copa"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
@@ -137,6 +138,34 @@ def _troca_hifen(m: re.Match) -> str:
 HIFEN = [(_HIFEN, _troca_hifen)]
 
 
+WIKI = RAIZ / "data" / "coleta" / SLUG / "wikipedia"
+_GRUPOS_WIKI = ("jogos dos grupos pela Wikipédia em espanhol (a RSSSF só traz as tabelas, que conferem com eles); "
+                "mata-mata pela RSSSF")
+
+
+def _grupos_wiki(edicao: str, ano: int):
+    """Jogos da fase de grupos na Wikipédia em espanhol ("Copa Chile 2013-14" ...; pendência D5)."""
+    return lambda: wiki_copas.tabela_jogos(WIKI / f"es_{edicao}.txt", edicao, r"^Fase de grupos", r"^Fase final", GRU, (ano, ano))
+
+
+def _wiki_2022():
+    """Copa Chile 2022 antes das quartas: fases 1 e 2 (tabelas da página da edição), 3ª fase e oitavas (anexos)."""
+    return (wiki_copas.tabela_jogos(WIKI / "es_2022.txt", "2022", r"^Fase 1$", r"^Fase 2$", P1, (2022, 2022), grupos=False)
+            + wiki_copas.tabela_jogos(WIKI / "es_2022.txt", "2022", r"^Fase 2$", r"^Eliminatorias", P2, (2022, 2022), grupos=False)
+            + wiki_copas.partidos(WIKI / "es_2022_tercera.txt", "2022_tercera", P3)
+            + wiki_copas.partidos(WIKI / "es_2022_octavos.txt", "2022_octavos", OIT))
+
+
+def _wiki_2023():
+    """Copa Chile 2023 antes das finais zonais: fase previa (anexo "Fase 1") e oitavas a semifinais de cada zona (anexo
+    "Fase Regional"; a final de cada zona vem da RSSSF)."""
+    z = "Fase regional"
+    return (wiki_copas.partidos(WIKI / "es_2023_fase1.txt", "2023_fase1", "Segunda fase preliminar")
+            + wiki_copas.partidos(WIKI / "es_2023_regional.txt", "2023_regional", None,
+                                  {r"^Octavos": f"{z}: oitavas", r"^Cuartos": f"{z}: quartas", r"^Semifinales": f"{z}: semifinal",
+                                   r"^Final Regional": None, r"^Clasificado": None}))
+
+
 def ed(temporada: str, a0: int, a1: int, trechos: list, fases: list | None = None, **kw) -> EdicaoCopa:
     return EdicaoCopa(temporada, a0, a1, f"Copa Chile {temporada}", trechos, fases=fases, **kw)
 
@@ -222,22 +251,25 @@ EDICOES += [
     ed("2012/13", 2012, 2013, [_moderna("chile2013", "Copa Chile 2012/13")], [(r"^First Phase", P1), (r"^Group Stage", GRU)] + KO,
        anos_leitura=(2012, 2012)),
     ed("2013/14", 2013, 2014, [_moderna("chile2014", "Copa Chile 2013/14")], [(r"^Group Stage", GRU)] + KO,
-       obs="a RSSSF só traz as tabelas dos grupos; jogos do mata-mata"),
+       extras=_grupos_wiki("2013-14", 2013), obs=_GRUPOS_WIKI),
     ed("2014/15", 2014, 2015, [_moderna("chile2015", "Copa Chile 2014/15")], [(r"^Group Stage", GRU), (r"^Round 2", OIT)] + KO,
-       obs="a RSSSF só traz as tabelas dos grupos; jogos do mata-mata"),
+       extras=_grupos_wiki("2014-15", 2014), obs=_GRUPOS_WIKI),
     ed("2015", 2015, 2016, [_moderna("chile2016", "Copa Chile 2015")], [(r"^Group Stage", GRU)] + KO,
-       obs="a RSSSF só traz as tabelas dos grupos; jogos do mata-mata"),
+       extras=_grupos_wiki("2015", 2015), obs=_GRUPOS_WIKI),
     ed("2016", 2016, 2016, [_moderna("chile2017", "Copa Chile 2016")], [(r"^Round 1\b", P1)] + KO),
     ed("2017", 2017, 2017, [_moderna("chile2017a", "Copa Chile 2017")], RODADAS + KO),
     ed("2018", 2018, 2018, [_moderna("chile2018", "Copa Chile 2018")], RODADAS + KO),
     ed("2019/20", 2019, 2020, [_moderna("chile2019", "Copa Chile 2019/20")], RODADAS + KO,
        anos_leitura=(2019, 2019), obs="a Wikipédia chama de 2019; final em janeiro de 2020"),
     ed("2021", 2021, 2021, [_moderna("chile2021", "Copa Chile 2021")], RODADAS + KO),
-    ed("2022", 2022, 2022, [_moderna("chile2022", "Copa Chile 2022")], KO, obs="a RSSSF só traz das quartas de final em diante"),
-    ed("2023", 2023, 2023, [_moderna("chile2023", "Copa Chile 2023")], [(r"^Fase Regional", REG)] + KO,
+    ed("2022", 2022, 2022, [_moderna("chile2022", "Copa Chile 2022")], KO, extras=_wiki_2022,
+       obs="das quartas de final em diante pela RSSSF; fases 1 a 3 e oitavas pela Wikipédia em espanhol (página da edição "
+           "e anexos da 3ª fase e das oitavas)"),
+    ed("2023", 2023, 2023, [_moderna("chile2023", "Copa Chile 2023")], [(r"^Fase Regional", "Fase regional: final")] + KO,
        regioes=[(r"^Zona Norte", "Norte"), (r"^Zona Centro Norte", "Centro Norte"), (r"^Zona Centro Sur", "Centro Sur"),
-                (r"^Zona Sur", "Sur")], fim_regiao=r"^Fase Nacional",
-       obs="a RSSSF só traz das finais zonais (quartas de final na prática) em diante"),
+                (r"^Zona Sur", "Sur")], fim_regiao=r"^Fase Nacional", extras=_wiki_2023,
+       obs="finais zonais em diante pela RSSSF; fase previa e fase regional (oitavas a semifinais de cada zona) pelos anexos "
+           "da Wikipédia em espanhol; ficam de fora as preliminares amadoras de Aysén e Magallanes (só em chave, sem mando)"),
 ]
 _p, _a24, _b24 = _moderna("chile2024", "Copa Chile 2024")
 _m24 = next(i for i in range(_b24 - 1, _a24, -1) if linhas("chile2024")[i].strip().startswith("Semifinals"))
@@ -251,7 +283,9 @@ EDICOES += [
        regioes=[(r"^Región de", "Aysén"), (r"^Previa", ""), (r"^Zona Norte", "Norte"), (r"^Zona Centro Norte", "Centro Norte"),
                 (r"^Zona Centro Sur", "Centro Sur"), (r"^Zona Sur", "Sur")],
        obs="fases regionais por zona (Norte, Centro Norte, Centro Sur, Sur); os campeões zonais jogam as semifinais"),
-    ed("2025", 2025, 2025, [_moderna("chile2025", "Copa Chile 2025")], KO, obs="a RSSSF só traz das oitavas de final em diante"),
+    ed("2025", 2025, 2025, [_moderna("chile2025", "Copa Chile 2025")], KO,
+       extras=lambda: wiki_copas.partidos(WIKI / "es_2025_zonal.txt", "2025_zonal", GRU),
+       obs="das oitavas de final em diante pela RSSSF; fase zonal (8 grupos) pelo anexo da Wikipédia em espanhol"),
 ]
 _k = FASES.index((r"^NUNCA$", REG)) + 1   # as fases zonais de 2024 vêm logo depois da fase regional
 FASES[_k:_k] = [(r"^NUNCA$", f"{_Z}: {x}") for x in ("oitavas", "quartas", "semifinal", "final")]

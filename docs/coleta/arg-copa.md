@@ -9,9 +9,9 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/arg-c
 | 2011/12 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Boca Juniors | Racing Club | Boca Juniors | 3 de 134 |
 | 2012/13 | 63 | Fase preliminar, Vinte-e-quatro-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Arsenal de Sarandí | San Lorenzo | Arsenal de Sarandí | 0 de 138 |
 | 2013/14 | 53 | Primeira fase, Segunda fase, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Huracán | Rosario Central | Huracán | 0 de 118 |
-| 2014/15 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Boca Juniors | Rosario Central | Boca Juniors | 5 de 138 |
-| 2015/16 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | River Plate | Rosario Central | River Plate | 0 de 149 |
-| 2016/17 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | River Plate | Atlético Tucumán | River Plate | 0 de 154 |
+| 2014/15 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Boca Juniors | Rosario Central | Boca Juniors | 0 de 138 |
+| 2015/16 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | River Plate | Rosario Central | River Plate | 7 de 149 |
+| 2016/17 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | River Plate | Atlético Tucumán | River Plate | 3 de 154 |
 | 2017/18 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Rosario Central | Gimnasia La Plata | Rosario Central | 0 de 141 |
 | 2018/19 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | River Plate | Central Córdoba de Santiago del Estero | River Plate | 0 de 139 |
 | 2019/20 | 63 | Trinta-e-dois-avos de final, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Boca Juniors | Talleres | Boca Juniors | 0 de 140 |

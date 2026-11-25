@@ -38,6 +38,8 @@ CLUBES_COPA: dict[str, tuple[str, str]] = {
     "Unión Atlético Falcón": ("", "Falcón"), "Unión Atlético Lagunillas": ("Lagunillas", "Zulia"), "Unión Atlético Piar": ("", "Bolívar"),
     "Unión Atlético San Antonio": ("San Antonio del Táchira", "Táchira"), "Unión Atlético Trujillo": ("", "Trujillo"),
     "Unión Liga Municipal": SEM, "Yaracuy FC": ("", "Yaracuy"),
+    # fase de grupos de 2024 (Wikipédia em espanhol)
+    "Academia Rey": SEM, "Deportivo Miranda": ("", "Miranda"), "Héroes de Falcón": ("", "Falcón"),
 }
 _T = 9999
 # (regex sobre a chave do nome, nome de exibição, primeiro ano, último ano); casa o nome inteiro
@@ -84,6 +86,12 @@ REGRAS_COPA: list[tuple[str, str, int, int]] = [
     (r"(ua|union atletico) piar( fc)?", "Unión Atlético Piar", 0, _T), (r"ua san antonio", "Unión Atlético San Antonio", 0, _T),
     (r"(ua|union atletico) trujillo", "Unión Atlético Trujillo", 0, _T), (r"union liga municipal", "Unión Liga Municipal", 0, _T),
     (r"yaracuy", "Yaracuy FC", 0, _T),
+    # fase de grupos de 2024 (Wikipédia em espanhol, nomes curtos)
+    (r"academia rey( fc)?", "Academia Rey", 0, _T), (r"deportivo miranda( fc)?", "Deportivo Miranda", 0, _T),
+    (r"heroes de falcon( fc)?", "Héroes de Falcón", 0, _T), (r"aifi", "Fundación AIFI", 0, _T),
+    (r"bolivar", "Bolívar SC", 2024, _T), (r"anzoategui", "Anzoátegui FC", 2020, _T),
+    # a RSSSF chama de "Deportivo Anzoátegui" o Anzoátegui FC (2021) no mata-mata de 2024 (a Wikipédia liga ao de 2021)
+    (r"(deportivo|dep|dvo) anzoategui( sc| fc)?", "Anzoátegui FC", 2021, _T),
 ]
 CLUBES = {**clubes_ven.CLUBES, **CLUBES_COPA}
 assert all(e in CLUBES for _, e, _, _ in REGRAS_COPA), [e for _, e, _, _ in REGRAS_COPA if e not in CLUBES]

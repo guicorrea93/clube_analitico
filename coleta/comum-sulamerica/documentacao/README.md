@@ -9,7 +9,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 37019 | 41343 | 173 | 142 / 51 | sim | c973e9e3 | 41 | [arg-1](arg-1.md) |
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 19085 | 9481 | 84 | 59 / 22 | sim | c887a7d4 | 21 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 21264 | 26607 | 53 | 76 / 32 | sim | a0222fa9 | 26 | [chi-1](chi-1.md) |
-| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 23418 | 22905 | 40526 | 42 | 51 / 41 | sim | a0222fa9 | 22 | [col-1](col-1.md) |
+| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 23418 | 22905 | 40526 | 42 | 51 / 41 | sim | fd64e74e | 22 | [col-1](col-1.md) |
 | Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 15853 | 14271 | 50 | 45 / 5 | sim | c887a7d4 | 24 | [par-1](par-1.md) |
 | Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 23573 | 21067 | 167 | 52 / 38 | sim | c887a7d4 | 22 | [per-1](per-1.md) |
 | Campeonato Equatoriano | 68 (1957–2025) | 0 | 14175 | 9900 | 15883 | 63 | 48 / 20 | sim | c887a7d4 | 18 | [ecu-1](ecu-1.md) |

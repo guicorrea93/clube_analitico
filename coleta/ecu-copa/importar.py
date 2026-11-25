@@ -27,9 +27,23 @@ import autores  # noqa: E402  (o do ecu-1)
 from clubes_copa import CLUBES, clube  # noqa: E402
 from copa_rsssf import Copa, EdicaoCopa, importar  # noqa: E402
 from ler_rsssf import linhas  # noqa: E402  (o do ecu-1: páginas em data/coleta/ecu-1/rsssf)
+import wiki_copas  # noqa: E402
 
 SLUG = "ecu-copa"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
+WIKI = RAIZ / "data" / "coleta" / SLUG / "wikipedia"
+
+
+def _wiki(ano: int):
+    """Fases antes das oitavas na Wikipédia em espanhol ("Copa Ecuador 2024"; pendência D5): primeira e segunda fase
+    e dezesseis-avos, em tabelas com data, estádio, mandante, placar e visitante."""
+    a = str(ano)
+    return lambda: (wiki_copas.tabela_jogos(WIKI / f"es_{a}.txt", a, r"^Primera fase", r"^Segunda fase", "Primeira fase preliminar",
+                                            (ano, ano), grupos=False)
+                    + wiki_copas.tabela_jogos(WIKI / f"es_{a}.txt", a, r"^Segunda fase", r"^Fases finales", "Fase preliminar",
+                                              (ano, ano), grupos=False)
+                    + wiki_copas.tabela_jogos(WIKI / f"es_{a}.txt", a, r"^Dieciseisavos", r"^Octavos", "Dezesseis-avos de final",
+                                              (ano, ano), grupos=False))
 
 FASES = [
     (r"^First Preliminary Round", "Primeira fase preliminar"),
@@ -57,10 +71,10 @@ EDICOES = [
     EdicaoCopa("2018/19", 2018, 2019, "Copa Ecuador 2018-19", [_trecho("ecua2019")],
                obs="duas fases preliminares com clubes da Segunda Categoría e amadores"),
     EdicaoCopa("2022", 2022, 2022, "Copa Ecuador 2022", [_trecho("ecua2022")], obs="semifinal em grupo de 4 (pontos corridos)"),
-    EdicaoCopa("2024", 2024, 2024, "Copa Ecuador 2024", [_trecho("ecua2024")],
-               obs="a RSSSF só traz das oitavas em diante (faltam as fases anteriores)"),
-    EdicaoCopa("2025", 2025, 2025, "Copa Ecuador 2025", [_trecho("ecua2025")],
-               obs="a RSSSF só traz das oitavas em diante (faltam as fases anteriores)"),
+    EdicaoCopa("2024", 2024, 2024, "Copa Ecuador 2024", [_trecho("ecua2024")], extras=_wiki(2024),
+               obs="das oitavas em diante pela RSSSF; primeira e segunda fase e dezesseis-avos pela Wikipédia em espanhol"),
+    EdicaoCopa("2025", 2025, 2025, "Copa Ecuador 2025", [_trecho("ecua2025")], extras=_wiki(2025),
+               obs="das oitavas em diante pela RSSSF; primeira e segunda fase e dezesseis-avos pela Wikipédia em espanhol"),
 ]
 
 COMPETICAO = {

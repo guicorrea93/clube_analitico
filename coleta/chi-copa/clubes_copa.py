@@ -76,6 +76,13 @@ CLUBES_COPA: dict[str, tuple[str, str]] = {
     "Unión Bellavista": SEM, "Unión Compañías": ("La Serena", COQ), "Unión Glorias Navales": ("Viña del Mar", VAL),
     "Unión Quilpué": ("Quilpué", VAL), "Unión Santa María": ("Los Ángeles", BIO), "Unión Temuco": ("Temuco", ARA),
     "Unión Wanderers": ("Valdivia", RIO), "Vicente Pérez Rosales": SEM, "Yungay de Iquique": ("Iquique", "Tarapacá"),
+    # 2022 e 2023 (fases iniciais pela Wikipédia em espanhol, pendência D5)
+    "Quintero Unido": ("Quintero", VAL), "San Bernardo Unido": ("San Bernardo", RM), "La Higuera": SEM, "Aguará": STG,
+    "Tricolor Municipal": ("Paine", RM), "Cóndor (Chile)": ("", OHI), "La Obra": SEM, "Colo-Colito": SEM,
+    "Provincial Ranco": ("La Unión", RIO), "Constitución FC": ("Constitución", MAU), "Ferroviario Comercial": SEM,
+    "Teniente Merino": SEM, "Gol y Gol": SEM, "Liga Universitaria": ("", "Aysén"), "Bories": ("Punta Arenas", "Magallanes"),
+    "CD Unión (Chile)": ("", "Tarapacá"), "Ojanco": ("", "Atacama"), "Eléctrico Refinería": ("", "Antofagasta"),
+    "Los Nogales": SEM, "Juventud Unida (Chile)": SEM, "Rancagua Sur": ("Rancagua", OHI),
 }
 SIGLAS = {
     "AI": "Audax Italiano", "ANT": "Deportes Antofagasta", "AR": "San Marcos de Arica", "ATA": "Regional Atacama", "CB": "Cobreloa",
@@ -172,6 +179,17 @@ REGRAS_COPA: list[tuple[str, str, int, int]] = [
     (r"union temuco", "Unión Temuco", 0, _T), (r"union wanderers( general lagos)?( valdivia)?", "Unión Wanderers", 0, _T),
     (r"vicente perez r", "Vicente Pérez Rosales", 0, _T), (r"yungay( iquique)?", "Yungay de Iquique", 0, _T),
     (r"11 de septiembre", "11 de Septiembre", 0, _T),
+    # 2022 e 2023
+    (r"quintero unido", "Quintero Unido", 0, _T), (r"san bernardo unido", "San Bernardo Unido", 0, _T),
+    (r"la higuera", "La Higuera", 0, _T), (r"aguara", "Aguará", 0, _T), (r"tricolor municipal", "Tricolor Municipal", 0, _T),
+    (r"condor", "Cóndor (Chile)", 2000, _T), (r"la obra", "La Obra", 0, _T), (r"colo ?colito", "Colo-Colito", 0, _T),
+    (r"provincial ranco", "Provincial Ranco", 0, _T), (r"constitucion fc", "Constitución FC", 0, _T),
+    (r"ferroviario comercial", "Ferroviario Comercial", 0, _T), (r"teniente merino", "Teniente Merino", 0, _T),
+    (r"gol y gol", "Gol y Gol", 0, _T), (r"liga universitaria", "Liga Universitaria", 0, _T), (r"bories", "Bories", 0, _T),
+    (r"concon national", "Concón Nacional", 0, _T), (r"cd union", "CD Unión (Chile)", 2000, _T), (r"ojanco", "Ojanco", 0, _T),
+    (r"electrico refineria", "Eléctrico Refinería", 0, _T), (r"los nogales", "Los Nogales", 0, _T),
+    (r"juventud unida", "Juventud Unida (Chile)", 2000, _T),
+    (r"rancagua sur", "Rancagua Sur", 0, _T),
 ]
 CLUBES = {**clubes_chi.CLUBES, **CLUBES_COPA}
 assert all(e in CLUBES for _, e, _, _ in REGRAS_COPA), [e for _, e, _, _ in REGRAS_COPA if e not in CLUBES]

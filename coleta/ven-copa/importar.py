@@ -29,9 +29,11 @@ import rsssf_sul  # noqa: E402
 from clubes_copa import CLUBES, clube  # noqa: E402
 from copa_rsssf import Copa, EdicaoCopa, importar  # noqa: E402
 from ler_rsssf import linhas  # noqa: E402
+import wiki_copas  # noqa: E402
 
 SLUG = "ven-copa"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
+WIKI = RAIZ / "data" / "coleta" / SLUG / "wikipedia"
 
 PRE, GRU, GR2, FFIN = "Fase preliminar", "Fase de grupos", "Segunda fase de grupos", "Fase final (pontos corridos)"
 P1, P2, P3 = "Primeira fase", "Segunda fase", "Terceira fase"
@@ -193,7 +195,9 @@ EDICOES += [
     ed("2017", 2017, 2017, [_secao("venez2017", "Copa Venezuela 2017")], [(r"^Group Stage", GRU)] + FASES3[2:] + KO),
     ed("2018", 2018, 2018, [_secao("venez2018", "Copa Venezuela 2018")], [(r"^Final Tables", GRU)] + KO),
     ed("2019", 2019, 2019, [_secao("venez2019", "Copa Venezuela 2019")], FASES3 + KO),
-    ed("2024", 2024, 2024, [_secao("venez2024", "Copa Venezuela 2024")], KO, obs="a RSSSF só traz das oitavas de final em diante"),
+    ed("2024", 2024, 2024, [_secao("venez2024", "Copa Venezuela 2024")], KO,
+       extras=lambda: wiki_copas.tabela_modulo(WIKI / "es_2024.txt", "2024", r"^Fase de grupos", r"^Mejores segundos|^Fase final", GRU),
+       obs="das oitavas de final em diante pela RSSSF; fase de grupos (10 grupos de 3) pela Wikipédia em espanhol, sem datas"),
     ed("2025", 2025, 2025, [_secao("venez2025", "Copa Venezuela 2025")], [(r"^Group Stage", GRU)] + KO),
 ]
 EDICOES.sort(key=lambda e: e.ano_inicio)

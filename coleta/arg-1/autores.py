@@ -24,8 +24,13 @@ def publico(texto: str) -> int | None:
     return int(re.sub(r"\D", "", m.group(1))) if m else None
 
 
+_DATA = re.compile(r"^\s*\[?(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? \d{1,2}(?: [A-Z][a-z])?\]?\s*$")
+
+
 def eh_autores(texto: str) -> bool:
-    return not re.match(r"^\s*(ref\.?|referee|árbitro)\b", texto, re.I) and not re.search(r"tickets|attendance", texto, re.I)
+    """Não é autor: árbitro, público ou só uma data ("[Mar 26 Th]", jogo remarcado na Copa Argentina 2014/15)."""
+    return (not re.match(r"^\s*(ref\.?|referee|árbitro)\b", texto, re.I) and not re.search(r"tickets|attendance", texto, re.I)
+            and not _DATA.match(texto))
 
 
 def _partes(lado: str) -> list[str]:
@@ -50,9 +55,15 @@ def _lado(lado: str) -> list[dict] | None:
     ultimo: dict | None = None
     for item in _partes(lado):
         item = item.strip(" .;")
-        if re.fullmatch(r"\d{1,3}(\+\d)?['m]?", item) and ultimo:   # "Pizzuti 35, 56": outro gol do mesmo jogador
+        # "Alario 11m pen, 40 m pen" (final de 2015/16): "Alario (pen) 11'" e "40' (pen)"
+        item = re.sub(r"^(.*[A-Za-zÀ-ÿ.])\s+(\d{1,3})\s?m\s+pen\b", r"\1 (pen) \2'", item)
+        item = re.sub(r"^(\d{1,3})\s?m\s+pen\b", r"\1' (pen)", item)
+        m = re.fullmatch(r"(\d{1,3}(?:\+\d)?['m]?)(\s*\(pen\))?", item)
+        if m and ultimo:   # "Pizzuti 35, 56": outro gol do mesmo jogador
             g = dict(ultimo)
-            g["minuto"], g["acrescimo"] = _minuto(item)
+            g["minuto"], g["acrescimo"] = _minuto(m.group(1))
+            if m.group(2):
+                g["tipo"] = "penalti"
             gols.append(g)
             continue
         minuto = acr = None

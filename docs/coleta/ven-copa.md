@@ -68,7 +68,7 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/ven-c
 | 2017 | 90 | Fase de grupos, Segunda fase, Terceira fase, Oitavas de final, Quartas de final, Semifinal, Final | Mineros de Guayana | Zamora FC | Mineros de Guayana | 0 de 258 |
 | 2018 | 62 | Fase de grupos, Dezesseis-avos de final, Oitavas de final, Quartas de final, Semifinal, Final | Zulia FC | Aragua FC | Zulia | 0 de 141 |
 | 2019 | 74 | Primeira fase, Segunda fase, Oitavas de final, Quartas de final, Semifinal, Final | Zamora FC | Monagas SC | Zamora | 0 de 175 |
-| 2024 | 15 | Oitavas de final, Quartas de final, Semifinal, Final | Deportivo La Guaira | Metropolitanos | Deportivo La Guaira | 0 de 30 |
+| 2024 | 75 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Deportivo La Guaira | Metropolitanos | Deportivo La Guaira | 0 de 191 |
 | 2025 | 30 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Universidad Central | Carabobo FC | Universidad Central | 0 de 72 |
 
 **Sobre a competição:** Copa nacional da FVF pela contagem da Wikipédia: era amadora (1932-1953) e de 1959 em diante, com os nomes de cada época (Copa Caracas, Cuatricentenario, Valencia, Bicentenario). Muitas edições antigas só têm a tabela ou parte dos jogos; cinco não têm jogos (1938, 1949/50, 1989, 1990, 1992).
@@ -107,6 +107,6 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/ven-c
 - 1994: Torneo Apertura da temporada 1994/95, que valia como Copa Venezuela
 - 1995: Torneo Apertura da temporada 1995/96, que valia como Copa Venezuela; jogos dos grupos pelas tabelas de confrontos (sem datas)
 - 2007: a RSSSF chama de 2007/08 (final em abril de 2008)
-- 2024: a RSSSF só traz das oitavas de final em diante
+- 2024: das oitavas de final em diante pela RSSSF; fase de grupos (10 grupos de 3) pela Wikipédia em espanhol, sem datas
 
 **Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz).

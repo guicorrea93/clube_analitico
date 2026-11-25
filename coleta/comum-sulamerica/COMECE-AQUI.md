@@ -149,9 +149,24 @@ abaixo são o histórico; o que está em aberto é esta lista.
   - D4. FEITA (24/11) no `bol-1` (27 linhas) e no `ven-1` (33 linhas): `classificacao()` põe no fim os clubes com jogos fora da tabela da fonte (mesma
     posição para a mesma fase). Era o pedido do agente 1 (22/11): classificação final de `bol-1` com todos os
     clubes com jogos em 1960, 1976, 1990, 1993 e 1994; talvez também nas edições incompletas do `ven-1`.
-  - D5. Lacunas das copas que outra fonte (Wikipédia de cada edição) poderia fechar: Copa Chile 1984-1986 (parciais),
-    2013/14, 2014/15 e 2015 (grupos só em tabela), 2022, 2023 e 2025 (página começa no mata-mata); Copa Ecuador 2024 e
-    2025 e Copa Venezuela 2024 (só das oitavas); Copa Venezuela com 12 edições sem jogos; datas e cidades vazias.
+  - D5. FEITA (25/11) nos jogos que a Wikipédia em espanhol traz. Leitor novo `coleta/comum-sulamerica/wiki_copas.py`
+    (`tabela_jogos`, `partidos`, `tabela_modulo`; fonte `wiki-es_<chave>:<linha>`); páginas em `data/coleta/<copa>/wikipedia/`.
+    - `chi-copa` 3.497 -> 4.034 jogos (+21 clubes): grupos de 2013/14, 2014/15, 2015 e 2025 (29 -> 125 cada); 2022
+      (13 -> 91: fases 1 a 3 e oitavas, com os anexos `es_2022_tercera` e `es_2022_octavos`); 2023 (13 -> 88: 2ª fase
+      preliminar e fase regional, anexos `es_2023_fase1` e `es_2023_regional`; a "final" regional da RSSSF virou
+      "Fase regional: final"). Nos grupos de 2013/14 e 2014/15, 4 e 2 clubes ficam com 1 gol de diferença da tabela da
+      RSSSF (conflito entre as fontes; ficam os jogos da Wikipédia).
+    - `ecu-copa` 208 -> 274 jogos (+31 clubes): 2024 e 2025 (17 -> 50 cada: primeira fase, segunda fase e 16-avos).
+    - `ven-copa` 1.397 -> 1.457 jogos (+4 clubes: Academia Rey, Deportivo Miranda, Héroes de Falcón; AIFI = Fundación
+      AIFI): fase de grupos de 2024 (15 -> 75; 10 grupos de 3, sem datas). O "Deportivo Anzoátegui" da RSSSF em 2024 é o
+      Anzoátegui FC (2021) da Wikipédia: regra da copa de 2021 em diante.
+    - Sem fonte: Copa Chile 1984-1986 (a Wikipédia só tem a tabela dos grupos e o mata-mata, que a RSSSF já dá).
+    - Regressão achada e corrigida: a arg-copa não tinha sido regerada depois dos "outros formatos" do `arg-1/autores.py`.
+      Agora `eh_autores` recusa colchete que é só data ("[Mar 26 Th]", 5 jogos de 2014/15 que tinham "gol" falso) e
+      `_lado` lê "Alario 11m pen, 40 m pen" (finais de 2015/16 e 2016/17 e 3 gols de 1961 no `arg-1`).
+  - D5b. Fica aberto (sem pesquisa ainda): Copa Venezuela com 12 edições sem jogos (1938, 1949/50, 1959, 1963, 1971,
+    1972, 1975, 1983, 1989, 1990, 1992, 1993; só campeão pelo anexo); datas vazias (chi-copa 1.521, ven-copa 703,
+    col-copa 252, ecu-copa 3); cidade vazia em todas as copas (o leitor não preenche).
   - D6. 2ªs divisões, na ordem do guia geral (seção 7), só quando o Guilherme pedir.
 - **Ordem sugerida (24/11):** o Guilherme responde C1-C3 e avisa o agente 1 (A1); depois D2 e D3 (conferências de
   autores); depois D1, D4 e D5 conforme ele mandar; por último D6.

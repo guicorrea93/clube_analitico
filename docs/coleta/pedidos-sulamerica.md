@@ -1366,3 +1366,23 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
     em 1988 a outra tabela é a do Finalización).
   - As `EXPLICACOES` do `col-1` deixaram de ser vazias.
 - **Efeito no pacote:** só a coluna `jogos_esperados` do `conferencia.csv` do `col-1`. Teste de carga OK.
+
+## 25/11 — D5: lacunas das copas pela Wikipédia em espanhol (`chi-copa`, `ecu-copa`, `ven-copa`) e conserto na `arg-copa`
+
+- **Leitor novo** `coleta/comum-sulamerica/wiki_copas.py` para as páginas da Wikipédia em espanhol (tabelas de jogos,
+  predefinição {{Partido}} e módulo Football table). Fonte dos jogos: `wiki-es_<chave>:<linha>`.
+- **Jogos novos:**
+  - `chi-copa`: 3.497 -> 4.034 (+21 clubes). Grupos de 2013/14, 2014/15, 2015 e 2025; fases iniciais de 2022 e 2023.
+    Nos grupos de 2013/14 e 2014/15, 4 e 2 clubes têm 1 gol de diferença da tabela da RSSSF (as fontes discordam).
+  - `ecu-copa`: 208 -> 274 (+31 clubes). 2024 e 2025 completas (primeira fase, segunda fase e 16-avos).
+  - `ven-copa`: 1.397 -> 1.457 (+4 clubes). Fase de grupos de 2024 (sem datas). O "Deportivo Anzoátegui" da RSSSF em
+    2024 passa a ser o Anzoátegui FC (2021), como na Wikipédia.
+- **Sem fonte:** Copa Chile 1984-1986 (a Wikipédia só tem as tabelas dos grupos).
+- **Conserto (`arg-copa` e `arg-1`):** a regra nova de autores do `arg-1` lia "[Mar 26 Th]" (data de jogo remarcado)
+  como gol em 5 jogos da Copa Argentina 2014/15; corrigido. "Alario 11m pen" agora é lido (finais de 2015/16 e 2016/17;
+  3 gols de 1961 no `arg-1`). Jogos iguais.
+- **Nomes:** conferidos com todos os pacotes (4.942 nomes, nenhum repetido entre países). Teste de carga OK nas 4 copas.
+- **Pedido ao agente 1:** recarregar `chi-copa`, `ecu-copa`, `ven-copa`, `arg-copa` e `arg-1` (junto com a recarga das 9
+  ligas já pedida).
+- **Fica aberto (D5b):** 12 edições da Copa Venezuela sem jogos; datas vazias (chi-copa 1.521, ven-copa 703); cidade
+  vazia em todas as copas.

@@ -37,18 +37,18 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/chi-c
 | 2010 | 138 | Primeira fase preliminar, Segunda fase preliminar, Primeira fase, Segunda fase, Oitavas de final, Quartas de final, Semifinal, Final | Deportes Iquique | Deportes Concepción | Deportes Iquique | 437 de 557 |
 | 2011 | 117 | Fase preliminar, Primeira fase preliminar, Segunda fase preliminar, Primeira fase, Segunda fase, Quartas de final, Semifinal, Final | Universidad Católica | Magallanes | Universidad Católica | 169 de 348 |
 | 2012/13 | 153 | Fase de grupos, Primeira fase, Oitavas de final, Quartas de final, Semifinal, Final | Universidad de Chile | Universidad Católica | Universidad de Chile | 0 de 513 |
-| 2013/14 | 29 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Deportes Iquique | Huachipato | Deportes Iquique | 0 de 66 |
-| 2014/15 | 29 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Universidad de Concepción | Palestino | Universidad de Concepción | 5 de 78 |
-| 2015 | 29 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Universidad de Chile | Colo Colo | Universidad de Chile | 0 de 88 |
+| 2013/14 | 125 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Deportes Iquique | Huachipato | Deportes Iquique | 0 de 310 |
+| 2014/15 | 125 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Universidad de Concepción | Palestino | Universidad de Concepción | 5 de 355 |
+| 2015 | 125 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Universidad de Chile | Colo Colo | Universidad de Chile | 0 de 377 |
 | 2016 | 56 | Primeira fase, Oitavas de final, Quartas de final, Semifinal, Final | Colo Colo | Everton de Viña del Mar | Colo Colo | 4 de 158 |
 | 2017 | 61 | Primeira fase, Segunda fase, Quartas de final, Semifinal, Final | Santiago Wanderers | Universidad de Chile | Santiago Wanderers | 4 de 154 |
 | 2018 | 94 | Primeira fase, Segunda fase, Terceira fase, Quartas de final, Semifinal, Final | Palestino | Audax Italiano | Palestino | 0 de 249 |
 | 2019/20 | 75 | Primeira fase, Segunda fase, Terceira fase, Quartas de final, Semifinal, Final | Colo Colo | Universidad de Chile | Colo Colo | 0 de 189 |
 | 2021 | 73 | Primeira fase, Segunda fase, Terceira fase, Quartas de final, Semifinal, Final | Colo Colo | Everton de Viña del Mar | Colo Colo | 2 de 176 |
-| 2022 | 13 | Quartas de final, Semifinal, Final | Magallanes | Unión Española | Magallanes | 0 de 27 |
-| 2023 | 13 | Fase regional, Semifinal, Final | Colo Colo | Magallanes | Colo Colo | 0 de 41 |
+| 2022 | 91 | Primeira fase, Segunda fase, Terceira fase, Oitavas de final, Quartas de final, Semifinal, Final | Magallanes | Unión Española | Magallanes | 0 de 247 |
+| 2023 | 88 | Segunda fase preliminar, Fase regional: oitavas, Fase regional: quartas, Fase regional: semifinal, Fase regional: final, Semifinal, Final | Colo Colo | Magallanes | Colo Colo | 0 de 285 |
 | 2024 | 119 | Fase preliminar, Primeira fase preliminar, Segunda fase preliminar, Fase regional: oitavas, Fase regional: quartas, Fase regional: semifinal, Fase regional: final, Semifinal, Final | Universidad de Chile | Ñublense | Universidad de Chile | 1 de 368 |
-| 2025 | 29 | Oitavas de final, Quartas de final, Semifinal, Final | Huachipato | Deportes Limache | Huachipato | 0 de 99 |
+| 2025 | 125 | Fase de grupos, Oitavas de final, Quartas de final, Semifinal, Final | Huachipato | Deportes Limache | Huachipato | 0 de 349 |
 
 **Sobre a competição:** Copa nacional da ANFP, de 1958 em diante (sem 1963-73, 1976, 1997, 1999, 2001-07 e 2020). Em 1979-1982 é o Campeonato de Apertura (Copa Polla-Gol) e em 1983 a Copa República. Os jogos de 1984-1986 são parciais.
 
@@ -70,13 +70,13 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/chi-c
 - 1996: as quartas de final vêm sem título na página (depois das tabelas da 2ª divisão)
 - 1998: sem os clubes da Primera B, que se recusaram a jogar
 - 2000: Copa Carranza; os vencedores dos grupos jogam o mata-mata do "Torneo de Apertura"
-- 2013/14: a RSSSF só traz as tabelas dos grupos; jogos do mata-mata
-- 2014/15: a RSSSF só traz as tabelas dos grupos; jogos do mata-mata
-- 2015: a RSSSF só traz as tabelas dos grupos; jogos do mata-mata
+- 2013/14: jogos dos grupos pela Wikipédia em espanhol (a RSSSF só traz as tabelas, que conferem com eles); mata-mata pela RSSSF
+- 2014/15: jogos dos grupos pela Wikipédia em espanhol (a RSSSF só traz as tabelas, que conferem com eles); mata-mata pela RSSSF
+- 2015: jogos dos grupos pela Wikipédia em espanhol (a RSSSF só traz as tabelas, que conferem com eles); mata-mata pela RSSSF
 - 2019/20: a Wikipédia chama de 2019; final em janeiro de 2020
-- 2022: a RSSSF só traz das quartas de final em diante
-- 2023: a RSSSF só traz das finais zonais (quartas de final na prática) em diante
+- 2022: das quartas de final em diante pela RSSSF; fases 1 a 3 e oitavas pela Wikipédia em espanhol (página da edição e anexos da 3ª fase e das oitavas)
+- 2023: finais zonais em diante pela RSSSF; fase previa e fase regional (oitavas a semifinais de cada zona) pelos anexos da Wikipédia em espanhol; ficam de fora as preliminares amadoras de Aysén e Magallanes (só em chave, sem mando)
 - 2024: fases regionais por zona (Norte, Centro Norte, Centro Sur, Sur); os campeões zonais jogam as semifinais
-- 2025: a RSSSF só traz das oitavas de final em diante
+- 2025: das oitavas de final em diante pela RSSSF; fase zonal (8 grupos) pelo anexo da Wikipédia em espanhol
 
 **Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz).
