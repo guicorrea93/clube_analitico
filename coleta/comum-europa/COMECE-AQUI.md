@@ -108,6 +108,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `cze-1` Tcheco (liga da República Tcheca) | 33 (1993/94–2025/26) | 8.234 | 7.121 | 0 | 35 | (ver git log) |
 | `tch-1` Tchecoslovaco (com o Protetorado; 1948 não oficial) | 68 (1925–1992/93) | 11.791 | 0 | 0 | 66 | (ver git log) |
 | `pol-1` Polonês (torneios até 1926, 1946 e 1947; liga) | 98 (1921–2025/26) | 19.667 | 0 | 0 | 103 | (ver git log) |
+| `nor-1` Norueguês (Norgesserien, Hovedserien, Eliteserien) | 80 (1937/38–2025) | 12.368 | 14.830 | 11.950 | 128 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -210,7 +211,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 10 | Grécia | **pronta** `gre-1` (24/11) |
    | 11 | Tchéquia | **pronta** `cze-1` (25/11); a Tchecoslováquia também: **pronta** `tch-1` (25/11) |
    | 12 | Polônia | **pronta** `pol-1` (25/11) |
-   | 13 | Noruega |  |
+   | 13 | Noruega | **pronta** `nor-1` (25/11) |
    | 14 | Dinamarca |  |
    | 15 | Chipre |  |
    | 16 | Suíça |  |
@@ -266,7 +267,13 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    o Ruch, pela Copa (a Wisła venceu a liga); 1992/93: o Lech, depois dos dois jogos anulados. Bônus de 1986/87 a 1989/90
    em `ajuste_pontos`. Pronta em 25/11/2026.
 
-   **Próxima: a Noruega** (rank 13). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+   **Noruega (`nor-1`), escopo aprovado pelo Guilherme em 25/11/2026:** de 1937/38 a 2025, os 79 títulos de liga que a
+   federação reconhece, como a lista da RSSSF: Norgesserien (1937/38, 1938/39, 1947/48: grupos regionais e mata-mata),
+   Hovedserien (1948/49-1961/62), 1. divisjon, Tippeligaen e Eliteserien (ano civil desde 1963). Ficam de fora a
+   Prøveligaen de 1914-16 (teste), 1939/40 (interrompida) e a copa (o "campeão norueguês" até 1937 era o da copa: fase 2,
+   `nor-copa`). 2026 entra quando a temporada terminar. Pronta em 25/11/2026.
+
+   **Próxima: a Dinamarca** (rank 14). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
 
    **Correções do plano (seção 3 e regras da seção 2.2), feitas em 25/11/2026:**
    - colunas `pontos_empate` e `pontos_derrota` preenchidas no 3-2-1 da Grécia (até 1972/73 e na era antiga) e da Turquia
@@ -539,6 +546,16 @@ em `adjust_points_X` (o leitor comum lê os dois).
 - **Placares trocados entre ida e volta no ogol** (2025/26): a tabela não muda, então só o football-data desempata; testar
   o par inteiro, não só jogo a jogo.
 - **Heredoc com apóstrofo** ("club's") quebrou o bash: script em arquivo pelo Write.
+
+**Noruega, o que serve para outras ligas:**
+- **Prefixo da RSSSF por país não é óbvio** ("noo" para a Noruega): achar pela página `curdom.html` da RSSSF.
+- **Ligas de ano civil:** a última temporada pode estar em andamento (2026 tinha 216 de 240 jogos no ogol em 25/11); fica
+  para quando terminar.
+- **Cabeçalho com `{{Abbr|Agg.|...}}`** nas tabelas de mata-mata da Wikipédia: trocar pelo texto curto antes de limpar.
+- **Pênaltis no empate (1987):** a célula da matriz traz `1-1<sup>(4–2)</sup>`, às vezes dentro de um link; a tabela
+  usa `style=WL PK` (`PKwin_X`, `PKloss_X`).
+- **Página de temporada da RSSSF com a copa no meio:** usar os jogos dela só se 90% ou mais batem com o ogol.
+- **Clube e departamento de futebol** com artigos separados na Wikipédia: juntar; refundado com nome novo: separar.
 
 ## 7. Decisões do Guilherme já tomadas
 

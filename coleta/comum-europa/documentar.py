@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1", "nor-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -163,6 +163,14 @@ LIMITES: dict[str, list[str]] = {
         "Fora do escopo (decisão do Guilherme, 25/11/2026): 1920 (abandonado), 1924 (não disputado), 1939 (interrompido) e "
         "as ligas municipais da guerra; os jogos de acesso contra a 2ª divisão.",
     ],
+    "nor-1": [
+        "Norgesserien (1937/38, 1938/39, 1947/48): só um grupo por temporada tem os jogos (Distrito V, grupo B, na "
+        "Wikipédia em norueguês); os outros ficam com a tabela publicada.",
+        "Sem datas e rodadas até 1960/61 (só matrizes e tabelas do mata-mata). Autores dos gols e cartões só com a ESPN "
+        "(2008-2025) e, para os gols, com as páginas da RSSSF (1999-2003 e 2005); antes, nenhuma fonte em lote.",
+        "Fora do escopo (decisão do Guilherme, 25/11/2026): Prøveligaen de 1914-16, 1939/40 (interrompida) e a copa (fase "
+        "2); 2026 entra quando a temporada terminar.",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -214,6 +222,15 @@ REVISAO: dict[str, list[str]] = {
         "Placares do ogol trocados pela matriz da Wikipédia só quando ela fecha melhor com as tabelas, ou empatada com o "
         "football-data ou a RSSSF a favor (2004/05, 2006/07, 2007/08, 2022/23, 2025/26); o ogol rotula o Zagłębie Sosnowiec "
         "de 1985/86 como Zagłębie Wałbrzych (os 30 placares são os do Sosnowiec).",
+    ],
+    "nor-1": [
+        "Identidade: clube e departamento de futebol com artigos separados na Wikipédia como um clube só (Vålerengens IF e "
+        "Vålerenga Fotball, como a RSSSF; Mjøndalen, Sogndal, Ranheim, Strømsgodset, Kongsvinger, Lyn); refundados à parte "
+        "(Sarpsborg FK x Sarpsborg 08, Kristiansund FK x BK, Sandefjord BK x Sandefjord Fotball, que o ogol junta num código).",
+        "Norgesserien: classificação pelo mata-mata e depois pela posição no grupo, com os números da tabela do grupo; "
+        "jogos extras do mata-mata sem o mando (a Wikipédia não diz).",
+        "1987: o vencedor dos pênaltis de Molde x Lillestrøm (0-0) saiu da contagem da tabela da Wikipédia (o placar dos "
+        "pênaltis não está nas fontes).",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -540,7 +557,8 @@ def main() -> None:
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
             "está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), "
-            "Tchecoslováquia (`tch-1`) e Polônia (`pol-1`); a próxima é a Noruega. Uma por vez, com o escopo antes.", ""]
+            "Tchecoslováquia (`tch-1`), Polônia (`pol-1`) e Noruega (`nor-1`); a próxima é a Dinamarca. Uma por vez, com o "
+            "escopo antes.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

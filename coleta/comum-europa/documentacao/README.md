@@ -21,6 +21,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Tcheco | 33 (1993/94–2025/26) | 8234 | 7121 | 0 | 35 | 75 / 1 | 0 | [cze-1](cze-1.md) |
 | Campeonato Tchecoslovaco | 68 (1925–1992/93) | 11791 | 0 | 0 | 66 | 120 / 18 | 0 | [tch-1](tch-1.md) |
 | Campeonato Polonês | 98 (1921–2025/26) | 19667 | 0 | 0 | 103 | 139 / 74 | 0 | [pol-1](pol-1.md) |
+| Campeonato Norueguês | 80 (1937/38–2025) | 12368 | 14830 | 11950 | 128 | 116 / 4 | 0 | [nor-1](nor-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -82,6 +83,9 @@ Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 - **pol-1:** Grupo final de 1926 sem os jogos em nenhuma fonte (RSSSF, Wikipédia em inglês e em polonês): fica a tabela publicada.
 - **pol-1:** 9 temporadas antigas em que a matriz não fecha com as tabelas (que concordam entre si): a classificação fica com os números publicados.
 - **pol-1:** Fora do escopo (decisão do Guilherme, 25/11/2026): 1920 (abandonado), 1924 (não disputado), 1939 (interrompido) e as ligas municipais da guerra; os jogos de acesso contra a 2ª divisão.
+- **nor-1:** Norgesserien (1937/38, 1938/39, 1947/48): só um grupo por temporada tem os jogos (Distrito V, grupo B, na Wikipédia em norueguês); os outros ficam com a tabela publicada.
+- **nor-1:** Sem datas e rodadas até 1960/61 (só matrizes e tabelas do mata-mata). Autores dos gols e cartões só com a ESPN (2008-2025) e, para os gols, com as páginas da RSSSF (1999-2003 e 2005); antes, nenhuma fonte em lote.
+- **nor-1:** Fora do escopo (decisão do Guilherme, 25/11/2026): Prøveligaen de 1914-16, 1939/40 (interrompida) e a copa (fase 2); 2026 entra quando a temporada terminar.
 
 ## Com o agente de revisão
 
@@ -103,7 +107,10 @@ Decisões da coleta que a revisão confere.
 - **pol-1:** Identidade pelos links da Wikipédia: o PKS Szczecin de 1946-47 como o Pogoń Szczecin, o Motor Białystok (1947) como o Jagiellonia, o Grochów (1947) como o Gwardia Varsóvia, o RKU Sosnowiec como o Zagłębie; o Olimpia/Lechia Gdańsk de 1995/96 à parte do Lechia (o ogol junta) e o Sokół Tychy como o GKS Tychy; o 22 pp Siedlce e o Strzelec Siedlce como um clube só (a RSSSF diz que mudou de nome).
 - **pol-1:** 1922: a RSSSF trocou as matrizes dos dois grupos; os jogos vêm da matriz certa, e os números fecham com a Wikipédia polonesa. 1951: campeão o Ruch (6º na liga, pela Copa); 1992/93: os dois jogos anulados ficam fora.
 - **pol-1:** Placares do ogol trocados pela matriz da Wikipédia só quando ela fecha melhor com as tabelas, ou empatada com o football-data ou a RSSSF a favor (2004/05, 2006/07, 2007/08, 2022/23, 2025/26); o ogol rotula o Zagłębie Sosnowiec de 1985/86 como Zagłębie Wałbrzych (os 30 placares são os do Sosnowiec).
+- **nor-1:** Identidade: clube e departamento de futebol com artigos separados na Wikipédia como um clube só (Vålerengens IF e Vålerenga Fotball, como a RSSSF; Mjøndalen, Sogndal, Ranheim, Strømsgodset, Kongsvinger, Lyn); refundados à parte (Sarpsborg FK x Sarpsborg 08, Kristiansund FK x BK, Sandefjord BK x Sandefjord Fotball, que o ogol junta num código).
+- **nor-1:** Norgesserien: classificação pelo mata-mata e depois pela posição no grupo, com os números da tabela do grupo; jogos extras do mata-mata sem o mando (a Wikipédia não diz).
+- **nor-1:** 1987: o vencedor dos pênaltis de Molde x Lillestrøm (0-0) saiu da contagem da tabela da Wikipédia (o placar dos pênaltis não está nas fontes).
 
 ## Próximas ligas
 
-- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), Tchecoslováquia (`tch-1`) e Polônia (`pol-1`); a próxima é a Noruega. Uma por vez, com o escopo antes.
+- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), Tchecoslováquia (`tch-1`), Polônia (`pol-1`) e Noruega (`nor-1`); a próxima é a Dinamarca. Uma por vez, com o escopo antes.

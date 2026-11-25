@@ -1623,3 +1623,72 @@ Para o agente 1 (banco e painel) e o agente de revisão.
      `docs/coleta/pol-1.md`);
    - 2006/07 e 2007/08: a matriz da Wikipédia discorda do ogol em 8 e 10 jogos; ficou o ogol, que fecha com a tabela.
 8. **Próxima tarefa:** Noruega (rank 13 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+
+## Recado de fim de coleta — nor-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Norueguês, de 1937/38 a 2025:
+   - 80 edições, 12.368 jogos, 128 clubes;
+   - 14.830 gols com autor e 11.950 cartões;
+   - títulos (os 79 que a federação reconhece, iguais à lista da RSSSF): Rosenborg 26, Fredrikstad 9, Viking 9,
+     Lillestrøm 5, Molde 5, Vålerenga 5, Bodø/Glimt 4 e mais 10 clubes.
+
+   Escopo aprovado pelo Guilherme (25/11/2026):
+   - Norgesserien (1937/38, 1938/39 e 1947/48): 11 grupos regionais e mata-mata;
+   - Hovedserien (1948/49 a 1961/62);
+   - 1. divisjon, Tippeligaen e Eliteserien (ano civil desde 1963);
+   - ficam de fora a Prøveligaen de 1914-16 (liga de teste), 1939/40 (interrompida pela guerra) e a copa (até 1937, o
+     "campeão norueguês" era o vencedor da copa: fica para a fase 2, `nor-copa`);
+   - 2026 entra quando a temporada terminar.
+
+   Fontes:
+   - **Wikipédia (en):** tabelas, matriz de resultados (base dos jogos até 1960/61), mata-mata e finais;
+   - **Wikipédia (no):** a matriz do único grupo da Norgesserien que tem os jogos;
+   - **ogol:** base dos jogos desde 1961/62, com data, hora e rodada;
+   - **ESPN:** gols e cartões de 2008 a 2025;
+   - **RSSSF:** páginas de temporada desde 1998 (autores dos gols de 1999 a 2003 e 2005), campeões e artilheiros;
+   - **football-data:** placar e hora desde 2012.
+
+   Conferência: 116 tabelas fecham com os jogos e 4 divergem (1947/48, 1971, 1996, 2007).
+2. **Commit:** o deste recado ("Coleta Europa: Campeonato Norueguês (nor-1), 1937/38 a 2025").
+3. **Teste de carga:** "nor-1: 80 edições, 12368 jogos, 128 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `nor-1` e liberar no seletor;
+   - **país:** Noruega (`NOR`);
+   - **rótulos de temporada:**
+     - de "1937/38" a "1961/62" (sem 1939/40 a 1946/47);
+     - de "1963" em diante, ano civil;
+     - não existe "1962": a temporada 1961/62 durou um ano e meio;
+   - **Norgesserien:** 11 grupos (fase "Grupos", grupo "Distrito I" etc.), só com `tabelas_publicadas`, menos o
+     "Distrito V, grupo B", que tem os jogos;
+     - a classificação final usa os números da tabela do grupo mais os do mata-mata;
+     - fases do mata-mata: "Preliminar", "Quartas de final", "Semifinal", "Final" e os "Desempate da …" (jogos extras,
+       sem o mando);
+   - **Hovedserien:** "Grupos" (Grupo A e B) e "Final";
+   - **1987:** empate decidido nos pênaltis (`penaltis_mandante`/`penaltis_visitante`); o ponto a mais do vencedor
+     está em `ajuste_pontos`;
+   - **sem datas e rodadas até 1960/61:** a Corrida só anda rodada a rodada desde 1961/62.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pelo alvo do link da Wikipédia:**
+     - clube e departamento de futebol com artigos separados são o mesmo clube (Vålerengens IF e Vålerenga Fotball, como
+       a RSSSF; Mjøndalen, Sogndal, Ranheim, Strømsgodset, Kongsvinger, Lyn);
+     - clubes refundados com outro nome ficam à parte: Sarpsborg FK x Sarpsborg 08, Kristiansund FK x Kristiansund BK,
+       Sandefjord BK x Sandefjord Fotball (o ogol usa um código só para os dois Sandefjord);
+   - (b) **o "Fjell" de 1938/39** é o IL Sørfjell (Eydehavn, Arendal), pela Wikipédia em norueguês;
+   - (c) **ogol x matriz da Wikipédia:** o placar da matriz só fica quando fecha melhor com as tabelas, ou, empatado,
+     com o football-data ou a RSSSF a favor (4 jogos, anotados);
+   - (d) **1987, Molde x Lillestrøm (0-0):** a matriz não traz os pênaltis; o vencedor saiu da contagem de vitórias nos
+     pênaltis da tabela da Wikipédia.
+6. **O que não deu para coletar:**
+   - os jogos de 10 dos 11 grupos de cada Norgesserien;
+   - datas e rodadas até 1960/61;
+   - autores dos gols e cartões antes de 2008 (fora as páginas da RSSSF de 1999 a 2003 e 2005);
+   - o mando dos jogos extras do mata-mata e da final de 1958/59.
+
+   Fonte possível: jornais da época e a ficha de cada jogo no ogol.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade dos clubes (clube x departamento de futebol, refundados);
+   - a ordem da Norgesserien (o mata-mata, depois a posição no grupo);
+   - 1996: a matriz da Wikipédia e o ogol trocam placares entre jogos do Molde e do Strømsgodset; ficou o ogol.
+8. **Próxima tarefa:** Dinamarca (rank 14 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.

@@ -90,6 +90,11 @@ REGRAS: list[tuple[re.Pattern, callable]] = [
 
 # frases sem regra: a tradução (None = descartada). Chave = a nota como vem da Wikipédia (sem o ponto final).
 MANUAL: dict[str, str | None] = {
+    # Noruega (nor-1)
+    "VIF Fotball were deducted two points due to financial issues": "2 pontos a menos por problemas financeiros",
+    "Odd Grenland were deducted 1 point for lack of financial control": "1 ponto a menos por falta de controle financeiro",
+    "Lillestrøm started the season with a one point deduction due to poor financial reporting":
+        "começou a temporada com 1 ponto a menos por falhas na prestação de contas",
     # Polônia (pol-1)
     'Two final day games (Wisła Kraków vs Legia Warsaw 0–6; ŁKS Łódź vs Olimpia Poznań 7–1) were cancelled':
         'dois jogos da última rodada (Wisła Kraków 0-6 Legia Varsóvia e ŁKS Łódź 7-1 Olimpia Poznań) foram anulados',
