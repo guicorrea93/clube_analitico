@@ -1247,3 +1247,49 @@ Também neste commit:
 - **Gaúcho:** a SE São Borja saía no `clubes.csv` com o nome "241325" (o código), porque a ficha vem da Série C e não da lista do ogol do Gaúcho. Agora sai "SE São Borja" (`clubes_rs1.DE_OUTRAS_COLETAS`). Só esse nome muda no pacote (365 jogos).
 - **Mineiro:** o relatório `docs/coleta/bra-mg-1.md` deixa de listar o "Palmeiras" sem ogol (a correção de 1921 do commit do Gaúcho); o pacote não muda.
 - **`registro.FICHA_COMUM`:** a cidade do Água Verde (39780) é "Curitiba" (o ogol escreve "Curitiba. PR"). Só o Paranaense usa essa ficha.
+
+## Recado de fim de coleta — bra-ce-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-ce-1.md`;
+relatório ano a ano: `docs/coleta/bra-ce-1.md`.
+
+1. **O que foi feito:** Campeonato Cearense (1ª divisão), escopo aprovado pelo Guilherme em 25/11.
+   - 112 edições, de 1915 a 2026 (a conta da FCF). Ficam fora 1913 (campeão desconhecido) e 1914 (a FCF não reconhece). 1915-1919 são os torneios da Liga Metropolitana, reconhecidos pela FCF em 2008.
+   - **17 edições sem jogos em nenhuma fonte** (1916-1919, 1924-1927, 1929-1932, 1934-1938) entram só com campeão e vice, por decisão do Guilherme. 1915 tem só a final.
+   - 8.501 jogos, 57 clubes (34 novos no banco), 2.821 gols com autor (de 24.598), nenhum cartão e 110 artilheiros.
+   - Tabelas publicadas: 185 fecham com os jogos e 95 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesae/ce{ano}.htm`; campeões em `cecamp.htm`, artilheiros em `cetops.htm`). O site parou de responder em 25/11: 87 páginas vieram da cópia do Internet Archive (lista em `data/coleta/bra-ce-1/rsssfbrasil/origem.json`). Sem página: 2025 e 2026;
+     - ogol ("campeonato-cearense"), com os calendários em `data/cache/ogol-bra-ce-1/`. Tem jogos de 2001 a 2026 e de 1920, 1949, 1961 e 1994;
+     - Wikipédia em português ("Campeonato Cearense de Futebol Masculino"): campeão e vice de cada ano.
+   - O campeão bate com a RSSSF e a Wikipédia em todas as edições. O vice bate em todas as que a Wikipédia dá (1915 e 1916-1919: a Wikipédia não tem vice).
+2. **Commit:** o deste recado (`Coleta Cearense (bra-ce-1): 112 edições, 8.501 jogos`).
+3. **Teste de carga:** `bra-ce-1: 112 edições, 8501 jogos, 34 clubes novos -> CONFERIR`, só por causa do `co_campeao` de 1992 (item 4). O carregador ignora a tabela por rodada em 2000, 2014, 2018, 2019 e 2021, que têm mais de uma fase.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-ce-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` CE, `rotulo_painel` "Cearense".
+   - **Edição sem jogos:** 17 linhas de `edicoes.csv` sem nenhuma partida, com campeão e vice. O carregador aceita (confere 0 jogos). O painel precisa mostrá-las na lista de campeões sem quebrar a tabela e a Corrida. O Orion (campeão de 1930) está no `clubes.csv` sem jogo nenhum.
+   - **`co_campeao` com mais de um clube:** 1992 teve quatro campeões (Fortaleza, Ceará, Tiradentes e Icasa). `co_campeao` = "Ceará / Tiradentes-CE / Icasa". Hoje o carregador aceita um clube só e deixa o campo vazio. Peço que aceite a lista separada por " / ".
+   - **Fases novas:** "1º Turno - Fase final", "2º Turno - Fase final", "3º Turno - Fase final", "4º Turno - Fase final" (quadrangular ou triangular de cada turno), "3º Turno - Final", "4º Turno - Final", "Turnos - Segunda fase", "Turnos - Semifinal", "Turnos - Fase final" e "Turnos - Final" (fases de todos os turnos juntos, 1988, 1990, 1996 e 1998). Os desempates fora da tabela ficam em "Desempate".
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Novos homônimos: "Orion-CE", "Iguatu 1996" (o Iguatu de 1996-1997; a ficha do ogol é de 2010) e "Esporte Limoeiro".
+5. **Decisões:**
+   - **Que eu tomei:**
+     - "Guarany" sem cidade: o de Fortaleza até 1960, o de Sobral depois; "Guarani" é o de Juazeiro do Norte;
+     - "Esporte", "Esporte Limoeiro" e "Limoeiro" de 1995 a 2000 são o Esporte Clube Limoeiro (o Limoeiro do ogol é de 2001);
+     - Maguari/Maguary, Luso, Tramways, Fluminense, Flamengo e Peñarol/Penarol juntam as grafias;
+     - 1939: os dois jogos marcados "jogo anulado" ficam fora; o "este jogo não terminou" fica, com nota;
+     - 2004: a linha "n/p" da final que não houve fica fora; a nota da edição explica;
+     - fora do pacote: a Taça Padre Cícero de 2012 (título à parte, como a Final do Interior do Paraná).
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **1916-1919, 1924-1927, 1929-1932 e 1934-1938:** sem jogos em nenhuma fonte achada (a RSSSF não tem página de 1924-1938, salvo 1928 e 1933).
+   - **"América-R" (1996) e "Russas" (1997):** talvez o mesmo clube; ficam separados.
+   - **Páginas de 1996 e 1998:** quase sem datas, ou só com o dia e o mês.
+   - **Autores dos gols:** 11%.
+7. **Onde a revisão deve olhar primeiro:**
+   - as fases dadas à mão (`rsssf_ce1.FASE_ANO` e as regras do Cearense em `importar.FASES_PT`), sobretudo 1988-1999;
+   - as páginas que vieram do Internet Archive, quando a RSSSF voltar (comparar com as do site);
+   - as 95 tabelas divergentes.
+8. **Próximo campeonato:** Goiano (`bra-go-1`), 7º do ranking da CBF; escopo antes, só com o ok do Guilherme. Antes dele, o Gaúcho de 1918 como edição sem jogos (a mesma decisão).
+
+Também neste commit:
+- **Paranaense:** a introdução do relatório (`coleta/bra-pr-1/explicacoes.py` e `docs/coleta/bra-pr-1.md`) tinha ficado com o texto do Gaúcho; agora descreve o Paraná. O pacote não muda.

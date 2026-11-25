@@ -13,8 +13,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Paulista Série A2 | 80 (1947–2026) | 9214 | 4526 | 0 | 184 | 134 / 31 | sim (80 edições, 9214 jogos) | 4 | [bra-sp-2](bra-sp-2.md) |
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 3 | [bra-rj-1](bra-rj-1.md) |
 | Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | sim (113 edições, 11521 jogos) | 4 | [bra-mg-1](bra-mg-1.md) |
-| Campeonato Gaúcho | 106 (1919–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | não | 5 | [bra-rs-1](bra-rs-1.md) |
-| Campeonato Paranaense | 113 (1915–2026) | 14315 | 2410 | 0 | 142 | 209 / 225 | não | 6 | [bra-pr-1](bra-pr-1.md) |
+| Campeonato Gaúcho | 106 (1919–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | sim (106 edições, 13393 jogos) | 5 | [bra-rs-1](bra-rs-1.md) |
+| Campeonato Paranaense | 113 (1915–2026) | 14315 | 2410 | 0 | 142 | 209 / 225 | sim (113 edições, 14315 jogos) | 6 | [bra-pr-1](bra-pr-1.md) |
+| Campeonato Cearense | 112 (1915–2026) | 8501 | 2821 | 0 | 57 | 185 / 95 | não | 5 | [bra-ce-1](bra-ce-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -53,6 +54,11 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-pr-1:** Vices diferentes da Wikipédia: 1923-1926 e 1940 (a Wikipédia dá o Operário Ferroviário; as páginas da RSSSF não têm jogo com ele) e 1941 (a página dá a final Coritiba 6-1 Antoninense; a Wikipédia, Jacarezinho). Fica o da página.
 - **bra-pr-1:** Fora do pacote: o jogo de 24/08/1924 "Atlético 2-1 Atlético" (a página não diz o adversário) e a Final do Interior de 2015 e 2016 (título à parte, como o Troféu do Interior do Gaúcho).
 - **bra-pr-1:** Tabelas divergentes a explicar no relatório (225, contra 209 que batem). Autores dos gols: as páginas quase não trazem (6% dos gols; 2021-2026 sem autor). Cartões: só jogo a jogo, pela ficha do ogol.
+- **bra-ce-1:** 17 edições sem jogos em nenhuma fonte (1916-1919, 1924-1927, 1929-1932, 1934-1938) entram só com campeão e vice (importar.PODIO_SEM_JOGOS; decisão do Guilherme em 25/11). 1915 tem só a final. O Orion, campeão de 1930, só aparece nessas edições.
+- **bra-ce-1:** 1992: título dividido entre Fortaleza, Ceará, Tiradentes e Icasa. `co_campeao` traz os três outros separados por " / "; o carregador aceita um clube só (pedido ao agente 1). 2004: sem final (liminar; o STJD deu o título ao Fortaleza); a linha "n/p" da página fica fora.
+- **bra-ce-1:** A RSSSF Brasil parou de responder em 25/11: 87 páginas vieram do Internet Archive (rsssfbrasil/origem.json). Sem página: 2025 e 2026 (jogos só do ogol). As páginas de 1988-1990 perderam os acentos (rsssf_ce1._acentos).
+- **bra-ce-1:** Identidade a revisar: "Iguatu 1996" (o Iguatu de 1996-1997; a ficha do ogol é de 2010), "América-R" (1996) e "Russas" (1997), talvez o mesmo clube; Esporte Clube Limoeiro (1995-2000) separado do Limoeiro do ogol (2001).
+- **bra-ce-1:** Fora do pacote: a Taça Padre Cícero de 2012 (título à parte). Tabelas divergentes a explicar no relatório (95, contra 185 que batem). Autores dos gols: 11% (as páginas quase não trazem). Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

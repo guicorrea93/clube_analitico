@@ -77,7 +77,8 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | be07b131 (25/11) | não; carregar | OK (64 clubes novos) |
 | `bra-rs-1` Gaúcho | 106 (1919–2026; sem 1918, 1923 e 1924) | 13.393 | 3a0ffbba; nome do SE São Borja corrigido neste commit (25/11) | não; carregar | OK (105 clubes novos) |
-| `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | neste commit (25/11) | não; carregar | OK (104 clubes novos) |
+| `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | a2db8a40 (25/11) | não; carregar | OK (104 clubes novos) |
+| `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | neste commit (25/11) | não; carregar | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -106,9 +107,9 @@ As 27 posições foram conferidas no PDF.
 | 2 | RJ | 61.308 | `bra-rj-1` Carioca | **pronto** (no banco) |
 | 3 | MG | 41.451 | `bra-mg-1` Mineiro | **pronto** (be07b131, 25/11; falta o agente 1 carregar) |
 | 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (3a0ffbba, 25/11; falta o agente 1 carregar) |
-| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
-| 6 | CE | 24.954 | `bra-ce-1` Cearense | **próximo** (pesquisa a fundo e proposta de escopo antes) |
-| 7 | GO | 24.148 | `bra-go-1` Goiano | falta |
+| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (a2db8a40, 25/11; falta o agente 1 carregar) |
+| 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
+| 7 | GO | 24.148 | `bra-go-1` Goiano | **próximo** (pesquisa a fundo e proposta de escopo antes) |
 | 8 | SC | 23.938 | `bra-sc-1` Catarinense | falta |
 | 9 | BA | 23.642 | `bra-ba-1` Baiano | falta |
 | 10 | PE | 14.158 | `bra-pe-1` Pernambucano | falta |
@@ -134,9 +135,24 @@ Já prontos fora dos estaduais de 1ª divisão: Séries C e D, Copa do Brasil e 
 seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de
 `docs/coleta/pedidos.md`. Autores pela ficha do ogol e jornais da A2: só se o Guilherme pedir.
 
-1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`) e Paranaense (`bra-pr-1`) feitos em 25/11.** Próximo: o Cearense
-   (`bra-ce-1`), 6º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme. Em aberto com ele: o Gaúcho de
-   1918 (campeões honoríficos da FGF em 2021) entra como edição sem jogos?
+1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
+   Próximo: o Goiano (`bra-go-1`), 7º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme. A fazer: o
+   Gaúcho de 1918 como edição sem jogos (mesma decisão do Cearense, abaixo), com os três campeões honoríficos.
+   **Escopo do Cearense, aprovado pelo Guilherme em 25/11:**
+   - 1915 a 2026, 112 edições (a conta da FCF e da Wikipédia). Ficam fora 1913 (campeão desconhecido) e 1914 (Rio
+     Branco; a FCF não reconhece e a RSSSF duvida que tenha existido). 1915-1919 (Liga Metropolitana) entram: a FCF
+     reconheceu os títulos em 2008 (Ato nº 11/2008).
+   - **Edições sem jogos entram**, só com campeão e vice (decisão do Guilherme, 25/11): 1916-1919 (a página só traz
+     participantes e campeão) e 1924-1927, 1929-1932, 1934-1938 (sem página da RSSSF, sem jogos no ogol nem na
+     Wikipédia). 1915 só tem a final. Pedir ao agente 1 que o carregador e o painel aceitem edição sem jogos. A mesma
+     decisão vale para o Gaúcho de 1918 (campeões honoríficos: Brasil de Pelotas, Cruzeiro e 14 de Julho), a fazer.
+   - 1992: título dividido entre Fortaleza, Ceará, Tiradentes e Icasa (`co_campeao` com os três outros; vice pela D-07).
+   - 2004: sem final (liminar); o STJD deu o título ao Fortaleza. Vice o Ceará (venceu o 2º turno), com nota.
+   - 2025: sem página da RSSSF; jogos do ogol, conferidos com o artigo da Wikipédia.
+   - Fontes: RSSSF Brasil (`tablesae/ce{ano}.htm`; lista em `cecamp.htm`); quando o site não responde, a cópia do
+     Internet Archive (`web.archive.org/web/2025id_/...`), anotada no relatório; ogol ("campeonato-cearense") e
+     Wikipédia pt ("Campeonato Cearense de Futebol Masculino").
+   - Ficam para a etapa 4: Torneio Início e Taça/Copa Fares Lopes.
    **Escopo do Paranaense, aprovado pelo Guilherme em 25/11:**
    - 1915 a 2026 (todos os anos disputados; RSSSF `tablesfq/pr{ano}.htm` e ogol "campeonato-paranaense").
    - 1980: título dividido entre Colorado e Cascavel (`co_campeao`; vice = o próximo que não é campeão, D-07).
@@ -384,6 +400,22 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Jogo só do ogol no mata-mata** (2020, 2026): vale o código de fase do ogol (QF, SF, F) antes da "fase em que os dois
   já se cruzaram"; final de turno (2018) é a "F" logo depois da semifinal do turno.
 - **Final do Interior** (2015 e 2016): título à parte, fora do pacote (`A_PARTE`), como o Troféu do Interior do Gaúcho.
+
+**Cearense (o que valeu aprender)**
+- **Site da RSSSF fora do ar no meio do download:** `baixar_rsssf.py` cai para a cópia do Internet Archive
+  (`web.archive.org/web/2026id_/<url>`, sem a barra do Archive) depois da 1ª falha e anota cada página em
+  `rsssfbrasil/origem.json`. Use tempo-limite no curl: sem ele o download parou sem erro.
+- **Formatos das páginas do livro do Nirez (1939-1999):** "23/04/39 Penarol 5-3 Ferroviário" (data com ano na frente),
+  "26.01.69" sozinha na linha com "Ferroviário 1 x 0 Tiradentes" embaixo, "05.03-Ceará 2x1 Ferroviário" em duas colunas
+  (1995), "25.fevereiro.1996.domingo", jogo quebrado em duas linhas (1985) e acentos perdidos (1988-1990, o caractere
+  "\ufffd"). Um conversor geral por formato em `rsssf_ce1.py`; os de uma página só entram no começo da lista
+  (`CORRECOES[...][0:0]`), antes do conversor de data.
+- **Edição sem jogos:** `edicoes.SEM_JOGOS` e `importar.PODIO_SEM_JOGOS` (códigos, como em `NOME_CODIGO`); o pacote
+  escreve campeão e vice e põe no `clubes.csv` quem só aparece no pódio (o Orion de 1930). O carregador aceita (0 jogos).
+- **Nome curto sem calendário do ogol virava clube "rs-" com o mesmo nome de exibição** do clube do ogol ("América" ->
+  "América-CE" duas vezes): o carregador para com UNIQUE em `classificacao_final`. O `confere_nomes.py` mostra antes
+  ("nomes repetidos no cadastro comum"); a saída é pôr o nome curto em `NOME_CODIGO`.
+- **`co_campeao` com mais de um clube** (1992, quatro campeões): o carregador só aceita um; pedido ao agente 1.
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,

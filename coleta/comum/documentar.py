@@ -28,7 +28,7 @@ AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
 COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1",
-               "bra-pr-1"]
+               "bra-pr-1", "bra-ce-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -121,6 +121,20 @@ PENDENCIAS: dict[str, list[str]] = {
         "Interior de 2015 e 2016 (título à parte, como o Troféu do Interior do Gaúcho).",
         "Tabelas divergentes a explicar no relatório (225, contra 209 que batem). Autores dos gols: as páginas quase não "
         "trazem (6% dos gols; 2021-2026 sem autor). Cartões: só jogo a jogo, pela ficha do ogol.",
+    ],
+    "bra-ce-1": [
+        "17 edições sem jogos em nenhuma fonte (1916-1919, 1924-1927, 1929-1932, 1934-1938) entram só com campeão e vice "
+        "(importar.PODIO_SEM_JOGOS; decisão do Guilherme em 25/11). 1915 tem só a final. O Orion, campeão de 1930, só "
+        "aparece nessas edições.",
+        "1992: título dividido entre Fortaleza, Ceará, Tiradentes e Icasa. `co_campeao` traz os três outros separados por "
+        "\" / \"; o carregador aceita um clube só (pedido ao agente 1). 2004: sem final (liminar; o STJD deu o título ao "
+        "Fortaleza); a linha \"n/p\" da página fica fora.",
+        "A RSSSF Brasil parou de responder em 25/11: 87 páginas vieram do Internet Archive (rsssfbrasil/origem.json). Sem "
+        "página: 2025 e 2026 (jogos só do ogol). As páginas de 1988-1990 perderam os acentos (rsssf_ce1._acentos).",
+        "Identidade a revisar: \"Iguatu 1996\" (o Iguatu de 1996-1997; a ficha do ogol é de 2010), \"América-R\" (1996) e "
+        "\"Russas\" (1997), talvez o mesmo clube; Esporte Clube Limoeiro (1995-2000) separado do Limoeiro do ogol (2001).",
+        "Fora do pacote: a Taça Padre Cícero de 2012 (título à parte). Tabelas divergentes a explicar no relatório (95, contra "
+        "185 que batem). Autores dos gols: 11% (as páginas quase não trazem). Cartões: só jogo a jogo, pela ficha do ogol.",
     ],
 }
 
