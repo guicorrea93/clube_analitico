@@ -882,7 +882,9 @@ def main() -> None:
                    else f"pontos corridos ({vezes})")
         tab["edicoes"].append({"temporada": T, "ano_inicio": a, "ano_fim": a + 1, "nome_oficial": nome_oficial(a), "num_clubes": n,
                                "pontos_vitoria": pv, "formato": formato,
-                               "campeao": clubes.exibicao(campeao), "vice": clubes.exibicao(vice),
+                               # título dividido: o outro campeão vai em co_campeao, sem vice (plano de coleta, 2.2)
+                               "campeao": clubes.exibicao(campeao), "vice": None if dividido else clubes.exibicao(vice),
+                               "co_campeao": clubes.exibicao(next(c for c in dividido if c != campeao)) if dividido else None,
                                "fontes": " + ".join(fontes_ed),
                                "observacao": "; ".join(x for x in (
                                    f"título dividido: {dividido[0]} e {dividido[1]}" if dividido else "",

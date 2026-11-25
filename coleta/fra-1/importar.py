@@ -1022,7 +1022,7 @@ def main() -> None:
                 "resultado decidido pela federação (no ogol: \"DA\", decisão administrativa)"
                 if o and o["resultado"] == "DA" else
                 "mando corrigido (a base e o ogol trazem o mando trocado)" if j.get("invertido") else None,
-                "arbitro": (x or {}).get("Referee") or None})
+                "arbitro": (x or {}).get("Referee") or None, "_derrota_dois": j.get("vencedor") == "nenhum"})
             gols_ano += j["gm"] + j["gv"]
             if e and e["lances"]:
                 gl = [l for l in e["lances"] if l["gol"]]

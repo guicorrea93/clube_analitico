@@ -275,10 +275,13 @@ def montar(tab: dict, nomes: dict, ocorr: dict) -> list[tuple]:
         obs_ed = (f"{comp}: título reconhecido pela federação desde 2002" if conta else
                   f"{comp}: vencedor {clubes.exibicao(campeao)}; {NAO_RECONHECIDO}")
         tab["edicoes"].append({"temporada": T, "ano_inicio": a1, "ano_fim": a2, "nome_oficial": comp, "num_clubes": len(ordem),
-                               "pontos_vitoria": pts[0], "formato": " → ".join(fases_unicas),
-                               "campeao": clubes.exibicao(campeao) if conta else None,
-                               "vice": clubes.exibicao(vice_c) if conta else None,
-                               "fontes": "Wikipédia (en)" + (" + RSSSF" if tb_rs else ""), "observacao": obs_ed})
+                               "pontos_vitoria": pts[0], "pontos_empate": pts[1] if pts == (3, 2, 1) else None,
+                               "pontos_derrota": pts[2] if pts == (3, 2, 1) else None, "formato": " → ".join(fases_unicas),
+                               # edição não reconhecida pela federação (D-09): o vencedor fica, com oficial = "não"
+                               # (plano de coleta, 2.2), e o painel não conta o título
+                               "campeao": clubes.exibicao(campeao), "vice": clubes.exibicao(vice_c),
+                               "fontes": "Wikipédia (en)" + (" + RSSSF" if tb_rs else ""), "observacao": obs_ed,
+                               "oficial": None if conta else "não"})
         tab["conferencia"].append({"temporada": T, "jogos": len(jogos), "jogos_esperados": None, "tabelas_conferidas": conferidas,
                                    "tabelas_divergentes": divergentes, "gols": gols, "gols_com_autor": autor,
                                    "observacao": obs_ed})

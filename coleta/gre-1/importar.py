@@ -959,7 +959,7 @@ def main() -> None:
                 "resultado_especial": j.get("especial"), "estadio": (e or {}).get("estadio") or j.get("estadio"),
                 "cidade": (e or {}).get("cidade") or j.get("cidade"), "publico": (e or {}).get("publico") or None,
                 "fonte": " + ".join(fontes), "fonte_id": "|".join(ids), "gols_texto": None, "observacao": obs,
-                "arbitro": (x or {}).get("Referee") or j.get("arbitro") or None})
+                "arbitro": (x or {}).get("Referee") or j.get("arbitro") or None, "_derrota_dois": bool(j.get("dois"))})
             gols_ano += j["gm"] + j["gv"]
             if j.get("gols_wiki") and not j.get("especial"):   # ficha da Wikipédia (desempates)
                 gm_, gv_ = j["gols_wiki"]
@@ -1028,7 +1028,9 @@ def main() -> None:
         sist = {(3, 2, 1): "3 pontos por vitória, 2 por empate e 1 por derrota", (2, 1, 0): "2 pontos por vitória",
                 (3, 1, 0): "3 pontos por vitória"}[pts]
         tab["edicoes"].append({"temporada": T, "ano_inicio": a, "ano_fim": a + 1, "nome_oficial": nome_oficial(a), "num_clubes": n,
-                               "pontos_vitoria": pts[0], "formato": formato, "campeao": clubes.exibicao(campeao),
+                               "pontos_vitoria": pts[0], "pontos_empate": pts[1] if pts == (3, 2, 1) else None,
+                               "pontos_derrota": pts[2] if pts == (3, 2, 1) else None, "formato": formato,
+                               "campeao": clubes.exibicao(campeao),
                                "vice": clubes.exibicao(ordem_final[1]), "fontes": " + ".join(dict.fromkeys(fontes_ed)),
                                "observacao": "; ".join(x for x in (sist if pts == (3, 2, 1) else "",
                                                                     f"punições: {pun}" if pun else "",

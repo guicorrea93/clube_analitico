@@ -222,13 +222,21 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Títulos:**
 
-- Galatasaray: 26
-- Fenerbahçe: 19
-- Beşiktaş: 16
+- Fenerbahçe: 28
+- Galatasaray: 27
+- Beşiktaş: 21
 - Trabzonspor: 7
+- Harp Okulu: 3
+- Gençlerbirliği: 2
 - Bursaspor: 1
 - İstanbul Başakşehir: 1
-- Sem campeão: 1924 (Şampiyonası), 1927 (Şampiyonası), 1932 (Şampiyonası), 1933 (Şampiyonası), 1934 (Şampiyonası), 1935 (Şampiyonası), 1937 (Millî Küme), 1938 (Millî Küme), 1939 (Millî Küme), 1940 (Millî Küme), 1940 (Şampiyonası), 1941 (Millî Küme), 1941 (Şampiyonası), 1942 (Şampiyonası), 1943 (Millî Küme), 1944 (Millî Küme), 1944 (Şampiyonası), 1945 (Millî Küme), 1945 (Şampiyonası), 1946 (Millî Küme), 1946 (Şampiyonası), 1947 (Millî Küme), 1947 (Şampiyonası), 1949 (Şampiyonası), 1950 (Millî Küme), 1950 (Şampiyonası), 1951 (Şampiyonası)
+- Muhafızgücü: 1
+- İstanbulspor: 1
+- Güneş: 1
+- Eskişehir Demirspor: 1
+- Ankara Demirspor: 1
+- Ankaragücü: 1
+- Göztepe: 1
 
 **Rebaixamentos:** 181 no total; quem mais caiu: Samsunspor (7), Kayseri Erciyesspor (7), Adana Demirspor (6), Karşıyaka (6), Ankaragücü (6).
 

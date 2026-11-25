@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 ## 1. O que temos
 
 - **Edições:** 92, de 1934/35 a 2025/26.
-- **Jogos:** 20978; **gols:** 59544; **gols com autor:** 18958 (32%); **cartões:** 30915; **jogos com estatísticas** (chutes, faltas, escanteios): 2754.
+- **Jogos:** 20978; **gols:** 59542; **gols com autor:** 18958 (32%); **cartões:** 30915; **jogos com estatísticas** (chutes, faltas, escanteios): 2754.
 - **Clubes:** 73; **artilheiros:** 92 temporadas com artilheiro (99 linhas, com empates).
 - **Classificação final:** 92 temporadas; **rodada a rodada:** 92 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2820 linhas, de 184 tabelas.

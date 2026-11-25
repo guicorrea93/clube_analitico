@@ -797,7 +797,8 @@ def main() -> None:
                 "resultado_especial": "awd" if j.get("especial") else None,
                 "estadio": (e or {}).get("estadio"), "cidade": (e or {}).get("cidade"),
                 "publico": (e or {}).get("publico") or None, "fonte": " + ".join(fontes), "fonte_id": "|".join(ids),
-                "gols_texto": None, "observacao": obs, "arbitro": (x or {}).get("Referee") or None})
+                "gols_texto": None, "observacao": obs, "arbitro": (x or {}).get("Referee") or None,
+                "_derrota_dois": j.get("vencedor") == "nenhum"})
             gols_ano += j["gm"] + j["gv"]
             com_autor = False
             if e and e["lances"] and not j.get("especial"):

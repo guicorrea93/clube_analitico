@@ -1,5 +1,9 @@
 """Grava o pacote de uma competição no formato de docs/agente-coleta-COMECE-AQUI.md (seção 4).
 
+Colunas opcionais do guia (docs/coleta/plano-de-coleta.md, 2.2): `pontos_empate` e `pontos_derrota` (vazias = 1 e 0),
+`co_campeao` (título dividido) e `oficial` ("não" = edição não oficial). Na "derrota para os dois", o importador passa
+`_derrota_dois` = True na partida e os gols saem vazios (o placar de campo fica na observação).
+
 Extras deste agente (o carregador ignora colunas e arquivos que não conhece):
 - partidas.csv ganha a coluna `arbitro`;
 - estatisticas.csv: números de cada clube no jogo (chutes, chutes no alvo, faltas, escanteios, cartões), no molde
@@ -18,7 +22,8 @@ from nomes_jogadores import nome_jogador
 CAMPOS = {
     "paises": "codigo,nome,confederacao",
     "clubes": "clube,regiao,cidade,pais,nomes_fonte",
-    "edicoes": "temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,campeao,vice,fontes,observacao",
+    "edicoes": "temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,pontos_empate,pontos_derrota,formato,campeao,"
+               "vice,co_campeao,fontes,observacao,oficial",
     "fases": "temporada,ordem,fase,tipo,num_grupos,formato_serie,criterio",
     "partidas": "id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_visitante,penaltis_mandante,"
                 "penaltis_visitante,resultado_especial,estadio,cidade,publico,fonte,fonte_id,gols_texto,observacao,arbitro",
@@ -48,4 +53,8 @@ def gravar(pasta: Path, competicao: dict, tabelas: dict[str, list[dict]]) -> Non
             for l in linhas:
                 if nome in ("gols", "cartoes", "artilheiros") and l.get("jogador"):
                     l = dict(l, jogador=nome_jogador(l["jogador"]))
+                if nome == "partidas" and "_derrota_dois" in l:   # derrota para os dois: gols vazios (plano de coleta, 2.2)
+                    l = dict(l)
+                    if l.pop("_derrota_dois"):
+                        l["gols_mandante"] = l["gols_visitante"] = None
                 w.writerow({k: ("" if v is None else v) for k, v in l.items()})

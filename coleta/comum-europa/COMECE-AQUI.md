@@ -177,41 +177,93 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
 1. **EN-016 (revisão, baixa): resolvido** nas correções do Inglês de 23/11 (db95ab2): os 12 jogos têm os autores pela
    ficha do BDFutbol (`GOLS_MANUAIS` em `coleta/eng-1/importar.py`, 37 gols); conferido em 24/11: nenhum jogo do Inglês
    com gols ficou sem autor desde 2002/03. Nenhum achado da revisão segue aberto para a coleta Europa.
-2. **Próximas ligas: ordem combinada com o Guilherme em 24/11/2026.**
-   - **Regra:** da mais bem colocada à menos no ranking de coeficientes da UEFA, numa foto de 24/11/2026 fixada aqui.
-     A ordem não muda quando o ranking mudar.
-   - **Ficam de fora:** as 10 ligas prontas e Liechtenstein (sem liga própria; os clubes jogam o campeonato suíço).
-   - **Países que não existem mais:** entram como competição à parte (como a `gdr-1`), logo depois da federação que
-     ficou com o histórico deles.
-   - Uma liga por vez, com a pesquisa do escopo antes.
+2. **Ordem de coleta: plano único de coleta (`docs/coleta/plano-de-coleta.md`, Guilherme, 25/11/2026). Vale acima
+   do resto deste guia.**
+   - **Fases** (só se passa à seguinte quando a anterior terminar na região inteira):
+     1. 1ª divisão de **todas** as federações (`<pais>-1`), inclusive as pequenas. Os países que não existem mais entram
+        como competição à parte, logo depois do sucessor;
+     2. copa nacional de cada federação (`<pais>-copa`, `tipo` "copa"), começando pelo `eng-copa` (FA Cup);
+     3. 2ªs divisões (`<pais>-2`);
+     4. o resto: 3ª divisão e abaixo, supercopa e copa da liga, torneios regionais.
+   - **Ordem dos países:** coeficiente de países da UEFA, numa foto de 24/11/2026, fixa: não muda quando o ranking mudar.
+     Fonte: [UEFA coefficient, Wikipédia](https://en.wikipedia.org/wiki/UEFA_coefficient), tabela "as of 24 November
+     2026" (a mesma do [ranking da UEFA](https://www.uefa.com/nationalassociations/uefarankings/country/)). O que já
+     está pronto fica pronto; segue-se do primeiro país que falta.
+   - **Uma competição por vez:** pesquisa do escopo, proposta curta ao Guilherme com a recomendação, só começa com o ok
+     dele, e a decisão fica registrada aqui. Se ele disser "decida você", vale o que a federação reconhece.
+   - **Entrega:** teste de carga, `documentar.py`, este guia e o recado de fim de coleta. Pedir o ok ao Guilherme, que vale
+     para o commit e o push juntos.
 
-   | # | Liga (rank UEFA) | # | Liga (rank UEFA) |
-   |---|---|---|---|
-   | 1 | Grécia (10º): **pronta 24/11** (`gre-1`) | 23 | Armênia (33º) |
-   | 2 | Tchéquia (11º): **pronta 25/11** (`cze-1`); depois a Tchecoslováquia | 24 | Letônia (34º) |
-   | 3 | Polônia (12º) | 25 | Bósnia (35º) |
-   | 4 | Noruega (13º) | 26 | Kosovo (36º) |
-   | 5 | Dinamarca (14º) | 27 | Finlândia (37º) |
-   | 6 | Chipre (15º) | 28 | Cazaquistão (38º) |
-   | 7 | Suíça (16º) | 29 | Moldávia (40º) |
-   | 8 | Áustria (17º) | 30 | Ilhas Faroé (41º) |
-   | 9 | Hungria (18º) | 31 | Albânia (42º) |
-   | 10 | Croácia (19º) | 32 | Macedônia do Norte (43º) |
-   | 11 | Suécia (20º) | 33 | Belarus (44º) |
-   | 12 | Romênia (22º) | 34 | Lituânia (45º) |
-   | 13 | Ucrânia (23º) | 35 | Gibraltar (46º) |
-   | 14 | Azerbaijão (24º) | 36 | Andorra (47º) |
-   | 15 | Israel (25º) | 37 | Malta (48º) |
-   | 16 | Eslovênia (26º) | 38 | Estônia (49º) |
-   | 17 | Eslováquia (27º) | 39 | Geórgia (50º) |
-   | 18 | Bulgária (28º) | 40 | Irlanda do Norte (51º) |
-   | 19 | Sérvia (29º), depois a Iugoslávia | 41 | Luxemburgo (52º) |
-   | 20 | Rússia (30º), depois a URSS | 42 | Montenegro (53º) |
-   | 21 | Islândia (31º) | 43 | País de Gales (54º) |
-   | 22 | Irlanda (32º) | 44 | San Marino (55º) |
+   | Rank UEFA | Federação | Situação |
+   |---|---|---|
+   | 1 | Inglaterra | **pronta** `eng-1` |
+   | 2 | Itália | **pronta** `ita-1` |
+   | 3 | Espanha | **pronta** `esp-1` |
+   | 4 | Alemanha | **pronta** `ger-1` (e gdr-1, Alemanha Oriental) |
+   | 5 | França | **pronta** `fra-1` |
+   | 6 | Portugal | **pronta** `por-1` |
+   | 7 | Bélgica | **pronta** `bel-1` |
+   | 8 | Holanda | **pronta** `ned-1` |
+   | 9 | Turquia | **pronta** `tur-1` |
+   | 10 | Grécia | **pronta** `gre-1` (24/11) |
+   | 11 | Tchéquia | **pronta** `cze-1` (25/11); depois a Tchecoslováquia |
+   | 12 | Polônia |  |
+   | 13 | Noruega |  |
+   | 14 | Dinamarca |  |
+   | 15 | Chipre |  |
+   | 16 | Suíça |  |
+   | 17 | Áustria |  |
+   | 18 | Hungria |  |
+   | 19 | Croácia |  |
+   | 20 | Suécia |  |
+   | 21 | Escócia | **pronta** `sco-1` |
+   | 22 | Romênia |  |
+   | 23 | Ucrânia |  |
+   | 24 | Azerbaijão |  |
+   | 25 | Israel |  |
+   | 26 | Eslovênia |  |
+   | 27 | Eslováquia |  |
+   | 28 | Bulgária |  |
+   | 29 | Sérvia | depois a Iugoslávia |
+   | 30 | Rússia | depois a URSS |
+   | 31 | Islândia |  |
+   | 32 | Irlanda |  |
+   | 33 | Armênia |  |
+   | 34 | Letônia |  |
+   | 35 | Bósnia |  |
+   | 36 | Kosovo |  |
+   | 37 | Finlândia |  |
+   | 38 | Cazaquistão |  |
+   | 39 | Liechtenstein | sem liga própria (clubes no campeonato suíço): pula a fase 1; entra na fase 2 se tiver copa |
+   | 40 | Moldávia |  |
+   | 41 | Ilhas Faroé |  |
+   | 42 | Albânia |  |
+   | 43 | Macedônia do Norte |  |
+   | 44 | Belarus |  |
+   | 45 | Lituânia |  |
+   | 46 | Gibraltar |  |
+   | 47 | Andorra |  |
+   | 48 | Malta |  |
+   | 49 | Estônia |  |
+   | 50 | Geórgia |  |
+   | 51 | Irlanda do Norte |  |
+   | 52 | Luxemburgo |  |
+   | 53 | Montenegro |  |
+   | 54 | País de Gales |  |
+   | 55 | San Marino |  |
 
-   **Próxima: a Tchecoslováquia** (competição à parte, 1925 a 1992/93, com a liga do Protetorado da Boêmia e Morávia
-   de 1938/39 a 1943/44, decisão do Guilherme em 25/11/2026), depois a Polônia (nº 3). Pesquisar o escopo antes.
+   **Próxima: a Tchecoslováquia** (competição à parte, logo depois da Tchéquia). Decidido em 25/11/2026: entra a liga do
+   Protetorado da Boêmia e Morávia (1938/39-1943/44); o resto do escopo vai em proposta ao Guilherme. Depois, a Polônia.
+
+   **Correções do plano (seção 3 e regras da seção 2.2), feitas em 25/11/2026:**
+   - colunas `pontos_empate` e `pontos_derrota` preenchidas no 3-2-1 da Grécia (até 1972/73 e na era antiga) e da Turquia
+     antiga;
+   - Turquia antiga: as 27 edições não reconhecidas (Şampiyonası, Millî Küme) com vencedor e vice e `oficial` = "não";
+   - derrota para os dois com gols vazios: Francês 1992/93 (VA x OM), Português 1986/87 (Braga x Benfica) e Grego (greve
+     de 1986/87; Niki Volos x OFI, 2014/15). O placar de campo fica na observação;
+   - título dividido: Escocês 1890/91, com Rangers em `co_campeao` e sem vice;
+   - o `pacote.py` grava as colunas novas (`pontos_empate`, `pontos_derrota`, `co_campeao`, `oficial`) e a regra da
+     derrota para os dois (`_derrota_dois` na partida).
 
    Em 24/11 também ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1` (D-05b), e a rodada de
    fechamento zerou as pendências. As eras antigas da Holanda (1888/89–1955/56) e da

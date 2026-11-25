@@ -431,7 +431,9 @@ def montar(tab: dict, nomes: dict, ocorr: dict) -> list[tuple]:
         sist = "2 pontos por vitória" if pts == (2, 1, 0) else "3 pontos por vitória, 2 por empate e 1 por derrota"
         pun = "; ".join(f"{c} {v:+d} pontos" for c, v in ajuste.items())
         tab["edicoes"].append({"temporada": T, "ano_inicio": a, "ano_fim": a + 1, "nome_oficial": nome_oficial(a), "num_clubes": n,
-                               "pontos_vitoria": pts[0], "formato": formato, "campeao": clubes.exibicao(campeao),
+                               "pontos_vitoria": pts[0], "pontos_empate": pts[1] if pts == (3, 2, 1) else None,
+                               "pontos_derrota": pts[2] if pts == (3, 2, 1) else None, "formato": formato,
+                               "campeao": clubes.exibicao(campeao),
                                "vice": clubes.exibicao(ordem[1]), "fontes": "RSSSF + Wikipédia",
                                "observacao": "; ".join(x for x in ("só a fase nacional; as ligas regionais ficam de fora",
                                                                     sist if pts == (3, 2, 1) else "",
