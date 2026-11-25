@@ -1,0 +1,8565 @@
+[
+{
+"id": "262503",
+"data_hora": "2009-02-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Leopoldo Veliz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+}
+]
+},
+{
+"id": "262513",
+"data_hora": "2009-02-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+}
+]
+},
+{
+"id": "262505",
+"data_hora": "2009-02-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Amaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mendoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Menjivar"
+]
+}
+]
+},
+{
+"id": "262506",
+"data_hora": "2009-02-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Luna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Canjura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Medina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedrozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Gonzalez"
+]
+}
+]
+},
+{
+"id": "262507",
+"data_hora": "2009-02-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Escalante"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Nerio"
+]
+}
+]
+},
+{
+"id": "262512",
+"data_hora": "2009-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+}
+]
+},
+{
+"id": "262508",
+"data_hora": "2009-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Valerio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+}
+]
+},
+{
+"id": "262510",
+"data_hora": "2009-02-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Rodriguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "262509",
+"data_hora": "2009-02-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+}
+]
+},
+{
+"id": "262511",
+"data_hora": "2009-02-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+}
+]
+},
+{
+"id": "262705",
+"data_hora": "2009-02-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Perla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Rodrigues"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Valdez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+}
+]
+},
+{
+"id": "262704",
+"data_hora": "2009-02-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+}
+]
+},
+{
+"id": "262709",
+"data_hora": "2009-02-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Jeoanny Alegria Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez Jovel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Quintanilla"
+]
+}
+]
+},
+{
+"id": "262708",
+"data_hora": "2009-02-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Canjura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Sanchez"
+]
+}
+]
+},
+{
+"id": "262710",
+"data_hora": "2009-02-19T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "262862",
+"data_hora": "2009-02-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amilcar Ramirez"
+]
+}
+]
+},
+{
+"id": "262828",
+"data_hora": "2009-02-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+}
+]
+},
+{
+"id": "262853",
+"data_hora": "2009-02-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+}
+]
+},
+{
+"id": "262852",
+"data_hora": "2009-02-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Jose Reyes Moran"
+]
+}
+]
+},
+{
+"id": "262851",
+"data_hora": "2009-02-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Pacheco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Anibal Tobar Avalos"
+]
+}
+]
+},
+{
+"id": "263215",
+"data_hora": "2009-02-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Escalante"
+]
+}
+]
+},
+{
+"id": "264084",
+"data_hora": "2009-02-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hermes Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeyson Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amilcar Ramirez"
+]
+}
+]
+},
+{
+"id": "263225",
+"data_hora": "2009-02-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "263226",
+"data_hora": "2009-02-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+}
+]
+},
+{
+"id": "263227",
+"data_hora": "2009-02-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+}
+]
+},
+{
+"id": "263583",
+"data_hora": "2009-03-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Amaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ulloa"
+]
+}
+]
+},
+{
+"id": "263582",
+"data_hora": "2009-03-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Turcios"
+]
+}
+]
+},
+{
+"id": "263594",
+"data_hora": "2009-03-01T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "263595",
+"data_hora": "2009-03-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Deras"
+]
+}
+]
+},
+{
+"id": "263581",
+"data_hora": "2009-03-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Quintanilla"
+]
+}
+]
+},
+{
+"id": "264094",
+"data_hora": "2009-03-04T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+}
+]
+},
+{
+"id": "264096",
+"data_hora": "2009-03-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Velasquez"
+]
+}
+]
+},
+{
+"id": "264097",
+"data_hora": "2009-03-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sandro Zamboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+}
+]
+},
+{
+"id": "264095",
+"data_hora": "2009-03-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Leopoldo Veliz"
+]
+}
+]
+},
+{
+"id": "264098",
+"data_hora": "2009-03-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "264237",
+"data_hora": "2009-03-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+}
+]
+},
+{
+"id": "264244",
+"data_hora": "2009-03-08T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfredi Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+}
+]
+},
+{
+"id": "264245",
+"data_hora": "2009-03-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Quintanilla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+}
+]
+},
+{
+"id": "264246",
+"data_hora": "2009-03-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Sanchez"
+]
+}
+]
+},
+{
+"id": "264236",
+"data_hora": "2009-03-08T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Pacheco"
+]
+}
+]
+},
+{
+"id": "265546",
+"data_hora": "2009-03-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+}
+]
+},
+{
+"id": "265007",
+"data_hora": "2009-03-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Castro"
+]
+}
+]
+},
+{
+"id": "265008",
+"data_hora": "2009-03-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Sanchez"
+]
+}
+]
+},
+{
+"id": "265030",
+"data_hora": "2009-03-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+}
+]
+},
+{
+"id": "265029",
+"data_hora": "2009-03-22T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lopez"
+]
+}
+]
+},
+{
+"id": "265789",
+"data_hora": "2009-04-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+}
+]
+},
+{
+"id": "265765",
+"data_hora": "2009-04-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "265764",
+"data_hora": "2009-04-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "265790",
+"data_hora": "2009-04-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hermes Martinez"
+]
+}
+]
+},
+{
+"id": "265762",
+"data_hora": "2009-04-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Valerio"
+]
+}
+]
+},
+{
+"id": "266350",
+"data_hora": "2009-04-08T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Garcete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+}
+]
+},
+{
+"id": "266349",
+"data_hora": "2009-04-08T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+}
+]
+},
+{
+"id": "266353",
+"data_hora": "2009-04-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Medina"
+]
+}
+]
+},
+{
+"id": "266351",
+"data_hora": "2009-04-09T01:00Z",
+"situacao": "STATUS_ABANDONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "266352",
+"data_hora": "2009-04-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+}
+]
+},
+{
+"id": "266325",
+"data_hora": "2009-04-15T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Márquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+}
+]
+},
+{
+"id": "266326",
+"data_hora": "2009-04-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Hernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "266327",
+"data_hora": "2009-04-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "266329",
+"data_hora": "2009-04-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+}
+]
+},
+{
+"id": "266328",
+"data_hora": "2009-04-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "266379",
+"data_hora": "2009-04-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Garcete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Castro"
+]
+}
+]
+},
+{
+"id": "266399",
+"data_hora": "2009-04-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfredi Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "266380",
+"data_hora": "2009-04-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Montes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Jose Reyes Moran"
+]
+}
+]
+},
+{
+"id": "266401",
+"data_hora": "2009-04-19T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Rodrigues"
+]
+}
+]
+},
+{
+"id": "266400",
+"data_hora": "2009-04-19T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+}
+]
+},
+{
+"id": "266426",
+"data_hora": "2009-04-22T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Jeoanny Alegria Torres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Esnal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+}
+]
+},
+{
+"id": "266427",
+"data_hora": "2009-04-22T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Jose Reyes Moran"
+]
+}
+]
+},
+{
+"id": "266435",
+"data_hora": "2009-04-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Sanchez"
+]
+}
+]
+},
+{
+"id": "266433",
+"data_hora": "2009-04-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "7",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sanchez"
+]
+}
+]
+},
+{
+"id": "266434",
+"data_hora": "2009-04-23T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Moscoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Anibal Tobar Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Pena"
+]
+}
+]
+},
+{
+"id": "266471",
+"data_hora": "2009-04-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Donny Valle"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Aguila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mendoza"
+]
+}
+]
+},
+{
+"id": "266492",
+"data_hora": "2009-04-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elder Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Pimentel"
+]
+}
+]
+},
+{
+"id": "266472",
+"data_hora": "2009-04-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Canjura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "266468",
+"data_hora": "2009-04-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Noe Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+}
+]
+},
+{
+"id": "266493",
+"data_hora": "2009-04-26T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "266756",
+"data_hora": "2009-05-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ulloa"
+]
+}
+]
+},
+{
+"id": "266757",
+"data_hora": "2009-05-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juliano Rancel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mendoza"
+]
+}
+]
+},
+{
+"id": "266758",
+"data_hora": "2009-05-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amilcar Ramirez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sanchez"
+]
+}
+]
+},
+{
+"id": "266760",
+"data_hora": "2009-05-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+}
+]
+},
+{
+"id": "266759",
+"data_hora": "2009-05-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Alfredo Murgas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Alfredo Murgas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Quintanilla"
+]
+}
+]
+},
+{
+"id": "266877",
+"data_hora": "2009-05-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Quintanilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+}
+]
+},
+{
+"id": "266878",
+"data_hora": "2009-05-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abraham Amaya"
+]
+}
+]
+},
+{
+"id": "266879",
+"data_hora": "2009-05-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+}
+]
+},
+{
+"id": "266880",
+"data_hora": "2009-05-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Donny Valle"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeyson Vega"
+]
+}
+]
+},
+{
+"id": "266881",
+"data_hora": "2009-05-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Esnal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moises Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "267421",
+"data_hora": "2009-05-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Zepeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "267420",
+"data_hora": "2009-05-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "267484",
+"data_hora": "2009-05-17T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Moscoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mendoza"
+]
+}
+]
+},
+{
+"id": "267485",
+"data_hora": "2009-05-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "267657",
+"data_hora": "2009-05-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Amaya"
+]
+}
+]
+},
+{
+"id": "281457",
+"data_hora": "2009-08-15T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+}
+]
+},
+{
+"id": "281460",
+"data_hora": "2009-08-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Antonio Cabrera Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+}
+]
+},
+{
+"id": "281458",
+"data_hora": "2009-08-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Dowson Melendez Prado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+}
+]
+},
+{
+"id": "281459",
+"data_hora": "2009-08-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Alexander Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Alexander Campos"
+]
+}
+]
+},
+{
+"id": "281461",
+"data_hora": "2009-08-16T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dany Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Carrillo"
+]
+}
+]
+},
+{
+"id": "281468",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Antonio Cabrera Torres"
+]
+}
+]
+},
+{
+"id": "281471",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+}
+]
+},
+{
+"id": "281469",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281467",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+}
+]
+},
+{
+"id": "281470",
+"data_hora": "2009-08-23T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281476",
+"data_hora": "2009-08-26T12:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281475",
+"data_hora": "2009-08-26T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Martinez Manel"
+]
+}
+]
+},
+{
+"id": "281474",
+"data_hora": "2009-08-26T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "281472",
+"data_hora": "2009-08-27T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abraham Amaya"
+]
+}
+]
+},
+{
+"id": "281473",
+"data_hora": "2009-08-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281477",
+"data_hora": "2009-08-30T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conni Valle"
+]
+}
+]
+},
+{
+"id": "281479",
+"data_hora": "2009-08-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deris Ariel Umanzor"
+]
+}
+]
+},
+{
+"id": "281478",
+"data_hora": "2009-08-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Monteagudo"
+]
+}
+]
+},
+{
+"id": "281480",
+"data_hora": "2009-08-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Garcete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Olmedo"
+]
+}
+]
+},
+{
+"id": "281481",
+"data_hora": "2009-08-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Calderon"
+]
+}
+]
+},
+{
+"id": "283444",
+"data_hora": "2009-09-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yubini Salamanca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Dowson Melendez Prado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+}
+]
+},
+{
+"id": "283967",
+"data_hora": "2009-09-12T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281482",
+"data_hora": "2009-09-13T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lopez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+}
+]
+},
+{
+"id": "281483",
+"data_hora": "2009-09-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Jorge Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sanchez"
+]
+}
+]
+},
+{
+"id": "281486",
+"data_hora": "2009-09-13T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281484",
+"data_hora": "2009-09-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abraham Amaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juliano Rancel"
+]
+}
+]
+},
+{
+"id": "281488",
+"data_hora": "2009-09-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+}
+]
+},
+{
+"id": "281487",
+"data_hora": "2009-09-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Anaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alberto Zapata"
+]
+}
+]
+},
+{
+"id": "281490",
+"data_hora": "2009-09-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281489",
+"data_hora": "2009-09-16T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281491",
+"data_hora": "2009-09-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "284138",
+"data_hora": "2009-09-18T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281492",
+"data_hora": "2009-09-20T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alyson Batista"
+]
+}
+]
+},
+{
+"id": "281493",
+"data_hora": "2009-09-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281496",
+"data_hora": "2009-09-20T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281495",
+"data_hora": "2009-09-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+}
+]
+},
+{
+"id": "281494",
+"data_hora": "2009-09-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Aviles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Espíndola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ramirez"
+]
+}
+]
+},
+{
+"id": "284267",
+"data_hora": "2009-09-26T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "281500",
+"data_hora": "2009-09-27T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+}
+]
+},
+{
+"id": "281499",
+"data_hora": "2009-09-27T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281497",
+"data_hora": "2009-09-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Menjivar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Garcete"
+]
+}
+]
+},
+{
+"id": "281498",
+"data_hora": "2009-09-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zelvin Zelaya"
+]
+}
+]
+},
+{
+"id": "284024",
+"data_hora": "2009-09-30T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "284295",
+"data_hora": "2009-10-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Martinez Manel"
+]
+}
+]
+},
+{
+"id": "281506",
+"data_hora": "2009-10-03T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281505",
+"data_hora": "2009-10-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dany Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elias Montes"
+]
+}
+]
+},
+{
+"id": "281503",
+"data_hora": "2009-10-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Ramos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Alfredo Murgas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+}
+]
+},
+{
+"id": "281504",
+"data_hora": "2009-10-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Alexander Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Martinez Manel"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Xavier García"
+]
+}
+]
+},
+{
+"id": "281502",
+"data_hora": "2009-10-04T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+}
+]
+},
+{
+"id": "284374",
+"data_hora": "2009-10-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Valdes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Da Silva Leonardo Moura"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Aquino"
+]
+}
+]
+},
+{
+"id": "284542",
+"data_hora": "2009-10-17T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rusvel Saravia"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Xavier García"
+]
+}
+]
+},
+{
+"id": "284543",
+"data_hora": "2009-10-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dany Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+}
+]
+},
+{
+"id": "281507",
+"data_hora": "2009-10-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+}
+]
+},
+{
+"id": "281508",
+"data_hora": "2009-10-18T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Antonio Cabrera Torres"
+]
+}
+]
+},
+{
+"id": "281510",
+"data_hora": "2009-10-18T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Martinez Manel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Da Silva Leonardo Moura"
+]
+}
+]
+},
+{
+"id": "281516",
+"data_hora": "2009-10-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moises Hernandez"
+]
+}
+]
+},
+{
+"id": "281513",
+"data_hora": "2009-10-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Canjura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elias Montes"
+]
+}
+]
+},
+{
+"id": "281514",
+"data_hora": "2009-10-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+}
+]
+},
+{
+"id": "281515",
+"data_hora": "2009-10-25T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Reyez"
+]
+}
+]
+},
+{
+"id": "281512",
+"data_hora": "2009-10-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Benitez"
+]
+}
+]
+},
+{
+"id": "281518",
+"data_hora": "2009-10-28T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elias Montes"
+]
+}
+]
+},
+{
+"id": "281517",
+"data_hora": "2009-10-28T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salvador Coreas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Amaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Garrick Gordon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Zepeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+}
+]
+},
+{
+"id": "281521",
+"data_hora": "2009-10-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+}
+]
+},
+{
+"id": "281520",
+"data_hora": "2009-10-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hermes Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+}
+]
+},
+{
+"id": "281519",
+"data_hora": "2009-10-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedrozo"
+]
+}
+]
+},
+{
+"id": "284820",
+"data_hora": "2009-10-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Martinez"
+]
+}
+]
+},
+{
+"id": "284819",
+"data_hora": "2009-10-31T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+}
+]
+},
+{
+"id": "281523",
+"data_hora": "2009-11-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281522",
+"data_hora": "2009-11-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+}
+]
+},
+{
+"id": "281526",
+"data_hora": "2009-11-02T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281529",
+"data_hora": "2009-11-07T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281528",
+"data_hora": "2009-11-08T00:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281527",
+"data_hora": "2009-11-08T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281531",
+"data_hora": "2009-11-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Baires"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Benitez"
+]
+}
+]
+},
+{
+"id": "281530",
+"data_hora": "2009-11-08T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281534",
+"data_hora": "2009-11-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "281532",
+"data_hora": "2009-11-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Velsquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+}
+]
+},
+{
+"id": "281535",
+"data_hora": "2009-11-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rusvel Saravia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "281536",
+"data_hora": "2009-11-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+}
+]
+},
+{
+"id": "281533",
+"data_hora": "2009-11-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hermes Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Lazo"
+]
+}
+]
+},
+{
+"id": "284968",
+"data_hora": "2009-11-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moises Hernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilbert Alvarez"
+]
+}
+]
+},
+{
+"id": "281538",
+"data_hora": "2009-11-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anibal Parada"
+]
+}
+]
+},
+{
+"id": "281537",
+"data_hora": "2009-11-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Pena"
+]
+}
+]
+},
+{
+"id": "281539",
+"data_hora": "2009-11-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+}
+]
+},
+{
+"id": "281540",
+"data_hora": "2009-11-15T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rusvel Saravia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Bandera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bautista"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rusvel Saravia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Reyes"
+]
+}
+]
+},
+{
+"id": "284967",
+"data_hora": "2009-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lopez"
+]
+}
+]
+},
+{
+"id": "284933",
+"data_hora": "2009-11-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deris Ariel Umanzor"
+]
+}
+]
+},
+{
+"id": "281544",
+"data_hora": "2009-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Balboa",
+"mandante_id": "7369",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Marcelino Imbers",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rusvel Saravia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+}
+]
+},
+{
+"id": "281546",
+"data_hora": "2009-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Baires"
+]
+}
+]
+},
+{
+"id": "281542",
+"data_hora": "2009-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+}
+]
+},
+{
+"id": "281543",
+"data_hora": "2009-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+}
+]
+},
+{
+"id": "281545",
+"data_hora": "2009-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicholas Addlery"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ludwin Meraz"
+]
+}
+]
+},
+{
+"id": "281547",
+"data_hora": "2009-11-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Atletico Balboa",
+"visitante_id": "7369",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+}
+]
+},
+{
+"id": "281550",
+"data_hora": "2009-11-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Garcete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oliveira Ytalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Morn"
+]
+}
+]
+},
+{
+"id": "281549",
+"data_hora": "2009-11-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Aguilar"
+]
+}
+]
+},
+{
+"id": "281548",
+"data_hora": "2009-11-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimnez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Martinez Manel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Portillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Martinez Manel"
+]
+}
+]
+},
+{
+"id": "281551",
+"data_hora": "2009-11-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "285242",
+"data_hora": "2009-12-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Da Silva Leonardo Moura"
+]
+}
+]
+},
+{
+"id": "285410",
+"data_hora": "2009-12-05T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "285411",
+"data_hora": "2009-12-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicholas Addlery"
+]
+}
+]
+},
+{
+"id": "285442",
+"data_hora": "2009-12-12T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "285443",
+"data_hora": "2009-12-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicholas Addlery"
+]
+}
+]
+}
+]

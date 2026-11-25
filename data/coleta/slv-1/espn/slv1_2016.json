@@ -1,0 +1,10782 @@
+[
+{
+"id": "440988",
+"data_hora": "2016-01-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Safastizado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Movil Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Quintanilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yubini Salamanca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Lopez"
+]
+}
+]
+},
+{
+"id": "440985",
+"data_hora": "2016-01-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "440989",
+"data_hora": "2016-01-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Eduardo Molinar Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Barrios"
+]
+}
+]
+},
+{
+"id": "440990",
+"data_hora": "2016-01-17T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Paz"
+]
+}
+]
+},
+{
+"id": "440986",
+"data_hora": "2016-01-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "440987",
+"data_hora": "2016-01-17T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441899",
+"data_hora": "2016-01-21T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Hernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Safastizado"
+]
+}
+]
+},
+{
+"id": "441897",
+"data_hora": "2016-01-22T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441648",
+"data_hora": "2016-01-22T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441898",
+"data_hora": "2016-01-22T00:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442162",
+"data_hora": "2016-01-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ceren"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Portillo"
+]
+}
+]
+},
+{
+"id": "442163",
+"data_hora": "2016-01-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "442164",
+"data_hora": "2016-01-24T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Lopez"
+]
+}
+]
+},
+{
+"id": "441900",
+"data_hora": "2016-01-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441646",
+"data_hora": "2016-01-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Messias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+}
+]
+},
+{
+"id": "442673",
+"data_hora": "2016-01-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442649",
+"data_hora": "2016-01-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442648",
+"data_hora": "2016-01-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442647",
+"data_hora": "2016-01-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "442650",
+"data_hora": "2016-01-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442672",
+"data_hora": "2016-01-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442976",
+"data_hora": "2016-01-31T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Solis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Zelaya"
+]
+}
+]
+},
+{
+"id": "442977",
+"data_hora": "2016-01-31T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Romero"
+]
+}
+]
+},
+{
+"id": "442978",
+"data_hora": "2016-01-31T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Vico"
+]
+}
+]
+},
+{
+"id": "442975",
+"data_hora": "2016-01-31T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Gonzales Vigil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil Mosquera"
+]
+}
+]
+},
+{
+"id": "442979",
+"data_hora": "2016-01-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irvin Herrera"
+]
+}
+]
+},
+{
+"id": "442980",
+"data_hora": "2016-01-31T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443360",
+"data_hora": "2016-02-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443355",
+"data_hora": "2016-02-07T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443356",
+"data_hora": "2016-02-07T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443357",
+"data_hora": "2016-02-07T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443358",
+"data_hora": "2016-02-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443359",
+"data_hora": "2016-02-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443415",
+"data_hora": "2016-02-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443418",
+"data_hora": "2016-02-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443417",
+"data_hora": "2016-02-11T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443416",
+"data_hora": "2016-02-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443419",
+"data_hora": "2016-02-11T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443420",
+"data_hora": "2016-02-11T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443491",
+"data_hora": "2016-02-12T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443671",
+"data_hora": "2016-02-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "8",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443492",
+"data_hora": "2016-02-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443494",
+"data_hora": "2016-02-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443495",
+"data_hora": "2016-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443672",
+"data_hora": "2016-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443493",
+"data_hora": "2016-02-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441060",
+"data_hora": "2016-02-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441061",
+"data_hora": "2016-02-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441063",
+"data_hora": "2016-02-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441064",
+"data_hora": "2016-02-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441062",
+"data_hora": "2016-02-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443841",
+"data_hora": "2016-02-20T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+}
+]
+},
+{
+"id": "443842",
+"data_hora": "2016-02-21T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443844",
+"data_hora": "2016-02-21T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443843",
+"data_hora": "2016-02-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443845",
+"data_hora": "2016-02-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444732",
+"data_hora": "2016-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444731",
+"data_hora": "2016-02-24T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Serpas"
+]
+}
+]
+},
+{
+"id": "444728",
+"data_hora": "2016-02-25T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444730",
+"data_hora": "2016-02-25T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ferreira Ricardinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Baires"
+]
+}
+]
+},
+{
+"id": "444729",
+"data_hora": "2016-02-25T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444733",
+"data_hora": "2016-02-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441067",
+"data_hora": "2016-02-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441065",
+"data_hora": "2016-02-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441068",
+"data_hora": "2016-02-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441070",
+"data_hora": "2016-02-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441066",
+"data_hora": "2016-02-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441069",
+"data_hora": "2016-02-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444930",
+"data_hora": "2016-02-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny Rios"
+]
+}
+]
+},
+{
+"id": "444931",
+"data_hora": "2016-02-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444933",
+"data_hora": "2016-02-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444932",
+"data_hora": "2016-02-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444935",
+"data_hora": "2016-02-28T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444934",
+"data_hora": "2016-02-28T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444987",
+"data_hora": "2016-03-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ceren"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Martinez"
+]
+}
+]
+},
+{
+"id": "444988",
+"data_hora": "2016-03-06T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Movil Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+}
+]
+},
+{
+"id": "444989",
+"data_hora": "2016-03-06T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444990",
+"data_hora": "2016-03-06T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Murialdo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Jackson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Jackson"
+]
+}
+]
+},
+{
+"id": "444991",
+"data_hora": "2016-03-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ferreira Ricardinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+}
+]
+},
+{
+"id": "445293",
+"data_hora": "2016-03-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ochoa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Larín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+}
+]
+},
+{
+"id": "445627",
+"data_hora": "2016-03-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445628",
+"data_hora": "2016-03-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445629",
+"data_hora": "2016-03-13T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "445630",
+"data_hora": "2016-03-13T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "445631",
+"data_hora": "2016-03-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445632",
+"data_hora": "2016-03-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444693",
+"data_hora": "2016-03-17T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441087",
+"data_hora": "2016-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441085",
+"data_hora": "2016-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441083",
+"data_hora": "2016-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441084",
+"data_hora": "2016-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441086",
+"data_hora": "2016-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441088",
+"data_hora": "2016-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445936",
+"data_hora": "2016-03-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445937",
+"data_hora": "2016-03-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "445938",
+"data_hora": "2016-03-20T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445939",
+"data_hora": "2016-03-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446380",
+"data_hora": "2016-03-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446381",
+"data_hora": "2016-03-20T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "446424",
+"data_hora": "2016-03-23T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446425",
+"data_hora": "2016-03-24T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "446426",
+"data_hora": "2016-03-24T01:15Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "446431",
+"data_hora": "2016-03-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446433",
+"data_hora": "2016-03-25T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Hinestrona"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Benitez"
+]
+}
+]
+},
+{
+"id": "446432",
+"data_hora": "2016-03-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446435",
+"data_hora": "2016-04-01T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+}
+]
+},
+{
+"id": "441098",
+"data_hora": "2016-04-01T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441100",
+"data_hora": "2016-04-01T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441095",
+"data_hora": "2016-04-01T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441097",
+"data_hora": "2016-04-01T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "441096",
+"data_hora": "2016-04-01T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441099",
+"data_hora": "2016-04-01T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446758",
+"data_hora": "2016-04-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Larín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Larín"
+]
+}
+]
+},
+{
+"id": "446759",
+"data_hora": "2016-04-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ferreira Ricardinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Maldonado"
+]
+}
+]
+},
+{
+"id": "446760",
+"data_hora": "2016-04-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446761",
+"data_hora": "2016-04-03T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Diaz"
+]
+}
+]
+},
+{
+"id": "446762",
+"data_hora": "2016-04-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Murialdo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Posadas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Murialdo"
+]
+}
+]
+},
+{
+"id": "446763",
+"data_hora": "2016-04-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Javier Bautista"
+]
+}
+]
+},
+{
+"id": "446434",
+"data_hora": "2016-04-06T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Lanzeni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Murialdo"
+]
+}
+]
+},
+{
+"id": "446909",
+"data_hora": "2016-04-08T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "446910",
+"data_hora": "2016-04-09T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Javier Bautista"
+]
+}
+]
+},
+{
+"id": "446911",
+"data_hora": "2016-04-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "446912",
+"data_hora": "2016-04-10T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Ramirez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Benitez"
+]
+}
+]
+},
+{
+"id": "446913",
+"data_hora": "2016-04-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Eduardo Molinar Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Barahona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ferreira Ricardinho"
+]
+}
+]
+},
+{
+"id": "446914",
+"data_hora": "2016-04-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+}
+]
+},
+{
+"id": "447036",
+"data_hora": "2016-04-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil Mosquera"
+]
+}
+]
+},
+{
+"id": "447037",
+"data_hora": "2016-04-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Murialdo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Posadas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+}
+]
+},
+{
+"id": "447038",
+"data_hora": "2016-04-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Ernesto Henriquez Carballo"
+]
+}
+]
+},
+{
+"id": "447039",
+"data_hora": "2016-04-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+}
+]
+},
+{
+"id": "447041",
+"data_hora": "2016-04-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Curiel"
+]
+}
+]
+},
+{
+"id": "447040",
+"data_hora": "2016-04-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Renderos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Larín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Antonio Rugamas Leiva"
+]
+}
+]
+},
+{
+"id": "447073",
+"data_hora": "2016-04-15T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441109",
+"data_hora": "2016-04-15T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447075",
+"data_hora": "2016-04-15T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447133",
+"data_hora": "2016-04-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joseph López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Hinestrona"
+]
+}
+]
+},
+{
+"id": "447212",
+"data_hora": "2016-04-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "441111",
+"data_hora": "2016-04-17T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irvin Valdez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "447213",
+"data_hora": "2016-04-17T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447164",
+"data_hora": "2016-04-17T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+}
+]
+},
+{
+"id": "447223",
+"data_hora": "2016-04-18T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447419",
+"data_hora": "2016-04-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilma Torres"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Weslie John"
+]
+}
+]
+},
+{
+"id": "447418",
+"data_hora": "2016-04-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+}
+]
+},
+{
+"id": "447421",
+"data_hora": "2016-04-24T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Movil Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Guerrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Javier Bautista"
+]
+}
+]
+},
+{
+"id": "447420",
+"data_hora": "2016-04-24T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harold Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Hernandez"
+]
+}
+]
+},
+{
+"id": "447423",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+}
+]
+},
+{
+"id": "447422",
+"data_hora": "2016-04-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Lucero"
+]
+}
+]
+},
+{
+"id": "447977",
+"data_hora": "2016-04-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gillermo Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Safastizado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cespedes"
+]
+}
+]
+},
+{
+"id": "447978",
+"data_hora": "2016-04-27T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elman Alberto Rivas Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Weslie John"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Pacheco Fraga Guto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elman Alberto Rivas Garcia"
+]
+}
+]
+},
+{
+"id": "447979",
+"data_hora": "2016-04-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ferreira Ricardinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+}
+]
+},
+{
+"id": "447981",
+"data_hora": "2016-04-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "447980",
+"data_hora": "2016-04-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Monterrosa"
+]
+}
+]
+},
+{
+"id": "447987",
+"data_hora": "2016-04-28T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "448089",
+"data_hora": "2016-04-29T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "448087",
+"data_hora": "2016-04-29T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448073",
+"data_hora": "2016-04-29T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448105",
+"data_hora": "2016-05-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Marte",
+"mandante_id": "10509",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "448104",
+"data_hora": "2016-05-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Jackson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "448074",
+"data_hora": "2016-05-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ferreira Ricardinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Jorge Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Jose Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+}
+]
+},
+{
+"id": "448086",
+"data_hora": "2016-05-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Antonio Rugamas Leiva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Guerrero"
+]
+}
+]
+},
+{
+"id": "448088",
+"data_hora": "2016-05-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Barahona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Zelaya"
+]
+}
+]
+},
+{
+"id": "448114",
+"data_hora": "2016-05-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Pacheco Fraga Guto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+}
+]
+},
+{
+"id": "448465",
+"data_hora": "2016-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Ramos"
+]
+}
+]
+},
+{
+"id": "448466",
+"data_hora": "2016-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Pimentel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rodriguez"
+]
+}
+]
+},
+{
+"id": "448467",
+"data_hora": "2016-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Mendoza"
+]
+}
+]
+},
+{
+"id": "448468",
+"data_hora": "2016-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Antonio Rugamas Leiva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ceren"
+]
+}
+]
+},
+{
+"id": "448469",
+"data_hora": "2016-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Lucero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jackson de Oliveria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+}
+]
+},
+{
+"id": "448470",
+"data_hora": "2016-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Atletico Marte",
+"visitante_id": "10509",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Baires"
+]
+}
+]
+},
+{
+"id": "448633",
+"data_hora": "2016-05-11T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448634",
+"data_hora": "2016-05-11T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Juventud Independiente",
+"visitante_id": "9790",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448635",
+"data_hora": "2016-05-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448636",
+"data_hora": "2016-05-12T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448668",
+"data_hora": "2016-05-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Mancia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Castro"
+]
+}
+]
+},
+{
+"id": "448669",
+"data_hora": "2016-05-15T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+}
+]
+},
+{
+"id": "448670",
+"data_hora": "2016-05-15T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Independiente",
+"mandante_id": "9790",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Marcelino Imbers",
+"cidade": "La Union",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Hernandez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Posadas"
+]
+}
+]
+},
+{
+"id": "448671",
+"data_hora": "2016-05-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ekmer Abarca"
+]
+}
+]
+},
+{
+"id": "448753",
+"data_hora": "2016-05-18T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448754",
+"data_hora": "2016-05-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Ramos"
+]
+}
+]
+},
+{
+"id": "448802",
+"data_hora": "2016-05-21T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "448803",
+"data_hora": "2016-05-22T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "448832",
+"data_hora": "2016-05-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilma Torres"
+]
+}
+]
+},
+{
+"id": "461447",
+"data_hora": "2016-07-29T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Aguila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Stradella"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Martinez"
+]
+}
+]
+},
+{
+"id": "459884",
+"data_hora": "2016-07-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Romero"
+]
+}
+]
+},
+{
+"id": "459882",
+"data_hora": "2016-07-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "461445",
+"data_hora": "2016-07-31T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilma Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Rugamas"
+]
+}
+]
+},
+{
+"id": "461446",
+"data_hora": "2016-07-31T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Antonio Rugamas Leiva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+}
+]
+},
+{
+"id": "462131",
+"data_hora": "2016-07-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462258",
+"data_hora": "2016-08-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "462268",
+"data_hora": "2016-08-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "462267",
+"data_hora": "2016-08-05T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462259",
+"data_hora": "2016-08-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+}
+]
+},
+{
+"id": "462981",
+"data_hora": "2016-08-07T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462980",
+"data_hora": "2016-08-07T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "462982",
+"data_hora": "2016-08-07T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462263",
+"data_hora": "2016-08-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462264",
+"data_hora": "2016-08-07T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "463060",
+"data_hora": "2016-08-09T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462993",
+"data_hora": "2016-08-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463799",
+"data_hora": "2016-08-11T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "463804",
+"data_hora": "2016-08-11T00:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463800",
+"data_hora": "2016-08-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463058",
+"data_hora": "2016-08-11T01:20Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462992",
+"data_hora": "2016-08-11T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463777",
+"data_hora": "2016-08-12T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463809",
+"data_hora": "2016-08-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463811",
+"data_hora": "2016-08-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463812",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463810",
+"data_hora": "2016-08-14T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "463813",
+"data_hora": "2016-08-15T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamal Jack"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Benitez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Diaz"
+]
+}
+]
+},
+{
+"id": "459908",
+"data_hora": "2016-08-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "464323",
+"data_hora": "2016-08-21T00:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "464324",
+"data_hora": "2016-08-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "464325",
+"data_hora": "2016-08-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "464322",
+"data_hora": "2016-08-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "464326",
+"data_hora": "2016-08-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459911",
+"data_hora": "2016-08-26T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+}
+]
+},
+{
+"id": "459914",
+"data_hora": "2016-08-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Hernandez"
+]
+}
+]
+},
+{
+"id": "464982",
+"data_hora": "2016-08-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "464983",
+"data_hora": "2016-08-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Castillo"
+]
+}
+]
+},
+{
+"id": "464984",
+"data_hora": "2016-08-28T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesus Toscanini"
+]
+}
+]
+},
+{
+"id": "464985",
+"data_hora": "2016-08-28T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466636",
+"data_hora": "2016-09-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Jackson"
+]
+}
+]
+},
+{
+"id": "466637",
+"data_hora": "2016-09-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Amaya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+}
+]
+},
+{
+"id": "466638",
+"data_hora": "2016-09-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466639",
+"data_hora": "2016-09-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+}
+]
+},
+{
+"id": "466657",
+"data_hora": "2016-09-04T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Girvan Brown"
+]
+}
+]
+},
+{
+"id": "466701",
+"data_hora": "2016-09-08T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466823",
+"data_hora": "2016-09-09T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466704",
+"data_hora": "2016-09-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466824",
+"data_hora": "2016-09-10T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "466825",
+"data_hora": "2016-09-11T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466826",
+"data_hora": "2016-09-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466827",
+"data_hora": "2016-09-11T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "466854",
+"data_hora": "2016-09-15T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466877",
+"data_hora": "2016-09-18T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "466878",
+"data_hora": "2016-09-18T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466880",
+"data_hora": "2016-09-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466879",
+"data_hora": "2016-09-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466881",
+"data_hora": "2016-09-18T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466882",
+"data_hora": "2016-09-19T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459934",
+"data_hora": "2016-09-21T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459936",
+"data_hora": "2016-09-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459938",
+"data_hora": "2016-09-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "459939",
+"data_hora": "2016-09-22T00:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459937",
+"data_hora": "2016-09-22T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459935",
+"data_hora": "2016-09-22T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467062",
+"data_hora": "2016-09-23T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467260",
+"data_hora": "2016-09-24T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467206",
+"data_hora": "2016-09-25T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Mendoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Aimar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ze Ferreira Paulo"
+]
+}
+]
+},
+{
+"id": "467207",
+"data_hora": "2016-09-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+}
+]
+},
+{
+"id": "467208",
+"data_hora": "2016-09-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Del Giorno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Salamanca"
+]
+}
+]
+},
+{
+"id": "467210",
+"data_hora": "2016-09-25T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+}
+]
+},
+{
+"id": "467294",
+"data_hora": "2016-09-26T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "3",
+"gols_visitante": "5",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Lezcano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Safastizado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+}
+]
+},
+{
+"id": "467314",
+"data_hora": "2016-10-02T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "467315",
+"data_hora": "2016-10-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467316",
+"data_hora": "2016-10-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467312",
+"data_hora": "2016-10-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467313",
+"data_hora": "2016-10-02T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Antonio Abarca Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Lezcano"
+]
+}
+]
+},
+{
+"id": "467422",
+"data_hora": "2016-10-06T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Fagundez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irving Flores"
+]
+}
+]
+},
+{
+"id": "459957",
+"data_hora": "2016-10-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467522",
+"data_hora": "2016-10-08T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "467523",
+"data_hora": "2016-10-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467524",
+"data_hora": "2016-10-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Fagundez"
+]
+}
+]
+},
+{
+"id": "467525",
+"data_hora": "2016-10-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+}
+]
+},
+{
+"id": "467526",
+"data_hora": "2016-10-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenroy Howell"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+}
+]
+},
+{
+"id": "467556",
+"data_hora": "2016-10-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Fagundez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Orellana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Romero"
+]
+}
+]
+},
+{
+"id": "467554",
+"data_hora": "2016-10-12T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harold Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harold Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Carrillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+}
+]
+},
+{
+"id": "459959",
+"data_hora": "2016-10-13T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elman Alberto Rivas Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ze Ferreira Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Portillo"
+]
+}
+]
+},
+{
+"id": "459958",
+"data_hora": "2016-10-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Monterroza"
+]
+}
+]
+},
+{
+"id": "459962",
+"data_hora": "2016-10-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilma Torres"
+]
+}
+]
+},
+{
+"id": "467555",
+"data_hora": "2016-10-13T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Osvaldo Godoy Rivera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ceren"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+}
+]
+},
+{
+"id": "467652",
+"data_hora": "2016-10-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"McKauly Jimmy Tulloch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Melara"
+]
+}
+]
+},
+{
+"id": "459968",
+"data_hora": "2016-10-15T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Barahona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Landaverde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+}
+]
+},
+{
+"id": "467651",
+"data_hora": "2016-10-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Jorge Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Aguila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Lezcano"
+]
+}
+]
+},
+{
+"id": "467685",
+"data_hora": "2016-10-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santos Ortiz"
+]
+}
+]
+},
+{
+"id": "467686",
+"data_hora": "2016-10-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Salamanca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+}
+]
+},
+{
+"id": "467687",
+"data_hora": "2016-10-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Otero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christopher Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danny Torres"
+]
+}
+]
+},
+{
+"id": "467688",
+"data_hora": "2016-10-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Henríquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Weslie John"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Xavier García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Jorge Moran"
+]
+}
+]
+},
+{
+"id": "459974",
+"data_hora": "2016-10-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Lezcano"
+]
+}
+]
+},
+{
+"id": "467691",
+"data_hora": "2016-10-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467690",
+"data_hora": "2016-10-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Flores"
+]
+}
+]
+},
+{
+"id": "467692",
+"data_hora": "2016-10-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Barahona"
+]
+}
+]
+},
+{
+"id": "467693",
+"data_hora": "2016-10-23T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamal Jack"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danny Torres"
+]
+}
+]
+},
+{
+"id": "467694",
+"data_hora": "2016-10-24T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enner Orellana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Weslie John"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Del Giorno"
+]
+}
+]
+},
+{
+"id": "459979",
+"data_hora": "2016-10-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Flores"
+]
+}
+]
+},
+{
+"id": "459981",
+"data_hora": "2016-10-30T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Xavier García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+}
+]
+},
+{
+"id": "468008",
+"data_hora": "2016-10-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Guerreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Cruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bladimir Diaz"
+]
+}
+]
+},
+{
+"id": "468009",
+"data_hora": "2016-10-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Romeo Parkes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+}
+]
+},
+{
+"id": "468010",
+"data_hora": "2016-10-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468011",
+"data_hora": "2016-10-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+}
+]
+},
+{
+"id": "459985",
+"data_hora": "2016-11-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Seyed Martinez"
+]
+}
+]
+},
+{
+"id": "468076",
+"data_hora": "2016-11-02T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+}
+]
+},
+{
+"id": "459986",
+"data_hora": "2016-11-02T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459987",
+"data_hora": "2016-11-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Valoyes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Fagundez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+}
+]
+},
+{
+"id": "459982",
+"data_hora": "2016-11-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Alexander Suazo Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Moscoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+}
+]
+},
+{
+"id": "468072",
+"data_hora": "2016-11-03T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Clayvin Zuniga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Mancia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Perucci"
+]
+}
+]
+},
+{
+"id": "459988",
+"data_hora": "2016-11-06T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Oritz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deris Ariel Umanzor"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Valoyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irving Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Vladimir Garcia"
+]
+}
+]
+},
+{
+"id": "459993",
+"data_hora": "2016-11-06T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468136",
+"data_hora": "2016-11-06T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ceren"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moises Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+}
+]
+},
+{
+"id": "468137",
+"data_hora": "2016-11-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468138",
+"data_hora": "2016-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Viveros"
+]
+}
+]
+},
+{
+"id": "468139",
+"data_hora": "2016-11-06T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468193",
+"data_hora": "2016-11-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459996",
+"data_hora": "2016-11-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459998",
+"data_hora": "2016-11-12T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+}
+]
+},
+{
+"id": "468274",
+"data_hora": "2016-11-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Joel Ortega Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irving Flores"
+]
+}
+]
+},
+{
+"id": "468275",
+"data_hora": "2016-11-13T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "459997",
+"data_hora": "2016-11-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468276",
+"data_hora": "2016-11-17T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Jose Rivera"
+]
+}
+]
+},
+{
+"id": "460005",
+"data_hora": "2016-11-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Dragon",
+"mandante_id": "15719",
+"visitante": "Chalatenango",
+"visitante_id": "17933",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Otero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+}
+]
+},
+{
+"id": "468358",
+"data_hora": "2016-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Silva"
+]
+}
+]
+},
+{
+"id": "468362",
+"data_hora": "2016-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Viveros"
+]
+}
+]
+},
+{
+"id": "468360",
+"data_hora": "2016-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Ze Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elman Alberto Rivas Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Conterras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Suazo"
+]
+}
+]
+},
+{
+"id": "468361",
+"data_hora": "2016-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Amaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Angel Carballo Pena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Romeo Parkes"
+]
+}
+]
+},
+{
+"id": "468359",
+"data_hora": "2016-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de El Salvador",
+"mandante_id": "11057",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Universitario UES",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Menjivar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Mancia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilma Torres"
+]
+}
+]
+},
+{
+"id": "460011",
+"data_hora": "2016-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Dragon",
+"visitante_id": "15719",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "460008",
+"data_hora": "2016-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Burgos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moises Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elman Alberto Rivas Garcia"
+]
+}
+]
+},
+{
+"id": "460010",
+"data_hora": "2016-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chalatenango",
+"mandante_id": "17933",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jose Gregorio Martinez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Clayvin Zuniga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cubillas"
+]
+}
+]
+},
+{
+"id": "460006",
+"data_hora": "2016-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ceren"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscer Dario Guerrero Alvarado"
+]
+}
+]
+},
+{
+"id": "460007",
+"data_hora": "2016-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "Universidad de El Salvador",
+"visitante_id": "11057",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "460009",
+"data_hora": "2016-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Medardo Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+}
+]
+},
+{
+"id": "468692",
+"data_hora": "2016-11-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pasaquina FC",
+"mandante_id": "17562",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Safastizado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Solis"
+]
+}
+]
+},
+{
+"id": "468693",
+"data_hora": "2016-12-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Henríquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Lizama"
+]
+}
+]
+},
+{
+"id": "468694",
+"data_hora": "2016-12-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468697",
+"data_hora": "2016-12-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Romeo Parkes"
+]
+}
+]
+},
+{
+"id": "468712",
+"data_hora": "2016-12-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Fagundez"
+]
+}
+]
+},
+{
+"id": "468700",
+"data_hora": "2016-12-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Pasaquina FC",
+"visitante_id": "17562",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+}
+]
+},
+{
+"id": "468699",
+"data_hora": "2016-12-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Del Giorno"
+]
+}
+]
+},
+{
+"id": "468701",
+"data_hora": "2016-12-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Mayén"
+]
+}
+]
+},
+{
+"id": "468798",
+"data_hora": "2016-12-06T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468801",
+"data_hora": "2016-12-06T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "468876",
+"data_hora": "2016-12-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santa Tecla",
+"mandante_id": "13301",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Las Delicias",
+"cidade": "Santa Tecla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Valoyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlón Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Abreu"
+]
+}
+]
+},
+{
+"id": "468875",
+"data_hora": "2016-12-09T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Sonsonate",
+"visitante_id": "17932",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+},
+{
+"id": "468975",
+"data_hora": "2016-12-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468799",
+"data_hora": "2016-12-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Sonsonate",
+"mandante_id": "17932",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Anna Mercedes Campos",
+"cidade": "Sonsonate",
+"publico": 0,
+"lances": []
+},
+{
+"id": "469458",
+"data_hora": "2016-12-18T21:15Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "469135",
+"data_hora": "2016-12-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Santa Tecla",
+"visitante_id": "13301",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Cuscatlán",
+"cidade": "San Salvador",
+"publico": 0,
+"lances": []
+}
+]

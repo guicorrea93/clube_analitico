@@ -1,0 +1,6882 @@
+[
+{
+"id": "214726",
+"data_hora": "2007-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214727",
+"data_hora": "2007-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+}
+]
+},
+{
+"id": "214518",
+"data_hora": "2007-02-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214520",
+"data_hora": "2007-02-25T08:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214521",
+"data_hora": "2007-02-25T08:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214517",
+"data_hora": "2007-02-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214519",
+"data_hora": "2007-02-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214746",
+"data_hora": "2007-03-04T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214749",
+"data_hora": "2007-03-04T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214750",
+"data_hora": "2007-03-04T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214748",
+"data_hora": "2007-03-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214747",
+"data_hora": "2007-03-04T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214779",
+"data_hora": "2007-03-07T08:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214775",
+"data_hora": "2007-03-07T08:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214777",
+"data_hora": "2007-03-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214778",
+"data_hora": "2007-03-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214776",
+"data_hora": "2007-03-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215046",
+"data_hora": "2007-03-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215047",
+"data_hora": "2007-03-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214867",
+"data_hora": "2007-03-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214871",
+"data_hora": "2007-03-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214868",
+"data_hora": "2007-03-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214869",
+"data_hora": "2007-03-11T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214870",
+"data_hora": "2007-03-11T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214890",
+"data_hora": "2007-03-14T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214887",
+"data_hora": "2007-03-14T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214886",
+"data_hora": "2007-03-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214888",
+"data_hora": "2007-03-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "214889",
+"data_hora": "2007-03-14T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215079",
+"data_hora": "2007-03-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215080",
+"data_hora": "2007-03-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215064",
+"data_hora": "2007-03-18T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215067",
+"data_hora": "2007-03-18T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215065",
+"data_hora": "2007-03-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215068",
+"data_hora": "2007-03-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215066",
+"data_hora": "2007-03-18T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215434",
+"data_hora": "2007-03-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215198",
+"data_hora": "2007-03-25T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215202",
+"data_hora": "2007-03-25T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215200",
+"data_hora": "2007-03-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215199",
+"data_hora": "2007-03-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215201",
+"data_hora": "2007-03-25T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215435",
+"data_hora": "2007-03-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215514",
+"data_hora": "2007-03-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215468",
+"data_hora": "2007-04-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215469",
+"data_hora": "2007-04-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215471",
+"data_hora": "2007-04-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215472",
+"data_hora": "2007-04-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215470",
+"data_hora": "2007-04-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "4",
+"gols_visitante": "5",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215582",
+"data_hora": "2007-04-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215581",
+"data_hora": "2007-04-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215583",
+"data_hora": "2007-04-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215584",
+"data_hora": "2007-04-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215585",
+"data_hora": "2007-04-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215574",
+"data_hora": "2007-04-08T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215576",
+"data_hora": "2007-04-08T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215575",
+"data_hora": "2007-04-08T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215577",
+"data_hora": "2007-04-08T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "215578",
+"data_hora": "2007-04-08T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216175",
+"data_hora": "2007-04-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216178",
+"data_hora": "2007-04-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216177",
+"data_hora": "2007-04-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216176",
+"data_hora": "2007-04-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216179",
+"data_hora": "2007-04-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216338",
+"data_hora": "2007-04-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216251",
+"data_hora": "2007-04-22T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216247",
+"data_hora": "2007-04-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216249",
+"data_hora": "2007-04-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216250",
+"data_hora": "2007-04-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216248",
+"data_hora": "2007-04-22T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216311",
+"data_hora": "2007-04-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216312",
+"data_hora": "2007-04-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216314",
+"data_hora": "2007-04-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216315",
+"data_hora": "2007-04-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216313",
+"data_hora": "2007-04-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216597",
+"data_hora": "2007-04-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "5",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216373",
+"data_hora": "2007-04-29T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216370",
+"data_hora": "2007-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216371",
+"data_hora": "2007-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216372",
+"data_hora": "2007-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216369",
+"data_hora": "2007-04-29T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216639",
+"data_hora": "2007-05-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216640",
+"data_hora": "2007-05-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216658",
+"data_hora": "2007-05-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216483",
+"data_hora": "2007-05-02T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216485",
+"data_hora": "2007-05-02T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216481",
+"data_hora": "2007-05-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216482",
+"data_hora": "2007-05-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216484",
+"data_hora": "2007-05-03T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216733",
+"data_hora": "2007-05-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216577",
+"data_hora": "2007-05-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216578",
+"data_hora": "2007-05-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216576",
+"data_hora": "2007-05-06T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216579",
+"data_hora": "2007-05-06T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216715",
+"data_hora": "2007-05-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "7",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216717",
+"data_hora": "2007-05-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216716",
+"data_hora": "2007-05-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216718",
+"data_hora": "2007-05-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216719",
+"data_hora": "2007-05-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216811",
+"data_hora": "2007-05-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216813",
+"data_hora": "2007-05-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216812",
+"data_hora": "2007-05-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216814",
+"data_hora": "2007-05-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "216815",
+"data_hora": "2007-05-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Nacional 1906",
+"visitante_id": "7228",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218029",
+"data_hora": "2007-05-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218030",
+"data_hora": "2007-05-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218031",
+"data_hora": "2007-05-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218032",
+"data_hora": "2007-05-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional 1906",
+"mandante_id": "7228",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218033",
+"data_hora": "2007-05-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218996",
+"data_hora": "2007-06-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "218997",
+"data_hora": "2007-06-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "221060",
+"data_hora": "2007-06-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "221061",
+"data_hora": "2007-06-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+}
+]
+},
+{
+"id": "221239",
+"data_hora": "2007-07-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "224786",
+"data_hora": "2007-08-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amilcar Ramirez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José González"
+]
+}
+]
+},
+{
+"id": "224787",
+"data_hora": "2007-08-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "224788",
+"data_hora": "2007-08-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Albarran"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez Jovel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Costas"
+]
+}
+]
+},
+{
+"id": "224790",
+"data_hora": "2007-08-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+}
+]
+},
+{
+"id": "224789",
+"data_hora": "2007-08-12T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+}
+]
+},
+{
+"id": "225270",
+"data_hora": "2007-08-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+}
+]
+},
+{
+"id": "225271",
+"data_hora": "2007-08-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Moscoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Costas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sanchez"
+]
+}
+]
+},
+{
+"id": "225273",
+"data_hora": "2007-08-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adonai Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Troyano"
+]
+}
+]
+},
+{
+"id": "225274",
+"data_hora": "2007-08-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Donni Valle"
+]
+}
+]
+},
+{
+"id": "225272",
+"data_hora": "2007-08-19T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marc Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilbert Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+}
+]
+},
+{
+"id": "227321",
+"data_hora": "2007-08-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Iglesias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zelvin Bonifacio Zepeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Cerritos"
+]
+}
+]
+},
+{
+"id": "225365",
+"data_hora": "2007-08-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+}
+]
+},
+{
+"id": "225366",
+"data_hora": "2007-08-26T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225368",
+"data_hora": "2007-08-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Hugo Merino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Retana"
+]
+}
+]
+},
+{
+"id": "225367",
+"data_hora": "2007-08-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Manuel Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Manuel Martinez"
+]
+}
+]
+},
+{
+"id": "225364",
+"data_hora": "2007-08-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Artero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Guzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedrozo"
+]
+}
+]
+},
+{
+"id": "227541",
+"data_hora": "2007-09-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Escobar"
+]
+}
+]
+},
+{
+"id": "225477",
+"data_hora": "2007-09-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "225478",
+"data_hora": "2007-09-02T07:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225479",
+"data_hora": "2007-09-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Alfredo Murgas"
+]
+}
+]
+},
+{
+"id": "225480",
+"data_hora": "2007-09-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Jose Reyes Moran"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Pekarnic"
+]
+}
+]
+},
+{
+"id": "225476",
+"data_hora": "2007-09-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Retana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Albarran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilbert Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hellman Monterrosa"
+]
+}
+]
+},
+{
+"id": "225506",
+"data_hora": "2007-09-05T07:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225507",
+"data_hora": "2007-09-05T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225509",
+"data_hora": "2007-09-05T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225510",
+"data_hora": "2007-09-06T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225508",
+"data_hora": "2007-09-06T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "227542",
+"data_hora": "2007-09-06T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225540",
+"data_hora": "2007-09-09T07:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225539",
+"data_hora": "2007-09-09T07:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225538",
+"data_hora": "2007-09-09T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deris Ariel Umanzor"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Ernesto Henriquez Carballo"
+]
+}
+]
+},
+{
+"id": "225541",
+"data_hora": "2007-09-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson David Corleto Umana"
+]
+}
+]
+},
+{
+"id": "225542",
+"data_hora": "2007-09-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salvador Coreas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Nahun Galdamez"
+]
+}
+]
+},
+{
+"id": "229340",
+"data_hora": "2007-09-13T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santos Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez Jovel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aparicio"
+]
+}
+]
+},
+{
+"id": "229342",
+"data_hora": "2007-09-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Salamanca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+}
+]
+},
+{
+"id": "229343",
+"data_hora": "2007-09-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "229353",
+"data_hora": "2007-09-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Jose Reyes Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martinez"
+]
+}
+]
+},
+{
+"id": "229338",
+"data_hora": "2007-09-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Jeoanny Alegria Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+}
+]
+},
+{
+"id": "225597",
+"data_hora": "2007-09-16T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225601",
+"data_hora": "2007-09-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Retana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel González"
+]
+}
+]
+},
+{
+"id": "225599",
+"data_hora": "2007-09-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Pacheco"
+]
+}
+]
+},
+{
+"id": "225598",
+"data_hora": "2007-09-16T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marc Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilbert Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marc Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Medrano"
+]
+}
+]
+},
+{
+"id": "225600",
+"data_hora": "2007-09-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Alvarado"
+]
+}
+]
+},
+{
+"id": "229017",
+"data_hora": "2007-09-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "229615",
+"data_hora": "2007-09-19T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Sanchez"
+]
+}
+]
+},
+{
+"id": "229016",
+"data_hora": "2007-09-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Donni Valle"
+]
+}
+]
+},
+{
+"id": "225689",
+"data_hora": "2007-09-22T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "229618",
+"data_hora": "2007-09-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ze Eduardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salvador Coreas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "225690",
+"data_hora": "2007-09-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Retana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Gochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Retana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Vel?uez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dagoberto Portillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dennis Jonathan Morales Alas"
+]
+}
+]
+},
+{
+"id": "225693",
+"data_hora": "2007-09-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Nerio"
+]
+}
+]
+},
+{
+"id": "225692",
+"data_hora": "2007-09-23T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Deras"
+]
+}
+]
+},
+{
+"id": "225691",
+"data_hora": "2007-09-23T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Salamanca"
+]
+}
+]
+},
+{
+"id": "225782",
+"data_hora": "2007-09-30T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225779",
+"data_hora": "2007-09-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliseo Salamanca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+}
+]
+},
+{
+"id": "225781",
+"data_hora": "2007-09-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salvador Coreas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Guzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+}
+]
+},
+{
+"id": "225780",
+"data_hora": "2007-09-30T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Chanampe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+}
+]
+},
+{
+"id": "225778",
+"data_hora": "2007-09-30T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Jose Lemus Tobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+}
+]
+},
+{
+"id": "229120",
+"data_hora": "2007-10-03T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "229121",
+"data_hora": "2007-10-03T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "229738",
+"data_hora": "2007-10-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Larios"
+]
+}
+]
+},
+{
+"id": "225874",
+"data_hora": "2007-10-07T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Nahun Galdamez"
+]
+}
+]
+},
+{
+"id": "225877",
+"data_hora": "2007-10-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Escobar"
+]
+}
+]
+},
+{
+"id": "225875",
+"data_hora": "2007-10-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Medrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Leguizamón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Medrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+}
+]
+},
+{
+"id": "225876",
+"data_hora": "2007-10-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Canjura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+}
+]
+},
+{
+"id": "225878",
+"data_hora": "2007-10-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Henriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Bini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Obregon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Gonzalez"
+]
+}
+]
+},
+{
+"id": "230569",
+"data_hora": "2007-10-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Chavarria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Chavarria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "225902",
+"data_hora": "2007-10-14T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225906",
+"data_hora": "2007-10-14T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225903",
+"data_hora": "2007-10-14T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225905",
+"data_hora": "2007-10-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Alfredo Murgas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Nahun Galdamez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Antonio Cabrera Torres"
+]
+}
+]
+},
+{
+"id": "225904",
+"data_hora": "2007-10-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Alexander Campos"
+]
+}
+]
+},
+{
+"id": "225963",
+"data_hora": "2007-10-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "225966",
+"data_hora": "2007-10-21T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225965",
+"data_hora": "2007-10-21T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225962",
+"data_hora": "2007-10-21T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "225964",
+"data_hora": "2007-10-21T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "230567",
+"data_hora": "2007-10-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+}
+]
+},
+{
+"id": "230568",
+"data_hora": "2007-10-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Medrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Henriquez"
+]
+}
+]
+},
+{
+"id": "231011",
+"data_hora": "2007-10-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martinez"
+]
+}
+]
+},
+{
+"id": "226035",
+"data_hora": "2007-10-28T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226034",
+"data_hora": "2007-10-28T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226033",
+"data_hora": "2007-10-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Martinez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Castro"
+]
+}
+]
+},
+{
+"id": "230884",
+"data_hora": "2007-10-28T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226036",
+"data_hora": "2007-10-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Pacheco"
+]
+}
+]
+},
+{
+"id": "230885",
+"data_hora": "2007-10-28T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231012",
+"data_hora": "2007-10-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adonai Martinez"
+]
+}
+]
+},
+{
+"id": "226037",
+"data_hora": "2007-10-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+}
+]
+},
+{
+"id": "230886",
+"data_hora": "2007-10-28T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "230887",
+"data_hora": "2007-10-28T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226064",
+"data_hora": "2007-10-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Lugo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Alfredo Murgas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ayala"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+}
+]
+},
+{
+"id": "226062",
+"data_hora": "2007-10-31T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226061",
+"data_hora": "2007-10-31T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226060",
+"data_hora": "2007-11-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ludwin Meraz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Munoz"
+]
+}
+]
+},
+{
+"id": "226063",
+"data_hora": "2007-11-01T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Moscoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+}
+]
+},
+{
+"id": "231178",
+"data_hora": "2007-11-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+}
+]
+},
+{
+"id": "231179",
+"data_hora": "2007-11-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Lugo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osael Romero"
+]
+}
+]
+},
+{
+"id": "231180",
+"data_hora": "2007-11-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231181",
+"data_hora": "2007-11-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adonai Martinez"
+]
+}
+]
+},
+{
+"id": "226124",
+"data_hora": "2007-11-04T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mejía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+}
+]
+},
+{
+"id": "226121",
+"data_hora": "2007-11-04T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226122",
+"data_hora": "2007-11-04T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226123",
+"data_hora": "2007-11-04T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226125",
+"data_hora": "2007-11-04T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231008",
+"data_hora": "2007-11-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231009",
+"data_hora": "2007-11-07T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231010",
+"data_hora": "2007-11-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Cerritos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yovani Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez Jovel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Iglesias"
+]
+}
+]
+},
+{
+"id": "231546",
+"data_hora": "2007-11-08T01:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231007",
+"data_hora": "2007-11-08T01:30Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "231586",
+"data_hora": "2007-11-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Alvarez"
+]
+}
+]
+},
+{
+"id": "226213",
+"data_hora": "2007-11-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+}
+]
+},
+{
+"id": "226211",
+"data_hora": "2007-11-11T08:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226215",
+"data_hora": "2007-11-11T08:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "226214",
+"data_hora": "2007-11-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anel Alejandro Canales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martinez"
+]
+}
+]
+},
+{
+"id": "226212",
+"data_hora": "2007-11-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Pekarnic"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedrozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Calderon"
+]
+}
+]
+},
+{
+"id": "231590",
+"data_hora": "2007-11-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Obregon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Cerritos"
+]
+}
+]
+},
+{
+"id": "226243",
+"data_hora": "2007-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Águila",
+"mandante_id": "7226",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Francisco Barraza",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deris Ariel Umanzor"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Medrano"
+]
+}
+]
+},
+{
+"id": "226241",
+"data_hora": "2007-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Enrique Rodriguez Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Avila"
+]
+}
+]
+},
+{
+"id": "226244",
+"data_hora": "2007-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nejapa",
+"mandante_id": "7909",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedrozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Rodriguez"
+]
+}
+]
+},
+{
+"id": "226245",
+"data_hora": "2007-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Municipal",
+"mandante_id": "7227",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Arturo Simeon Magana",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Castellon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+}
+]
+},
+{
+"id": "226242",
+"data_hora": "2007-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Salvador",
+"mandante_id": "7230",
+"visitante": "Alianza FC",
+"visitante_id": "7225",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cuscatlan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Gochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Vel?uez"
+]
+}
+]
+},
+{
+"id": "226290",
+"data_hora": "2007-11-25T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alianza FC",
+"mandante_id": "7225",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Magico Gonzalez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Alvarez"
+]
+}
+]
+},
+{
+"id": "226287",
+"data_hora": "2007-11-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Águila",
+"visitante_id": "7226",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Guillermo Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Amilcar Melendez Erazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de la Cruz Bentos"
+]
+}
+]
+},
+{
+"id": "226288",
+"data_hora": "2007-11-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Nejapa",
+"visitante_id": "7909",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josue Nahun Galdamez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Vinosis Webster"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Carlos Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Osorio"
+]
+}
+]
+},
+{
+"id": "226286",
+"data_hora": "2007-11-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "San Salvador",
+"visitante_id": "7230",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Medrano"
+]
+}
+]
+},
+{
+"id": "226289",
+"data_hora": "2007-11-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vista Hermosa",
+"mandante_id": "7233",
+"visitante": "Once Municipal",
+"visitante_id": "7227",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Iglesias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yovani Romero"
+]
+}
+]
+},
+{
+"id": "232149",
+"data_hora": "2007-11-29T01:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "Vista Hermosa",
+"visitante_id": "7233",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "232288",
+"data_hora": "2007-12-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Isidro Metapán",
+"mandante_id": "7224",
+"visitante": "CD FAS",
+"visitante_id": "7229",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Calero Suarez",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "232193",
+"data_hora": "2007-12-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Luis Ángel Firpo",
+"mandante_id": "7232",
+"visitante": "CD Municipal Limeño",
+"visitante_id": "7231",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sergio Torres",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Anaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Gomez"
+]
+}
+]
+},
+{
+"id": "232380",
+"data_hora": "2007-12-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD FAS",
+"mandante_id": "7229",
+"visitante": "Isidro Metapán",
+"visitante_id": "7224",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Oscar Alberto Quiteño",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Panameno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Pacheco"
+]
+}
+]
+},
+{
+"id": "232382",
+"data_hora": "2007-12-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Municipal Limeño",
+"mandante_id": "7231",
+"visitante": "Luis Ángel Firpo",
+"visitante_id": "7232",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Castillo"
+]
+}
+]
+}
+]

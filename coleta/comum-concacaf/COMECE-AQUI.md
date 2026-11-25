@@ -47,7 +47,8 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 | `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | 5bace06 (24/11, sem push) | não |
 | `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | 17766bf (24/11, sem push) | não |
 | `hon-1` Hondurenho | 89 (1965/66–2026 Clausura) | 5.391 | 55 | 6e59e93 (24/11, sem push) | não |
-| `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | sem commit (espera o ok) | não |
+| `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | 7fd2f61 (24/11, sem push) | não |
+| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | sem commit (espera o ok) | não |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
@@ -59,8 +60,9 @@ Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha p
    `tablesu/usa2026.html` e a ESPN; a janela da ESPN em `edicoes._ESPN` se a RSSSF só tiver as tabelas).
 3. **Costa Rica (`crc-1`):** no git em 24/11 (`17766bf`, sem push); falta o agente 1 carregar no banco.
 4. **Honduras (`hon-1`):** no git em 24/11 (`6e59e93`, sem push); falta o agente 1 carregar no banco.
-5. **Guatemala (`gua-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit.
-6. **Próxima: El Salvador (`slv-1`)**, com o escopo antes. Depois, na ordem sugerida: `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
+5. **Guatemala (`gua-1`):** no git 7fd2f61 (24/11, sem push).
+6. **El Salvador (`slv-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit.
+7. **Próxima: Panamá (`pan-1`)**, com o escopo antes. Depois, na ordem sugerida: `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
    outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
 4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
@@ -102,6 +104,19 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   "Santos Laguna"; os outros "América" levam a cidade. Conferir sempre o banco e os `data/coleta/*/pacote/clubes.csv`.
 - As armadilhas da RSSSF, da ESPN e do ogol já vistas na América do Sul estão na seção 6 de
   `coleta/comum-sulamerica/COMECE-AQUI.md`.
+
+**Vistas em El Salvador (24/11):**
+- **Lista de campeões com seções** ("unofficial editions", "official championships", "Playoff between Zonal Champions",
+  "National League"): `edicoes.lista()` lê só as oficiais e já dá o vice; a Copa Pilsener 1998/99 sai pela nota `[Pilsener]`.
+- **Página de tabelas finais com as finais antigas** (`elsalhist.html`, 1926 a 1997/98): `edicoes.secoes_hist()` acha a seção
+  de cada temporada pelo título (só o ano); de 1926 a 1938 as finais entram como jogos, 1942/43/46 só com a tabela.
+- **Trecho a tirar no meio da página** (repechaje de 1996/97 contra clube da 2ª; rodadas anuladas de 2022): `edicoes._corta()`.
+- **Jogo extra pela 4ª vaga** ("Fourth Place Match", "Qualifying Playoff", 2002-2013): fase "Desempate do 4º lugar", fora da
+  conta da fase regular.
+- **Linha de jogo com inicial minúscula** ("once Municipal 0-3 Alianza"): o leitor comum não lê; `CONSERTA_TEXTO`.
+- **Vaga comprada** (Inter FA ficou com a do Dragón, Hércules com a do Once Deportivo, 2025): clube próprio.
+- **ESPN (`slv.1`) que não fecha com a RSSSF** nos Aperturas de 2010 e 2011 (as edições só com tabela): não usada para completar;
+  serve só para hora, estádio e lances (2006 em diante; sem lances de 2018 a 2025).
 
 **Vistas na Guatemala (24/11):**
 - **Nomes de arquivo irregulares** (`guat71a.html` = 1970/71): `edicoes.paginas_por_temporada()` casa pelo título da página.
@@ -187,6 +202,12 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   das ligas regionais, não uma liga; a RSSSF a lista à parte da Liga Nacional (`hondchamp.html`); a liga e a FENAFUTH não
   reconhecem esses títulos (há só um pedido do Olimpia, sem decisão); e quase não há dados (vários anos sem vice, nenhuma
   tabela). Se um dia entrar, como competição própria, não dentro do `hon-1`.
+- **El Salvador (24/11, ok do Guilherme: "siga"):** a lista de campeões da RSSSF (110 títulos), que é a contagem da
+  imprensa de lá (FAS 20, Alianza 18, Águila 17). Entram os nove campeonatos nacionais de 1926 a 1946 (final ou quadrangular
+  entre os campeões das zonas, que a RSSSF conta como oficiais, como a era amadora do México). Ficam fora 1924-25 (não
+  oficiais), os títulos só da Zona Central (1931-36, 1939-41, 1944-45; regionais, como a Liga Capitalina da Guatemala, embora
+  a tradição às vezes os conte), 1947 (parou depois de duas rodadas) e a Copa Pilsener 1998/99. O Clausura 2023 (cancelado
+  depois da tragédia no Cuscatlán) entra sem campeão.
 - **Guatemala (24/11, mesmo critério de Honduras, com o ok do Guilherme para seguir):** só o Campeonato de Liga (Liga
   Nacional), de 1942/43 em diante, como a contagem oficial (Municipal 33, Comunicaciones 32 títulos até o Clausura 2026). A
   Liga Capitalina / Liga Mayor (1919-1941, liga da capital) e os torneios nacionais da época (Campeonato Nacional 1919-1923,

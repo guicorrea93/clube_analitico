@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1", "gua-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
-PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon", "gua-1": "gua"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1", "gua-1", "slv-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
+PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon", "gua-1": "gua", "slv-1": "slv"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -83,6 +83,17 @@ PENDENCIAS: dict[str, list[str]] = {
         "Apertura 2010 a Clausura 2012 só com as tabelas (a página da RSSSF não tem a fase regular).",
         "A lista de campeões não traz o vice: o vice é o 2º da classificação (conferir com outra fonte).",
         "1998/99: parte dos jogos do grupo do rebaixamento só com o resultado (sem placar).",
+    ],
+    "slv-1": [
+        "1942, 1943, 1946 e 1948/49 a 1995/96 só com as tabelas (e o campeão e o vice da lista); as finais desses anos que a "
+        "RSSSF traz não entram. Fonte que resolveria: jornais da época (La Prensa Gráfica, El Diario de Hoy) ou a FESFUT.",
+        "Apertura 2010 a Clausura 2012 só com as tabelas (a página da RSSSF não tem a fase regular). A ESPN tem os "
+        "Aperturas de 2010 e 2011 quase inteiros, mas não fecha com as tabelas (placares diferentes, um jogo faltando, "
+        "um repetido): não foi usada; os Clausuras ela quase não tem.",
+        "2002 Clausura: um gol de diferença entre os jogos e a tabela do Atlético Balboa (explicado no relatório).",
+        "Títulos só da Zona Central (1931-36, 1939-41, 1944-45) fora do slv-1 (decisão de 24/11); a tradição às vezes os "
+        "conta como nacionais.",
+        "2020/21 (pandemia, duas fases de grupos): a classificação junta os dois grupos da segunda fase (10 jogos por clube).",
     ],
 }
 

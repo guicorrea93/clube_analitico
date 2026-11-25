@@ -195,7 +195,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    Apertura e Clausura de 1999/00 ao Clausura 2026 (2001: Reordenamiento; Clausura 2020 sem campeão). 6.836 jogos
    (1996/97 em diante), 73 clubes, 17.562 gols (2.954 com autor), sem cartões. Fontes: RSSSF e ESPN (`gua.1`, para hora,
    estádio e público). O campeão bate com a lista em todas as edições e é sempre o 1º da classificação.
-2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+2. **Commits:** 7fd2f61 (24/11, sem push).
 3. **Teste de carga:** `gua-1: 101 edições, 6836 jogos, 73 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/gua-1/pacote/`;
@@ -211,3 +211,36 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
 7. **Onde a revisão deve olhar primeiro:** 1996/97, 1999 Apertura e 2000 Apertura (um jogo faltando ou um gol diferente na
    página); 1998/99 (grupo do rebaixamento sem placar); o vice das edições só com tabela.
 8. **Próxima competição:** El Salvador (`slv-1`), com o escopo antes.
+
+## Recado de fim de coleta — slv-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Salvadorenho (`slv-1`, Primera División), 111 edições, uma por título, como a lista da
+   RSSSF (`elsalchamp.html`, 110 títulos), que é a contagem da imprensa de lá (FAS 20, Alianza 18, Águila 17): de 1926 a 1946
+   os nove campeonatos nacionais entre os campeões das zonas (finais e semifinais como jogos; 1942, 1943 e 1946 só com a
+   tabela); um campeão por temporada de 1948/49 a 1998/99 (em 1998/99, o Clausura); Apertura e Clausura de 1999/00 ao
+   Clausura 2026; o Clausura 2023 (cancelado depois da tragédia no Cuscatlán) sem campeão. 6.026 jogos (1996/97 em diante,
+   mais as finais de 1926 a 1938), 71 clubes, 15.505 gols (2.682 com autor), sem cartões. Fontes: RSSSF e ESPN (`slv.1`,
+   2006 em diante: hora em 3.988 jogos, estádio em 3.515). Campeão e vice batem com a lista em todas as edições.
+2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+3. **Teste de carga:** `slv-1: 111 edições, 6026 jogos, 71 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/slv-1/pacote/`;
+   - **país novo: El Salvador (`SLV`)**, em `paises.csv`; a bandeira já existe (`painel/bandeiras/sv.png`);
+   - um clube do México (`MEX`) entra pela liga salvadorenha: Tapachulteca (1975);
+   - 52 edições sem jogos (1942, 1943, 1946, 1948/49 a 1995/96 e Apertura 2010 a Clausura 2012).
+5. **Decisões** (24/11, ok do Guilherme: "siga"): entram 1926-1946 (oficiais na RSSSF, como a era amadora do México); ficam
+   fora 1924-25 (não oficiais), os títulos só da Zona Central (1931-36, 1939-41, 1944-45), 1947 (parou depois de duas
+   rodadas) e a Copa Pilsener 1998/99; o repechaje de 1996/97 (contra clube da 2ª) e as duas rodadas anuladas de 2022 ficam
+   fora; jogo extra pela 4ª vaga vira "Desempate do 4º lugar". Clubes: Atlético Arabe Marte = Atlético Marte; Universidad /
+   UES; Independiente / Nacional 1906 = Independiente de San Vicente; CD Metapán e Isidro Metapán separados; Sonsonate FC e
+   CD Sonsonate separados; Inter FA e Hércules (vagas compradas em 2025) como clubes próprios, o Hércules de 2025 tratado como
+   o histórico renascido; homônimos levam "de El Salvador" (Alianza, Hércules, Libertad, España, Atlante, Internacional,
+   Leones, Once Deportivo, San Luis, Santa Clara, Tiburones) ou a cidade (Excélsior de Santa Ana, Platense de Zacatecoluca,
+   Independiente de San Vicente).
+6. **O que não deu para coletar:** jogos de 1942 a 1995/96 (fonte: jornais da época ou a FESFUT); a fase regular de 2010/11
+   e 2011/12 (a ESPN tem os Aperturas, mas não fecha com as tabelas); autores e cartões na maior parte dos anos.
+7. **Onde a revisão deve olhar primeiro:** 2002 Clausura (um gol a mais nos jogos do Atlético Balboa que na tabela); a
+   identidade do Hércules de 2025 e do Independiente de 1948/49; a classificação de 2020/21 (duas fases de grupos).
+8. **Próxima competição:** Panamá (`pan-1`), com o escopo antes.
