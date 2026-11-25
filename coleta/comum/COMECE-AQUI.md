@@ -9,7 +9,7 @@ Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia 
 
 Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 25/11/2026 (Mineiro, `bra-mg-1`, coletado).
+Última atualização: 25/11/2026 (Gaúcho coletado; plano único de coleta e ranking da CBF na seção 3).
 
 **Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
 - tudo o que o pacote tem;
@@ -76,20 +76,75 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.214 | ada0940; A2-015 (parte C) neste commit (24/11); plano da A2 concluído | sim; recarregar | OK (1 clube novo) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | neste commit (25/11) | não; carregar | OK (64 clubes novos) |
+| `bra-rs-1` Gaúcho | 106 (1919–2026; sem 1918, 1923 e 1924) | 13.393 | neste commit (25/11) | não; carregar | OK (106 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
 
 ## 3. De onde continuar (pendências, em ordem)
 
-**Prioridade dada pelo Guilherme em 22/11/2026 (recado do agente 1):** coletar os próximos campeonatos, nesta ordem:
-Carioca (`bra-rj-1`, feito), Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`) e Paulista A3 (`bra-sp-3`), cada um com o ok dele.
-Em 23/11 o Guilherme mandou corrigir pelo plano da revisão (`docs/revisao/plano-coleta-brasil.md`), começando pelo
-"ERRADO NO AR"; o Mineiro ficou para depois. Autores pela ficha do ogol e jornais da A2: só se ele pedir.
-Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de `docs/coleta/pedidos.md`.
+**Plano único de coleta (`docs/coleta/plano-de-coleta.md`, decidido pelo Guilherme em 25/11/2026): vale acima deste
+arquivo.** Para o Brasil (seção 1.2 dele):
+1. primeiro **todos os estaduais de 1ª divisão** (`bra-<uf>-1`), na ordem do Ranking Nacional das Federações da CBF;
+2. depois os estaduais de 2ª divisão, pelo mesmo ranking (o Paulista A3 entra aqui, depois das A2 dos outros estados);
+3. depois os torneios regionais (Copa do Nordeste, Copa Verde, Rio-São Paulo, Sul-Minas...);
+4. por fim, outros nacionais (Supercopa do Brasil, Copa dos Campeões...).
 
-1. **Mineiro (`bra-mg-1`) feito em 25/11.** Próximos: Gaúcho (`bra-rs-1`) e A3 (`bra-sp-3`), só com o ok do Guilherme.
-   Pendências do Carioca e do Mineiro: seção 9 de `coleta/comum/documentacao/bra-rj-1.md` e `bra-mg-1.md`.
+Uma competição por vez: pesquisa a fundo, proposta de escopo curta ao Guilherme (desde quando, que eras entram, o que a
+federação reconhece), só começar com o ok dele e registrar a decisão aqui. Entrega, pacote e git: seção 2 do plano.
+
+**Ranking Nacional das Federações (RNF) da CBF para 2026: foto de 25/11/2026, fixa** (não muda depois). Divulgado em
+24/12/2025; PDF oficial:
+https://stcbfsiteprdimgbrs.blob.core.windows.net/img-site/cdn/RNF_Ranking_Nacional_das_Federacoes_2026_30b87e87a3.pdf
+(notícia: https://www.cbf.com.br/a-cbf/noticias/informes-cbf/a/cbf-divulga-ranking-nacional-de-clubes-e-de-federacoes-do-futebol-masculino-para-2026).
+As 27 posições foram conferidas no PDF.
+
+| Pos. | UF | Pontos | Estadual de 1ª divisão | Situação |
+|---|---|---|---|---|
+| 1 | SP | 93.528 | `bra-sp-1` Paulista | **pronto** (no banco) |
+| 2 | RJ | 61.308 | `bra-rj-1` Carioca | **pronto** (no banco) |
+| 3 | MG | 41.451 | `bra-mg-1` Mineiro | **pronto** (be07b131, 25/11; falta o agente 1 carregar) |
+| 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
+| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **próximo** (escopo antes) |
+| 6 | CE | 24.954 | `bra-ce-1` Cearense | falta |
+| 7 | GO | 24.148 | `bra-go-1` Goiano | falta |
+| 8 | SC | 23.938 | `bra-sc-1` Catarinense | falta |
+| 9 | BA | 23.642 | `bra-ba-1` Baiano | falta |
+| 10 | PE | 14.158 | `bra-pe-1` Pernambucano | falta |
+| 11 | AL | 12.240 | `bra-al-1` Alagoano | falta |
+| 12 | PA | 10.710 | `bra-pa-1` Paraense | falta |
+| 13 | MT | 9.346 | `bra-mt-1` Mato-Grossense | falta |
+| 14 | AM | 6.688 | `bra-am-1` Amazonense | falta |
+| 15 | RN | 6.131 | `bra-rn-1` Potiguar | falta |
+| 16 | PB | 5.507 | `bra-pb-1` Paraibano | falta |
+| 17 | MA | 5.451 | `bra-ma-1` Maranhense | falta |
+| 18 | SE | 5.082 | `bra-se-1` Sergipano | falta |
+| 19 | DF | 3.633 | `bra-df-1` Brasiliense | falta |
+| 20 | PI | 3.545 | `bra-pi-1` Piauiense | falta |
+| 21 | ES | 2.623 | `bra-es-1` Capixaba | falta |
+| 22 | TO | 2.435 | `bra-to-1` Tocantinense | falta |
+| 23 | AC | 2.306 | `bra-ac-1` Acreano | falta |
+| 24 | RO | 1.648 | `bra-ro-1` Rondoniense | falta |
+| 25 | RR | 1.598 | `bra-rr-1` Roraimense | falta |
+| 26 | MS | 1.450 | `bra-ms-1` Sul-Mato-Grossense | falta |
+| 27 | AP | 1.375 | `bra-ap-1` Amapaense | falta |
+
+Já prontos fora dos estaduais de 1ª divisão: Séries C e D, Copa do Brasil e Paulista A2 (`bra-sp-2`, que pela ordem nova
+seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de
+`docs/coleta/pedidos.md`. Autores pela ficha do ogol e jornais da A2: só se o Guilherme pedir.
+
+1. **Mineiro (`bra-mg-1`) e Gaúcho (`bra-rs-1`) feitos em 25/11.** Próximo: Paranaense (`bra-pr-1`), 5º do RNF, com
+   escopo antes. **Escopo do Gaúcho, aprovado pelo Guilherme em 25/11:**
+   - 1919 a 2026, 106 edições. Ficam fora 1918, 1923 e 1924, que não foram disputados (o ogol marca 1923 e 1924 como
+     "Não Disputada").
+   - 1930 entra: foi organizado pela FAGET, no lugar da FRGD, e a RSSSF conta o título.
+   - 1919-1960, fase por regiões: entram a fase estadual e as decisões de zona e região que a página da RSSSF traz. Os
+     campeonatos das cidades e das ligas locais ficam fora (são outras competições; só davam a vaga).
+   - 2026: sem página da RSSSF; os jogos vêm do ogol.
+   - Fontes: RSSSF Brasil (`tablesr/rs{ano}.htm`, 1919-2025), ogol ("campeonato-gaucho", 1919-2026) e Wikipédia pt.
+   - Ficam fora (etapa 4): Copa FGF, Super Copa Gaúcha e Recopa Gaúcha. O Paulista A3 (`bra-sp-3`) fica para a etapa 2 (depois de todos os estaduais de 1ª divisão e das A2 dos
+   estados à frente dele). Pendências do Carioca e do Mineiro: seção 9 de `coleta/comum/documentacao/bra-rj-1.md` e
+   `bra-mg-1.md`.
 2. **Correções da revisão: siga `docs/revisao/plano-coleta-brasil.md`** (o Guilherme mandou começar em 23/11).
    - Feito em 23/11: o "ERRADO NO AR" do Paulista (SP-011, SP-002, SP-007, SP-008 menos 2024-2025, QS-001, QS-006, SP-010,
      QS-015, SP-013, QS-005, SP-009, SP-012 e SP-001, este com a coluna `co_campeao`). Ids e como em
@@ -274,6 +329,28 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **ogol com duas fichas para o mesmo clube** (Pedro Leopoldo FC/AE Pedro Leopoldo, Flamengo de Varginha):
   `CORRIGE_OGOL` por temporada, conferido na lista de participantes da RSSSF. Fichas com cidade de outro clube:
   `registro.FICHA_COMUM` (Nacional-MG de Nova Serrana, Grêmio Calafate de Belo Horizonte).
+
+**Gaúcho (o que valeu aprender)**
+- **Páginas de cada época com um formato:** datas "09 Oct" sem colchete (até 1960), "10-Abr-1960" e "22-Jan-61" com
+  vários jogos na mesma linha, "26/02/89-" em duas colunas com placar "1x2", "[Fev 27]São Luiz" colado, "Jan 19"
+  sozinho na linha (2013); prorrogação numa linha "Prorrogação: Gaúcho 2-0" (soma no placar, os 90 minutos na nota) e
+  pênaltis "Pk: Cruzeiro 5-4". Tudo em `rsssf_rs1.py`, uma função por formato.
+- **Texto escaneado (anos 1960-1990):** grafias como "AIIÚIORÉ", "GREMIQ" e "INTERNACfONAL(SM)" em
+  `rsssf_rs1.GRAFIAS` / `INTER_SM`.
+- **Sem ogol de 1925 a 1976:** a identidade sai de `importar.NOME_CODIGO` (nome -> clube, todas as temporadas) e
+  `NOME_ANO` (nome ambíguo por época: "Riograndense" de Rio Grande até 1960 e de Santa Maria depois; "Guarany" de Bagé,
+  menos 1943). As duas tabelas valem ANTES do casamento pelo ogol (senão "Grêmio/SL" vira o Grêmio).
+- **Código "rs-" de clube só da RSSSF** leva o slug ("rs-rs1-..."): o cadastro comum já tinha "rs-cruzeiro" (um Cruzeiro
+  de SP, da A2) e o Gaúcho herdava o nome. Antes de cada rodada de teste, limpe as entradas novas do cadastro.
+- **Parênteses de cidade com 3-4 letras ou minúsculas** ("BRASIL(PEL)", "Grêmio(sl)") viram "/PEL", "/SL": o leitor
+  comum tira o parêntese do fim do nome e dois clubes viravam um só.
+- **Mesmo nome para os dois clubes do jogo** ("Inter 2-3 Inter"): vale o jogo do ogol de mesma data e placar.
+- **Nome firme:** nome igual ao de um só clube do calendário não troca por voto de placar e data (1977: datas da página
+  uma semana antes das do ogol).
+- **Ficha do ogol mais nova que o jogo** (Santo Ângelo de 1989, AE São Borja de 2009): `CORRIGE_OGOL` por temporada
+  manda para o clube antigo (AE Santo Ângelo; SE São Borja, 241325).
+- **Conferência de nomes antes do commit:** nenhum nome com dois códigos no cadastro comum (achou o "Palmeiras-MG" duplo
+  do Mineiro, corrigido em `bra-mg-1/importar.NOME_MANUAL`).
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,

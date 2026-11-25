@@ -1,4 +1,12 @@
 {
+ "100771": {
+  "clube": "GE Torrense",
+  "uf": "RS",
+  "cidade": "Torres",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "101188": {
   "clube": "Paraense-MG",
   "uf": "MG",
@@ -39,6 +47,14 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "102452": {
+  "clube": "Armour (Particulares)",
+  "uf": "RS",
+  "cidade": "Santana do Livramento",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "104537": {
@@ -91,6 +107,14 @@
   "cidade": "Limoeiro do Norte",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "11646": {
+  "clube": "Brasil de Farroupilha",
+  "uf": "RS",
+  "cidade": "Farroupilha",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "11647": {
@@ -305,7 +329,8 @@
   "uf": "RS",
   "cidade": "Sapucaia do Sul",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "15033": {
@@ -638,7 +663,16 @@
   "uf": "RS",
   "cidade": "Cachoeirinha",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-rs-1"
+  ]
+ },
+ "15854": {
+  "clube": "Porto Alegre-RS",
+  "uf": "RS",
+  "cidade": "Porto Alegre",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "15855": {
@@ -647,7 +681,16 @@
   "cidade": "Gravataí",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
+  ]
+ },
+ "15856": {
+  "clube": "Riograndense",
+  "uf": "RS",
+  "cidade": "Santa Maria",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "16130": {
@@ -1078,7 +1121,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "2247": {
@@ -1160,6 +1204,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil"
+  ]
+ },
+ "227344": {
+  "clube": "Grêmio São José",
+  "uf": "RS",
+  "cidade": "Cachoeira do Sul",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "22838": {
@@ -1433,6 +1485,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "244131": {
+  "clube": "Taguá",
+  "uf": "RS",
+  "cidade": "Getúlio Vargas",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "24466": {
   "clube": "Paulistano-SP",
   "uf": "SP",
@@ -1522,13 +1582,38 @@
    "bra-sp-2"
   ]
  },
+ "24898": {
+  "clube": "14 de Julho",
+  "uf": "RS",
+  "cidade": "Santana do Livramento",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "24899": {
+  "clube": "Flamengo-RS",
+  "uf": "RS",
+  "cidade": "Alegrete",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "24900": {
   "clube": "Aimoré",
   "uf": "RS",
   "cidade": "São Leopoldo",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
+  ]
+ },
+ "24902": {
+  "clube": "Atlético-RS",
+  "uf": "RS",
+  "cidade": "Carazinho",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "24906": {
@@ -1600,6 +1685,14 @@
   "cidade": "Belo Horizonte",
   "competicoes": [
    "bra-mg-1"
+  ]
+ },
+ "258678": {
+  "clube": "Dínamo de Santa Rosa",
+  "uf": "RS",
+  "cidade": "Santa Rosa",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "258739": {
@@ -1704,7 +1797,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "261909": {
@@ -1764,6 +1858,14 @@
   "cidade": "Primavera do Leste",
   "competicoes": [
    "bra-serie-d"
+  ]
+ },
+ "271874": {
+  "clube": "Monsoon",
+  "uf": "RS",
+  "cidade": "Capão da Canoa",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "272125": {
@@ -1883,7 +1985,8 @@
   "cidade": "Campo Bom",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3082": {
@@ -2231,7 +2334,8 @@
   "cidade": "Santa Cruz do Sul",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3134": {
@@ -2357,7 +2461,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3158": {
@@ -2379,6 +2484,14 @@
    "bra-serie-d",
    "bra-copa-do-brasil",
    "bra-rj-1"
+  ]
+ },
+ "3162": {
+  "clube": "Cachoeira",
+  "uf": "RS",
+  "cidade": "Cachoeira do Sul",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "3163": {
@@ -2849,7 +2962,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3234": {
@@ -2878,6 +2992,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-mg-1"
+  ]
+ },
+ "3240": {
+  "clube": "Farroupilha",
+  "uf": "RS",
+  "cidade": "Pelotas",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "3241": {
@@ -2990,7 +3112,8 @@
   "cidade": "Passo Fundo",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-rs-1"
   ]
  },
  "3256": {
@@ -3009,7 +3132,8 @@
   "cidade": "Vacaria",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3258": {
@@ -3048,6 +3172,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-rj-1"
+  ]
+ },
+ "3264": {
+  "clube": "Bagé",
+  "uf": "RS",
+  "cidade": "Bagé",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "3266": {
@@ -3109,7 +3241,8 @@
   "uf": "RS",
   "cidade": "Venâncio Aires",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3278": {
@@ -3128,7 +3261,8 @@
   "cidade": "Bagé",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3282": {
@@ -3205,7 +3339,8 @@
   "uf": "RS",
   "cidade": "Santa Maria",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-rs-1"
   ]
  },
  "3293": {
@@ -3460,7 +3595,8 @@
   "cidade": "Lajeado",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3326": {
@@ -3721,7 +3857,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3366": {
@@ -3810,6 +3947,14 @@
    "bra-serie-c"
   ]
  },
+ "3379": {
+  "clube": "Palmeirense",
+  "uf": "RS",
+  "cidade": "Palmeira das Missões",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "3380": {
   "clube": "Paraisense",
   "uf": "MG",
@@ -3879,7 +4024,8 @@
   "uf": "RS",
   "cidade": "Passo Fundo",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-rs-1"
   ]
  },
  "3386": {
@@ -3918,7 +4064,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3391": {
@@ -4141,6 +4288,14 @@
    "bra-sp-2"
   ]
  },
+ "3431": {
+  "clube": "Rio Grande",
+  "uf": "RS",
+  "cidade": "Rio Grande",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "3432": {
   "clube": "Rio Negro-AM",
   "uf": "AM",
@@ -4218,7 +4373,8 @@
   "cidade": "Santa Cruz do Sul",
   "competicoes": [
    "bra-copa-do-brasil",
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-rs-1"
   ]
  },
  "3447": {
@@ -4247,6 +4403,14 @@
    "bra-copa-do-brasil",
    "bra-sp-1",
    "bra-sp-2"
+  ]
+ },
+ "3453": {
+  "clube": "Santo Ângelo",
+  "uf": "RS",
+  "cidade": "Santo Ângelo",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "3454": {
@@ -4295,7 +4459,8 @@
   "cidade": "São Gabriel",
   "competicoes": [
    "bra-copa-do-brasil",
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-rs-1"
   ]
  },
  "3462": {
@@ -4314,7 +4479,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3465": {
@@ -4324,7 +4490,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3466": {
@@ -4342,7 +4509,8 @@
   "uf": "RS",
   "cidade": "Rio Grande",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-rs-1"
   ]
  },
  "3469": {
@@ -4612,7 +4780,8 @@
   "cidade": "Canoas",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3509": {
@@ -4748,7 +4917,8 @@
   "uf": "RS",
   "cidade": "Veranópolis",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "3530": {
@@ -4853,7 +5023,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "36313": {
@@ -4872,6 +5043,14 @@
    "bra-serie-d"
   ]
  },
+ "36602": {
+  "clube": "Estrela-RS",
+  "uf": "RS",
+  "cidade": "Estrela",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "36613": {
   "clube": "CEOV Operário",
   "uf": "MT",
@@ -4888,6 +5067,14 @@
   "cidade": "Paço do Lumiar",
   "competicoes": [
    "bra-copa-do-brasil"
+  ]
+ },
+ "385809": {
+  "clube": "Guarani de Alegrete",
+  "uf": "RS",
+  "cidade": "Alegrete",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "38635": {
@@ -5258,12 +5445,28 @@
    "bra-sp-2"
   ]
  },
+ "52409": {
+  "clube": "Grêmio Santanense",
+  "uf": "RS",
+  "cidade": "Santana do Livramento",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "52741": {
   "clube": "Cascavel",
   "uf": "PR",
   "cidade": "Cascavel",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "54506": {
+  "clube": "União Frederiquense",
+  "uf": "RS",
+  "cidade": "Frederico Westphalen",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "55310": {
@@ -5473,6 +5676,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "61591": {
+  "clube": "GA Guarany",
+  "uf": "RS",
+  "cidade": "Garibaldi",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "62058": {
   "clube": "AA das Palmeiras",
   "uf": "SP",
@@ -5641,6 +5852,14 @@
   "cidade": "Cabo Frio",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "71957": {
+  "clube": "FC Riograndense",
+  "uf": "RS",
+  "cidade": "Rio Grande",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "72107": {
@@ -5957,6 +6176,14 @@
    "bra-sp-1"
   ]
  },
+ "81881": {
+  "clube": "Taquariense",
+  "uf": "RS",
+  "cidade": "Taquari",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "8229": {
   "clube": "XV de Piracicaba",
   "uf": "SP",
@@ -6043,6 +6270,14 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "85473": {
+  "clube": "Uruguaiana",
+  "uf": "RS",
+  "cidade": "Uruguaiana",
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "85493": {
@@ -6194,6 +6429,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "92589": {
+  "clube": "14 de Julho-PF",
+  "uf": "RS",
+  "cidade": "Passo Fundo",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "92879": {
   "clube": "Barra-SC",
   "uf": "SC",
@@ -6324,7 +6567,8 @@
   "uf": "RS",
   "cidade": "Cruz Alta",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-rs-1"
   ]
  },
  "98433": {
@@ -6599,6 +6843,14 @@
    "bra-mg-1"
   ]
  },
+ "999999": {
+  "clube": "SÃO PAULO-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
  "america-mineiro": {
   "clube": "América-MG",
   "uf": "MG",
@@ -6722,7 +6974,8 @@
   "uf": "RS",
   "cidade": "Porto Alegre",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "guarani": {
@@ -6741,7 +6994,8 @@
   "uf": "RS",
   "cidade": "Porto Alegre",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-rs-1"
   ]
  },
  "palmeiras": {
@@ -7365,14 +7619,6 @@
    "bra-sp-2"
   ]
  },
- "rs-palmeiras": {
-  "clube": "Palmeiras-MG",
-  "uf": "MG",
-  "cidade": null,
-  "competicoes": [
-   "bra-mg-1"
-  ]
- },
  "rs-palmeiras-franca": {
   "clube": "Palmeiras (Franca)",
   "uf": "SP",
@@ -7475,6 +7721,622 @@
   "cidade": "São José do Rio Pardo",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-rs1-14-de-julho-erechim": {
+  "clube": "14 de Julho Erechim",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-14-de-julho-l": {
+  "clube": "14 de Julho/L",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-15-de-novembro-d-pedrito": {
+  "clube": "15 de Novembro - D. Pedrito",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-ae-santo-angelo": {
+  "clube": "AE Santo Ângelo",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-alegrete": {
+  "clube": "Alegrete",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-americano": {
+  "clube": "Americano-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-americano-universitario": {
+  "clube": "Americano-Universitário",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-arranca": {
+  "clube": "Arranca",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-atlantico": {
+  "clube": "Atlântico",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-aurora": {
+  "clube": "Aurora-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-bancario": {
+  "clube": "Bancário",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-bataclan": {
+  "clube": "Bataclan",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-botafogo": {
+  "clube": "Botafogo-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-botafogo-fv": {
+  "clube": "Botafogo/FV",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-botafogo-tm": {
+  "clube": "Botafogo/TM",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-brasfl-far": {
+  "clube": "BRASfL/FAR",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-brasil-das-minas-s-jeronimo": {
+  "clube": "Brasil das Minas S. Jerônimo",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-brasil-julio-de-castilhos": {
+  "clube": "Brasil - Júlio de Castilhos",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-club-athletico-gabrielense": {
+  "clube": "Club Athlético Gabrielense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-couto": {
+  "clube": "Couto",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-cruzeiro-do-sul-jaguarao": {
+  "clube": "Cruzeiro do Sul - Jaguarão",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-cruzeiro-pf": {
+  "clube": "Cruzeiro PF",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-cruzeiro-sao-gabriel": {
+  "clube": "Cruzeiro (São Gabriel)",
+  "uf": "RS",
+  "cidade": "São Gabriel",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-dalban": {
+  "clube": "Dalban",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-dinamo": {
+  "clube": "Dínamo",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-dom-pedrito": {
+  "clube": "Dom Pedrito",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-elite": {
+  "clube": "Elite",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-encantado": {
+  "clube": "Encantado",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-escola-de-comercio-de-carazinho": {
+  "clube": "Escola de Comércio de Carazinho",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-esperanca": {
+  "clube": "Esperança-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-ferro-carril": {
+  "clube": "Ferro Carril",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-ferroviario": {
+  "clube": "Ferroviário-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-fluminense": {
+  "clube": "Fluminense-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-gen-osorio-rio-grande": {
+  "clube": "Gen. Osório - Rio Grande",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-general-osorio": {
+  "clube": "General Osório",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-gremio-e-7o-ri-sm": {
+  "clube": "Grêmio E. 7º RI - SM",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-gremio-ijuhyense": {
+  "clube": "Grêmio Ijuhyense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-gremio-santoangelense": {
+  "clube": "Grêmio Santoangelense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-guarani-minas-de-sao-jeronimo": {
+  "clube": "Guarani (Minas de São Jerônimo)",
+  "uf": "RS",
+  "cidade": "Minas de São Jerônimo",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-guarany-cachoeira-do-sul": {
+  "clube": "Guarany (Cachoeira do Sul)",
+  "uf": "RS",
+  "cidade": "Cachoeira do Sul",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-guarany-rosario-do-sul": {
+  "clube": "Guarany (Rosário do Sul)",
+  "uf": "RS",
+  "cidade": "Rosário do Sul",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-igrejinha": {
+  "clube": "Igrejinha",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-independente": {
+  "clube": "Independente-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-independente-alegrete": {
+  "clube": "Independente Alegrete",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-internacional-sao-borja": {
+  "clube": "Internacional (São Borja)",
+  "uf": "RS",
+  "cidade": "São Borja",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-italo-brasileiro": {
+  "clube": "Italo-Brasileiro -",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-juventude-gup": {
+  "clube": "Juventude-gup",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-lajeado": {
+  "clube": "Lajeado",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-livramento": {
+  "clube": "Livramento",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-nacional-sao-leopoldo": {
+  "clube": "Nacional (São Leopoldo)",
+  "uf": "RS",
+  "cidade": "São Leopoldo",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-operario-de-uruguaiana": {
+  "clube": "Operário de Uruguaiana",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-oriental": {
+  "clube": "Oriental-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-osorio-d-pedrito": {
+  "clube": "Osório(???) - D. Pedrito",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-pradense": {
+  "clube": "Pradense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-pratense": {
+  "clube": "Pratense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-renner": {
+  "clube": "Renner",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-rio-branco-stv": {
+  "clube": "Rio Branco - STV",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-rio-grandense": {
+  "clube": "Rio-Grandense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-riograndense-cruz-alta": {
+  "clube": "Riograndense (Cruz Alta)",
+  "uf": "RS",
+  "cidade": "Cruz Alta",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-riograndense-passo-fundo": {
+  "clube": "Riograndense (Passo Fundo)",
+  "uf": "RS",
+  "cidade": "Passo Fundo",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-rosario": {
+  "clube": "Rosário-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-sa-viana": {
+  "clube": "Sá Viana",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-santa-barbara": {
+  "clube": "Santa Bárbara-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-santa-rosa": {
+  "clube": "Santa Rosa-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-santoangelense": {
+  "clube": "Santoangelense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-sc-rio-branco": {
+  "clube": "SC Rio Branco-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-tabajara-erechim": {
+  "clube": "Tabajara - Erechim",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-tabajara-guaiba": {
+  "clube": "Tabajara Guaíba",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-tamandare-cachoeira-do-sul": {
+  "clube": "Tamandaré (Cachoeira do Sul)",
+  "uf": "RS",
+  "cidade": "Cachoeira do Sul",
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-tamoio": {
+  "clube": "Tamoio",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-taquarense": {
+  "clube": "Taquarense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-tres-passos": {
+  "clube": "Três Passos",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-tupy": {
+  "clube": "Tupy",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-universal": {
+  "clube": "Universal-RS",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-veranense": {
+  "clube": "Veranense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-veronese": {
+  "clube": "Veronese",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
+  ]
+ },
+ "rs-rs1-vitoriense": {
+  "clube": "Vitoriense",
+  "uf": "RS",
+  "cidade": null,
+  "competicoes": [
+   "bra-rs-1"
   ]
  },
  "rs-saltense-salto": {

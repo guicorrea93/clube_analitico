@@ -12,7 +12,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Paulista | 135 (1902–2026) | 21849 | 6405 | 0 | 112 | 222 / 120 | sim (135 edições, 21849 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
 | Campeonato Paulista Série A2 | 80 (1947–2026) | 9214 | 4526 | 0 | 184 | 134 / 31 | sim (80 edições, 9214 jogos) | 4 | [bra-sp-2](bra-sp-2.md) |
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 3 | [bra-rj-1](bra-rj-1.md) |
-| Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | não | 4 | [bra-mg-1](bra-mg-1.md) |
+| Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | sim (113 edições, 11521 jogos) | 4 | [bra-mg-1](bra-mg-1.md) |
+| Campeonato Gaúcho | 106 (1919–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | não | 5 | [bra-rs-1](bra-rs-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -36,10 +37,15 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-rj-1:** Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
 - **bra-rj-1:** 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - **bra-rj-1:** Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.
-- **bra-mg-1:** 198 tabelas divergentes a explicar no relatório. Boa parte não é erro de jogo: a tabela publicada conta o W.O. com gols (D-15: sem gols), traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma (RSSSF e ogol com os mesmos placares).
+- **bra-mg-1:** 196 tabelas divergentes a explicar no relatório. Boa parte não é erro de jogo: a tabela publicada conta o W.O. com gols (D-15: sem gols), traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma (RSSSF e ogol com os mesmos placares).
 - **bra-mg-1:** Vices em que as fontes discordam: 1934 (pacote Tupynambás, que perdeu a final estadual; RSSSF Palestra Itália; Wikipédia Tupynambás no estadual e Atlético na cidade), 1942 (RSSSF América; Wikipédia e pacote Palestra Mineiro, o Cruzeiro) e 1950 (RSSSF Cruzeiro; Wikipédia e pacote Siderúrgica).
 - **bra-mg-1:** 1924 e 1925 incompletos na própria fonte (1924: "Incomplete scores"; 1925: 4 jogos, campeonato anulado na época e título homologado pela FMF em 2012). Pontos extras de 1975 (Atlético e Cruzeiro, +1 na fase final) não entram na classificação calculada.
-- **bra-mg-1:** Autores dos gols: 24.327 de 31.083; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).
+- **bra-mg-1:** Autores dos gols: 24.324 de 31.081; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).
+- **bra-rs-1:** 1918 (campeonato suspenso pela gripe espanhola): a FGF reconheceu em 2021 Brasil de Pelotas, Cruzeiro e 14 de Julho como campeões honoríficos (Wikipédia). Fica fora do pacote até o Guilherme decidir se entra como edição sem jogos.
+- **bra-rs-1:** De 1925 a 1976 o ogol não tem os jogos: a identidade dos clubes vem dos nomes (importar.NOME_CODIGO e NOME_ANO; "Riograndense", "Guarany", "Guarani", "Cruzeiro" e "Nacional" sem cidade mudam de clube conforme a época). As páginas dos anos 1960-1990 vêm de texto escaneado (grafias em rsssf_rs1.GRAFIAS).
+- **bra-rs-1:** Identidade a revisar: SE São Borja (241325, antes de 2009) x AE São Borja (70071) - as fontes discordam se é a mesma linhagem; Flamengo de Alegrete com ficha de 1963 e jogos em 1961-1962; AE Santo Ângelo (antes da fusão de 1989) separado da SER Santo Ângelo.
+- **bra-rs-1:** Vices de 1986 e 1993: o pacote segue a classificação publicada/final; a Wikipédia dá o Internacional.
+- **bra-rs-1:** Tabelas divergentes a explicar no relatório (muitas nos anos de página escaneada, 1963-1996). Autores dos gols: as páginas quase não trazem (cerca de 12% dos gols). Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

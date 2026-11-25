@@ -27,7 +27,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1"]
+COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -88,6 +88,20 @@ PENDENCIAS: dict[str, list[str]] = {
         "na classificação calculada.",
         "Autores dos gols: 24.324 de 31.081; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
+    "bra-rs-1": [
+        "1918 (campeonato suspenso pela gripe espanhola): a FGF reconheceu em 2021 Brasil de Pelotas, Cruzeiro e 14 de "
+        "Julho como campeões honoríficos (Wikipédia). Fica fora do pacote até o Guilherme decidir se entra como edição sem "
+        "jogos.",
+        "De 1925 a 1976 o ogol não tem os jogos: a identidade dos clubes vem dos nomes (importar.NOME_CODIGO e NOME_ANO; "
+        "\"Riograndense\", \"Guarany\", \"Guarani\", \"Cruzeiro\" e \"Nacional\" sem cidade mudam de clube conforme a "
+        "época). As páginas dos anos 1960-1990 vêm de texto escaneado (grafias em rsssf_rs1.GRAFIAS).",
+        "Identidade a revisar: SE São Borja (241325, antes de 2009) x AE São Borja (70071) - as fontes discordam se é a "
+        "mesma linhagem; Flamengo de Alegrete com ficha de 1963 e jogos em 1961-1962; AE Santo Ângelo (antes da fusão de "
+        "1989) separado da SER Santo Ângelo.",
+        "Vices de 1986 e 1993: o pacote segue a classificação publicada/final; a Wikipédia dá o Internacional.",
+        "Tabelas divergentes a explicar no relatório (muitas nos anos de página escaneada, 1963-1996). Autores dos gols: as "
+        "páginas quase não trazem (cerca de 12% dos gols). Cartões: só jogo a jogo, pela ficha do ogol.",
+    ],
 }
 
 # dicionários de decisões dos módulos de cada competição -> rótulo da seção
@@ -128,6 +142,9 @@ DICIONARIOS = {
     "TURNOS": "Anos com turnos (Taça Guanabara, Taça Rio) nos títulos das fases",
     "LETRAS": "Letras trocadas na página da RSSSF",
     "SEM_VICE": "Edições sem vice",
+    "NOME_CODIGO": "Nomes da página casados à mão com o clube (todas as temporadas)",
+    "NOME_ANO": "Nomes ambíguos casados à mão, por temporada",
+    "GRAFIAS": "Grafias erradas da página (texto escaneado)",
     "CAMPEOES_DIVIDIDOS": "Títulos divididos (D-07)",
 }
 
@@ -359,7 +376,17 @@ def ficha(slug: str) -> tuple[str, dict]:
                 continue
             achou = True
             out += [f"### {rotulo} (`{mod.__name__}.{nome}`)", ""]
-            if isinstance(v, dict):
+            if isinstance(v, dict) and len(v) > 40 and all(isinstance(k, tuple) and str(k[0])[:4].isdigit() for k in v):
+                # muitas entradas por temporada (faixas de anos geradas): uma linha por valor, com os anos juntos
+                grupos: dict[tuple, list] = {}
+                for k, x in v.items():
+                    grupos.setdefault((k[1:], texto_valor(x)), []).append(int(str(k[0])[:4]))
+                for (resto, valor), anos in grupos.items():
+                    anos = sorted(set(anos))
+                    faixa = f"{anos[0]}-{anos[-1]}" if len(anos) > 1 and anos[-1] - anos[0] + 1 == len(anos) else \
+                        ", ".join(map(str, anos))
+                    out += [f"- **{faixa} · {' · '.join(map(str, resto))}:** {valor}"]
+            elif isinstance(v, dict):
                 for k, x in v.items():
                     if isinstance(x, list) and all(isinstance(i, str) for i in x):
                         out += [f"- **{texto_chave(k)}:** " + " / ".join(x)]

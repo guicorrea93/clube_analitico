@@ -1142,3 +1142,56 @@ relatório ano a ano: `docs/coleta/bra-mg-1.md`.
    - os vices de 1934, 1942 e 1950, em que RSSSF e Wikipédia discordam;
    - os casamentos à mão (`NOME_MANUAL`, `CORRIGE_OGOL`) e os clubes antigos sem ficha no ogol (Ipanema, Hellênico).
 8. **Próximo campeonato:** Gaúcho (`bra-rs-1`), só com o ok do Guilherme.
+
+## Recado de fim de coleta — bra-rs-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-rs-1.md`;
+relatório ano a ano: `docs/coleta/bra-rs-1.md`. Primeiro campeonato feito pelo plano único de coleta
+(`docs/coleta/plano-de-coleta.md`); o ranking da CBF (RNF 2026) está no `coleta/comum/COMECE-AQUI.md`, seção 3.
+
+1. **O que foi feito:** Campeonato Gaúcho (1ª divisão), escopo aprovado pelo Guilherme em 25/11.
+   - 106 edições, de 1919 a 2026. 1918, 1923 e 1924 não foram disputados.
+   - 13.393 jogos, 136 clubes (106 novos no banco), 3.843 gols com autor (de 31.393: as páginas quase não trazem) e nenhum cartão.
+   - Até 1960 (campeonato por regiões) entram a fase estadual e as decisões de zona e região que a página traz ("Fase regional", com a zona no grupo); os campeonatos das cidades, não.
+   - Tabelas publicadas: 230 fecham com os jogos e 159 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesr/rs{ano}.htm`, 1919-2024);
+     - ogol ("campeonato-gaucho"), com os calendários guardados em `data/cache/ogol-bra-rs-1/`. Não tem jogos de 1925 a 1976 (salvo 1965). 2025 e 2026 vêm só dele;
+     - Wikipédia em português: campeão e vice de cada ano.
+   - O campeão bate com a RSSSF e a Wikipédia nas 106 edições. O vice bate com a Wikipédia em todas menos 1986 e 1993 (item 6).
+2. **Commit:** o deste recado (`Coleta Gaúcho (bra-rs-1): 106 edições, 13.393 jogos`).
+3. **Teste de carga:** `bra-rs-1: 106 edições, 13393 jogos, 106 clubes novos -> OK`. O carregador ignora a tabela por rodada em 1975, 1976, 2011 e 2012, que têm mais de uma fase. O Mineiro, rodado de novo, segue `113 edições, 11521 jogos -> OK`, sem mudança no pacote.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-rs-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` RS, `rotulo_painel` "Gaúcho".
+   - **Fases novas:**
+     - "Fase regional" (até 1960);
+     - "1º Turno - Quartas de final" e "2º Turno - Quartas de final" (2009-2013);
+     - "Desempate do vice" e "Desempate da vaga", que pelo plano ficam fora da tabela.
+     - Os jogos-desempate de séries eliminatórias ficam na fase da série.
+   - **Prorrogação:** os gols entram no placar e o dos 90 minutos fica na `observacao` ("90 minutos: 2-2; prorrogação: 2-0"), como no Carioca de 1921.
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Os clubes só da RSSSF têm código "rs-rs1-...", porque o cadastro já tinha "rs-cruzeiro" (um Cruzeiro de SP) e o Gaúcho herdava o nome. A SE São Borja usa o código da Série C (241325).
+5. **Decisões:**
+   - **Que eu tomei:**
+     - nomes antigos são o mesmo clube: Floriano/NH é o Novo Hamburgo; 9º RI é o Farroupilha; Grêmio Bagé é o Bagé; "Guarany Bagé"/"Guarany B" é o Guarany de Bagé; Santanense é o Grêmio Santanense;
+     - nomes sem cidade por época: "Riograndense" é o de Rio Grande até 1960 e o de Santa Maria de 1961 a 1976; "Guarany" é o de Bagé até 1960, menos 1943 (Cachoeira do Sul, vice pela Wikipédia); "Cruzeiro" é o de Porto Alegre, menos 1955, 1956 e 1959 (o de São Gabriel);
+     - ficha do ogol mais nova que o jogo: antes de 1989 é a AE Santo Ângelo (a SER Santo Ângelo nasceu de uma fusão em 1989); antes de 2009 é a SE São Borja;
+     - a decisão do Título do Interior de 2009 fica fora (torneio à parte);
+     - sem final de dois clubes, o vice segue a Wikipédia (a RSSSF não traz o vice do Gaúcho).
+   - **Que esperam o Guilherme:**
+     - **1918:** o campeonato foi suspenso pela gripe espanhola. Em 2021 a FGF reconheceu Brasil de Pelotas, Cruzeiro e 14 de Julho como "campeões honoríficos" (Wikipédia). Hoje 1918 fica fora. Pode entrar como edição sem jogos, com os três campeões, se ele quiser.
+6. **O que não deu e pendências:**
+   - **Vices de 1986 e 1993:** o pacote segue a classificação publicada (Passo Fundo e Juventude); a Wikipédia dá o Internacional.
+   - **SE São Borja x AE São Borja:** as fontes discordam se é a mesma linhagem.
+   - **Flamengo de Alegrete:** tem ficha de 1963 e jogos em 1961-1962.
+   - **Autores dos gols:** quase só nas páginas antigas.
+   - **1994:** algumas linhas da página trazem dois jogos colados, sem data; os jogos vêm do ogol.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade de 1925-1976 (sem ogol): `importar.NOME_CODIGO` e `NOME_ANO`, e os clubes "rs-rs1-...";
+   - as grafias corrigidas das páginas escaneadas (`rsssf_rs1.GRAFIAS`);
+   - as 159 tabelas divergentes, a maioria nos anos de página escaneada (1963-1996);
+   - as fases dadas à mão nos anos de formato complicado (1972-1977, 1983-1989, 2009-2013).
+8. **Próximo campeonato:** Paranaense (`bra-pr-1`), 5º do ranking da CBF; escopo antes, só com o ok do Guilherme.
+
+Também neste commit:
+- **Mineiro:** o "Palmeiras" do torneio eliminatório de 1921 passa a ser o Palmeiras de BH (99077). Antes era um segundo código com o mesmo nome; o pacote não muda.
+- **`documentar.py`:** agrupa por faixa de anos as tabelas grandes por temporada.

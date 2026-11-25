@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 96; **artilheiros:** 111 temporadas com artilheiro (122 linhas, com empates).
 - **Classificação final:** 113 temporadas; **rodada a rodada:** 49 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 4045 linhas.
-- **No banco (`db/futebol.db`):** não.
+- **No banco (`db/futebol.db`):** sim (113 edições, 11521 jogos).
 - **Observação da competição:** 1ª divisão de Minas Gerais, de 1915 a 2026 (até os anos 1940 com os clubes de Belo Horizonte e arredores). Em 1932 houve duas ligas, e a FMF reconhece os dois títulos: cada torneio é uma edição ("1932 LMDT" e "1932 AMEG"). 1956 teve título dividido (Atlético e Cruzeiro).
 
 ## 2. Fontes e regras
@@ -237,6 +237,7 @@ Registradas nos módulos de `coleta/bra-mg-1/`; cada uma também aparece no rela
 ### Nome da página casado à mão com o clube (`importar.NOME_MANUAL`)
 
 - **1921 · Cristóvão Colombo:** [259237] Sport Club Christovam Colombo, o mesmo de 1915-1917 no ogol (o torneio eliminatório de 1921 não está no ogol)
+- **1921 · Palmeiras:** [99077] Palmeiras FBC, de Belo Horizonte, o mesmo de 1923-1930 no ogol (o torneio eliminatório de 1921 não está no ogol; virava um segundo cadastro "Palmeiras-MG")
 - **1921 · Progresso:** [259266] Progresso Foot Ball Club, o mesmo de 1922 no ogol (Progresso-BH)
 - **1925 · Sport Calafate:** [99078] Sport Club Calafate, o Calafate de 1926-1932 no ogol (1925 não tem edição no ogol)
 
@@ -449,10 +450,10 @@ Registradas nos módulos de `coleta/bra-mg-1/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- 198 tabelas divergentes a explicar no relatório. Boa parte não é erro de jogo: a tabela publicada conta o W.O. com gols (D-15: sem gols), traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma (RSSSF e ogol com os mesmos placares).
+- 196 tabelas divergentes a explicar no relatório. Boa parte não é erro de jogo: a tabela publicada conta o W.O. com gols (D-15: sem gols), traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma (RSSSF e ogol com os mesmos placares).
 - Vices em que as fontes discordam: 1934 (pacote Tupynambás, que perdeu a final estadual; RSSSF Palestra Itália; Wikipédia Tupynambás no estadual e Atlético na cidade), 1942 (RSSSF América; Wikipédia e pacote Palestra Mineiro, o Cruzeiro) e 1950 (RSSSF Cruzeiro; Wikipédia e pacote Siderúrgica).
 - 1924 e 1925 incompletos na própria fonte (1924: "Incomplete scores"; 1925: 4 jogos, campeonato anulado na época e título homologado pela FMF em 2012). Pontos extras de 1975 (Atlético e Cruzeiro, +1 na fase final) não entram na classificação calculada.
-- Autores dos gols: 24.327 de 31.083; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).
+- Autores dos gols: 24.324 de 31.081; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).
 
 ## 10. Arquivos e comandos
 

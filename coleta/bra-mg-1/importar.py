@@ -145,6 +145,8 @@ def nomes_ogol(ano: int, og: list[dict]) -> dict[str, set[str]]:
 NOME_MANUAL: dict[tuple[str, str], tuple[str, str]] = {
     ("1921", "Cristóvão Colombo"): ("259237", "Sport Club Christovam Colombo, o mesmo de 1915-1917 no ogol (o torneio "
                                               "eliminatório de 1921 não está no ogol)"),
+    ("1921", "Palmeiras"): ("99077", "Palmeiras FBC, de Belo Horizonte, o mesmo de 1923-1930 no ogol (o torneio eliminatório "
+                                     "de 1921 não está no ogol; virava um segundo cadastro \"Palmeiras-MG\")"),
     ("1921", "Progresso"): ("259266", "Progresso Foot Ball Club, o mesmo de 1922 no ogol (Progresso-BH)"),
     ("1925", "Sport Calafate"): ("99078", "Sport Club Calafate, o Calafate de 1926-1932 no ogol (1925 não tem edição no ogol)"),
 }
