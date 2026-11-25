@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 ## 1. O que temos
 
 - **Edições:** 89, de 1965/66 a 2026 Clausura; 35 sem jogos.
-- **Jogos:** 5391 (5385 com placar); **gols:** 13983; **gols com autor:** 2529 (18%); **cartões:** 0.
+- **Jogos:** 5391 (5385 com placar); **gols:** 13983; **gols com autor:** 2564 (18%); **cartões:** 0.
 - **Clubes:** 55; **artilheiros:** 1 edições com artilheiro (1 linhas, com empates).
 - **Classificação final:** 89 edições; **tabelas publicadas guardadas para conferência:** 992 linhas.
 - **No banco:** sim; **último commit do pacote:** 6e59e93f.
@@ -57,7 +57,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1980s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1990s | 11 | 599 | 99% | 0% | 99% | 0% | 0% | 0% | 1% | 0.0 |
-| 2000s | 20 | 1918 | 99% | 31% | 99% | 24% | 1% | 0% | 27% | 0.0 |
+| 2000s | 20 | 1918 | 99% | 31% | 99% | 24% | 1% | 0% | 28% | 0.0 |
 | 2010s | 20 | 1596 | 100% | 93% | 100% | 74% | 31% | 0% | 28% | 0.0 |
 | 2020s | 13 | 1278 | 100% | 98% | 100% | 97% | 97% | 0% | 0% | 0.0 |
 

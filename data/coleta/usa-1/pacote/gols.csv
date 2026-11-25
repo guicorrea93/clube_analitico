@@ -1,5 +1,10 @@
 partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0001,San Jose Earthquakes,Wynalda (Iroha,88,,normal,RSSSF
+1996-0002,New England Revolution,"Ukrop (Lalas, Welton",20,,normal,RSSSF
+1996-0002,New England Revolution,Ukrop (Woodring,71,,normal,RSSSF
+1996-0002,Tampa Bay Mutiny,McKinley (Vasquez,19,,normal,RSSSF
+1996-0002,Tampa Bay Mutiny,Lassiter (Pittman,25,,normal,RSSSF
+1996-0002,Tampa Bay Mutiny,Pittman (Valderrama,65,,normal,RSSSF
 1996-0003,Columbus Crew,Lee,18,,contra,RSSSF
 1996-0003,Columbus Crew,McBride,29,,normal,RSSSF
 1996-0003,Columbus Crew,"Marino (Paz, McBride",48,,normal,RSSSF
@@ -20,6 +25,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0010,Tampa Bay Mutiny,Vasquez (Ralston,12,,normal,RSSSF
 1996-0010,Tampa Bay Mutiny,Marino,28,,contra,RSSSF
 1996-0010,Columbus Crew,Khumalo,60,,normal,RSSSF
+1996-0011,FC Dallas,Kerr (Eck,59,,normal,RSSSF
+1996-0011,Colorado Rapids,Balboa (Harbor,48,,normal,RSSSF
+1996-0011,Colorado Rapids,Bartlett (Harbor,57,,normal,RSSSF
+1996-0011,Colorado Rapids,Balboa (Benedetti,64,,normal,RSSSF
+1996-0012,Sporting Kansas City,Okafor (Wright,16,,normal,RSSSF
+1996-0012,Sporting Kansas City,Prempin (Eichmann,87,,normal,RSSSF
+1996-0012,San Jose Earthquakes,Iroha (Rodas,7,,normal,RSSSF
+1996-0012,San Jose Earthquakes,Holocher (Mella,33,,normal,RSSSF
 1996-0013,Columbus Crew,Bliss,13,,normal,RSSSF
 1996-0013,Columbus Crew,Thompson (Khumalo,87,,normal,RSSSF
 1996-0014,DC United,"Diaz Arce (Kelderman, Williams",69,,normal,RSSSF
@@ -31,15 +44,44 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0017,DC United,Diaz Arce,15,,penalti,RSSSF
 1996-0017,DC United,Etcheverry,53,,normal,RSSSF
 1996-0017,DC United,Rammel (Harkes,64,,normal,RSSSF
+1996-0018,Columbus Crew,McBride (Thompson,20,,normal,RSSSF
+1996-0018,Columbus Crew,Yeagley (McBride,48,,normal,RSSSF
+1996-0018,Columbus Crew,Clark (Thompson,64,,normal,RSSSF
+1996-0018,Columbus Crew,Bowers,65,,contra,RSSSF
+1996-0018,Sporting Kansas City,"Chung (Preki, Sorber",5,,normal,RSSSF
+1996-0018,Sporting Kansas City,Johnston (Preki,47,,normal,RSSSF
+1996-0018,Sporting Kansas City,Preki,67,,penalti,RSSSF
+1996-0018,Sporting Kansas City,Johnston (Takawira,70,,normal,RSSSF
+1996-0018,Sporting Kansas City,Sorber (Gutierrez,77,,normal,RSSSF
+1996-0018,Sporting Kansas City,Preki (Takawira,88,,normal,RSSSF
+1996-0019,Tampa Bay Mutiny,"Viera (Lassiter, Wise",51,,normal,RSSSF
+1996-0019,Tampa Bay Mutiny,Valderrama,53,,penalti,RSSSF
+1996-0019,Tampa Bay Mutiny,Viera (Wise,58,,normal,RSSSF
+1996-0019,New York Red Bulls,Kooiman,72,,contra,RSSSF
+1996-0019,New York Red Bulls,Savarese (Hernandez,73,,normal,RSSSF
+1996-0019,New York Red Bulls,"Savarese (Hernandez, Joseph",75,,normal,RSSSF
 1996-0020,San Jose Earthquakes,Wyndalda (Iroha,23,,normal,RSSSF
 1996-0020,San Jose Earthquakes,"Bravo (Mella, Dayak",70,,normal,RSSSF
 1996-0020,New England Revolution,Aunger,86,,penalti,RSSSF
+1996-0022,Colorado Rapids,Benedetti (Trittschuh,4,,normal,RSSSF
+1996-0022,Colorado Rapids,Trittschuh (Henderson,18,,normal,RSSSF
+1996-0022,Colorado Rapids,Henderson,38,,normal,RSSSF
+1996-0022,Colorado Rapids,Sharpe (Wegerle,90,,normal,RSSSF
+1996-0023,DC United,Rammel (Kelderman,28,,normal,RSSSF
+1996-0023,Los Angeles Galaxy,"Vasquez (Cienfuegos, Semioli",42,,normal,RSSSF
+1996-0023,Los Angeles Galaxy,Hurtado (Salcedo,53,,normal,RSSSF
+1996-0023,Los Angeles Galaxy,Salcedo,71,,normal,RSSSF
 1996-0024,Tampa Bay Mutiny,Valderrama,41,,normal,RSSSF
 1996-0024,Tampa Bay Mutiny,Viera (Kooiman,50,,normal,RSSSF
 1996-0025,Colorado Rapids,Balboa (Henderson,2,,normal,RSSSF
 1996-0025,San Jose Earthquakes,Baicher (Bravo,35,,normal,RSSSF
 1996-0025,San Jose Earthquakes,Bravo,37,,normal,RSSSF
 1996-0025,San Jose Earthquakes,Martin (Bravo,72,,normal,RSSSF
+1996-0026,New England Revolution,Welton (Keegan,18,,normal,RSSSF
+1996-0026,New England Revolution,"Naveda (Keegan, Ukrop",34,,normal,RSSSF
+1996-0026,Columbus Crew,McBride,48,,penalti,RSSSF
+1996-0026,Columbus Crew,Marino,87,,normal,RSSSF
+1996-0026,Columbus Crew,McBride (Clark,89,,normal,RSSSF
 1996-0027,FC Dallas,Kreis,27,,normal,RSSSF
 1996-0027,FC Dallas,Kerr (Kreis,79,,normal,RSSSF
 1996-0027,FC Dallas,Rodriguez,85,,normal,RSSSF
@@ -53,17 +95,44 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0030,Los Angeles Galaxy,"Hurtado (Semioli, Karapetyan",9,,normal,RSSSF
 1996-0030,Los Angeles Galaxy,Vanney,82,,normal,RSSSF
 1996-0030,San Jose Earthquakes,Bravo (Gutierrez,75,,normal,RSSSF
+1996-0031,Columbus Crew,McBride (Paz,76,,normal,RSSSF
+1996-0031,Columbus Crew,Paz,85,,normal,RSSSF
+1996-0031,DC United,Rammel (Harkes,28,,normal,RSSSF
+1996-0031,DC United,Rammel (Etcheverry,49,,normal,RSSSF
+1996-0031,DC United,Rammel (Kamler,57,,normal,RSSSF
+1996-0031,DC United,"Diaz Arce (Rammel, Etcheverry",67,,normal,RSSSF
+1996-0031,DC United,Diaz Arce (Etcheverry,70,,normal,RSSSF
 1996-0032,New York Red Bulls,"Savarese (Hernandez, Silvera",11,,normal,RSSSF
 1996-0032,New York Red Bulls,Savarese (Harty,30,,normal,RSSSF
 1996-0032,New York Red Bulls,Savarese (Joseph,75,,normal,RSSSF
+1996-0034,DC United,Sanneh (Etcheverry,65,,normal,RSSSF
+1996-0034,DC United,Agoos (Etcheverry,90,,normal,RSSSF
+1996-0034,FC Dallas,"Kreis (Eck, Haynes",40,,normal,RSSSF
+1996-0034,FC Dallas,Kreis (Rodriguez,82,,normal,RSSSF
+1996-0034,FC Dallas,Sanches (Rodriguez,88,,normal,RSSSF
 1996-0035,New England Revolution,Naveda,9,,normal,RSSSF
 1996-0035,New England Revolution,"Keegan (Naveda, Welton",18,,normal,RSSSF
+1996-0036,Colorado Rapids,Bartlett,49,,normal,RSSSF
+1996-0036,Colorado Rapids,Bartlett (Wegerle,73,,normal,RSSSF
+1996-0036,Colorado Rapids,Balboa (Wegerle,80,,normal,RSSSF
+1996-0036,Colorado Rapids,"Sharpe (Henderson, Bartlett",88,,normal,RSSSF
+1996-0036,Columbus Crew,McBride (Thompson,27,,normal,RSSSF
+1996-0036,Columbus Crew,Kumalo,42,,penalti,RSSSF
 1996-0037,Los Angeles Galaxy,Cienfuegos,73,,normal,RSSSF
 1996-0037,Los Angeles Galaxy,Hurtado (Cienfuegos,86,,normal,RSSSF
 1996-0038,New York Red Bulls,Savarese (Joseph,26,,normal,RSSSF
 1996-0038,Sporting Kansas City,Prampin (Preki,82,,normal,RSSSF
 1996-0038,Sporting Kansas City,Preki (Johnston,87,,normal,RSSSF
 1996-0039,Tampa Bay Mutiny,Lassiter (Valderrama,82,,normal,RSSSF
+1996-0040,Colorado Rapids,"Wegerle (Sharpe, Bartlett",76,,normal,RSSSF
+1996-0040,Colorado Rapids,Harbor (Henderson,88,,normal,RSSSF
+1996-0040,New England Revolution,Naveda,47,,normal,RSSSF
+1996-0040,New England Revolution,Aunger,68,,penalti,RSSSF
+1996-0041,Columbus Crew,Marino (Paz,24,,normal,RSSSF
+1996-0041,Columbus Crew,Marino (Thompson,51,,normal,RSSSF
+1996-0041,Los Angeles Galaxy,Karapetyan (Hurtado,29,,normal,RSSSF
+1996-0041,Los Angeles Galaxy,Karapetyan (Hurtado,50,,normal,RSSSF
+1996-0041,Los Angeles Galaxy,Hurtado (Motajo,68,,normal,RSSSF
 1996-0042,Colorado Rapids,Henderson (Benedetti,24,,normal,RSSSF
 1996-0042,Colorado Rapids,Harbor,67,,penalti,RSSSF
 1996-0043,Sporting Kansas City,Allnutt (Chung,70,,normal,RSSSF
@@ -78,11 +147,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0046,New England Revolution,"Keegan (Welton, Naveda",19,,normal,RSSSF
 1996-0046,Sporting Kansas City,Preki (Uderitz,80,,normal,RSSSF
 1996-0046,Sporting Kansas City,Johnston (Preki,89,,normal,RSSSF
+1996-0047,Columbus Crew,Marino (McBride,31,,normal,RSSSF
+1996-0047,Columbus Crew,McBride,68,,penalti,RSSSF
+1996-0047,San Jose Earthquakes,Gutierrez (Iroha,29,,normal,RSSSF
+1996-0047,San Jose Earthquakes,"Butler (Doyle, Espinoza",84,,normal,RSSSF
 1996-0048,New York Red Bulls,"Wood (Vermes, Baba",62,,normal,RSSSF
 1996-0049,DC United,Diaz Arce (Williams,34,,normal,RSSSF
 1996-0049,DC United,Maessner,88,,normal,RSSSF
 1996-0049,Colorado Rapids,Trittschuh (Harbor,67,,normal,RSSSF
 1996-0049,Colorado Rapids,Harbor,77,,normal,RSSSF
+1996-0050,San Jose Earthquakes,Butler,68,,normal,RSSSF
+1996-0050,DC United,"Diaz Arce (Rammel, Harkes",23,,normal,RSSSF
+1996-0050,DC United,Rammel (Etcheverry,35,,normal,RSSSF
+1996-0050,DC United,Rammel (Agoos,49,,normal,RSSSF
 1996-0052,Los Angeles Galaxy,Jones,39,,normal,RSSSF
 1996-0052,Los Angeles Galaxy,Semioli,86,,normal,RSSSF
 1996-0052,New England Revolution,Naveda (Welton,72,,normal,RSSSF
@@ -90,13 +167,60 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0053,Colorado Rapids,Harbor,74,,normal,RSSSF
 1996-0053,Tampa Bay Mutiny,Viera (Vasquez,20,,normal,RSSSF
 1996-0053,Tampa Bay Mutiny,Vasquez,82,,normal,RSSSF
+1996-0054,Sporting Kansas City,"Takawira (Chung, Koetters",1,,normal,RSSSF
+1996-0054,Sporting Kansas City,Uderitz (Preki,50,,normal,RSSSF
+1996-0054,Sporting Kansas City,Preki,60,,penalti,RSSSF
+1996-0054,Columbus Crew,"Paz (Thompson, Carrera",38,,normal,RSSSF
+1996-0054,Columbus Crew,Marino (Paz,41,,normal,RSSSF
+1996-0054,Columbus Crew,Paz (Carrera,43,,normal,RSSSF
+1996-0055,San Jose Earthquakes,Espinoza (Correales,12,,normal,RSSSF
+1996-0055,FC Dallas,"Sanchez (Sonora, Santel",15,,normal,RSSSF
+1996-0055,FC Dallas,Kreis (Alvarez,33,,normal,RSSSF
+1996-0055,FC Dallas,Emenalo,44,,contra,RSSSF
+1996-0055,FC Dallas,Sonora (Kreis,65,,normal,RSSSF
+1996-0056,Los Angeles Galaxy,Hurtado (Jara,14,,normal,RSSSF
+1996-0056,Los Angeles Galaxy,Hurtado (Jara,26,,normal,RSSSF
+1996-0056,Los Angeles Galaxy,Hurtado,81,,penalti,RSSSF
+1996-0056,Los Angeles Galaxy,"Razov (Hurtado, Shue",86,,normal,RSSSF
 1996-0057,Sporting Kansas City,Preki,75,,normal,RSSSF
 1996-0057,New England Revolution,Keegan (Sawatzky,50,,normal,RSSSF
 1996-0058,Colorado Rapids,Harbor (Sharpe,1,,normal,RSSSF
 1996-0058,FC Dallas,Sanchez (Santel,73,,normal,RSSSF
 1996-0059,San Jose Earthquakes,"Baicher (Emenalo, Espinoza",14,,normal,RSSSF
+1996-0060,Tampa Bay Mutiny,Galderisi (Lassiter,11,,normal,RSSSF
+1996-0060,Tampa Bay Mutiny,Lassiter (Valderrama,47,,normal,RSSSF
+1996-0060,Los Angeles Galaxy,Hurtado (Jara,40,,normal,RSSSF
+1996-0060,Los Angeles Galaxy,Fraser,86,,normal,RSSSF
+1996-0062,Colorado Rapids,Thompson (Paz,31,,normal,RSSSF
+1996-0062,Colorado Rapids,Carrera (Thompson,58,,normal,RSSSF
+1996-0062,Columbus Crew,Trittschuch (Wegerle,44,,normal,RSSSF
+1996-0062,Columbus Crew,Balboa,48,,normal,RSSSF
+1996-0063,DC United,Sanneh (Etcheverry,42,,normal,RSSSF
+1996-0063,Sporting Kansas City,Preki,6,,penalti,RSSSF
+1996-0063,Sporting Kansas City,"Takawira (Chung, Gutierrez",28,,normal,RSSSF
+1996-0063,Sporting Kansas City,Chung,30,,normal,RSSSF
+1996-0063,Sporting Kansas City,"Sorber (Chung, Preki",35,,normal,RSSSF
+1996-0063,Sporting Kansas City,Takawira (Chung,54,,normal,RSSSF
+1996-0064,Columbus Crew,Caligiuri (Warzycha,7,,normal,RSSSF
+1996-0064,Columbus Crew,Khumalo,21,,penalti,RSSSF
+1996-0064,Columbus Crew,Marino,50,,normal,RSSSF
+1996-0064,Tampa Bay Mutiny,"Ralston (Vasquez, Hunjak",28,,normal,RSSSF
+1996-0064,Tampa Bay Mutiny,Lassiter,64,,penalti,RSSSF
+1996-0064,Tampa Bay Mutiny,"Vaquez (Hunjak, Valderrama",71,,normal,RSSSF
+1996-0065,FC Dallas,Lozzano (Sonora,36,,normal,RSSSF
+1996-0065,FC Dallas,Farrer,48,,normal,RSSSF
+1996-0065,FC Dallas,Santel (Alvarez,60,,normal,RSSSF
+1996-0065,FC Dallas,Haynes (Sonora,89,,normal,RSSSF
+1996-0065,New England Revolution,Keegan (Aunger,27,,normal,RSSSF
+1996-0066,DC United,"Diaz Arce (Gori, Sanneh",50,,normal,RSSSF
+1996-0066,San Jose Earthquakes,"Espinoza (Bravo, Salzwedel",41,,normal,RSSSF
+1996-0066,San Jose Earthquakes,Baicher (Emenalo,66,,normal,RSSSF
 1996-0067,New York Red Bulls,"Savarese (Johnson, Donadoni",50,,normal,RSSSF
 1996-0067,New York Red Bulls,Ramos (Lagos,52,,normal,RSSSF
+1996-0068,Colorado Rapids,Bartlett (Rodriguez,4,,normal,RSSSF
+1996-0068,Los Angeles Galaxy,Hurtado,21,,normal,RSSSF
+1996-0068,Los Angeles Galaxy,Hurtado (Karapetyan,31,,normal,RSSSF
+1996-0068,Los Angeles Galaxy,Hurtado (Cienfuegos,89,,normal,RSSSF
 1996-0069,Columbus Crew,Marino (Caligiuri,20,,normal,RSSSF
 1996-0069,New England Revolution,"Welton (Aunger, Sawatzky",77,,normal,RSSSF
 1996-0070,Sporting Kansas City,Sorber (Bowers,39,,normal,RSSSF
@@ -111,6 +235,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0073,Los Angeles Galaxy,Wilson (Cienfuegos,78,,normal,RSSSF
 1996-0073,Colorado Rapids,Wegerle,23,,normal,RSSSF
 1996-0073,Colorado Rapids,Bartlett (Wegerle,56,,normal,RSSSF
+1996-0074,San Jose Earthquakes,Wynalda (Dayak,1,,normal,RSSSF
+1996-0074,San Jose Earthquakes,"Wynalda (Bravo, Lewis",25,,normal,RSSSF
+1996-0074,San Jose Earthquakes,Bravo (Wynalda,34,,normal,RSSSF
+1996-0074,San Jose Earthquakes,Espinoza (Wynalda,44,,normal,RSSSF
+1996-0075,Columbus Crew,Marino (Paz,18,,normal,RSSSF
+1996-0075,Tampa Bay Mutiny,Galderisi (Pittman,15,,normal,RSSSF
+1996-0075,Tampa Bay Mutiny,Ralston (Lassiter,56,,normal,RSSSF
+1996-0075,Tampa Bay Mutiny,Lassiter (McKinley,73,,normal,RSSSF
+1996-0075,Tampa Bay Mutiny,Lassiter (Galderisi,78,,normal,RSSSF
 1996-0076,DC United,Diaz Arce (Agoos,61,,normal,RSSSF
 1996-0076,FC Dallas,Kreis (Sanchez,33,,normal,RSSSF
 1996-0077,New York Red Bulls,Ramos (Hennessey,58,,normal,RSSSF
@@ -123,6 +256,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0079,Sporting Kansas City,Takawira (Bowers,85,,normal,RSSSF
 1996-0080,New England Revolution,Kerr (Woodring,66,,normal,RSSSF
 1996-0080,San Jose Earthquakes,"Wynalda (Doyle, Iroha",60,,normal,RSSSF
+1996-0081,FC Dallas,Ashton,69,,normal,RSSSF
+1996-0081,DC United,Diaz Arce (Rammel,3,,normal,RSSSF
+1996-0081,DC United,Rammel (Harkes,18,,normal,RSSSF
+1996-0081,DC United,Diaz Arce (Sanneh,48,,normal,RSSSF
+1996-0081,DC United,Diaz Arce,61,,normal,RSSSF
+1996-0081,DC United,Diaz Arce (Agoos,63,,normal,RSSSF
+1996-0081,DC United,Rammel (Gori,77,,normal,RSSSF
 1996-0082,Columbus Crew,Warzycha (Marino,77,,normal,RSSSF
 1996-0082,Colorado Rapids,Trittschuh (Henderson,41,,normal,RSSSF
 1996-0082,Colorado Rapids,Benedetti (Wegerle,83,,normal,RSSSF
@@ -131,31 +271,109 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0085,New England Revolution,Chronopoulos (Woodring,78,,normal,RSSSF
 1996-0085,Columbus Crew,Caligiuri,25,,normal,RSSSF
 1996-0086,DC United,Etcheverry (Maessner,72,,normal,RSSSF
+1996-0087,Los Angeles Galaxy,Hurtado,66,,normal,RSSSF
+1996-0087,Los Angeles Galaxy,Jones (Karapetyan,70,,normal,RSSSF
+1996-0087,FC Dallas,Kreis (Alvarez,23,,normal,RSSSF
+1996-0087,FC Dallas,Ibsen (Elliott,28,,normal,RSSSF
+1996-0087,FC Dallas,Kreis (Eck,47,,normal,RSSSF
+1996-0087,FC Dallas,Haynes,69,,normal,RSSSF
+1996-0087,FC Dallas,"Elliott (Alvarez, Eck",83,,normal,RSSSF
 1996-0088,San Jose Earthquakes,Bravo (Espinoza,14,,normal,RSSSF
 1996-0088,San Jose Earthquakes,Bravo (Iroha,50,,normal,RSSSF
 1996-0088,Colorado Rapids,Bartlett (Henderson,80,,normal,RSSSF
+1996-0089,Sporting Kansas City,"Johnston (Sorber, Takawira",48,,normal,RSSSF
+1996-0089,Sporting Kansas City,Prempin (Chung,85,,normal,RSSSF
+1996-0089,Tampa Bay Mutiny,"Lassiter (Pittman, McKinley",15,,normal,RSSSF
+1996-0089,Tampa Bay Mutiny,McKinley (Wise,41,,normal,RSSSF
+1996-0089,Tampa Bay Mutiny,Galderisi (Lassiter,56,,normal,RSSSF
 1996-0090,New England Revolution,Sawatzky (Kerr,54,,normal,RSSSF
 1996-0090,New England Revolution,Sawatzky (Keegan,78,,normal,RSSSF
+1996-0091,San Jose Earthquakes,Wynalda (Espinoza,7,,normal,RSSSF
+1996-0091,San Jose Earthquakes,Bravo (Iroha,17,,normal,RSSSF
+1996-0091,San Jose Earthquakes,Doyle (Iroha,50,,normal,RSSSF
+1996-0091,San Jose Earthquakes,Bravo (Wynalda,60,,normal,RSSSF
+1996-0091,Columbus Crew,Warzycha,22,,normal,RSSSF
+1996-0091,Columbus Crew,McBride,37,,penalti,RSSSF
+1996-0091,Columbus Crew,"McBride (Warzycha, Thompson",58,,normal,RSSSF
 1996-0092,FC Dallas,Kreis (Sanchez,13,,normal,RSSSF
 1996-0092,FC Dallas,Elliott (Sonora,75,,normal,RSSSF
 1996-0092,Sporting Kansas City,Preki,22,,penalti,RSSSF
+1996-0093,Tampa Bay Mutiny,"Lassiter (Galderisi, Valderrama",24,,normal,RSSSF
+1996-0093,Tampa Bay Mutiny,Ralston,72,,normal,RSSSF
+1996-0093,Tampa Bay Mutiny,Galderisi (Valderrama,76,,normal,RSSSF
+1996-0093,Colorado Rapids,Kmosko (Trittschuch,61,,normal,RSSSF
+1996-0094,Los Angeles Galaxy,"Vanney (Jones, Vasquez",22,,normal,RSSSF
+1996-0094,Los Angeles Galaxy,Karapetyan (Cienfuegos,65,,normal,RSSSF
+1996-0094,Los Angeles Galaxy,Cienfuegos (Armas,71,,normal,RSSSF
 1996-0095,Colorado Rapids,Benedetti (Harbor,59,,normal,RSSSF
 1996-0095,Colorado Rapids,Bartlett (Henderson,73,,normal,RSSSF
 1996-0096,New York Red Bulls,"Johnson (Ramos, Villegas",29,,normal,RSSSF
 1996-0097,Columbus Crew,"Marino (Thompson, Warzycha",16,,normal,RSSSF
+1996-0098,Los Angeles Galaxy,Jones (Hurtado,32,,normal,RSSSF
+1996-0098,Los Angeles Galaxy,Jones (Hurtado,60,,normal,RSSSF
+1996-0098,Los Angeles Galaxy,"Jones (Karapetyan, Cienfuegos",68,,normal,RSSSF
+1996-0098,Tampa Bay Mutiny,Kooiman (Valderrama,5,,normal,RSSSF
+1996-0098,Tampa Bay Mutiny,"Galderisi (Vasquez, Kooiman",6,,normal,RSSSF
+1996-0098,Tampa Bay Mutiny,Valderrama,73,,penalti,RSSSF
+1996-0098,Tampa Bay Mutiny,Valderrama,75,,penalti,RSSSF
+1996-0099,New England Revolution,Woodring (Welton,15,,normal,RSSSF
+1996-0099,New England Revolution,Sawatzky,41,,normal,RSSSF
+1996-0099,Sporting Kansas City,"Takawira (Preki, Sorber",12,,normal,RSSSF
+1996-0099,Sporting Kansas City,"Takawira (Sorber, Preki",35,,normal,RSSSF
+1996-0099,Sporting Kansas City,Chung (Klopas,44,,normal,RSSSF
+1996-0099,Sporting Kansas City,Preki (Takawira,49,,normal,RSSSF
 1996-0100,FC Dallas,Alvarez (Sanchez,53,,normal,RSSSF
 1996-0100,FC Dallas,Sanchez,64,,penalti,RSSSF
 1996-0100,FC Dallas,Elliott (Sonora,78,,normal,RSSSF
+1996-0101,San Jose Earthquakes,Wynalda,39,,penalti,RSSSF
+1996-0101,New York Red Bulls,"Johnson (Savarese, Donadoni",36,,normal,RSSSF
+1996-0101,New York Red Bulls,Vermes (Donadoni,51,,normal,RSSSF
+1996-0101,New York Red Bulls,Wood (Donadoni,80,,normal,RSSSF
+1996-0101,New York Red Bulls,Harty (Johnson,88,,normal,RSSSF
 1996-0102,DC United,Rammel (Sanneh,1,,normal,RSSSF
 1996-0102,DC United,Marsch,83,,normal,RSSSF
+1996-0103,Sporting Kansas City,Vaudreuil,19,,contra,RSSSF
+1996-0103,Sporting Kansas City,Preki (Klopas,32,,normal,RSSSF
+1996-0103,Sporting Kansas City,Chung (Gutierrez,64,,normal,RSSSF
+1996-0103,DC United,Medved,9,,normal,RSSSF
+1996-0103,DC United,Etcheverry,69,,normal,RSSSF
 1996-0104,New England Revolution,Moore (Naveda,48,,normal,RSSSF
 1996-0104,New England Revolution,"Moore (Naveda, DaBrito",67,,normal,RSSSF
 1996-0105,FC Dallas,"Kreis (Elliott, Haynes",27,,normal,RSSSF
 1996-0105,FC Dallas,Lozzano (Elliott,47,,normal,RSSSF
 1996-0105,Columbus Crew,McBride (Yeagley,83,,normal,RSSSF
+1996-0106,Los Angeles Galaxy,"Hurtado (Bartlett, Henderson",9,,normal,RSSSF
+1996-0106,Los Angeles Galaxy,Balboa (Bartlett,50,,normal,RSSSF
+1996-0106,Colorado Rapids,Hurtado (Cienfuegos,25,,normal,RSSSF
+1996-0106,Colorado Rapids,Karapetyan,53,,normal,RSSSF
 1996-0107,New York Red Bulls,Donadoni,54,,normal,RSSSF
 1996-0107,New England Revolution,"Moore (DeBrito, Naveda",42,,normal,RSSSF
+1996-0108,Colorado Rapids,Harbor (Benedetti,85,,normal,RSSSF
+1996-0108,Tampa Bay Mutiny,"Lassiter (McKinley, Frye",8,,normal,RSSSF
+1996-0108,Tampa Bay Mutiny,Lassiter (Valderrama,65,,normal,RSSSF
+1996-0108,Tampa Bay Mutiny,Lassiter (Valderrama,70,,normal,RSSSF
+1996-0109,Sporting Kansas City,Chung (Takawira,16,,normal,RSSSF
+1996-0109,Sporting Kansas City,Chung,59,,normal,RSSSF
+1996-0109,Sporting Kansas City,"Takawira (Johnson, Lagerwey",66,,normal,RSSSF
+1996-0109,Sporting Kansas City,Takawira,78,,normal,RSSSF
+1996-0109,DC United,Diaz Arce,32,,penalti,RSSSF
+1996-0109,DC United,"Gori (Sanneh, Maessner",47,,normal,RSSSF
+1996-0111,DC United,"Moreno (Diaz Arce, Etcheverry",4,,normal,RSSSF
+1996-0111,DC United,Diaz Arce,45,,penalti,RSSSF
+1996-0111,DC United,Diaz Arce (Etcheverry,87,,normal,RSSSF
+1996-0111,Tampa Bay Mutiny,Lassiter,90,,penalti,RSSSF
+1996-0112,Sporting Kansas City,Preki (Takawira,57,,normal,RSSSF
+1996-0112,Sporting Kansas City,Sorber (Preki,83,,normal,RSSSF
+1996-0112,Colorado Rapids,"Henderson (Bartlett, Balboa",14,,normal,RSSSF
+1996-0112,Colorado Rapids,Harbor (Hamlett,51,,normal,RSSSF
+1996-0112,Colorado Rapids,"Bartlett (Balboa, Benedetti",78,,normal,RSSSF
+1996-0112,Colorado Rapids,Balboa (Bartlett,90,,normal,RSSSF
 1996-0113,Los Angeles Galaxy,Hurtado (Jones,80,,normal,RSSSF
+1996-0114,DC United,Moreno (Harkes,27,,normal,RSSSF
+1996-0114,DC United,Diaz Arce (Williams,31,,normal,RSSSF
+1996-0114,Columbus Crew,"Iribarren (McBride, Warzycha",55,,normal,RSSSF
+1996-0114,Columbus Crew,"McBride (Yeagley, Warzycha",57,,normal,RSSSF
+1996-0114,Columbus Crew,Paz (Khumalo,60,,normal,RSSSF
 1996-0115,Tampa Bay Mutiny,Lassiter (Galderisi,35,,normal,RSSSF
 1996-0115,FC Dallas,Alvarez,16,,normal,RSSSF
 1996-0115,FC Dallas,Haynes (Alvarez,32,,normal,RSSSF
@@ -165,29 +383,75 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0116,Sporting Kansas City,Chung (Wright,63,,normal,RSSSF
 1996-0117,New York Red Bulls,Donadoni,14,,normal,RSSSF
 1996-0117,New York Red Bulls,Joseph (Donadoni,34,,normal,RSSSF
+1996-0118,New England Revolution,"Moore (Naveda, Wylie",8,,normal,RSSSF
+1996-0118,San Jose Earthquakes,Dayak (Doyle,31,,normal,RSSSF
+1996-0118,San Jose Earthquakes,Espinoza (Rodas,48,,normal,RSSSF
+1996-0118,San Jose Earthquakes,Doyle (Lewis,62,,normal,RSSSF
+1996-0118,San Jose Earthquakes,"Dayak (Wynalda, Doyle",70,,normal,RSSSF
+1996-0118,San Jose Earthquakes,Rodas,81,,normal,RSSSF
+1996-0118,San Jose Earthquakes,Espinoza (Wynalda,84,,normal,RSSSF
 1996-0119,New York Red Bulls,Wood (Donadoni,12,,normal,RSSSF
 1996-0119,New York Red Bulls,Johnson,17,,normal,RSSSF
 1996-0119,New York Red Bulls,Johnson (De Avila,73,,normal,RSSSF
 1996-0119,New York Red Bulls,De Avila (Ramos,81,,normal,RSSSF
+1996-0120,Columbus Crew,Carrera (Paz,62,,normal,RSSSF
+1996-0120,Columbus Crew,McBride (Paz,83,,normal,RSSSF
+1996-0120,FC Dallas,"Elliott (Sonora, Kreis",73,,normal,RSSSF
+1996-0120,FC Dallas,Elliott (Lozzano,76,,normal,RSSSF
+1996-0121,San Jose Earthquakes,Doyle (Rodas,78,,normal,RSSSF
+1996-0121,Sporting Kansas City,Johnston (Bowers,5,,normal,RSSSF
+1996-0121,Sporting Kansas City,Preki (Sorber,46,,normal,RSSSF
+1996-0121,Sporting Kansas City,Takawira (Preki,81,,normal,RSSSF
+1996-0121,Sporting Kansas City,Takawira (Sorber,88,,normal,RSSSF
 1996-0122,New England Revolution,Moore (Naveda,28,,normal,RSSSF
 1996-0122,New England Revolution,Moore (Naveda,89,,normal,RSSSF
+1996-0123,New York Red Bulls,Donadoni,67,,penalti,RSSSF
+1996-0123,Tampa Bay Mutiny,Lassiter (Ralston,13,,normal,RSSSF
+1996-0123,Tampa Bay Mutiny,Kooiman (Valderrama,24,,normal,RSSSF
+1996-0123,Tampa Bay Mutiny,Lassiter,36,,normal,RSSSF
 1996-0124,Columbus Crew,Maisonneuve (Marino,77,,normal,RSSSF
 1996-0124,Columbus Crew,Paz (Maisonneuve,82,,normal,RSSSF
 1996-0125,Los Angeles Galaxy,Hurtado,77,,normal,RSSSF
 1996-0125,DC United,Harkes (Etcheverry,3,,normal,RSSSF
 1996-0125,DC United,Pope (Etcheverry,56,,normal,RSSSF
+1996-0126,DC United,"Williams (Etcheverry, Agoos",34,,normal,RSSSF
+1996-0126,DC United,"Etcheverry (Diaz Arce, Sanneh",45,,normal,RSSSF
+1996-0126,DC United,"Diaz Arce (Etcheverry, Pope",77,,normal,RSSSF
+1996-0126,New York Red Bulls,"De Avila (Ramos, Wood",26,,normal,RSSSF
+1996-0126,New York Red Bulls,De Avila,65,,normal,RSSSF
+1996-0127,Tampa Bay Mutiny,Galderisi,18,,normal,RSSSF
+1996-0127,Tampa Bay Mutiny,Vasquez,51,,normal,RSSSF
+1996-0127,New England Revolution,Naveda,23,,normal,RSSSF
+1996-0127,New England Revolution,"Lalas (DeBrito, Wylie",44,,normal,RSSSF
+1996-0127,New England Revolution,Moore,79,,penalti,RSSSF
+1996-0127,New England Revolution,Welton (Burns,88,,normal,RSSSF
 1996-0128,Sporting Kansas City,Chung,24,,normal,RSSSF
 1996-0128,Los Angeles Galaxy,Hurtado,24,,penalti,RSSSF
+1996-0130,Sporting Kansas City,"Johnston (Chung, Preki",41,,normal,RSSSF
+1996-0130,Columbus Crew,McBride (Warzycha,5,,normal,RSSSF
+1996-0130,Columbus Crew,"Maisonneuve (Iribarren, Warzycha",10,,normal,RSSSF
 1996-0131,DC United,"Rammel (Etcheverry, Moreno",25,,normal,RSSSF
 1996-0131,DC United,Moreno,29,,normal,RSSSF
 1996-0131,DC United,"Kelderman (Etcheverry, Sanneh",81,,normal,RSSSF
 1996-0132,San Jose Earthquakes,"Espinoza (Wynalda, Doyle",1,,normal,RSSSF
+1996-0133,FC Dallas,Sonora (Eck,23,,normal,RSSSF
+1996-0133,FC Dallas,Kreis,32,,normal,RSSSF
+1996-0133,FC Dallas,"Washington (Haynes, Elliott",76,,normal,RSSSF
+1996-0133,Los Angeles Galaxy,Hurtado (Vanney,53,,normal,RSSSF
+1996-0133,Los Angeles Galaxy,Hurtado (Noazmouz,80,,normal,RSSSF
 1996-0134,Columbus Crew,Caligiuri (Warzycha,9,,normal,RSSSF
 1996-0134,Columbus Crew,McBride (Warzycha,72,,normal,RSSSF
+1996-0135,DC United,Medved (Harkes,3,,normal,RSSSF
+1996-0135,DC United,"Rammel (Sanneh, Agoos",49,,normal,RSSSF
+1996-0135,Colorado Rapids,"Harbor (de Vries, Benedetti",40,,normal,RSSSF
 1996-0136,New England Revolution,Baba,73,,normal,RSSSF
 1996-0136,Tampa Bay Mutiny,Lassiter (Galderisi,26,,normal,RSSSF
 1996-0136,Tampa Bay Mutiny,Ralston,46,,normal,RSSSF
 1996-0136,Tampa Bay Mutiny,Hunjak (Galderisi,58,,normal,RSSSF
+1996-0137,New York Red Bulls,Hennessy (Ramos,15,,normal,RSSSF
+1996-0137,New York Red Bulls,"Wood (Donadoni, Ramos",45,,normal,RSSSF
+1996-0137,Sporting Kansas City,Silvera,70,,contra,RSSSF
+1996-0137,Sporting Kansas City,"Takawira (McKeon, Ekeme",76,,normal,RSSSF
 1996-0138,Los Angeles Galaxy,Jones (Karapetyan,53,,normal,RSSSF
 1996-0138,San Jose Earthquakes,"Espinoza (Wynalda, Doyle",26,,normal,RSSSF
 1996-0139,Tampa Bay Mutiny,Hejduk (Pittman,6,,normal,RSSSF
@@ -198,6 +462,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0142,New York Red Bulls,De Avila (Ramos,18,,normal,RSSSF
 1996-0142,New York Red Bulls,Joseph (De Avila,30,,normal,RSSSF
 1996-0142,DC United,Sanneh (Harkes,50,,normal,RSSSF
+1996-0143,Columbus Crew,Carrera (Caligiuri,8,,normal,RSSSF
+1996-0143,Columbus Crew,Maisonneuve) (Iribarren,39,,normal,RSSSF
+1996-0143,Columbus Crew,Maisonneuve (Warzycha,50,,normal,RSSSF
+1996-0143,Columbus Crew,"Marino (Monome, Warzycha",80,,normal,RSSSF
+1996-0143,Columbus Crew,Maisonneuve (Marino,82,,normal,RSSSF
+1996-0143,Sporting Kansas City,"Preki (Wright, Klopas",54,,normal,RSSSF
 1996-0144,New England Revolution,"Sawatzky (DeBrito, Baba",19,,normal,RSSSF
 1996-0144,New England Revolution,"Baba (Aunger, Fraser",43,,normal,RSSSF
 1996-0145,San Jose Earthquakes,Espinoza (Wynalda,24,,normal,RSSSF
@@ -208,6 +478,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0146,New York Red Bulls,"Joseph (Ramos, Wood",23,,normal,RSSSF
 1996-0146,New York Red Bulls,Joseph (Ramos,35,,normal,RSSSF
 1996-0146,New York Red Bulls,De Avila,56,,normal,RSSSF
+1996-0147,FC Dallas,"Haynes (Sonora, Elliott",79,,normal,RSSSF
+1996-0147,FC Dallas,Kreis,87,,normal,RSSSF
+1996-0147,San Jose Earthquakes,Espinoza (Bravo,49,,normal,RSSSF
+1996-0147,San Jose Earthquakes,Iroha (Wynalda,74,,normal,RSSSF
 1996-0148,Tampa Bay Mutiny,Lassiter,25,,penalti,RSSSF
 1996-0148,Tampa Bay Mutiny,Vasquez,74,,normal,RSSSF
 1996-0148,New England Revolution,"Moore (Baba, Sawatzky",61,,normal,RSSSF
@@ -215,6 +489,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0149,Tampa Bay Mutiny,"Lassiter (Hejduk, Valderrama",51,,normal,RSSSF
 1996-0150,Columbus Crew,McBride (Miller,3,,normal,RSSSF
 1996-0150,Columbus Crew,Carrera (Smith,14,,normal,RSSSF
+1996-0151,San Jose Earthquakes,Bravo,69,,normal,RSSSF
+1996-0151,San Jose Earthquakes,Wynalda,86,,penalti,RSSSF
+1996-0151,Los Angeles Galaxy,"Karapetyan (Hurtado, Onalfo",12,,normal,RSSSF
+1996-0151,Los Angeles Galaxy,"Armas (Noamouz, Karapetyan",32,,normal,RSSSF
+1996-0151,Los Angeles Galaxy,Hurtado (pk rebound,78,,normal,RSSSF
+1996-0151,Los Angeles Galaxy,Hurtado,83,,normal,RSSSF
+1996-0152,New England Revolution,Moore,39,,penalti,RSSSF
+1996-0152,New England Revolution,Moore,78,,normal,RSSSF
+1996-0152,DC United,Pope (Etcheverry,58,,normal,RSSSF
+1996-0152,DC United,Diaz Arce (Moreno,62,,normal,RSSSF
+1996-0152,DC United,"Diaz Arce (Moreno, Etcheverry",89,,normal,RSSSF
 1996-0153,New York Red Bulls,De Avila,9,,normal,RSSSF
 1996-0154,Tampa Bay Mutiny,Lassiter (Pittman,55,,normal,RSSSF
 1996-0154,San Jose Earthquakes,Corrales (Wynalda,3,,normal,RSSSF
@@ -222,11 +507,29 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0155,Los Angeles Galaxy,Vanney (Cienfuegos,48,,normal,RSSSF
 1996-0155,FC Dallas,Sanchez,23,,normal,RSSSF
 1996-0156,Columbus Crew,McBride (Maisonneuve,37,,normal,RSSSF
+1996-0157,Colorado Rapids,Henderson (Rodriguez,90,,normal,RSSSF
+1996-0157,DC United,Diaz Arce (Vaudreuil,21,,normal,RSSSF
+1996-0157,DC United,Medved (Williams,32,,normal,RSSSF
+1996-0157,DC United,Diaz Arce,53,,penalti,RSSSF
+1996-0158,New York Red Bulls,Savarese,74,,penalti,RSSSF
+1996-0158,Tampa Bay Mutiny,"Lassiter (Vasquez, Valderrama",11,,normal,RSSSF
+1996-0158,Tampa Bay Mutiny,Lassiter,30,,normal,RSSSF
+1996-0158,Tampa Bay Mutiny,Viera,57,,normal,RSSSF
+1996-0158,Tampa Bay Mutiny,"Galderisi (McKinley, Valderrama",75,,normal,RSSSF
 1996-0160,FC Dallas,Eck (Elliott,89,,normal,RSSSF
 1996-0160,Los Angeles Galaxy,Noamouz,76,,normal,RSSSF
 1996-0160,Los Angeles Galaxy,Garvey (Campos,82,,normal,RSSSF
+1996-0161,DC United,Diaz Arce,24,,normal,RSSSF
+1996-0161,DC United,"Moreno (Diaz Arce, Etcheverry",56,,normal,RSSSF
+1996-0161,New York Red Bulls,De Avila (Donadoni,38,,normal,RSSSF
+1996-0161,New York Red Bulls,"Savarese (Joseph, De Avila",75,,normal,RSSSF
 1996-0162,Tampa Bay Mutiny,Lassiter (Ralston,82,,normal,RSSSF
 1996-0162,Tampa Bay Mutiny,Lassiter (Ralston,87,,normal,RSSSF
+1996-0163,FC Dallas,Elliott,21,,normal,RSSSF
+1996-0163,FC Dallas,Ashton (Elliott,25,,normal,RSSSF
+1996-0163,Sporting Kansas City,Johnston (Sorber,16,,normal,RSSSF
+1996-0163,Sporting Kansas City,McKeon,79,,normal,RSSSF
+1996-0163,Sporting Kansas City,Preki (Chung,89,,normal,RSSSF
 1996-0164,San Jose Earthquakes,Ianni (Wynalda,36,,normal,RSSSF
 1996-0165,DC United,Etcheverry (Moreno,72,,normal,RSSSF
 1996-0166,Columbus Crew,Paz (Clark,1,,normal,RSSSF
@@ -234,11 +537,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0166,Tampa Bay Mutiny,Lassiter (Valderrama,26,,normal,RSSSF
 1996-0168,Los Angeles Galaxy,Fraser,84,,normal,RSSSF
 1996-0168,Los Angeles Galaxy,Hurtado (Campos,90,,normal,RSSSF
+1996-0169,Columbus Crew,McBride (Carrera,35,,normal,RSSSF
+1996-0169,Tampa Bay Mutiny,Vasquez (Valderrama,3,,normal,RSSSF
+1996-0169,Tampa Bay Mutiny,Lassiter (Vasquez,41,,normal,RSSSF
+1996-0169,Tampa Bay Mutiny,Pittman (Galderisi,55,,normal,RSSSF
+1996-0169,Tampa Bay Mutiny,"Lassiter (Vasquez, Ralston",58,,normal,RSSSF
 1996-0170,New York Red Bulls,De Avila (Donadoni,86,,normal,RSSSF
 1996-0170,DC United,Rammel,67,,normal,RSSSF
 1996-0170,DC United,Diaz Arce,89,,penalti,RSSSF
+1996-0171,Sporting Kansas City,"Chung (Sorber, Preki",41,,normal,RSSSF
+1996-0171,Sporting Kansas City,Takawira (Wright,62,,normal,RSSSF
+1996-0171,FC Dallas,Sanchez (Santel,27,,normal,RSSSF
+1996-0171,FC Dallas,Elliott (Sanchez,66,,normal,RSSSF
 1996-0172,Los Angeles Galaxy,Hurtado (Razov,31,,normal,RSSSF
 1996-0172,Los Angeles Galaxy,Cienfuegos,36,,penalti,RSSSF
+1996-0173,Tampa Bay Mutiny,Lassiter,42,,normal,RSSSF
+1996-0173,DC United,Diaz Arce (Harkes,36,,normal,RSSSF
+1996-0173,DC United,"Rammel (Peay, Maessner",55,,normal,RSSSF
+1996-0173,DC United,Diaz Arce,58,,normal,RSSSF
+1996-0173,DC United,Diaz Arce (Harkes,60,,normal,RSSSF
 1996-0174,Sporting Kansas City,Preki,52,,normal,RSSSF
 1996-0174,Los Angeles Galaxy,Armas,48,,normal,RSSSF
 1996-0174,Los Angeles Galaxy,Vanney,57,,normal,RSSSF
@@ -247,6 +564,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1996-0175,Tampa Bay Mutiny,"Ralston (Hejduk, Galderisi",14,,normal,RSSSF
 1996-0176,Los Angeles Galaxy,Vanney (Cienfuegos,76,,normal,RSSSF
 1996-0176,Sporting Kansas City,Preki,69,,normal,RSSSF
+1996-0177,DC United,Sanneh (Etcheverry,73,,normal,RSSSF
+1996-0177,DC United,Medved,81,,normal,RSSSF
+1996-0177,DC United,Pope (Etcheverry,94,,normal,RSSSF
+1996-0177,Los Angeles Galaxy,Hurtado (Cienfuegos,5,,normal,RSSSF
+1996-0177,Los Angeles Galaxy,Armas,56,,normal,RSSSF
 1999-0208,DC United,Jamie Moreno,19,,normal,RSSSF
 1999-0208,DC United,Ben Olsen 45+,,,normal,RSSSF
 2000-0001,FC Dallas,Jason Kreis,28,,normal,RSSSF
@@ -267,6 +589,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0004,Los Angeles Galaxy,Greg Vanney,74,,penalti,RSSSF
 2000-0004,Colorado Rapids,Paul Bravo,64,,penalti,RSSSF
 2000-0005,Tampa Bay Mutiny,Raul Diaz Arce,51,,normal,RSSSF
+2000-0006,Sporting Kansas City,Miklos Molnar,14,,normal,RSSSF
+2000-0006,Sporting Kansas City,Chris Klein,28,,normal,RSSSF
+2000-0006,Sporting Kansas City,Chris Henderson,42,,normal,RSSSF
+2000-0006,Sporting Kansas City,Preki,63,,normal,RSSSF
+2000-0006,Chicago Fire,Ante Razov,45,,normal,RSSSF
+2000-0006,Chicago Fire,Diego Gutierrez,68,,normal,RSSSF
+2000-0006,Chicago Fire,Dema Kovalenko,90,,normal,RSSSF
 2000-0007,Colorado Rapids,Marcelo Balboa,80,,normal,RSSSF
 2000-0008,Columbus Crew,Brian West,85,,normal,RSSSF
 2000-0008,Columbus Crew,Robert Warzycha,100,,normal,RSSSF
@@ -381,6 +710,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0048,New England Revolution,Mauricio Ramos,55,,normal,RSSSF
 2000-0048,New England Revolution,Wolde Harris,58,,normal,RSSSF
 2000-0048,San Jose Earthquakes,Abdul Thompson Conteh,72,,normal,RSSSF
+2000-0049,Colorado Rapids,Scott Vermillion,56,,normal,RSSSF
+2000-0049,Colorado Rapids,Junior Agogo,67,,penalti,RSSSF
+2000-0049,DC United,Carey Talley,36,,normal,RSSSF
+2000-0049,DC United,Jaime Moreno,59,,penalti,RSSSF
+2000-0049,DC United,Jaime Moreno,62,,normal,RSSSF
+2000-0049,DC United,Jaime Moreno,78,,normal,RSSSF
+2000-0049,DC United,Carlos Llamosa,70,,normal,RSSSF
 2000-0210,Sporting Kansas City,Miklos Molnar,11,,normal,RSSSF
 2003-0001,Columbus Crew,Edson Buddle,36,,normal,RSSSF
 2003-0001,Los Angeles Galaxy,Carlos Ruiz,64,,normal,RSSSF
@@ -389,6 +725,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0002,San Jose Earthquakes,Todd Dunivant,22,,normal,RSSSF
 2003-0003,FC Dallas,Ronnie O'Brien,4,,normal,RSSSF
 2003-0003,Los Angeles Galaxy,Carlos Ruiz,30,,normal,RSSSF
+2003-0004,DC United,Mike Peike,36,,normal,RSSSF
+2003-0004,DC United,Santino Quaranta,46,,normal,RSSSF
+2003-0004,Sporting Kansas City,Preki,3,,normal,RSSSF
+2003-0004,Sporting Kansas City,Chris Klein,61,,normal,RSSSF
+2003-0004,Sporting Kansas City,Chris Brown,92,,normal,RSSSF
 2003-0005,Columbus Crew,Jeff Cunningham,90,,normal,RSSSF
 2003-0006,Chicago Fire,DaMarcus Beasley,35,,normal,RSSSF
 2003-0006,New England Revolution,Taylor Twellman,41,,normal,RSSSF
@@ -405,6 +746,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0013,FC Dallas,Jason Kreis,72,,normal,RSSSF
 2003-0013,New England Revolution,Joe-Max Moore,12,,normal,RSSSF
 2003-0013,New England Revolution,Taylor Twellman,84,,normal,RSSSF
+2003-0014,Sporting Kansas City,Igor Simutenkov,25,,normal,RSSSF
+2003-0014,Sporting Kansas City,Jimmy Conrad,38,,normal,RSSSF
+2003-0014,Chicago Fire,Orlando Perez,53,,normal,RSSSF
+2003-0014,Chicago Fire,Andy Williams,65,,normal,RSSSF
+2003-0014,Chicago Fire,Damani Ralph,70,,normal,RSSSF
 2003-0015,San Jose Earthquakes,Landon Donovan,54,,penalti,RSSSF
 2003-0017,Sporting Kansas City,Preki,47,,penalti,RSSSF
 2003-0017,Sporting Kansas City,Eric Quill,89,,normal,RSSSF
@@ -432,6 +778,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0029,New England Revolution,Taylor Twellman,18,,normal,RSSSF
 2003-0029,New England Revolution,Jay Heaps,49,,normal,RSSSF
 2003-0029,New England Revolution,Steve Ralston,56,,normal,RSSSF
+2003-0030,San Jose Earthquakes,Brian Mullan,30,,normal,RSSSF
+2003-0030,San Jose Earthquakes,Brian Ching,49,,normal,RSSSF
+2003-0030,San Jose Earthquakes,Jeff Agoos,67,,normal,RSSSF
+2003-0030,San Jose Earthquakes,Landon Donovan,87,,normal,RSSSF
+2003-0030,Columbus Crew,Brian McBride,38,,penalti,RSSSF
+2003-0030,Columbus Crew,Jeff Cunningham,61,,normal,RSSSF
+2003-0030,Columbus Crew,Ross Paule,90,,normal,RSSSF
 2003-0031,Columbus Crew,Ross Paule,40,,normal,RSSSF
 2003-0031,Columbus Crew,Brian Dunseth,76,,normal,RSSSF
 2003-0031,New England Revolution,Brian Kamler,36,,normal,RSSSF
@@ -472,6 +825,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0042,New York Red Bulls,Mike Magee,17,,normal,RSSSF
 2003-0043,Los Angeles Galaxy,Carlos Ruiz,50,,normal,RSSSF
 2003-0043,Los Angeles Galaxy,Carlos Ruiz,91,,penalti,RSSSF
+2003-0045,Colorado Rapids,Seth Trembly,9,,normal,RSSSF
+2003-0045,Colorado Rapids,John Spencer,21,,normal,RSSSF
+2003-0045,Colorado Rapids,Mark Chung,39,,normal,RSSSF
+2003-0045,Colorado Rapids,Chris Carrieri,69,,normal,RSSSF
+2003-0045,New England Revolution,Wolde Harris,81,,normal,RSSSF
 2003-0046,FC Dallas,Jason Kreis,25,,normal,RSSSF
 2003-0046,San Jose Earthquakes,Brian Mullan,49,,normal,RSSSF
 2003-0046,San Jose Earthquakes,Arturo Alvarez,87,,normal,RSSSF
@@ -499,6 +857,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0052,Colorado Rapids,John Spencer,25,,penalti,RSSSF
 2003-0053,DC United,Hristo Stoitchkov,31,,normal,RSSSF
 2003-0053,New England Revolution,Brian Kamler,24,,normal,RSSSF
+2003-0054,Sporting Kansas City,Jimmy Conrad,26,,normal,RSSSF
+2003-0054,Sporting Kansas City,Francisco Gomez,33,,normal,RSSSF
+2003-0054,Sporting Kansas City,Alex Zotinca,42,,normal,RSSSF
+2003-0054,Sporting Kansas City,Preki,70,,penalti,RSSSF
+2003-0054,Chicago Fire,Damani Ralph,8,,normal,RSSSF
+2003-0054,Chicago Fire,Ante Razov,78,,normal,RSSSF
 2003-0055,New York Red Bulls,Mike Magee,65,,normal,RSSSF
 2003-0056,San Jose Earthquakes,Brian Mullan,43,,normal,RSSSF
 2003-0056,San Jose Earthquakes,Jamil Walker,77,,normal,RSSSF
@@ -516,10 +880,23 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0060,Los Angeles Galaxy,Sasha Victorine,20,,normal,RSSSF
 2003-0060,Los Angeles Galaxy,Chris Albright,60,,normal,RSSSF
 2003-0060,Los Angeles Galaxy,Carlos Ruiz,63,,penalti,RSSSF
+2003-0061,New England Revolution,Wolde Harris,7,,normal,RSSSF
+2003-0061,New England Revolution,Taylor Twellman,80,,normal,RSSSF
+2003-0061,New England Revolution,Wes Hart,84,,contra,RSSSF
+2003-0061,Colorado Rapids,Mark Chung,34,,normal,RSSSF
+2003-0061,Colorado Rapids,John Spencer,66,,normal,RSSSF
 2003-0063,FC Dallas,Dema Kovalenko,78,,normal,RSSSF
 2003-0063,DC United,Ryan Nelsen,29,,normal,RSSSF
 2003-0063,DC United,Dema Kovalenko,78,,normal,RSSSF
 2003-0063,DC United,Hristo Stoitchkov,88,,normal,RSSSF
+2003-0064,New York Red Bulls,Amado Guevara,7,,normal,RSSSF
+2003-0064,New York Red Bulls,Mike Magee,36,,normal,RSSSF
+2003-0064,New York Red Bulls,Clint Mathis,43,,normal,RSSSF
+2003-0064,New York Red Bulls,Clint Mathis,91,,normal,RSSSF
+2003-0064,San Jose Earthquakes,Brian Ching,15,,normal,RSSSF
+2003-0064,San Jose Earthquakes,Brian Ching,34,,normal,RSSSF
+2003-0064,San Jose Earthquakes,Manny Lagos,78,,normal,RSSSF
+2003-0064,San Jose Earthquakes,Landon Donovan,92,,normal,RSSSF
 2003-0065,Colorado Rapids,John Spencer,44,,penalti,RSSSF
 2003-0065,Colorado Rapids,Mark Chung,77,,normal,RSSSF
 2003-0065,Colorado Rapids,Mark Chung,92,,normal,RSSSF
@@ -529,10 +906,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0066,Los Angeles Galaxy,Alejandro Moreno,60,,normal,RSSSF
 2003-0066,New England Revolution,Taylor Twellman,52,,normal,RSSSF
 2003-0066,New England Revolution,Jay Heaps,54,,normal,RSSSF
+2003-0068,DC United,Marco Etcheverry,10,,penalti,RSSSF
+2003-0068,DC United,Dema Kovalenko,43,,normal,RSSSF
+2003-0068,New York Red Bulls,Jaime Moreno,20,,normal,RSSSF
+2003-0068,New York Red Bulls,Ricardo Clark,26,,normal,RSSSF
+2003-0068,New York Red Bulls,Eddie Gaven,99,,normal,RSSSF
 2003-0070,Colorado Rapids,John Spencer,77,,normal,RSSSF
 2003-0071,Chicago Fire,Jesse Marsch,6,,normal,RSSSF
 2003-0071,DC United,Galin Ivanov,9,,normal,RSSSF
 2003-0071,DC United,Ben Olsen,45,,normal,RSSSF
+2003-0073,New England Revolution,Taylor Twellman,7,,normal,RSSSF
+2003-0073,New England Revolution,Joe-Max Moore,36,,normal,RSSSF
+2003-0073,New England Revolution,Pat Noonan,50,,normal,RSSSF
+2003-0073,New York Red Bulls,John Wolyniec,66,,normal,RSSSF
+2003-0073,New York Red Bulls,Daouda Kante,73,,contra,RSSSF
+2003-0073,New York Red Bulls,Ricardo Clark,76,,normal,RSSSF
 2003-0074,Colorado Rapids,Ritchie Kotschau,34,,normal,RSSSF
 2003-0074,Colorado Rapids,Mark Chung,49,,normal,RSSSF
 2003-0075,New England Revolution,Joe Max-Moore,44,,normal,RSSSF
@@ -557,6 +945,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0083,San Jose Earthquakes,Brian Mullan,25,,normal,RSSSF
 2003-0083,San Jose Earthquakes,Manny Lagos,37,,normal,RSSSF
 2003-0083,San Jose Earthquakes,Jeff Agoos,90,,penalti,RSSSF
+2003-0084,New England Revolution,Taylor Twellman,26,,normal,RSSSF
+2003-0084,New England Revolution,Taylor Twellman,31,,normal,RSSSF
+2003-0084,DC United,Eliseo Quintanilla,83,,normal,RSSSF
+2003-0084,DC United,Eliseo Quintanilla,91,,penalti,RSSSF
+2003-0084,DC United,Dema Kovalenko,93,,normal,RSSSF
+2003-0084,DC United,Alecko Eskandarian,93,,normal,RSSSF
 2003-0085,Los Angeles Galaxy,Antonio Martinez,44,,normal,RSSSF
 2003-0085,Los Angeles Galaxy,Alexi Lalas,52,,normal,RSSSF
 2003-0085,Columbus Crew,Brian Maisonneuve,79,,normal,RSSSF
@@ -580,6 +974,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0093,DC United,Eliseo Quintanilla,31,,normal,ESPN
 2003-0095,San Jose Earthquakes,Ronnie Ekelund,23,,normal,ESPN
 2003-0095,New England Revolution,Taylor Twellman,52,,normal,ESPN
+2003-0096,Chicago Fire,Ante Razov,45,,normal,RSSSF
+2003-0096,Chicago Fire,Jesse Marsch,61,,normal,RSSSF
+2003-0096,Chicago Fire,DaMarcus Beasley,74,,normal,RSSSF
+2003-0096,DC United,Hristo Stoitchkov,8,,penalti,RSSSF
+2003-0097,FC Dallas,Joselito Vaca,30,,normal,RSSSF
+2003-0097,FC Dallas,Brad Davis 54pe,,,normal,RSSSF
+2003-0097,FC Dallas,Edward Johnson,71,,normal,RSSSF
+2003-0097,Sporting Kansas City,Preki,9,,penalti,RSSSF
+2003-0097,Sporting Kansas City,Francisco Gomez,77,,normal,RSSSF
 2003-0098,Colorado Rapids,John Spencer,57,,penalti,RSSSF
 2003-0098,Colorado Rapids,Mark Chung,91,,normal,RSSSF
 2003-0098,Columbus Crew,Edson Buddle,72,,normal,RSSSF
@@ -766,6 +1169,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0160,Sporting Kansas City,Chris Klein,72,,normal,ESPN
 2003-0160,San Jose Earthquakes,Brian Mullan,83,,normal,ESPN
 2003-0160,San Jose Earthquakes,Landon Donovan,117,,normal,ESPN
+2003-0161,Chicago Fire,DaMarcus Beasley,49,,normal,RSSSF
+2003-0161,Chicago Fire,Chris Roner,54,,contra,RSSSF
+2003-0161,San Jose Earthquakes,Ronnie Ekelund,5,,normal,RSSSF
+2003-0161,San Jose Earthquakes,Landon Donovan,38,,normal,RSSSF
+2003-0161,San Jose Earthquakes,Landon Donovan,71,,normal,RSSSF
+2003-0161,San Jose Earthquakes,Richard Mulrooney,50,,normal,RSSSF
 2004-0001,DC United,Jaime Moreno,12,,normal,ESPN
 2004-0001,San Jose Earthquakes,Ronnie Ekelund,19,,penalti,ESPN
 2004-0001,DC United,Alecko Eskandarian,39,,normal,ESPN

@@ -6,13 +6,13 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | sim | cb0355f8 | 0 | [mex-1](mex-1.md) |
-| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | sim | bb8432b4 | 0 | [usa-1](usa-1.md) |
-| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | sim | 17766bf6 | 0 | [crc-1](crc-1.md) |
-| Campeonato Hondurenho | 89 (1965/66–2026 Clausura) | 35 | 5391 | 2529 | 0 | 55 | 47 / 5 | sim | 6e59e93f | 0 | [hon-1](hon-1.md) |
-| Campeonato Guatemalteco | 101 (1942/43–2026 Clausura) | 48 | 6836 | 2954 | 0 | 73 | 48 / 3 | sim | 7fd2f616 | 0 | [gua-1](gua-1.md) |
-| Campeonato Salvadorenho | 111 (1926–2026 Clausura) | 52 | 6026 | 2682 | 0 | 71 | 51 / 1 | não | f343c14f | 0 | [slv-1](slv-1.md) |
-| Campeonato Panamenho | 66 (1988–2026 Clausura) | 15 | 4520 | 1090 | 0 | 33 | 44 / 3 | não | — | 0 | [pan-1](pan-1.md) |
+| Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 72132 | 42633 | 92 | 116 / 33 | sim | cb0355f8 | 0 | [mex-1](mex-1.md) |
+| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 22327 | 30061 | 134 | 25 / 1 | sim | bb8432b4 | 0 | [usa-1](usa-1.md) |
+| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2951 | 0 | 65 | 40 / 4 | sim | 17766bf6 | 0 | [crc-1](crc-1.md) |
+| Campeonato Hondurenho | 89 (1965/66–2026 Clausura) | 35 | 5391 | 2564 | 0 | 55 | 47 / 5 | sim | 6e59e93f | 0 | [hon-1](hon-1.md) |
+| Campeonato Guatemalteco | 101 (1942/43–2026 Clausura) | 48 | 6836 | 2991 | 0 | 73 | 48 / 3 | sim | 7fd2f616 | 0 | [gua-1](gua-1.md) |
+| Campeonato Salvadorenho | 111 (1926–2026 Clausura) | 52 | 6026 | 2788 | 0 | 71 | 51 / 1 | sim | f343c14f | 0 | [slv-1](slv-1.md) |
+| Campeonato Panamenho | 66 (1988–2026 Clausura) | 15 | 4520 | 1668 | 0 | 33 | 44 / 3 | sim | 83c08786 | 0 | [pan-1](pan-1.md) |
 
 ## Pendências de todas as competições
 
@@ -52,4 +52,6 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 ## Próximas competições
 
-- 1ªs divisões da CONCACAF, na ordem do guia geral: usa-1, crc-1, hon-1, gua-1, slv-1, pan-1, jam-1, tri-1, can-1, hai-1; depois as outras. Antes de cada uma, as decisões de escopo ao Guilherme. Como fazer: `COMECE-AQUI.md`, seção 4.
+- Pelo plano único (`docs/coleta/plano-de-coleta.md`, 25/11/2026): fase 1, a 1ª divisão de todas as federações da CONCACAF pelo ranking FIFA (foto de 25/11, lista no `COMECE-AQUI.md`, seção 3.1). A próxima é o Canadá (`can-1`); depois Jamaica, Curaçao, Haiti, Trinidad e Tobago... Antes de cada uma, o escopo ao Guilherme.
+- Depois, a fase 2 (copas nacionais), a fase 3 (2ªs divisões) e a fase 4 (o resto), pelo mesmo ranking.
+- A MLS 2026 entra na `usa-1` depois da final (18/12/2026).

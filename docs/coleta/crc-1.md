@@ -92,15 +92,15 @@ Gerado por `python coleta/crc-1/importar.py`. Pacote em `data/coleta/crc-1/pacot
 | 1995/96 | 28 | 0 (0) | 0 | 0 | 0 / 0 | Alajuelense | RSSSF (cos96) |
 | 1996/97 | 12 | 224 (224) | 562 | 8 | 0 / 0 | Alajuelense | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997/98 | 12 | 222 (318) | 592 | 4 | 3 / 0 | Saprissa | RSSSF (cos98) |
-| 1998/99 | 14 | 266 (266) | 779 | 0 | 0 / 1 | Saprissa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1998/99 | 14 | 266 (266) | 779 | 0 | 0 / 1 | Saprissa | RSSSF (cos99) |
 | 1999/00 | 12 | 264 (264) | 791 | 0 | 2 / 0 | Alajuelense | RSSSF (cos00) |
 | 2000/01 | 12 | 230 (230) | 640 | 4 | 5 / 1 | Alajuelense | RSSSF (cos01) |
 | 2001/02 | 12 | 267 (266) | 792 | 8 | 2 / 0 | Alajuelense | RSSSF (cos02) |
 | 2002/03 | 12 | 264 (264) | 759 | 0 | 1 / 1 | Alajuelense | RSSSF (cos03) |
 | 2003/04 | 12 | 265 (266) | 702 | 7 | 1 / 1 | Saprissa | RSSSF (cos04) |
-| 2004/05 | 12 | 204 (204) | 561 | 16 | 4 / 0 | Alajuelense | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005/06 | 12 | 204 (204) | 492 | 361 | 4 / 0 | Saprissa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006/07 | 12 | 220 (220) | 540 | 155 | 4 / 0 | Saprissa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004/05 | 12 | 204 (204) | 561 | 20 | 4 / 0 | Alajuelense | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005/06 | 12 | 204 (204) | 492 | 490 | 4 / 0 | Saprissa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006/07 | 12 | 220 (220) | 540 | 160 | 4 / 0 | Saprissa | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 Apertura | 12 | 106 (106) | 278 | 163 | 2 / 0 | Saprissa | RSSSF (cos08) |
 | 2008 Clausura | 12 | 106 (106) | 258 | 117 | 2 / 0 | Saprissa | RSSSF (cos08) |
 | 2008 Apertura | 12 | 106 (106) | 308 | 193 | 2 / 0 | Saprissa | RSSSF (cos09) |

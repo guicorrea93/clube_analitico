@@ -5,8 +5,8 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 ## 1. O que temos
 
 - **Edições:** 63, de 1921/22 a 2025; 35 sem jogos.
-- **Jogos:** 8708 (8688 com placar); **gols:** 24858; **gols com autor:** 21918 (88%); **cartões:** 30061.
-- **Clubes:** 134; **artilheiros:** 20 edições com artilheiro (26 linhas, com empates).
+- **Jogos:** 8708 (8688 com placar); **gols:** 24858; **gols com autor:** 22327 (90%); **cartões:** 30061.
+- **Clubes:** 134; **artilheiros:** 22 edições com artilheiro (28 linhas, com empates).
 - **Classificação final:** 63 edições; **tabelas publicadas guardadas para conferência:** 940 linhas.
 - **No banco:** sim; **último commit do pacote:** bb8432b4.
 - **Observação da competição:** 1ª divisão dos EUA, uma edição por título, como a lista "Division I" da RSSSF: ASL I (1921/22-1932/33, só tabelas), as duas ligas de 1967 (United Soccer Association e NPSL), NASL (1968-1984, só tabelas) e MLS (1996-2025; campeão = MLS Cup). Sem 1ª divisão de 1985 a 1995. Clubes do Canadá com país CAN.
@@ -59,8 +59,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1960s | 4 | 0 | — | — | — | — | — | — | — | — |
 | 1970s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1980s | 5 | 0 | — | — | — | — | — | — | — | — |
-| 1990s | 4 | 385 | 100% | 0% | 54% | 0% | 0% | 0% | 21% | 0.0 |
-| 2000s | 10 | 1943 | 100% | 77% | 28% | 65% | 53% | 23% | 67% | 2.8 |
+| 1990s | 4 | 385 | 100% | 0% | 54% | 0% | 0% | 0% | 48% | 0.0 |
+| 2000s | 10 | 1943 | 100% | 77% | 28% | 65% | 53% | 23% | 69% | 2.8 |
 | 2010s | 10 | 3518 | 100% | 99% | 0% | 99% | 96% | 83% | 99% | 3.6 |
 | 2020s | 6 | 2862 | 100% | 99% | 27% | 99% | 99% | 88% | 99% | 4.2 |
 

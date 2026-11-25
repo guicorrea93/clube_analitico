@@ -64,14 +64,14 @@ Gerado por `python coleta/gua-1/importar.py`. Pacote em `data/coleta/gua-1/pacot
 | 1999 Apertura | 12 | 145 (146) | 402 | 0 | 0 / 1 | Comunicaciones | RSSSF (guat00) |
 | 2000 Clausura | 12 | 146 (146) | 417 | 0 | 1 / 0 | Municipal | RSSSF (guat00) |
 | 2000 Apertura | 12 | 146 (146) | 414 | 0 | 0 / 1 | Municipal | RSSSF (guat01) |
-| 2001 Clausura | 12 | 147 (146) | 431 | 4 | 1 / 0 | Comunicaciones | RSSSF (guat01) |
+| 2001 Clausura | 12 | 147 (146) | 431 | 9 | 1 / 0 | Comunicaciones | RSSSF (guat01) |
 | 2001 Reordenamiento | 12 | 146 (146) | 420 | 0 | 1 / 0 | Municipal | RSSSF (guat02) |
 | 2002 Clausura | 10 | 100 (100) | 327 | 5 | 1 / 0 | Municipal | RSSSF (guat02) |
 | 2002 Apertura | 10 | 100 (100) | 269 | 5 | 1 / 0 | Comunicaciones | RSSSF (guat03) |
-| 2003 Clausura | 10 | 100 (100) | 269 | 0 | 1 / 0 | Comunicaciones | RSSSF (guat03) |
+| 2003 Clausura | 10 | 100 (100) | 269 | 5 | 1 / 0 | Comunicaciones | RSSSF (guat03) |
 | 2003 Apertura | 10 | 100 (100) | 291 | 0 | 1 / 0 | Municipal | RSSSF (guat04) |
-| 2004 Clausura | 10 | 100 (100) | 335 | 0 | 1 / 0 | Cobán Imperial | RSSSF (guat04) |
-| 2004 Apertura | 10 | 100 (100) | 319 | 0 | 1 / 0 | Municipal | RSSSF (guat05) |
+| 2004 Clausura | 10 | 100 (100) | 335 | 9 | 1 / 0 | Cobán Imperial | RSSSF (guat04) |
+| 2004 Apertura | 10 | 100 (100) | 319 | 11 | 1 / 0 | Municipal | RSSSF (guat05) |
 | 2005 Clausura | 10 | 100 (100) | 264 | 7 | 1 / 0 | Municipal | RSSSF (guat05) |
 | 2005 Apertura | 10 | 100 (100) | 274 | 0 | 1 / 0 | Municipal | RSSSF (guat06) |
 | 2006 Clausura | 10 | 100 (100) | 255 | 0 | 1 / 0 | Municipal | RSSSF (guat06) |
@@ -104,7 +104,7 @@ Gerado por `python coleta/gua-1/importar.py`. Pacote em `data/coleta/gua-1/pacot
 | 2019 Apertura | 12 | 142 (142) | 345 | 0 | 1 / 0 | Municipal | RSSSF (guat2020) |
 | 2020 Clausura | 12 | 78 (78) | 176 | 0 | 0 / 0 | None | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2020 Apertura | 12 | 110 (110) | 276 | 0 | 2 / 0 | Guastatoya | RSSSF (guat2021) |
-| 2021 Clausura | 12 | 111 (111) | 260 | 4 | 2 / 0 | Santa Lucía Cotzumalguapa | RSSSF (guat2021) |
+| 2021 Clausura | 12 | 111 (111) | 260 | 11 | 2 / 0 | Santa Lucía Cotzumalguapa | RSSSF (guat2021) |
 | 2021 Apertura | 12 | 146 (146) | 318 | 0 | 1 / 0 | Malacateco | RSSSF (guat2022) |
 | 2022 Clausura | 12 | 146 (146) | 357 | 0 | 1 / 0 | Comunicaciones | RSSSF (guat2022) |
 | 2022 Apertura | 12 | 146 (146) | 359 | 0 | 1 / 0 | Cobán Imperial | RSSSF (guat2023) |

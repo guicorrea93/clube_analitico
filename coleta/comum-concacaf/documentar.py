@@ -434,9 +434,11 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- 1ªs divisões da CONCACAF, na ordem do guia geral: usa-1, crc-1, hon-1, gua-1, slv-1, pan-1, jam-1, tri-1, can-1, "
-            "hai-1; depois as outras. Antes de cada uma, as decisões de escopo ao Guilherme. Como fazer: `COMECE-AQUI.md`, "
-            "seção 4.", ""]
+            "- Pelo plano único (`docs/coleta/plano-de-coleta.md`, 25/11/2026): fase 1, a 1ª divisão de todas as federações da "
+            "CONCACAF pelo ranking FIFA (foto de 25/11, lista no `COMECE-AQUI.md`, seção 3.1). A próxima é o Canadá "
+            "(`can-1`); depois Jamaica, Curaçao, Haiti, Trinidad e Tobago... Antes de cada uma, o escopo ao Guilherme.",
+            "- Depois, a fase 2 (copas nacionais), a fase 3 (2ªs divisões) e a fase 4 (o resto), pelo mesmo ranking.",
+            "- A MLS 2026 entra na `usa-1` depois da final (18/12/2026).", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

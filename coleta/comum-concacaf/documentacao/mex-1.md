@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 ## 1. O que temos
 
 - **Edições:** 158, de 1902/03 a 2026 Clausura; 2 sem jogos.
-- **Jogos:** 26606 (26540 com placar); **gols:** 76536; **gols com autor:** 56671 (74%); **cartões:** 42633.
+- **Jogos:** 26606 (26540 com placar); **gols:** 76536; **gols com autor:** 72132 (94%); **cartões:** 42633.
 - **Clubes:** 92; **artilheiros:** 152 edições com artilheiro (185 linhas, com empates).
 - **Classificação final:** 158 edições; **tabelas publicadas guardadas para conferência:** 3340 linhas.
 - **No banco:** sim; **último commit do pacote:** cb0355f8.
@@ -63,19 +63,19 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Edições | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1900s | 8 | 115 | 100% | 0% | 57% | 0% | 0% | 0% | 22% | 0.0 |
+| 1900s | 8 | 115 | 100% | 0% | 57% | 0% | 0% | 0% | 26% | 0.0 |
 | 1910s | 10 | 190 | 100% | 0% | 83% | 0% | 0% | 0% | 44% | 0.0 |
-| 1920s | 12 | 458 | 100% | 0% | 100% | 0% | 0% | 0% | 27% | 0.0 |
-| 1930s | 10 | 342 | 100% | 0% | 100% | 0% | 0% | 0% | 28% | 0.0 |
-| 1940s | 10 | 1470 | 100% | 0% | 100% | 0% | 0% | 0% | 44% | 0.0 |
-| 1950s | 10 | 1545 | 100% | 0% | 100% | 0% | 0% | 0% | 73% | 0.0 |
-| 1960s | 10 | 2179 | 100% | 0% | 100% | 0% | 0% | 0% | 67% | 0.0 |
-| 1970s | 11 | 3893 | 100% | 0% | 100% | 0% | 0% | 0% | 69% | 0.0 |
-| 1980s | 11 | 3908 | 100% | 0% | 100% | 0% | 0% | 0% | 68% | 0.0 |
-| 1990s | 13 | 3454 | 100% | 0% | 100% | 0% | 0% | 0% | 70% | 0.0 |
-| 2000s | 20 | 3561 | 100% | 79% | 100% | 79% | 36% | 5% | 94% | 4.5 |
+| 1920s | 12 | 458 | 100% | 0% | 100% | 0% | 0% | 0% | 28% | 0.0 |
+| 1930s | 10 | 342 | 100% | 0% | 100% | 0% | 0% | 0% | 42% | 0.0 |
+| 1940s | 10 | 1470 | 100% | 0% | 100% | 0% | 0% | 0% | 95% | 0.0 |
+| 1950s | 10 | 1545 | 100% | 0% | 100% | 0% | 0% | 0% | 97% | 0.0 |
+| 1960s | 10 | 2179 | 100% | 0% | 100% | 0% | 0% | 0% | 97% | 0.0 |
+| 1970s | 11 | 3893 | 100% | 0% | 100% | 0% | 0% | 0% | 92% | 0.0 |
+| 1980s | 11 | 3908 | 100% | 0% | 100% | 0% | 0% | 0% | 98% | 0.0 |
+| 1990s | 13 | 3454 | 100% | 0% | 100% | 0% | 0% | 0% | 98% | 0.0 |
+| 2000s | 20 | 3561 | 100% | 79% | 100% | 79% | 36% | 5% | 100% | 4.5 |
 | 2010s | 20 | 3358 | 100% | 99% | 100% | 95% | 89% | 40% | 100% | 5.0 |
-| 2020s | 13 | 2133 | 100% | 100% | 84% | 97% | 97% | 76% | 99% | 4.7 |
+| 2020s | 13 | 2133 | 100% | 100% | 84% | 97% | 97% | 76% | 100% | 4.7 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na CONCACAF: nenhuma fonte em lote tem.
 
@@ -690,7 +690,7 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 - **Edições sem jogos (2):** 1911/12 e 1916/17: a RSSSF não tem página dessas temporadas; entram com a tabela final de `mexhist.html`.
 - **Edições com jogos incompletos (6):** 1915/16 e 1924/25 (a página traz só parte dos jogos), 1920/21 e 1921/22 ("known results"; a Liga Nacional de 1921/22 não terminou). Nelas a classificação é a tabela publicada, sem conferência; o que falta está na observação da edição.
 - **Edições sem jogos** (2): 1911/12, 1916/17.
-- **Décadas com menos da metade dos gols com autor:** 1900s, 1910s, 1920s, 1930s, 1940s.
+- **Décadas com menos da metade dos gols com autor:** 1900s, 1910s, 1920s, 1930s.
 - **Décadas sem cartões** (a ESPN só cobre do meio dos anos 2000 em diante): 1900s, 1910s, 1920s, 1930s, 1940s, 1950s, 1960s, 1970s, 1980s, 1990s.
 - Árbitro e estatísticas de jogo: nenhuma fonte em lote.
 

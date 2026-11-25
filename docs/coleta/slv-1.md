@@ -71,27 +71,27 @@ Gerado por `python coleta/slv-1/importar.py`. Pacote em `data/coleta/slv-1/pacot
 | 1996/97 | 10 | 193 (193) | 602 | 0 | 1 / 0 | Alianza de El Salvador | RSSSF (elsal97) |
 | 1997/98 | 10 | 132 (132) | 360 | 0 | 3 / 0 | Luis Ángel Firpo | RSSSF (elsal98) |
 | 1998/99 | 10 | 95 (95) | 245 | 3 | 1 / 0 | Luis Ángel Firpo | RSSSF (elsal99) |
-| 1999 Apertura | 10 | 95 (95) | 216 | 1 | 1 / 0 | Águila | RSSSF (elsal00) |
+| 1999 Apertura | 10 | 95 (95) | 216 | 6 | 1 / 0 | Águila | RSSSF (elsal00) |
 | 2000 Clausura | 10 | 95 (95) | 249 | 12 | 1 / 0 | Luis Ángel Firpo | RSSSF (elsal00) |
 | 2000 Apertura | 10 | 96 (95) | 306 | 5 | 1 / 0 | Águila | RSSSF (elsal01) |
 | 2001 Clausura | 10 | 94 (94) | 257 | 0 | 1 / 0 | Águila | RSSSF (elsal01) |
 | 2001 Apertura | 10 | 95 (95) | 302 | 3 | 1 / 0 | Alianza de El Salvador | RSSSF (elsal02) |
 | 2002 Clausura | 10 | 96 (96) | 285 | 4 | 0 / 1 | FAS | RSSSF (elsal02) |
 | 2002 Apertura | 10 | 96 (96) | 252 | 4 | 1 / 0 | FAS | RSSSF (elsal03) |
-| 2003 Clausura | 10 | 95 (95) | 258 | 3 | 1 / 0 | San Salvador FC | RSSSF (elsal03) |
-| 2003 Apertura | 10 | 96 (96) | 257 | 11 | 1 / 0 | FAS | RSSSF (elsal04) |
-| 2004 Clausura | 10 | 95 (95) | 257 | 2 | 1 / 0 | Alianza de El Salvador | RSSSF (elsal04) |
+| 2003 Clausura | 10 | 95 (95) | 258 | 7 | 1 / 0 | San Salvador FC | RSSSF (elsal03) |
+| 2003 Apertura | 10 | 96 (96) | 257 | 7 | 1 / 0 | FAS | RSSSF (elsal04) |
+| 2004 Clausura | 10 | 95 (95) | 257 | 0 | 1 / 0 | Alianza de El Salvador | RSSSF (elsal04) |
 | 2004 Apertura | 10 | 96 (96) | 239 | 14 | 1 / 0 | FAS | RSSSF (elsal05) |
-| 2005 Clausura | 10 | 95 (95) | 259 | 3 | 1 / 0 | FAS | RSSSF (elsal05) |
-| 2005 Apertura | 10 | 95 (95) | 241 | 33 | 1 / 0 | Vista Hermosa | RSSSF (elsal06) |
-| 2006 Clausura | 10 | 95 (95) | 257 | 151 | 1 / 0 | Águila | RSSSF (elsal06) |
+| 2005 Clausura | 10 | 95 (95) | 259 | 15 | 1 / 0 | FAS | RSSSF (elsal05) |
+| 2005 Apertura | 10 | 95 (95) | 241 | 59 | 1 / 0 | Vista Hermosa | RSSSF (elsal06) |
+| 2006 Clausura | 10 | 95 (95) | 257 | 205 | 1 / 0 | Águila | RSSSF (elsal06) |
 | 2006 Apertura | 10 | 96 (96) | 254 | 189 | 1 / 0 | Once Municipal | RSSSF (elsal07) |
 | 2007 Clausura | 10 | 95 (95) | 245 | 1 | 1 / 0 | Isidro Metapán | RSSSF (elsal07) |
 | 2007 Apertura | 10 | 96 (96) | 252 | 185 | 1 / 0 | Luis Ángel Firpo | RSSSF (elsal08) |
 | 2008 Clausura | 10 | 95 (95) | 243 | 89 | 1 / 0 | Luis Ángel Firpo | RSSSF (elsal08) |
-| 2008 Apertura | 10 | 95 (95) | 261 | 192 | 1 / 0 | Isidro Metapán | RSSSF (elsal09) |
+| 2008 Apertura | 10 | 95 (95) | 261 | 198 | 1 / 0 | Isidro Metapán | RSSSF (elsal09) |
 | 2009 Clausura | 10 | 95 (95) | 220 | 168 | 0 / 0 | Isidro Metapán | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2009 Apertura | 10 | 97 (96) | 232 | 210 | 1 / 0 | FAS | RSSSF (elsal2010) |
+| 2009 Apertura | 10 | 97 (96) | 232 | 215 | 1 / 0 | FAS | RSSSF (elsal2010) |
 | 2010 Clausura | 10 | 95 (95) | 226 | 165 | 1 / 0 | Isidro Metapán | RSSSF (elsal2010) |
 | 2010 Apertura | 10 | 0 (0) | 0 | 0 | 0 / 0 | Isidro Metapán | RSSSF (elsal2011) |
 | 2011 Clausura | 10 | 0 (0) | 0 | 0 | 0 / 0 | Alianza de El Salvador | RSSSF (elsal2011) |

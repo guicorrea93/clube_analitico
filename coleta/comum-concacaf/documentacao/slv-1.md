@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 ## 1. O que temos
 
 - **Edições:** 111, de 1926 a 2026 Clausura; 52 sem jogos.
-- **Jogos:** 6026 (6015 com placar); **gols:** 15505; **gols com autor:** 2682 (17%); **cartões:** 0.
+- **Jogos:** 6026 (6015 com placar); **gols:** 15505; **gols com autor:** 2788 (18%); **cartões:** 0.
 - **Clubes:** 71; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 111 edições; **tabelas publicadas guardadas para conferência:** 1203 linhas.
-- **No banco:** ainda não; **último commit do pacote:** f343c14f.
+- **No banco:** sim; **último commit do pacote:** f343c14f.
 - **Observação da competição:** Primera División de El Salvador de 1926 ao Clausura 2026, uma edição por título, como a lista da RSSSF (110 títulos): de 1926 a 1946 o campeonato nacional entre os campeões das zonas (final ou quadrangular); um campeão por temporada de 1948/49 a 1998/99; Apertura e Clausura de 1999/00 em diante (Clausura 2023 sem campeão). Até 1995/96 só as tabelas e as finais. Ficam fora 1924-25 (não oficiais), os títulos só da Zona Central (1931-36, 1939-41, 1944-45) e a Copa Pilsener 1998/99.
 
 ## 2. Edições, fontes e regras
@@ -60,8 +60,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1960s | 9 | 0 | — | — | — | — | — | — | — | — |
 | 1970s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1980s | 10 | 0 | — | — | — | — | — | — | — | — |
-| 1990s | 10 | 515 | 98% | 0% | 97% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 20 | 1908 | 91% | 28% | 100% | 20% | 0% | 0% | 25% | 0.0 |
+| 1990s | 10 | 515 | 98% | 0% | 97% | 0% | 0% | 0% | 1% | 0.0 |
+| 2000s | 20 | 1908 | 91% | 28% | 100% | 20% | 0% | 0% | 27% | 0.0 |
 | 2010s | 20 | 1971 | 100% | 96% | 100% | 79% | 46% | 0% | 28% | 0.0 |
 | 2020s | 13 | 1617 | 100% | 97% | 100% | 97% | 90% | 0% | 0% | 0.0 |
 

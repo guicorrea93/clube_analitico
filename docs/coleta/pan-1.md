@@ -28,25 +28,25 @@ Gerado por `python coleta/pan-1/importar.py`. Pacote em `data/coleta/pan-1/pacot
 | 1997/98 | 12 | 95 (95) | 227 | 2 | 0 / 2 | Tauro | RSSSF (panama98) |
 | 1998/99 | 10 | 111 (111) | 268 | 164 | 3 / 0 | Árabe Unido | RSSSF (panama99) |
 | 1999/00 | 8 | 0 (0) | 0 | 0 | 0 / 0 | Tauro | RSSSF (panama00) |
-| 2000/01 | 10 | 112 (112) | 328 | 133 | 2 / 0 | Panamá Viejo | RSSSF (panama01) |
+| 2000/01 | 10 | 112 (112) | 328 | 150 | 2 / 0 | Panamá Viejo | RSSSF (panama01) |
 | 2001 Apertura | 0 | 0 (0) | 0 | 0 | 0 / 0 | Árabe Unido | lista de campeões da RSSSF (campeão e vice) |
 | 2001 Clausura | 0 | 0 (0) | 0 | 0 | 0 / 0 | Árabe Unido | lista de campeões da RSSSF (campeão e vice) |
 | 2002 Apertura | 8 | 45 (45) | 118 | 0 | 2 / 0 | Árabe Unido | RSSSF (panama02) |
 | 2002 Clausura | 8 | 70 (70) | 193 | 0 | 2 / 0 | Plaza Amador | RSSSF (panama02) |
-| 2003 Apertura | 8 | 70 (70) | 175 | 0 | 2 / 0 | Tauro | RSSSF (panama03) |
-| 2003 Clausura | 8 | 61 (61) | 180 | 0 | 1 / 0 | Tauro | RSSSF (panama03) |
+| 2003 Apertura | 8 | 70 (70) | 175 | 9 | 2 / 0 | Tauro | RSSSF (panama03) |
+| 2003 Clausura | 8 | 61 (61) | 180 | 6 | 1 / 0 | Tauro | RSSSF (panama03) |
 | 2004 Apertura | 10 | 95 (95) | 223 | 47 | 0 / 1 | Árabe Unido | RSSSF (panama04) |
-| 2004 Clausura | 10 | 96 (95) | 289 | 2 | 1 / 0 | Árabe Unido | RSSSF (panama04) |
-| 2005 Apertura | 10 | 95 (95) | 223 | 0 | 1 / 0 | Plaza Amador | RSSSF (panama05) |
+| 2004 Clausura | 10 | 96 (95) | 289 | 10 | 1 / 0 | Árabe Unido | RSSSF (panama04) |
+| 2005 Apertura | 10 | 95 (95) | 223 | 4 | 1 / 0 | Plaza Amador | RSSSF (panama05) |
 | 2005 Clausura | 9 | 77 (77) | 226 | 2 | 1 / 0 | San Francisco | RSSSF (panama05) |
 | 2006 Apertura | 10 | 95 (95) | 215 | 0 | 1 / 0 | San Francisco | RSSSF (panama06) |
 | 2006 Clausura | 10 | 95 (95) | 262 | 12 | 1 / 0 | Tauro | RSSSF (panama06) |
 | 2007 Apertura | 10 | 97 (95) | 263 | 7 | 1 / 0 | Tauro | RSSSF (panama07) |
-| 2007 Clausura | 10 | 96 (95) | 250 | 124 | 1 / 0 | San Francisco | RSSSF (panama07) |
-| 2008 Apertura | 10 | 70 (70) | 184 | 98 | 1 / 2 | San Francisco | RSSSF (panama08) |
-| 2008 Clausura | 10 | 96 (95) | 273 | 166 | 1 / 0 | Árabe Unido | RSSSF (panama08) |
-| 2009 Apertura ANAPROF | 10 | 95 (95) | 297 | 169 | 1 / 0 | San Francisco | RSSSF (panama09) |
-| 2009 Apertura | 10 | 95 (95) | 284 | 137 | 1 / 0 | Árabe Unido | RSSSF (panama09) |
+| 2007 Clausura | 10 | 96 (95) | 250 | 216 | 1 / 0 | San Francisco | RSSSF (panama07) |
+| 2008 Apertura | 10 | 70 (70) | 184 | 171 | 1 / 2 | San Francisco | RSSSF (panama08) |
+| 2008 Clausura | 10 | 96 (95) | 273 | 265 | 1 / 0 | Árabe Unido | RSSSF (panama08) |
+| 2009 Apertura ANAPROF | 10 | 95 (95) | 297 | 288 | 1 / 0 | San Francisco | RSSSF (panama09) |
+| 2009 Apertura | 10 | 95 (95) | 284 | 282 | 1 / 0 | Árabe Unido | RSSSF (panama09) |
 | 2010 Clausura | 10 | 95 (95) | 232 | 0 | 1 / 0 | Árabe Unido | RSSSF (panama2010) |
 | 2010 Apertura | 10 | 0 (0) | 0 | 0 | 0 / 0 | Tauro | RSSSF (panama2010) |
 | 2011 Clausura | 10 | 0 (0) | 0 | 0 | 0 / 0 | San Francisco | RSSSF (panama2010) |
@@ -62,7 +62,7 @@ Gerado por `python coleta/pan-1/importar.py`. Pacote em `data/coleta/pan-1/pacot
 | 2016 Clausura | 10 | 95 (95) | 195 | 0 | 1 / 0 | Plaza Amador | RSSSF (panama2016) |
 | 2016 Apertura | 10 | 95 (95) | 186 | 0 | 1 / 0 | Árabe Unido | RSSSF (panama2017) |
 | 2017 Clausura | 10 | 95 (95) | 209 | 0 | 1 / 0 | Tauro | RSSSF (panama2017) |
-| 2017 Apertura | 10 | 95 (95) | 200 | 0 | 1 / 0 | CD Universitario | RSSSF (panama2018) |
+| 2017 Apertura | 10 | 95 (95) | 200 | 6 | 1 / 0 | CD Universitario | RSSSF (panama2018) |
 | 2018 Clausura | 10 | 95 (95) | 205 | 1 | 1 / 0 | CAI La Chorrera | RSSSF (panama2018) |
 | 2018 Apertura | 10 | 97 (97) | 212 | 3 | 1 / 0 | Tauro | RSSSF (panama2019) |
 | 2019 Clausura | 10 | 97 (97) | 230 | 2 | 1 / 0 | CAI La Chorrera | RSSSF (panama2019) |

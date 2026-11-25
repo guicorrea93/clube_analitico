@@ -2,6 +2,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1998-99-0093,FAS,Estadio Juan Torres (Usulutan,,,normal,RSSSF
 1998-99-0095,FAS,Jorge Wagner,54,,penalti,RSSSF
 1998-99-0095,Luis Ángel Firpo,Mauricio Do Santos 12 penalties:,,,normal,RSSSF
+1999-apertura-0092,Águila,Marcio Sampaio,35,,normal,RSSSF
+1999-apertura-0092,Águila,Roberto Hernandez,55,,normal,RSSSF
+1999-apertura-0092,Águila,Hector Baloyes,58,,normal,RSSSF
+1999-apertura-0092,FAS,Emiliano Pedrozo,10,,normal,RSSSF
+1999-apertura-0092,FAS,Miguel Mariano,74,,normal,RSSSF
 1999-apertura-0095,Águila,Ever Burgos,110,,normal,RSSSF
 2000-clausura-0091,Luis Ángel Firpo,Misael Alfaro,38,,penalti,RSSSF
 2000-clausura-0091,Luis Ángel Firpo,Mauricio Dos Santos,73,,normal,RSSSF
@@ -34,6 +39,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-clausura-0094,San Salvador FC,Garcés,19,,normal,RSSSF
 2003-clausura-0094,San Salvador FC,Pedrozo,74,,normal,RSSSF
 2003-clausura-0094,Alianza de El Salvador,Merino,90,,normal,RSSSF
+2003-clausura-0095,San Salvador FC,Guillermo García,7,,contra,RSSSF
+2003-clausura-0095,San Salvador FC,Victor Merino Dubón,113,,normal,RSSSF
+2003-clausura-0095,San Salvador FC,José Martínez,116,,normal,RSSSF
+2003-clausura-0095,Luis Ángel Firpo,Santos Cabrera,48,,normal,RSSSF
 2003-apertura-0092,FAS,William Reyes,1,,normal,RSSSF
 2003-apertura-0092,FAS,William Reyes,46,,normal,RSSSF
 2003-apertura-0092,FAS,William Reyes,60,,penalti,RSSSF
@@ -41,12 +50,6 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0093,Águila,Alexander Amaya del Cid,51,,normal,RSSSF
 2003-apertura-0095,Águila,Alexander Campos,15,,normal,RSSSF
 2003-apertura-0095,Águila,Darío Larrosa,42,,normal,RSSSF
-2003-apertura-0096,FAS,William Reyes,13,,normal,RSSSF
-2003-apertura-0096,FAS,William Reyes,123,,normal,RSSSF
-2003-apertura-0096,Águila,Ludwin Meraz,86,,normal,RSSSF
-2003-apertura-0096,Águila,Alexander Campos 92 penalties:,,,normal,RSSSF
-2004-clausura-0095,FAS,Velásquez,110,,normal,RSSSF
-2004-clausura-0095,Alianza de El Salvador,Espíndola 115 penalties:,,,normal,RSSSF
 2004-apertura-0091,Isidro Metapán,Descollines,6,,normal,RSSSF
 2004-apertura-0091,Isidro Metapán,Banderas,8,,normal,RSSSF
 2004-apertura-0092,Atlético Balboa,Webster,20,,normal,RSSSF
@@ -61,9 +64,32 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0095,FAS,Mafla,10,,normal,RSSSF
 2004-apertura-0095,FAS,W. Reyes,70,,penalti,RSSSF
 2004-apertura-0095,FAS,Bentos,88,,normal,RSSSF
+2005-clausura-0091,Luis Ángel Firpo,Manuel Martínez,8,,normal,RSSSF
+2005-clausura-0091,Luis Ángel Firpo,Manuel Martínez,49,,normal,RSSSF
+2005-clausura-0091,Luis Ángel Firpo,Manuel Martínez,87,,normal,RSSSF
+2005-clausura-0091,Luis Ángel Firpo,Adonai Martínez,15,,normal,RSSSF
+2005-clausura-0091,Luis Ángel Firpo,Jose Martínez,33,,normal,RSSSF
+2005-clausura-0091,Luis Ángel Firpo,Jose Martínez,34,,normal,RSSSF
+2005-clausura-0091,Municipal Limeño,Gabriel Garcete,50,,normal,RSSSF
 2005-clausura-0092,Alianza de El Salvador,Gabriel Benjumea,19,,normal,RSSSF
 2005-clausura-0093,Municipal Limeño,Néstor Morales,34,,normal,RSSSF
 2005-clausura-0093,Luis Ángel Firpo,Adonai Martínez,41,,normal,RSSSF
+2005-clausura-0094,FAS,Ernesto Góchez,16,,normal,RSSSF
+2005-clausura-0094,FAS,Alfredo Pacheco,22,,normal,RSSSF
+2005-clausura-0094,FAS,Juan Panameño,40,,normal,RSSSF
+2005-clausura-0094,FAS,Bernald Mullins,54,,normal,RSSSF
+2005-clausura-0094,Alianza de El Salvador,Hermes Martínez,46,,normal,RSSSF
+2005-apertura-0046,Atlético Balboa,Franklin Webster,31,,normal,RSSSF
+2005-apertura-0046,Atlético Balboa,Franklin Webster,84,,normal,RSSSF
+2005-apertura-0046,Atlético Balboa,Franklin Webster,85,,normal,RSSSF
+2005-apertura-0046,FAS,Victor Mafla,6,,normal,RSSSF
+2005-apertura-0046,FAS,Alex Obregón,56,,normal,RSSSF
+2005-apertura-0046,FAS,Alex Obregón,60,,normal,RSSSF
+2005-apertura-0046,FAS,Gilberto Murgas,62,,normal,RSSSF
+2005-apertura-0047,Vista Hermosa,C. Mosquera,29,,normal,RSSSF
+2005-apertura-0047,Vista Hermosa,Elder Figueroa,66,,normal,RSSSF
+2005-apertura-0047,Vista Hermosa,Manfredi Portillo,68,,normal,RSSSF
+2005-apertura-0047,Chalatenango,Gabriel Garcete,20,,normal,RSSSF
 2005-apertura-0048,Alianza de El Salvador,Jorge Rodríguez,18,,normal,RSSSF
 2005-apertura-0048,Alianza de El Salvador,Gonzalo Garavano,42,,normal,RSSSF
 2005-apertura-0048,Águila,Álex Erazo,40,,normal,RSSSF
@@ -93,8 +119,23 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0060,Atlético Balboa,Nelson Ayala,27,,penalti,RSSSF
 2005-apertura-0060,Chalatenango,Martin Paredes,45,,normal,RSSSF
 2005-apertura-0061,Águila,William Torres Alegría,92,,normal,RSSSF
+2005-apertura-0062,Vista Hermosa,Domingo Álvarez,12,,normal,RSSSF
+2005-apertura-0062,Vista Hermosa,Carlos Aparicio,33,,normal,RSSSF
+2005-apertura-0062,Vista Hermosa,Cristian Gil,81,,normal,RSSSF
+2005-apertura-0062,Atlético Balboa,Victor Fuentes,16,,normal,RSSSF
+2005-apertura-0062,Atlético Balboa,Franklin Webster,76,,normal,RSSSF
 2005-apertura-0063,Luis Ángel Firpo,Aaron Canjura,34,,penalti,RSSSF
 2005-apertura-0063,Isidro Metapán,William Reyes,77,,normal,RSSSF
+2005-apertura-0065,San Salvador FC,Donni Valle,10,,normal,RSSSF
+2005-apertura-0065,San Salvador FC,Paulo Cesar Rodrigues,17,,normal,RSSSF
+2005-apertura-0065,San Salvador FC,Paulo Cesar Rodrigues,67,,normal,RSSSF
+2005-apertura-0065,San Salvador FC,Fredy Víchez,28,,normal,RSSSF
+2005-apertura-0065,Once Municipal,Anel Canales,32,,normal,RSSSF
+2005-apertura-0066,Atlético Balboa,Yuvini Salamanca,64,,normal,RSSSF
+2005-apertura-0066,Once Municipal,Anel Canales,34,,normal,RSSSF
+2005-apertura-0066,Once Municipal,Hector Ávalos,45,,normal,RSSSF
+2005-apertura-0066,Once Municipal,James Owuso,52,,normal,RSSSF
+2005-apertura-0066,Once Municipal,James Owuso,88,,normal,RSSSF
 2005-apertura-0070,Alianza de El Salvador,Arturo Albarrán,3,,normal,RSSSF
 2005-apertura-0070,Vista Hermosa,Rene Álvarez,90,,normal,RSSSF
 2006-clausura-0001,Vista Hermosa,Patricio Barrochez,3,,normal,RSSSF
@@ -133,11 +174,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-clausura-0020,Chalatenango,Emerson Veliz,46,,normal,RSSSF
 2006-clausura-0020,Alianza de El Salvador,Edgardo Escobar,86,,normal,RSSSF
 2006-clausura-0020,Alianza de El Salvador,Eduardo Retana,88,,normal,RSSSF
+2006-clausura-0021,Vista Hermosa,Patricio Barrochez,56,,normal,RSSSF
+2006-clausura-0021,Vista Hermosa,Elder Figueroa,88,,normal,RSSSF
+2006-clausura-0021,Águila,Alex Campos,2,,normal,RSSSF
+2006-clausura-0021,Águila,Fabio Ulloa,68,,normal,RSSSF
+2006-clausura-0021,Águila,Eliseo Salamanca,87,,normal,RSSSF
 2006-clausura-0022,Atlético Balboa,Victor Fuentes,72,,normal,RSSSF
 2006-clausura-0022,FAS,Nelson Ayala,84,,normal,RSSSF
 2006-clausura-0023,Chalatenango,Salvador Presas,41,,normal,RSSSF
 2006-clausura-0023,Chalatenango,Nicolas Muñoz,85,,normal,RSSSF
 2006-clausura-0023,Luis Ángel Firpo,Alexander Obregón,22,,normal,RSSSF
+2006-clausura-0024,Once Municipal,James Owuso,40,,normal,RSSSF
+2006-clausura-0024,Once Municipal,Matias Milozzi,55,,normal,RSSSF
+2006-clausura-0024,Once Municipal,Matias Milozzi,60,,normal,RSSSF
+2006-clausura-0024,Once Municipal,Matias Milozzi,76,,normal,RSSSF
+2006-clausura-0024,Once Municipal,Austin Nwoko,64,,normal,RSSSF
+2006-clausura-0024,Once Municipal,Diego Mejia,80,,normal,RSSSF
 2006-clausura-0025,Alianza de El Salvador,Jorge Rodriguez,92,,normal,RSSSF
 2006-clausura-0025,Isidro Metapán,Dagoberto Portillo,4,,penalti,RSSSF
 2006-clausura-0026,FAS,Victor Velazquez,18,,normal,RSSSF
@@ -145,9 +197,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-clausura-0027,Águila,Alex Campos,14,,normal,RSSSF
 2006-clausura-0027,Águila,Fabio Ulloa,31,,normal,RSSSF
 2006-clausura-0027,Águila,Alex Erazo,46,,penalti,RSSSF
+2006-clausura-0028,San Salvador FC,Eliseo Quintanilla,6,,normal,RSSSF
+2006-clausura-0028,San Salvador FC,Ramon Sanchez,80,,normal,RSSSF
+2006-clausura-0028,Chalatenango,Anibal Parada,41,,contra,RSSSF
+2006-clausura-0028,Chalatenango,Manuel Carranza,83,,normal,RSSSF
 2006-clausura-0029,Isidro Metapán,Erick Dawson Prado,21,,normal,RSSSF
 2006-clausura-0029,Isidro Metapán,Alcides Banderas,74,,normal,RSSSF
 2006-clausura-0029,Atlético Balboa,Gabriel Garcette,56,,normal,RSSSF
+2006-clausura-0030,Luis Ángel Firpo,Adonai Martinez,10,,normal,RSSSF
+2006-clausura-0030,Luis Ángel Firpo,Adonai Martinez,35,,normal,RSSSF
+2006-clausura-0030,Luis Ángel Firpo,Alexander Obregon,42,,penalti,RSSSF
+2006-clausura-0030,Alianza de El Salvador,Hector Salazar,32,,normal,RSSSF
+2006-clausura-0030,Alianza de El Salvador,Jorge Rodriguez,93,,normal,RSSSF
 2006-clausura-0031,Luis Ángel Firpo,Emiliano Pedrozo,72,,normal,RSSSF
 2006-clausura-0033,Once Municipal,Santos Rivera,38,,contra,RSSSF
 2006-clausura-0033,Once Municipal,Diego Mejia,70,,penalti,RSSSF
@@ -165,8 +226,24 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-clausura-0038,FAS,Nelson Ayala,22,,penalti,RSSSF
 2006-clausura-0038,FAS,Nelson Ayala,81,,normal,RSSSF
 2006-clausura-0038,FAS,Alfredo Pacheco,48,,normal,RSSSF
+2006-clausura-0039,Isidro Metapán,Alejandro Rodriguez,19,,normal,RSSSF
+2006-clausura-0039,Isidro Metapán,William Reyes,34,,normal,RSSSF
+2006-clausura-0039,Isidro Metapán,Alex Amaya,47,,normal,RSSSF
+2006-clausura-0039,Isidro Metapán,Misael Alfaro,54,,normal,RSSSF
+2006-clausura-0039,Once Municipal,David Rivas,50,,normal,RSSSF
 2006-clausura-0040,Alianza de El Salvador,Ramiro Carballo,90,,normal,RSSSF
 2006-clausura-0040,San Salvador FC,Luis Mira,79,,normal,RSSSF
+2006-clausura-0041,Once Municipal,James Owuso,49,,normal,RSSSF
+2006-clausura-0041,Once Municipal,Christopher Dulce,84,,normal,RSSSF
+2006-clausura-0041,Once Municipal,Austin Kwoko,96,,penalti,RSSSF
+2006-clausura-0041,Atlético Balboa,Gabriel Garcette,39,,normal,RSSSF
+2006-clausura-0041,Atlético Balboa,Gabriel Garcette,77,,normal,RSSSF
+2006-clausura-0041,Atlético Balboa,Selvin Zelaya,82,,normal,RSSSF
+2006-clausura-0042,San Salvador FC,Paulo Rodriguez,54,,normal,RSSSF
+2006-clausura-0042,San Salvador FC,Donni Valle,70,,normal,RSSSF
+2006-clausura-0042,Águila,Eliseo Salamanca,30,,normal,RSSSF
+2006-clausura-0042,Águila,Alex Campos,62,,normal,RSSSF
+2006-clausura-0042,Águila,Alex Erazo,64,,normal,RSSSF
 2006-clausura-0043,Vista Hermosa,Patricio Barrochez,1,,normal,RSSSF
 2006-clausura-0044,Isidro Metapán,Alcides Banderas,73,,normal,RSSSF
 2006-clausura-0047,Chalatenango,Josue Galdamez,34,,normal,RSSSF
@@ -211,6 +288,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-clausura-0063,Vista Hermosa,Patricio Barrochez,5,,normal,RSSSF
 2006-clausura-0063,San Salvador FC,Eliseo Quintanilla,75,,normal,RSSSF
 2006-clausura-0063,San Salvador FC,Eliseo Quintanilla,85,,normal,RSSSF
+2006-clausura-0064,Once Municipal,Matias Milozzi,15,,normal,RSSSF
+2006-clausura-0064,Once Municipal,Hector Anibal Avalos,78,,normal,RSSSF
+2006-clausura-0064,Once Municipal,Libardo Carbajal,85,,normal,RSSSF
+2006-clausura-0064,Luis Ángel Firpo,Emiliano Pedrozo,49,,normal,RSSSF
+2006-clausura-0064,Luis Ángel Firpo,Emiliano Pedrozo,67,,normal,RSSSF
 2006-clausura-0065,Alianza de El Salvador,Jose Luis Osorio,50,,normal,RSSSF
 2006-clausura-0065,Alianza de El Salvador,Francisco Jovel,75,,normal,RSSSF
 2006-clausura-0065,Alianza de El Salvador,Ernesto Gochez,78,,normal,RSSSF
@@ -243,11 +325,24 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-clausura-0080,Alianza de El Salvador,Luis Osorio,34,,normal,RSSSF
 2006-clausura-0080,Alianza de El Salvador,Luis Osorio,66,,normal,RSSSF
 2006-clausura-0081,Águila,Deris Umanzor,91,,normal,RSSSF
+2006-clausura-0082,San Salvador FC,Ramon Sanchez,63,,normal,RSSSF
+2006-clausura-0082,San Salvador FC,Paulo Rodrigues,68,,normal,RSSSF
+2006-clausura-0082,San Salvador FC,Rodrigo Lagos,83,,normal,RSSSF
+2006-clausura-0082,Alianza de El Salvador,Francisco Jovel,22,,normal,RSSSF
+2006-clausura-0082,Alianza de El Salvador,Alexander Merino,47,,normal,RSSSF
+2006-clausura-0082,Alianza de El Salvador,Eduardo Retana,50,,normal,RSSSF
+2006-clausura-0082,Alianza de El Salvador,Edgardo Escobar,55,,normal,RSSSF
 2006-clausura-0083,Chalatenango,Santos Castro,40,,normal,RSSSF
 2006-clausura-0083,FAS,Cristian Alvarez,15,,normal,RSSSF
 2006-clausura-0084,Vista Hermosa,Eduardo Campos,58,,normal,RSSSF
 2006-clausura-0084,Vista Hermosa,Patricio Barrochez,62,,normal,RSSSF
 2006-clausura-0085,Once Municipal,William Figueroa,47,,penalti,RSSSF
+2006-clausura-0095,Águila,Juan Camilo Mejía,41,,normal,RSSSF
+2006-clausura-0095,Águila,Alex Erazo,68,,normal,RSSSF
+2006-clausura-0095,Águila,Alex Erazo,89,,normal,RSSSF
+2006-clausura-0095,Águila,Alex Campos,87,,normal,RSSSF
+2006-clausura-0095,FAS,Lucas Abraham,70,,normal,RSSSF
+2006-clausura-0095,FAS,Emerson Umaña,79,,normal,RSSSF
 2006-apertura-0001,Águila,Juan Mejia,80,,normal,ESPN
 2006-apertura-0002,Isidro Metapán,Rodrigo Esteban,29,,normal,ESPN
 2006-apertura-0002,Isidro Metapán,Erick Dowson Melendez Prado,33,,normal,ESPN
@@ -904,6 +999,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-apertura-0093,Isidro Metapán,Alexander Amaya,35,,normal,ESPN
 2008-apertura-0093,Isidro Metapán,Dagoberto Portillo,45,,penalti,ESPN
 2008-apertura-0093,FAS,Alfredo Pacheco,65,,normal,ESPN
+2008-apertura-0095,Chalatenango,Carlos Ayala,48,,normal,RSSSF
+2008-apertura-0095,Chalatenango,Lester Blanco,63,,normal,RSSSF
+2008-apertura-0095,Chalatenango,Amílcar Ramírez,100,,normal,RSSSF
+2008-apertura-0095,Isidro Metapán,Dagoberto Portillo,47,,penalti,RSSSF
+2008-apertura-0095,Isidro Metapán,Dagoberto Portillo,115,,penalti,RSSSF
+2008-apertura-0095,Isidro Metapán,Manuel Martínez 65 penalties:,,,normal,RSSSF
 2009-clausura-0006,Luis Ángel Firpo,Emerson Leopoldo Veliz,90,,normal,ESPN
 2009-clausura-0006,Atlético Balboa,Franklin Vinosis Webster,90,,penalti,ESPN
 2009-clausura-0007,Águila,Leandro Franco,81,,normal,ESPN
@@ -1282,6 +1383,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-apertura-0094,Águila,Darwin Bonilla,6,,normal,ESPN
 2009-apertura-0094,Águila,Nicholas Addlery,90,,normal,ESPN
 2009-apertura-0096,Águila,Nicholas Addlery,39,,normal,ESPN
+2009-apertura-0097,FAS,Odir Flores,1,,normal,RSSSF
+2009-apertura-0097,FAS,Arturo Albarrán,95,,contra,RSSSF
+2009-apertura-0097,FAS,Juan Carlos Moscoso,97,,normal,RSSSF
+2009-apertura-0097,Águila,Nicholas Addlery,64,,normal,RSSSF
+2009-apertura-0097,Águila,Nicholas Addlery,100,,normal,RSSSF
 2010-clausura-0017,Atlético Marte,Emiliano Pedrozo,87,,normal,ESPN
 2010-clausura-0017,Nejapa FC,Juan Carlos Panameno,89,,normal,ESPN
 2010-clausura-0018,Águila,Gilberto Alfredo Murgas,29,,normal,ESPN

@@ -296,3 +296,27 @@ Para o agente 1 (banco e painel). O Guilherme pausou a coleta da CONCACAF; retom
 4. **Pendente do meu lado (sem pressa):** a MLS 2026 entra na `usa-1` depois da final (18/12/2026).
 5. **Quando retomar:** Jamaica (`jam-1`), com o escopo antes; depois `tri-1`, `can-1`, `hai-1` e as outras 1ªs divisões.
    Guia: `coleta/comum-concacaf/COMECE-AQUI.md`.
+
+## Recado ao agente 1 — leitor comum corrigido (plano, seção 2.3) — 25/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que mudou:** o `coleta/comum-concacaf/rsssf_concacaf.py` passou a juntar os autores de gol que a RSSSF quebra em duas
+   ou mais linhas ("[A 9, B 68;" + "   C 87]"), como o `rsssf_sul.py` já fazia desde a0222fa9.
+2. **Commit:** o deste recado (`Coleta CONCACAF: leitor comum com autores em duas linhas, sete ligas reimportadas e ranking FIFA`).
+3. **Reimportadas as sete ligas, testes de carga OK.** Edições, jogos e clubes iguais; só sobem os gols com autor:
+   - `mex-1`: 56.671 → 72.132 (+15.461);
+   - `usa-1`: 21.918 → 22.327 (+409);
+   - `crc-1`: 2.813 → 2.951 (+138);
+   - `hon-1`: 2.529 → 2.564 (+35);
+   - `gua-1`: 2.954 → 2.991 (+37);
+   - `slv-1`: 2.682 → 2.788 (+106);
+   - `pan-1`: 1.090 → 1.668 (+578).
+   Conferido: nenhum jogo ficou com mais autores do que gols.
+   Outras mudanças: a observação dos jogos que tinham só a primeira linha dos autores ficou vazia (os autores entraram);
+   na `crc-1` 1998/99 a classificação passou a ser a tabela publicada da RSSSF (`cos99`), que agora fecha com os jogos
+   (Saprissa 29V 12E 3D e 99 pontos, antes calculada como 28V 13E 3D e 97); campeão e vice iguais.
+4. **Pedido:** recarregar as sete no banco (só muda `gols.csv` e o que depende dele: artilheiros e conferência).
+5. **Também neste commit:** o `COMECE-AQUI.md` com a lista do ranking FIFA da CONCACAF (foto de 25/11, seção 3.1) e o
+   README da documentação com as próximas competições pelo plano único. A próxima é o Canadá (`can-1`), com o escopo enviado
+   ao Guilherme em 25/11.

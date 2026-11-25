@@ -19,13 +19,13 @@ Gerado por `python coleta/mex-1/importar.py`. Pacote em `data/coleta/mex-1/pacot
 | Temporada | Clubes | Jogos (esperados) | Gols | c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|
 | 1902/03 | 5 | 10 (10) | 26 | 11 | 1 / 0 | Orizaba AC | RSSSF (mex1903) |
-| 1903/04 | 5 | 16 (16) | 33 | 28 | 1 / 0 | Mexico Cricket Club | RSSSF (mex1904) |
+| 1903/04 | 5 | 16 (16) | 33 | 33 | 1 / 0 | Mexico Cricket Club | RSSSF (mex1904) |
 | 1904/05 | 5 | 19 (20) | 45 | 0 | 0 / 1 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1905/06 | 5 | 20 (20) | 44 | 0 | 0 / 1 | Reforma AC | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1906/07 | 5 | 20 (20) | 42 | 0 | 1 / 0 | Reforma AC | RSSSF (mex1907) |
 | 1907/08 | 4 | 12 (12) | 17 | 0 | 1 / 0 | British Club | RSSSF (mex1908) |
 | 1908/09 | 3 | 6 (6) | 15 | 2 | 3 / 0 | Reforma AC | RSSSF (mexhist) |
-| 1909/10 | 4 | 12 (12) | 46 | 18 | 1 / 0 | Reforma AC | RSSSF (mex1910) |
+| 1909/10 | 4 | 12 (12) | 46 | 24 | 1 / 0 | Reforma AC | RSSSF (mex1910) |
 | 1910/11 | 4 | 11 (11) | 35 | 7 | 2 / 0 | Reforma AC | RSSSF (mex1911) |
 | 1911/12 | 3 | 0 (0) | 0 | 0 | 0 / 0 | Reforma AC | RSSSF (mexhist) |
 | 1912/13 | 5 | 20 (20) | 55 | 36 | 2 / 0 | Club México | RSSSF (mex1913) |
@@ -41,102 +41,102 @@ Gerado por `python coleta/mex-1/importar.py`. Pacote em `data/coleta/mex-1/pacot
 | 1921/22 Liga Mexicana | 4 | 15 (15) | 13 | 5 | 0 / 0 | Germania FV | RSSSF (mexhist) |
 | 1921/22 Liga Nacional | 3 | 2 (2) | 4 | 0 | 0 / 0 | Real Club España | lista de campeões da Wikipédia em inglês (campeão e vice) |
 | 1922/23 | 8 | 56 (56) | 135 | 60 | 1 / 0 | Asturias | RSSSF (mex23) |
-| 1923/24 | 9 | 73 (73) | 155 | 55 | 1 / 0 | Real Club España | RSSSF (mex24) |
+| 1923/24 | 9 | 73 (73) | 155 | 60 | 1 / 0 | Real Club España | RSSSF (mex24) |
 | 1924/25 | 7 | 37 (37) | 93 | 25 | 0 / 0 | América do México | RSSSF (mex25) |
 | 1925/26 | 7 | 47 (46) | 157 | 19 | 0 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1926/27 | 7 | 42 (42) | 151 | 46 | 2 / 0 | América do México | RSSSF (mex27) |
 | 1927/28 | 8 | 55 (56) | 224 | 0 | 0 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1928/29 | 9 | 37 (36) | 211 | 74 | 1 / 0 | Marte | RSSSF (mex29) |
-| 1929/30 | 8 | 57 (56) | 226 | 76 | 1 / 0 | Real Club España | RSSSF (mex30) |
+| 1928/29 | 9 | 37 (36) | 211 | 83 | 1 / 0 | Marte | RSSSF (mex29) |
+| 1929/30 | 8 | 57 (56) | 226 | 79 | 1 / 0 | Real Club España | RSSSF (mex30) |
 | 1930/31 | 8 | 8 (8) | 36 | 7 | 1 / 0 | None | RSSSF (mexhist) |
 | 1931/32 | 8 | 59 (59) | 321 | 3 | 2 / 0 | Atlante | RSSSF (mex32) |
 | 1932/33 | 10 | 42 (42) | 227 | 31 | 3 / 0 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1933/34 | 6 | 32 (33) | 175 | 52 | 2 / 2 | Real Club España | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1933/34 | 6 | 32 (33) | 175 | 75 | 2 / 2 | Real Club España | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1934/35 | 6 | 45 (45) | 250 | 6 | 2 / 0 | Necaxa | RSSSF (mexhist) |
-| 1935/36 | 5 | 20 (20) | 89 | 54 | 2 / 0 | Real Club España | RSSSF (mexhist) |
-| 1936/37 | 5 | 20 (20) | 86 | 39 | 0 / 2 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1937/38 | 6 | 30 (30) | 147 | 90 | 2 / 0 | Necaxa | RSSSF (mex38) |
-| 1938/39 | 7 | 42 (42) | 226 | 112 | 1 / 0 | Asturias | RSSSF (mex39) |
-| 1939/40 | 6 | 44 (44) | 199 | 101 | 1 / 0 | Real Club España | RSSSF (mex40) |
-| 1940/41 | 8 | 56 (56) | 248 | 86 | 0 / 1 | Atlante | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1941/42 | 8 | 57 (57) | 293 | 88 | 2 / 0 | Real Club España | RSSSF (mexhist) |
-| 1942/43 | 8 | 56 (56) | 278 | 122 | 1 / 0 | Marte | RSSSF (mex43) |
-| 1943/44 | 10 | 91 (91) | 454 | 135 | 2 / 0 | Asturias | RSSSF (mex44) |
-| 1944/45 | 13 | 156 (156) | 713 | 260 | 2 / 0 | Real Club España | RSSSF (mex45) |
-| 1945/46 | 16 | 240 (240) | 1182 | 376 | 1 / 1 | Veracruz | RSSSF (mex46) |
-| 1946/47 | 15 | 210 (210) | 905 | 460 | 1 / 0 | Atlante | RSSSF (mex47) |
-| 1947/48 | 15 | 212 (212) | 922 | 507 | 1 / 0 | León | RSSSF (mex48) |
-| 1948/49 | 15 | 210 (210) | 809 | 420 | 1 / 0 | León | RSSSF (mex49) |
-| 1949/50 | 14 | 182 (182) | 734 | 407 | 1 / 0 | Veracruz | RSSSF (mex50) |
-| 1950/51 | 12 | 132 (132) | 450 | 316 | 2 / 0 | Atlas | RSSSF (mexhist) |
-| 1951/52 | 12 | 132 (132) | 450 | 304 | 2 / 0 | León | RSSSF (mexhist) |
-| 1952/53 | 12 | 132 (132) | 397 | 307 | 1 / 0 | Tampico | RSSSF (mex53) |
-| 1953/54 | 12 | 132 (132) | 461 | 292 | 1 / 0 | Marte | RSSSF (mex54) |
-| 1954/55 | 12 | 132 (132) | 382 | 334 | 3 / 0 | Zacatepec | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1955/56 | 14 | 183 (183) | 574 | 404 | 1 / 1 | León | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1956/57 | 13 | 156 (156) | 451 | 360 | 1 / 1 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1957/58 | 14 | 182 (182) | 571 | 417 | 2 / 0 | Zacatepec | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1958/59 | 14 | 182 (182) | 584 | 422 | 1 / 0 | Guadalajara | RSSSF (mex59) |
-| 1959/60 | 14 | 182 (182) | 586 | 416 | 1 / 0 | Guadalajara | RSSSF (mex60) |
-| 1960/61 | 14 | 182 (182) | 511 | 377 | 0 / 1 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1961/62 | 14 | 182 (182) | 568 | 393 | 1 / 0 | Guadalajara | RSSSF (mex62) |
-| 1962/63 | 14 | 182 (182) | 533 | 402 | 1 / 0 | Oro | RSSSF (mex63) |
-| 1963/64 | 17 | 189 (189) | 548 | 303 | 2 / 0 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1964/65 | 16 | 240 (240) | 611 | 429 | 2 / 0 | Guadalajara | RSSSF (mex65) |
-| 1965/66 | 16 | 240 (240) | 681 | 395 | 0 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1966/67 | 16 | 240 (240) | 633 | 411 | 2 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1967/68 | 16 | 240 (240) | 635 | 483 | 1 / 0 | Toluca | RSSSF (mex68) |
-| 1968/69 | 16 | 243 (243) | 662 | 393 | 1 / 0 | Cruz Azul | RSSSF (mex69) |
-| 1969/70 | 16 | 241 (241) | 638 | 443 | 0 / 1 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1935/36 | 5 | 20 (20) | 89 | 60 | 2 / 0 | Real Club España | RSSSF (mexhist) |
+| 1936/37 | 5 | 20 (20) | 86 | 52 | 0 / 2 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1937/38 | 6 | 30 (30) | 147 | 136 | 2 / 0 | Necaxa | RSSSF (mex38) |
+| 1938/39 | 7 | 42 (42) | 226 | 211 | 1 / 0 | Asturias | RSSSF (mex39) |
+| 1939/40 | 6 | 44 (44) | 199 | 161 | 1 / 0 | Real Club España | RSSSF (mex40) |
+| 1940/41 | 8 | 56 (56) | 248 | 178 | 0 / 1 | Atlante | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1941/42 | 8 | 57 (57) | 293 | 262 | 2 / 0 | Real Club España | RSSSF (mexhist) |
+| 1942/43 | 8 | 56 (56) | 278 | 221 | 1 / 0 | Marte | RSSSF (mex43) |
+| 1943/44 | 10 | 91 (91) | 454 | 423 | 2 / 0 | Asturias | RSSSF (mex44) |
+| 1944/45 | 13 | 156 (156) | 713 | 700 | 2 / 0 | Real Club España | RSSSF (mex45) |
+| 1945/46 | 16 | 240 (240) | 1182 | 1160 | 1 / 1 | Veracruz | RSSSF (mex46) |
+| 1946/47 | 15 | 210 (210) | 905 | 875 | 1 / 0 | Atlante | RSSSF (mex47) |
+| 1947/48 | 15 | 212 (212) | 922 | 877 | 1 / 0 | León | RSSSF (mex48) |
+| 1948/49 | 15 | 210 (210) | 809 | 782 | 1 / 0 | León | RSSSF (mex49) |
+| 1949/50 | 14 | 182 (182) | 734 | 726 | 1 / 0 | Veracruz | RSSSF (mex50) |
+| 1950/51 | 12 | 132 (132) | 450 | 448 | 2 / 0 | Atlas | RSSSF (mexhist) |
+| 1951/52 | 12 | 132 (132) | 450 | 406 | 2 / 0 | León | RSSSF (mexhist) |
+| 1952/53 | 12 | 132 (132) | 397 | 377 | 1 / 0 | Tampico | RSSSF (mex53) |
+| 1953/54 | 12 | 132 (132) | 461 | 442 | 1 / 0 | Marte | RSSSF (mex54) |
+| 1954/55 | 12 | 132 (132) | 382 | 375 | 3 / 0 | Zacatepec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1955/56 | 14 | 183 (183) | 574 | 572 | 1 / 1 | León | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1956/57 | 13 | 156 (156) | 451 | 439 | 1 / 1 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1957/58 | 14 | 182 (182) | 571 | 549 | 2 / 0 | Zacatepec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1958/59 | 14 | 182 (182) | 584 | 562 | 1 / 0 | Guadalajara | RSSSF (mex59) |
+| 1959/60 | 14 | 182 (182) | 586 | 570 | 1 / 0 | Guadalajara | RSSSF (mex60) |
+| 1960/61 | 14 | 182 (182) | 511 | 496 | 0 / 1 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1961/62 | 14 | 182 (182) | 568 | 524 | 1 / 0 | Guadalajara | RSSSF (mex62) |
+| 1962/63 | 14 | 182 (182) | 533 | 513 | 1 / 0 | Oro | RSSSF (mex63) |
+| 1963/64 | 17 | 189 (189) | 548 | 542 | 2 / 0 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1964/65 | 16 | 240 (240) | 611 | 583 | 2 / 0 | Guadalajara | RSSSF (mex65) |
+| 1965/66 | 16 | 240 (240) | 681 | 662 | 0 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1966/67 | 16 | 240 (240) | 633 | 621 | 2 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1967/68 | 16 | 240 (240) | 635 | 620 | 1 / 0 | Toluca | RSSSF (mex68) |
+| 1968/69 | 16 | 243 (243) | 662 | 639 | 1 / 0 | Cruz Azul | RSSSF (mex69) |
+| 1969/70 | 16 | 241 (241) | 638 | 630 | 0 / 1 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1970 México 70 | 16 | 224 (224) | 550 | 531 | 6 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1970/71 | 18 | 311 (311) | 717 | 10 | 2 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1971/72 | 18 | 317 (317) | 825 | 578 | 2 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1972/73 | 18 | 321 (321) | 838 | 650 | 2 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1973/74 | 18 | 314 (314) | 941 | 713 | 1 / 1 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1974/75 | 20 | 392 (392) | 1125 | 841 | 3 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1975/76 | 20 | 396 (396) | 1027 | 735 | 2 / 2 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1976/77 | 20 | 408 (408) | 1045 | 830 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1977/78 | 20 | 396 (396) | 1110 | 793 | 4 / 0 | Tigres | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1978/79 | 20 | 406 (406) | 1147 | 807 | 6 / 1 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1979/80 | 20 | 408 (408) | 1113 | 751 | 6 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1980/81 | 20 | 408 (408) | 1065 | 811 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1981/82 | 20 | 397 (397) | 1029 | 817 | 4 / 0 | Tigres | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1982/83 | 20 | 397 (397) | 1038 | 708 | 4 / 0 | Puebla | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1983/84 | 20 | 394 (394) | 1102 | 659 | 4 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1984/85 | 20 | 397 (397) | 1030 | 667 | 4 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1985 Prode 85 | 20 | 93 (93) | 266 | 159 | 0 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1986 México 86 | 20 | 194 (194) | 515 | 332 | 4 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1986/87 | 21 | 434 (434) | 1026 | 783 | 2 / 2 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1987/88 | 20 | 394 (394) | 1176 | 674 | 4 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1988/89 | 20 | 406 (406) | 1133 | 729 | 5 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1989/90 | 20 | 394 (394) | 967 | 679 | 3 / 1 | Puebla | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1990/91 | 20 | 394 (394) | 1005 | 660 | 2 / 2 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1991/92 | 20 | 398 (398) | 984 | 705 | 4 / 0 | León | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1992/93 | 20 | 398 (398) | 1062 | 745 | 2 / 2 | Atlante | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1993/94 | 20 | 398 (398) | 1081 | 772 | 2 / 2 | Tecos | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1994/95 | 19 | 360 (360) | 1048 | 742 | 4 / 0 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1995/96 | 18 | 323 (324) | 863 | 645 | 2 / 3 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1996 Invierno | 18 | 171 (171) | 498 | 340 | 3 / 1 | Santos Laguna | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1997 Verano | 18 | 169 (169) | 493 | 361 | 4 / 0 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1997 Invierno | 18 | 167 (167) | 471 | 356 | 4 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1998 Verano | 18 | 171 (171) | 487 | 344 | 4 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1998 Invierno | 18 | 167 (167) | 540 | 368 | 4 / 0 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1999 Verano | 18 | 169 (169) | 551 | 348 | 5 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1999 Invierno | 18 | 169 (169) | 520 | 377 | 4 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 Verano | 18 | 170 (170) | 541 | 434 | 3 / 1 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 Invierno | 18 | 169 (169) | 532 | 407 | 3 / 1 | Morelia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2001 Verano | 18 | 171 (171) | 500 | 317 | 3 / 1 | Santos Laguna | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2001 Invierno | 19 | 185 (185) | 518 | 356 | 4 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2002 Verano | 19 | 189 (189) | 568 | 541 | 5 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1971/72 | 18 | 317 (317) | 825 | 814 | 2 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1972/73 | 18 | 321 (321) | 838 | 831 | 2 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1973/74 | 18 | 314 (314) | 941 | 920 | 1 / 1 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1974/75 | 20 | 392 (392) | 1125 | 1120 | 3 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1975/76 | 20 | 396 (396) | 1027 | 1012 | 2 / 2 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1976/77 | 20 | 408 (408) | 1045 | 1024 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1977/78 | 20 | 396 (396) | 1110 | 1104 | 4 / 0 | Tigres | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1978/79 | 20 | 406 (406) | 1147 | 1141 | 6 / 1 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1979/80 | 20 | 408 (408) | 1113 | 1102 | 6 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1980/81 | 20 | 408 (408) | 1065 | 1052 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1981/82 | 20 | 397 (397) | 1029 | 1025 | 4 / 0 | Tigres | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1982/83 | 20 | 397 (397) | 1038 | 1023 | 4 / 0 | Puebla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1983/84 | 20 | 394 (394) | 1102 | 1049 | 4 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1984/85 | 20 | 397 (397) | 1030 | 1026 | 4 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1985 Prode 85 | 20 | 93 (93) | 266 | 263 | 0 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1986 México 86 | 20 | 194 (194) | 515 | 512 | 4 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1986/87 | 21 | 434 (434) | 1026 | 991 | 2 / 2 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1987/88 | 20 | 394 (394) | 1176 | 1152 | 4 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1988/89 | 20 | 406 (406) | 1133 | 1115 | 5 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1989/90 | 20 | 394 (394) | 967 | 935 | 3 / 1 | Puebla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1990/91 | 20 | 394 (394) | 1005 | 987 | 2 / 2 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1991/92 | 20 | 398 (398) | 984 | 961 | 4 / 0 | León | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1992/93 | 20 | 398 (398) | 1062 | 1053 | 2 / 2 | Atlante | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1993/94 | 20 | 398 (398) | 1081 | 1075 | 2 / 2 | Tecos | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1994/95 | 19 | 360 (360) | 1048 | 1039 | 4 / 0 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1995/96 | 18 | 323 (324) | 863 | 827 | 2 / 3 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1996 Invierno | 18 | 171 (171) | 498 | 492 | 3 / 1 | Santos Laguna | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1997 Verano | 18 | 169 (169) | 493 | 481 | 4 / 0 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1997 Invierno | 18 | 167 (167) | 471 | 469 | 4 / 0 | Cruz Azul | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1998 Verano | 18 | 171 (171) | 487 | 487 | 4 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1998 Invierno | 18 | 167 (167) | 540 | 538 | 4 / 0 | Necaxa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1999 Verano | 18 | 169 (169) | 551 | 540 | 5 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1999 Invierno | 18 | 169 (169) | 520 | 509 | 4 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 Verano | 18 | 170 (170) | 541 | 530 | 3 / 1 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 Invierno | 18 | 169 (169) | 532 | 532 | 3 / 1 | Morelia | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2001 Verano | 18 | 171 (171) | 500 | 475 | 3 / 1 | Santos Laguna | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2001 Invierno | 19 | 185 (185) | 518 | 516 | 4 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 Verano | 19 | 189 (189) | 568 | 568 | 5 / 0 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2002 Apertura | 20 | 204 (204) | 643 | 637 | 6 / 2 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Clausura | 20 | 206 (206) | 564 | 553 | 8 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Apertura | 20 | 208 (208) | 625 | 610 | 7 / 1 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 Clausura | 20 | 206 (206) | 635 | 630 | 6 / 2 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Clausura | 20 | 206 (206) | 564 | 564 | 8 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Apertura | 20 | 208 (208) | 625 | 625 | 7 / 1 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Clausura | 20 | 206 (206) | 635 | 635 | 6 / 2 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2004 Apertura | 18 | 167 (167) | 535 | 533 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Clausura | 18 | 167 (167) | 493 | 493 | 5 / 1 | América do México | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Apertura | 18 | 167 (167) | 516 | 516 | 6 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 Clausura | 18 | 167 (167) | 418 | 408 | 6 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 Apertura | 18 | 171 (171) | 443 | 439 | 6 / 0 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006 Clausura | 18 | 167 (167) | 418 | 418 | 6 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006 Apertura | 18 | 171 (171) | 443 | 443 | 6 / 0 | Guadalajara | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 Clausura | 18 | 171 (171) | 418 | 418 | 6 / 0 | Pachuca | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 Apertura | 18 | 171 (171) | 493 | 493 | 7 / 0 | Atlante | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 Clausura | 18 | 171 (171) | 457 | 457 | 6 / 0 | Santos Laguna | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -144,33 +144,33 @@ Gerado por `python coleta/mex-1/importar.py`. Pacote em `data/coleta/mex-1/pacot
 | 2009 Clausura | 18 | 167 (167) | 459 | 459 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Apertura | 18 | 167 (167) | 446 | 446 | 6 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2010 Clausura | 18 | 167 (167) | 456 | 456 | 7 / 0 | Toluca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2010 Apertura | 18 | 167 (167) | 425 | 420 | 6 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2010 Apertura | 18 | 167 (167) | 425 | 425 | 6 / 0 | Monterrey | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2011 Clausura | 18 | 167 (167) | 435 | 435 | 6 / 0 | Pumas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2011 Apertura | 18 | 167 (167) | 464 | 464 | 3 / 0 | Tigres | RSSSF (mex2012) |
 | 2012 Clausura | 18 | 167 (167) | 416 | 416 | 2 / 0 | Santos Laguna | RSSSF (mex2012) |
 | 2012 Apertura | 18 | 167 (167) | 415 | 415 | 2 / 0 | Tijuana | RSSSF (mex2013) |
 | 2013 Clausura | 18 | 167 (167) | 410 | 410 | 2 / 0 | América do México | RSSSF (mex2013) |
-| 2013 Apertura | 18 | 167 (167) | 440 | 436 | 2 / 0 | León | RSSSF (mex2014) |
+| 2013 Apertura | 18 | 167 (167) | 440 | 440 | 2 / 0 | León | RSSSF (mex2014) |
 | 2014 Clausura | 18 | 167 (167) | 423 | 423 | 2 / 0 | León | RSSSF (mex2014) |
 | 2014 Apertura | 18 | 167 (167) | 384 | 384 | 2 / 0 | América do México | RSSSF (mex2015) |
 | 2015 Clausura | 18 | 167 (167) | 437 | 437 | 2 / 0 | Santos Laguna | RSSSF (mex2015) |
-| 2015 Apertura | 18 | 167 (167) | 497 | 492 | 2 / 0 | Tigres | RSSSF (mex2016) |
-| 2016 Clausura | 18 | 167 (167) | 470 | 464 | 2 / 0 | Pachuca | RSSSF (mex2016) |
+| 2015 Apertura | 18 | 167 (167) | 497 | 497 | 2 / 0 | Tigres | RSSSF (mex2016) |
+| 2016 Clausura | 18 | 167 (167) | 470 | 470 | 2 / 0 | Pachuca | RSSSF (mex2016) |
 | 2016 Apertura | 18 | 167 (167) | 466 | 466 | 2 / 0 | Tigres | RSSSF (mex2017) |
-| 2017 Clausura | 18 | 167 (167) | 411 | 407 | 2 / 0 | Guadalajara | RSSSF (mex2017) |
-| 2017 Apertura | 18 | 167 (167) | 420 | 410 | 3 / 0 | Tigres | RSSSF (mex2018) |
+| 2017 Clausura | 18 | 167 (167) | 411 | 411 | 2 / 0 | Guadalajara | RSSSF (mex2017) |
+| 2017 Apertura | 18 | 167 (167) | 420 | 420 | 3 / 0 | Tigres | RSSSF (mex2018) |
 | 2018 Clausura | 18 | 167 (167) | 434 | 434 | 2 / 0 | Santos Laguna | RSSSF (mex2018) |
 | 2018 Apertura | 18 | 167 (167) | 446 | 446 | 2 / 0 | América do México | RSSSF (mex2019) |
 | 2019 Clausura | 18 | 167 (167) | 449 | 449 | 2 / 0 | Tigres | RSSSF (mex2019) |
-| 2019 Apertura | 19 | 185 (185) | 544 | 539 | 2 / 0 | Monterrey | RSSSF (mex2020) |
-| 2020 Clausura | 18 | 90 (90) | 260 | 256 | 1 / 0 | None | RSSSF (mexhist) |
-| 2020 Apertura | 18 | 171 (171) | 431 | 427 | 2 / 0 | León | RSSSF (mex2021) |
+| 2019 Apertura | 19 | 185 (185) | 544 | 544 | 2 / 0 | Monterrey | RSSSF (mex2020) |
+| 2020 Clausura | 18 | 90 (90) | 260 | 260 | 1 / 0 | None | RSSSF (mexhist) |
+| 2020 Apertura | 18 | 171 (171) | 431 | 431 | 2 / 0 | León | RSSSF (mex2021) |
 | 2021 Clausura | 18 | 171 (171) | 410 | 407 | 2 / 0 | Cruz Azul | RSSSF (mex2021) |
 | 2021 Apertura | 18 | 171 (171) | 375 | 375 | 2 / 0 | Atlas | RSSSF (mex2022) |
-| 2022 Clausura | 18 | 171 (171) | 440 | 427 | 2 / 0 | Atlas | RSSSF (mex2022) |
+| 2022 Clausura | 18 | 171 (171) | 440 | 435 | 2 / 0 | Atlas | RSSSF (mex2022) |
 | 2022 Apertura | 18 | 171 (171) | 481 | 481 | 2 / 0 | Pachuca | RSSSF (mex2023) |
-| 2023 Clausura | 18 | 171 (171) | 479 | 471 | 2 / 0 | Tigres | RSSSF (mex2023) |
-| 2023 Apertura | 18 | 170 (170) | 484 | 474 | 2 / 0 | América do México | RSSSF (mex2024) |
+| 2023 Clausura | 18 | 171 (171) | 479 | 479 | 2 / 0 | Tigres | RSSSF (mex2023) |
+| 2023 Apertura | 18 | 170 (170) | 484 | 484 | 2 / 0 | América do México | RSSSF (mex2024) |
 | 2024 Clausura | 18 | 170 (170) | 486 | 486 | 2 / 0 | América do México | RSSSF (mex2024) |
 | 2024 Apertura | 18 | 170 (170) | 456 | 456 | 2 / 0 | América do México | RSSSF (mex2025) |
 | 2025 Clausura | 18 | 170 (170) | 477 | 477 | 2 / 0 | Toluca | RSSSF (mex2025) |

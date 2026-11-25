@@ -51,14 +51,14 @@ Gerado por `python coleta/usa-1/importar.py`. Pacote em `data/coleta/usa-1/pacot
 | 1982 | 14 | 0 (0) | 0 | 0 | 0 / 0 | New York Cosmos | RSSSF (nasl) |
 | 1983 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Tulsa Roughnecks | RSSSF (nasl) |
 | 1984 | 9 | 0 (0) | 0 | 0 | 0 / 0 | Chicago Sting | RSSSF (nasl) |
-| 1996 | 10 | 177 (177) | 592 | 248 | 2 / 0 | DC United | RSSSF (usa96) |
+| 1996 | 10 | 177 (177) | 592 | 570 | 2 / 0 | DC United | RSSSF (usa96) |
 | 1997 | 10 | 0 (0) | 0 | 0 | 0 / 0 | DC United | RSSSF (usa97) |
 | 1998 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Chicago Fire | RSSSF (usa98) |
 | 1999 | 12 | 208 (208) | 598 | 2 | 0 / 0 | DC United | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 | 12 | 210 (210) | 660 | 133 | 3 / 0 | Sporting Kansas City | RSSSF (usa00) |
+| 2000 | 12 | 210 (210) | 660 | 147 | 3 / 0 | Sporting Kansas City | RSSSF (usa00) |
 | 2001 | 12 | 186 (186) | 567 | 0 | 3 / 0 | San Jose Earthquakes | RSSSF (usa01) |
 | 2002 | 10 | 157 (157) | 472 | 0 | 0 / 0 | Los Angeles Galaxy | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 | 10 | 161 (161) | 466 | 384 | 2 / 0 | San Jose Earthquakes | RSSSF (usa03) |
+| 2003 | 10 | 161 (161) | 466 | 457 | 2 / 0 | San Jose Earthquakes | RSSSF (usa03) |
 | 2004 | 10 | 159 (159) | 413 | 405 | 1 / 1 | DC United | RSSSF (usa04) |
 | 2005 | 12 | 203 (203) | 574 | 574 | 2 / 0 | Los Angeles Galaxy | RSSSF (usa05) |
 | 2006 | 12 | 203 (203) | 530 | 439 | 2 / 0 | Houston Dynamo | RSSSF (usa06) |

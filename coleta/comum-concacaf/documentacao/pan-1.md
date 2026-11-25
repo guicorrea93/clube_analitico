@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 ## 1. O que temos
 
 - **Edições:** 66, de 1988 a 2026 Clausura; 15 sem jogos.
-- **Jogos:** 4520 (4512 com placar); **gols:** 10941; **gols com autor:** 1090 (10%); **cartões:** 0.
-- **Clubes:** 33; **artilheiros:** 2 edições com artilheiro (2 linhas, com empates).
+- **Jogos:** 4520 (4512 com placar); **gols:** 10941; **gols com autor:** 1668 (15%); **cartões:** 0.
+- **Clubes:** 33; **artilheiros:** 5 edições com artilheiro (5 linhas, com empates).
 - **Classificação final:** 66 edições; **tabelas publicadas guardadas para conferência:** 577 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** 83c08786.
 - **Observação da competição:** ANAPROF (1988-2009) e Liga Panameña de Fútbol (2009 em diante) até o Clausura 2026, uma edição por título, como a lista da RSSSF: um campeão por temporada até 2000/01, Apertura e Clausura de 2001 em diante (dois Aperturas em 2009; Apertura 2020 sem campeão), mais as duas edições da LINFUNA (1994/95 e 1995/96, a liga paralela do racha). A final entre os campeões do Apertura e do Clausura (2002-2006) fica fora. Antes de 1988 fica fora.
 
 ## 2. Edições, fontes e regras
@@ -57,7 +57,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1980s | 2 | 0 | — | — | — | — | — | — | — | — |
 | 1990s | 12 | 308 | 53% | 0% | 99% | 0% | 0% | 0% | 22% | 0.0 |
-| 2000s | 19 | 1460 | 84% | 0% | 100% | 0% | 0% | 0% | 23% | 0.0 |
+| 2000s | 19 | 1460 | 84% | 0% | 100% | 0% | 0% | 0% | 37% | 0.0 |
 | 2010s | 20 | 1527 | 100% | 0% | 100% | 0% | 0% | 0% | 1% | 0.0 |
 | 2020s | 13 | 1225 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 

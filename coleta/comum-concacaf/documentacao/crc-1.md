@@ -5,8 +5,8 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 ## 1. O que temos
 
 - **Edições:** 123, de 1921 a 2026 Clausura; 74 sem jogos.
-- **Jogos:** 7065 (7061 com placar); **gols:** 19008; **gols com autor:** 2813 (15%); **cartões:** 0.
-- **Clubes:** 65; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
+- **Jogos:** 7065 (7061 com placar); **gols:** 19008; **gols com autor:** 2951 (16%); **cartões:** 0.
+- **Clubes:** 65; **artilheiros:** 1 edições com artilheiro (1 linhas, com empates).
 - **Classificação final:** 123 edições; **tabelas publicadas guardadas para conferência:** 1263 linhas.
 - **No banco:** sim; **último commit do pacote:** 17766bf6.
 - **Observação da competição:** 1ª divisão da Costa Rica de 1921 ao Clausura 2026, uma edição por título, como a contagem oficial da UNAFUT (lista da RSSSF): um campeão por ano até 2006/07 (1961 com duas entidades rivais; 1954 e 1956 sem campeonato), Apertura e Clausura de 2007/08 em diante. Até 1995/96 quase só tabelas.
@@ -61,7 +61,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1980s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1990s | 10 | 976 | 99% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 12 | 2185 | 94% | 21% | 100% | 18% | 1% | 0% | 23% | 0.0 |
+| 2000s | 12 | 2185 | 94% | 21% | 100% | 18% | 1% | 0% | 25% | 0.0 |
 | 2010s | 20 | 2250 | 100% | 97% | 98% | 87% | 31% | 0% | 24% | 0.0 |
 | 2020s | 13 | 1654 | 100% | 98% | 100% | 98% | 98% | 0% | 0% | 0.0 |
 
@@ -231,9 +231,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- RSSSF: 106 edições
+- RSSSF: 107 edições
 - lista de campeões da Wikipédia em inglês: 12 edições
-- calculada: 5 edições
+- calculada: 4 edições
 
 **Observações das edições:**
 
@@ -463,7 +463,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2025 Apertura | Alajuelense | Saprissa |
 | 2026 Clausura | Herediano | Saprissa |
 
-**Rebaixados marcados na classificação:** 41 em 34 edições (só onde a tabela publicada marca a queda); quem mais caiu: Uruguay de Coronado (5), La Libertad (3), Turrialba (3), Herediano (2), Cartaginés (2).
+**Rebaixados marcados na classificação:** 42 em 35 edições (só onde a tabela publicada marca a queda); quem mais caiu: Uruguay de Coronado (5), La Libertad (3), Turrialba (3), Herediano (2), Cartaginés (2).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 

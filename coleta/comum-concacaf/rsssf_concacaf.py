@@ -276,6 +276,21 @@ def _autores(l: str) -> str | None:
     return None
 
 
+def _continuacao(linhas: list[str], i: int) -> list[str]:
+    """Linhas de baixo que continuam os autores abertos na linha i ("[A 9, B 68;" e "   C 87]"), até a que fecha o colchete
+    (no máximo 3). Para em linha vazia, de jogo ou que abre outro colchete; sem o "]", não junta nada (podia ser escalação).
+    (Correção trazida do rsssf_sul.py, a0222fa9.)"""
+    extra = []
+    for k in range(i + 1, min(i + 4, len(linhas))):
+        t = linhas[k].strip()
+        if not t or t.startswith("[") or _jogo(linhas[k]):
+            return []
+        extra.append(t)
+        if "]" in t:
+            return extra
+    return []
+
+
 def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list[tuple[str, str]] | None = None,
         ignorar: list[str] | None = None) -> tuple[list[Jogo], list[Tabela]]:
     """Jogos e tabelas de um trecho de página. fases: [(regex do título, nome da fase)]: um título que casa muda a
@@ -307,7 +322,10 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
         except ValueError:
             return None
 
+    pular: set[int] = set()   # linhas de continuação dos autores, já juntadas à linha de cima
     for i, l in enumerate(linhas):
+        if i in pular:
+            continue
         s = l.strip()
         if not s:
             tab = None
@@ -330,6 +348,11 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
                 ult_l = i
                 continue
             if (a := _autores(l)):
+                if "]" not in s:   # o colchete continua nas linhas de baixo ("[A 9, B 68;" + "   C 87]")
+                    extra = _continuacao(linhas, i)
+                    if extra:
+                        a = (a + " " + " ".join(extra)).split("]")[0].strip()
+                        pular.update(range(i + 1, i + 1 + len(extra)))
                 ult_jogo.gols_texto = (ult_jogo.gols_texto + " " + a).strip()
                 ult_l = i
                 continue

@@ -43,31 +43,81 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `mex-1` Mexicano | 158 (1902/03–2026 Clausura) | 26.606 | 92 | cb0355f (24/11, sem push) | não |
-| `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | 5bace06 (24/11, sem push) | não |
-| `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | 17766bf (24/11, sem push) | não |
-| `hon-1` Hondurenho | 89 (1965/66–2026 Clausura) | 5.391 | 55 | 6e59e93 (24/11, sem push) | não |
-| `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | 7fd2f61 (24/11, sem push) | não |
-| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | f343c14f (25/11, no GitHub) | não |
-| `pan-1` Panamenho | 66 (1988–2026 Clausura, com 2 da LINFUNA) | 4.520 | 33 | 83c08786 (25/11, no GitHub) | não |
+| `mex-1` Mexicano | 158 (1902/03–2026 Clausura) | 26.606 | 92 | cb0355f (no GitHub) | sim |
+| `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | 5bace06 (no GitHub) | sim |
+| `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | 17766bf (no GitHub) | sim |
+| `hon-1` Hondurenho | 89 (1965/66–2026 Clausura) | 5.391 | 55 | 6e59e93 (no GitHub) | sim |
+| `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | 7fd2f61 (no GitHub) | sim |
+| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | f343c14f (no GitHub) | sim |
+| `pan-1` Panamenho | 66 (1988–2026 Clausura, com 2 da LINFUNA) | 4.520 | 33 | 83c08786 (no GitHub) | sim |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
 ## 3. De onde continuar
 
-1. **México (`mex-1`):** no git em 24/11 (`cb0355f`, sem push); falta o agente 1 carregar no banco. Recado de fim de coleta no fim de `docs/coleta/pedidos-concacaf.md`.
-2. **EUA (`usa-1`):** no git em 24/11 (`5bace06`, sem push); falta o agente 1 carregar no banco. Recado de fim de coleta no fim de
-   `docs/coleta/pedidos-concacaf.md`. Quando a MLS 2026 acabar (final em 18/12/2026), acrescentar a edição 2026 (a página
-   `tablesu/usa2026.html` e a ESPN; a janela da ESPN em `edicoes._ESPN` se a RSSSF só tiver as tabelas).
-3. **Costa Rica (`crc-1`):** no git em 24/11 (`17766bf`, sem push); falta o agente 1 carregar no banco.
-4. **Honduras (`hon-1`):** no git em 24/11 (`6e59e93`, sem push); falta o agente 1 carregar no banco.
-5. **Guatemala (`gua-1`):** no git 7fd2f61 (24/11, sem push).
-6. **El Salvador (`slv-1`):** no GitHub (`f343c14f`); falta o agente 1 carregar no banco.
-7. **Panamá (`pan-1`):** no GitHub em 25/11 (`83c08786`); falta o agente 1 carregar no banco.
-   **Pausa em 25/11** a pedido do Guilherme (recado ao agente 1 no fim de `docs/coleta/pedidos-concacaf.md`).
-8. **Próxima: Jamaica (`jam-1`)**, com o escopo antes. Depois, na ordem sugerida: `tri-1`, `can-1`, `hai-1`; depois as
-   outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
-4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
+**Vale o plano único: `docs/coleta/plano-de-coleta.md` (25/11/2026), acima de qualquer ordem antiga deste guia.** Fase 1 =
+a 1ª divisão de todas as federações da CONCACAF, na ordem do ranking abaixo; só depois a fase 2 (copas nacionais), a fase 3
+(2ªs divisões) e a fase 4 (o resto). Uma competição por vez, com o escopo antes (proposta ao Guilherme, ok, registro na
+seção 6).
+
+### 3.1. Ranking (foto fixa de 25/11/2026)
+
+Ranking FIFA masculino (o de 18/11/2026, vigente em 25/11), só com as federações da CONCACAF, da melhor para a pior. Fonte:
+[globalfootballrankings.com](https://globalfootballrankings.com/rankings/fifa-world-ranking/men) e
+[FIFA, notícia de 18/11](https://inside.fifa.com/fifa-rankings/world-ranking/men/news/coca-cola-mens-world-rankings-november-2026-morocco-canada).
+A ordem não muda depois, mesmo que o ranking mude.
+
+| # | Federação (posição no mundo) | Slug | Estado |
+|---|---|---|---|
+| 1 | México (13) | `mex-1` | pronto, no banco |
+| 2 | EUA (16) | `usa-1` | pronto, no banco (falta a MLS 2026, depois de 18/12) |
+| 3 | Canadá (25) | `can-1` | **próxima** (escopo antes) |
+| 4 | Panamá (45) | `pan-1` | pronto, no banco |
+| 5 | Costa Rica (55) | `crc-1` | pronto, no banco |
+| 6 | Jamaica (67) | `jam-1` | |
+| 7 | Honduras (68) | `hon-1` | pronto, no banco |
+| 8 | Curaçao (81) | `cuw-1` | |
+| 9 | Haiti (86) | `hai-1` | |
+| 10 | Guatemala (97) | `gua-1` | pronto, no banco |
+| 11 | El Salvador (101) | `slv-1` | pronto, no banco |
+| 12 | Trinidad e Tobago (104) | `tri-1` | |
+| 13 | Suriname (128) | `sur-1` | |
+| 14 | Nicarágua (132) | `nca-1` | |
+| 15 | República Dominicana (136) | `dom-1` | |
+| 16 | Guiana (140) | `guy-1` | |
+| 17 | São Cristóvão e Névis (154) | `skn-1` | |
+| 18 | Porto Rico (155) | `pur-1` | |
+| 19 | Cuba (162) | `cub-1` | |
+| 20 | Santa Lúcia (163) | `lca-1` | |
+| 21 | Antígua e Barbuda (164) | `atg-1` | |
+| 22 | São Vicente e Granadinas (165) | `vin-1` | |
+| 23 | Granada (168) | `grn-1` | |
+| 24 | Bermudas (171) | `ber-1` | |
+| 25 | Barbados (174) | `brb-1` | |
+| 26 | Montserrat (175) | `msr-1` | |
+| 27 | Belize (181) | `blz-1` | |
+| 28 | Aruba (183) | `aru-1` | |
+| 29 | Dominica (184) | `dma-1` | |
+| 30 | Ilhas Cayman (201) | `cay-1` | |
+| 31 | Turks e Caicos (204) | `tca-1` | |
+| 32 | Ilhas Virgens Americanas (206) | `vir-1` | |
+| 33 | Bahamas (208) | `bah-1` | |
+| 34 | Ilhas Virgens Britânicas (209) | `vgb-1` | |
+| 35 | Anguila (210) | `aia-1` | |
+| 36-41 | Fora do ranking (filiadas à CONCACAF, não à FIFA): Guiana Francesa, Guadalupe, Martinica, Sint Maarten, Saint-Martin, Bonaire | `guf-1`, `glp-1`, `mtq-1`, `sxm-1`, `smn-1`, `bon-1` | no fim, se houver fonte |
+
+Os slugs das que faltam seguem o código FIFA (`<pais>-1`); conferir no banco antes de criar.
+
+### 3.2. Onde parou
+
+1. **Prontas e no banco (7):** `mex-1`, `usa-1`, `crc-1`, `hon-1`, `gua-1`, `slv-1`, `pan-1`; tudo no GitHub (último
+   pacote: `pan-1`, 83c08786). Recados de fim de coleta no fim de `docs/coleta/pedidos-concacaf.md`.
+2. **Correção do plano (seção 2.3), 25/11:** o leitor comum (`rsssf_concacaf.py`) passou a juntar os autores de gol em duas
+   linhas (como o `rsssf_sul.py`, a0222fa9); as sete ligas foram reimportadas e os totais comparados (recado em
+   `docs/coleta/pedidos-concacaf.md`).
+3. **Próxima: Canadá (`can-1`)**, com o escopo antes. Depois, pelo ranking: Jamaica, Curaçao, Haiti, Trinidad e Tobago...
+4. **MLS 2026:** entra na `usa-1` depois da final (18/12/2026).
+5. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
 ## 4. Código comum (`coleta/comum-concacaf/`)
 

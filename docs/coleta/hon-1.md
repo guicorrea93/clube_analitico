@@ -53,16 +53,16 @@ Gerado por `python coleta/hon-1/importar.py`. Pacote em `data/coleta/hon-1/pacot
 | 2000 Clausura | 10 | 98 (98) | 253 | 0 | 1 / 0 | Motagua | RSSSF (hond00) |
 | 2000 Apertura | 10 | 102 (102) | 254 | 3 | 1 / 0 | Olimpia de Tegucigalpa | RSSSF (hond01) |
 | 2001 Clausura | 10 | 102 (102) | 258 | 3 | 1 / 0 | Platense de Puerto Cortés | RSSSF (hond01) |
-| 2001 Apertura | 10 | 96 (96) | 239 | 6 | 1 / 0 | Motagua | RSSSF (hond02) |
-| 2002 Clausura | 10 | 96 (96) | 219 | 1 | 0 / 1 | Marathón | RSSSF (hond02) |
+| 2001 Apertura | 10 | 96 (96) | 239 | 12 | 1 / 0 | Motagua | RSSSF (hond02) |
+| 2002 Clausura | 10 | 96 (96) | 219 | 6 | 0 / 1 | Marathón | RSSSF (hond02) |
 | 2002 Apertura | 10 | 97 (96) | 233 | 5 | 0 / 1 | Olimpia de Tegucigalpa | RSSSF (hond03) |
 | 2003 Clausura | 10 | 96 (96) | 218 | 1 | 1 / 0 | Marathón | RSSSF (hond03) |
-| 2003 Apertura | 10 | 96 (96) | 252 | 3 | 1 / 0 | Real España | RSSSF (hond04) |
+| 2003 Apertura | 10 | 96 (96) | 252 | 7 | 1 / 0 | Real España | RSSSF (hond04) |
 | 2004 Clausura | 9 | 78 (78) | 207 | 0 | 1 / 0 | Olimpia de Tegucigalpa | RSSSF (hond04) |
 | 2004 Apertura | 10 | 96 (96) | 257 | 0 | 1 / 0 | Marathón | RSSSF (hond05) |
 | 2005 Clausura | 10 | 96 (96) | 202 | 0 | 1 / 0 | Olimpia de Tegucigalpa | RSSSF (hond05) |
 | 2005 Apertura | 10 | 96 (96) | 256 | 0 | 0 / 1 | Olimpia de Tegucigalpa | RSSSF (hond06) |
-| 2006 Clausura | 10 | 96 (96) | 223 | 92 | 1 / 0 | Olimpia de Tegucigalpa | RSSSF (hond06) |
+| 2006 Clausura | 10 | 96 (96) | 223 | 112 | 1 / 0 | Olimpia de Tegucigalpa | RSSSF (hond06) |
 | 2006 Apertura | 10 | 96 (96) | 256 | 234 | 1 / 0 | Motagua | RSSSF (hond07) |
 | 2007 Clausura | 10 | 97 (94) | 226 | 2 | 0 / 1 | Real España | RSSSF (hond07) |
 | 2007 Apertura | 10 | 96 (96) | 211 | 193 | 1 / 0 | Marathón | RSSSF (hond08) |
