@@ -90,6 +90,83 @@ REGRAS: list[tuple[re.Pattern, callable]] = [
 
 # frases sem regra: a tradução (None = descartada). Chave = a nota como vem da Wikipédia (sem o ponto final).
 MANUAL: dict[str, str | None] = {
+    # Polônia (pol-1)
+    'Two final day games (Wisła Kraków vs Legia Warsaw 0–6; ŁKS Łódź vs Olimpia Poznań 7–1) were cancelled':
+        'dois jogos da última rodada (Wisła Kraków 0-6 Legia Varsóvia e ŁKS Łódź 7-1 Olimpia Poznań) foram anulados',
+    'Legia Warsaw, ŁKS Łódź and Wisła Kraków had a 3 pts penalty at the start of the league':
+        'Legia Varsóvia, ŁKS Łódź e Wisła Cracóvia começaram a liga com 3 pontos a menos (punição)',
+    'Amica Wronki and Lech Poznań merged after the end of the season leaving Lech in the top division while Amica joined the third division as a feeder club for Lech':
+        'Amica Wronki e Lech Poznań se fundiram depois da temporada: o Lech ficou na 1ª divisão e o Amica foi para a 3ª, como clube satélite do Lech',
+    'Arka Gdynia was relegated to 2nd division due to a corruption scandal':
+        'rebaixado para a 2ª divisão por um escândalo de corrupção',
+    'Automatically relegated at end of season due to involvement in corruption scandal':
+        'rebaixado no fim da temporada por envolvimento num escândalo de corrupção',
+    'Automatically relegated at end of season to third league due to involvement in corruption scandal and also taking one of two last standings':
+        'rebaixado no fim da temporada para a 3ª divisão, por envolvimento num escândalo de corrupção e por terminar entre os dois últimos',
+    'Cracovia was deducted 5 points for match-fixing during the 2003–04 II liga season (second tier at the time)':
+        '5 pontos a menos por manipulação de resultados na II liga de 2003/04 (a 2ª divisão da época)',
+    'Górnik Zabrze were punished after the 26th round with a deduction of three points because of stadium destruction by the fans. The appeal against the penalty has been accepted on 22 March 2018':
+        'punido depois da 26ª rodada com 3 pontos a menos pela destruição do estádio pela torcida; o recurso foi aceito em 22/03/2018',
+    'Górnik Zabrze were punished with a deduction of one point during regular season for failing with licensing requirements':
+        '1 ponto a menos na fase regular por não cumprir as exigências de licenciamento',
+    'Górnik Zabrze were punished with a deduction of one point for failing with licensing requirements':
+        '1 ponto a menos por não cumprir as exigências de licenciamento',
+    'Górnik Łęczna was dissolved after the season and started playing in the new fourth league':
+        'dissolvido depois da temporada; recomeçou na nova 4ª divisão',
+    'Head-to-head in regular season record: Pogoń Szczecin 3–0 Lech Poznań, Lech Poznań 3–2 Pogoń Szczecin':
+        'confronto direto na fase regular: Pogoń Szczecin 3-0 Lech Poznań e Lech Poznań 3-2 Pogoń Szczecin',
+    'Head-to-head matches: Wisła Kraków 0–3 Wisła Płock, Wisła Płock 1–3 Wisła Kraków':
+        'confronto direto: Wisła Kraków 0-3 Wisła Płock e Wisła Płock 1-3 Wisła Kraków',
+    'Head-to-head record; Korona Kielce 10 pts, Piast Gliwice 6 pts, Podbeskidzie Bielsko-Biała 1 pt':
+        'confronto direto: Korona Kielce 10 pontos, Piast Gliwice 6, Podbeskidzie Bielsko-Biała 1',
+    'Lechia Gdańsk were deducted 5 points due to financial arrears':
+        '5 pontos a menos por dívidas',
+    'Lechia Gdańsk were punished with a deduction of one point during regular season for failing with licensing requirements. On 8 April 2016 the punishment was suspended by Polish Court of Arbitration for Sport.On 11 April 2016 an appeal against the original decision was withdrawn by the club':
+        '1 ponto a menos na fase regular por não cumprir as exigências de licenciamento; a punição foi suspensa pelo tribunal arbitral do esporte em 08/04/2016 e o clube retirou o recurso em 11/04/2016',
+    'Lechia Gdańsk were punished with a deduction of one point for failing with licensing requirements. On 8 April 2016 the punishment was suspended by Polish Court of Arbitration for Sport. On April 11 an appeal against the original decision was withdrawn by the club':
+        '1 ponto a menos por não cumprir as exigências de licenciamento; a punição foi suspensa pelo tribunal arbitral do esporte em 08/04/2016 e o clube retirou o recurso em 11/04/2016',
+    'Lechia Gdańsk were punished with a deduction of one point for failing with licensing requirements':
+        '1 ponto a menos por não cumprir as exigências de licenciamento',
+    'Pogoń Szczecin was relegated to 4th division':
+        'rebaixado para a 4ª divisão',
+    'Points in regular season: Cracovia 48 points, Jagiellonia Białystok 47 points':
+        'pontos na fase regular: Cracovia 48, Jagiellonia Białystok 47',
+    'Points in regular season: Górnik Zabrze - 41 pts, Raków Częstochowa - 41 pts, Zagłębie Lubin - 38 pts. Head-to-head away goals in regular season: Górnik Zabrze 1, Raków Częstochowa 0':
+        'pontos na fase regular: Górnik Zabrze 41, Raków Częstochowa 41, Zagłębie Lubin 38; gols fora de casa no confronto direto: Górnik Zabrze 1, Raków Częstochowa 0',
+    'Points in regular season: Śląsk Wrocław - 49 pts, Pogoń Szczecin - 45 pts':
+        'pontos na fase regular: Śląsk Wrocław 49, Pogoń Szczecin 45',
+    'Ranked based on head-to-head points: Motor Lublin 4 pts, GKS Katowice - 1 pt':
+        'ordem pelos pontos no confronto direto: Motor Lublin 4, GKS Katowice 1',
+    'Ranked based on head-to-head points: Piast Gliwice 4 pts, Korona Kielce - 1 pt':
+        'ordem pelos pontos no confronto direto: Piast Gliwice 4, Korona Kielce 1',
+    'Regular season record: Arka 31 pts, Cracovia 31 pts. Head-to-head record: Arka 1–0 Cracovia, Cracovia 1–1 Arka':
+        'fase regular: Arka 31 pontos, Cracovia 31; confronto direto: Arka 1-0 Cracovia e Cracovia 1-1 Arka',
+    'Regular season record: Jagiellonia 59 pts, Lech 55 pts, Lechia 53 pts':
+        'fase regular: Jagiellonia 59 pontos, Lech 55, Lechia 53',
+    'Regular season record: Pogoń 42 pts, Nieciecza 42 pts. Head-to-head record: Pogoń 5–0 Nieciecza, Nieciecza 2–0 Pogoń':
+        'fase regular: Pogoń 42 pontos, Nieciecza 42; confronto direto: Pogoń 5-0 Nieciecza e Nieciecza 2-0 Pogoń',
+    'Ruch Chorzów were punished with a deduction of four points due to financial problems':
+        '4 pontos a menos por problemas financeiros',
+    'Ruch Chorzów were punished with a deduction of one point during regular season for failing with licensing requirements':
+        '1 ponto a menos na fase regular por não cumprir as exigências de licenciamento',
+    'Ruch Chorzów were punished with a deduction of one point for failing with licensing requirements':
+        '1 ponto a menos por não cumprir as exigências de licenciamento',
+    'Tied on head-to-head points and goal difference. Overall goal difference: Korona Kielce 0, Motor Lublin –7':
+        'empate nos pontos e no saldo do confronto direto; saldo geral: Korona Kielce 0, Motor Lublin -7',
+    'Tied on head-to-head record, Pogoń Szczecin ahead on goal difference; Lechia Gdańsk – Pogoń Szczecin 0–1, Pogoń Szczecin – Lechia Gdańsk 0–1':
+        'empate no confronto direto (Lechia Gdańsk 0-1 Pogoń Szczecin e Pogoń Szczecin 0-1 Lechia Gdańsk); Pogoń Szczecin à frente pelo saldo de gols',
+    'Wisła Kraków were punished with a deduction of one point during regular season for failing with licensing requirements':
+        '1 ponto a menos na fase regular por não cumprir as exigências de licenciamento',
+    'Wisła Kraków were punished with a deduction of one point for failing with licensing requirements':
+        '1 ponto a menos por não cumprir as exigências de licenciamento',
+    'Zagłębie Lubin was docked 3 points due to bribery scandal in 2005–06 season':
+        '3 pontos a menos por um escândalo de suborno na temporada 2005/06',
+    "Jagiellonia Białystok were docked ten points at the start of the 2009–10 season as a consequence of the club's involvement in a corruption scandal":
+        'começou a temporada 2009/10 com 10 pontos a menos, pelo envolvimento num escândalo de corrupção',
+    'ŚLĄ 0-0 PIA; PIA 1-1 ŚLĄ':
+        'confronto direto: Śląsk Wrocław 0-0 Piast Gliwice e Piast Gliwice 1-1 Śląsk Wrocław',
+    'ŚLĄ 0–1 LEG; LEG 1–2 ŚLĄ':
+        'confronto direto: Śląsk Wrocław 0-1 Legia Varsóvia e Legia Varsóvia 1-2 Śląsk Wrocław',
     # Inglês
     "Sunderland were deducted two points for fielding an unregistered player": "2 pontos a menos por escalar jogador não inscrito",
     "Blackburn Rovers were initially relegated but were later reprieved due to the First Division expanding to 18 teams for "

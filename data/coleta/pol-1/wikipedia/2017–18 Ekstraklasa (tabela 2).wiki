@@ -1,0 +1,54 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://ekstraklasa.org/rozgrywki/tabela/ekstraklasa-1 Ekstraklasa], [http://www.90minut.pl/liga/0/liga9322.html 90minut]
+
+<!--Update team positions here-->
+|team1=LEG |team2=JAG |team3=LPO |team4=GÓR |team5=WPŁ |team6=WIS |team7=ZAG |team8=KOR
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL1Q |result2=EL2Q |result3=EL1Q |result4=EL1Q
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_LPO=16|draw_LPO=12|loss_LPO=9 |gf_LPO=53|ga_LPO=34<!-- Lech Poznań -->
+|win_JAG=20|draw_JAG=7 |loss_JAG=10|gf_JAG=55|ga_JAG=41<!-- Jagiellonia Białystok -->
+|win_LEG=22|draw_LEG=4 |loss_LEG=11|gf_LEG=55|ga_LEG=35<!-- Legia Warsaw -->
+|win_WPŁ=17|draw_WPŁ=6 |loss_WPŁ=14|gf_WPŁ=53|ga_WPŁ=45<!-- Wisła Płock -->
+|win_GÓR=16|draw_GÓR=12|loss_GÓR=9 |gf_GÓR=68|ga_GÓR=54<!-- Górnik Zabrze -->
+|win_KOR=12|draw_KOR=13|loss_KOR=12|gf_KOR=49|ga_KOR=54<!-- Korona Kielce -->
+|win_WIS=15|draw_WIS=10|loss_WIS=12|gf_WIS=51|ga_WIS=42<!-- Wisła Kraków -->
+|win_ZAG=13|draw_ZAG=13|loss_ZAG=11|gf_ZAG=45|ga_ZAG=42<!-- Zagłębie Lubin -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_JAG=[[Jagiellonia Białystok]]
+|name_LEG=[[Legia Warsaw]]
+|name_LPO=[[Lech Poznań]]
+|name_GÓR=[[Górnik Zabrze]]
+|name_WPŁ=[[Wisła Płock]]
+|name_KOR=[[Korona Kielce]]
+|name_WIS=[[Wisła Kraków]]
+|name_ZAG=[[Zagłębie Lubin]]
+
+<!--Point adjustment-->
+
+<!--Head to Head-->
+
+<!--Status-->
+|status_LEG=C
+
+<!--Team notes-->
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Points in regular season; 3) Head-to-head points in regular season; 4) Head-to-head goal difference in regular season; 5) Head-to-head goals scored in regular season; 5) Head-to-head away goals scored in regular season (if only two teams); 7) Goal difference; 8) Goals scored; 9) Fairplay ranking; 10) Play-off (only if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web|url=http://www.ekstraklasa.org/rozgrywki/zasady |title=Rozgrywki - Zasady |publisher=Ekstraklasa |access-date=18 May 2017}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CL1Q=green1 |text_CL1Q=Qualification for the [[2018–19 UEFA Champions League#First qualifying round|Champions League first qualifying round]]
+|col_EL2Q=blue1  |text_EL2Q={{nowrap|Qualification for the [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]}}
+|col_EL1Q=blue2  |text_EL1Q=Qualification for the [[2018–19 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Poland football standings templates]]
+</noinclude>

@@ -1,0 +1,55 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|highest_pos=9
+|source=[http://ekstraklasa.org/rozgrywki/tabela/ekstraklasa-1 Ekstraklasa], [http://www.90minut.pl/liga/0/liga9322.html 90minut]
+
+<!--Update team positions here-->
+|team9=CRA |team10=ŚLĄ |team11=POG |team12=ARK |team13=LGD |team14=PIA |team15=BBT |team16=SAN
+
+<!--Update team qualifications here (defined below)-->
+|result15=REL1 |result16=REL1
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ARK=11|draw_ARK=10|loss_ARK=16|gf_ARK=46|ga_ARK=48<!-- Arka Gdynia -->
+|win_CRA=13|draw_CRA=11|loss_CRA=13|gf_CRA=51|ga_CRA=52<!-- Cracovia -->
+|win_ŚLĄ=13|draw_ŚLĄ=11|loss_ŚLĄ=13|gf_ŚLĄ=50|ga_ŚLĄ=54<!-- Śląsk Wrocław -->
+|win_POG=12|draw_POG=9 |loss_POG=16|gf_POG=46|ga_POG=54<!-- Pogoń Szczecin -->
+|win_PIA=8 |draw_PIA=13|loss_PIA=16|gf_PIA=40|ga_PIA=48<!-- Piast Gliwice -->
+|win_LGD=9 |draw_LGD=13|loss_LGD=15|gf_LGD=46|ga_LGD=58<!-- Lechia Gdańsk -->
+|win_BBT=9 |draw_BBT=9 |loss_BBT=19|gf_BBT=39|ga_BBT=66<!-- Bruk-Bet Termalica Nieciecza -->
+|win_SAN=6 |draw_SAN=15|loss_SAN=16|gf_SAN=34|ga_SAN=54<!-- Sandecja Nowy Sącz -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ARK=[[Arka Gdynia]]
+|name_CRA=[[KS Cracovia|Cracovia]]
+|name_ŚLĄ=[[Śląsk Wrocław]]
+|name_POG=[[Pogoń Szczecin]]
+|name_PIA=[[Piast Gliwice]]
+|name_LGD=[[Lechia Gdańsk]]
+|name_BBT=[[Bruk-Bet Termalica Nieciecza]]
+|name_SAN=[[Sandecja Nowy Sącz]]
+
+<!--Point adjustment-->
+|adjust_points_LGD=-1
+
+<!--Head to Head-->
+
+<!--Status-->
+|status_BBT=R
+|status_SAN=R
+
+<!--Team notes-->
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Points in regular season; 3) Head-to-head points in regular season; 4) Head-to-head goal difference in regular season; 5) Head-to-head goals scored in regular season; 5) Head-to-head away goals scored in regular season (if only two teams); 7) Goal difference; 8) Goals scored; 9) Fairplay ranking; 10) Play-off (only if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web|url=http://www.ekstraklasa.org/rozgrywki/zasady |title=Rozgrywki - Zasady |publisher=Ekstraklasa |access-date=18 May 2017}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_REL1=red1 |text_REL1=Relegation to [[2018–19 I liga|I liga]]
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Poland football standings templates]]
+</noinclude>

@@ -1553,3 +1553,73 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - as 10 temporadas com a matriz divergente;
    - a ordem de 1945/46 (a final, depois a posição nos grupos).
 8. **Próxima tarefa:** Polônia (rank 12 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+
+## Recado de fim de coleta — pol-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Polonês, de 1921 a 2025/26:
+   - 98 edições, 19.667 jogos, 103 clubes;
+   - títulos (os 98 que a federação reconhece, iguais à lista da RSSSF): Legia Varsóvia 15, Górnik Zabrze 14, Ruch
+     Chorzów 14, Wisła Cracóvia 13, Lech Poznań 10, Cracovia 5, Pogoń Lwów 4, Widzew Łódź 4 e mais 12 clubes.
+
+   Escopo aprovado pelo Guilherme (25/11/2026):
+   - torneios entre os campeões regionais em 1921-1926, 1946 e 1947;
+   - liga de 1927 a 1938 e desde 1948 (1962 só com a primavera, na passagem para outono a primavera);
+   - ficam de fora 1920 (abandonado), 1924 (não disputado), 1939 (interrompido pela guerra) e as ligas municipais da
+     guerra.
+
+   Fontes:
+   - **RSSSF (polhist.html):** matriz dos torneios (base dos jogos até 1926, 1946 e 1947), tabela e matriz de cada
+     temporada até 2000/01 (conferência), lista de campeões e de artilheiros;
+   - **Wikipédia (en):** matriz de resultados (base dos jogos de 1927 a 1962), tabelas de todas as fases, fichas das finais;
+   - **ogol:** base dos jogos desde 1962/63, com data, hora e rodada;
+   - **football-data:** conferência dos placares desde 2012/13.
+
+   Conferência: 139 tabelas fecham com os jogos e 74 divergem (em 44 temporadas, quase sempre um número trocado numa das
+   fontes; a outra fecha). Em 9 temporadas antigas a matriz não fecha com as duas tabelas, que concordam entre si: a
+   classificação fica com os números publicados.
+2. **Commit:** o deste recado ("Coleta Europa: Campeonato Polonês (pol-1), 1921 a 2025/26").
+3. **Teste de carga:** "pol-1: 98 edições, 19667 jogos, 103 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `pol-1` e liberar no seletor;
+   - **países:** Polônia (`POL`). Os clubes de Lwów e Wilno têm o país de hoje: Ucrânia (`UKR`) e Lituânia (`LTU`);
+   - **rótulos de temporada:**
+     - de "1921" a "1938", "1946", "1947" e de "1948" a "1962" (ano civil; "1962" é só a primavera);
+     - de "1962/63" em diante, outono a primavera;
+     - "1962" e "1962/63" começam no mesmo ano: o `id` da partida usa o rótulo ("1962-0001" e "1962-63-0001");
+   - **1951:** o campeão (`edicoes.campeao`) é o Ruch Chorzów, 6º na classificação, com `situacao` = "campeao" na linha
+     dele; a Wisła, 1ª da liga, fica sem marca; `vice` vazio;
+   - **`ajuste_pontos`:** o bônus de 1986/87 a 1989/90 (+1 pela vitória por 3 gols ou mais, -1 pela derrota por 3 ou
+     mais) e os pontos da fase regular divididos por dois de 2013/14 a 2019/20;
+   - **1934:** Garbarnia x ŁKS é "derrota para os dois" (gols vazios);
+   - **1926:** o grupo final não tem jogos (só `tabelas_publicadas`); a classificação soma os números dessa tabela;
+   - **1933 e 2001/02:** a classificação final traz só os números dos grupos finais (os pontos da 1ª fase não contam);
+   - **fases dos torneios:** "Grupos", "Grupo final", "Final", "Desempate", "Desempate da final" e, em 1946,
+     "Preliminar", "Oitavas de final" e "Quartas de final"; em 1962, "Play-off de classificação";
+   - **sem datas e rodadas até 1962**, fora as fichas da Wikipédia; a Corrida só anda rodada a rodada desde 1962/63.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pelo alvo do link da Wikipédia:**
+     - Wisła = Gwardia Kraków; Lech = KKS Poznań e Kolejarz; Ruch = Unia Chorzów; Wisła Płock = Petrochemia e Orlen;
+     - pelos links, o PKS Szczecin (1946-47) é o Pogoń Szczecin e o Motor Białystok (1947) é o Jagiellonia;
+     - o Olimpia/Lechia Gdańsk de 1995/96 fica à parte do Lechia (artigo próprio; o ogol junta);
+   - (b) **o 22 pp Siedlce e o Strzelec Siedlce são o mesmo clube:** a RSSSF diz que ele mudou de nome em 1933/34;
+   - (c) **1922:** a RSSSF trocou as matrizes dos dois grupos; os jogos vêm da matriz certa, e os números fecham com a
+     Wikipédia polonesa;
+   - (d) **ogol x matriz da Wikipédia:** o placar ou o mando da matriz só fica quando fecha melhor com as tabelas, ou,
+     empatado, quando o football-data ou a RSSSF concordam (6 jogos, anotados);
+     - o ogol chama de "Zagłębie Wałbrzych" o Zagłębie Sosnowiec de 1985/86 (os 30 placares são os do Sosnowiec);
+   - (e) **1992/93:** os dois jogos anulados pela federação (ŁKS 7-1 Olimpia e Wisła 0-6 Legia) ficam fora;
+   - (f) **1948:** o jogo extra Cracovia 3-1 Wisła entra como "Desempate".
+6. **O que não deu para coletar:**
+   - datas e rodadas de 1921 a 1962 (só as matrizes);
+   - os jogos do grupo final de 1926: nenhuma fonte traz (a Wikipédia polonesa só cita o jogo decisivo, sem o mando);
+   - autores dos gols, cartões e público (não há ESPN para a Polônia, e o football-data não traz cartões dela).
+
+   Fonte possível: jornais da época e a ficha de cada jogo no ogol.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade pelos links da Wikipédia (PKS Szczecin, Motor Białystok, Grochów, Olimpia/Lechia);
+   - as 9 temporadas antigas com os números publicados e as divergências entre a RSSSF e a Wikipédia (relatório
+     `docs/coleta/pol-1.md`);
+   - 2006/07 e 2007/08: a matriz da Wikipédia discorda do ogol em 8 e 10 jogos; ficou o ogol, que fecha com a tabela.
+8. **Próxima tarefa:** Noruega (rank 13 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.

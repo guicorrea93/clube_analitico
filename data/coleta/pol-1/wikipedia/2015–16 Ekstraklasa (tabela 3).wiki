@@ -1,0 +1,62 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ekstraklasa.org/rozgrywki Ekstraklasa], [https://www.soccerway.com/poland/ekstraklasa-2015-2016/results/ Soccerway]
+|highest_pos=9
+
+<!--Update team positions here-->
+|team9=WIS |team10=SLA |team11=JAG |team12=KOR |team13=NIE |team14=GKL |team15=GOR |team16=PBB
+
+<!--Update team qualifications here (defined below)-->
+|result15=REL |result16=REL
+
+<!--Update team results here and then (if needed) positions above. Dont forget to update the date (update parameter)-->
+|update=complete
+|win_PBB=9 |draw_PBB=12|loss_PBB=16|gf_PBB=45|ga_PBB=63 <!--Podbeskidzie Bielsko-Biała-->
+|win_KOR=10|draw_KOR=15|loss_KOR=12|gf_KOR=39|ga_KOR=45 <!--Korona Kielce-->
+|win_WIS=12|draw_WIS=15|loss_WIS=10|gf_WIS=61|ga_WIS=45 <!--Wisła Kraków-->
+|win_JAG=13|draw_JAG=6 |loss_JAG=18|gf_JAG=46|ga_JAG=62 <!--Jagiellonia Białystok-->
+|win_SLA=12|draw_SLA=12|loss_SLA=13|gf_SLA=41|ga_SLA=46 <!--Śląsk Wrocław-->
+|win_NIE=10|draw_NIE=12|loss_NIE=15|gf_NIE=39|ga_NIE=50 <!--Nieciecza-->
+|win_GKL=10|draw_GKL=9 |loss_GKL=18|gf_GKL=40|ga_GKL=53 <!--Górnik Łęczna-->
+|win_GOR=6 |draw_GOR=18|loss_GOR=13|gf_GOR=38|ga_GOR=51 <!--Górnik Zabrze-->
+
+<!--Status-->
+|status_GOR=R
+|status_PBB=R
+
+<!--Point adjustments-->
+|adjust_points_PBB=-19
+|adjust_points_KOR=-18
+|adjust_points_WIS=-19
+|adjust_points_JAG=-17
+|adjust_points_SLA=-17
+|adjust_points_NIE=-16
+|adjust_points_GKL=-15
+|adjust_points_GOR=-13
+
+<!--Team notes-->
+|note_WIS=Wisła Kraków were punished with a deduction of one point during regular season for failing with licensing requirements.<ref name="deduction1">{{cite web | url=http://www.90minut.pl/news/242/news2422376-Komunikat-Komisji-ds-Licencji-Klubowych.html |title=Komunikat Komisji ds. Licencji Klubowych| publisher=90minut.pl | access-date = 24 July 2015}}</ref><ref name="deduction2">{{cite web | url=http://www.90minut.pl/news/244/news2447097-Gornik-ukarany-przez-PZPN.html.html |title=Górnik ukarany przez PZPN| publisher=90minut.pl | access-date = 24 July 2015}}</ref><ref name="deduction3">{{cite web | url=http://www.90minut.pl/news/246/news2460580-Komunikat-Komisji-ds-Licencji-Klubowych.html |title=Komunikat Komisji ds. Licencji Klubowych| publisher=90minut.pl | access-date = 24 July 2015}}</ref> 
+|note_GOR=Górnik Zabrze were punished with a deduction of one point during regular season for failing with licensing requirements.<ref name="deduction1"/><ref name="deduction2"/><ref name="deduction3"/>
+
+<!--Team definitions (wikilinks in table)-->
+|name_PBB=[[Podbeskidzie Bielsko-Biała]]
+|name_KOR=[[Korona Kielce]]
+|name_WIS=[[Wisła Kraków]]
+|name_JAG=[[Jagiellonia Białystok]]
+|name_SLA=[[Śląsk Wrocław]]
+|name_NIE=[[LKS Nieciecza|Nieciecza]]
+|name_GKL=[[Górnik Łęczna]]
+|name_GOR=[[Górnik Zabrze]]
+
+<!--Table settings and rules-->
+|class_rules = 1) Points; 2) Points in regular season; 3) Head-to-head points in regular season; 4) Head-to-head goal difference in regular season; 5) Head-to-head goals scored in regular season; 5) Head-to-head away goals scored in regular season (if only two teams); 7) Goal difference; 8) Goals scored; 9) Fairplay ranking; 10) Play-off (only if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web |url=http://www.ekstraklasa.org/data/stories/files/Regulamin%20rozgrywek%202015-2016%20-%20oficjalny.pdf |title=REGULAMIN ROZGRYWEK PIŁKARSKICH O MISTRZOSTWO EKSTRAKLASY NA SEZON 2015/2016 I NASTĘPNE |work=ekstraklasa.org |publisher=[[Polish Football Association]] |format=pdf |access-date=20 July 2015 |language=pl}}</ref><ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=11769&view=rules |title=Ekstraklasa 2015/2016 - Season rules |publisher=Scoresway |access-date=20 July 2015}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=R
+|col_REL=red1 |text_REL=Relegation to the [[2016–17 I liga|I liga]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Poland football standings templates]]
+</noinclude>

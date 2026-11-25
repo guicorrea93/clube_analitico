@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -153,6 +153,16 @@ LIMITES: dict[str, list[str]] = {
         "Fora do escopo (decisão do Guilherme, 25/11/2026): Boêmia Central antes de 1925, campeonato amador, 1944/45 e liga "
         "eslovaca da guerra.",
     ],
+    "pol-1": [
+        "Sem datas e rodadas de 1921 a 1962 (só as matrizes de resultados da Wikipédia e da RSSSF, fora as fichas das finais "
+        "e do mata-mata de 1946); sem autores dos gols, cartões e público em toda a liga (sem ESPN; o football-data não traz "
+        "cartões da Polônia).",
+        "Grupo final de 1926 sem os jogos em nenhuma fonte (RSSSF, Wikipédia em inglês e em polonês): fica a tabela publicada.",
+        "9 temporadas antigas em que a matriz não fecha com as tabelas (que concordam entre si): a classificação fica com os "
+        "números publicados.",
+        "Fora do escopo (decisão do Guilherme, 25/11/2026): 1920 (abandonado), 1924 (não disputado), 1939 (interrompido) e "
+        "as ligas municipais da guerra; os jogos de acesso contra a 2ª divisão.",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -193,6 +203,17 @@ REVISAO: dict[str, list[str]] = {
         "pela Wikipédia).",
         "Classificação de 1945/46: a final (Sparta x Slavia) e depois a posição nos grupos; títulos do Protetorado contados "
         "(Sparta 21, Slavia 13 no total).",
+    ],
+    "pol-1": [
+        "Identidade pelos links da Wikipédia: o PKS Szczecin de 1946-47 como o Pogoń Szczecin, o Motor Białystok (1947) como "
+        "o Jagiellonia, o Grochów (1947) como o Gwardia Varsóvia, o RKU Sosnowiec como o Zagłębie; o Olimpia/Lechia Gdańsk "
+        "de 1995/96 à parte do Lechia (o ogol junta) e o Sokół Tychy como o GKS Tychy; o 22 pp Siedlce e o Strzelec Siedlce "
+        "como um clube só (a RSSSF diz que mudou de nome).",
+        "1922: a RSSSF trocou as matrizes dos dois grupos; os jogos vêm da matriz certa, e os números fecham com a Wikipédia "
+        "polonesa. 1951: campeão o Ruch (6º na liga, pela Copa); 1992/93: os dois jogos anulados ficam fora.",
+        "Placares do ogol trocados pela matriz da Wikipédia só quando ela fecha melhor com as tabelas, ou empatada com o "
+        "football-data ou a RSSSF a favor (2004/05, 2006/07, 2007/08, 2022/23, 2025/26); o ogol rotula o Zagłębie Sosnowiec "
+        "de 1985/86 como Zagłębie Wałbrzych (os 30 placares são os do Sosnowiec).",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -518,8 +539,8 @@ def main() -> None:
     idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in REVISAO.get(slug, [])]
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
-            "está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`) e "
-            "Tchecoslováquia (`tch-1`); a próxima é a Polônia. Uma por vez, com o escopo antes.", ""]
+            "está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), "
+            "Tchecoslováquia (`tch-1`) e Polônia (`pol-1`); a próxima é a Noruega. Uma por vez, com o escopo antes.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

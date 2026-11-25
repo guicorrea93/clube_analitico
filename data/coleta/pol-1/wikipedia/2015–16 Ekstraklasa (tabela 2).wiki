@@ -1,0 +1,65 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ekstraklasa.org/rozgrywki Ekstraklasa], [https://www.soccerway.com/poland/ekstraklasa-2015-2016/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=LEG |team2=PIA |team3=ZLU |team4=CRA |team5=LGD |team6=POG |team7=LPO |team8=RUC
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL2Q |result2=EL2Q |result3=EL1Q |result4=EL1Q
+
+<!--Update team results here and then (if needed) positions above. Dont forget to update the date (update parameter)-->
+|update=complete
+|win_LEG=21|draw_LEG=10|loss_LEG=6 |gf_LEG=70|ga_LEG=32 <!--Legia Warsaw-->
+|win_PIA=20|draw_PIA=9 |loss_PIA=8 |gf_PIA=60|ga_PIA=45 <!--Piast Gliwice-->
+|win_POG=12|draw_POG=17|loss_POG=8 |gf_POG=43|ga_POG=43 <!--Pogoń Szczecin-->
+|win_ZLU=17|draw_ZLU=9 |loss_ZLU=11|gf_ZLU=55|ga_ZLU=42 <!--Zagłębie Lubin-->
+|win_CRA=16|draw_CRA=10|loss_CRA=11|gf_CRA=66|ga_CRA=50 <!--Cracovia-->
+|win_LPO=14|draw_LPO=6 |loss_LPO=17|gf_LPO=42|ga_LPO=47 <!--Lech Poznań-->
+|win_LGD=14|draw_LGD=10|loss_LGD=13|gf_LGD=53|ga_LGD=44 <!--Lechia Gdańsk-->
+|win_RUC=11|draw_RUC=8 |loss_RUC=18|gf_RUC=40|ga_RUC=60 <!--Ruch Chorzów-->
+
+<!--Status-->
+|status_LEG=C
+|status_text_X=Assured of at least Europa League, but may still qualify for Champions League
+
+<!--Point adjustments-->
+|adjust_points_LEG=-30
+|adjust_points_PIA=-29
+|adjust_points_POG=-23
+|adjust_points_ZLU=-22
+|adjust_points_CRA=-22
+|adjust_points_LPO=-21
+|adjust_points_LGD=-20
+|adjust_points_RUC=-20
+
+<!--Team notes-->
+|note_LGD=Lechia Gdańsk were punished with a deduction of one point during regular season for failing with licensing requirements.<ref name="deduction4">{{cite web | url=http://www.90minut.pl/news/261/news2613744-Lechia-i-Ruch-ukarane-ujemnymi-punktami.html |title=Lechia i Ruch ukarane ujemnymi punktami| publisher=90minut.pl | access-date = 6 February 2016}}</ref> On 8 April 2016 the punishment was suspended by Polish Court of Arbitration for Sport.<ref>{{cite web | url=http://www.90minut.pl/news/264/news2642898-Kara-ujemnego-punktu-dla-Lechii-wstrzymana.html |title=Kara ujemnego punktu dla Lechii wstrzymana| publisher=90minut.pl | access-date = 8 April 2016}}</ref>On 11 April 2016 an appeal against the original decision was withdrawn by the club.<ref>{{cite web | url=http://www.90minut.pl/news/264/news2644328-Lechia-wycofala-skarge-do-Trybunalu-Arbitrazowego-ds-Sportu.html |title=Lechia wycofała skargę do Trybunału Arbitrażowego ds. Sportu| publisher=90minut.pl | access-date = 11 April 2016}}</ref>
+|note_RUC=Ruch Chorzów were punished with a deduction of one point during regular season for failing with licensing requirements.<ref name="deduction4">{{cite web | url=http://www.90minut.pl/news/261/news2613744-Lechia-i-Ruch-ukarane-ujemnymi-punktami.html |title=Lechia i Ruch ukarane ujemnymi punktami| publisher=90minut.pl | access-date = 6 February 2016}}</ref>
+
+<!--Team definitions (wikilinks in table)-->
+|name_LEG=[[Legia Warsaw]]
+|name_PIA=[[Piast Gliwice]]
+|name_POG=[[Pogoń Szczecin]]
+|name_ZLU=[[Zagłębie Lubin]]
+|name_CRA=[[KS Cracovia|Cracovia]]
+|name_LPO=[[Lech Poznań]]
+|name_LGD=[[Lechia Gdańsk]]
+|name_RUC=[[Ruch Chorzów]]
+
+<!--Table settings and rules-->
+|class_rules = 1) Points; 2) Points in regular season; 3) Head-to-head points in regular season; 4) Head-to-head goal difference in regular season; 5) Head-to-head goals scored in regular season; 5) Head-to-head away goals scored in regular season (if only two teams); 7) Goal difference; 8) Goals scored; 9) Fairplay ranking; 10) Play-off (only if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web |url=http://www.ekstraklasa.org/data/stories/files/Regulamin%20rozgrywek%202015-2016%20-%20oficjalny.pdf |title=REGULAMIN ROZGRYWEK PIŁKARSKICH O MISTRZOSTWO EKSTRAKLASY NA SEZON 2015/2016 I NASTĘPNE |work=ekstraklasa.org |publisher=[[Polish Football Association]] |format=pdf |access-date=20 July 2015 |language=pl}}</ref><ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=11769&view=rules |title=Ekstraklasa 2015/2016 - Season rules |publisher=Scoresway |access-date=20 July 2015}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CL2Q=green1 |text_CL2Q=Qualification for the [[2016–17 UEFA Champions League#Second qualifying round|Champions League second qualifying round]]
+|col_EL2Q=blue1  |text_EL2Q=Qualification for the [[2016–17 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_EL1Q=blue2  |text_EL1Q=Qualification for the [[2016–17 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+
+|note_res_CL2Q=[[Legia Warsaw]] qualified for the [[2016–17 UEFA Europa League#Second qualifying round|Europa League second qualifying round]] by winning the [[2015–16 Polish Cup]]. However, since they already qualified for European competition based on their league position, the spot awarded to the cup winners was passed down the league.
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Poland football standings templates]]
+</noinclude>

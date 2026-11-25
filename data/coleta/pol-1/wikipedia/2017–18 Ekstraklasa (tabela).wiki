@@ -1,0 +1,77 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://ekstraklasa.org/rozgrywki/tabela/ekstraklasa-1 Ekstraklasa], [http://www.90minut.pl/liga/0/liga9322.html 90minut]
+
+<!--Update team positions here-->
+|team1=LPO |team2=JAG |team3=LEG |team4=WPŁ |team5=GÓR |team6=KOR |team7=WIS |team8=ZAG |team9=ARK |team10=CRA |team11=ŚLĄ |team12=POG |team13=PIA |team14=LGD |team15=BBT |team16=SAN
+
+<!--Update team qualifications here (defined below)-->
+|result1=Q |result2=Q |result3=Q |result4=Q |result5=Q |result6=Q |result7=Q |result8=Q 
+|result9=R |result10=R |result11=R |result12=R |result13=R |result14=R |result15=R |result16=R
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ARK=10|draw_ARK=10|loss_ARK=10|gf_ARK=38|ga_ARK=32<!-- Arka Gdynia -->
+|win_BBT=7 |draw_BBT=8 |loss_BBT=15|gf_BBT=32|ga_BBT=52<!-- Bruk-Bet Termalica Nieciecza -->
+|win_CRA=10|draw_CRA=9 |loss_CRA=11|gf_CRA=40|ga_CRA=40<!-- Cracovia -->
+|win_GÓR=12|draw_GÓR=11|loss_GÓR=7 |gf_GÓR=56|ga_GÓR=46<!-- Górnik Zabrze -->
+|win_JAG=16|draw_JAG=6 |loss_JAG=8 |gf_JAG=45|ga_JAG=36<!-- Jagiellonia Białystok -->
+|win_KOR=11|draw_KOR=12|loss_KOR=7 |gf_KOR=44|ga_KOR=37<!-- Korona Kielce -->
+|win_LPO=15|draw_LPO=10|loss_LPO=5 |gf_LPO=49|ga_LPO=23<!-- Lech Poznań -->
+|win_LGD=7 |draw_LGD=10|loss_LGD=13|gf_LGD=39|ga_LGD=51<!-- Lechia Gdańsk -->
+|win_LEG=17|draw_LEG=3 |loss_LEG=10|gf_LEG=43|ga_LEG=31<!-- Legia Warsaw -->
+|win_PIA=6 |draw_PIA=12|loss_PIA=12|gf_PIA=28|ga_PIA=38<!-- Piast Gliwice -->
+|win_POG=8 |draw_POG=7 |loss_POG=15|gf_POG=34|ga_POG=48<!-- Pogoń Szczecin -->
+|win_SAN=4 |draw_SAN=13|loss_SAN=13|gf_SAN=27|ga_SAN=46<!-- Sandecja Nowy Sącz -->
+|win_ŚLĄ=7 |draw_ŚLĄ=10|loss_ŚLĄ=13|gf_ŚLĄ=35|ga_ŚLĄ=48<!-- Śląsk Wrocław -->
+|win_WIS=12|draw_WIS=8 |loss_WIS=10|gf_WIS=41|ga_WIS=36<!-- Wisła Kraków -->
+|win_WPŁ=15|draw_WPŁ=4 |loss_WPŁ=11|gf_WPŁ=42|ga_WPŁ=35<!-- Wisła Płock -->
+|win_ZAG=10|draw_ZAG=13|loss_ZAG=7 |gf_ZAG=39|ga_ZAG=33<!-- Zagłębie Lubin -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ARK=[[Arka Gdynia]]
+|name_BBT=[[Bruk-Bet Termalica Nieciecza]]
+|name_CRA=[[KS Cracovia|Cracovia]]
+|name_GÓR=[[Górnik Zabrze]]
+|name_JAG=[[Jagiellonia Białystok]]
+|name_KOR=[[Korona Kielce]]
+|name_LPO=[[Lech Poznań]]
+|name_LGD=[[Lechia Gdańsk]]
+|name_LEG=[[Legia Warsaw]]
+|name_PIA=[[Piast Gliwice]]
+|name_POG=[[Pogoń Szczecin]]
+|name_SAN=[[Sandecja Nowy Sącz]]
+|name_ŚLĄ=[[Śląsk Wrocław]]
+|name_WIS=[[Wisła Kraków]]
+|name_WPŁ=[[Wisła Płock]]
+|name_ZAG=[[Zagłębie Lubin]]
+
+<!--Point adjustment-->
+|adjust_points_LGD=-1
+
+<!--Head to Head-->
+|hth_JAG=Head-to-head record: Jagiellonia 1–0 Legia, Legia 0–2 Jagiellonia.
+|hth_LEG=JAG
+|hth_ŚLĄ=Head-to-head record: Śląsk 3–0 Pogoń, Pogoń 3–2 Śląsk.
+|hth_POG=ŚLĄ
+|hth_PIA=Head-to-head record: Piast 1–2 Lechia, Lechia 0–2 Piast.
+|hth_LGD=PIA
+
+<!--Status-->
+
+<!--Team notes-->
+|note_LGD=Lechia Gdańsk were punished with a deduction of one point for failing with licensing requirements.<ref>{{cite web |url=http://www.90minut.pl/news/283/news2832552-Lechia-ukarana-odjeciem-jednego-punktu.html |title=Lechia ukarana odjęciem jednego punktu |publisher=90minut.pl |access-date=16 December 2017}}</ref>
+|note_GÓR=Górnik Zabrze were punished after the 26th round with a deduction of three points because of stadium destruction by the fans.<ref>{{cite web |url=http://www.sport.pl/pilka/56,65039,23103647,ekstraklasa-jest-decyzja-w-sprawie-kar-za-mecz-piast-gornik.html |title=Ekstraklasa. Jest decyzja w sprawie kar za mecz Piast - Górnik. Komisja Ligi zaskoczyła |publisher=sport.pl |date=5 March 2018 |access-date=5 March 2018}}</ref> The appeal against the penalty has been accepted on 22 March 2018.<ref>{{cite web |url=http://www.90minut.pl/news/285/news2852824-NKO-uznala-odwolanie-Gornika.html |title=NKO uznała odwołanie Górnika |publisher=90minut |date=22 March 2018 |access-date=31 March 2018}}</ref>
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Fairplay ranking; 9) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played.)<ref>{{cite web|url=http://www.ekstraklasa.org/rozgrywki/zasady |title=Rozgrywki - Zasady |publisher=Ekstraklasa |access-date=18 May 2017}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_Q=green1 |text_Q=Qualification for the [[2017–18 Ekstraklasa#Championship round|Championship round]]
+|col_R=red1   |text_R=Qualification for the [[2017–18 Ekstraklasa#Relegation round|Relegation round]]
+
+}}<noinclude>{{Template reference list}}
+[[Category:Poland football standings templates]]
+</noinclude>

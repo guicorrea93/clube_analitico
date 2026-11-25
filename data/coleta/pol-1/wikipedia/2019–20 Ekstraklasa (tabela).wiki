@@ -1,0 +1,75 @@
+<noinclude>'''READ THIS BEFORE UPDATING:'''Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://ekstraklasa.org/rozgrywki/tabela/ekstraklasa-3 Ekstraklasa], [http://www.90minut.pl/liga/1/liga10549.html 90minut]
+
+<!--Update team positions here-->
+|team1=LEG |team2=PIA |team3=ŚLĄ |team4=LPO |team5=CRA |team6=POG |team7=JAG |team8=LGD |team9=GÓR |team10=RAK |team11=ZAG |team12=WPŁ |team13=WIS |team14=KOR |team15=ARK |team16=ŁKS
+
+<!--Head to Head-->
+|hth_ŚLĄ=Head-to-head points: Śląsk Wrocław 4, Lech Poznań 1.
+|hth_LPO=ŚLĄ
+|hth_GÓR=Head-to-head away goals: Górnik Zabrze 1, Raków Częstochowa 0.
+|hth_RAK=GÓR
+|hth_ZAG=Head-to-head points: Zagłębie Lubin 4, Wisła Płock 1.
+|hth_WPŁ=ZAG
+
+<!--Update team qualifications here (defined below)-->
+|result1=Q |result2=Q |result3=Q |result4=Q |result5=Q |result6=Q |result7=Q |result8=Q 
+|result9=R |result10=R |result11=R |result12=R |result13=R |result14=R |result15=R |result16=R
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ARK=7 |draw_ARK=8 |loss_ARK=15|gf_ARK=28|ga_ARK=47<!-- Arka Gdynia -->
+|win_CRA=14|draw_CRA=4 |loss_CRA=12|gf_CRA=39|ga_CRA=29<!-- Cracovia -->
+|win_GÓR=10|draw_GÓR=11|loss_GÓR=9 |gf_GÓR=39|ga_GÓR=38<!-- Górnik Zabrze -->
+|win_JAG=12|draw_JAG=8 |loss_JAG=10|gf_JAG=41|ga_JAG=39<!-- Jagiellonia Białystok -->
+|win_KOR=8 |draw_KOR=6 |loss_KOR=16|gf_KOR=21|ga_KOR=37<!-- Korona Kielce -->
+|win_LPO=13|draw_LPO=10|loss_LPO=7 |gf_LPO=55|ga_LPO=29<!-- Lech Poznań -->
+|win_LGD=11|draw_LGD=10|loss_LGD=9 |gf_LGD=40|ga_LGD=42<!-- Lechia Gdańsk -->
+|win_LEG=19|draw_LEG=3 |loss_LEG=8 |gf_LEG=63|ga_LEG=30<!-- Legia Warsaw -->
+|win_ŁKS=5 |draw_ŁKS=6 |loss_ŁKS=19|gf_ŁKS=26|ga_ŁKS=53<!-- ŁKS Łódź -->
+|win_PIA=16|draw_PIA=5 |loss_PIA=9 |gf_PIA=36|ga_PIA=26<!-- Piast Gliwice -->
+|win_POG=12|draw_POG=9 |loss_POG=9 |gf_POG=29|ga_POG=31<!-- Pogoń Szczecin -->
+|win_RAK=12|draw_RAK=5 |loss_RAK=13|gf_RAK=38|ga_RAK=43<!-- Raków Częstochowa-->
+|win_ŚLĄ=13|draw_ŚLĄ=10|loss_ŚLĄ=7 |gf_ŚLĄ=42|ga_ŚLĄ=33<!-- Śląsk Wrocław -->
+|win_WIS=10|draw_WIS=5 |loss_WIS=15|gf_WIS=37|ga_WIS=47<!-- Wisła Kraków -->
+|win_WPŁ=10|draw_WPŁ=8 |loss_WPŁ=12|gf_WPŁ=37|ga_WPŁ=50<!-- Wisła Płock -->
+|win_ZAG=10|draw_ZAG=8 |loss_ZAG=12|gf_ZAG=49|ga_ZAG=46<!-- Zagłębie Lubin -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ARK=[[Arka Gdynia]]
+|name_CRA=[[KS Cracovia|Cracovia]]
+|name_GÓR=[[Górnik Zabrze]]
+|name_JAG=[[Jagiellonia Białystok]]
+|name_KOR=[[Korona Kielce]]
+|name_LPO=[[Lech Poznań]]
+|name_LGD=[[Lechia Gdańsk]]
+|name_LEG=[[Legia Warsaw]]
+|name_ŁKS=[[ŁKS Łódź]]
+|name_PIA=[[Piast Gliwice]]
+|name_POG=[[Pogoń Szczecin]]
+|name_RAK=[[Raków Częstochowa]]
+|name_ŚLĄ=[[Śląsk Wrocław]]
+|name_WIS=[[Wisła Kraków]]
+|name_WPŁ=[[Wisła Płock]]
+|name_ZAG=[[Zagłębie Lubin]]
+
+<!--Point adjustment-->
+
+<!--Team notes-->
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Fairplay ranking; 9) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played.)
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_Q=green1 |text_Q=Qualification for the [[2019–20 Ekstraklasa#Championship round|Championship round]]
+|col_R=red1   |text_R=Qualification for the [[2019–20 Ekstraklasa#Relegation round|Relegation round]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2019–20 association football standings in Europe templates|Poland]]
+[[Category:Poland football standings templates]]
+</noinclude>

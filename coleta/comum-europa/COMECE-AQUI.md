@@ -107,6 +107,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `gre-1` Grego (fase nacional até 1958/59; Alpha Ethniki e Super League) | 90 (1927/28–2025/26) | 18.689 | 8.900 | 20.025 | 69 | (ver git log) |
 | `cze-1` Tcheco (liga da República Tcheca) | 33 (1993/94–2025/26) | 8.234 | 7.121 | 0 | 35 | (ver git log) |
 | `tch-1` Tchecoslovaco (com o Protetorado; 1948 não oficial) | 68 (1925–1992/93) | 11.791 | 0 | 0 | 66 | (ver git log) |
+| `pol-1` Polonês (torneios até 1926, 1946 e 1947; liga) | 98 (1921–2025/26) | 19.667 | 0 | 0 | 103 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -208,7 +209,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 9 | Turquia | **pronta** `tur-1` |
    | 10 | Grécia | **pronta** `gre-1` (24/11) |
    | 11 | Tchéquia | **pronta** `cze-1` (25/11); a Tchecoslováquia também: **pronta** `tch-1` (25/11) |
-   | 12 | Polônia |  |
+   | 12 | Polônia | **pronta** `pol-1` (25/11) |
    | 13 | Noruega |  |
    | 14 | Dinamarca |  |
    | 15 | Chipre |  |
@@ -258,7 +259,14 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    de 1925, o campeonato amador, 1944/45 (abandonado) e a liga eslovaca da guerra (vai com a Eslováquia). Pronta em
    25/11/2026.
 
-   **Próxima: a Polônia** (rank 12). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+   **Polônia (`pol-1`), escopo aprovado pelo Guilherme em 25/11/2026:** de 1921 a 2025/26, os 98 títulos que a
+   federação (PZPN) reconhece, como a lista da RSSSF: torneios entre os campeões regionais (1921-1926, 1946 e 1947), liga
+   de 1927 a 1938 e desde 1948 (1962 só com a primavera; 1962/63 em diante, outono a primavera). Ficam de fora 1920
+   (abandonado), 1924 (não disputado), 1939 (interrompido pela guerra) e as ligas municipais de 1940-1945. 1951: campeão
+   o Ruch, pela Copa (a Wisła venceu a liga); 1992/93: o Lech, depois dos dois jogos anulados. Bônus de 1986/87 a 1989/90
+   em `ajuste_pontos`. Pronta em 25/11/2026.
+
+   **Próxima: a Noruega** (rank 13). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
 
    **Correções do plano (seção 3 e regras da seção 2.2), feitas em 25/11/2026:**
    - colunas `pontos_empate` e `pontos_derrota` preenchidas no 3-2-1 da Grécia (até 1972/73 e na era antiga) e da Turquia
@@ -513,6 +521,25 @@ em `adjust_points_X` (o leitor comum lê os dois).
   fim do `sys.path` (`append`); com `insert(0, ...)` o `edicoes.py` do outro slug passa na frente.
 - **Pontos de 1993/94:** ainda 2 por vitória (a tabela da RSSSF mostra); a Wikipédia calcula com 3.
 - **Nome curto ambíguo na RSSSF** ("Bohemians" sozinho em 2008/09 = Střížkov): regra por época em `POR_ANO`.
+
+**Polônia, o que serve para outras ligas:**
+- **A RSSSF pode trocar matrizes de lugar** (1922: a do Grupo Sul está sob o Grupo Norte). Sinal: a nota da RSSSF sobre
+  um jogo aparece na matriz do outro grupo e os números calculados batem com os do outro grupo. Conferir com uma terceira
+  fonte (a Wikipédia polonesa tinha as tabelas).
+- **Casar as linhas da RSSSF com a tabela da Wikipédia pelos números (V, E, D, GP, GC)**, não só pela posição: a ordem dos
+  grupos e dos empatados muda entre as fontes (`casar_rs` do `pol-1`).
+- **Linha vazia na tabela da Wikipédia** ("win_X=-"): clube que saiu no meio e teve os jogos anulados (Dąb 1937, Wawel
+  1954). Fica fora da classificação; conta como presente na regra de rebaixamento da temporada anterior.
+- **Bônus em colunas "OT" da Wikipédia** (Polônia 1986/87-1989/90: `OTwin_X`/`OTloss_X` = vitórias e derrotas por 3 ou
+  mais): somar às vitórias e derrotas e pôr a diferença em `ajuste_pontos`.
+- **Pontos divididos por dois antes dos grupos** (Ekstraklasa 2013/14-2019/20): a tabela do grupo da Wikipédia traz os
+  números dos 37 jogos e a divisão em `adjust_points`.
+- **Ogol com o rótulo errado** (Zagłębie Wałbrzych em 1985/86 era o Sosnowiec) **e mando trocado** (o par duas vezes com o
+  mesmo mandante): `OGOL_TEMPORADA` no cadastro e troca pela matriz da Wikipédia quando ela fecha melhor com as tabelas.
+- **Placares trocados entre ida e volta no ogol** (2025/26): a tabela não muda, então só o football-data desempata; testar
+  o par inteiro, não só jogo a jogo.
+- **Heredoc com apóstrofo** ("club's") quebrou o bash: script em arquivo pelo Write.
+
 ## 7. Decisões do Guilherme já tomadas
 
 - Inglês 2025/26 incluído (EN-001).

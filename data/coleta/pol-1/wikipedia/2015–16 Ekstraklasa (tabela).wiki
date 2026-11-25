@@ -1,0 +1,81 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ekstraklasa.org/rozgrywki Ekstraklasa], [https://www.soccerway.com/poland/ekstraklasa-2015-2016/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=LEG |team2=PIA |team3=POG |team4=ZLU |team5=CRA |team6=LPO |team7=LGD |team8=RUC |team9=PBB |team10=KOR |team11=WIS |team12=JAG |team13=SLA |team14=NIE |team15=GKL |team16=GOR
+
+<!--Update team qualifications here (defined below)-->
+|result1=Q |result2=Q |result3=Q |result4=Q |result5=Q |result6=Q |result7=Q |result8=Q 
+|result9=R |result10=R |result11=R |result12=R |result13=R |result14=R |result15=R |result16=R
+
+<!--Update team results here and then (if needed) positions above. Dont forget to update the date (update parameter)-->
+|update=complete
+|win_CRA=12|draw_CRA=9 |loss_CRA=9 |gf_CRA=57|ga_CRA=42 <!-- Cracovia -->
+|win_GKL=8 |draw_GKL=7 |loss_GKL=15|gf_GKL=30|ga_GKL=43 <!-- Górnik Łęczna -->
+|win_GOR=4 |draw_GOR=14|loss_GOR=12|gf_GOR=33|ga_GOR=46 <!-- Górnik Zabrze -->
+|win_JAG=10|draw_JAG=5 |loss_JAG=15|gf_JAG=37|ga_JAG=54 <!-- Jagiellonia Białystok -->
+|win_KOR=9 |draw_KOR=10|loss_KOR=11|gf_KOR=32|ga_KOR=37 <!-- Korona Kielce -->
+|win_LGD=10|draw_LGD=9 |loss_LGD=11|gf_LGD=45|ga_LGD=37 <!-- Lechia Gdańsk -->
+|win_LPO=13|draw_LPO=4 |loss_LPO=13|gf_LPO=37|ga_LPO=38 <!-- Lech Poznań -->
+|win_LEG=17|draw_LEG=9 |loss_LEG=4 |gf_LEG=58|ga_LEG=28 <!-- Legia Warsaw -->
+|win_NIE=8 |draw_NIE=9 |loss_NIE=13|gf_NIE=33|ga_NIE=43 <!-- Nieciecza -->
+|win_PIA=17|draw_PIA=7 |loss_PIA=6 |gf_PIA=49|ga_PIA=36 <!-- Piast Gliwice -->
+|win_PBB=9 |draw_PBB=11|loss_PBB=10|gf_PBB=37|ga_PBB=46 <!-- Podbeskidzie Bielsko-Biała -->
+|win_POG=10|draw_POG=16|loss_POG=4 |gf_POG=36|ga_POG=30 <!-- Pogoń Szczecin -->
+|win_RUC=11|draw_RUC=6 |loss_RUC=13|gf_RUC=37|ga_RUC=46 <!-- Ruch Chorzów -->
+|win_SLA=8 |draw_SLA=10|loss_SLA=12|gf_SLA=28|ga_SLA=37 <!-- Śląsk Wrocław -->
+|win_WIS=8 |draw_WIS=13|loss_WIS=9 |gf_WIS=45|ga_WIS=35 <!-- Wisła Kraków -->
+|win_ZLU=12|draw_ZLU=9 |loss_ZLU=9 |gf_ZLU=41|ga_ZLU=37 <!-- Zagłębie Lubin -->
+
+<!--Head-to-head-->
+|hth_ZLU=Head-to-head record: Zagłębie - Cracovia 4–2, Cracovia - Zagłębie 1–2.
+|hth_CRA=ZLU
+|hth_PBB=Head-to-head record: Lechia 7 points, Ruch 5 points, Podbeskidzie 3 points.
+|hth_RUC=PBB
+|hth_LGD=PBB
+
+<!--Point adjustment-->
+|adjust_points_GOR=-1
+|adjust_points_WIS=-1
+|adjust_points_RUC=-1
+|adjust_points_LGD=-1
+
+<!--Team notes-->
+|note_WIS=Wisła Kraków were punished with a deduction of one point for failing with licensing requirements.<ref name="deduction1">{{cite web | url=http://www.90minut.pl/news/242/news2422376-Komunikat-Komisji-ds-Licencji-Klubowych.html |title=Komunikat Komisji ds. Licencji Klubowych| publisher=90minut.pl | access-date = 24 July 2015}}</ref><ref name="deduction2">{{cite web | url=http://www.90minut.pl/news/244/news2447097-Gornik-ukarany-przez-PZPN.html.html |title=Górnik ukarany przez PZPN| publisher=90minut.pl | access-date = 24 July 2015}}</ref><ref name="deduction3">{{cite web | url=http://www.90minut.pl/news/246/news2460580-Komunikat-Komisji-ds-Licencji-Klubowych.html |title=Komunikat Komisji ds. Licencji Klubowych| publisher=90minut.pl | access-date = 24 July 2015}}</ref> 
+|note_GOR=Górnik Zabrze were punished with a deduction of one point for failing with licensing requirements.<ref name="deduction1"/><ref name="deduction2"/><ref name="deduction3"/>
+|note_RUC=Ruch Chorzów were punished with a deduction of one point for failing with licensing requirements.<ref name="deduction4">{{cite web | url=http://www.90minut.pl/news/261/news2613744-Lechia-i-Ruch-ukarane-ujemnymi-punktami.html |title=Lechia i Ruch ukarane ujemnymi punktami| publisher=90minut.pl | access-date = 6 February 2016}}</ref>
+|note_LGD=Lechia Gdańsk were punished with a deduction of one point for failing with licensing requirements.<ref name="deduction4"/> On 8 April 2016 the punishment was suspended by Polish Court of Arbitration for Sport.<ref>{{cite web | url=http://www.90minut.pl/news/264/news2642898-Kara-ujemnego-punktu-dla-Lechii-wstrzymana.html |title=Kara ujemnego punktu dla Lechii wstrzymana| publisher=90minut.pl | access-date = 8 April 2016}}</ref> On April 11 an appeal against the original decision was withdrawn by the club.<ref>{{cite web | url=http://www.90minut.pl/news/264/news2644328-Lechia-wycofala-skarge-do-Trybunalu-Arbitrazowego-ds-Sportu.html |title=Lechia wycofała skargę do Trybunału Arbitrażowego ds. Sportu| publisher=90minut.pl | access-date = 11 April 2016}}</ref>
+
+<!--Team definitions (wikilinks in table)-->
+|name_CRA=[[KS Cracovia|Cracovia]]
+|name_GKL=[[Górnik Łęczna]]
+|name_GOR=[[Górnik Zabrze]]
+|name_JAG=[[Jagiellonia Białystok]]
+|name_KOR=[[Korona Kielce]]
+|name_LGD=[[Lechia Gdańsk]]
+|name_LPO=[[Lech Poznań]]
+|name_LEG=[[Legia Warsaw]]
+|name_NIE=[[LKS Nieciecza|Nieciecza]]
+|name_PIA=[[Piast Gliwice]]
+|name_PBB=[[Podbeskidzie Bielsko-Biała]]
+|name_POG=[[Pogoń Szczecin]]
+|name_RUC=[[Ruch Chorzów]]
+|name_SLA=[[Śląsk Wrocław]]
+|name_WIS=[[Wisła Kraków]]
+|name_ZLU=[[Zagłębie Lubin]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Fairplay ranking; 9) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played).<ref>{{cite web|url=http://www.ekstraklasa.org/data/stories/files/Regulamin%20rozgrywek%202015-2016%20-%20oficjalny.pdf |title=REGULAMIN ROZGRYWEK PIŁKARSKICH O MISTRZOSTWO EKSTRAKLASY NA SEZON 2015/2016 I NASTĘPNE |work=ekstraklasa.org |publisher=[[Polish Football Association]] |format=pdf |access-date=20 July 2015 |language=pl}}</ref><ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=11769&view=rules |title=Ekstraklasa 2015/2016 - Season rules |publisher=Scoresway |access-date=20 July 2015}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_Q=green1 |text_Q=Qualification for the [[2015–16 Ekstraklasa#Championship round|championship round]]
+|col_R=red1   |text_R=Qualification for the [[2015–16 Ekstraklasa#Relegation round|relegation round]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Poland football standings templates]]
+</noinclude>
