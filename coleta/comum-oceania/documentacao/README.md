@@ -10,7 +10,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Taitiano | 79 (1948–2025/26) | 48 | 2647 | 113 | 0 | 35 | 23 / 0 | sim | 8f154e12 | 0 | [tah-1](tah-1.md) |
 | Campeonato Neocaledônio | 76 (1950–2026) | 40 | 2472 | 188 | 0 | 63 | 21 / 4 | sim | 8f154e12 | 0 | [ncl-1](ncl-1.md) |
 | Campeonato Fijiano | 50 (1977–2026) | 22 | 2177 | 194 | 0 | 17 | 20 / 1 | sim | 8fa059a3 | 0 | [fij-1](fij-1.md) |
-| Campeonato Papua-Nova-Guineense | 19 (2006–2026) | 0 | 1336 | 503 | 0 | 78 | 15 / 3 | não | — | 0 | [png-1](png-1.md) |
+| Campeonato Papua-Nova-Guineense | 19 (2006–2026) | 0 | 1336 | 503 | 0 | 78 | 15 / 3 | sim | 60aaa017 | 0 | [png-1](png-1.md) |
+| Campeonato Salomonense | 25 (2000–2025) | 4 | 1464 | 97 | 0 | 62 | 16 / 4 | não | — | 0 | [sol-1](sol-1.md) |
 
 ## Pendências de todas as competições
 
@@ -36,6 +37,12 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **png-1:** 2021 fora (abandonada, sem campeão); o campeonato amador de clubes (1976-2005) e a National Premier League rebelde (2017-2018) não entram: podem virar competições à parte.
 - **png-1:** Autores dos gols em poucas temporadas (a RSSSF quase não traz); artilheiros, cartões, estádio e público não coletados.
 - **png-1:** Cidade desconhecida de alguns clubes regionais de 2019 e 2022 (fica só a província).
+- **sol-1:** 2000-2002 só com o campeão; 2004 só com a final (W.O.); 2011/12 só a tabela final; 2012/13 não houve.
+- **sol-1:** 2026 fora até o título sair (depende de punições pendentes na federação: Green Shield ou Central Coast).
+- **sol-1:** 2015/16: campeão Western United pela RSSSF (playoff final); a Wikipédia dá o Solomon Warriors (1º da fase regular).
+- **sol-1:** Jogos sem placar na página ("drw", "bt", "lt", "unk") em 2005/06, 2006/07, 2009/10, 2010/11 e 2015/16, explicados na conferência.
+- **sol-1:** Cidade desconhecida da maioria dos clubes das províncias (fica só a província); a do Kula FC também.
+- **sol-1:** Autores dos gols só em parte de 2005/06-2009/10; artilheiros, cartões, estádio e público não coletados.
 
 ## Próximas competições
 

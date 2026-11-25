@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1", "fij-1", "png-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
-PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl", "fij-1": "fij", "png-1": "png"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1", "fij-1", "png-1", "sol-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
+PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl", "fij-1": "fij", "png-1": "png", "sol-1": "sol"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -69,6 +69,15 @@ PENDENCIAS: dict[str, list[str]] = {
         "(2017-2018) não entram: podem virar competições à parte.",
         "Autores dos gols em poucas temporadas (a RSSSF quase não traz); artilheiros, cartões, estádio e público não coletados.",
         "Cidade desconhecida de alguns clubes regionais de 2019 e 2022 (fica só a província).",
+    ],
+    "sol-1": [
+        "2000-2002 só com o campeão; 2004 só com a final (W.O.); 2011/12 só a tabela final; 2012/13 não houve.",
+        "2026 fora até o título sair (depende de punições pendentes na federação: Green Shield ou Central Coast).",
+        "2015/16: campeão Western United pela RSSSF (playoff final); a Wikipédia dá o Solomon Warriors (1º da fase regular).",
+        "Jogos sem placar na página (\"drw\", \"bt\", \"lt\", \"unk\") em 2005/06, 2006/07, 2009/10, 2010/11 e 2015/16, "
+        "explicados na conferência.",
+        "Cidade desconhecida da maioria dos clubes das províncias (fica só a província); a do Kula FC também.",
+        "Autores dos gols só em parte de 2005/06-2009/10; artilheiros, cartões, estádio e público não coletados.",
     ],
 }
 

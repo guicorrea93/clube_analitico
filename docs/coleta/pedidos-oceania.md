@@ -154,7 +154,7 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    jogos, 78 clubes, 4.701 gols, 503 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e uma página por temporada),
    Wikipédia em inglês (2ª fonte do campeão: bate em todos os anos) e ogol (datas e grafia para os escudos, 2013-2026).
    Conferência: todas as tabelas fecham com a soma dos jogos, salvo 2023, 2025 e 2026 (jogos sem placar na página, explicados).
-2. **Commits:** (preencher depois do "sim" do Guilherme; sem push).
+2. **Commits:** `60aaa017` (com o ok do Guilherme em 25/11; sem push; leva também as anotações do `8fa059a`).
 3. **Teste de carga:** `png-1: 19 edições, 1336 jogos, 78 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `png-1`; país novo `PNG` (Papua-Nova Guiné, OFC). Nunca foi à Copa: **falta a bandeira**;
@@ -182,3 +182,41 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    United x Gigira Laitepo United (2015/16); Southern Strikers = Port Moresby Strikers; os jogos abandonados (2006, 2014, 2019,
    2022) e a derrota dupla de 2018; a ordem dos eliminados do mata-mata na classificação (entre eles, a melhor campanha antes).
 8. **Próxima competição:** Ilhas Salomão (`sol-1`), quando o Guilherme mandar.
+
+## Recado de fim de coleta — sol-1 — 25/11/2026
+
+1. **O que foi feito:** Campeonato Salomonense (`sol-1`), 25 edições (2000 a 2025, sem 2012/13, que não houve), 21 com
+   jogos; 1.464 jogos, 62 clubes, 5.857 gols, 97 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e uma página por
+   temporada), Wikipédia em inglês (2ª fonte do campeão: bate em todos os anos, menos 2015/16, decidido) e ogol (datas e
+   grafia para os escudos; 31 dos 62 clubes). Conferência: as tabelas fecham com a soma dos jogos, salvo 2005/06, 2006/07,
+   2009/10 e 2010/11 (jogos sem placar na página ou tabela parcial, explicados).
+2. **Commits:** "Coleta Oceania: Campeonato Salomonense (sol-1)" (com o ok do Guilherme em 25/11; **no GitHub**, junto com as anotações do `60aaa017`).
+3. **Teste de carga:** `sol-1: 25 edições, 1464 jogos, 62 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `sol-1`; país novo `SOL` (Ilhas Salomão, OFC). Nunca foi à Copa: **falta a bandeira**;
+   - competição "Campeonato Salomonense" (menu "Ilhas Salomão · 1ª divisão"); pontuação 3-1-0;
+   - duas eras: o campeonato nacional de clubes (2000 a 2009/10: "Fase de grupos" com grupos "A", "B", "C" e mata-mata) e a
+     S-League (2010/11 a 2025: "Fase única"; em 2015/16 e 2017/18 "Fase regular" e o playoff dos 8 primeiros: quartas em ida e
+     volta, semifinal, 3º lugar e final);
+   - 4 edições sem jogos: 2000, 2001 e 2002 só com o campeão; 2011/12 só com a tabela; 2004 só com a final (W.O.);
+   - 2015/16: campeão o Western United (playoff final; o Solomon Warriors, 1º da fase regular, vem na observação);
+   - vitórias dadas fora de campo com o placar de campo na observação (2010/11, 2013/14 com o Marist desclassificado, 2016
+     com o Koloale suspenso, 2025 com as 8 derrotas do Southern United); jogos abandonados ("abd") em 2005/06, 2008/09 e 2025;
+   - região = província ("Honiara" para a capital); cidade vazia na maioria dos clubes das províncias;
+   - escudos: calendários do ogol em `data/cache/ogol-sol-1/` (sem 2016, 2018 e 2020/21).
+5. **Decisões** (Guilherme, 25/11, depois de pesquisa a fundo): a 1ª divisão é o campeonato nacional de clubes (2000 a
+   2009/10) e a S-League (2010/11 a 2025); fora a liga de Honiara (1947-1999), a "S-League" de franquias de 2004 e 2005, a
+   Solomon Cup e o Interprovincial (seleções de província), o Knockout Championship, os playoffs da OFC e 2026 (título
+   pendente de punições); 2015/16 = Western United; 2024 = Central Coast (o ogol dá o Real Kakamora); mesmos clubes:
+   Solomon Warriors = Uncles, Marist = Marist Fire, KOSSA, Makuru, Real Kakamora, Laugu United, Central Coast; homônimos do
+   banco com a cidade ou a província: "Southern United Honiara", "Northern United Malaita", "Kula FC (Ilhas Salomão)" (a
+   cidade do Kula não foi achada); Western United e Central Coast sem a cidade (não colidem com nada no banco hoje; **se o
+   agente da Ásia carregar a A-League, os dele vão colidir**). Correções com motivo em `coleta/sol-1/explicacoes.py`. Nada
+   esperando o Guilherme.
+6. **O que não deu para coletar:** jogos de 2000-2002, 2004 (só a final) e 2011/12; jogos sem placar na página (2005/06,
+   2006/07, 2009/10, 2010/11, o jogo de volta Western United x Real Kakamora e o 3º lugar de 2015/16); autores dos gols (só
+   parte de 2005/06-2009/10), artilheiros, cartões, estádio e público; a cidade da maioria dos clubes das províncias.
+7. **Onde a revisão deve olhar primeiro:** 2015/16 (o campeão pelo playoff x o 1º da fase regular); 2026 quando o título
+   sair; Malaita Kingz x Auki Kingz (separados, sem fonte que ligue); a classificação das edições com grupos e mata-mata
+   (ordem dos eliminados); 2013/14 (Marist desclassificado, jogos de campo trocados por 0-3).
+8. **Próxima competição:** Vanuatu (`van-1`), quando o Guilherme mandar.

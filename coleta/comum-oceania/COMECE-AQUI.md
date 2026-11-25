@@ -4,7 +4,7 @@ Para o agente de coleta Oceania (países da OFC) que for continuar este trabalho
 `docs/agentes-internacionais-COMECE-AQUI.md` (formato do pacote, pastas de cada agente, identidade dos clubes e as regras
 da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 24/11/2026.
+Última atualização: 25/11/2026.
 
 ## 1. Escopo e regras
 
@@ -34,7 +34,8 @@ da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e d
 | `tah-1` Taitiano | 79 (1948–2025/26; 31 com jogos) | 2.647 | 35 | 82549d6 | não |
 | `ncl-1` Neocaledônio | 76 (1950–2026, sem 1955 e 2024; 36 com jogos) | 2.472 | 63 | 8f154e1 | não |
 | `fij-1` Fijiano | 50 (1977–2026; 28 com jogos) | 2.177 | 17 | 8fa059a | não |
-| `png-1` Papua-Nova-Guineense | 19 (2006–2026, sem 2021) | 1.336 | 78 | (sem commit) | não |
+| `png-1` Papua-Nova-Guineense | 19 (2006–2026, sem 2021) | 1.336 | 78 | 60aaa017 | não |
+| `sol-1` Salomonense | 25 (2000–2025, sem 2012/13; 21 com jogos) | 1.464 | 62 | "Campeonato Salomonense (sol-1)", no GitHub | não |
 
 Números de gols, conferência e cobertura: `coleta/comum-oceania/documentacao/` (gerada por `documentar.py`). Detalhe edição a
 edição: `docs/coleta/nzl-1.md`.
@@ -48,10 +49,12 @@ edição: `docs/coleta/nzl-1.md`.
    agente 1 carregar. Recado no fim de `docs/coleta/pedidos-oceania.md`. Fiji depois.
 4. **Fiji (`fij-1`): commitado em 24/11 (`8fa059a`, sem push)**; falta o agente 1 carregar. Recado no fim de
    `docs/coleta/pedidos-oceania.md`.
-5. **Papua-Nova Guiné (`png-1`): pacote pronto em 24/11, esperando o "sim" do Guilherme para o commit**; teste de carga OK.
-   Recado no fim de `docs/coleta/pedidos-oceania.md`. **Próxima: Ilhas Salomão (`sol-1`)**, quando ele mandar; antes,
-   pesquisa a fundo e as decisões de escopo.
-6. Depois, na ordem: `van-1`, `sam-1`, `tga-1`, `asa-1`,
+5. **Papua-Nova Guiné (`png-1`): commitada em 25/11 (`60aaa017`, no GitHub)**; falta o agente 1 carregar; teste de carga OK.
+   Recado no fim de `docs/coleta/pedidos-oceania.md`.
+6. **Ilhas Salomão (`sol-1`): commitada e no GitHub em 25/11**; falta o agente 1 carregar; teste de carga OK.
+   Recado no fim de `docs/coleta/pedidos-oceania.md`. **Próxima: Vanuatu (`van-1`)**, quando ele mandar; antes, pesquisa a
+   fundo e as decisões de escopo.
+7. Depois, na ordem: `van-1`, `sam-1`, `tga-1`, `asa-1`,
    `cok-1`. Tuvalu e Kiribati ficam de fora por enquanto (aprovado em 23/11; entram no fim se ele quiser).
 
 ### Decisões do Guilherme (23/11)
@@ -87,6 +90,17 @@ edição: `docs/coleta/nzl-1.md`.
   Morobe Kumuls (2007/08); o "Gigira Laitepo United" de 2015/16 (zona sul) é outra franquia; Southern Strikers = Port Moresby
   Strikers; o "Besta PNG FA Under-20" (2009/10, 2010/11) é o Besta PNG United; "Madang Besta" (2007/08) = Besta Madang
   Fighters; "Oro FC" (o "Oro" do banco é do México).
+- Ilhas Salomão (25/11, depois de pesquisa a fundo): 1ª divisão = o campeonato nacional de clubes (2000 a 2009/10: torneio
+  curto com os melhores de Honiara e os campeões das províncias) e a S-League (2010/11 a 2025), como a lista de campeões da
+  RSSSF; fora a liga de Honiara (1947-1999, regional, só campeões), a "S-League" de franquias de Honiara (2004 e 2005), a
+  Solomon Cup e o Interprovincial (seleções de província), o Knockout Championship e os playoffs da OFC; 2000-2002 e 2004
+  só com o campeão (2004 com a final por W.O.), 2011/12 só a tabela, 2012/13 não houve; 2026 fora até o título sair
+  (depende de punições pendentes); 2015/16 = Western United (playoff final, RSSSF; o Solomon Warriors, campeão pela
+  Wikipédia, foi o 1º da fase regular); 2024 = Central Coast (RSSSF e Wikipédia; o ogol dá o Real Kakamora); mesmos clubes:
+  Solomon Warriors = Uncles = Wantoks, Marist = Marist Fire = Systek Kingz, KOSSA = Fair West, Makuru = JP Su'uria, Real
+  Kakamora = Kakamora FC (a seleção de Makira é outra), Laugu United = Blue Boys, Central Coast = CY Strikers, Ghupo = Ghupo
+  Wantoks; homônimos de outros países levam a cidade ("Western United Honiara", "Central Coast Honiara", "Southern United
+  Honiara"; Kula FC idem se a cidade se confirmar), só quando o nome já existe no banco; pontuação 3-1-0.
 
 ### Como a NZ foi feita (modelo para as próximas)
 
@@ -165,6 +179,15 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   - 2019/20 vai de dezembro de 2019 a outubro de 2020: `ler.CORTE` (mês a partir do qual a data é do 1º ano);
   - no ogol o rótulo da edição às vezes é o ano vizinho (mapa conferido em `baixar_ogol.py`); em 2015/16 o ogol chama o PS
     Huawei de "Huawey Eastern Stars" e o Gigira Laitepo United de "Gigira Laitepo Morobe" (ficam sem clube, de propósito).
+- **Ilhas Salomão (25/11):**
+  - as páginas da RSSSF ficam em `tabless/` (não `tablesp/`) e têm o nome do ano em que a temporada termina (`solom2016` =
+    2015/16, `solom2017` = 2016; não existe `solom2014`); `solom06` traz o campeonato de fev/2006, que a lista chama de 2005/06;
+  - "Pool A"/"Pool B" viram "Group A" em `ler.linhas` (o leitor comum só reconhece "Group"); sem isso os jogos ficam sem grupo;
+  - "awarded 0-3; originally 2-1": `ler.ler` põe o placar de campo da nota (o oficial fica em `gm_of`);
+  - desclassificado na tabela com "-." no lugar da posição e uma linha solta de "playing record" embaixo (2013/14):
+    `CONSERTA_TEXTO` numera e transforma a linha solta em nota;
+  - notas que continuam ao lado de outros jogos (2009/10, 2010/11, 2025) e escondem data ou "Round N": `CONSERTA_TEXTO`;
+  - nada de ogol para 2016, 2018 e 2020/21; os rótulos das edições do ogol estão trocados (mapa em `baixar_ogol.py`).
 - `_junta` (importadores do Taiti, da Nova Caledônia e de Fiji) agora copia a tabela antes de juntar os pedaços (antes
   alterava a original).
 - **Nova Caledônia (24/11):**
@@ -186,4 +209,5 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   - seleções de base do Taiti jogaram a liga (U-17, U-19, U-20).
 - Homônimos já no banco: "Central" (BRA), "Miramar" (URU), "Rangers" (SCO), "Hamilton Academical" (SCO): os da NZ levam
   o nome completo ou a cidade ("Central United", "Miramar Rangers"); "Oro" (MEX): o de PNG é "Oro FC"; "Central United"
-  (NZL): o de PNG é "Central United Port Moresby".
+  (NZL): o de PNG é "Central United Port Moresby"; "Southern United" (NZL), "Northern United" (GHA) e "Kula" (PNG): os das
+  Ilhas Salomão são "Southern United Honiara", "Northern United Malaita" e "Kula FC (Ilhas Salomão)".

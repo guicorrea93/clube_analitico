@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 - **Jogos:** 1336 (1329 com placar); **gols:** 4701; **gols com autor:** 503 (11%); **cartões:** 0.
 - **Clubes:** 78; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 19 edições; **tabelas publicadas guardadas para conferência:** 200 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** 60aaa017.
 - **Observação da competição:** 1ª divisão de Papua-Nova Guiné desde 2006: a National Soccer League, semiprofissional, rebatizada Premier Soccer League em 2023, uma edição por título, como na lista de campeões da RSSSF (2021, abandonada, fica de fora). Fase regular (ou conferências regionais) e o mata-mata dos primeiros. O campeonato amador de clubes (1976-2005) não entra.
 
 ## 2. Edições, fontes e regras
