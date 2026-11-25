@@ -116,6 +116,10 @@ O agente 1 baixa os escudos pelos calendários do ogol/zerozero que **vocês gua
 
 ## 7. Ordem de trabalho
 
+**Desde 25/11/2026 vale o `docs/coleta/plano-de-coleta.md`:** 1ª divisão de todas as federações pelo ranking da
+confederação, depois as copas nacionais, depois as 2ªs divisões e o resto. A lista abaixo é a sugestão antiga, mantida
+só como histórico.
+
 - **Europa:** `eng-1`, `esp-1`, `ita-1`, `ger-1`, `fra-1`, `por-1`, `ned-1`; depois Escócia, Bélgica e Turquia;
   depois as 2ªs divisões das cinco grandes. As 2ªs divisões são o que faz aparecer, no painel, quem subiu e quem caiu.
 - **América do Sul:** `arg-1`, `uru-1`, `chi-1`, `col-1`, `par-1`, `per-1`, `ecu-1`, `bol-1`, `ven-1`; depois as 2ªs divisões.
