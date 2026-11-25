@@ -1036,11 +1036,23 @@ VICES_RSSSF: dict[str, str] = {}
 CAMPEOES_MANUAIS: dict[str, tuple[str, str]] = {}
 # títulos divididos (D-07): temporada -> clubes campeões; o 1º fica em campeao e o outro na coluna co_campeao de
 # edicoes.csv (formato do agente 1, 23/11)
-CAMPEOES_DIVIDIDOS: dict[str, list[str]] = {}
+CAMPEOES_DIVIDIDOS: dict[str, list[str]] = {
+    "1918": ["Brasil de Pelotas", "Cruzeiro-RS", "14 de Julho"],   # campeões honoríficos (FGF, 2021)
+}
+# edições sem jogos (edicoes.SEM_JOGOS): temporada -> (campeão, vice), cada um o código do ogol ou "rs:<nome>" (vice vazio:
+# não houve). 1918: os campeões honoríficos que a FGF reconheceu em 2021 (Wikipédia), Brasil de Pelotas, Cruzeiro (o de
+# Porto Alegre, 15853, como nas outras temporadas) e 14 de Julho de Livramento; os outros dois em CAMPEOES_DIVIDIDOS
+PODIO_SEM_JOGOS: dict[str, tuple[str, str]] = {"1918": ("3157", "")}
+
+
+def codigo_podio(c: str) -> str:
+    return clubes_rs1.sem_ogol(c[3:], inteiro=True) if c.startswith("rs:") else c
 # edição sem vice (vazio em edicoes.csv): temporada -> motivo
 SEM_VICE: dict[str, str] = {}
 # observação de cada edição (coluna "observacao" de edicoes.csv)
 OBS_EDICAO: dict[str, list[str]] = {
+    "1918": ["campeonato suspenso pela gripe espanhola; em 2021 a FGF reconheceu Brasil de Pelotas, Cruzeiro e 14 de Julho "
+             "como campeões honoríficos (Wikipédia)"],
     "1930": ["organizado pela FAGET (Federação Atlética Gaúcha de Esportes Terrestres): a FRGD não conseguiu organizar o "
              "seu campeonato"],
 }

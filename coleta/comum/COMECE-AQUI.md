@@ -76,7 +76,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.214 | ada0940; A2-015 (parte C) neste commit (24/11); plano da A2 concluído | sim; recarregar | OK (1 clube novo) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | be07b131 (25/11) | não; carregar | OK (64 clubes novos) |
-| `bra-rs-1` Gaúcho | 106 (1919–2026; sem 1918, 1923 e 1924) | 13.393 | 3a0ffbba; nome do SE São Borja corrigido neste commit (25/11) | não; carregar | OK (105 clubes novos) |
+| `bra-rs-1` Gaúcho | 107 (1918–2026; 1918 sem jogos, com os campeões honoríficos; sem 1923 e 1924) | 13.393 | 3a0ffbba, a2db8a40; 1918 neste commit (25/11) | sim; recarregar | CONFERIR só pelo `co_campeao` de 1918 (dois clubes) |
 | `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | a2db8a40 (25/11) | não; carregar | OK (104 clubes novos) |
 | `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | neste commit (25/11) | não; carregar | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
@@ -136,8 +136,8 @@ seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta
 `docs/coleta/pedidos.md`. Autores pela ficha do ogol e jornais da A2: só se o Guilherme pedir.
 
 1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
-   Próximo: o Goiano (`bra-go-1`), 7º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme. A fazer: o
-   Gaúcho de 1918 como edição sem jogos (mesma decisão do Cearense, abaixo), com os três campeões honoríficos.
+   Gaúcho de 1918 incluído como edição sem jogos (25/11). Próximo: o Goiano (`bra-go-1`), 7º do RNF; antes, pesquisa a
+   fundo e proposta de escopo ao Guilherme.
    **Escopo do Cearense, aprovado pelo Guilherme em 25/11:**
    - 1915 a 2026, 112 edições (a conta da FCF e da Wikipédia). Ficam fora 1913 (campeão desconhecido) e 1914 (Rio
      Branco; a FCF não reconhece e a RSSSF duvida que tenha existido). 1915-1919 (Liga Metropolitana) entram: a FCF

@@ -1293,3 +1293,16 @@ relatório ano a ano: `docs/coleta/bra-ce-1.md`.
 
 Também neste commit:
 - **Paranaense:** a introdução do relatório (`coleta/bra-pr-1/explicacoes.py` e `docs/coleta/bra-pr-1.md`) tinha ficado com o texto do Gaúcho; agora descreve o Paraná. O pacote não muda.
+
+## Gaúcho de 1918 — bra-rs-1 — 25/11/2026
+
+Para o agente 1 e a revisão. Pela decisão do Guilherme sobre as edições sem jogos (a mesma do Cearense), o Gaúcho ganha a
+edição de 1918: o campeonato foi suspenso pela gripe espanhola e em 2021 a FGF reconheceu Brasil de Pelotas, Cruzeiro (o
+de Porto Alegre, hoje em Cachoeirinha: "Cruzeiro-RS") e 14 de Julho como campeões honoríficos (Wikipédia).
+
+- `edicoes.csv`: 1918 sem jogos, `campeao` Brasil de Pelotas, `co_campeao` "Cruzeiro-RS / 14 de Julho", sem vice, com a nota.
+  Nenhuma outra linha do pacote muda (só `edicoes.csv` e `conferencia.csv` ganham a linha de 1918).
+- Teste de carga: `bra-rs-1: 107 edições, 13393 jogos, 0 clubes novos -> CONFERIR`, só pelo `co_campeao` com dois clubes
+  (o mesmo pedido do Cearense: aceitar a lista separada por " / ").
+- **Pedido:** recarregar `bra-rs-1`.
+- Commit: o desta seção (`Gaúcho: 1918 como edição sem jogos, com os campeões honoríficos`).

@@ -11,7 +11,8 @@ from collections import Counter, defaultdict
 
 import clubes_rs1
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
-from importar import CAMPEOES_DIVIDIDOS, OBS_EDICAO, ORDEM, SEM_VICE, fonte_rsssf, nome, pontos_vitoria
+from importar import (CAMPEOES_DIVIDIDOS, OBS_EDICAO, ORDEM, PODIO_SEM_JOGOS, SEM_VICE, codigo_podio, fonte_rsssf, nome,
+                      pontos_vitoria)
 from observacao import obs_pt
 from rsssf_rs1 import rsssf
 
@@ -161,9 +162,16 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                                                ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"]))) if ok)
         obs = list(OBS_EDICAO.get(str(ano), []))
         # título dividido (D-07): o outro campeão na coluna co_campeao (formato do agente 1, 23/11)
-        co_campeao = " / ".join(n for n in CAMPEOES_DIVIDIDOS.get(str(ano), []) if n != (nome(campeao) if campeao else ""))
+        nome_campeao = nome(campeao) if campeao else ""
+        if not ps and str(ano) in PODIO_SEM_JOGOS:   # edição sem jogos (1918): o pódio da lista
+            cods = [codigo_podio(c) for c in PODIO_SEM_JOGOS[str(ano)] if c]
+            usados.update(cods)
+            nome_campeao, vice = nome(cods[0]), (nome(cods[1]) if len(cods) > 1 else "")
+            fontes, num_clubes = "Wikipédia", ""
+            obs.insert(0, "edição sem jogos")
+        co_campeao = " / ".join(n for n in CAMPEOES_DIVIDIDOS.get(str(ano), []) if n != nome_campeao)
         linhas_e.append([str(ano), int(str(ano)[:4]), int(str(ano)[:4]), NOME_OFICIAL.get(ano, NOME_PADRAO), num_clubes, pontos_vitoria(ano),
-                         formato(desenho), nome(campeao) if campeao else "", vice, co_campeao, fontes, "; ".join(obs)])
+                         formato(desenho) if ps else "", nome_campeao, vice, co_campeao, fontes, "; ".join(obs)])
         ng = sum((p.gm or 0) + (p.gv or 0) for p in ps)
         conf = e["conf"]
         linhas_conf.append([str(ano), len(ps), len(e["og"]) or "", conf["ok"], conf["dif"], ng, sum(len(p.gols) for p in ps),

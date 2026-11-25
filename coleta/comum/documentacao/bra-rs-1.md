@@ -4,7 +4,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 1. O que temos
 
-- **Edições:** 106, de 1919 a 2026.
+- **Edições:** 107, de 1918 a 2026; sem nenhum jogo: 1918.
 - **Jogos:** 13393; **gols:** 31393; **gols com autor:** 3843 (12%); **cartões:** 0.
 - **Clubes:** 136; **artilheiros:** 66 temporadas com artilheiro (76 linhas, com empates).
 - **Classificação final:** 106 temporadas; **rodada a rodada:** 20 temporadas.
@@ -24,7 +24,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 - Cada temporada é comparada com as tabelas publicadas (RSSSF): 230 tabelas fecham com os jogos e 159 divergem (cada divergência é explicada no relatório, na temporada).
 - Temporadas com alguma tabela divergente: 1950, 1963, 1964, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1986, 1987, 1988, 1989, 1990, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 2000, 2001, 2002, 2007, 2009, 2010, 2011, 2012, 2024.
-- Temporadas sem tabela para conferir: 1919, 1920, 1922, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 2013, 2025, 2026.
+- Temporadas sem tabela para conferir: 1918, 1919, 1920, 1922, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 2013, 2025, 2026.
 - Temporadas com menos jogos do que o ogol: 2011 (135 de 136).
 
 ## 4. Cobertura de cada campo, por década
@@ -52,6 +52,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Número de clubes:**
 
+- 1918:  clubes
 - 1919: 2 clubes
 - 1920: 3 clubes
 - 1921: 5 clubes
@@ -121,15 +122,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Pontos por vitória:**
 
-- 1919 a 1994: 2
+- 1918 a 1994: 2
 - 1995 a 2026: 3
 
 **Nome oficial:**
 
-- 1919 a 2026: Campeonato Gaúcho
+- 1918 a 2026: Campeonato Gaúcho
 
 **Formato de cada edição** (fases na ordem; grupos; mata-mata):
 
+- 1918: 
 - 1919: mata-mata
 - 1920 a 1922: pontos corridos
 - 1925 a 1928: 3 grupos + mata-mata
@@ -197,6 +199,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Observações das edições:**
 
+- 1918: edição sem jogos; campeonato suspenso pela gripe espanhola; em 2021 a FGF reconheceu Brasil de Pelotas, Cruzeiro e 14 de Julho como campeões honoríficos (Wikipédia)
 - 1930: organizado pela FAGET (Federação Atlética Gaúcha de Esportes Terrestres): a FRGD não conseguiu organizar o seu campeonato
 
 ## 6. Campeões, acessos, rebaixados e punições
@@ -205,8 +208,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 - Internacional: 46
 - Grêmio: 44
+- Brasil de Pelotas: 2
 - Guarany de Bagé: 2
-- Brasil de Pelotas: 1
 - Bagé: 1
 - Americano-RS: 1
 - Cruzeiro-RS: 1
@@ -240,6 +243,7 @@ Registradas nos módulos de `coleta/bra-rs-1/`; cada uma também aparece no rela
 
 ### Observações das edições (`importar.OBS_EDICAO`)
 
+- **1918:** campeonato suspenso pela gripe espanhola; em 2021 a FGF reconheceu Brasil de Pelotas, Cruzeiro e 14 de Julho como campeões honoríficos (Wikipédia)
 - **1930:** organizado pela FAGET (Federação Atlética Gaúcha de Esportes Terrestres): a FRGD não conseguiu organizar o seu campeonato
 
 ### Clube trocado pelo ogol numa temporada (código -> código) (`importar.CORRIGE_OGOL`)
@@ -471,8 +475,13 @@ Registradas nos módulos de `coleta/bra-rs-1/`; cada uma também aparece no rela
 - **Brazil P:** Brasil/P
 - **Brazil F:** Brasil/F
 
+### Títulos divididos (D-07) (`importar.CAMPEOES_DIVIDIDOS`)
+
+- **1918:** Brasil de Pelotas / Cruzeiro-RS / 14 de Julho
+
 ### Páginas da RSSSF corrigidas na leitura (`rsssf.CORRECOES`, registradas em `coleta/bra-rs-1/rsssf_*.py`)
 
+- **rs1918.htm:** data com o mês por extenso na frente do jogo; data "09 Oct" sem colchete na frente do jogo (páginas antigas); data "10-Abr-1960" na frente de cada jogo, vários na mesma linha; jogos em duas colunas com a data "26/02/89-" colada; "9. RI" / "9.Regimento" (o clube do 9º Regimento de Infantaria): o leitor comum recusa nome com número; lê "Nono RI" e ler() devolve "9º RI"; "14 Livramento": o 14 de Julho de Livramento; cidade de três letras entre parênteses ("BRASIL(PEL)", "BRASIL(FAR)", "GUARANY(GAR)"): o leitor comum tira o parêntese do fim do nome; vira "BRASIL/PEL"; pênaltis repetidos na súmula (o jogo da lista já tem); pênaltis numa linha depois do jogo ("Pk: Cruzeiro 5-4"): vira nota do jogo de cima; linha "Prorrogação: ..." depois do jogo vira nota dele; data colada ao nome ("[Fev 27]São Luiz"); ano com dois dígitos depois da data ("[Dez 28] 52 ..."); placar com travessão ("1–2"); frase ("X are qualified ..."), não título de fase; público "Att: 535" (o leitor lê "att:"); posição na tabela com "°" / "º" ("1° Grêmio"); "Classificação Final - Primeira Fase:" é o título da tabela, não uma fase nova; linha de tabela de clube empatado sem o número da posição
 - **rs1919.htm:** data com o mês por extenso na frente do jogo; data "09 Oct" sem colchete na frente do jogo (páginas antigas); data "10-Abr-1960" na frente de cada jogo, vários na mesma linha; jogos em duas colunas com a data "26/02/89-" colada; "9. RI" / "9.Regimento" (o clube do 9º Regimento de Infantaria): o leitor comum recusa nome com número; lê "Nono RI" e ler() devolve "9º RI"; "14 Livramento": o 14 de Julho de Livramento; cidade de três letras entre parênteses ("BRASIL(PEL)", "BRASIL(FAR)", "GUARANY(GAR)"): o leitor comum tira o parêntese do fim do nome; vira "BRASIL/PEL"; pênaltis repetidos na súmula (o jogo da lista já tem); pênaltis numa linha depois do jogo ("Pk: Cruzeiro 5-4"): vira nota do jogo de cima; linha "Prorrogação: ..." depois do jogo vira nota dele; data colada ao nome ("[Fev 27]São Luiz"); ano com dois dígitos depois da data ("[Dez 28] 52 ..."); placar com travessão ("1–2"); frase ("X are qualified ..."), não título de fase; público "Att: 535" (o leitor lê "att:"); posição na tabela com "°" / "º" ("1° Grêmio"); "Classificação Final - Primeira Fase:" é o título da tabela, não uma fase nova; linha de tabela de clube empatado sem o número da posição; "JOGO ÚNICO" (com o acento quebrado na página): a final
 - **rs1920.htm:** data com o mês por extenso na frente do jogo; data "09 Oct" sem colchete na frente do jogo (páginas antigas); data "10-Abr-1960" na frente de cada jogo, vários na mesma linha; jogos em duas colunas com a data "26/02/89-" colada; "9. RI" / "9.Regimento" (o clube do 9º Regimento de Infantaria): o leitor comum recusa nome com número; lê "Nono RI" e ler() devolve "9º RI"; "14 Livramento": o 14 de Julho de Livramento; cidade de três letras entre parênteses ("BRASIL(PEL)", "BRASIL(FAR)", "GUARANY(GAR)"): o leitor comum tira o parêntese do fim do nome; vira "BRASIL/PEL"; pênaltis repetidos na súmula (o jogo da lista já tem); pênaltis numa linha depois do jogo ("Pk: Cruzeiro 5-4"): vira nota do jogo de cima; linha "Prorrogação: ..." depois do jogo vira nota dele; data colada ao nome ("[Fev 27]São Luiz"); ano com dois dígitos depois da data ("[Dez 28] 52 ..."); placar com travessão ("1–2"); frase ("X are qualified ..."), não título de fase; público "Att: 535" (o leitor lê "att:"); posição na tabela com "°" / "º" ("1° Grêmio"); "Classificação Final - Primeira Fase:" é o título da tabela, não uma fase nova; linha de tabela de clube empatado sem o número da posição
 - **rs1921.htm:** data com o mês por extenso na frente do jogo; data "09 Oct" sem colchete na frente do jogo (páginas antigas); data "10-Abr-1960" na frente de cada jogo, vários na mesma linha; jogos em duas colunas com a data "26/02/89-" colada; "9. RI" / "9.Regimento" (o clube do 9º Regimento de Infantaria): o leitor comum recusa nome com número; lê "Nono RI" e ler() devolve "9º RI"; "14 Livramento": o 14 de Julho de Livramento; cidade de três letras entre parênteses ("BRASIL(PEL)", "BRASIL(FAR)", "GUARANY(GAR)"): o leitor comum tira o parêntese do fim do nome; vira "BRASIL/PEL"; pênaltis repetidos na súmula (o jogo da lista já tem); pênaltis numa linha depois do jogo ("Pk: Cruzeiro 5-4"): vira nota do jogo de cima; linha "Prorrogação: ..." depois do jogo vira nota dele; data colada ao nome ("[Fev 27]São Luiz"); ano com dois dígitos depois da data ("[Dez 28] 52 ..."); placar com travessão ("1–2"); frase ("X are qualified ..."), não título de fase; público "Att: 535" (o leitor lê "att:"); posição na tabela com "°" / "º" ("1° Grêmio"); "Classificação Final - Primeira Fase:" é o título da tabela, não uma fase nova; linha de tabela de clube empatado sem o número da posição
@@ -589,7 +598,7 @@ Registradas nos módulos de `coleta/bra-rs-1/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- 1918 (campeonato suspenso pela gripe espanhola): a FGF reconheceu em 2021 Brasil de Pelotas, Cruzeiro e 14 de Julho como campeões honoríficos (Wikipédia). Fica fora do pacote até o Guilherme decidir se entra como edição sem jogos.
+- 1918 (campeonato suspenso pela gripe espanhola): edição sem jogos, com os três campeões honoríficos que a FGF reconheceu em 2021 (Brasil de Pelotas em campeao; Cruzeiro e 14 de Julho em co_campeao, que o carregador ainda não aceita com dois clubes). Decisão do Guilherme em 25/11, a mesma das edições sem jogos do Cearense.
 - De 1925 a 1976 o ogol não tem os jogos: a identidade dos clubes vem dos nomes (importar.NOME_CODIGO e NOME_ANO; "Riograndense", "Guarany", "Guarani", "Cruzeiro" e "Nacional" sem cidade mudam de clube conforme a época). As páginas dos anos 1960-1990 vêm de texto escaneado (grafias em rsssf_rs1.GRAFIAS).
 - Identidade a revisar: SE São Borja (241325, antes de 2009) x AE São Borja (70071) - as fontes discordam se é a mesma linhagem; Flamengo de Alegrete com ficha de 1963 e jogos em 1961-1962; AE Santo Ângelo (antes da fusão de 1989) separado da SER Santo Ângelo.
 - Vices de 1986 e 1993: o pacote segue a classificação publicada/final; a Wikipédia dá o Internacional.

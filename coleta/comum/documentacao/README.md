@@ -13,7 +13,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Paulista Série A2 | 80 (1947–2026) | 9214 | 4526 | 0 | 184 | 134 / 31 | sim (80 edições, 9214 jogos) | 4 | [bra-sp-2](bra-sp-2.md) |
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 3 | [bra-rj-1](bra-rj-1.md) |
 | Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | sim (113 edições, 11521 jogos) | 4 | [bra-mg-1](bra-mg-1.md) |
-| Campeonato Gaúcho | 106 (1919–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | sim (106 edições, 13393 jogos) | 5 | [bra-rs-1](bra-rs-1.md) |
+| Campeonato Gaúcho | 107 (1918–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | sim (106 edições, 13393 jogos) | 5 | [bra-rs-1](bra-rs-1.md) |
 | Campeonato Paranaense | 113 (1915–2026) | 14315 | 2410 | 0 | 142 | 209 / 225 | sim (113 edições, 14315 jogos) | 6 | [bra-pr-1](bra-pr-1.md) |
 | Campeonato Cearense | 112 (1915–2026) | 8501 | 2821 | 0 | 57 | 185 / 95 | não | 5 | [bra-ce-1](bra-ce-1.md) |
 
@@ -43,7 +43,7 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-mg-1:** Vices em que as fontes discordam: 1934 (pacote Tupynambás, que perdeu a final estadual; RSSSF Palestra Itália; Wikipédia Tupynambás no estadual e Atlético na cidade), 1942 (RSSSF América; Wikipédia e pacote Palestra Mineiro, o Cruzeiro) e 1950 (RSSSF Cruzeiro; Wikipédia e pacote Siderúrgica).
 - **bra-mg-1:** 1924 e 1925 incompletos na própria fonte (1924: "Incomplete scores"; 1925: 4 jogos, campeonato anulado na época e título homologado pela FMF em 2012). Pontos extras de 1975 (Atlético e Cruzeiro, +1 na fase final) não entram na classificação calculada.
 - **bra-mg-1:** Autores dos gols: 24.324 de 31.081; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).
-- **bra-rs-1:** 1918 (campeonato suspenso pela gripe espanhola): a FGF reconheceu em 2021 Brasil de Pelotas, Cruzeiro e 14 de Julho como campeões honoríficos (Wikipédia). Fica fora do pacote até o Guilherme decidir se entra como edição sem jogos.
+- **bra-rs-1:** 1918 (campeonato suspenso pela gripe espanhola): edição sem jogos, com os três campeões honoríficos que a FGF reconheceu em 2021 (Brasil de Pelotas em campeao; Cruzeiro e 14 de Julho em co_campeao, que o carregador ainda não aceita com dois clubes). Decisão do Guilherme em 25/11, a mesma das edições sem jogos do Cearense.
 - **bra-rs-1:** De 1925 a 1976 o ogol não tem os jogos: a identidade dos clubes vem dos nomes (importar.NOME_CODIGO e NOME_ANO; "Riograndense", "Guarany", "Guarani", "Cruzeiro" e "Nacional" sem cidade mudam de clube conforme a época). As páginas dos anos 1960-1990 vêm de texto escaneado (grafias em rsssf_rs1.GRAFIAS).
 - **bra-rs-1:** Identidade a revisar: SE São Borja (241325, antes de 2009) x AE São Borja (70071) - as fontes discordam se é a mesma linhagem; Flamengo de Alegrete com ficha de 1963 e jogos em 1961-1962; AE Santo Ângelo (antes da fusão de 1989) separado da SER Santo Ângelo.
 - **bra-rs-1:** Vices de 1986 e 1993: o pacote segue a classificação publicada/final; a Wikipédia dá o Internacional.

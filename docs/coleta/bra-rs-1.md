@@ -21,6 +21,7 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 
 | Ano | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|---|
+| 1918 |  | 0 | 0 (0) | 0 | 0 | 0 / 0 | ? | - |
 | 1919 | RSSSF + ogol | 2 | 1 (1) | 6 | 0 | 0 / 0 | Brasil de Pelotas | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1920 | RSSSF + ogol | 3 | 3 (3) | 5 | 0 | 0 / 0 | Guarany de Bagé | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1921 | RSSSF + ogol | 5 | 7 (6) | 18 | 8 | 1 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -129,6 +130,10 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 | 2026 | ogol | 12 | 64 (64) | 146 | 0 | 0 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 
 ## Conferência e correções, ano a ano
+
+### 1918
+
+- sem ocorrências
 
 ### 1919
 

@@ -90,9 +90,9 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols: 24.324 de 31.081; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-rs-1": [
-        "1918 (campeonato suspenso pela gripe espanhola): a FGF reconheceu em 2021 Brasil de Pelotas, Cruzeiro e 14 de "
-        "Julho como campeões honoríficos (Wikipédia). Fica fora do pacote até o Guilherme decidir se entra como edição sem "
-        "jogos.",
+        "1918 (campeonato suspenso pela gripe espanhola): edição sem jogos, com os três campeões honoríficos que a FGF "
+        "reconheceu em 2021 (Brasil de Pelotas em campeao; Cruzeiro e 14 de Julho em co_campeao, que o carregador ainda não "
+        "aceita com dois clubes). Decisão do Guilherme em 25/11, a mesma das edições sem jogos do Cearense.",
         "De 1925 a 1976 o ogol não tem os jogos: a identidade dos clubes vem dos nomes (importar.NOME_CODIGO e NOME_ANO; "
         "\"Riograndense\", \"Guarany\", \"Guarani\", \"Cruzeiro\" e \"Nacional\" sem cidade mudam de clube conforme a "
         "época). As páginas dos anos 1960-1990 vêm de texto escaneado (grafias em rsssf_rs1.GRAFIAS).",
