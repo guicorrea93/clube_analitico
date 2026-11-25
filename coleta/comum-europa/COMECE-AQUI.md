@@ -106,6 +106,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `gdr-1` Alemanha Oriental (zona soviética e DDR-Oberliga) | 44 (1948–1990/91) | 8.062 | 0 | 0 | 52 | (ver git log) |
 | `gre-1` Grego (fase nacional até 1958/59; Alpha Ethniki e Super League) | 90 (1927/28–2025/26) | 18.689 | 8.900 | 20.025 | 69 | (ver git log) |
 | `cze-1` Tcheco (liga da República Tcheca) | 33 (1993/94–2025/26) | 8.234 | 7.121 | 0 | 35 | (ver git log) |
+| `tch-1` Tchecoslovaco (com o Protetorado; 1948 não oficial) | 68 (1925–1992/93) | 11.791 | 0 | 0 | 66 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -206,7 +207,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 8 | Holanda | **pronta** `ned-1` |
    | 9 | Turquia | **pronta** `tur-1` |
    | 10 | Grécia | **pronta** `gre-1` (24/11) |
-   | 11 | Tchéquia | **pronta** `cze-1` (25/11); depois a Tchecoslováquia |
+   | 11 | Tchéquia | **pronta** `cze-1` (25/11); a Tchecoslováquia também: **pronta** `tch-1` (25/11) |
    | 12 | Polônia |  |
    | 13 | Noruega |  |
    | 14 | Dinamarca |  |
@@ -252,8 +253,12 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 54 | País de Gales |  |
    | 55 | San Marino |  |
 
-   **Próxima: a Tchecoslováquia** (competição à parte, logo depois da Tchéquia). Decidido em 25/11/2026: entra a liga do
-   Protetorado da Boêmia e Morávia (1938/39-1943/44); o resto do escopo vai em proposta ao Guilherme. Depois, a Polônia.
+   **Tchecoslováquia (`tch-1`), escopo aprovado pelo Guilherme em 25/11/2026:** 1925 a 1992/93, com a liga do Protetorado
+   da Boêmia e Morávia (1938/39-1943/44); o outono de 1948 como edição não oficial; ficam de fora a Boêmia Central antes
+   de 1925, o campeonato amador, 1944/45 (abandonado) e a liga eslovaca da guerra (vai com a Eslováquia). Pronta em
+   25/11/2026.
+
+   **Próxima: a Polônia** (rank 12). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
 
    **Correções do plano (seção 3 e regras da seção 2.2), feitas em 25/11/2026:**
    - colunas `pontos_empate` e `pontos_derrota` preenchidas no 3-2-1 da Grécia (até 1972/73 e na era antiga) e da Turquia

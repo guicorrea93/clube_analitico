@@ -1498,3 +1498,58 @@ Pausa a pedido do Guilherme. Tudo da coleta Europa está no GitHub (até 501b6d1
 4. **Pendências da coleta:** nenhuma em aberto. Os limites de fonte (fechados) e o que está com a revisão estão em
    `coleta/comum-europa/documentacao/README.md`.
 5. **Para retomar:** ler `coleta/comum-europa/COMECE-AQUI.md`, seção 3.
+
+## Recado de fim de coleta — tch-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato da Tchecoslováquia, competição à parte (como a `gdr-1`), de 1925 a 1992/93:
+   - 68 edições, 11.791 jogos, 66 clubes;
+   - títulos (67 oficiais): Sparta Praga 21, Slavia Praga 13, Dukla Praga 11, Slovan Bratislava 8, Spartak Trnava 5,
+     Baník Ostrava 3, e 1 de Viktoria Žižkov, Inter Bratislava, Hradec Králové, Zbrojovka Brno, Bohemians 1905 e
+     Vítkovice.
+
+   Escopo aprovado pelo Guilherme (25/11/2026):
+   - entra a liga do Protetorado da Boêmia e Morávia (1938/39-1943/44, Národní liga): Sparta 2, Slavia 4;
+   - o outono de 1948 entra como edição não oficial (`oficial` = "não");
+   - ficam de fora a Boêmia Central antes de 1925, o campeonato amador, 1944/45 (abandonado) e a liga eslovaca da guerra.
+
+   Fontes:
+   - **Wikipédia (en):** matriz de resultados de cada temporada (a base dos jogos) e tabela final;
+   - **RSSSF:** tabelas (tsjslhist.html, casadas pela posição com as da Wikipédia), campeões e a final de 1945/46.
+
+   Conferência: 120 tabelas fecham com os jogos e 18 divergem. Em 10 temporadas a matriz da Wikipédia não fecha com as
+   duas tabelas (que concordam entre si), e a classificação fica com os números publicados.
+2. **Commit:** o deste recado ("Coleta Europa: Campeonato Tchecoslovaco (tch-1), 1925 a 1992/93").
+3. **Teste de carga:** "tch-1: 68 edições, 11791 jogos, 48 clubes novos -> OK" (os outros 18 já vêm do `cze-1`).
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `tch-1` e liberar no seletor;
+   - **países:** Tchecoslováquia (`TCH`) é o país da competição. Os clubes têm o país de hoje: `CZE`, `SVK` (Eslováquia)
+     e `UKR` (Rusj Užhorod);
+   - **mesmos clubes do `cze-1`:** Sparta, Slavia, Dukla Praga, Bohemians 1905, Baník Ostrava e outros 13 têm o mesmo
+     nome nas duas competições, de propósito;
+   - **rótulos de temporada:**
+     - "1925" e "1927" (primavera, turno único);
+     - de "1948" a "1956" (ano civil);
+     - os demais no formato "1925/26";
+   - **1948** com `oficial` = "não": o campeão (Slavia) não conta título;
+   - **1945/46:** fase "Grupos" (A e B) e "Final" (ida e volta);
+   - **sem datas, rodadas, autores dos gols e cartões:** a Corrida não tem como andar rodada a rodada.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pelo alvo do link da Wikipédia**, através das trocas de nome da era comunista (Sparta = Spartak
+     Praha Sokolovo; Slavia = Dynamo Praha; Dukla = ATK = ÚDA; Slovan Bratislava = NV Bratislava...);
+   - (b) **classificação com os números publicados** quando a matriz não fecha e as duas tabelas concordam (observação
+     na linha);
+   - (c) **um placar da matriz invertido**, só quando, com isso, os dois clubes fecham exatamente com as tabelas
+     (anotado no jogo).
+6. **O que não deu para coletar:**
+   - datas, rodadas, autores dos gols, cartões e público (só a matriz de resultados);
+   - os jogos certos das 10 temporadas em que a matriz não fecha.
+
+   Fonte possível: jornais da época.
+7. **Onde a revisão deve olhar primeiro:**
+   - **Dukla Praga histórico:** a RSSSF diz que ele é hoje o Marila Příbram, e no `cze-1` o Příbram ficou à parte pela
+     Wikipédia;
+   - as 10 temporadas com a matriz divergente;
+   - a ordem de 1945/46 (a final, depois a posição nos grupos).
+8. **Próxima tarefa:** Polônia (rank 12 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.

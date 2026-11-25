@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -145,6 +145,14 @@ LIMITES: dict[str, list[str]] = {
         "A liga tchecoslovaca (1925-1993) e a do Protetorado (1938/39-1943/44) ficam na competição da Tchecoslováquia "
         "(decisão do Guilherme, 25/11/2026).",
     ],
+    "tch-1": [
+        "Sem datas, rodadas, autores dos gols, cartões e público: a base é a matriz da Wikipédia (en); o ogol, a ESPN e o "
+        "football-data não têm esta liga.",
+        "10 temporadas em que a matriz da Wikipédia não fecha com as tabelas (que concordam entre si): a classificação fica "
+        "com os números publicados; só um jornal da época diria qual jogo está errado.",
+        "Fora do escopo (decisão do Guilherme, 25/11/2026): Boêmia Central antes de 1925, campeonato amador, 1944/45 e liga "
+        "eslovaca da guerra.",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -178,6 +186,13 @@ REVISAO: dict[str, list[str]] = {
         "Praha de hoje; Bohemians 1905 x Bohemians de Střížkov (2008/09 e 2009/10).",
         "Classificação com grupos (2018/19, 2019/20, desde 2021/22): do 7º ao 10º pela fase regular (o play-off europeu não "
         "muda a posição).",
+    ],
+    "tch-1": [
+        "Identidade pelos links da Wikipédia através das trocas de nome da era comunista; o Dukla Praha histórico é o "
+        "mesmo do `cze-1` em 1993/94, mas a RSSSF diz que ele é hoje o Marila Příbram (no `cze-1`, Příbram ficou à parte, "
+        "pela Wikipédia).",
+        "Classificação de 1945/46: a final (Sparta x Slavia) e depois a posição nos grupos; títulos do Protetorado contados "
+        "(Sparta 21, Slavia 13 no total).",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -503,9 +518,8 @@ def main() -> None:
     idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in REVISAO.get(slug, [])]
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
-            "está em `COMECE-AQUI.md`, seção 3. Prontas: Grécia (`gre-1`, 24/11/2026) e Tchéquia (`cze-1`, 25/11/2026); "
-            "a próxima é a Tchecoslováquia (competição à parte, com a liga do Protetorado), depois a Polônia. Uma por "
-            "vez.", ""]
+            "está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`) e "
+            "Tchecoslováquia (`tch-1`); a próxima é a Polônia. Uma por vez, com o escopo antes.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

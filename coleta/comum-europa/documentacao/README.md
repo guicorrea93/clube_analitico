@@ -19,6 +19,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato da Alemanha Oriental | 44 (1948–1990/91) | 8062 | 0 | 0 | 52 | 65 / 19 | 0 | [gdr-1](gdr-1.md) |
 | Campeonato Grego | 90 (1927/28–2025/26) | 18689 | 8900 | 20025 | 69 | 163 / 32 | 0 | [gre-1](gre-1.md) |
 | Campeonato Tcheco | 33 (1993/94–2025/26) | 8234 | 7121 | 0 | 35 | 75 / 1 | 0 | [cze-1](cze-1.md) |
+| Campeonato Tchecoslovaco | 68 (1925–1992/93) | 11791 | 0 | 0 | 66 | 120 / 18 | 0 | [tch-1](tch-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -73,6 +74,9 @@ Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 - **cze-1:** Autores dos gols só de 1998/99 a 2011/12 (página da RSSSF, quando a conta fecha com o placar: 7.121 gols); antes e depois, nenhuma fonte em lote (a ESPN e o football-data não cobrem a Tchéquia). Sem cartões, público, estádio e árbitro: só a ficha de cada jogo no ogol, jogo a jogo.
 - **cze-1:** Jogos de acesso e rebaixamento contra clubes da 2ª divisão ficam de fora.
 - **cze-1:** A liga tchecoslovaca (1925-1993) e a do Protetorado (1938/39-1943/44) ficam na competição da Tchecoslováquia (decisão do Guilherme, 25/11/2026).
+- **tch-1:** Sem datas, rodadas, autores dos gols, cartões e público: a base é a matriz da Wikipédia (en); o ogol, a ESPN e o football-data não têm esta liga.
+- **tch-1:** 10 temporadas em que a matriz da Wikipédia não fecha com as tabelas (que concordam entre si): a classificação fica com os números publicados; só um jornal da época diria qual jogo está errado.
+- **tch-1:** Fora do escopo (decisão do Guilherme, 25/11/2026): Boêmia Central antes de 1925, campeonato amador, 1944/45 e liga eslovaca da guerra.
 
 ## Com o agente de revisão
 
@@ -89,7 +93,9 @@ Decisões da coleta que a revisão confere.
 - **gre-1:** Desempates de posição que só estão nas notas da Wikipédia (1959/60 a 1966/67, 1973/74, 1982/83, 1983/84), sem data.
 - **cze-1:** Identidade: o Dukla Praha histórico (1993/94) separado do 1. FK Příbram (o ogol usa o mesmo código) e do FK Dukla Praha de hoje; Bohemians 1905 x Bohemians de Střížkov (2008/09 e 2009/10).
 - **cze-1:** Classificação com grupos (2018/19, 2019/20, desde 2021/22): do 7º ao 10º pela fase regular (o play-off europeu não muda a posição).
+- **tch-1:** Identidade pelos links da Wikipédia através das trocas de nome da era comunista; o Dukla Praha histórico é o mesmo do `cze-1` em 1993/94, mas a RSSSF diz que ele é hoje o Marila Příbram (no `cze-1`, Příbram ficou à parte, pela Wikipédia).
+- **tch-1:** Classificação de 1945/46: a final (Sparta x Slavia) e depois a posição nos grupos; títulos do Protetorado contados (Sparta 21, Slavia 13 no total).
 
 ## Próximas ligas
 
-- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas: Grécia (`gre-1`, 24/11/2026) e Tchéquia (`cze-1`, 25/11/2026); a próxima é a Tchecoslováquia (competição à parte, com a liga do Protetorado), depois a Polônia. Uma por vez.
+- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`) e Tchecoslováquia (`tch-1`); a próxima é a Polônia. Uma por vez, com o escopo antes.

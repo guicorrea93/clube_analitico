@@ -428,6 +428,14 @@ MANUAL: dict[str, str | None] = {
         "Panathinaikos: 11 pontos a menos (6 por razões financeiras e 5 por decisão da justiça desportiva)",
     "Xanthi were deducted 12 points for joint ownership": "Xanthi: 12 pontos a menos por dono em comum com outro clube",
     "Panionios were deducted 6 points for non-licensing": "Panionios: 6 pontos a menos por não obter a licença",
+    # Tchecoslováquia
+    "1. ČsŠK Bratislava were moved to the Slovak league in March 1939 after the annexation of Czechoslovakia by Germany":
+        "o 1. ČsŠK Bratislava passou para a liga eslovaca em março de 1939, depois da ocupação da Tchecoslováquia pela "
+        "Alemanha",
+    "Sparta Prague has two points deducted": "Sparta Praga: 2 pontos a menos",
+    "Dukla Banská Bystrica has two points deducted": "Dukla Banská Bystrica: 2 pontos a menos",
+    "The 6 Slovak clubs moved to the Slovak Superliga after the end of this season":
+        "os 6 clubes eslovacos foram para a Superliga Eslovaca depois desta temporada",
     # Tchéquia
     "Six points were taken off from Slovan Liberec as a result of proven corruption":
         "Slovan Liberec: 6 pontos a menos por corrupção comprovada",
