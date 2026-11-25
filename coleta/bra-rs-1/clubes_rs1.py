@@ -112,11 +112,21 @@ def fichas() -> dict[str, dict]:
     for i, certo in FICHA_CORRIGIDA.items():
         if i in d:
             d[i].update(certo)
+    reg = registro.ler()
+    for i in DE_OUTRAS_COLETAS:   # ficha que a lista do ogol desta coleta não traz: vem do cadastro comum
+        if i not in d and i in reg:
+            r = reg[i]
+            d[i] = {"id": i, "curto": r["clube"], "nomes_ogol": [], "uf": r["uf"], "cidade": r["cidade"], "nome_completo": None}
     d.update(SEM_OGOL)
     return d
 
 
 # fichas do ogol com cidade/estado de outro clube (conferido na RSSSF e na Wikipédia)
+# clubes de outra coleta (já no cadastro comum) que as tabelas de nomes do importador usam: código -> motivo
+DE_OUTRAS_COLETAS: dict[str, str] = {
+    "241325": "SE São Borja (antes da AE São Borja, de 2009), no cadastro pela Série C",
+}
+
 FICHA_CORRIGIDA: dict[str, dict] = {}   # as correções ficam em registro.FICHA_COMUM (valem para todas as coletas)
 
 

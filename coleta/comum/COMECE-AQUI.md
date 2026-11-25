@@ -75,8 +75,9 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 046e6e4; Grêmio Catanduvense separado (A2-022) neste commit (24/11) | sim; recarregar | OK (1 clube novo) |
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.214 | ada0940; A2-015 (parte C) neste commit (24/11); plano da A2 concluído | sim; recarregar | OK (1 clube novo) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
-| `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | neste commit (25/11) | não; carregar | OK (64 clubes novos) |
-| `bra-rs-1` Gaúcho | 106 (1919–2026; sem 1918, 1923 e 1924) | 13.393 | neste commit (25/11) | não; carregar | OK (106 clubes novos) |
+| `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | be07b131 (25/11) | não; carregar | OK (64 clubes novos) |
+| `bra-rs-1` Gaúcho | 106 (1919–2026; sem 1918, 1923 e 1924) | 13.393 | 3a0ffbba; nome do SE São Borja corrigido neste commit (25/11) | não; carregar | OK (105 clubes novos) |
+| `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | neste commit (25/11) | não; carregar | OK (104 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -104,9 +105,9 @@ As 27 posições foram conferidas no PDF.
 | 1 | SP | 93.528 | `bra-sp-1` Paulista | **pronto** (no banco) |
 | 2 | RJ | 61.308 | `bra-rj-1` Carioca | **pronto** (no banco) |
 | 3 | MG | 41.451 | `bra-mg-1` Mineiro | **pronto** (be07b131, 25/11; falta o agente 1 carregar) |
-| 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
-| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **próximo** (escopo antes) |
-| 6 | CE | 24.954 | `bra-ce-1` Cearense | falta |
+| 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (3a0ffbba, 25/11; falta o agente 1 carregar) |
+| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
+| 6 | CE | 24.954 | `bra-ce-1` Cearense | **próximo** (pesquisa a fundo e proposta de escopo antes) |
 | 7 | GO | 24.148 | `bra-go-1` Goiano | falta |
 | 8 | SC | 23.938 | `bra-sc-1` Catarinense | falta |
 | 9 | BA | 23.642 | `bra-ba-1` Baiano | falta |
@@ -133,8 +134,16 @@ Já prontos fora dos estaduais de 1ª divisão: Séries C e D, Copa do Brasil e 
 seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de
 `docs/coleta/pedidos.md`. Autores pela ficha do ogol e jornais da A2: só se o Guilherme pedir.
 
-1. **Mineiro (`bra-mg-1`) e Gaúcho (`bra-rs-1`) feitos em 25/11.** Próximo: Paranaense (`bra-pr-1`), 5º do RNF, com
-   escopo antes. **Escopo do Gaúcho, aprovado pelo Guilherme em 25/11:**
+1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`) e Paranaense (`bra-pr-1`) feitos em 25/11.** Próximo: o Cearense
+   (`bra-ce-1`), 6º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme. Em aberto com ele: o Gaúcho de
+   1918 (campeões honoríficos da FGF em 2021) entra como edição sem jogos?
+   **Escopo do Paranaense, aprovado pelo Guilherme em 25/11:**
+   - 1915 a 2026 (todos os anos disputados; RSSSF `tablesfq/pr{ano}.htm` e ogol "campeonato-paranaense").
+   - 1980: título dividido entre Colorado e Cascavel (`co_campeao`; vice = o próximo que não é campeão, D-07).
+   - 2002: duas edições. "2002" é o campeonato oficial da FPF (sem os clubes da Copa Sul-Minas; campeão o Iraty) e
+     "2002 Supercampeonato" (com os da Sul-Minas; campeão o Atlético) entra com `oficial` = "não" e a nota de que o
+     Athletico conta o título (a lista oficial da FPF não foi achada).
+   **Escopo do Gaúcho, aprovado pelo Guilherme em 25/11:**
    - 1919 a 2026, 106 edições. Ficam fora 1918, 1923 e 1924, que não foram disputados (o ogol marca 1923 e 1924 como
      "Não Disputada").
    - 1930 entra: foi organizado pela FAGET, no lugar da FRGD, e a RSSSF conta o título.
@@ -351,6 +360,30 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
   manda para o clube antigo (AE Santo Ângelo; SE São Borja, 241325).
 - **Conferência de nomes antes do commit:** nenhum nome com dois códigos no cadastro comum (achou o "Palmeiras-MG" duplo
   do Mineiro, corrigido em `bra-mg-1/importar.NOME_MANUAL`).
+
+**Paranaense (o que valeu aprender)**
+- **Mais formatos de página:** "[12/mai]" e "29-abr" (mês em português), "13.03.1938" na linha, placar "2×1" e
+  ", em Curitiba" depois do jogo (fase estadual de 1935-1941), "W-O" sem vencedor, vários jogos por linha com a data
+  "[May 22]" (1932), placar depois de cada nome (1994), planilhas de 2026. Tudo em `rsssf_pr1.py` (`_POR_PAGINA`: as
+  listas da mesma página se somam).
+- **Notas grudadas no nome** ("Londrina Played in Rolândia", "Esperança It did not finish", o estádio na coluna do
+  nome): `rsssf_pr1.NOTA_NO_NOME`. Nome quebrado em duas linhas ("Foz do" / "Iguaçu", 1995): correção da página.
+- **`FASE_ANO` com "fase|grupo":** as duas ligas de 1916 (APSA e LSP), as zonas de 1963, os grupos de 1977 e 1995.
+  Fases em inglês e títulos de rodada ("1ª RODADA - 2ª FASE", 2022) mapeados ano a ano; nenhum AVISO de fase sobrou.
+- **Fase estadual depois do campeonato de Curitiba** (1935-1941): turnos da cidade, "Primeira fase - Final" (a final da
+  cidade) e depois quartas/semifinal/final com os campeões das ligas do interior. Sem isso o vice saía errado.
+- **`NOME_ANO` não pode vazar para outras temporadas:** o nome casado à mão só para uns anos ("Comercial" = Palestra
+  Itália em 1943-1945) não entra em `JA_CASADOS`; e o nome-base sem sigla ("Paraná" de "Paraná SC") só entra quando o
+  nome não está em `NOME_CODIGO`.
+- **Clube de outra coleta que o ogol desta coleta não lista** (Maringá FC 1995, Pinheiros, Colorado, Matsubara, Batel,
+  Cascavel EC): `clubes_<x>.DE_OUTRAS_COLETAS` traz a ficha do cadastro comum. Sem isso o nome de exibição saía o código
+  ("241325" no Gaúcho; corrigido neste commit).
+- **Confira o cadastro comum por UF antes de criar clube "rs-":** o Colorado, o Matsubara, o Batel, o Cascavel EC e o
+  EC Pinheiros já estavam lá pela Série C. Homônimos da mesma UF não ganham "-UF": "Cascavel CR", "Galo Maringá 2020" e
+  "Foz do Iguaçu EC" vão em `MANUAL_NOVO`.
+- **Jogo só do ogol no mata-mata** (2020, 2026): vale o código de fase do ogol (QF, SF, F) antes da "fase em que os dois
+  já se cruzaram"; final de turno (2018) é a "F" logo depois da semifinal do turno.
+- **Final do Interior** (2015 e 2016): título à parte, fora do pacote (`A_PARTE`), como o Troféu do Interior do Gaúcho.
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,

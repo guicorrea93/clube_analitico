@@ -75,12 +75,21 @@
    "bra-mg-1"
   ]
  },
+ "109140": {
+  "clube": "União Beltrão",
+  "uf": "PR",
+  "cidade": "Francisco Beltrão",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "109373": {
   "clube": "São Joseense",
   "uf": "PR",
   "cidade": "São José dos Pinhais",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pr-1"
   ]
  },
  "113174": {
@@ -293,7 +302,8 @@
   "uf": "PR",
   "cidade": "Engenheiro Beltrão",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "13691": {
@@ -303,7 +313,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "13941": {
@@ -321,7 +332,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "15014": {
@@ -350,12 +362,21 @@
    "bra-serie-c"
   ]
  },
+ "15166": {
+  "clube": "Real Brasil",
+  "uf": "PR",
+  "cidade": "Curitiba",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "15167": {
   "clube": "Iguaçu",
   "uf": "PR",
   "cidade": "União da Vitória",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "15290": {
@@ -770,7 +791,8 @@
   "cidade": "Curitiba",
   "competicoes": [
    "bra-copa-do-brasil",
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "17240": {
@@ -786,7 +808,8 @@
   "uf": "PR",
   "cidade": "Curitiba",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "17769": {
@@ -1076,7 +1099,8 @@
   "uf": "PR",
   "cidade": "Curitiba",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "2237": {
@@ -1141,7 +1165,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "2251": {
@@ -1357,7 +1382,8 @@
   "cidade": "Pato Branco",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "239230": {
@@ -1416,7 +1442,8 @@
   "uf": "PR",
   "cidade": "Maringá",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "241324": {
@@ -1432,7 +1459,8 @@
   "uf": "RS",
   "cidade": "São Borja",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-rs-1"
   ]
  },
  "241554": {
@@ -1464,7 +1492,8 @@
   "uf": "PR",
   "cidade": "Maringá",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "242601": {
@@ -1639,7 +1668,8 @@
   "uf": "PR",
   "cidade": "Cambará",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "2543": {
@@ -1668,7 +1698,8 @@
   "uf": "PR",
   "cidade": "Prudentópolis",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "255380": {
@@ -1819,6 +1850,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "263296": {
+  "clube": "Galo Maringá 2020",
+  "uf": "PR",
+  "cidade": "Maringá",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "263307": {
   "clube": "Falcon FC",
   "uf": "SE",
@@ -1866,6 +1905,14 @@
   "cidade": "Capão da Canoa",
   "competicoes": [
    "bra-rs-1"
+  ]
+ },
+ "272021": {
+  "clube": "ADAP",
+  "uf": "PR",
+  "cidade": "Campo Mourão",
+  "competicoes": [
+   "bra-pr-1"
   ]
  },
  "272125": {
@@ -1923,7 +1970,8 @@
   "cidade": "Arapongas",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "276477": {
@@ -2415,6 +2463,14 @@
    "bra-rj-1"
   ]
  },
+ "31517": {
+  "clube": "Serrano-PR",
+  "uf": "PR",
+  "cidade": "Prudentópolis",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "3153": {
   "clube": "Botafogo-PB",
   "uf": "PB",
@@ -2568,6 +2624,14 @@
    "bra-rj-1"
   ]
  },
+ "3176": {
+  "clube": "Cascavel CR",
+  "uf": "PR",
+  "cidade": "Cascavel",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "3178": {
   "clube": "Castanhal",
   "uf": "PA",
@@ -2710,7 +2774,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3198": {
@@ -3072,7 +3137,8 @@
   "cidade": "Foz do Iguaçu",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3251": {
@@ -3083,6 +3149,14 @@
    "bra-serie-c",
    "bra-sp-1",
    "bra-sp-2"
+  ]
+ },
+ "3252": {
+  "clube": "Francisco Beltrão",
+  "uf": "PR",
+  "cidade": "Francisco Beltrão",
+  "competicoes": [
+   "bra-pr-1"
   ]
  },
  "3253": {
@@ -3295,6 +3369,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3286": {
+  "clube": "Império Toledo",
+  "uf": "PR",
+  "cidade": "Toledo",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "3287": {
   "clube": "Independência",
   "uf": "AC",
@@ -3386,7 +3468,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "32993": {
@@ -3614,7 +3697,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3330": {
@@ -3655,7 +3739,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3334": {
@@ -3810,7 +3895,8 @@
   "cidade": "Campo Mourão",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pr-1"
   ]
  },
  "3360": {
@@ -3969,7 +4055,8 @@
   "cidade": "Paranavaí",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "33822": {
@@ -4136,7 +4223,8 @@
   "uf": "PR",
   "cidade": "Ponta Grossa",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "3405": {
@@ -4158,6 +4246,14 @@
    "bra-copa-do-brasil",
    "bra-sp-1",
    "bra-sp-2"
+  ]
+ },
+ "3407": {
+  "clube": "Portuguesa Londrinense",
+  "uf": "PR",
+  "cidade": "Londrina",
+  "competicoes": [
+   "bra-pr-1"
   ]
  },
  "3408": {
@@ -4194,7 +4290,8 @@
   "uf": "PR",
   "cidade": "Prudentópolis",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pr-1"
   ]
  },
  "3418": {
@@ -4267,7 +4364,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3429": {
@@ -4328,7 +4426,8 @@
   "cidade": "Apucarana",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3440": {
@@ -4808,7 +4907,8 @@
   "cidade": "Bandeirantes",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "3513": {
@@ -5179,6 +5279,22 @@
    "bra-sp-1"
   ]
  },
+ "39773": {
+  "clube": "Ferroviário-PR",
+  "uf": "PR",
+  "cidade": "Curitiba",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "39780": {
+  "clube": "Água Verde",
+  "uf": "PR",
+  "cidade": "Curitiba",
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
  "40074": {
   "clube": "Cametá",
   "uf": "PA",
@@ -5237,7 +5353,8 @@
   "cidade": "Cascavel",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "43250": {
@@ -5272,7 +5389,8 @@
   "cidade": "Cornélio Procópio",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "44013": {
@@ -5280,7 +5398,16 @@
   "uf": "PR",
   "cidade": "Guarapuava",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
+  ]
+ },
+ "44015": {
+  "clube": "Andraus",
+  "uf": "PR",
+  "cidade": "Campo Largo",
+  "competicoes": [
+   "bra-pr-1"
   ]
  },
  "44130": {
@@ -5333,7 +5460,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "45273": {
@@ -5458,7 +5586,8 @@
   "uf": "PR",
   "cidade": "Cascavel",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pr-1"
   ]
  },
  "54506": {
@@ -6392,7 +6521,8 @@
   "cidade": "Maringá",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "9103": {
@@ -6866,7 +6996,8 @@
   "uf": "PR",
   "cidade": "Curitiba",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pr-1"
   ]
  },
  "atletico-goianiense": {
@@ -7689,6 +7820,774 @@
   "cidade": "Porto Feliz",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-pr1-9-de-julho": {
+  "clube": "9 de Julho",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-academica": {
+  "clube": "Acadêmica-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-agroceres": {
+  "clube": "Agroceres",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-agua-verde-fbc": {
+  "clube": "Água Verde FBC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-america": {
+  "clube": "América-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-america-de-paranagua": {
+  "clube": "América de Paranaguá",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-america-parana": {
+  "clube": "América-Paraná",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-americano": {
+  "clube": "Americano-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-andiraense": {
+  "clube": "Andiraense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-antoninense": {
+  "clube": "Antoninense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-apucarana": {
+  "clube": "Apucarana",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-aquidaban": {
+  "clube": "Aquidaban-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-arapongas-fc": {
+  "clube": "Arapongas FC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-araucaria": {
+  "clube": "Araucária",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-araucaria-sap": {
+  "clube": "Araucaria/SAP",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-astorga": {
+  "clube": "Astorga",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-bangu": {
+  "clube": "Bangu-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-bela-vista": {
+  "clube": "Bela Vista-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-bloco-morgenau": {
+  "clube": "Bloco Morgenau",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-brasil": {
+  "clube": "Brasil-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-britania": {
+  "clube": "Britânia",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-cafe": {
+  "clube": "CAFE",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-cama": {
+  "clube": "CAMA",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-cambara": {
+  "clube": "Cambará",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-cambaraense": {
+  "clube": "Cambaraense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-cambe": {
+  "clube": "Cambé",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-campo-alegre": {
+  "clube": "Campo Alegre",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-campo-mourao": {
+  "clube": "Campo Mourão",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-caramuru": {
+  "clube": "Caramuru",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-carlopolis": {
+  "clube": "Carlópolis",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-cascavel-fc": {
+  "clube": "Cascavel FC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-centenario": {
+  "clube": "Centenário",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-comercial": {
+  "clube": "Comercial-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-coronel-vivida": {
+  "clube": "Coronel Vivida",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-elite": {
+  "clube": "Elite-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-espartano": {
+  "clube": "Espartano",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-esperanca": {
+  "clube": "Esperança-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-estrela-do-norte": {
+  "clube": "Estrela do Norte-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-fanatico": {
+  "clube": "Fanático",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-foz-do-iguacu-ec": {
+  "clube": "Foz do Iguaçu EC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-fuganti": {
+  "clube": "Fuganti",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-gera": {
+  "clube": "Gera",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-goioere": {
+  "clube": "Goioerê",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-gremio-oeste": {
+  "clube": "Grêmio Oeste",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-guarani": {
+  "clube": "Guarani-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-guarapuava": {
+  "clube": "Guarapuava",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-independente": {
+  "clube": "Independente-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-internacional": {
+  "clube": "Internacional-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-jacarezinho": {
+  "clube": "Jacarezinho",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-jandaia": {
+  "clube": "Jandaia",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-junak": {
+  "clube": "Junak",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-juventus": {
+  "clube": "Juventus-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-mac": {
+  "clube": "MAC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-mandaguari": {
+  "clube": "Mandaguari",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-maringa-atletico": {
+  "clube": "Maringá Atlético",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-matarazzo": {
+  "clube": "Matarazzo",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-mixto-bordo": {
+  "clube": "Mixto Bordô",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-monte-alegre": {
+  "clube": "Monte Alegre",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-mouraoense": {
+  "clube": "Mourãoense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-nacional-de-curitiba": {
+  "clube": "Nacional de Curitiba",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-nova-esperanca": {
+  "clube": "Nova Esperança",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-nova-russia": {
+  "clube": "Nova Rússia",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-oceania": {
+  "clube": "Oceania",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-olinda": {
+  "clube": "Olinda",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-palestra-italia": {
+  "clube": "Palestra Itália",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-palestra-uv": {
+  "clube": "Palestra/UV",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-palmeiras": {
+  "clube": "Palmeiras-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-palmeiras-de-pato-branco": {
+  "clube": "Palmeiras de Pato Branco",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-parana-ec": {
+  "clube": "Paraná EC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-parana-sc": {
+  "clube": "Paraná SC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-paranaense": {
+  "clube": "Paranaense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-paranagua": {
+  "clube": "Paranaguá",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-pato-branco": {
+  "clube": "Pato Branco",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-pindorama": {
+  "clube": "Pindorama-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-pinheiral": {
+  "clube": "Pinheiral",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-pinheiro-sc": {
+  "clube": "Pinheiro SC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-platinense": {
+  "clube": "Platinense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-pontagrossense": {
+  "clube": "Pontagrossense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-poty": {
+  "clube": "Poty",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-primavera": {
+  "clube": "Primavera-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-ribeirao-claro": {
+  "clube": "Ribeirão Claro",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-santa-mariana": {
+  "clube": "Santa Mariana",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-sao-paulo": {
+  "clube": "São Paulo-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-seleto": {
+  "clube": "Seleto",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-sertaneja": {
+  "clube": "Sertaneja",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-sport-campo-mourao": {
+  "clube": "SPORT CAMPO MOURÃO",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-tavorense": {
+  "clube": "Tavorense",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-toledo-fc": {
+  "clube": "Toledo FC",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-umuarama": {
+  "clube": "Umuarama",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-uniao": {
+  "clube": "União-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-uniao-olimpico": {
+  "clube": "União Olímpico",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-universal": {
+  "clube": "Universal-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-urai": {
+  "clube": "Uraí",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-vii-de-setembro": {
+  "clube": "VII de Setembro",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-xv-de-novembro": {
+  "clube": "XV de Novembro",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
+  ]
+ },
+ "rs-pr1-ypiranga": {
+  "clube": "Ypiranga-PR",
+  "uf": "PR",
+  "cidade": null,
+  "competicoes": [
+   "bra-pr-1"
   ]
  },
  "rs-presidente-prudente": {

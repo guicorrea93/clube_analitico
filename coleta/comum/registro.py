@@ -36,6 +36,7 @@ FICHA_COMUM: dict[str, tuple[dict, str]] = {
     "86201": ({"uf": "MG", "cidade": "Belo Horizonte"},
               "Grêmio Ludopédio Calafate, de Belo Horizonte (Mineiro 1932 AMEG); a ficha do ogol é a do Grêmio Calafate de "
               "Rio Branco (AC)"),
+    "39780": ({"cidade": "Curitiba"}, "EC Água Verde: a ficha do ogol escreve a cidade \"Curitiba. PR\""),
 }
 
 

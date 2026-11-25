@@ -14,6 +14,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 3 | [bra-rj-1](bra-rj-1.md) |
 | Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | sim (113 edições, 11521 jogos) | 4 | [bra-mg-1](bra-mg-1.md) |
 | Campeonato Gaúcho | 106 (1919–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | não | 5 | [bra-rs-1](bra-rs-1.md) |
+| Campeonato Paranaense | 113 (1915–2026) | 14315 | 2410 | 0 | 142 | 209 / 225 | não | 6 | [bra-pr-1](bra-pr-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -46,6 +47,12 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-rs-1:** Identidade a revisar: SE São Borja (241325, antes de 2009) x AE São Borja (70071) - as fontes discordam se é a mesma linhagem; Flamengo de Alegrete com ficha de 1963 e jogos em 1961-1962; AE Santo Ângelo (antes da fusão de 1989) separado da SER Santo Ângelo.
 - **bra-rs-1:** Vices de 1986 e 1993: o pacote segue a classificação publicada/final; a Wikipédia dá o Internacional.
 - **bra-rs-1:** Tabelas divergentes a explicar no relatório (muitas nos anos de página escaneada, 1963-1996). Autores dos gols: as páginas quase não trazem (cerca de 12% dos gols). Cartões: só jogo a jogo, pela ficha do ogol.
+- **bra-pr-1:** 2002 Supercampeonato: edição não oficial (coluna oficial = "não"), com os clubes da Copa Sul-Minas; o Athletico conta o título, mas a lista oficial da FPF não foi achada. 1980: título dividido (Colorado e Cascavel, co_campeao).
+- **bra-pr-1:** De 1915 a 2000 o ogol não tem os jogos (só 1965 e 1967): a identidade dos clubes vem dos nomes (importar.NOME_CODIGO e NOME_ANO). "Paraná" (Paraná SC até 1926, Paraná EC de Londrina em 1968-1969, Paraná Clube de 1990), "Cascavel" (Cascavel FC em 1971-1972, Cascavel EC de 1980 a 2000, Cascavel CR de 2003), "Maringá" (Grêmio Maringá até 1996, Maringá FC 1995 em 1997-1998, Maringá FC de 2010), "Toledo", "Foz do Iguaçu", "Arapongas", "Cianorte" (CAFE até 2001) e "Nacional" mudam de clube conforme a época.
+- **bra-pr-1:** Identidade a revisar: o EC Água Verde (39780: Savóia, Savóia Água Verde, EC Brasil e Água Verde, 1916-1971) e o EC Pinheiros (17224, 1972-1989) são a mesma linhagem (RSSSF, prcamp.htm), mas o ogol, o cadastro comum e o banco os separam; o pacote segue o cadastro. O Palestra Itália leva os nomes da II Guerra (Paranaense 1942, Comercial 1943-1945, Palmeiras 1946-1949). Cambaraense (1952-1962) e Cambará (1963-1965) ficam separados.
+- **bra-pr-1:** Vices diferentes da Wikipédia: 1923-1926 e 1940 (a Wikipédia dá o Operário Ferroviário; as páginas da RSSSF não têm jogo com ele) e 1941 (a página dá a final Coritiba 6-1 Antoninense; a Wikipédia, Jacarezinho). Fica o da página.
+- **bra-pr-1:** Fora do pacote: o jogo de 24/08/1924 "Atlético 2-1 Atlético" (a página não diz o adversário) e a Final do Interior de 2015 e 2016 (título à parte, como o Troféu do Interior do Gaúcho).
+- **bra-pr-1:** Tabelas divergentes a explicar no relatório (225, contra 209 que batem). Autores dos gols: as páginas quase não trazem (6% dos gols; 2021-2026 sem autor). Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

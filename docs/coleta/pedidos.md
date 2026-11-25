@@ -1195,3 +1195,55 @@ relatório ano a ano: `docs/coleta/bra-rs-1.md`. Primeiro campeonato feito pelo 
 Também neste commit:
 - **Mineiro:** o "Palmeiras" do torneio eliminatório de 1921 passa a ser o Palmeiras de BH (99077). Antes era um segundo código com o mesmo nome; o pacote não muda.
 - **`documentar.py`:** agrupa por faixa de anos as tabelas grandes por temporada.
+
+## Recado de fim de coleta — bra-pr-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-pr-1.md`;
+relatório ano a ano: `docs/coleta/bra-pr-1.md`.
+
+1. **O que foi feito:** Campeonato Paranaense (1ª divisão), escopo aprovado pelo Guilherme em 25/11.
+   - 113 edições, de 1915 a 2026. Em 2002 são duas: "2002" (o oficial da FPF, campeão o Iraty) e "2002 Supercampeonato" (com os clubes da Copa Sul-Minas, campeão o Atlético), esta com `oficial` = "não".
+   - 1980: título dividido entre Colorado e Cascavel (`co_campeao`; vice = o próximo que não é campeão, D-07).
+   - 14.315 jogos, 142 clubes (104 novos no banco), 2.410 gols com autor (de 41.127: as páginas quase não trazem), nenhum cartão e 133 artilheiros.
+   - De 1935 a 1941, depois do campeonato de Curitiba, entra a fase estadual com os campeões das ligas do interior (quartas, semifinal e final). A final da cidade fica em "Primeira fase - Final".
+   - Tabelas publicadas: 209 fecham com os jogos e 225 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesfq/pr{ano}.htm`, 1915-2026; campeões em `prcamp.htm`, artilheiros em `prtops.htm`);
+     - ogol ("campeonato-paranaense"), com os calendários guardados em `data/cache/ogol-bra-pr-1/`. Não tem jogos de 1915 a 2000 (salvo 1965 e 1967);
+     - Wikipédia em português: campeão e vice de cada ano.
+   - O campeão bate com a Wikipédia nas 113 edições. O vice bate em todas menos 1923-1926, 1940 e 1941 (item 6).
+2. **Commit:** o deste recado (`Coleta Paranaense (bra-pr-1): 113 edições, 14.315 jogos`).
+3. **Teste de carga:** `bra-pr-1: 113 edições, 14315 jogos, 104 clubes novos -> OK`. O carregador ignora a tabela por rodada em 1975, 1976, 2009-2012 e 2014, que têm mais de uma fase. O Gaúcho, rodado de novo, dá `106 edições, 13393 jogos, 105 clubes novos -> OK` (item "Também neste commit").
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-pr-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` PR, `rotulo_painel` "Paranaense".
+   - **Coluna `oficial`** em `edicoes.csv` ("não" no "2002 Supercampeonato"), como na Série C.
+   - **Fases novas:**
+     - "4º Turno" (1973) e "Torneio extra" (1995, dos eliminados, fora do alcance);
+     - "Desempate", "Desempate do 7º lugar", "Desempate do 2º turno", "Desempate do rebaixamento", "Desempate do ponto extra" e "Desempate da vaga em 1982", que pelo plano ficam fora da tabela;
+     - grupos novos: "APSA" e "LSP" (as duas ligas de 1916) e as zonas de 1963 ("Norte Novo", "Norte Velho", "Zona Sul").
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Clubes que a Série C já tinha entram com o código dela: Colorado-PR (17735), Matsubara (2541), Batel (44013), Cascavel (52741, o Cascavel EC de 1979), Pinheiros-PR (17224) e Maringá FC 1995 (241210). Nomes novos para homônimos do PR: "Cascavel CR" (2001), "Galo Maringá 2020" e "Foz do Iguaçu EC" (1989-1995).
+5. **Decisões:**
+   - **Que eu tomei:**
+     - mesma linhagem, mesmo clube: Savóia, Savóia Água Verde, EC Brasil (1942-1944) e Água Verde são o "Água Verde" (39780); o Palestra Itália leva os nomes da II Guerra (Paranaense 1942, Comercial 1943-1945, Palmeiras 1946-1949); Reco-Reco é o Palmeiras de 1916-1917;
+     - o EC Pinheiros (1972-1989) fica no código 17224, à parte do Água Verde, porque o ogol, o cadastro comum e o banco já o separam (é a mesma linhagem: item 6);
+     - nomes sem cidade por época: "Paraná" (Paraná SC até 1926, Paraná EC de Londrina em 1968-1969, Paraná Clube de 1990); "Cascavel" (Cascavel FC em 1971-1972, Cascavel EC de 1980 a 2000, Cascavel CR de 2003); "Maringá" (Grêmio Maringá até 1996, Maringá FC 1995 em 1997-1998, Maringá FC de 2010); "Nacional" (o da Polícia Militar de Curitiba em 1934-1935, depois o de Rolândia); "Toledo", "Foz do Iguaçu", "Arapongas" e "Cianorte" (CAFE) antes das fichas do ogol;
+     - ficha do ogol mais nova que o jogo: Prudentópolis antes de 2007 é o Prudentópolis EC (1968);
+     - fora do pacote: a Final do Interior de 2015 e 2016 (título à parte, como no Gaúcho) e o jogo "Atlético 2-1 Atlético" de 24/08/1924 (a página não diz o adversário);
+     - 1940: "Juventus 2-0 Juventus" é Britânia 2-0 Juventus (o único jogo que falta aos dois, e a tabela da página fecha).
+   - **Que esperam o Guilherme:** nenhuma nova. Segue em aberto a do Gaúcho de 1918 (campeões honoríficos).
+6. **O que não deu e pendências:**
+   - **Água Verde e Pinheiros:** a mesma linhagem em dois códigos (39780 e 17224), como já estavam no banco. Juntar é decisão da revisão.
+   - **Vices de 1923-1926 e 1940:** a Wikipédia dá o Operário Ferroviário, mas as páginas da RSSSF não têm jogo com ele (devia haver uma final estadual que a página não traz).
+   - **Vice de 1941:** a página dá a final Coritiba 6-1 Antoninense; a Wikipédia dá o Jacarezinho (que perdeu a semifinal na página).
+   - **Cambaraense (1952-1962) e Cambará (1963-1965):** ficam separados; a página não diz se é o mesmo clube.
+   - **Autores dos gols:** 6%; de 2021 a 2026 nenhum.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade de 1915-2000 (sem ogol): `importar.NOME_CODIGO` e `NOME_ANO`, e os clubes "rs-pr1-...";
+   - as fases dadas à mão (`rsssf_pr1.FASE_ANO`), sobretudo 1916, 1935-1941, 1963, 1977 e 1995;
+   - as 225 tabelas divergentes.
+8. **Próximo campeonato:** Cearense (`bra-ce-1`), 6º do ranking da CBF; escopo antes, só com o ok do Guilherme.
+
+Também neste commit:
+- **Gaúcho:** a SE São Borja saía no `clubes.csv` com o nome "241325" (o código), porque a ficha vem da Série C e não da lista do ogol do Gaúcho. Agora sai "SE São Borja" (`clubes_rs1.DE_OUTRAS_COLETAS`). Só esse nome muda no pacote (365 jogos).
+- **Mineiro:** o relatório `docs/coleta/bra-mg-1.md` deixa de listar o "Palmeiras" sem ogol (a correção de 1921 do commit do Gaúcho); o pacote não muda.
+- **`registro.FICHA_COMUM`:** a cidade do Água Verde (39780) é "Curitiba" (o ogol escreve "Curitiba. PR"). Só o Paranaense usa essa ficha.

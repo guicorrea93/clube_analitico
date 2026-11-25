@@ -27,7 +27,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1"]
+COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1",
+               "bra-pr-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -101,6 +102,25 @@ PENDENCIAS: dict[str, list[str]] = {
         "Vices de 1986 e 1993: o pacote segue a classificação publicada/final; a Wikipédia dá o Internacional.",
         "Tabelas divergentes a explicar no relatório (muitas nos anos de página escaneada, 1963-1996). Autores dos gols: as "
         "páginas quase não trazem (cerca de 12% dos gols). Cartões: só jogo a jogo, pela ficha do ogol.",
+    ],
+    "bra-pr-1": [
+        "2002 Supercampeonato: edição não oficial (coluna oficial = \"não\"), com os clubes da Copa Sul-Minas; o Athletico "
+        "conta o título, mas a lista oficial da FPF não foi achada. 1980: título dividido (Colorado e Cascavel, co_campeao).",
+        "De 1915 a 2000 o ogol não tem os jogos (só 1965 e 1967): a identidade dos clubes vem dos nomes (importar.NOME_CODIGO "
+        "e NOME_ANO). \"Paraná\" (Paraná SC até 1926, Paraná EC de Londrina em 1968-1969, Paraná Clube de 1990), "
+        "\"Cascavel\" (Cascavel FC em 1971-1972, Cascavel EC de 1980 a 2000, Cascavel CR de 2003), \"Maringá\" (Grêmio "
+        "Maringá até 1996, Maringá FC 1995 em 1997-1998, Maringá FC de 2010), \"Toledo\", \"Foz do Iguaçu\", \"Arapongas\", "
+        "\"Cianorte\" (CAFE até 2001) e \"Nacional\" mudam de clube conforme a época.",
+        "Identidade a revisar: o EC Água Verde (39780: Savóia, Savóia Água Verde, EC Brasil e Água Verde, 1916-1971) e o EC "
+        "Pinheiros (17224, 1972-1989) são a mesma linhagem (RSSSF, prcamp.htm), mas o ogol, o cadastro comum e o banco os "
+        "separam; o pacote segue o cadastro. O Palestra Itália leva os nomes da II Guerra (Paranaense 1942, Comercial "
+        "1943-1945, Palmeiras 1946-1949). Cambaraense (1952-1962) e Cambará (1963-1965) ficam separados.",
+        "Vices diferentes da Wikipédia: 1923-1926 e 1940 (a Wikipédia dá o Operário Ferroviário; as páginas da RSSSF não têm "
+        "jogo com ele) e 1941 (a página dá a final Coritiba 6-1 Antoninense; a Wikipédia, Jacarezinho). Fica o da página.",
+        "Fora do pacote: o jogo de 24/08/1924 \"Atlético 2-1 Atlético\" (a página não diz o adversário) e a Final do "
+        "Interior de 2015 e 2016 (título à parte, como o Troféu do Interior do Gaúcho).",
+        "Tabelas divergentes a explicar no relatório (225, contra 209 que batem). Autores dos gols: as páginas quase não "
+        "trazem (6% dos gols; 2021-2026 sem autor). Cartões: só jogo a jogo, pela ficha do ogol.",
     ],
 }
 

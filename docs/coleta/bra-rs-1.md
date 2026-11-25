@@ -1290,7 +1290,7 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - tabela publicada x jogos — 2º Turno / -: Pelotas tabela [19, 6, 8, 5, 17, 16] jogos [20, 6, 9, 5, 19, 18] — a tabela conta 19 jogos e as fontes trazem 20
 - tabela publicada x jogos — 2º Turno / -: Farroupilha tabela [19, 6, 8, 5, 18, 21] jogos [20, 7, 8, 5, 20, 22] — a tabela conta 19 jogos e as fontes trazem 20
 - tabela publicada x jogos — 2º Turno / -: Novo Hamburgo tabela [19, 5, 8, 6, 15, 20] jogos [20, 5, 8, 7, 15, 22] — a tabela conta 19 jogos e as fontes trazem 20
-- tabela publicada x jogos — 2º Turno / -: 241325 tabela [19, 4, 5, 10, 13, 27] jogos [20, 4, 6, 10, 14, 28] — a tabela conta 19 jogos e as fontes trazem 20
+- tabela publicada x jogos — 2º Turno / -: SE São Borja tabela [19, 4, 5, 10, 13, 27] jogos [20, 4, 6, 10, 14, 28] — a tabela conta 19 jogos e as fontes trazem 20
 - tabela publicada x jogos — 2º Turno / -: Bagé tabela [19, 3, 7, 9, 4, 12] jogos [20, 3, 9, 8, 4, 11] — a tabela conta 19 jogos e as fontes trazem 20
 - tabela publicada x jogos — 2º Turno / -: Riograndense tabela [19, 5, 2, 12, 16, 38] jogos [20, 5, 2, 13, 16, 40] — a tabela conta 19 jogos e as fontes trazem 20
 - tabela publicada x jogos — 2º Turno / -: Estrela-RS tabela [19, 3, 6, 10, 10, 19] jogos [20, 4, 6, 10, 12, 19] — a tabela conta 19 jogos e as fontes trazem 20
@@ -1314,7 +1314,7 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - jogo só no ogol, incluído em 1. TURNO: 14 de Julho-PF 1-0 Brasil de Pelotas (1979-04-28)
 - jogo só no ogol, incluído em 1. TURNO: 14 de Julho-PF 2-0 Caxias (1979-05-02)
 - jogo só no ogol, incluído em 1. TURNO: Cachoeira 1-0 14 de Julho-PF (1979-05-06)
-- jogo só no ogol, incluído em 1. TURNO: 14 de Julho-PF 2-1 241325 (1979-05-12)
+- jogo só no ogol, incluído em 1. TURNO: 14 de Julho-PF 2-1 SE São Borja (1979-05-12)
 - jogo só no ogol, incluído em 2. TURNO: 14 de Julho-PF 1-0 Guarany de Bagé (1979-05-16)
 - jogo só no ogol, incluído em 2. TURNO: 14 de Julho-PF 0-2 Estrela-RS (1979-05-19)
 - jogo só no ogol, incluído em 2. TURNO: São Paulo-RS 3-1 14 de Julho-PF (1979-05-23)
@@ -1324,7 +1324,7 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - jogo só no ogol, incluído em 2. TURNO: Inter de Santa Maria 1-0 14 de Julho-PF (1979-05-30)
 - jogo só no ogol, incluído em 2. TURNO: 14 de Julho-PF 2-0 Novo Hamburgo (1979-06-03)
 - jogo só no ogol, incluído em 2. TURNO: Guarany de Bagé 0-1 Internacional (1979-06-06)
-- jogo só no ogol, incluído em 2. TURNO: 241325 1-1 14 de Julho-PF (1979-06-06)
+- jogo só no ogol, incluído em 2. TURNO: SE São Borja 1-1 14 de Julho-PF (1979-06-06)
 - jogo só no ogol, incluído em 2. TURNO: Guarany de Bagé 2-1 Riograndense (1979-06-09)
 - jogo só no ogol, incluído em 2. TURNO: Esportivo-RS 1-0 14 de Julho-PF (1979-06-10)
 - jogo só no ogol, incluído em 2. TURNO: 14 de Julho-PF 1-1 Juventude (1979-06-13)
@@ -1362,14 +1362,14 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - só na RSSSF (não achado no ogol): 14 de Julho 1-0 Brasil de Pelotas (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 2-0 Caxias (None)
 - só na RSSSF (não achado no ogol): Cachoeira 1-0 14 de Julho (None)
-- só na RSSSF (não achado no ogol): 14 de Julho 2-1 241325 (None)
+- só na RSSSF (não achado no ogol): 14 de Julho 2-1 SE São Borja (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 1-0 Guarany de Bagé (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 0-2 Estrela-RS (None)
 - só na RSSSF (não achado no ogol): São Paulo-RS 3-1 14 de Julho (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 3-1 Avenida (None)
 - só na RSSSF (não achado no ogol): Inter de Santa Maria 1-0 14 de Julho (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 2-0 Novo Hamburgo (None)
-- só na RSSSF (não achado no ogol): 241325 1-1 14 de Julho (None)
+- só na RSSSF (não achado no ogol): SE São Borja 1-1 14 de Julho (None)
 - só na RSSSF (não achado no ogol): Esportivo-RS 1-0 14 de Julho (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 1-1 Juventude (None)
 - só na RSSSF (não achado no ogol): Caxias 0-0 14 de Julho (None)
@@ -1405,19 +1405,19 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - tabela publicada x jogos — Fase final / -: Caxias tabela [14, 4, 3, 7, 15, 12] jogos [13, 4, 2, 7, 13, 12] — a tabela conta 14 jogos e as fontes trazem 13
 - jogo só no ogol, incluído em 1. TURNO: Guarany de Bagé 1-1 Internacional (1981-06-21)
 - jogo só no ogol, incluído em 1. TURNO: Juventude 0-0 Internacional (1981-07-05)
-- jogo só no ogol, incluído em 1. TURNO: 241325 0-1 Internacional (1981-07-09)
+- jogo só no ogol, incluído em 1. TURNO: SE São Borja 0-1 Internacional (1981-07-09)
 - jogo só no ogol, incluído em 1. TURNO: Internacional 0-1 São Paulo-RS (1981-07-19)
 - jogo só no ogol, incluído em 1. TURNO: Grêmio 0-0 Internacional (1981-07-26)
 - jogo só no ogol, incluído em 1. TURNO: Inter de Santa Maria 0-0 Caxias (1981-08-02)
-- jogo só no ogol, incluído em 1. TURNO: 241325 4-1 Juventude (1981-08-08)
-- jogo só no ogol, incluído em 2 TURNO: Internacional 2-0 241325 (1981-09-06)
+- jogo só no ogol, incluído em 1. TURNO: SE São Borja 4-1 Juventude (1981-08-08)
+- jogo só no ogol, incluído em 2 TURNO: Internacional 2-0 SE São Borja (1981-09-06)
 - jogo só no ogol, incluído em 2 TURNO: Inter de Santa Maria 4-1 São Gabriel (1981-09-06)
 - jogo só no ogol, incluído em 2 TURNO: Brasil de Pelotas 1-0 Caxias (1981-09-06)
 - jogo só no ogol, incluído em 2 TURNO: Guarany de Bagé 1-1 Armour (Particulares) (1981-09-06)
 - jogo só no ogol, incluído em 2 TURNO: São Paulo-RS 0-1 Internacional (1981-09-20)
 - jogo só no ogol, incluído em 2 TURNO: Armour (Particulares) 1-2 Internacional (1981-09-30)
 - jogo só no ogol, incluído em 2 TURNO: Internacional 0-0 Grêmio (1981-10-07)
-- jogo só no ogol, incluído em FASE FINAL: 241325 0-2 Internacional (1981-10-14)
+- jogo só no ogol, incluído em FASE FINAL: SE São Borja 0-2 Internacional (1981-10-14)
 - jogo só no ogol, incluído em FASE FINAL: Internacional 3-0 São Paulo-RS (1981-10-21)
 - jogo só no ogol, incluído em FASE FINAL: Internacional 2-1 Grêmio (1981-11-04)
 - jogo só no ogol, incluído em FASE FINAL: Novo Hamburgo 1-1 Internacional (1981-11-25)
@@ -1429,14 +1429,14 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - tabela publicada x jogos — 1º Turno / -: Internacional tabela [11, 9, 1, 1, 24, 5] jogos [11, 9, 1, 1, 26, 7] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — 1º Turno / -: Grêmio tabela [11, 9, 1, 1, 20, 4] jogos [11, 9, 1, 1, 20, 3] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — 1º Turno / -: Inter de Santa Maria tabela [11, 6, 2, 3, 15, 7] jogos [11, 5, 3, 3, 14, 7] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — 1º Turno / -: 241325 tabela [11, 4, 4, 3, 13, 12] jogos [11, 3, 4, 4, 12, 13] — há jogo do clube sem conferência no ogol
+- tabela publicada x jogos — 1º Turno / -: SE São Borja tabela [11, 4, 4, 3, 13, 12] jogos [11, 3, 4, 4, 12, 13] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — 1º Turno / -: Esportivo-RS tabela [11, 4, 1, 6, 12, 13] jogos [11, 4, 1, 6, 11, 13] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — 1º Turno / -: Juventude tabela [11, 2, 4, 5, 6, 17] jogos [11, 3, 5, 3, 7, 15] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — 2º Turno / -: Grêmio tabela [11, 7, 3, 1, 16, 6] jogos [11, 7, 3, 1, 19, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — 2º Turno / -: Esportivo-RS tabela [11, 7, 2, 2, 14, 7] jogos [10, 6, 2, 2, 12, 6] — a tabela conta 11 jogos e as fontes trazem 10
 - tabela publicada x jogos — 2º Turno / -: Novo Hamburgo tabela [11, 3, 5, 3, 12, 13] jogos [11, 3, 5, 3, 11, 13] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — 2º Turno / -: Inter de Santa Maria tabela [11, 3, 3, 5, 12, 14] jogos [10, 3, 3, 4, 11, 12] — a tabela conta 11 jogos e as fontes trazem 10
-- tabela publicada x jogos — 2º Turno / -: 241325 tabela [11, 3, 3, 5, 7, 13] jogos [11, 3, 3, 5, 7, 12] — há jogo do clube sem conferência no ogol
+- tabela publicada x jogos — 2º Turno / -: SE São Borja tabela [11, 3, 3, 5, 7, 13] jogos [11, 3, 3, 5, 7, 12] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Fase final / -: Internacional tabela [10, 8, 2, 0, 18, 4] jogos [11, 9, 2, 0, 20, 4] — a tabela conta 10 jogos e as fontes trazem 11
 - tabela publicada x jogos — Fase final / -: Grêmio tabela [10, 7, 1, 2, 18, 6] jogos [11, 7, 1, 3, 18, 8] — a tabela conta 10 jogos e as fontes trazem 11
 - tabela publicada x jogos — Fase final / -: Esportivo-RS tabela [10, 3, 5, 2, 10, 9] jogos [11, 4, 5, 2, 12, 10] — a tabela conta 10 jogos e as fontes trazem 11
@@ -1444,10 +1444,10 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - jogo só no ogol, incluído em PRIMEIRO TURNO: São Paulo-RS 0-1 Internacional (1982-07-26)
 - jogo só no ogol, incluído em PRIMEIRO TURNO: Inter de Santa Maria 2-0 Novo Hamburgo (1982-08-01)
 - jogo só no ogol, incluído em PRIMEIRO TURNO: Brasil de Pelotas 0-0 Guarany de Bagé (1982-08-01)
-- jogo só no ogol, incluído em PRIMEIRO TURNO: 241325 4-1 Esportivo-RS (1982-08-01)
+- jogo só no ogol, incluído em PRIMEIRO TURNO: SE São Borja 4-1 Esportivo-RS (1982-08-01)
 - jogo só no ogol, incluído em 2. TURNO: Juventude 2-1 Internacional (1982-09-19)
 - jogo só no ogol, incluído em 2. TURNO: Internacional 1-1 São Paulo-RS (1982-10-06)
-- jogo só no ogol, incluído em 2. TURNO: 241325 2-0 Novo Hamburgo (1982-10-06)
+- jogo só no ogol, incluído em 2. TURNO: SE São Borja 2-0 Novo Hamburgo (1982-10-06)
 - jogo só no ogol, incluído em FASE FINAL: São Paulo-RS 0-1 Internacional (1982-10-20)
 - jogo só no ogol, incluído em FASE FINAL: Esportivo-RS 2-1 Inter de Santa Maria (1982-11-07)
 - jogo só no ogol, incluído em FASE FINAL: Internacional 3-1 Grêmio (1982-11-07)
@@ -1461,7 +1461,7 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - tabela publicada x jogos — 2º Turno / -: Grêmio tabela [22, 8, 10, 4, 23, 14] jogos [40, 14, 16, 10, 41, 29] — a tabela conta 22 jogos e as fontes trazem 40
 - tabela publicada x jogos — 2º Turno / -: São Paulo-RS tabela [22, 8, 10, 4, 24, 15] jogos [38, 11, 16, 11, 39, 39] — a tabela conta 22 jogos e as fontes trazem 38
 - tabela publicada x jogos — 2º Turno / -: Esportivo-RS tabela [22, 8, 10, 4, 21, 17] jogos [37, 10, 18, 9, 32, 31] — a tabela conta 22 jogos e as fontes trazem 37
-- tabela publicada x jogos — 2º Turno / -: 241325 tabela [22, 8, 8, 6, 21, 17] jogos [36, 10, 14, 12, 28, 32] — a tabela conta 22 jogos e as fontes trazem 36
+- tabela publicada x jogos — 2º Turno / -: SE São Borja tabela [22, 8, 8, 6, 21, 17] jogos [36, 10, 14, 12, 28, 32] — a tabela conta 22 jogos e as fontes trazem 36
 - tabela publicada x jogos — 2º Turno / -: Novo Hamburgo tabela [22, 7, 10, 5, 17, 13] jogos [36, 11, 15, 10, 27, 26] — a tabela conta 22 jogos e as fontes trazem 36
 - tabela publicada x jogos — 2º Turno / -: Brasil de Pelotas tabela [22, 7, 9, 6, 15, 18] jogos [38, 13, 16, 9, 33, 29] — a tabela conta 22 jogos e as fontes trazem 38
 - tabela publicada x jogos — 2º Turno / -: Juventude tabela [22, 6, 10, 6, 18, 14] jogos [36, 12, 13, 11, 32, 31] — a tabela conta 22 jogos e as fontes trazem 36
@@ -1470,14 +1470,14 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - jogo só no ogol, incluído em 1" TURNO: Internacional 2-1 São Paulo-RS (1983-07-06)
 - jogo só no ogol, incluído em 1" TURNO: Internacional 0-0 Caxias (1983-07-26)
 - jogo só no ogol, incluído em 1" TURNO: Brasil de Pelotas 0-0 Grêmio (1983-08-07)
-- jogo só no ogol, incluído em 2" TURNO: Internacional 0-0 241325 (1983-09-07)
+- jogo só no ogol, incluído em 2" TURNO: Internacional 0-0 SE São Borja (1983-09-07)
 - jogo só no ogol, incluído em 2" TURNO: Inter de Santa Maria 0-1 Grêmio (1983-09-07)
 - jogo só no ogol, incluído em 2" TURNO: Grêmio 0-0 Brasil de Pelotas (1983-09-11)
 - jogo só no ogol, incluído em 2" TURNO: Caxias 0-1 Internacional (1983-09-29)
 - jogo só no ogol, incluído em 2" TURNO: Brasil de Pelotas 0-0 Internacional (1983-10-04)
 - jogo só no ogol, incluído em 2" TURNO: Internacional 2-0 Esportivo-RS (1983-10-09)
-- jogo só no ogol, incluído em FASE FINAL: 241325 0-0 Internacional (1983-10-12)
-- jogo só no ogol, incluído em FASE FINAL: 241325 1-0 Grêmio (1983-10-23)
+- jogo só no ogol, incluído em FASE FINAL: SE São Borja 0-0 Internacional (1983-10-12)
+- jogo só no ogol, incluído em FASE FINAL: SE São Borja 1-0 Grêmio (1983-10-23)
 - jogo só no ogol, incluído em FASE FINAL: Internacional 2-0 Brasil de Pelotas (1983-10-26)
 - jogo só no ogol, incluído em FASE FINAL: Novo Hamburgo 2-1 Grêmio (1983-11-23)
 - vice pela Wikipédia (sem final de dois clubes): Brasil de Pelotas
@@ -1495,10 +1495,10 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - tabela publicada x jogos — Segunda fase / -: Bagé tabela [13, 2, 6, 5, 5, 10] jogos [35, 6, 13, 16, 26, 40] — a tabela conta 13 jogos e as fontes trazem 35
 - tabela publicada x jogos — Segunda fase / -: Novo Hamburgo tabela [13, 2, 5, 6, 6, 12] jogos [35, 15, 9, 11, 31, 23] — a tabela conta 13 jogos e as fontes trazem 35
 - tabela publicada x jogos — Segunda fase / -: São Paulo-RS tabela [13, 2, 5, 6, 7, 16] jogos [35, 6, 15, 14, 27, 43] — a tabela conta 13 jogos e as fontes trazem 35
-- tabela publicada x jogos — Segunda fase / -: 241325 tabela [13, 1, 6, 6, 5, 15] jogos [35, 7, 16, 12, 23, 33] — a tabela conta 13 jogos e as fontes trazem 35
+- tabela publicada x jogos — Segunda fase / -: SE São Borja tabela [13, 1, 6, 6, 5, 15] jogos [35, 7, 16, 12, 23, 33] — a tabela conta 13 jogos e as fontes trazem 35
 - tabela publicada x jogos — Segunda fase / -: Internacional tabela [13, 9, 3, 1, 23, 4] jogos [36, 22, 10, 4, 55, 16] — a tabela conta 13 jogos e as fontes trazem 36
 - tabela publicada x jogos — Segunda fase / -: Pelotas tabela [13, 7, 3, 3, 14, 8] jogos [58, 17, 25, 16, 45, 44] — a tabela conta 13 jogos e as fontes trazem 58
-- tabela publicada x jogos — Segunda fase / -: 241325 tabela [13, 6, 5, 2, 11, 8] jogos [48, 13, 21, 14, 34, 41] — a tabela conta 13 jogos e as fontes trazem 48
+- tabela publicada x jogos — Segunda fase / -: SE São Borja tabela [13, 6, 5, 2, 11, 8] jogos [48, 13, 21, 14, 34, 41] — a tabela conta 13 jogos e as fontes trazem 48
 - tabela publicada x jogos — Segunda fase / -: Grêmio tabela [13, 5, 6, 2, 14, 7] jogos [36, 15, 13, 8, 41, 26] — a tabela conta 13 jogos e as fontes trazem 36
 - tabela publicada x jogos — Segunda fase / -: Juventude tabela [13, 4, 6, 3, 9, 7] jogos [58, 19, 19, 20, 48, 51] — a tabela conta 13 jogos e as fontes trazem 58
 - tabela publicada x jogos — Segunda fase / -: Inter de Santa Maria tabela [13, 4, 6, 3, 11, 10] jogos [48, 17, 20, 11, 42, 30] — a tabela conta 13 jogos e as fontes trazem 48
@@ -1525,7 +1525,7 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 
 - tabela publicada x jogos — Primeira fase / -: Esportivo-RS tabela [13, 4, 6, 3, 13, 10] jogos [13, 4, 6, 3, 13, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / -: Santa Cruz-RS tabela [13, 3, 8, 2, 12, 16] jogos [13, 3, 8, 2, 12, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / -: 241325 tabela [13, 4, 3, 6, 10, 18] jogos [13, 4, 3, 6, 16, 18] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / -: SE São Borja tabela [13, 4, 3, 6, 10, 18] jogos [13, 4, 3, 6, 16, 18] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Segunda fase / -: Esportivo-RS tabela [13, 3, 3, 7, 12, 26] jogos [13, 3, 3, 7, 12, 20] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Southern Group: Rio Grande tabela [8, 2, 5, 1, 7, 8] jogos [8, 2, 5, 1, 7, 7] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Primeira fase / Southern Group: FC Riograndense tabela [8, 0, 4, 4, 4, 8] jogos [8, 0, 4, 4, 3, 8] — há jogo do clube sem conferência no ogol
@@ -3291,34 +3291,34 @@ ou nos outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes
 - placar diferente no ogol — Santa Cruz-RS x Grêmio (1997-06-11): RSSSF 0-1, ogol 1-1; fica o da RSSSF
 - data com dia e mês trocados na RSSSF em 1 jogos (ex.: Brasil de Pelotas x Brasil de Farroupilha); fica a data do ogol
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 14 jogos (ex.: Caxias x Glória, ogol 1997-02-19); fica a do ogol
-- só na RSSSF (não achado no ogol): 241325 3-2 São José-RS (None)
+- só na RSSSF (não achado no ogol): SE São Borja 3-2 São José-RS (None)
 - só na RSSSF (não achado no ogol): Palmeirense 1-0 Novo Hamburgo (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 1-1 GA Guarany (None)
 - só na RSSSF (não achado no ogol): São José-RS 2-3 Palmeirense (None)
-- só na RSSSF (não achado no ogol): GA Guarany 4-1 241325 (None)
+- só na RSSSF (não achado no ogol): GA Guarany 4-1 SE São Borja (None)
 - só na RSSSF (não achado no ogol): Novo Hamburgo 1-0 14 de Julho (None)
 - só na RSSSF (não achado no ogol): São José-RS 4-1 Novo Hamburgo (None)
 - só na RSSSF (não achado no ogol): Palmeirense 1-0 GA Guarany (None)
-- só na RSSSF (não achado no ogol): 241325 2-2 14 de Julho (None)
+- só na RSSSF (não achado no ogol): SE São Borja 2-2 14 de Julho (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 1-1 Palmeirense (None)
-- só na RSSSF (não achado no ogol): 241325 2-1 Novo Hamburgo (None)
+- só na RSSSF (não achado no ogol): SE São Borja 2-1 Novo Hamburgo (None)
 - só na RSSSF (não achado no ogol): GA Guarany 1-2 São José-RS (None)
 - só na RSSSF (não achado no ogol): São José-RS 0-0 14 de Julho (None)
-- só na RSSSF (não achado no ogol): Palmeirense 5-2 241325 (None)
+- só na RSSSF (não achado no ogol): Palmeirense 5-2 SE São Borja (None)
 - só na RSSSF (não achado no ogol): Novo Hamburgo 1-0 GA Guarany (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 1-1 São José-RS (None)
 - só na RSSSF (não achado no ogol): Guarani V. Aires 3-1 Novo Hamburgo (None)
-- só na RSSSF (não achado no ogol): 241325 3-3 Palmeirense (None)
+- só na RSSSF (não achado no ogol): SE São Borja 3-3 Palmeirense (None)
 - só na RSSSF (não achado no ogol): São José-RS 1-1 GA Guarany (None)
-- só na RSSSF (não achado no ogol): Novo Hamburgo 3-2 241325 (None)
+- só na RSSSF (não achado no ogol): Novo Hamburgo 3-2 SE São Borja (None)
 - só na RSSSF (não achado no ogol): Palmeirense 4-2 14 de Julho (None)
-- só na RSSSF (não achado no ogol): 14 de Julho 2-1 241325 (None)
+- só na RSSSF (não achado no ogol): 14 de Julho 2-1 SE São Borja (None)
 - só na RSSSF (não achado no ogol): GA Guarany 3-2 Palmeirense (None)
 - só na RSSSF (não achado no ogol): Novo Hamburgo 2-0 São José-RS (None)
 - só na RSSSF (não achado no ogol): Palmeirense 1-1 São José-RS (None)
-- só na RSSSF (não achado no ogol): 241325 4-1 GA Guarany (None)
+- só na RSSSF (não achado no ogol): SE São Borja 4-1 GA Guarany (None)
 - só na RSSSF (não achado no ogol): 14 de Julho 1-1 Novo Hamburgo (None)
-- só na RSSSF (não achado no ogol): São José-RS 3-2 241325 (None)
+- só na RSSSF (não achado no ogol): São José-RS 3-2 SE São Borja (None)
 - só na RSSSF (não achado no ogol): GA Guarany 2-2 14 de Julho (None)
 - só na RSSSF (não achado no ogol): Novo Hamburgo 5-2 Palmeirense (None)
 
