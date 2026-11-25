@@ -66,7 +66,7 @@ CREATE TABLE edicao (
     formato        TEXT,                      -- descrição curta: "pontos corridos, turno e returno"
     campeao_id     INTEGER REFERENCES clube(clube_id),
     vice_id        INTEGER REFERENCES clube(clube_id),
-    co_campeao_id  INTEGER REFERENCES clube(clube_id),   -- título dividido: o outro campeão (Paulista 1973, Carioca 1907; D-07)
+    co_campeao_id  INTEGER REFERENCES clube(clube_id),   -- título dividido: o 1º dos outros campeões (todos em edicao_co_campeao; D-07)
     fontes         TEXT,
     observacao     TEXT,
     UNIQUE (competicao_id, temporada, chave)
@@ -192,3 +192,10 @@ CREATE INDEX idx_gol_partida ON gol(partida_id);
 CREATE INDEX idx_cartao_partida ON cartao(partida_id);
 CREATE INDEX idx_edicao_comp ON edicao(competicao_id, ano_inicio);
 CREATE INDEX idx_clube_nome_chave ON clube_nome(nome_chave);
+
+-- título dividido entre mais de dois clubes (Cearense 1992: quatro campeões): um registro por co-campeão (D-07)
+CREATE TABLE IF NOT EXISTS edicao_co_campeao (
+    edicao_id INTEGER NOT NULL REFERENCES edicao(edicao_id),
+    clube_id  INTEGER NOT NULL REFERENCES clube(clube_id),
+    PRIMARY KEY (edicao_id, clube_id)
+);

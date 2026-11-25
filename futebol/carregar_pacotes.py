@@ -54,12 +54,17 @@ def ler(pasta: Path, nome: str) -> list[dict]:
     return list(csv.DictReader(f.open(encoding="utf-8"))) if f.exists() else []
 
 
+def cos(r: dict) -> list[str]:
+    """Co-campeões da edição (coluna co_campeao; vários separados por " / ")."""
+    return [x.strip() for x in (r.get("co_campeao") or "").split(" / ") if x.strip()]
+
+
 def apagar(b: sqlite3.Connection, cid: int) -> None:
     eds = f"SELECT edicao_id FROM edicao WHERE competicao_id = {cid}"
     pts = f"SELECT partida_id FROM partida WHERE edicao_id IN ({eds})"
     for t in ("gol", "cartao", "estatistica_partida"):
         b.execute(f"DELETE FROM {t} WHERE partida_id IN ({pts})")
-    for t in ("partida", "fase", "classificacao_final", "classificacao_rodada", "tabela_publicada", "artilheiro"):
+    for t in ("partida", "fase", "classificacao_final", "classificacao_rodada", "tabela_publicada", "artilheiro", "edicao_co_campeao"):
         b.execute(f"DELETE FROM {t} WHERE edicao_id IN ({eds})")
     b.execute(f"DELETE FROM edicao WHERE competicao_id = {cid}")
     b.execute(f"DELETE FROM competicao WHERE competicao_id = {cid}")
@@ -70,6 +75,9 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
     comp = json.loads((pasta / "competicao.json").read_text(encoding="utf-8"))
     if "co_campeao_id" not in {c[1] for c in b.execute("PRAGMA table_info(edicao)")}:   # banco anterior à D-07
         b.execute("ALTER TABLE edicao ADD COLUMN co_campeao_id INTEGER REFERENCES clube(clube_id)")
+    b.execute("""CREATE TABLE IF NOT EXISTS edicao_co_campeao (edicao_id INTEGER NOT NULL REFERENCES edicao(edicao_id),
+                 clube_id INTEGER NOT NULL REFERENCES clube(clube_id), PRIMARY KEY (edicao_id, clube_id))""")   # D-07, vários
+    b.execute("INSERT OR IGNORE INTO edicao_co_campeao SELECT edicao_id, co_campeao_id FROM edicao WHERE co_campeao_id IS NOT NULL")
     for col in ("pontos_empate", "pontos_derrota", "oficial"):   # banco anterior a 24/11 (pontuação 3-2-1, 4-2-1; D-10)
         if col not in {c[1] for c in b.execute("PRAGMA table_info(edicao)")}:
             b.execute(f"ALTER TABLE edicao ADD COLUMN {col} INTEGER")
@@ -150,8 +158,12 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (cid, r["temporada"], num(r["ano_inicio"]), num(r.get("ano_fim")), None if nome_of == comp["nome"] else nome_of, r["temporada"],
              num(r.get("num_clubes")), num(r.get("pontos_vitoria")), num(r.get("pontos_empate")), num(r.get("pontos_derrota")), r.get("formato") or None, cl(r.get("campeao")), cl(r.get("vice")),
-             cl(r.get("co_campeao")), r.get("fontes") or None, r.get("observacao") or None,
+             cl(cos(r)[0] if cos(r) else None), r.get("fontes") or None, r.get("observacao") or None,
              0 if (r.get("oficial") or "").strip().lower() in ("não", "nao", "0") else None)).lastrowid
+        for c in cos(r):   # título dividido (D-07): "Ceará / Tiradentes-CE / Icasa" = três co-campeões
+            if cl(c) is None:
+                raise ValueError(f"{slug} {r['temporada']}: co-campeão fora do clubes.csv: {c}")
+            b.execute("INSERT INTO edicao_co_campeao (edicao_id, clube_id) VALUES (?,?)", (ed[r["temporada"]], cl(c)))
     fase: dict[tuple, int] = {}
     for r in ler(pasta, "fases.csv"):
         fase[(r["temporada"], r["fase"])] = b.execute(
@@ -191,6 +203,16 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
                   (ed[r["temporada"]], cl(r["clube"]), num(r["posicao"]), num(r.get("jogos")), num(r.get("vitorias")), num(r.get("empates")),
                    num(r.get("derrotas")), num(r.get("gols_pro")), num(r.get("gols_contra")), num(r.get("pontos")), num(r.get("ajuste_pontos")),
                    r.get("situacao") or None, r.get("fonte") or None, r.get("observacao") or None))
+    # edição só com campeão e vice (sem classificação no pacote, ex.: Cearense 1916-1938): campeão em 1º e vice em 2º,
+    # sem números, como os outros pacotes fazem; senão o painel a trata como edição vazia e perde o título
+    com_tabela = {t for (t,) in b.execute("SELECT DISTINCT e.temporada FROM classificacao_final c JOIN edicao e USING (edicao_id) "
+                                          "WHERE e.competicao_id = ?", (cid,))}
+    for r in ler(pasta, "edicoes.csv"):
+        if r["temporada"] not in com_tabela:
+            for pos, c in ((1, cl(r.get("campeao"))), (2, cl(r.get("vice")))):
+                if c is not None:
+                    b.execute("INSERT INTO classificacao_final (edicao_id, clube_id, posicao, fonte) VALUES (?,?,?,?)",
+                              (ed[r["temporada"]], c, pos, "edicoes.csv (só campeão e vice)"))
     # tabela rodada a rodada: uma por edição (pontos corridos). Temporada com a mesma rodada repetida para o mesmo clube
     # (uma tabela por fase) fica de fora, senão o painel a trataria como turno único
     rodadas = ler(pasta, "classificacao_rodada.csv")
