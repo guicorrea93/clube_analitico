@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-asia/documentar.py` a partir do pacote `data/col
 - **Jogos:** 7163 (7161 com placar); **gols:** 18111; **gols com autor:** 17984 (99%); **cartões:** 24627.
 - **Clubes:** 25; **artilheiros:** 43 edições com artilheiro (43 linhas, com empates).
 - **Classificação final:** 43 edições; **tabelas publicadas guardadas para conferência:** 0 linhas.
-- **No banco:** ainda não; **último commit do pacote:** e04507f.
+- **No banco:** sim; **último commit do pacote:** e04507f1.
 - **Observação da competição:** K League (1983-2012) e K League 1 (2013 em diante)
 
 ## 2. Edições, fontes e regras

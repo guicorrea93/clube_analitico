@@ -62,7 +62,7 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    2003-2025); RSSSF (tabelas 1983-2009 e páginas de cada ano: conferência); Wikipédia em inglês (campeão, vice,
    artilheiro) e em coreano (desempate das divergências); ogol (2008-2025: conferência e escudos). Pacote em
    `data/coleta/kor-1/pacote/`, relatório em `docs/coleta/kor-1.md`, ficha em `coleta/comum-asia/documentacao/kor-1.md`.
-2. **Commits:** `e04507f` (24/11, sem push).
+2. **Commits:** `e04507f` e `7abc4ec` (no GitHub, 24/11).
 3. **Teste de carga:** `kor-1: 43 edições, 7163 jogos, 25 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `kor-1`; **país novo: Coreia do Sul (`KOR`, AFC)**, em `paises.csv`: a Coreia foi a Copas, deve já haver
@@ -100,3 +100,39 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    classificação de 1983-2002 (calculada: campeão e vice da decisão em cima, depois a tabela); os nomes dos estrangeiros
    (`nomes_kor.py`).
 8. **Próxima competição:** Arábia Saudita (`ksa-1`), depois das decisões de escopo do Guilherme.
+
+## Recado de fim de coleta — ksa-1 — 25/11/2026
+
+1. **Feito:** Campeonato Saudita (`ksa-1`), 69 edições (1957/58 a 2025/26, como o relatório oficial da federação de
+   2025), 5.965 jogos, 43 clubes (todos `KSA`), 7.296 gols com autor e 4.801 cartões. Fontes: RSSSF (tabelas de
+   1974/75 em diante, jogos em 1974/75, 1976/77, 1980/81, 1982/83, 1983/84, 1986/87 e 1997/98-2024/25, playoffs,
+   autores até 2005/06), ogol (fase de liga 1999/00-2025/26), ESPN (2022/23-2025/26: autores, cartões, estádio, público,
+   hora), Wikipédia (lista oficial de campeões e vices). Pacote em `data/coleta/ksa-1/pacote/`, relatório em
+   `docs/coleta/ksa-1.md`, ficha em `coleta/comum-asia/documentacao/ksa-1.md`.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `ksa-1: 69 edições, 5965 jogos, 43 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `ksa-1`; **país novo: Arábia Saudita (`KSA`, AFC)**: a Arábia Saudita foi a Copas, deve já haver bandeira;
+   - temporadas no formato "1957/58"; 12 edições sem jogos: 1966/67, 1967/68 e 1969/70 (sem campeão), 1968/69 (sem a
+     final) e os anos só com a tabela da RSSSF (1977/78-1979/80, 1984/85, 1985/86, 1987/88-1989/90); 1975/76 tem 16 jogos
+     e não tem campeão (abandonada); 1957/58-1973/74 com só a final (fase "Final") e a classificação com 2 linhas
+     (campeão e vice, sem números);
+   - classificação com números vazios onde a RSSSF só dá jogos e pontos (1977/78-1981/82) ou só a ordem (1985/86);
+   - fases: "Liga" (tipo `grupos` com 2 grupos em 1974/75 e 1981/82) e o playoff ("Semifinal", "Final",
+     "Disputa do 3º lugar", "Primeira fase", "Segunda fase") em 1974/75, 1981/82 e 1990/91-2006/07; o campeão é o oficial,
+     em 1º na classificação mesmo quando não é o 1º da fase de liga;
+   - `pontos_vitoria` 2 até 1992/93 e 3 depois; 7 `ajuste_pontos` (punições/bônus da tabela da RSSSF);
+   - 5 jogos `awd` com o placar dado e o de campo na observação;
+   - escudos: calendários do ogol em `data/cache/ogol-ksa-1/` (1999/00-2025/26); clubes antigos fora do ogol (Al-Yamamah,
+     Al-Rabe'e, Al-Kifah, Okaz, Al-Jabalain, Al-Kawkab, Al-Rawdhah, Al-Arabi de Unaizah, Sadous...).
+5. **Decisões:** do Guilherme (24/11): desde 1957, como a federação conta (Al-Hilal 21 títulos). Do agente: até 2025/26;
+   temporadas não concluídas/canceladas como edição sem campeão; 1990/91-2006/07 campeão do playoff (o oficial); jogos da
+   fase de liga da RSSSF até 2005/06 quando completa, do ogol depois; nomes árabes com hífen e cidade nos homônimos;
+   2 correções do ogol com prova (Wikipédia). Nada esperando o Guilherme.
+6. **Não coletado / pendências:** jogos de 1957-1974 (só a final) e da fase de liga em 1977/78-1996/97 (só a tabela);
+   finais de 1994/95 e 1995/96; autores e cartões de 2006/07 a 2021/22; 36 jogos sem data. Fontes que resolveriam: jornais
+   da época, súmulas da Saudi Pro League, FBref/Transfermarkt.
+7. **Onde a revisão deve olhar primeiro:** as edições de 1957/58-1973/74 (final da Copa do Rei ligada pelo par de clubes,
+   às vezes com o rótulo da temporada anterior); a classificação dos anos de playoff (campeão e vice em cima, depois a
+   tabela); os placares RSSSF x ogol listados em cada edição; `clubes_ksa.py` (homônimos e grafias).
+8. **Próxima competição:** Irã (`irn-1`), depois das decisões de escopo do Guilherme.

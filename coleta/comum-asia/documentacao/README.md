@@ -6,8 +6,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Japonês | 60 (1965–2025) | 0 | 12190 | 27554 | 31272 | 40 | 57 / 3 | sim | 71d5006 | 0 | [jpn-1](jpn-1.md) |
-| Campeonato Sul-Coreano | 43 (1983–2025) | 0 | 7163 | 17984 | 24627 | 25 | 37 / 6 | não | e04507f | 0 | [kor-1](kor-1.md) |
+| Campeonato Japonês | 60 (1965–2025) | 0 | 12190 | 27554 | 31272 | 40 | 57 / 3 | sim | 71d50064 | 0 | [jpn-1](jpn-1.md) |
+| Campeonato Sul-Coreano | 43 (1983–2025) | 0 | 7163 | 17984 | 24627 | 25 | 37 / 6 | sim | e04507f1 | 0 | [kor-1](kor-1.md) |
+| Campeonato Saudita | 69 (1957/58–2025/26) | 12 | 5965 | 7296 | 4801 | 43 | 35 / 8 | não | — | 0 | [ksa-1](ksa-1.md) |
 
 ## Pendências de todas as competições
 
@@ -24,7 +25,13 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **kor-1:** 958 jogos de antes de 2013 sem rodada (o portal não dá; a rodada sai da ordem dos jogos de cada clube quando os dois batem); classificacao_rodada só de 2013 em diante.
 - **kor-1:** Estádios: nome traduzido por regra do hangul do portal (cidade + tipo: 월드컵 World Cup Stadium, 종합 Sports Complex...); cidade dos jogos em branco. O Sangmu de 1985 fica sem cidade (time do Exército, sem sede).
 - **kor-1:** 2026: entra quando acabar (em 24/11 faltavam 12 jogos).
+- **ksa-1:** 1957/58 a 1973/74 (His Majesty's League): só campeão, vice e, quando a RSSSF tem o mesmo par, o jogo da final da Copa do Rei; sem os outros jogos nem a data. 1968/69 sem a final (o par oficial não está na lista da RSSSF). Fonte que resolveria: o relatório oficial da federação (2025), que não está publicado em detalhe.
+- **ksa-1:** Sem os jogos da fase de liga em 1977/78-1979/80, 1981/82, 1984/85, 1985/86 e 1987/88-1996/97 (a RSSSF só tem a tabela; o ogol só tem jogos de 1999/00 em diante); 1977/78-1981/82 com tabela só de jogos e pontos, 1985/86 só a ordem. Fonte que resolveria: os jornais da época (Arab News, citado pela RSSSF) ou o arquivo antigo do Kooora (o site mudou e não mostra mais os anos antigos).
+- **ksa-1:** Finais do playoff que a RSSSF não tem: 1994/95 e 1995/96 (campeão e vice da lista oficial).
+- **ksa-1:** Autores dos gols só onde a RSSSF tem (1974/75-2005/06, com falhas: 1997/98 sem nenhum, 2003/04 66%) e a ESPN (2022/23-2025/26, 98-100%); 2006/07-2021/22 sem autores nem cartões. Fonte que resolveria: as súmulas do site da Saudi Pro League ou o FBref/Transfermarkt.
+- **ksa-1:** Placares diferentes entre a RSSSF e o ogol em uns 2 a 8 jogos por ano (listados em cada edição); ficou a fonte dos jogos do ano, conferida com a tabela da RSSSF. 1997/98, 2003/04, 2011/12: diferenças de 1 gol entre os jogos e a tabela da RSSSF.
+- **ksa-1:** Datas: 36 jogos sem data (finais antigas e playoffs da RSSSF sem data).
 
 ## Próximas competições
 
-- 1ªs divisões da AFC, na ordem do guia geral: ksa-1, irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, ind-1, tha-1; depois as outras. Antes de cada uma, as decisões de escopo vão ao Guilherme. Como fazer: `COMECE-AQUI.md`, seção 4.
+- 1ªs divisões da AFC, na ordem do guia geral: irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, ind-1, tha-1; depois as outras. Antes de cada uma, as decisões de escopo vão ao Guilherme. Como fazer: `COMECE-AQUI.md`, seção 4.

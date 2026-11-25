@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["jpn-1", "kor-1"]                  # slugs prontos, na ordem da coleta (jpn-1, kor-1, ...)
-PAIS: dict[str, str] = {"jpn-1": "jpn", "kor-1": "kor"}  # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["jpn-1", "kor-1", "ksa-1"]                  # slugs prontos, na ordem da coleta (jpn-1, kor-1, ...)
+PAIS: dict[str, str] = {"jpn-1": "jpn", "kor-1": "kor", "ksa-1": "ksa"}  # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -64,6 +64,23 @@ PENDENCIAS: dict[str, list[str]] = {
         "Complex...); cidade dos jogos em branco. O Sangmu de 1985 fica sem cidade (time do Exército, sem sede).",
         "2026: entra quando acabar (em 24/11 faltavam 12 jogos).",
     ],
+    "ksa-1": [
+        "1957/58 a 1973/74 (His Majesty's League): só campeão, vice e, quando a RSSSF tem o mesmo par, o jogo da final da "
+        "Copa do Rei; sem os outros jogos nem a data. 1968/69 sem a final (o par oficial não está na lista da RSSSF). Fonte "
+        "que resolveria: o relatório oficial da federação (2025), que não está publicado em detalhe.",
+        "Sem os jogos da fase de liga em 1977/78-1979/80, 1981/82, 1984/85, 1985/86 e 1987/88-1996/97 (a RSSSF só tem a "
+        "tabela; o ogol só tem jogos de 1999/00 em diante); 1977/78-1981/82 com tabela só de jogos e pontos, 1985/86 só a "
+        "ordem. Fonte que resolveria: os jornais da época (Arab News, citado pela RSSSF) ou o arquivo antigo do Kooora (o site "
+        "mudou e não mostra mais os anos antigos).",
+        "Finais do playoff que a RSSSF não tem: 1994/95 e 1995/96 (campeão e vice da lista oficial).",
+        "Autores dos gols só onde a RSSSF tem (1974/75-2005/06, com falhas: 1997/98 sem nenhum, 2003/04 66%) e a ESPN "
+        "(2022/23-2025/26, 98-100%); 2006/07-2021/22 sem autores nem cartões. Fonte que resolveria: as súmulas do site da "
+        "Saudi Pro League ou o FBref/Transfermarkt.",
+        "Placares diferentes entre a RSSSF e o ogol em uns 2 a 8 jogos por ano (listados em cada edição); ficou a fonte dos "
+        "jogos do ano, conferida com a tabela da RSSSF. 1997/98, 2003/04, 2011/12: diferenças de 1 gol entre os jogos e a "
+        "tabela da RSSSF.",
+        "Datas: 36 jogos sem data (finais antigas e playoffs da RSSSF sem data).",
+    ],
 }
 
 # rótulo de cada dicionário de explicacoes.py
@@ -79,6 +96,7 @@ DICIONARIOS = {
     "SORTEIO": "Empate nos pênaltis decidido no sorteio",
     "OBS_CLASSIFICACAO": "Saídas da liga que não foram rebaixamento comum",
     "AWD": "Jogos decididos fora de campo (placar oficial; o de campo no gols_texto)",
+    "OGOL_CORRIGE": "Jogos do ogol corrigidos (com a prova)",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("cidade", "cidade"),
@@ -403,7 +421,7 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- 1ªs divisões da AFC, na ordem do guia geral: ksa-1, irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, "
+            "- 1ªs divisões da AFC, na ordem do guia geral: irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, "
             "ind-1, tha-1; depois as outras. Antes de cada uma, as decisões de escopo vão ao Guilherme. Como fazer: "
             "`COMECE-AQUI.md`, seção 4.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")

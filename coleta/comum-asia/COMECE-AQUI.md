@@ -4,7 +4,7 @@ Para o agente de coleta da Ásia (países da AFC, inclusive a Austrália) e para
 antes o guia geral `docs/agentes-internacionais-COMECE-AQUI.md`, com o formato do pacote, as pastas de cada agente e as
 regras de identidade dos clubes. Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 24/11/2026 (Japão no GitHub e no banco; Coreia do Sul commitada, e04507f).
+Última atualização: 25/11/2026 (Arábia Saudita pronta, esperando o ok do commit).
 
 **Documentação completa:** `coleta/comum-asia/documentacao/`, gerada por `python coleta/comum-asia/documentar.py` a partir
 dos pacotes, do código e dos relatórios (uma ficha por competição e o índice `README.md`). Rode depois de toda
@@ -49,7 +49,8 @@ importação ou correção e mantenha à mão só as listas `LIGAS`, `PAIS` e `P
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `jpn-1` Japonês | 60 (1965–2025) | 12.190 | 40 | 71d5006 (no GitHub) | sim |
-| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | e04507f (sem push) | não |
+| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | e04507f (no GitHub) | não |
+| `ksa-1` Saudita | 69 (1957/58–2025/26) | 5.965 | 43 | (sem commit: espera o "sim") | não |
 
 **Pasta comum (23/11):** cópia de `coleta/comum-sulamerica/` (ver seção 4). O `rsssf_asia.py` ainda não foi usado: o
 Japão tem leitor próprio (`coleta/jpn-1/ler_jsl.py`), porque a JSL é só tabela final e tabela de confrontos.
@@ -58,10 +59,22 @@ Japão tem leitor próprio (`coleta/jpn-1/ler_jsl.py`), porque a JSL é só tabe
 
 1. **Japão (`jpn-1`): pronto e no GitHub (`71d5006`, 24/11)** e já no banco. Recado de fim de coleta no fim de
    `docs/coleta/pedidos-asia.md`. Pendências na lista `PENDENCIAS` do `documentar.py`.
-2. **Coreia do Sul (`kor-1`): pronta e commitada em 24/11 (`e04507f`, sem push)**; falta o agente 1 carregar. Recado de
+2. **Coreia do Sul (`kor-1`): pronta e commitada em 24/11 (`e04507f`, no GitHub)**; falta o agente 1 carregar. Recado de
    fim de coleta no fim de `docs/coleta/pedidos-asia.md`; pendências na lista `PENDENCIAS` do `documentar.py`.
-3. Próxima: Arábia Saudita (`ksa-1`), depois de mandar ao Guilherme as decisões de escopo. Depois, na ordem sugerida:
-   `irn-1`, `aus-1`, `chn-1`, `qat-1`, `uae-1`, `uzb-1`, `irq-1`, `ind-1`, `tha-1`; depois as outras 1ªs divisões da AFC.
+3. **Arábia Saudita (`ksa-1`): pronta em 25/11**, teste de carga OK, esperando o "sim" do commit. Recado no fim de
+   `docs/coleta/pedidos-asia.md`; pendências no `PENDENCIAS` do `documentar.py`.
+4. Próxima: Irã (`irn-1`), depois das decisões de escopo do Guilherme. Depois, na ordem sugerida:
+   `aus-1`, `chn-1`, `qat-1`, `uae-1`, `uzb-1`, `irq-1`, `ind-1`, `tha-1`; depois as outras 1ªs divisões da AFC.
+
+**Como a Arábia Saudita foi feita (`coleta/ksa-1/`), bom modelo para liga só com RSSSF + ogol + ESPN:**
+
+| Arquivo | O que faz |
+|---|---|
+| `baixar_rsssf.py`, `baixar_ogol.py`, `baixar_espn.py`, `baixar_wikipedia.py` | fontes (RSSSF `sauNN.html` e `saucuphist.html`; ogol `liga-saudita` 1999/00+; ESPN `ksa.1` 2022/23+; Wikipédia `Saudi_Pro_League`) |
+| `ler_rsssf.py` | página da RSSSF: tabelas (completa, só jogos e pontos, só ordem), jogos (com ida e volta numa linha e `awd`), autores, seções (separa as copas) |
+| `fontes.py` | jogos e tabelas de cada fonte já com o nome do clube; tira a tabela do meio do campeonato e as repetidas; aplica `OGOL_CORRIGE` |
+| `clubes_ksa.py`, `campeoes_wiki.py`, `edicoes.py`, `explicacoes.py` | clubes; lista oficial de campeões (69 temporadas); eras e fases do playoff; correções com prova |
+| `importar.py`, `relatorio.py` | pacote, conferência (tabela da RSSSF, RSSSF x ogol, ESPN) e relatório |
 
 **Coreia do Sul (`kor-1`): escopo decidido pelo agente em 24/11** (o Guilherme pediu que o agente pesquisasse e decidisse):
 - **K League (1ª divisão profissional) de 1983 a 2025.** A liga semiprofissional (1964-2002) fica de fora: torneio de uma
@@ -202,6 +215,17 @@ vêm trocadas (rodar de novo o ano).
   nome civil vai à mão em `nomes_kor.NOME_DE_JOGO`.
 - `python -I` tira a pasta do script do `sys.path`: os scripts põem `AQUI` no `sys.path` à mão.
 
+**Liga saudita (RSSSF, ogol, ESPN):**
+- A página da RSSSF repete a tabela final no fim e traz a do meio do campeonato ("Halfway Table"): use só uma.
+- Jogo decidido fora de campo aparece como "Urooba  awd Nasr  [awarded 0-3, originally 2-1; ...]", às vezes com o
+  motivo na linha de baixo misturado com a coluna ao lado; o ogol traz o placar de campo.
+- A RSSSF de 2025/26 chama o Neom de "Al-Nojoom"; a de 1990s escreve "Al Hilal" sem hífen.
+- O ogol põe jogos do playoff como rodadas a mais (R23-R25) e tem erros de mando/placar (corrigidos em
+  `OGOL_CORRIGE`, com a matriz de resultados da Wikipédia como prova).
+- Na ESPN o gol contra já vem do lado do time que ganhou o gol (não inverter). A ESPN pôs um amistoso (Al-Raed x
+  Al-Wehdat, 2022) na liga.
+- Temporada saudita vai de agosto a julho (há finais em julho).
+
 **Python no Windows:** editar arquivo por heredoc com `python - <<'EOF'` estraga `\b` e às vezes `\n`. Para regex, use o
 Edit e confira com `grep -c $'\x08'`.
 
@@ -213,3 +237,9 @@ Edit e confira com `grep -c $'\x08'`.
 - 24/11, Coreia: o Guilherme pediu que o agente pesquisasse e decidisse o escopo ("faça uma pesquisa mais a fundo para
   julgar o que é necessário"). Decidido: K League 1983-2025 (sem a semiprofissional), clube por código do portal (os
   Sangmu separados), campeão oficial, divisão em grupos numa fase só, 2026 quando acabar (seção 3).
+- 24/11, Arábia Saudita: **desde 1957/58**, como o relatório oficial da federação (2025: Al-Hilal 21 títulos; Arab News,
+  Saudi Gazette). A "His Majesty's League" (1957-1974, campeões iguais aos da antiga Copa do Rei, mata-mata) entra com
+  campeão e vice, com os jogos que houver. Do agente: até 2025/26; temporadas canceladas ou não concluídas (1966/67,
+  1967/68, 1969/70, 1975/76) como edição sem campeão; 1990/91-2006/07 campeão do quadrangular final ("Golden Box");
+  temporadas sem jogos só com a tabela final. Fontes: RSSSF (`sauNN.html`, jogos com autores de 1999/00 em diante),
+  ogol (`liga-saudita`, jogos de 1999/00 em diante), ESPN (`ksa.1`, 2022/23 em diante).
