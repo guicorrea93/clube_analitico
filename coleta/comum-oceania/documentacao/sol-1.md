@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 ## 1. O que temos
 
 - **Edições:** 25, de 2000 a 2025; 4 sem jogos.
-- **Jogos:** 1464 (1459 com placar); **gols:** 5857; **gols com autor:** 97 (2%); **cartões:** 0.
+- **Jogos:** 1464 (1459 com placar); **gols:** 5857; **gols com autor:** 104 (2%); **cartões:** 0.
 - **Clubes:** 62; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 25 edições; **tabelas publicadas guardadas para conferência:** 214 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** da8a3f51.
 - **Observação da competição:** 1ª divisão das Ilhas Salomão desde 2000, uma edição por título, como na lista de campeões da RSSSF: o campeonato nacional de clubes (2000 a 2009/10: grupos e mata-mata, com os melhores de Honiara e os campeões das províncias) e a Telekom S-League (2010/11 em diante, pontos corridos; S-League em 2025). 2000-2002 só com o campeão; 2012/13 não houve. A liga de Honiara (1947-1999) não entra.
 
 ## 2. Edições, fontes e regras
@@ -48,7 +48,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Edições | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2000s | 10 | 156 | 98% | 0% | 6% | 0% | 0% | 0% | 14% | 0.0 |
+| 2000s | 10 | 156 | 98% | 0% | 6% | 0% | 0% | 0% | 15% | 0.0 |
 | 2010s | 9 | 537 | 100% | 0% | 96% | 0% | 0% | 0% | 0% | 0.0 |
 | 2020s | 6 | 771 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 

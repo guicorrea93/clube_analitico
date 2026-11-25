@@ -4,7 +4,7 @@ Gerado por `python coleta/sol-1/importar.py`. Pacote em `data/coleta/sol-1/pacot
 
 ## Resumo
 
-- 25 edições (2000 a 2025), 21 com jogos; 1464 jogos, 5857 gols, 97 com autor.
+- 25 edições (2000 a 2025), 21 com jogos; 1464 jogos, 5857 gols, 104 com autor.
 - Escopo aprovado pelo Guilherme em 25/11/2026, depois de pesquisa a fundo (docstrings de `coleta/sol-1/edicoes.py` e `coleta/sol-1/clubes_sol.py`):
   - o campeonato nacional de clubes (2000 a 2009/10) e a S-League (2010/11 a 2025), como a lista de campeões da RSSSF; ficam de fora a liga de Honiara (1947-1999), a "S-League" de franquias de Honiara (2004 e 2005), a Solomon Cup e o Interprovincial (seleções de província), o Knockout Championship, os playoffs da OFC e 2026 (título pendente);
   - 2015/16 = Western United (playoff final; a Wikipédia dá o Solomon Warriors, 1º da fase regular); 2024 = Central Coast (o ogol dá o Real Kakamora);
@@ -62,7 +62,7 @@ Gerado por `python coleta/sol-1/importar.py`. Pacote em `data/coleta/sol-1/pacot
 | 2005/06 | jogos incompletos: fase de grupos (11 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 24 | 30 | 123 | 1 | Marist | Koloale | em Honiara, de 20/02 a 01/03/2006; a página dá alguns jogos da fase de grupos sem placar (só "drw" ou "bt") |
 | 2006/07 | jogos incompletos: fase de grupos (9 clubes) + semifinais + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 13 | 12 | 75 | 0 | KOSSA | Koloale | em maio de 2007; a página não traz o placar de 4 jogos da fase de grupos (as tabelas são parciais) |
 | 2007/08 | fase de grupos (12 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 34 | 34 | 151 | 80 | Koloale | Makuru | em junho de 2008 |
-| 2008/09 | fase de grupos (12 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 35 | 35 | 162 | 6 | Marist | Koloale | em junho de 2009 |
+| 2008/09 | fase de grupos (12 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 35 | 35 | 162 | 13 | Marist | Koloale | em junho de 2009 |
 | 2009/10 | fase de grupos (14 clubes) + quartas de final + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 33 | 34 | 117 | 10 | Koloale | Solomon Warriors | em maio de 2010 |
 | 2010/11 | jogos incompletos: pontos corridos (8 clubes); 3 pontos por vitória, 1 por empate e 0 por derrota | 52 | 56 | 177 | 0 | Koloale | Solomon Warriors | 1ª Telekom S-League (fevereiro a maio de 2011); a página não traz o placar dos 4 jogos da 12ª rodada |
 | 2011/12 | só a tabela final (sem jogos); 3 pontos por vitória | 0 | 0 | 0 | 0 | Solomon Warriors | Western United | a RSSSF só tem a tabela final |

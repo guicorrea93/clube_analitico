@@ -4,12 +4,13 @@ Para o agente de coleta Oceania (países da OFC) que for continuar este trabalho
 `docs/agentes-internacionais-COMECE-AQUI.md` (formato do pacote, pastas de cada agente, identidade dos clubes e as regras
 da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 25/11/2026.
+Última atualização: 26/11/2026.
 
 ## 1. Escopo e regras
 
-- **Competições:** as 1ªs divisões dos países da OFC, na ordem `nzl-1`, `tah-1`, `ncl-1`, `fij-1`, `png-1`, `sol-1`,
-  `van-1`, `sam-1`, `tga-1`, `asa-1`, `cok-1`. A **Austrália não é nossa** (AFC, agente da Ásia).
+- **Plano único:** `docs/coleta/plano-de-coleta.md` (25/11/2026) vale acima deste guia: fase 1 = a 1ª divisão de todas as
+  federações da OFC pelo ranking da FIFA (lista na seção 3); depois a fase 2 (copas), a 3 (2ªs divisões) e a 4 (o resto).
+  A **Austrália não é nossa** (AFC, agente da Ásia).
 - **Pastas nossas** (não grave em mais nada; o banco é só para leitura):
   - `coleta/<slug>/` e `coleta/comum-oceania/`;
   - `data/coleta/<slug>/`, `data/cache/*-oceania*/` e `data/cache/ogol-<slug>/`;
@@ -42,6 +43,32 @@ edição: `docs/coleta/nzl-1.md`.
 
 ## 3. De onde continuar
 
+### Ordem da fase 1: ranking FIFA masculino, só a OFC (foto fixa)
+
+Ranking de 18/11/2026, o último com os números à vista: tabela "FIFA Men's Rankings (as of 18 November 2026)" em
+https://en.wikipedia.org/wiki/Oceania_Football_Confederation (a página oficial, https://inside.fifa.com/fifa-world-ranking/men,
+só carrega a tabela no navegador e mostra uma atualização de 25/11 que não deu para ler; a ordem é a de 18/11 e não muda
+mais, como manda o plano).
+
+| OFC | Mundial | Seleção | Pontos | Slug | Estado |
+|---|---|---|---|---|---|
+| 1 | 84 | Nova Zelândia | 1283,46 | `nzl-1` | pronto (d7a6379) |
+| 2 | 151 | Ilhas Salomão | 1035,95 | `sol-1` | pronto (da8a3f51) |
+| 3 | 153 | Fiji | 1033,44 | `fij-1` | pronto (8fa059a) |
+| 4 | 156 | Nova Caledônia | 1026,01 | `ncl-1` | pronto (8f154e1) |
+| 5 | 158 | Taiti | 1018,70 | `tah-1` | pronto (82549d6) |
+| 6 | 160 | Vanuatu | 1005,90 | `van-1` | **próximo** (escopo antes) |
+| 7 | 167 | Papua-Nova Guiné | 969,14 | `png-1` | pronto (60aaa017) |
+| 8 | 188 | Ilhas Cook | 877,87 | `cok-1` | falta |
+| 9 | 189 | Samoa | 876,41 | `sam-1` | falta |
+| 10 | 191 | Samoa Americana | 871,61 | `asa-1` | falta |
+| 11 | 198 | Tonga | 835,64 | `tga-1` | falta |
+| — | — | Tuvalu, Kiribati | sem ranking (não são da FIFA) | `tuv-1`, `kir-1` | só no fim da fase 1, se houver fonte |
+
+Depois da fase 1 inteira: fase 2 (copas nacionais, `<pais>-copa`) na mesma ordem.
+
+### Estado de cada competição
+
 1. **Nova Zelândia (`nzl-1`): pacote pronto e commitado em 23/11 (`d7a6379`, sem push)**; falta o agente 1 carregar. Recado
    de fim de coleta no fim de `docs/coleta/pedidos-oceania.md`.
 2. **Taiti (`tah-1`): commitado em 24/11 (`82549d6`, sem push)**; falta o agente 1 carregar.
@@ -52,10 +79,15 @@ edição: `docs/coleta/nzl-1.md`.
 5. **Papua-Nova Guiné (`png-1`): commitada em 25/11 (`60aaa017`, no GitHub)**; falta o agente 1 carregar; teste de carga OK.
    Recado no fim de `docs/coleta/pedidos-oceania.md`.
 6. **Ilhas Salomão (`sol-1`): commitada e no GitHub em 25/11**; falta o agente 1 carregar; teste de carga OK.
-   Recado no fim de `docs/coleta/pedidos-oceania.md`. **Próxima: Vanuatu (`van-1`)**, quando ele mandar; antes, pesquisa a
-   fundo e as decisões de escopo.
-7. Depois, na ordem: `van-1`, `sam-1`, `tga-1`, `asa-1`,
-   `cok-1`. Tuvalu e Kiribati ficam de fora por enquanto (aprovado em 23/11; entram no fim se ele quiser).
+   Recado no fim de `docs/coleta/pedidos-oceania.md`.
+7. **26/11 — correções do plano (seção 3), commitadas e no GitHub** (commit "Coleta Oceania: correções do plano único"):
+   leitor comum (`rsssf_oce.py`) trazido de novo do `rsssf_sul.py` (data no título da fase e autores em duas linhas); as
+   seis ligas reimportadas e comparadas (mesmos jogos; ganharam datas de playoff e o lado do visitante nos autores; png-1
+   +38 gols com autor, sol-1 +7); README da documentação sem o "2ªs divisões"; pedido de recarga ao agente 1 no fim de
+   `docs/coleta/pedidos-oceania.md`.
+   **Próxima: Vanuatu (`van-1`) — proposta de escopo mandada em 26/11, ESPERANDO A ESCOLHA DO GUILHERME** (pesquisa a fundo
+   feita; resumo abaixo, em "Vanuatu: proposta pendente").
+8. Depois, na ordem do ranking (tabela acima): `cok-1`, `sam-1`, `asa-1`, `tga-1`; Tuvalu e Kiribati só no fim.
 
 ### Decisões do Guilherme (23/11)
 
@@ -102,6 +134,24 @@ edição: `docs/coleta/nzl-1.md`.
   Wantoks; homônimos de outros países levam a cidade ("Western United Honiara", "Central Coast Honiara", "Southern United
   Honiara"; Kula FC idem se a cidade se confirmar), só quando o nome já existe no banco; pontuação 3-1-0.
 
+### Vanuatu: proposta pendente (26/11, sem resposta ainda)
+
+- Dois candidatos a 1ª divisão: a **liga de Port Vila** (desde 1975; turno e returno; jogo a jogo na RSSSF desde 2007; 1ª
+  divisão de fato até 2009; desde 2010 classificatória) e o **campeonato nacional** (National Super League, hoje VFF
+  Champions League, desde 2010; título nacional reconhecido pela federação e vaga na OFC; torneio curto, formato muda quase
+  todo ano; não houve em 2017 nem em 2022; dados mais fracos).
+- **Recomendação mandada:** `van-1` = o nacional, 2010-2026, pela lista da RSSSF (como nas Ilhas Salomão); a liga de Port
+  Vila depois, como torneio regional (fase 4). Alternativa: Port Vila como `van-1` (1975-2026) e o nacional à parte.
+- Detalhes propostos: Bred Cup/VFF Cup (2004-2009) fora (a Wikipédia conta Tafea 2005 e 2009, Port Vila Sharks 2008);
+  2016, 2018 e 2019: campeão o da lista da RSSSF (Nalkutan, Malampa Revivors, Malampa Revivors) e a "decisão do título
+  geral" com o vencedor do Top-4 de Port Vila como fase "Desempate..." fora da tabela (Erakor venceu as de 2017 e 2018, o
+  Malampa a de 2019); 2017 tem duas "finais" (fevereiro na RSSSF, agosto pela OFC); final de 2015 = 3-0 (a lista da RSSSF
+  diz 1-0, a página da temporada e a Wikipédia 3-0); "ABM Galaxy" (o banco já tem Galaxy, Amicale e Classic); dois Siaraga
+  (Port Vila e Luganville) separados; 3-1-0.
+- Fontes: RSSSF em `tablesv/` (vanuatuchamp; vanuatuNN até 2009, vanuatuAAAA de 2011 a 2026; não existem vanuatu94-97, 99,
+  01, 10, 2008-2010); ogol "National Super League do Vanuatu" (2638: jogos em 2013, 2014 só grupos, 2018, 2020-2023) e
+  "Liga Vanuatu" de Port Vila (1748: jogos de 2010/11 a 2022/23); site da federação (vff.vu) só pelo Wayback.
+
 ### Como a NZ foi feita (modelo para as próximas)
 
 | Arquivo (`coleta/nzl-1/`) | O que faz |
@@ -122,7 +172,7 @@ Copiado de `coleta/comum-sulamerica/` em 23/11/2026 (não importe código da pas
 
 | Arquivo | O que faz |
 |---|---|
-| `rsssf_oce.py` | leitor genérico das páginas da RSSSF (`texto`, `ler`, `linha_tabela`, `_jogo`, `chave`). Mudou? Reimporte as competições já feitas e compare os pacotes |
+| `rsssf_oce.py` | leitor genérico das páginas da RSSSF (`texto`, `ler`, `linha_tabela`, `_jogo`, `chave`): cópia do `coleta/comum-sulamerica/rsssf_sul.py` (de novo em 26/11, com a data no título da fase e os autores em duas linhas), mais a regra do "Team Wellington". Mudou? Reimporte as competições já feitas e compare os pacotes |
 | `baixar.py` | `pegar(url, destino, espera)`: download educado, com cache e 429 |
 | `espn.py` | URL do placar diário e `resumir(evento)` |
 | `ogol.py`, `wikipedia.py` | calendário do ogol; wikitexto pela API |

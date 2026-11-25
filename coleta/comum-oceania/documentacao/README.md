@@ -10,8 +10,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Taitiano | 79 (1948–2025/26) | 48 | 2647 | 113 | 0 | 35 | 23 / 0 | sim | 8f154e12 | 0 | [tah-1](tah-1.md) |
 | Campeonato Neocaledônio | 76 (1950–2026) | 40 | 2472 | 188 | 0 | 63 | 21 / 4 | sim | 8f154e12 | 0 | [ncl-1](ncl-1.md) |
 | Campeonato Fijiano | 50 (1977–2026) | 22 | 2177 | 194 | 0 | 17 | 20 / 1 | sim | 8fa059a3 | 0 | [fij-1](fij-1.md) |
-| Campeonato Papua-Nova-Guineense | 19 (2006–2026) | 0 | 1336 | 503 | 0 | 78 | 15 / 3 | sim | 60aaa017 | 0 | [png-1](png-1.md) |
-| Campeonato Salomonense | 25 (2000–2025) | 4 | 1464 | 97 | 0 | 62 | 16 / 4 | não | — | 0 | [sol-1](sol-1.md) |
+| Campeonato Papua-Nova-Guineense | 19 (2006–2026) | 0 | 1336 | 541 | 0 | 78 | 15 / 3 | sim | 60aaa017 | 0 | [png-1](png-1.md) |
+| Campeonato Salomonense | 25 (2000–2025) | 4 | 1464 | 104 | 0 | 62 | 16 / 4 | sim | da8a3f51 | 0 | [sol-1](sol-1.md) |
 
 ## Pendências de todas as competições
 
@@ -46,4 +46,5 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 ## Próximas competições
 
-- 2ªs divisões, na ordem do guia geral, só quando o Guilherme pedir. Como fazer: `COMECE-AQUI.md`, seção 4.
+- Ordem do plano único (`docs/coleta/plano-de-coleta.md`): fase 1, a 1ª divisão de todas as federações da OFC pelo ranking da FIFA (lista em `COMECE-AQUI.md`, seção 3); só depois a fase 2 (copas nacionais), a 3 (2ªs divisões) e a 4 (o resto). Kiribati e Tuvalu só no fim da fase 1, se houver fonte.
+- Escopo de cada competição aprovado pelo Guilherme antes de começar (pesquisa a fundo).

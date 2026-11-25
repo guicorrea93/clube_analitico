@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 ## 1. O que temos
 
 - **Edições:** 19, de 2006 a 2026; 0 sem jogos.
-- **Jogos:** 1336 (1329 com placar); **gols:** 4701; **gols com autor:** 503 (11%); **cartões:** 0.
+- **Jogos:** 1336 (1329 com placar); **gols:** 4701; **gols com autor:** 541 (12%); **cartões:** 0.
 - **Clubes:** 78; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 19 edições; **tabelas publicadas guardadas para conferência:** 200 linhas.
 - **No banco:** sim; **último commit do pacote:** 60aaa017.
@@ -46,8 +46,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Edições | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2000s | 4 | 204 | 100% | 0% | 93% | 0% | 0% | 0% | 24% | 0.0 |
-| 2010s | 10 | 612 | 100% | 0% | 94% | 0% | 0% | 0% | 15% | 0.0 |
+| 2000s | 4 | 204 | 100% | 0% | 93% | 0% | 0% | 0% | 27% | 0.0 |
+| 2010s | 10 | 612 | 100% | 0% | 94% | 0% | 0% | 0% | 16% | 0.0 |
 | 2020s | 5 | 520 | 100% | 0% | 96% | 0% | 0% | 0% | 0% | 0.0 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na Oceania: nenhuma fonte em lote tem.

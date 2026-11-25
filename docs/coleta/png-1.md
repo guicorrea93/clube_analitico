@@ -4,7 +4,7 @@ Gerado por `python coleta/png-1/importar.py`. Pacote em `data/coleta/png-1/pacot
 
 ## Resumo
 
-- 19 edições (2006 a 2026), 19 com jogos; 1336 jogos, 4701 gols, 503 com autor.
+- 19 edições (2006 a 2026), 19 com jogos; 1336 jogos, 4701 gols, 541 com autor.
 - Escopo aprovado pelo Guilherme em 24/11/2026, depois de pesquisa a fundo (docstrings de `coleta/png-1/edicoes.py` e `coleta/png-1/clubes_png.py`):
   - só a National Soccer League (2006-2022) / Premier Soccer League (2023-), uma edição por título; ficam de fora o campeonato amador de clubes (1976-2005), a temporada 2021 (abandonada, sem campeão) e a National Premier League rebelde (2017-2018);
   - 2008/09 e 2017: a final não foi jogada (campeão o 1º da fase regular); 2014: final abandonada com 0-3, resultado mantido; 2026: sem playoff;
@@ -44,9 +44,9 @@ Gerado por `python coleta/png-1/importar.py`. Pacote em `data/coleta/png-1/pacot
 | Temporada | Formato | Jogos | Esperados | Gols | Com autor | Campeão | Vice | Observação |
 |---|---|---|---|---|---|---|---|---|
 | 2006 | fase regular (5 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 25 | 25 | 75 | 4 | Hekari United | Gelle Hills United |  |
-| 2007/08 | fase regular (7 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 46 | 46 | 173 | 118 | Hekari United | Gelle Hills United |  |
+| 2007/08 | fase regular (7 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 46 | 46 | 173 | 126 | Hekari United | Gelle Hills United |  |
 | 2008/09 | fase regular (8 clubes) + semifinais; 3 pontos por vitória, 1 por empate e 0 por derrota | 58 | 58 | 173 | 4 | Hekari United | Rapatona | a final (Hekari Souths United x CMSS Rapatona Tigers) não foi jogada: o Hekari, 1º da fase regular, foi declarado campeão |
-| 2009/10 | fase regular (9 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 75 | 75 | 283 | 45 | Hekari United | Morobe United |  |
+| 2009/10 | fase regular (9 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 75 | 75 | 283 | 57 | Hekari United | Morobe United |  |
 | 2010/11 | fase regular (7 clubes) + semifinais + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 44 | 44 | 167 | 0 | Hekari United | Eastern Stars |  |
 | 2011/12 | jogos incompletos: fase regular (7 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 4 | 4 | 12 | 7 | Hekari United | Eastern Stars | a RSSSF só tem a tabela da fase regular e o mata-mata |
 | 2013 | fase regular (8 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 60 | 60 | 199 | 13 | Hekari United | FC Port Moresby |  |
@@ -56,7 +56,7 @@ Gerado por `python coleta/png-1/importar.py`. Pacote em `data/coleta/png-1/pacot
 | 2017 | fase regular (6 clubes) + semifinais; 3 pontos por vitória, 1 por empate e 0 por derrota | 30 | 30 | 117 | 0 | Lae City | Madang FC | a final (Lae City Dwellers x Madang FC) foi cancelada: o Lae City Dwellers, 1º da fase regular, foi declarado campeão |
 | 2018 | fase regular (7 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 46 | 46 | 179 | 3 | Lae City | Besta PNG United | em 3 de maio os jogos restantes da fase regular viraram W.O. (só 4 clubes tinham pago a taxa) |
 | 2019 | conferências regionais (27 clubes) + quartas de final + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 170 | 170 | 658 | 0 | Lae City | Hekari United | quatro conferências regionais e o mata-mata |
-| 2019/20 | fase regular (10 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 94 | 94 | 315 | 291 | Lae City | Vitiaz United | parada de 19/03 a 08/08/2020 (covid-19) |
+| 2019/20 | fase regular (10 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 94 | 94 | 315 | 309 | Lae City | Vitiaz United | parada de 19/03 a 08/08/2020 (covid-19) |
 | 2022 | conferências regionais (30 clubes) + playoff das conferências + quartas de final + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 160 | 160 | 649 | 0 | Lae City | Hekari United | cinco conferências regionais (nas duas das ilhas, playoff entre o 1º e o 2º pela vaga) e o mata-mata (de outubro de 2022 a fevereiro de 2023) |
 | 2023 | fase regular (8 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 58 | 60 | 170 | 0 | Hekari United | Lae City Dwellers | a liga passa a se chamar Premier Soccer League |
 | 2024 | fase regular (8 clubes) + semifinais + 3º lugar + final; 3 pontos por vitória, 1 por empate e 0 por derrota | 60 | 60 | 183 | 0 | Hekari United | Gulf Komara |  |

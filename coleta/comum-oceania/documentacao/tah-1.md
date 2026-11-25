@@ -60,8 +60,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 112 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1990s | 11 | 24 | 0% | 0% | 75% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 10 | 798 | 86% | 0% | 100% | 0% | 0% | 0% | 4% | 0.0 |
-| 2010s | 10 | 896 | 99% | 0% | 99% | 0% | 0% | 0% | 0% | 0.0 |
+| 2000s | 10 | 798 | 87% | 0% | 100% | 0% | 0% | 0% | 4% | 0.0 |
+| 2010s | 10 | 896 | 100% | 0% | 99% | 0% | 0% | 0% | 0% | 0.0 |
 | 2020s | 6 | 770 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na Oceania: nenhuma fonte em lote tem.

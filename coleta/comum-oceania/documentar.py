@@ -411,8 +411,10 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- 2ªs divisões, na ordem do guia geral, só quando o Guilherme pedir. Como fazer: "
-            "`COMECE-AQUI.md`, seção 4.", ""]
+            "- Ordem do plano único (`docs/coleta/plano-de-coleta.md`): fase 1, a 1ª divisão de todas as federações da OFC "
+            "pelo ranking da FIFA (lista em `COMECE-AQUI.md`, seção 3); só depois a fase 2 (copas nacionais), a 3 (2ªs "
+            "divisões) e a 4 (o resto). Kiribati e Tuvalu só no fim da fase 1, se houver fonte.",
+            "- Escopo de cada competição aprovado pelo Guilherme antes de começar (pesquisa a fundo).", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

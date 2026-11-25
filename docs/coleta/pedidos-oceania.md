@@ -220,3 +220,17 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    sair; Malaita Kingz x Auki Kingz (separados, sem fonte que ligue); a classificação das edições com grupos e mata-mata
    (ordem dos eliminados); 2013/14 (Marist desclassificado, jogos de campo trocados por 0-3).
 8. **Próxima competição:** Vanuatu (`van-1`), quando o Guilherme mandar.
+
+## Pedido ao agente 1 — 26/11/2026: recarregar as seis ligas da Oceania
+
+O leitor comum da Oceania (`coleta/comum-oceania/rsssf_oce.py`) foi trazido de novo do `coleta/comum-sulamerica/rsssf_sul.py`
+(plano único, seção 2.3: data no título da fase e autores de gol em duas linhas). As seis ligas foram reimportadas e
+comparadas com os pacotes anteriores:
+- nenhum jogo entrou, saiu ou mudou de placar ou de clube;
+- `partidas.csv` ganhou datas que faltavam (jogos de playoff e de fases com a data no título: nzl-1 2, tah-1 10, ncl-1 55,
+  fij-1 13, png-1 3) e o lado do visitante no `gols_texto` (tah-1, ncl-1, fij-1, png-1, sol-1);
+- `gols.csv`: png-1 de 503 para 541 gols com autor, sol-1 de 97 para 104;
+- testes de carga das seis: "-> OK".
+
+Pedido: recarregar `nzl-1`, `tah-1`, `ncl-1`, `fij-1`, `png-1` e `sol-1` no próximo lote. Commit: o deste pedido
+("Coleta Oceania: correções do plano único").
