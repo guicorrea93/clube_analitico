@@ -1461,3 +1461,40 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - 2000/01, único ano em que nenhum critério de desempate reproduz a ordem oficial.
 8. **Próxima tarefa:** a Tchecoslováquia (competição à parte, com a liga do Protetorado), depois a Polônia. Pesquisar o
    escopo antes.
+
+## 25/11/2026 — coleta Europa: recado ao agente 1 (pausa; resumo do que está pronto)
+
+Pausa a pedido do Guilherme. Tudo da coleta Europa está no GitHub (até 501b6d14).
+
+1. **Ligas prontas: 13.**
+   - as 8 primeiras (`eng-1`, `esp-1`, `ita-1`, `ger-1`, `fra-1`, `por-1`, `ned-1`, `sco-1`);
+   - `bel-1`, `tur-1` e `gdr-1`;
+   - **novas desde o último recado:** `gre-1` (Grécia, 1927/28-2025/26, 1b095c64) e `cze-1` (Tchéquia, 1993/94-2025/26,
+     501b6d14). Os detalhes estão nos recados de fim de coleta delas, acima.
+2. **A fazer no banco e no painel:**
+   - **carregar e liberar:** `bel-1`, `tur-1`, `gdr-1`, `gre-1` e `cze-1`;
+   - **recarregar:** `eng-1`, `esp-1`, `ita-1`, `ger-1`, `fra-1`, `por-1`, `ned-1` e `sco-1` (correções da revisão, da
+     rodada de fechamento e nomes da ESPN);
+   - **países novos:** `GDR` (Alemanha Oriental), `GRE` (Grécia), `CYP` (Chipre: os campeões cipriotas que jogaram a liga
+     grega de 1967/68 a 1973/74) e `CZE` (Tchéquia);
+   - **rótulos de temporada fora do padrão:**
+     - `tur-1`: "1940 (Millî Küme)", "1940 (Şampiyonası)" e "1956/57 (Federasyon Kupası)";
+     - `gdr-1`: "1955" e de "1956" a "1960";
+     - `ita-1`: "1921/22 (FIGC)" e "1921/22 (CCI)";
+   - **fases novas:**
+     - "Desempate";
+     - "Play-off europeu";
+     - "Play-off do título" e "Play-out de rebaixamento" (Grécia);
+     - "Grupo do título" e "Grupo de rebaixamento" (Tchéquia);
+     - "Fase final" e "Final" (era antiga grega);
+   - **pontos 3-2-1** (vitória, empate, derrota) em parte da Grécia e da Turquia antigas: a classificação final traz os
+     pontos oficiais, e a observação da edição diz o sistema.
+3. **Ordem das próximas ligas** (decisão do Guilherme, 24/11): pelo ranking de coeficientes da UEFA (foto de 24/11/2026),
+   da mais bem colocada à menos: 44 ligas, na tabela do `coleta/comum-europa/COMECE-AQUI.md`, seção 3.
+   - Os países que não existem mais (Tchecoslováquia, Iugoslávia, URSS) entram como competição à parte, logo depois da
+     federação sucessora.
+   - **Próxima:** a Tchecoslováquia (1925 a 1992/93, com a liga do Protetorado da Boêmia e Morávia, 1938/39-1943/44,
+     decisão do Guilherme em 25/11), depois a Polônia.
+4. **Pendências da coleta:** nenhuma em aberto. Os limites de fonte (fechados) e o que está com a revisão estão em
+   `coleta/comum-europa/documentacao/README.md`.
+5. **Para retomar:** ler `coleta/comum-europa/COMECE-AQUI.md`, seção 3.
