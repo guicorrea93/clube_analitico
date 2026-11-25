@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 - **Jogos:** 2647 (2639 com placar); **gols:** 11748; **gols com autor:** 113 (1%); **cartões:** 0.
 - **Clubes:** 35; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 79 edições; **tabelas publicadas guardadas para conferência:** 413 linhas.
-- **No banco:** sim; **último commit do pacote:** 8f154e1.
+- **No banco:** sim; **último commit do pacote:** 8f154e12.
 - **Observação da competição:** 1ª divisão do Taiti (Polinésia Francesa) de 1948 a 2025/26, uma edição por título, como na lista de campeões da RSSSF: Division d'Honneur, Division Fédérale (2003/04) e Ligue 1 (2008/09). A maioria das edições até 1998 tem só o campeão; jogos em 1968 (parte), 1969-1971 e de 1998/99 em diante (parte até 2004/05; 2011/12 só com as tabelas). Pontuação de 4 pontos por vitória, 2 por empate e 1 por derrota na maior parte dos anos recentes; a classificação traz os pontos oficiais.
 
 ## 2. Edições, fontes e regras

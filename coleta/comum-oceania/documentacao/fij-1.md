@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 - **Jogos:** 2177 (2172 com placar); **gols:** 6722; **gols com autor:** 194 (3%); **cartões:** 0.
 - **Clubes:** 17; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 50 edições; **tabelas publicadas guardadas para conferência:** 390 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** 8fa059a3.
 - **Observação da competição:** 1ª divisão de Fiji de 1977 a 2026: a liga das associações dos distritos (National Football League, hoje Fiji Premier League), uma edição por ano, como na lista de campeões da RSSSF. Até 1997 quase só o campeão ou a tabela final; jogos de 1998 em diante (parte deles até 2004; 2011 e 2012 só a tabela). Seleções de base de Fiji jogaram a liga em vários anos (Fiji Olympians, Fiji U-20).
 
 ## 2. Edições, fontes e regras

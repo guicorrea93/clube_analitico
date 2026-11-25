@@ -4,7 +4,7 @@ Para o agente de coleta Oceania (países da OFC) que for continuar este trabalho
 `docs/agentes-internacionais-COMECE-AQUI.md` (formato do pacote, pastas de cada agente, identidade dos clubes e as regras
 da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 23/11/2026.
+Última atualização: 24/11/2026.
 
 ## 1. Escopo e regras
 
@@ -33,7 +33,8 @@ da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e d
 | `nzl-1` Neozelandês | 55 (1970–2025) | 7.480 | 101 | d7a6379 | não |
 | `tah-1` Taitiano | 79 (1948–2025/26; 31 com jogos) | 2.647 | 35 | 82549d6 | não |
 | `ncl-1` Neocaledônio | 76 (1950–2026, sem 1955 e 2024; 36 com jogos) | 2.472 | 63 | 8f154e1 | não |
-| `fij-1` Fijiano | 50 (1977–2026; 28 com jogos) | 2.177 | 17 | ainda não (esperando o ok) | não |
+| `fij-1` Fijiano | 50 (1977–2026; 28 com jogos) | 2.177 | 17 | 8fa059a | não |
+| `png-1` Papua-Nova-Guineense | 19 (2006–2026, sem 2021) | 1.336 | 78 | (sem commit) | não |
 
 Números de gols, conferência e cobertura: `coleta/comum-oceania/documentacao/` (gerada por `documentar.py`). Detalhe edição a
 edição: `docs/coleta/nzl-1.md`.
@@ -45,10 +46,12 @@ edição: `docs/coleta/nzl-1.md`.
 2. **Taiti (`tah-1`): commitado em 24/11 (`82549d6`, sem push)**; falta o agente 1 carregar.
 3. **Nova Caledônia (`ncl-1`): commitada em 24/11 (`8f154e1`, sem push)**, junto com as colunas de pontos do Taiti; falta o
    agente 1 carregar. Recado no fim de `docs/coleta/pedidos-oceania.md`. Fiji depois.
-4. **Fiji (`fij-1`): pacote pronto em 24/11**, teste de carga OK; esperando o ok do Guilherme para o commit. Recado no fim de
-   `docs/coleta/pedidos-oceania.md`. **Próxima: Papua-Nova Guiné (`png-1`)**, quando o Guilherme mandar; antes, pesquisa a
-   fundo (como nas três últimas) e as decisões de escopo.
-5. Depois, na ordem: `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
+4. **Fiji (`fij-1`): commitado em 24/11 (`8fa059a`, sem push)**; falta o agente 1 carregar. Recado no fim de
+   `docs/coleta/pedidos-oceania.md`.
+5. **Papua-Nova Guiné (`png-1`): pacote pronto em 24/11, esperando o "sim" do Guilherme para o commit**; teste de carga OK.
+   Recado no fim de `docs/coleta/pedidos-oceania.md`. **Próxima: Ilhas Salomão (`sol-1`)**, quando ele mandar; antes,
+   pesquisa a fundo e as decisões de escopo.
+6. Depois, na ordem: `van-1`, `sam-1`, `tga-1`, `asa-1`,
    `cok-1`. Tuvalu e Kiribati ficam de fora por enquanto (aprovado em 23/11; entram no fim se ele quiser).
 
 ### Decisões do Guilherme (23/11)
@@ -74,6 +77,16 @@ edição: `docs/coleta/nzl-1.md`.
   2ª divisão e repescagens; 2003 = Ba (decisão da federação em 2006; Olympians em 2º); 2010 = Ba (o título dado ao Lautoka foi
   revogado); nomes = o distrito puro ("Nadi", "Lautoka"...), salvo "Ba FC"; seleções: "Fiji Olympians" (um clube só, 1998-2006),
   "Fiji U-20" (2010), "Fiji Youth Teams" (2011, a campanha somada que a RSSSF dá); os 8 jogos do sub-20 em 2000 foram anulados.
+- Papua-Nova Guiné (24/11, depois de pesquisa a fundo): só a National Soccer League / Premier Soccer League, desde 2006 (o
+  campeonato amador de clubes de 1976-2005 fica de fora; pode virar competição à parte); 2021 fora (abandonada); a "National
+  Premier League" rebelde de 2017-2018 fora; Lae City Dwellers (2014) = Toti City = "Lae City" (os 7 títulos), e o "Lae City
+  Dwellers" de 2021 é outro clube; o Hekari aparece como "Hekari United" (PRK Souths, Hekari Souths, PNG Hekari no histórico);
+  Gulf Komara = Erema; Morobe United = Gigira Laitepo = Welgris Morobe United; Madang FC = Madang Flying Fox; Rapatona = CMSS
+  Rapatona Tigers; Morobe Wawens, Lae FC e Besta PNG United separados; "Central United Port Moresby" (homônimo da NZ).
+  Na coleta (pesquisa na Wikipédia, mesma linha das decisões): Morobe United vem do Tuguba Laitepo Blue Kumuls (2006) e do
+  Morobe Kumuls (2007/08); o "Gigira Laitepo United" de 2015/16 (zona sul) é outra franquia; Southern Strikers = Port Moresby
+  Strikers; o "Besta PNG FA Under-20" (2009/10, 2010/11) é o Besta PNG United; "Madang Besta" (2007/08) = Besta Madang
+  Fighters; "Oro FC" (o "Oro" do banco é do México).
 
 ### Como a NZ foi feita (modelo para as próximas)
 
@@ -139,6 +152,19 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   - duas tabelas da mesma fase (2002: a montada com os resultados conhecidos e a final divulgada): vale a última;
   - "Tavua/Lautoka" = adversário incerto (o jogo sai); "possibly awarded" e "awarded... revogado": vale o placar de campo;
   - o ogol tem a liga completa de 2011 (fecha com a tabela) e a de 2012 (não fecha: fica de fora).
+- **Papua-Nova Guiné (24/11):**
+  - uma página da RSSSF por temporada (a lista de campeões não liga quase nenhuma): `baixar_rsssf.py` baixa pela lista fixa;
+  - datas com estádio e cidade ("[May 6, Laiwaden Oval, Madang]") e cabeçalhos do mata-mata com data ("Semifinals [Mar 14]")
+    não eram reconhecidos (a linha virava "autores" do jogo de cima): `ler.linhas` deixa só a data;
+  - nota que continua na linha de baixo, ao lado da data ("[Nov 23]      to fading light]"), escondia a data do jogo seguinte:
+    `ler.linhas` devolve o pedaço para a linha de cima;
+  - autores com placar corrido ("Jacob Max 2-1, 3-2", "Jonathan Allen (0-1)"), contagem entre parênteses ("Kema Jack (2)",
+    "(2, 1 pen)") e lados separados por ";": `autores._png`;
+  - jogo abandonado sem placar na coluna ("abd") e "awarded 0-3 against both clubs" entram por `explicacoes.CORRIGE` (o
+    leitor deixa passar o que está lá); "drw", "lt" e "bt" (sem placar) ficam de fora; 3º lugar sem placar: `TERCEIROS`;
+  - 2019/20 vai de dezembro de 2019 a outubro de 2020: `ler.CORTE` (mês a partir do qual a data é do 1º ano);
+  - no ogol o rótulo da edição às vezes é o ano vizinho (mapa conferido em `baixar_ogol.py`); em 2015/16 o ogol chama o PS
+    Huawei de "Huawey Eastern Stars" e o Gigira Laitepo United de "Gigira Laitepo Morobe" (ficam sem clube, de propósito).
 - `_junta` (importadores do Taiti, da Nova Caledônia e de Fiji) agora copia a tabela antes de juntar os pedaços (antes
   alterava a original).
 - **Nova Caledônia (24/11):**
@@ -159,4 +185,5 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   - pontuação muda de ano para ano (4-2-1, 3-2-1, 3-1-0): confira pela conta da tabela; bônus e punições vão no ajuste;
   - seleções de base do Taiti jogaram a liga (U-17, U-19, U-20).
 - Homônimos já no banco: "Central" (BRA), "Miramar" (URU), "Rangers" (SCO), "Hamilton Academical" (SCO): os da NZ levam
-  o nome completo ou a cidade ("Central United", "Miramar Rangers").
+  o nome completo ou a cidade ("Central United", "Miramar Rangers"); "Oro" (MEX): o de PNG é "Oro FC"; "Central United"
+  (NZL): o de PNG é "Central United Port Moresby".

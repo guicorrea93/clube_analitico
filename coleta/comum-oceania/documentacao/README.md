@@ -6,10 +6,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Neozelandês | 55 (1970–2025) | 0 | 7480 | 2888 | 0 | 101 | 45 / 10 | sim | d7a6379 | 0 | [nzl-1](nzl-1.md) |
-| Campeonato Taitiano | 79 (1948–2025/26) | 48 | 2647 | 113 | 0 | 35 | 23 / 0 | sim | 8f154e1 | 0 | [tah-1](tah-1.md) |
-| Campeonato Neocaledônio | 76 (1950–2026) | 40 | 2472 | 188 | 0 | 63 | 21 / 4 | sim | 8f154e1 | 0 | [ncl-1](ncl-1.md) |
-| Campeonato Fijiano | 50 (1977–2026) | 22 | 2177 | 194 | 0 | 17 | 20 / 1 | não | — | 0 | [fij-1](fij-1.md) |
+| Campeonato Neozelandês | 55 (1970–2025) | 0 | 7480 | 2888 | 0 | 101 | 45 / 10 | sim | d7a63799 | 0 | [nzl-1](nzl-1.md) |
+| Campeonato Taitiano | 79 (1948–2025/26) | 48 | 2647 | 113 | 0 | 35 | 23 / 0 | sim | 8f154e12 | 0 | [tah-1](tah-1.md) |
+| Campeonato Neocaledônio | 76 (1950–2026) | 40 | 2472 | 188 | 0 | 63 | 21 / 4 | sim | 8f154e12 | 0 | [ncl-1](ncl-1.md) |
+| Campeonato Fijiano | 50 (1977–2026) | 22 | 2177 | 194 | 0 | 17 | 20 / 1 | sim | 8fa059a3 | 0 | [fij-1](fij-1.md) |
+| Campeonato Papua-Nova-Guineense | 19 (2006–2026) | 0 | 1336 | 503 | 0 | 78 | 15 / 3 | não | — | 0 | [png-1](png-1.md) |
 
 ## Pendências de todas as competições
 
@@ -30,6 +31,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **fij-1:** 1998-2004 com parte dos jogos (as tabelas da página são as publicadas, algumas "based on known results"); 2011 e 2012 só a tabela na RSSSF.
 - **fij-1:** Tabelas com erro de digitação na própria página (vitórias + empates + derrotas diferente de jogos) entram com nota.
 - **fij-1:** Autores dos gols só em parte de 2001-2010; artilheiros, cartões, estádio e público não coletados.
+- **png-1:** 2011/12 só com a tabela da fase regular e o mata-mata (a RSSSF não tem as rodadas).
+- **png-1:** Jogos sem placar na página ("drw", "lt", "bt") ficam de fora: 2 em 2023, 1 em 2025, 2 em 2026 e a disputa do 3º lugar de 2014 (o 3º entra na classificação).
+- **png-1:** 2021 fora (abandonada, sem campeão); o campeonato amador de clubes (1976-2005) e a National Premier League rebelde (2017-2018) não entram: podem virar competições à parte.
+- **png-1:** Autores dos gols em poucas temporadas (a RSSSF quase não traz); artilheiros, cartões, estádio e público não coletados.
+- **png-1:** Cidade desconhecida de alguns clubes regionais de 2019 e 2022 (fica só a província).
 
 ## Próximas competições
 

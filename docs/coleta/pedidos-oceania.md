@@ -125,7 +125,7 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
 1. **O que foi feito:** Campeonato Fijiano (`fij-1`), 50 edições (1977 a 2026), 28 com jogos; 2.177 jogos, 17 times, 6.722
    gols, 194 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e páginas por ano), Wikipédia em inglês (2ª fonte do
    campeão: bate em todos os anos) e ogol (os jogos de 2011 e a grafia para os escudos, 2009-2026).
-2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+2. **Commits:** `8fa059a` (com o ok do Guilherme em 24/11; sem push).
 3. **Teste de carga:** `fij-1: 50 edições, 2177 jogos, 17 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `fij-1`; país novo `FIJ` (Fiji, OFC). Nunca foi à Copa: **falta a bandeira**;
@@ -147,3 +147,38 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    página); as tabelas com erro de digitação (V+E+D ≠ J), que entram com nota; 2002 (duas tabelas na página: vale a final
    divulgada); 2011 (jogos do ogol, com a seleção sub-23 como "Fiji Youth Teams").
 8. **Próxima competição:** Papua-Nova Guiné (`png-1`), quando o Guilherme mandar.
+
+## Recado de fim de coleta — png-1 — 24/11/2026
+
+1. **O que foi feito:** Campeonato Papua-Nova-Guineense (`png-1`), 19 edições (2006 a 2026, sem 2021), todas com jogos; 1.336
+   jogos, 78 clubes, 4.701 gols, 503 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e uma página por temporada),
+   Wikipédia em inglês (2ª fonte do campeão: bate em todos os anos) e ogol (datas e grafia para os escudos, 2013-2026).
+   Conferência: todas as tabelas fecham com a soma dos jogos, salvo 2023, 2025 e 2026 (jogos sem placar na página, explicados).
+2. **Commits:** (preencher depois do "sim" do Guilherme; sem push).
+3. **Teste de carga:** `png-1: 19 edições, 1336 jogos, 78 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `png-1`; país novo `PNG` (Papua-Nova Guiné, OFC). Nunca foi à Copa: **falta a bandeira**;
+   - pontuação 3-1-0 (colunas de empate e derrota vazias);
+   - fases novas: "Fase regional" (conferências: grupos "Northern Zone", "Southern Conference", "Highlands Conference",
+     "New Guinea Islands Conference"...; 2015/16, 2019 e 2022) e "Playoff da conferência" (2022: 1º x 2º das duas conferências
+     das ilhas, vaga nas quartas);
+   - 2008/09 e 2017 sem final (o campeão é o 1º da fase regular; o vice é o outro finalista, como na lista da RSSSF); 2014 a
+     final foi abandonada com 0-3 e o resultado ficou; 2026 sem playoff;
+   - região dos clubes = província ("Morobe", "National Capital District", "Western Highlands"...); a cidade de alguns clubes
+     regionais de 2019 e 2022 fica vazia (desconhecida);
+   - escudos: calendários do ogol em `data/cache/ogol-png-1/` (38 dos 78 clubes têm grafia do ogol).
+5. **Decisões** (Guilherme, 24/11, depois de pesquisa a fundo): só a NSL/PSL desde 2006 (fora o campeonato amador de clubes,
+   2021 e a National Premier League rebelde); "Lae City" = Lae City Dwellers (2014-2017) = Toti City (os 7 títulos), e o novo
+   "Lae City Dwellers" (2021) separado; "Hekari United" (PRK Souths, Hekari Souths, PNG Hekari); "Gulf Komara" (Erema); "Morobe
+   United" (Blue Kumuls 2006, Morobe Kumuls, Gigira Laitepo Morobe, Welgris Morobe United); "Madang FC"; "Rapatona"; Lae FC,
+   Morobe Wawens e Besta PNG United separados; "Central United Port Moresby". Na coleta, pela mesma linha (Wikipédia): o
+   "Gigira Laitepo United" de 2015/16 é outra franquia; Southern Strikers = Port Moresby Strikers; o sub-20 de 2009/10 e
+   2010/11 é o Besta PNG United; "Oro FC" ("Oro" é do México no banco). Correções com motivo em `coleta/png-1/explicacoes.py`.
+   Nada esperando o Guilherme.
+6. **O que não deu para coletar:** as rodadas de 2011/12 (só a tabela e o mata-mata); 5 jogos sem placar na página (2023,
+   2025, 2026) e a disputa do 3º lugar de 2014 (o 3º entra na classificação); autores dos gols (pouco), artilheiros, cartões,
+   estádio e público.
+7. **Onde a revisão deve olhar primeiro:** a identidade Lae City x Lae City Dwellers (2022-2026 os dois jogam juntos); Morobe
+   United x Gigira Laitepo United (2015/16); Southern Strikers = Port Moresby Strikers; os jogos abandonados (2006, 2014, 2019,
+   2022) e a derrota dupla de 2018; a ordem dos eliminados do mata-mata na classificação (entre eles, a melhor campanha antes).
+8. **Próxima competição:** Ilhas Salomão (`sol-1`), quando o Guilherme mandar.

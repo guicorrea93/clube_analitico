@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1", "fij-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
-PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl", "fij-1": "fij"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1", "fij-1", "png-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
+PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl", "fij-1": "fij", "png-1": "png"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -61,6 +61,15 @@ PENDENCIAS: dict[str, list[str]] = {
         "Tabelas com erro de digitação na própria página (vitórias + empates + derrotas diferente de jogos) entram com nota.",
         "Autores dos gols só em parte de 2001-2010; artilheiros, cartões, estádio e público não coletados.",
     ],
+    "png-1": [
+        "2011/12 só com a tabela da fase regular e o mata-mata (a RSSSF não tem as rodadas).",
+        "Jogos sem placar na página (\"drw\", \"lt\", \"bt\") ficam de fora: 2 em 2023, 1 em 2025, 2 em 2026 e a disputa do 3º "
+        "lugar de 2014 (o 3º entra na classificação).",
+        "2021 fora (abandonada, sem campeão); o campeonato amador de clubes (1976-2005) e a National Premier League rebelde "
+        "(2017-2018) não entram: podem virar competições à parte.",
+        "Autores dos gols em poucas temporadas (a RSSSF quase não traz); artilheiros, cartões, estádio e público não coletados.",
+        "Cidade desconhecida de alguns clubes regionais de 2019 e 2022 (fica só a província).",
+    ],
 }
 
 # rótulo de cada dicionário de explicacoes.py
@@ -68,6 +77,7 @@ DICIONARIOS = {
     "CONSERTA_TEXTO": "Erros de digitação da página da RSSSF corrigidos antes da leitura",
     "CORRIGE": "Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados)",
     "EXTRAS": "Jogos acrescentados à mão (a página traz em texto corrido)",
+    "TERCEIROS": "3º lugar de disputa sem placar na página",
     "TABELAS_FORA": "Tabelas da página que não são da edição",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
 }
