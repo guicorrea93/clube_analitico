@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 8906 (8834 com placar); **gols:** 17820; **gols com autor:** 73 (0%); **cartões:** 0.
 - **Clubes:** 82; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 54 edições; **tabelas publicadas guardadas para conferência:** 801 linhas.
-- **No banco:** ainda não; **último commit do pacote:** bc5287a6.
+- **No banco:** sim; **último commit do pacote:** bc5287a6.
 - **Observação da competição:** 1ª divisão nigeriana (hoje Nigeria Premier Football League) desde a criação da liga nacional, de 1972 a 2025/26. Sem a Amachree Gold Cup de 1971 (torneio anterior à liga). 2018 e 2019/20 abandonados, sem campeão. Pontos 2-1-0 (vitória, empate, derrota) até 1989; de 1990 a 1994, 3 por vitória, 2 por empate com gols e 1 por empate sem gols; 3-1-0 desde 1995.
 
 ## 2. Edições, fontes e regras
@@ -412,7 +412,6 @@ ano_inicio da temporada.
 
 ## 9. Pendências e próximos passos
 
-- Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
 - 1972 a 1997: só a tabela final (1972, 1989, 1991 a 1997) ou só o campeão (1973 a 1988 e 1990); faltam as páginas de 1980 a 1982. 1998 a 2003, 2007/08 e 2019/20: só parte dos jogos. Fonte que resolveria: jornais nigerianos (Daily Times, The Guardian, Complete Sports) ou o arquivo da NPFL.
 - 2009/10 a 2011/12: os jogos do ogol não fecham com a tabela da RSSSF em vários clubes (placar de campo de jogos decididos de outro jeito?); nenhum placar mudado.
 - Rebaixamento marcado só onde a página diz (tabela ou nota); nos anos 1970 e 1980, sem informação.

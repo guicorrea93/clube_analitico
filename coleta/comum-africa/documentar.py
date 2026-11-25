@@ -26,8 +26,9 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1"]
-PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga", "gha-1": "gha"}
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1", "cmr-1"]
+PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga", "gha-1": "gha",
+                       "cmr-1": "cmr"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -47,7 +48,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "Al-Shourta de 1975/76 entrou como Ittihad El-Shorta; o \"Suez Club\" do ogol é o Ittihad Suez só em 1965/66.",
     ],
     "mar-1": [
-        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
         "Era colonial (1915/16 a 1954/55): 9 anos sem página da RSSSF (só o campeão); nos outros, jogos incompletos (ligas "
         "regionais com os resultados conhecidos e o mata-mata nacional) ou só a classificação (1949/50 a 1953/54, a maioria "
         "dos clubes só com os pontos). Fonte que resolveria: os jornais da época (Le Petit Marocain, La Vigie Marocaine) na "
@@ -65,7 +65,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "(erro da lista; avisar a RSSSF?).",
     ],
     "tun-1": [
-        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
         "Era colonial (1907 a 1954/55): só 9 anos têm jogos na RSSSF, e só a final ou o mata-mata (1949/50: os resultados "
         "conhecidos); os outros, só o campeão. 1951/52 (abandonado) tem só a tabela do abandono. Fonte que resolveria: os "
         "jornais da época (La Dépêche tunisienne, Le Petit Matin) na Gallica (BnF).",
@@ -82,7 +81,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato (ficou de fora).",
     ],
     "alg-1": [
-        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
         "1964/65 a 1998/99: a lista de jogos da RSSSF não fecha com a tabela da mesma página em vários clubes por ano "
         "(placar ou resultado trocado, jogo repetido ou faltando); o ogol (desde 1985/86) repete os placares da RSSSF e a "
         "Wikipédia quase sempre confirma a tabela. Nenhum placar mudado; jogo provável no relatório. Fonte que resolveria: "
@@ -100,7 +98,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "Olympique Rouissat (2025/26).",
     ],
     "rsa-1": [
-        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
         "1971 a 1995: só a tabela final (a RSSSF não tem os jogos), fora 1987, 1992 e 1993 (parte dos jogos); 1972, 1973, "
         "1975 e 1977: só o campeão (a página do ano é da NFL). 1996/97: parte dos jogos. O ogol só tem jogos de 2005/06 em "
         "diante. Fonte que resolveria: jornais sul-africanos (The World, Sowetan, Rand Daily Mail) ou o arquivo da PSL.",
@@ -114,7 +111,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "Aces = Total Aces.",
     ],
     "nga-1": [
-        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
         "1972 a 1997: só a tabela final (1972, 1989, 1991 a 1997) ou só o campeão (1973 a 1988 e 1990); faltam as páginas de "
         "1980 a 1982. 1998 a 2003, 2007/08 e 2019/20: só parte dos jogos. Fonte que resolveria: jornais nigerianos (Daily "
         "Times, The Guardian, Complete Sports) ou o arquivo da NPFL.",
@@ -127,7 +123,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "United.",
     ],
     "gha-1": [
-        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
         "1958 a 1996/97: só a tabela final (lista de tabelas finais até 1987; página do ano de 1989/90 a 1996/97); 1988/89 "
         "só o campeão (\"Final table missing\"); 1989/90 só posição, jogos e pontos. 1997/98 e 2006/07: parte dos jogos; "
         "2011/12: só a tabela. O ogol só tem jogos de 2008/09 a 2010/11 e de 2015 em diante. Fonte que resolveria: jornais "
@@ -137,6 +132,20 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols quase nenhum; artilheiros e cartões, nenhum.",
         "Identidade a conferir: Ashanti Gold = Goldfields; Ebusua Dwarfs = Mysterious Dwarfs; Swedru All Blacks = Gamba All "
         "Blacks; Wa All Stars = All Stars (2007-2011); Holy Stars de Techiman (1986) x Basake Holy Stars (2024/25).",
+    ],
+    "cmr-1": [
+        "1961 a 1998: só o campeão (1961 a 1977/78, 1984/85, 1986/87 e 1992), só os primeiros colocados ou só posição, "
+        "jogos e pontos (1978/79 a 1985/86, 1993 e 1996) ou só a tabela final (os outros anos); 1987/88, 1999 e 2000: "
+        "parte dos jogos. Fonte que resolveria: jornais camaroneses (Cameroon Tribune) ou o arquivo da FECAFOOT.",
+        "2010/11: a RSSSF só traz a tabela; os jogos vêm do ogol, que junta o Union e o Caïman Douala num clube só (os "
+        "jogos dos dois ficam de fora).",
+        "2001: a classificação é a tabela oficial da FECAFOOT, que não fecha com os jogos (a página traz também a tabela "
+        "pelos resultados conhecidos).",
+        "Autores dos gols só em 2004 e 2005; artilheiros só desses dois anos; cartões, nenhum. Fonte que resolveria: o "
+        "ogol jogo a jogo (2005 em diante, fora 2013 a 2016).",
+        "Identidade a conferir: os dois Aigle Royal (\"Aigle\" sozinho até 2004 = o do Moungo, de Nkongsamba; de 2005 a "
+        "2023 = o da Menoua, de Dschang; 2024/25 = o do Moungo); PWD Bamenda x PWD Kumba; Unisport du Haut-Nkam = "
+        "Unisport de Bafang.",
     ],
 }
 

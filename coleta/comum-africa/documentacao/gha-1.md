@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 6069 (6038 com placar); **gols:** 12631; **gols com autor:** 294 (2%); **cartões:** 0.
 - **Clubes:** 137; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 65 edições; **tabelas publicadas guardadas para conferência:** 1069 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** cd02564c.
 - **Observação da competição:** 1ª divisão ganesa (hoje Ghana Premier League) de 1958 a 2025/26, como a lista de campeões da RSSSF, sem o campeonato não oficial de 1956 e sem a competição especial de 2019 (não foi liga). 2018 e 2019/20 abandonados, sem campeão. Pontos 2-1-0 (vitória, empate, derrota) até 1993/94 (fora 1989/90) e 3-1-0 desde 1994/95.
 
 ## 2. Edições, fontes e regras
@@ -403,7 +403,6 @@ ano_inicio da temporada.
 
 ## 9. Pendências e próximos passos
 
-- Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
 - 1958 a 1996/97: só a tabela final (lista de tabelas finais até 1987; página do ano de 1989/90 a 1996/97); 1988/89 só o campeão ("Final table missing"); 1989/90 só posição, jogos e pontos. 1997/98 e 2006/07: parte dos jogos; 2011/12: só a tabela. O ogol só tem jogos de 2008/09 a 2010/11 e de 2015 em diante. Fonte que resolveria: jornais ganeses (Daily Graphic) ou o arquivo da GFA.
 - 2010/11: os jogos do ogol não fecham com a tabela da RSSSF em sete clubes; nenhum placar mudado.
 - Rebaixamento marcado onde a tabela ou a nota diz; em vários anos dos 1960 e 1970 a lista não diz.

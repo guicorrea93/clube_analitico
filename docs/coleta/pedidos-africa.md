@@ -301,7 +301,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    autor; 0 cartões; 137 clubes, todos novos. Fontes: RSSSF (lista de tabelas finais de 1958 a 1987 e página de cada
    ano), ogol (jogos de 2008/09 a 2010/11 e de 2015 em diante: base de 2010/11; data, rodada e conferência nos outros),
    Wikipédia em inglês (tabela de 16 temporadas). A ESPN não tem a liga.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** cd02564c (25/11; sem push).
 3. **Teste de carga:** `gha-1: 65 edições, 6069 jogos, 137 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `gha-1`; país novo **GHA (Gana, CAF)**, criado pelo `competicao.json` (Gana foi a várias Copas: conferir
@@ -331,3 +331,52 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 7. **Onde a revisão deve olhar primeiro:** 2010/11 (os jogos do ogol não fecham com a tabela da RSSSF em sete clubes);
    2003 (resultados dados e descontos de pontos); a identidade dos clubes do item 5.
 8. **Próxima competição:** `cmr-1` (Camarões), depois da decisão do Guilherme sobre o escopo.
+
+## Recado de fim de coleta — cmr-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `cmr-1` (Campeonato Camaronês, hoje Elite One), 66 edições de 1961 a 2026; 6.804 jogos (6.679 da
+   RSSSF, 125 do ogol; 62 decididos fora de campo, 11 W.O., 22 abandonados, 16 não jogados); 13.633 gols, 1.138 com autor
+   (2004 e 2005); 0 cartões; 85 clubes, todos novos. Fontes: RSSSF (lista de campeões `kamchamp.html` e página de cada
+   ano), ogol (jogos de 2005 em diante, fora 2013 a 2016: base de 2010/11; data, rodada e conferência nos outros),
+   Wikipédia em inglês (tabela de 34 temporadas). A ESPN não tem a liga.
+2. **Commits:** ainda sem commit (espera o "sim" do Guilherme).
+3. **Teste de carga:** `cmr-1: 66 edições, 6804 jogos, 85 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `cmr-1`; país novo **CMR (Camarões, CAF)**, criado pelo `competicao.json` (Camarões foi a várias Copas:
+     conferir se a bandeira já existe);
+   - **temporadas que mudam de formato** (ano civil e duas temporadas se alternam), como a lista da RSSSF;
+   - **pontos**: 2-1-0 (vitória, empate, derrota) até 1987/88 e de 1991 a 1994; 3-1-0 em 1988/89, 1989/90 e desde 1995;
+   - **37 edições "sem jogos"**: só o campeão (21: 1961 a 1977/78, 1984/85, 1986/87 e 1992), só a classificação
+     incompleta (8: 1978/79 a 1985/86, 1993 e 1996) ou só a tabela final (8: 1982/83, 1988/89 a 1991, 1994, 1995, 1997 e
+     1998); **4 com "jogos incompletos"** (1987/88, 1999, 2000 e 2010/11);
+   - 2019/20 abandonado (Covid-19) com o PWD Bamenda declarado campeão, sem rebaixamento; 2020/21 é a "Ligue 2021", da
+     FECAFOOT (a liga da LFPC parou na 1ª rodada);
+   - fases: 2004, 2019 e 2023/24 (grupos do título e do rebaixamento depois dos grupos), 2020/21 e 2022 (semifinais, 3º
+     lugar e final), 2022/23 (fase final de quatro).
+5. **Decisões tomadas:**
+   - escopo: o campeonato nacional de 1961 a 2026, como a lista da RSSSF; "1960" e "1961" da lista são uma edição só
+     ("1961"); fora o campeonato territorial da era colonial, as ligas do Camarões anglófono até 1972 e as copas (o
+     Guilherme aprovou em 25/11);
+   - nomes: os dois Aigle Royal são clubes diferentes (do Moungo, de Nkongsamba; da Menoua, de Dschang; "Aigle" sozinho
+     até 2004 = Moungo, de 2005 a 2023 = Menoua); Djiko FC = Feutcheu FC ("Feutcheu FC were renamed Djiko FC"); nomes que
+     já existem em outros pacotes levam "(Camarões)" (Botafogo, Santos);
+   - correções: vitórias dadas sem gols ("awarded 0-0 win": 2009/10 e 2023/24) e resultados dados que a página marca
+     "abd" ou "n/p" (2006 e 2007) entram como a tabela conta; 2000: a rodada 21 da página é cópia da 22 (descartada);
+     2005: o 3-0 dado e depois revogado fica 1-2; 2024/25: um jogo válido anulado por nota da linha de cima; 2011/12 e
+     2020/21: as datas de julho a outubro estavam no ano errado (as duas temporadas foram jogadas num ano só);
+   - 2001: a classificação é a tabela oficial da FECAFOOT (a página traz também a dos resultados conhecidos);
+   - rebaixamento à mão onde a nota diz: 2007 (Bamboutos, excluído), 2020/21 (ninguém caiu: a liga subiu para 25), 2022
+     (Panthère, por manipulação, no lugar do Yaoundé II), 2022/23 (Eding Sport, no desempate) e 2026 (AS Fortuna, no
+     desempate com a Elite Two).
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - os jogos de 1961 a 1998 (a RSSSF só tem campeão, topo da tabela ou tabela) e parte dos de 1987/88, 1999 e 2000.
+     Fonte que resolveria: jornais camaroneses (Cameroon Tribune) ou o arquivo da FECAFOOT;
+   - 2010/11: os jogos do Union e do Caïman Douala (o ogol dá aos dois o mesmo nome e o mesmo id);
+   - autores dos gols fora de 2004 e 2005, artilheiros (só desses dois anos) e cartões.
+7. **Onde a revisão deve olhar primeiro:** 2001 (a tabela oficial não fecha com os jogos); 2000 (tabela "not checked with
+   scores" e rodada copiada); 2014 (Douala AC x Coton Sport, derrota dada aos dois); 2015 (um placar entre Fovu e Canon);
+   a identidade dos clubes do item 5.
+8. **Próxima competição:** `civ-1` (Costa do Marfim), depois da decisão do Guilherme sobre o escopo.

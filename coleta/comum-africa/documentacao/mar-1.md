@@ -525,7 +525,6 @@ ano_inicio da temporada.
 
 ## 9. Pendências e próximos passos
 
-- Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
 - Era colonial (1915/16 a 1954/55): 9 anos sem página da RSSSF (só o campeão); nos outros, jogos incompletos (ligas regionais com os resultados conhecidos e o mata-mata nacional) ou só a classificação (1949/50 a 1953/54, a maioria dos clubes só com os pontos). Fonte que resolveria: os jornais da época (Le Petit Marocain, La Vigie Marocaine) na Gallica (BnF).
 - 1968/69 a 1994/95 (fora 1980/81, 1989/90 e 1990/91): só a tabela final; o ogol só tem os jogos de 2004/05 em diante. 1970/71, 1973/74 e 1981/82 sem página da RSSSF: só o campeão e o vice.
 - Tabelas de confrontos (1956/57 a 1967/68, 1980/81, 1989/90): os jogos não têm data nem rodada, e vários resultados não batem com a tabela final da página (vitórias e empates trocados com os mesmos gols); sem terceira fonte.

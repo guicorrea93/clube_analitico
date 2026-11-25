@@ -55,12 +55,13 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `egy-1` Egípcio | 73 (1948/49–2025/26) | 11.574 | 74 | 06635c8 (23/11, no GitHub) | sim |
-| `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | 820bf5f (24/11; sem push) | não |
-| `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | 786998d (24/11; sem push) | não |
-| `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | b09bbaa (24/11; sem push) | não |
-| `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | b755594 (24/11; sem push) | não |
-| `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | bc5287a6 (24/11, no GitHub) | não |
-| `gha-1` Ganês | 65 (1958–2025/26) | 6.069 | 137 | sem commit (pronto 24/11; espera o "sim") | não |
+| `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | 820bf5f (no GitHub) | sim |
+| `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | 786998d (no GitHub) | sim |
+| `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | b09bbaa (no GitHub) | sim |
+| `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | b755594 (no GitHub) | sim |
+| `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | bc5287a6 (no GitHub) | sim |
+| `gha-1` Ganês | 65 (1958–2025/26) | 6.069 | 137 | cd02564c (no GitHub) | sim |
+| `cmr-1` Camaronês | 66 (1961–2026) | 6.804 | 86 | sem commit (pacote pronto 25/11; teste de carga OK) | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -73,11 +74,13 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
 4. `rsa-1`: commit b755594; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de
    `docs/coleta/pedidos-africa.md`).
 5. `nga-1`: commit bc5287a6, no GitHub (24/11); esperar o agente 1 carregar (recado no fim de
-   `docs/coleta/pedidos-africa.md`). A anotação deste hash ainda está sem commit (vai no próximo).
-6. `gha-1` (Gana): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit só
-   com o "sim" do Guilherme.
-7. Próxima liga: `cmr-1` (Camarões). Antes, mandar ao Guilherme o escopo.
-8. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+   `docs/coleta/pedidos-africa.md`).
+6. `gha-1`: commit cd02564c, no GitHub e no painel (25/11). As sete ligas (egy, mar, tun, alg, rsa, nga, gha) estão
+   na lista LIBERADAS do painel (`gerar_dashboard_v2.py`).
+7. `cmr-1`: pacote pronto (25/11; teste de carga OK; recado no fim de `docs/coleta/pedidos-africa.md`); commit só com
+   o "sim" do Guilherme.
+8. Próxima liga: `civ-1` (Costa do Marfim). Antes, mandar ao Guilherme o escopo.
+9. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -232,6 +235,19 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   `gha04` e "2005" é a `gha05` ("Ghana 2005/06").
 - ogol: competição `liga-ganesa`, mesmo rótulo de temporada que a RSSSF, jogos só de 2008/09 a 2010/11 e de 2015 em diante.
 
+**Camarões (`cmr-1`):**
+- **Escopo (pesquisa de 25/11; o Guilherme aprovou em 25/11):** o campeonato nacional de 1961 a 2026 (66 edições), como a
+  lista da RSSSF ("since independence"); "1960" e "1961" da lista são o mesmo campeonato (uma edição, "1961"). Fora: o
+  campeonato territorial da era colonial (1936/37 a 1955/56), as ligas do Camarões anglófono até 1972 e as copas.
+- RSSSF: lista em `tablesk/kamchamp.html`; páginas `kam61`, `kam68`, `kam79` ... `kam99`, `kam00` ... `kam09`,
+  `kam2010` ... `kam2026` (sem página: 1962 a 1967, 1969 a 1977/78, 1984/85, 1992). O rótulo alterna ano civil e duas
+  temporadas (mapa em `edicoes._PAG`). Até 1998 só tabela, topo da tabela ou campeão; jogos de 1999 em diante.
+- Pontos: 2-1-0 até 1987/88 e de 1991 a 1994; 3-1-0 em 1988/89 e 1989/90 (a página anota) e desde 1995.
+- ogol: competição `liga-dos-camaroes`; jogos de 2005 em diante, fora 2013 a 2016 (vazios); **rotula pela data** ("2004/05"
+  = 2005; "2011" = 2010/11; "2024" = 2023/24): mapa em `edicoes._OGOL`.
+- Wikipédia: "AAAA Cameroonian Premier League" até 2007 (com o ano do fim da temporada), "AAAA–AA Elite One" depois; tabela
+  de 1982/83 em diante.
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -339,6 +355,24 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   como jogo (os nomes "1 Goldfields", "3 BA United"); descartada, e os jogos das rodadas ficam com o placar dado.
 - **"FC Samartex 1996"**: o ano no fim do nome confunde o leitor; vira "FC Samartex" em `linhas()`.
 - **2ª divisão regional logo depois da liga** ("Central Regional Division 2", 2017): linha final explícita.
+
+**RSSSF (Camarões):**
+- **"awarded 0-0 win to X"**: vitória dada sem gols (a tabela conta a vitória e nenhum gol); o leitor deixa sem resultado.
+  `CORRIGE` com `wo_m`/`wo_v` e sem placar (2009/10, 2023/24); "original score stood but points awarded" fica com o placar.
+- **Resultado dado marcado "abd" ou "n/p"** ("abd ... [awarded 3-0; 1-0 abd at 75']", "n/p ... [awarded 3-0]"): ficava fora
+  da conta; `CORRIGE` com `oficial`.
+- **Nota que continua na linha de baixo** ("award of 3-0 annulled, match refixtured", 2024/25) anulou um jogo válido.
+- **Rodada copiada** (2000: a 21 repete a 22) e **tabelas "not checked with scores"** (2000) ou duas tabelas (2001: a
+  oficial da FECAFOOT e a dos resultados conhecidos).
+- **"Poule A"** não é título de grupo para o leitor comum: vira "Group A" em `linhas()`.
+- **Artilharia no meio da liga** ("Topscorer (only playoff)", 2004) encerra o trecho pelo `FIM_PADRAO`: trechos explícitos.
+- **Fase final que numera depois dos clubes só da 1ª fase** (2019: grupo do rebaixamento 13º a 18º): `TABELAS_FIM` no
+  `importar.py`.
+- **Dois Aigle Royal** (Moungo, de Nkongsamba; Menoua, de Dschang) e "Aigle" sozinho nos jogos: regra por ano em
+  `clubes_cmr.py`.
+
+**ogol (Camarões):** em 2010/11 o Union e o Caïman Douala têm o mesmo nome e o mesmo id (2482): os jogos dos dois ficam de
+fora. Nomes como "Lausanne SA De Yaoundé", "FC Renaissance", "Eagle Royale Casamba".
 
 **ogol (Argélia):** só tem jogos de 1985/86 em diante, com os mesmos placares da RSSSF (copiados): serve para data e
 rodada, não como segunda fonte de placar. Nomes curtos ("CS Constantinois", "Ol. Medea", "Tadjenanet", "MCE Bayadh").

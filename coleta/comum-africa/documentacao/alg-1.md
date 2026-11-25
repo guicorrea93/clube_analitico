@@ -421,7 +421,6 @@ ano_inicio da temporada.
 
 ## 9. Pendências e próximos passos
 
-- Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
 - 1964/65 a 1998/99: a lista de jogos da RSSSF não fecha com a tabela da mesma página em vários clubes por ano (placar ou resultado trocado, jogo repetido ou faltando); o ogol (desde 1985/86) repete os placares da RSSSF e a Wikipédia quase sempre confirma a tabela. Nenhum placar mudado; jogo provável no relatório. Fonte que resolveria: jornais argelinos da época (El Moudjahid) ou o arquivo da federação.
 - 1974/75 e 1975/76: uma rodada inteira copiada na página (os jogos verdadeiros das rodadas 4 e 18 faltam); 1972/73: rodada 10 repetida (cópia descartada).
 - Mando provavelmente trocado: o mesmo mandante x visitante duas vezes na temporada, com placares diferentes (1964/65, 1966/67, 1973/74, 1976/77, 1979/80, 1980/81, 1983/84, 1986/87, 1988/89...): ficou como na página.

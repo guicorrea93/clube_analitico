@@ -324,7 +324,6 @@ ano_inicio da temporada.
 
 ## 9. Pendências e próximos passos
 
-- Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
 - 1971 a 1995: só a tabela final (a RSSSF não tem os jogos), fora 1987, 1992 e 1993 (parte dos jogos); 1972, 1973, 1975 e 1977: só o campeão (a página do ano é da NFL). 1996/97: parte dos jogos. O ogol só tem jogos de 2005/06 em diante. Fonte que resolveria: jornais sul-africanos (The World, Sowetan, Rand Daily Mail) ou o arquivo da PSL.
 - Rebaixamento pelos desempates de acesso (2004/05 a 2025/26) marcado à mão (o 15º que não está na 1ª divisão do ano seguinte); clubes que saíram por venda da vaga, fusão ou redução da liga ficam sem marca.
 - Autores dos gols só onde a RSSSF traz; artilheiros de poucas temporadas (contagem dos gols com autor). Fonte que resolveria: o ogol jogo a jogo (2005/06 em diante).
