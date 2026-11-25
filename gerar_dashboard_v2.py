@@ -79,7 +79,7 @@ COMPETICOES = {
 # bandeiras (data/worldcup_wikipedia/flags/<iso>.png, da parte da Copa do Mundo): código FIFA -> arquivo
 BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo", "VEN": "ve",
             "ENG": "gb-eng", "SCO": "gb-sct", "WAL": "gb-wls", "NIR": "gb-nir", "ESP": "es", "ITA": "it", "GER": "de", "FRA": "fr",
-            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp", "GDR": "dd", "MAR": "ma", "TAH": "pf", "CAN": "ca", "ALG": "dz", "HON": "hn", "KOR": "kr", "CRC": "cr", "TUN": "tn", "NCL": "nc", "RSA": "za", "FIJ": "fj", "GUA": "gt", "NGA": "ng"}
+            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp", "GDR": "dd", "MAR": "ma", "TAH": "pf", "CAN": "ca", "ALG": "dz", "HON": "hn", "KOR": "kr", "CRC": "cr", "TUN": "tn", "NCL": "nc", "RSA": "za", "FIJ": "fj", "GUA": "gt", "NGA": "ng", "GRE": "gr", "GHA": "gh", "PNG": "pg", "SLV": "sv", "KSA": "sa", "PAN": "pa", "CZE": "cz", "SOL": "sb", "CMR": "cm"}
 CONTINENTE = {"CONMEBOL": "América do Sul", "UEFA": "Europa", "CONCACAF": "América do Norte e Central", "CAF": "África",
               "AFC": "Ásia", "OFC": "Oceania"}
 GRUPO = {"liga": "Ligas", "copa": "Copas", "estadual": "Estaduais"}
@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1", "usa-1", "gdr-1", "uru-copa", "par-copa", "ecu-copa", "col-copa", "arg-copa", "hon-1", "tah-1", "ncl-1", "mex-1", "jpn-1", "mar-1", "alg-1", "crc-1", "tun-1", "chi-copa", "rsa-1", "fij-1", "gua-1", "ven-copa", "kor-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1", "usa-1", "gdr-1", "uru-copa", "par-copa", "ecu-copa", "col-copa", "arg-copa", "hon-1", "tah-1", "ncl-1", "mex-1", "jpn-1", "mar-1", "alg-1", "crc-1", "tun-1", "chi-copa", "rsa-1", "fij-1", "gua-1", "ven-copa", "kor-1", "nga-1", "gre-1", "gha-1", "png-1", "ksa-1", "slv-1", "pan-1", "cze-1", "bra-mg-1"}
 
 
 def competicoes_dos_pacotes() -> None:
