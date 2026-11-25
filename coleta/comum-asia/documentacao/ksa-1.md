@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-asia/documentar.py` a partir do pacote `data/col
 - **Jogos:** 5965 (5965 com placar); **gols:** 17178; **gols com autor:** 7296 (42%); **cartões:** 4801.
 - **Clubes:** 43; **artilheiros:** 14 edições com artilheiro (14 linhas, com empates).
 - **Classificação final:** 66 edições; **tabelas publicadas guardadas para conferência:** 670 linhas.
-- **No banco:** ainda não; **último commit do pacote:** 204e7d6d.
+- **No banco:** sim; **último commit do pacote:** 204e7d6d.
 - **Observação da competição:** His Majesty's League (1957/58-1973/74, mata-mata), Liga de Classificação (1974/75), Premier League (1975/76-2006/07) e Pro League (2007/08 em diante), como o relatório oficial da federação (2025)
 
 ## 2. Edições, fontes e regras

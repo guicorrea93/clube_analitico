@@ -421,9 +421,9 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- 1ªs divisões da AFC, na ordem do guia geral: irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, "
-            "ind-1, tha-1; depois as outras. Antes de cada uma, as decisões de escopo vão ao Guilherme. Como fazer: "
-            "`COMECE-AQUI.md`, seção 4.", ""]
+            "- Fase 1 do plano único (`docs/coleta/plano-de-coleta.md`): 1ª divisão de todas as federações da AFC, na "
+            "ordem do ranking de clubes da AFC (foto de 25/11/2026, no `COMECE-AQUI.md`, seção 3). Próxima: Emirados "
+            "Árabes Unidos (`uae-1`), com o escopo antes. Como fazer: `COMECE-AQUI.md`, seção 4.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

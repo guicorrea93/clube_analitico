@@ -1,10 +1,12 @@
 # Coleta Ásia — comece aqui
 
-Para o agente de coleta da Ásia (países da AFC, inclusive a Austrália) e para quem for continuar este trabalho. Leia
-antes o guia geral `docs/agentes-internacionais-COMECE-AQUI.md`, com o formato do pacote, as pastas de cada agente e as
+Para o agente de coleta da Ásia (países da AFC, inclusive a Austrália) e para quem for continuar este trabalho. **Leia
+primeiro o plano único `docs/coleta/plano-de-coleta.md`** (25/11/2026: ordem das fases e jeito de trabalhar; vale acima
+deste arquivo). Leia também o guia geral `docs/agentes-internacionais-COMECE-AQUI.md`, com o formato do pacote, as pastas de cada agente e as
 regras de identidade dos clubes. Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 25/11/2026 (EM PAUSA a pedido do Guilherme; jpn-1, kor-1 e ksa-1 no GitHub; próxima irn-1).
+Última atualização: 25/11/2026 (plano único de coleta adotado: ranking da AFC na seção 3; jpn-1, kor-1 e ksa-1 no
+banco; próxima uae-1, escopo antes).
 
 **Documentação completa:** `coleta/comum-asia/documentacao/`, gerada por `python coleta/comum-asia/documentar.py` a partir
 dos pacotes, do código e dos relatórios (uma ficha por competição e o índice `README.md`). Rode depois de toda
@@ -49,23 +51,79 @@ importação ou correção e mantenha à mão só as listas `LIGAS`, `PAIS` e `P
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `jpn-1` Japonês | 60 (1965–2025) | 12.190 | 40 | 71d5006 (no GitHub) | sim |
-| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | e04507f (no GitHub) | não |
-| `ksa-1` Saudita | 69 (1957/58–2025/26) | 5.965 | 43 | 204e7d6d (no GitHub) | não |
+| `kor-1` Sul-Coreano | 43 (1983–2025) | 7.163 | 25 | e04507f (no GitHub) | sim |
+| `ksa-1` Saudita | 69 (1957/58–2025/26) | 5.965 | 43 | 204e7d6d (no GitHub) | sim |
 
-**Pasta comum (23/11):** cópia de `coleta/comum-sulamerica/` (ver seção 4). O `rsssf_asia.py` ainda não foi usado: o
-Japão tem leitor próprio (`coleta/jpn-1/ler_jsl.py`), porque a JSL é só tabela final e tabela de confrontos.
+**Pasta comum (23/11):** cópia de `coleta/comum-sulamerica/` (ver seção 4). O `rsssf_asia.py` foi atualizado em 25/11 com
+a correção do `rsssf_sul.py` (autores em duas linhas, data no título da fase; plano, seção 2.3) e ainda não foi usado:
+Japão, Coreia e Arábia Saudita têm leitores próprios, então não houve o que reimportar.
 
 ## 3. De onde continuar
 
-1. **Japão (`jpn-1`): pronto e no GitHub (`71d5006`, 24/11)** e já no banco. Recado de fim de coleta no fim de
-   `docs/coleta/pedidos-asia.md`. Pendências na lista `PENDENCIAS` do `documentar.py`.
-2. **Coreia do Sul (`kor-1`): pronta e commitada em 24/11 (`e04507f`, no GitHub)**; falta o agente 1 carregar. Recado de
-   fim de coleta no fim de `docs/coleta/pedidos-asia.md`; pendências na lista `PENDENCIAS` do `documentar.py`.
-3. **Arábia Saudita (`ksa-1`): pronta e commitada em 25/11 (`204e7d6d`, no GitHub)**; falta o agente 1 carregar. Recado no fim de
-   `docs/coleta/pedidos-asia.md`; pendências no `PENDENCIAS` do `documentar.py`.
-4. **Em pausa desde 25/11** (o Guilherme retoma outra hora; recado ao agente 1 no fim de `docs/coleta/pedidos-asia.md`).
-   Próxima: Irã (`irn-1`), depois das decisões de escopo do Guilherme. Depois, na ordem sugerida:
-   `aus-1`, `chn-1`, `qat-1`, `uae-1`, `uzb-1`, `irq-1`, `ind-1`, `tha-1`; depois as outras 1ªs divisões da AFC.
+**Ordem (plano único, fase 1: 1ª divisão de todas as federações da AFC).** Ranking de federações da AFC para as
+competições de clubes ("AFC Club Competitions Ranking"), tabela "2026–27 season", "as of 25 November 2026", na
+Wikipédia em inglês (https://en.wikipedia.org/wiki/AFC_club_competitions_ranking; fonte: AFC, the-afc.com/Ranking).
+Foto de 25/11/2026, fixa (não muda depois). Depois da fase 1, a fase 2 (copas) segue a mesma ordem.
+
+| # | Federação | Pontos | Slug | Estado |
+|---|---|---|---|---|
+| 1 | Arábia Saudita | 121,298 | `ksa-1` | pronto (204e7d6d), no banco |
+| 2 | Japão | 111,174 | `jpn-1` | pronto (71d5006), no banco |
+| 3 | Coreia do Sul | 79,237 | `kor-1` | pronto (e04507f), no banco |
+| 4 | Emirados Árabes Unidos | 76,831 | `uae-1` | **em andamento** (escopo aprovado 25/11) |
+| 5 | Irã | 64,050 | `irn-1` | |
+| 6 | Catar | 62,552 | `qat-1` | |
+| 7 | Tailândia | 56,197 | `tha-1` | |
+| 8 | Malásia | 45,642 | `mas-1` | |
+| 9 | Austrália | 46,078 | `aus-1` | (ao chegar: cidade nos australianos que colidem com as Ilhas Salomão, plano 2.2) |
+| 10 | Uzbequistão | 45,349 | `uzb-1` | |
+| 11 | China | 43,897 | `chn-1` | |
+| 12 | Iraque | 42,846 | `irq-1` | |
+| 13 | Jordânia | 40,880 | `jor-1` | |
+| 14 | Vietnã | 37,241 | `vie-1` | |
+| 15 | Singapura | 38,088 | `sgp-1` | |
+| 16 | Indonésia | 32,309 | `idn-1` | |
+| 17 | Camboja | 31,474 | `cam-1` | |
+| 18 | Omã | 29,888 | `oma-1` | |
+| 19 | Kuwait | 29,795 | `kuw-1` | |
+| 20 | Bahrein | 29,174 | `bhr-1` | |
+| 21 | Turcomenistão | 27,040 | `tkm-1` | |
+| 22 | Hong Kong | 23,732 | `hkg-1` | |
+| 23 | Líbano | 23,667 | `lib-1` | |
+| 24 | Índia | 20,417 | `ind-1` | |
+| 25 | Quirguistão | 20,328 | `kgz-1` | |
+| 26 | Tajiquistão | 18,989 | `tjk-1` | |
+| 27 | Bangladesh | 17,155 | `ban-1` | |
+| 28 | Filipinas | 17,037 | `phi-1` | |
+| 29 | Taipé Chinesa | 16,140 | `tpe-1` | |
+| 30 | Síria | 15,260 | `syr-1` | |
+| 31 | Mianmar | 14,272 | `mya-1` | |
+| 32 | Mongólia | 9,736 | `mng-1` | |
+| 33 | Butão | 7,535 | `bhu-1` | |
+| 34 | Coreia do Norte | 6,657 | `prk-1` | |
+| 35 | Maldivas | 6,606 | `mdv-1` | |
+| 36 | Palestina | 4,085 | `ple-1` | |
+| 37 | Brunei | 3,620 | `bru-1` | |
+| 38 | Laos | 3,463 | `lao-1` | |
+| 39 | Macau | 2,159 | `mac-1` | |
+| 40 | Afeganistão | 1,350 | `afg-1` | |
+| 41 | Nepal | 0,967 | `nep-1` | |
+| 42 | Timor-Leste | 0,500 | `tls-1` | |
+| 43 | Sri Lanka | 0,301 | `sri-1` | |
+| 44 | Iêmen | 0 | `yem-1` | (empatados em 44º; nesta ordem) |
+| 44 | Paquistão | 0 | `pak-1` | |
+| 44 | Guam | 0 | `gum-1` | |
+| — | Ilhas Marianas do Norte | sem ranking | `nmi-1` | membro associado; por último, se houver fonte |
+
+A ordem é a da página (Malásia antes da Austrália e Vietnã antes de Singapura, embora com menos pontos: vale a
+posição publicada). Os slugs dos países novos são propostas (códigos FIFA); confirme no banco antes de usar.
+
+**Feito antes do plano único:**
+1. **Japão (`jpn-1`)**, **Coreia do Sul (`kor-1`)** e **Arábia Saudita (`ksa-1`)**: prontos, no GitHub e no banco.
+   Recados de fim de coleta em `docs/coleta/pedidos-asia.md`; pendências na lista `PENDENCIAS` do `documentar.py`.
+2. **Emirados Árabes Unidos (`uae-1`): escopo aprovado em 25/11** (seção 7); coleta em andamento. Fontes: RSSSF em
+   `tablesu/` (`uaechamp.html` e `uaeNN.html`/`uaeNNNN.html`; páginas dos anos 1970-1990 curtas); a ESPN não tem a liga;
+   o ogol: achar o nome da competição.
 
 **Como a Arábia Saudita foi feita (`coleta/ksa-1/`), bom modelo para liga só com RSSSF + ogol + ESPN:**
 
@@ -238,6 +296,12 @@ Edit e confira com `grep -c $'\x08'`.
 - 24/11, Coreia: o Guilherme pediu que o agente pesquisasse e decidisse o escopo ("faça uma pesquisa mais a fundo para
   julgar o que é necessário"). Decidido: K League 1983-2025 (sem a semiprofissional), clube por código do portal (os
   Sangmu separados), campeão oficial, divisão em grupos numa fase só, 2026 quando acabar (seção 3).
+- 25/11, Emirados Árabes Unidos: **1973/74 a 2025/26** (a federação declarou oficial em 2001 o título do Al-Oroba de
+  1973/74, antes "experimental"); 1990/91 (Guerra do Golfo) e 2019/20 (covid) sem campeão; torneios regionais de antes
+  fora. Identidade: o Shabab Al-Ahli (fusão de 2017) continua o Al-Ahli de Dubai, como o clube conta (9 títulos = 7 do
+  Al-Ahli + 2); o Al-Shabab de Dubai e o Dubai CSC são clubes separados, encerrados em 2017; Al-Oroba = Sharjah (troca de
+  nome); o Al-Shaab é separado (fechou em 2017). A RSSSF e a Wikipédia divergem no campeão de alguns anos antigos:
+  resolver com terceira fonte e pôr no relatório.
 - 24/11, Arábia Saudita: **desde 1957/58**, como o relatório oficial da federação (2025: Al-Hilal 21 títulos; Arab News,
   Saudi Gazette). A "His Majesty's League" (1957-1974, campeões iguais aos da antiga Copa do Rei, mata-mata) entra com
   campeão e vice, com os jogos que houver. Do agente: até 2025/26; temporadas canceladas ou não concluídas (1966/67,

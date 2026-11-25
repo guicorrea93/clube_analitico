@@ -1,4 +1,4 @@
-"""Leitor genérico das páginas de temporada da RSSSF (rsssf.org/tablesX/...), comum às coletas da Ásia (copiado de coleta/comum-sulamerica/rsssf_sul.py em 23/11/2026).
+"""Leitor genérico das páginas de temporada da RSSSF (rsssf.org/tablesX/...), comum às coletas da Ásia (cópia de coleta/comum-sulamerica/rsssf_sul.py; atualizada em 25/11/2026 com os autores em duas linhas e a data no título da fase).
 
 As páginas são texto pré-formatado: tabelas ("1. River Plate  34 20 8 6 60-30 48"), cabeçalhos de rodada
 ("Round 1 [Apr 2]:"), datas ("[Apr 5, Sun]") e jogos ("Atlanta   3-3  San Lorenzo  [at Boca Juniors]"), às vezes
@@ -142,6 +142,10 @@ def achar_data(s: str) -> tuple[int, int, int | None] | None:
     return None
 
 
+# "[Dec 23]", "[Dec 23, 1997]", "[23 Dec]", "[Jul 29, Estadio Centenario]" num título (só mês e dia no começo do colchete)
+_DATA_TITULO = re.compile(r"\[\s*((?:[A-Za-z]{3,9}\.?\s+\d{1,2}|\d{1,2}\s+[A-Za-z]{3,9}\.?)(?:,?\s*\d{4})?)\s*(?:[,;][^\]]*)?\]")
+
+
 def _linha_de_data(l: str) -> bool:
     """Linha que é só data: "[Apr 5, Sun]", "Apr 5", "(5/4)", "Sunday, April 5"."""
     s = l.strip().strip("[]():").strip()
@@ -272,6 +276,20 @@ def _autores(l: str) -> str | None:
     return None
 
 
+def _continuacao(linhas: list[str], i: int) -> list[str]:
+    """Linhas de baixo que continuam os autores abertos na linha i ("[A 9, B 68;" e "   C 87]"), até a que fecha o colchete
+    (no máximo 3). Para em linha vazia, de jogo ou que abre outro colchete; sem o "]", não junta nada (podia ser escalação)."""
+    extra = []
+    for k in range(i + 1, min(i + 4, len(linhas))):
+        t = linhas[k].strip()
+        if not t or t.startswith("[") or _jogo(linhas[k]):
+            return []
+        extra.append(t)
+        if "]" in t:
+            return extra
+    return []
+
+
 def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list[tuple[str, str]] | None = None,
         ignorar: list[str] | None = None) -> tuple[list[Jogo], list[Tabela]]:
     """Jogos e tabelas de um trecho de página. fases: [(regex do título, nome da fase)]: um título que casa muda a
@@ -303,7 +321,10 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
         except ValueError:
             return None
 
+    pular: set[int] = set()   # linhas de continuação dos autores, já juntadas à linha de cima
     for i, l in enumerate(linhas):
+        if i in pular:
+            continue
         s = l.strip()
         if not s:
             tab = None
@@ -326,6 +347,11 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
                 ult_l = i
                 continue
             if (a := _autores(l)):
+                if "]" not in s:   # o colchete continua nas linhas de baixo ("[A 9, B 68;" + "   C 87]")
+                    extra = _continuacao(linhas, i)
+                    if extra:
+                        a = (a + " " + " ".join(extra)).split("]")[0].strip()
+                        pular.update(range(i + 1, i + 1 + len(extra)))
                 ult_jogo.gols_texto = (ult_jogo.gols_texto + " " + a).strip()
                 ult_l = i
                 continue
@@ -338,6 +364,12 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
                         grupo = ""
                     fase = nome_fase
                     break
+        # data entre colchetes no título da fase ou do jogo de ida e volta ("Final [Dec 23]:", "First Leg [Jul 29]",
+        # "Semifinals [Jun 28]"): vale para os jogos de baixo (antes eles herdavam a data do último jogo da liga; AR-023,
+        # UY-014, CH-012, CO-008, PY-009, PE-009, EC-009, 23/11/2026)
+        if len(s) < 70 and not s.startswith(("[", "NB", "(")) and not _jogo(l) and \
+                (mt := _DATA_TITULO.search(s)) and (md := achar_data(mt.group(1))):
+            data = fixa_data(md)
         mg = _GRUPO.match(s)
         if mg:
             grupo = "Interzonal" if mg.group("inter") else mg.group("g").upper()

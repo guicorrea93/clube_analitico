@@ -8,7 +8,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Japonês | 60 (1965–2025) | 0 | 12190 | 27554 | 31272 | 40 | 57 / 3 | sim | 71d50064 | 0 | [jpn-1](jpn-1.md) |
 | Campeonato Sul-Coreano | 43 (1983–2025) | 0 | 7163 | 17984 | 24627 | 25 | 37 / 6 | sim | e04507f1 | 0 | [kor-1](kor-1.md) |
-| Campeonato Saudita | 69 (1957/58–2025/26) | 12 | 5965 | 7296 | 4801 | 43 | 35 / 8 | não | 204e7d6d | 0 | [ksa-1](ksa-1.md) |
+| Campeonato Saudita | 69 (1957/58–2025/26) | 12 | 5965 | 7296 | 4801 | 43 | 35 / 8 | sim | 204e7d6d | 0 | [ksa-1](ksa-1.md) |
 
 ## Pendências de todas as competições
 
@@ -34,4 +34,4 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 ## Próximas competições
 
-- 1ªs divisões da AFC, na ordem do guia geral: irn-1, aus-1, chn-1, qat-1, uae-1, uzb-1, irq-1, ind-1, tha-1; depois as outras. Antes de cada uma, as decisões de escopo vão ao Guilherme. Como fazer: `COMECE-AQUI.md`, seção 4.
+- Fase 1 do plano único (`docs/coleta/plano-de-coleta.md`): 1ª divisão de todas as federações da AFC, na ordem do ranking de clubes da AFC (foto de 25/11/2026, no `COMECE-AQUI.md`, seção 3). Próxima: Emirados Árabes Unidos (`uae-1`), com o escopo antes. Como fazer: `COMECE-AQUI.md`, seção 4.
