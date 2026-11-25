@@ -79,7 +79,7 @@ COMPETICOES = {
 # bandeiras (data/worldcup_wikipedia/flags/<iso>.png, da parte da Copa do Mundo): código FIFA -> arquivo
 BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo", "VEN": "ve",
             "ENG": "gb-eng", "SCO": "gb-sct", "WAL": "gb-wls", "NIR": "gb-nir", "ESP": "es", "ITA": "it", "GER": "de", "FRA": "fr",
-            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp", "GDR": "dd", "MAR": "ma", "TAH": "pf", "CAN": "ca", "ALG": "dz", "HON": "hn", "KOR": "kr", "CRC": "cr", "TUN": "tn", "NCL": "nc", "RSA": "za", "FIJ": "fj", "GUA": "gt"}
+            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp", "GDR": "dd", "MAR": "ma", "TAH": "pf", "CAN": "ca", "ALG": "dz", "HON": "hn", "KOR": "kr", "CRC": "cr", "TUN": "tn", "NCL": "nc", "RSA": "za", "FIJ": "fj", "GUA": "gt", "NGA": "ng"}
 CONTINENTE = {"CONMEBOL": "América do Sul", "UEFA": "Europa", "CONCACAF": "América do Norte e Central", "CAF": "África",
               "AFC": "Ásia", "OFC": "Oceania"}
 GRUPO = {"liga": "Ligas", "copa": "Copas", "estadual": "Estaduais"}
@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1", "usa-1", "gdr-1", "uru-copa", "par-copa", "ecu-copa", "col-copa", "arg-copa", "hon-1", "tah-1", "ncl-1", "mex-1", "jpn-1", "mar-1", "alg-1", "crc-1", "tun-1", "chi-copa", "rsa-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1", "usa-1", "gdr-1", "uru-copa", "par-copa", "ecu-copa", "col-copa", "arg-copa", "hon-1", "tah-1", "ncl-1", "mex-1", "jpn-1", "mar-1", "alg-1", "crc-1", "tun-1", "chi-copa", "rsa-1", "fij-1", "gua-1", "ven-copa", "kor-1"}
 
 
 def competicoes_dos_pacotes() -> None:
@@ -218,6 +218,7 @@ def abrir(slug: str) -> sqlite3.Connection:
                  e.pontos_vitoria, coalesce(e.pontos_empate, 1) AS pontos_empate, coalesce(e.pontos_derrota, 0) AS pontos_derrota,
                  e.ano_inicio AS temporada_id, e.temporada, e.campeao_id IS NOT NULL AS tem_campeao, e.observacao, e.nome_oficial,
                  coalesce(e.formato, '') LIKE 'jogos incompletos%' AS incompleta,
+                 coalesce(e.oficial, 1) AS oficial,   -- 0: edição não oficial (D-10), sem título
                  (SELECT nome FROM f.clube WHERE clube_id = e.co_campeao_id) AS co_campeao,   -- título dividido (D-07): o outro campeão   -- só parte dos jogos (ex.: Paulista A2 antiga)
                  -- pontos corridos: tabela rodada a rodada, fase única e todo jogo com rodada (senão fica por fase);
                  -- jogos-desempate (fase "Desempate...") ficam fora da tabela e não contam aqui (IT-018)
@@ -649,6 +650,8 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
             subiu[idx[eid]].add(nomes[c])
     sem_tit = {idx[eid]: obs or "título não atribuído" for eid, tem, obs in con.execute(
         "SELECT edicao_nacional_id, tem_campeao, observacao FROM dim_edicao_nacional") if not tem}
+    nao_oficial = {idx[eid]: nota_nao_oficial(obs) for eid, obs in con.execute(
+        "SELECT edicao_nacional_id, observacao FROM dim_edicao_nacional WHERE NOT oficial")}   # D-10
     # edição com só parte dos jogos: a tabela é a da fonte (como nas edições sem jogos), não a soma dos jogos que temos
     incompletas = {idx[eid] for eid, inc in con.execute("SELECT edicao_nacional_id, incompleta FROM dim_edicao_nacional") if inc}
     fechados = Counter()   # linhas em que o ajuste foi refeito para dar os pontos oficiais
@@ -728,7 +731,7 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
             corrida = None
         nof = nome_of.get(eds[i][0])   # nome oficial da época ("Premier League", "First Division"), quando não tem o ano no meio (EN-015)
         saida.append({"id": chave, "ano": edp[i]["ano"], "t": edp[i]["t"], "nome": nof if nof and not any(ch.isdigit() for ch in nof) else comp, "mata": tipo == "mata" or tipo_comp == "copa",
-                      "pv": pv, "nota": notas(con).get(chave, "") or ("" if sem_tit.get(i) is None else "Sem campeão: " + sem_tit[i] + "."), "est": estreia.get(i, 0), "j": len(js) + len(xj),
+                      "pv": pv, "nota": notas(con).get(chave, "") or nao_oficial.get(i) or ("" if sem_tit.get(i) is None else "Sem campeão: " + sem_tit[i] + "."), "est": estreia.get(i, 0), "j": len(js) + len(xj),
                       "g": sum(x[4] + x[5] for x in js + xj), "gol": goleada.get(i, (None, None))[1], "tab": tab,
                       "grupos": grupos, "disputa": disputa, "jogos": [[g, ci[m], ci[vv], a, b, sg] + ([pen[(i, o)]] if (i, o) in pen else []) for o, g, m, vv, a, b, sg in js],
                       "cor": corrida, "art": sorted(artilheiros[i], key=lambda x: (-x[2], x[0]))[:10], "artof": oficiais[i][:10], "ac": sorted(subiu[i]) if tem_acesso else None,
@@ -861,11 +864,17 @@ def cores_auto(clubes: set[str]) -> dict[str, list[str]]:
     return saida
 
 
+def nota_nao_oficial(obs: str | None) -> str:
+    """Aviso da edição não oficial (D-10): a observação do pacote já começa por "edição não oficial: ..."."""
+    t = (obs or "").strip()
+    return (t[0].upper() + t[1:] if t.lower().startswith("edição não oficial") else "Edição não oficial: " + (t or "não conta título")).rstrip(".") + "."
+
+
 def campeoes(con: sqlite3.Connection) -> list[dict]:
     """Uma linha por edição: ano, competição, campeão, vice e 3º colocado."""
     linhas = con.execute(
         """
-        SELECT e.temporada_id, e.edicao_id, e.competicao_nome, f.posicao, cl.nome, e.temporada, e.tem_campeao, e.observacao, e.co_campeao
+        SELECT e.temporada_id, e.edicao_id, e.competicao_nome, f.posicao, cl.nome, e.temporada, e.tem_campeao, e.observacao, e.co_campeao, e.oficial
         FROM fato_classificacao_final_nacional f
         JOIN dim_edicao_nacional e USING (edicao_nacional_id)
         JOIN dim_clube cl USING (clube_id)
@@ -874,9 +883,12 @@ def campeoes(con: sqlite3.Connection) -> list[dict]:
         """
     ).fetchall()
     edicoes: dict[str, dict] = {}
-    for ano, edicao, comp, pos, clube, temporada, tem_campeao, obs, co in linhas:
+    for ano, edicao, comp, pos, clube, temporada, tem_campeao, obs, co, oficial in linhas:
         e = edicoes.setdefault(edicao, {"ano": ano, "t": temporada_texto(temporada), "comp": rotulo_ed(con, comp),
                                         "nota": notas(con).get(edicao, "") or ("" if tem_campeao else "Sem campeão: " + (obs or "título não atribuído") + ".")})
+        if not oficial:   # edição não oficial (D-10): fica fora do Pódio, da Corrida e das contagens de títulos
+            e.update({"campeao": None, "nof": 1, "nota": nota_nao_oficial(obs)})
+            continue
         if co:   # título dividido (D-07): o outro campeão não é vice; quem vem depois dele sobe uma posição
             e["co"] = nome(co)
             if clube == co:

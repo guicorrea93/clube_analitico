@@ -62,6 +62,7 @@ CREATE TABLE edicao (
     pontos_vitoria INTEGER,
     pontos_empate  INTEGER,                   -- vazio = 1 (Marrocos e Taiti davam 2 pelo empate)
     pontos_derrota INTEGER,                   -- vazio = 0 (Marrocos e Taiti davam 1 pela derrota)
+    oficial        INTEGER,                   -- 0 = edição não oficial (D-10, TL-005): jogos e participações, sem título; vazio = oficial
     formato        TEXT,                      -- descrição curta: "pontos corridos, turno e returno"
     campeao_id     INTEGER REFERENCES clube(clube_id),
     vice_id        INTEGER REFERENCES clube(clube_id),

@@ -70,7 +70,7 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
     comp = json.loads((pasta / "competicao.json").read_text(encoding="utf-8"))
     if "co_campeao_id" not in {c[1] for c in b.execute("PRAGMA table_info(edicao)")}:   # banco anterior à D-07
         b.execute("ALTER TABLE edicao ADD COLUMN co_campeao_id INTEGER REFERENCES clube(clube_id)")
-    for col in ("pontos_empate", "pontos_derrota"):   # banco anterior a 24/11 (pontuação 3-2-1, 4-2-1)
+    for col in ("pontos_empate", "pontos_derrota", "oficial"):   # banco anterior a 24/11 (pontuação 3-2-1, 4-2-1; D-10)
         if col not in {c[1] for c in b.execute("PRAGMA table_info(edicao)")}:
             b.execute(f"ALTER TABLE edicao ADD COLUMN {col} INTEGER")
     velho = b.execute("SELECT competicao_id FROM competicao WHERE slug = ?", (slug,)).fetchone()
@@ -146,11 +146,12 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
         nome_of = r.get("nome_oficial") or None
         ed[r["temporada"]] = b.execute(
             """INSERT INTO edicao (competicao_id, temporada, ano_inicio, ano_fim, nome_oficial, chave, num_clubes, pontos_vitoria, pontos_empate,
-                                   pontos_derrota, formato, campeao_id, vice_id, co_campeao_id, fontes, observacao)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                                   pontos_derrota, formato, campeao_id, vice_id, co_campeao_id, fontes, observacao, oficial)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (cid, r["temporada"], num(r["ano_inicio"]), num(r.get("ano_fim")), None if nome_of == comp["nome"] else nome_of, r["temporada"],
              num(r.get("num_clubes")), num(r.get("pontos_vitoria")), num(r.get("pontos_empate")), num(r.get("pontos_derrota")), r.get("formato") or None, cl(r.get("campeao")), cl(r.get("vice")),
-             cl(r.get("co_campeao")), r.get("fontes") or None, r.get("observacao") or None)).lastrowid
+             cl(r.get("co_campeao")), r.get("fontes") or None, r.get("observacao") or None,
+             0 if (r.get("oficial") or "").strip().lower() in ("não", "nao", "0") else None)).lastrowid
     fase: dict[tuple, int] = {}
     for r in ler(pasta, "fases.csv"):
         fase[(r["temporada"], r["fase"])] = b.execute(
