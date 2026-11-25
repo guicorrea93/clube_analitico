@@ -1,0 +1,5270 @@
+[
+{
+"id": "591484",
+"data_hora": "2021-01-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Río Cuarto",
+"mandante_id": "19685",
+"visitante": "Chaco For Ever",
+"visitante_id": "11963",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nuevo Monumental",
+"cidade": "Rafaela",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "591482",
+"data_hora": "2021-01-15T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Cipolletti",
+"visitante_id": "11927",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Presbítero Bartolomé Grella",
+"cidade": "Parana",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "591483",
+"data_hora": "2021-01-20T22:20Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Boca Unidos",
+"visitante_id": "10489",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568999",
+"data_hora": "2021-01-29T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Huracán (Las Heras)",
+"visitante_id": "11974",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568993",
+"data_hora": "2021-02-11T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Defensores de Pronunciamiento",
+"visitante_id": "20696",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Álvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabrizio Angileri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "568987",
+"data_hora": "2021-02-18T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vélez Sarsfield",
+"mandante_id": "21",
+"visitante": "Camioneros",
+"visitante_id": "18662",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "569001",
+"data_hora": "2021-02-19T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Liniers",
+"visitante_id": "10107",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "José María Minella",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Troyansky"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Willian Giménez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Menossi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabricio Coloccini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Romero"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "568983",
+"data_hora": "2021-02-20T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensores de Belgrano",
+"mandante_id": "10151",
+"visitante": "Almirante Brown",
+"visitante_id": "9740",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568984",
+"data_hora": "2021-02-20T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Alvarado (Mar del Plata)",
+"visitante_id": "19143",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "569008",
+"data_hora": "2021-02-21T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Atlanta",
+"mandante_id": "10146",
+"visitante": "Villa San Carlos",
+"visitante_id": "10052",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "569002",
+"data_hora": "2021-02-24T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "Real Pilar",
+"visitante_id": "18844",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "569005",
+"data_hora": "2021-02-25T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Estudiantes (San Luis)",
+"visitante_id": "13935",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Coloso del Ruca Quimey",
+"cidade": "Cutral Có",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "569003",
+"data_hora": "2021-03-02T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Martín (Tucumán)",
+"mandante_id": "17814",
+"visitante": "San Martín (San Juan)",
+"visitante_id": "7845",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Monumental Presidente Perón",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568985",
+"data_hora": "2021-03-02T23:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Atletico Rafaela",
+"visitante_id": "9747",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568997",
+"data_hora": "2021-03-03T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Estudiantes (Buenos Aires)",
+"visitante_id": "17352",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568991",
+"data_hora": "2021-03-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Claypole",
+"visitante_id": "10102",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Varela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Landaburu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Villa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Pasquale"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Ordoñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Maroni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pedro Muné"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "568998",
+"data_hora": "2021-03-10T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "Güemes",
+"visitante_id": "18284",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "568992",
+"data_hora": "2021-03-10T22:20Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Comunicaciones",
+"visitante_id": "14074",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Monumental Presidente Perón",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [],
+"temporada": 2020
+},
+{
+"id": "569007",
+"data_hora": "2021-03-11T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Villa Mitre",
+"visitante_id": "11931",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "José María Minella",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Victor Manchafico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Romero"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "596613",
+"data_hora": "2021-03-17T18:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Laferrere",
+"mandante_id": "17695",
+"visitante": "San Telmo",
+"visitante_id": "10157",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nestor García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Lopez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Zurita Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Barreal"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "596612",
+"data_hora": "2021-03-17T20:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Argentinos Juniors",
+"visitante_id": "3",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Ávalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Moyano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Escobar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paolo Goltz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Piovi"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gonzalo Piovi"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "569004",
+"data_hora": "2021-03-17T22:25Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Sp. Belgrano",
+"visitante_id": "11991",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Gutiérrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Argüello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Orué"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Argüello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Copetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Fertoli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Camisassa"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nicolas Lopez Macri"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "596881",
+"data_hora": "2021-03-24T01:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Dock Sud",
+"visitante_id": "10103",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johan Carbonero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Pérez García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Cecchini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabricio Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Contin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eric Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Modón"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "596883",
+"data_hora": "2021-03-24T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Defensores de Belgrano",
+"visitante_id": "10151",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ciudad de La Plata",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Zárate"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Nadal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Varela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emmanuel Más"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Zambrano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Zárate"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Álvarez"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "596882",
+"data_hora": "2021-03-25T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Defensa y Justicia",
+"visitante_id": "8950",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adonis Frias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Pizzini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "598611",
+"data_hora": "2021-04-07T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Patronato",
+"mandante_id": "10374",
+"visitante": "Lanús",
+"visitante_id": "12",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Esquivel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Comas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Junior Arias"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Marín"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro de la Vega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Alejandro Ibáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Burdisso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sosa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Torres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lautaro Morales"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Franco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Pérez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Palavecino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Orsini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Marín"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "598610",
+"data_hora": "2021-04-07T21:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Mulet"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nahuel Tenaglia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mendez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Guidara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Ortega"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Francisco Ortega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Janson"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mateo Retegui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Martín Lucero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme Parede"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Soñora"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "598608",
+"data_hora": "2021-04-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "River Plate",
+"visitante_id": "16",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ciudad de La Plata",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Mussis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Heredia"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "598996",
+"data_hora": "2021-04-15T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "San Martín (San Juan)",
+"mandante_id": "7845",
+"visitante": "Racing Club",
+"visitante_id": "15",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Hernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Martín Ruiz"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Copetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Copetti"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Giménez"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Rescaldani"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Cáceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Reniero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Chancalay"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Prósperi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Gutiérrez"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "600441",
+"data_hora": "2021-04-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán (Las Heras)",
+"mandante_id": "11974",
+"visitante": "Estudiantes de Río Cuarto",
+"visitante_id": "19685",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Ferreira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Federico Giusepponi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Pardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ibrahim Hesar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ibrahim Hesar"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Francisco Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Ferreira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Agüero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose D'Angelo"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "601619",
+"data_hora": "2021-04-28T18:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Madryn",
+"mandante_id": "18260",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Gómez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Pons"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Pons"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luciano Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabio Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabricio Elgorriaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Cuero"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Franco Niell"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "602131",
+"data_hora": "2021-05-12T17:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes (San Luis)",
+"mandante_id": "13935",
+"visitante": "Villa San Carlos",
+"visitante_id": "10052",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Coloso del Ruca Quimey",
+"cidade": "Cutral Có",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Saborido"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Echarri"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lautaro Ruíz"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "602130",
+"data_hora": "2021-05-13T17:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Unidos",
+"mandante_id": "10489",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Marotta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Bullaude"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Espínola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Abrego"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro dos Santos"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "598609",
+"data_hora": "2021-05-17T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Newell's Old Boys",
+"mandante_id": "14",
+"visitante": "Sarmiento (Junín)",
+"visitante_id": "10158",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Vincentini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Benjamín Borasi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Quiroga"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yair Arismendi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Aguerre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Vismara"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Julián Fernández"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "600442",
+"data_hora": "2021-05-19T18:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres de Remedios",
+"mandante_id": "10161",
+"visitante": "Temperley",
+"visitante_id": "10162",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Vivanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Sainz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Enrique"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Fernando Enrique"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Machuca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Baldunciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Pumpido"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Becker"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tobías Reinhart"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Allione"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "612272",
+"data_hora": "2021-07-13T18:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Villa San Carlos",
+"mandante_id": "10052",
+"visitante": "Patronato",
+"visitante_id": "10374",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Gudiño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Leys"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Delgadillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Grasso"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "612271",
+"data_hora": "2021-07-14T18:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Telmo",
+"mandante_id": "10157",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Álvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Achucarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Zurita Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Pons"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Thomas Amilivia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Melgarejo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Valentin Barbero"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "612270",
+"data_hora": "2021-07-20T18:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sarmiento (Junín)",
+"mandante_id": "10158",
+"visitante": "Temperley",
+"visitante_id": "10162",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Vivanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Bravo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Pumpido"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Molina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Bazzana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Pombo"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "598995",
+"data_hora": "2021-08-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Independiente",
+"visitante_id": "11",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Velasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Magnin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Zabala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ijiel Protti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Prediger"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Gonzalez Metilli"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "616892",
+"data_hora": "2021-08-04T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "River Plate",
+"visitante_id": "16",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de La Plata",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Héctor Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Zambrano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bruno Zuculini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Edgardo Ramírez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Edgardo Ramírez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Pavón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Izquierdoz"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "616891",
+"data_hora": "2021-08-12T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Estudiantes de Río Cuarto",
+"mandante_id": "19685",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Marcelo Bielsa",
+"cidade": "Rosario",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Bottino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Talpone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Auzqui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Olivera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Talpone"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Santos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mateo Retegui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Bottino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Fertoli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Padilla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Santos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lautaro Fórmica"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Auzqui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Hermann"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Pardo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valoyes"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "616890",
+"data_hora": "2021-08-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Argentinos Juniors",
+"visitante_id": "3",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Torrén"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Gerometta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eric Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eric Ramírez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Francisco Gerometta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": []
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Johan Carbonero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Carabajal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Insaurralde"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Reniero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Colazo"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Guiffrey"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Ovando"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mateo Coronel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Ángel Rodríguez"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "619005",
+"data_hora": "2021-09-09T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Tigre",
+"visitante_id": "7767",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Carmelo Zerillo (El Bosque)",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Blondel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Menossi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Magnin"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Benítez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Marinelli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Prieto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Céliz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Bou"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "101'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Menossi"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "619254",
+"data_hora": "2021-09-22T21:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Racing Club",
+"visitante_id": "15",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Bullaude"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Burgoa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Cáceres"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro López"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Copetti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lisandro López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aníbal Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Acevedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gianluca Ferrari"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Correa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Colmán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Lovera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Ojeda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Domínguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Acevedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Chancalay"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Ramírez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charly Alcaraz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Bullaude"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "619827",
+"data_hora": "2021-09-23T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Patronato",
+"visitante_id": "10374",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Único Madre de Ciudades",
+"cidade": "Santiago del Estero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Gudiño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Leys"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabio Vázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Edgardo Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Geminiani"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorman Campuzano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Junior Arias"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Izquierdoz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Palavecino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aaron Molinas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Alejandro Ibáñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Pavón"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "619826",
+"data_hora": "2021-09-30T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Temperley",
+"mandante_id": "10162",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tobías Reinhart"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Pittinari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valoyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Héctor Fertoli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Auzqui"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Rodríguez"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "620055",
+"data_hora": "2021-10-07T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Tigre",
+"visitante_id": "7767",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Cantero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Blondel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Acevedo"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "620054",
+"data_hora": "2021-10-14T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "San Telmo",
+"visitante_id": "10157",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 6000,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Torrén"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Achucarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Reniero"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Thomas Amilivia"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"David Achucarro"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": []
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"René Lima"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Mac Allister"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Depetris"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Lanzillota"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "620944",
+"data_hora": "2021-11-04T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Argentinos Juniors",
+"visitante_id": "3",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Izquierdoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Reniero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Vázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Torrén"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "620943",
+"data_hora": "2021-12-02T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Gilberto Funes",
+"cidade": "San Luis",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángelo Martino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mendez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valoyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Pérez"
+]
+}
+],
+"temporada": 2020
+},
+{
+"id": "622533",
+"data_hora": "2021-12-09T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Único Madre de Ciudades",
+"cidade": "Santiago del Estero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valoyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Frank Fabra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Auzqui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nahuel Tenaglia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Edgardo Ramírez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Juan Edgardo Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edwin Cardona"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mateo Retegui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Izquierdoz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mendez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Pavón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Sández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Santos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Salvio"
+]
+}
+],
+"temporada": 2020
+}
+]

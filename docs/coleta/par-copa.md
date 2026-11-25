@@ -22,4 +22,4 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/par-c
 - 2024: a RSSSF só traz das oitavas em diante (faltam as fases anteriores)
 - 2025: a RSSSF só traz das oitavas em diante (faltam as fases anteriores)
 
-**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz).
+**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões; público e estádio só nos jogos ligados à ESPN (a RSSSF não traz).

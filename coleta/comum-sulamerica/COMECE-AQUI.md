@@ -95,6 +95,32 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
 
 ## 3. De onde continuar (pendências, em ordem)
 
+**Vale acima de tudo: `docs/coleta/plano-de-coleta.md` (Guilherme, 25/11).** Fases: 1) 1ªs divisões; 2) copas
+nacionais; 3) 2ªs divisões; 4) o resto (3ª divisão e abaixo, supercopa e copa da liga, regionais). Sempre na ordem do
+ranking abaixo, uma competição por vez, com proposta de escopo e ok do Guilherme antes de começar.
+
+**Ranking (foto fixa de 25/11/2026):** ranking FIFA masculino de 18/11/2026, o que valia em 25/11 (o próximo sai em
+16/12/2026), só com os países da CONMEBOL. Fontes:
+[FIFA (nota de 18/11)](https://inside.fifa.com/en/news/coca-cola-mens-world-rankings-november-2026-morocco-canada),
+[ESPN top 50](https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings) e
+[Global Football Rankings](https://globalfootballrankings.com/rankings/fifa-world-ranking/men) (posições de 50 em diante).
+
+| # | País (posição FIFA) | Fase 1: 1ª divisão | Fase 2: copa | Fase 3: 2ª divisão |
+|---|---|---|---|---|
+| 1 | Argentina (2º) | pronta `arg-1` | pronta `arg-copa` | **próxima** `arg-2` (escopo decidido 25/11, abaixo) |
+| 2 | Brasil (7º) | agente 2 | agente 2 | agente 2 |
+| 3 | Colômbia (10º) | pronta `col-1` | pronta `col-copa` | falta |
+| 4 | Uruguai (20º) | pronta `uru-1` | pronta `uru-copa` | falta |
+| 5 | Equador (24º) | pronta `ecu-1` | pronta `ecu-copa` | falta |
+| 6 | Paraguai (31º) | pronta `par-1` | pronta `par-copa` | falta |
+| 7 | Venezuela (50º) | pronta `ven-1` | pronta `ven-copa` | falta |
+| 8 | Chile (51º) | pronta `chi-1` | pronta `chi-copa` | falta |
+| 9 | Peru (52º) | pronta `per-1` | sem copa (decisão de 24/11) | falta |
+| 10 | Bolívia (79º) | pronta `bol-1` | sem copa (decisão de 24/11) | falta |
+
+Fases 1 e 2 terminadas na região. Antes da fase 3: fechar a D5b (abaixo) no que tiver fonte acessível; o que depender de
+jornal ou arquivo fica anotado como limite de fonte.
+
 **Lista completa das pendências (levantada em 24/11 a pedido do Guilherme, para nada ficar para trás).** Os itens 1 a 6
 abaixo são o histórico; o que está em aberto é esta lista.
 
@@ -164,10 +190,36 @@ abaixo são o histórico; o que está em aberto é esta lista.
     - Regressão achada e corrigida: a arg-copa não tinha sido regerada depois dos "outros formatos" do `arg-1/autores.py`.
       Agora `eh_autores` recusa colchete que é só data ("[Mar 26 Th]", 5 jogos de 2014/15 que tinham "gol" falso) e
       `_lado` lê "Alario 11m pen, 40 m pen" (finais de 2015/16 e 2016/17 e 3 gols de 1961 no `arg-1`).
-  - D5b. Fica aberto (sem pesquisa ainda): Copa Venezuela com 12 edições sem jogos (1938, 1949/50, 1959, 1963, 1971,
-    1972, 1975, 1983, 1989, 1990, 1992, 1993; só campeão pelo anexo); datas vazias (chi-copa 1.521, ven-copa 703,
-    col-copa 252, ecu-copa 3); cidade vazia em todas as copas (o leitor não preenche).
-  - D6. 2ªs divisões, na ordem do guia geral (seção 7), só quando o Guilherme pedir.
+  - D5b. FEITA (25/11) no que tinha fonte: ESPN nas copas.
+    - `coleta/comum-sulamerica/baixar_espn_copa.py <liga> <slug> <anos>` grava `data/coleta/<copa>/espn/<liga>_<ano>.json`
+      (cache por dia em `data/cache/espn-sulamerica/<liga>/`; cada jogo leva a `temporada` da ESPN). Ligas: `chi.copa_chi`
+      (2014-2025), `col.copa` (2014-2025), `arg.copa` (2011-2025). A Copa Venezuela não está na ESPN.
+    - `copa_rsssf.py`: `Copa.espn` (`espn_arquivos(slug, liga)`), `Copa.fuso` e `Copa.espn_corrige`. Casamento em 3
+      passadas, cada jogo da ESPN uma vez só: 1) clubes, mando e placar iguais (data até 1 dia, se houver); 2) com data:
+      mando invertido ou um só clube reconhecido; 3) mesmo par e mesmos gols de cada um, data até 15 dias. A edição usa a
+      temporada da ESPN com mais jogos iguais aos da fonte (pelo menos 10%, mínimo 3). Dos jogos casados vêm hora,
+      estádio, cidade, público e o id `espn:` no `fonte_id`.
+    - Com `espn_corrige` (Chile e Colômbia): a data da ESPN vale mais quando difere mais de 1 dia (a fonte dava o começo
+      da rodada; nota "data pela ESPN" na observação) e o mando também, só no mata-mata e com estádio da ESPN (a Copa
+      Chile 2017-2018 da RSSSF põe o mesmo clube como mandante nos dois jogos do confronto; o estádio confirma a ESPN).
+      Na Argentina não (campo neutro).
+    - Resultado: `chi-copa` 978 jogos ligados, 225 datas novas, 40 datas e 27 mandos trocados; `col-copa` 1.041, 203
+      datas novas, 15 datas e 4 mandos; `arg-copa` 746 (só hora, estádio, cidade e público). Sem data agora: chi-copa
+      1.296 (era 1.521), col-copa 49 (era 252).
+    - Limite de fonte (fica anotado): Copa Venezuela com 12 edições sem jogos (1938, 1949/50, 1959, 1963, 1971, 1972,
+      1975, 1983, 1989, 1990, 1992, 1993; o anexo da Wikipédia só tem link para 1963 e 1983, e as duas páginas não
+      existem); datas da Copa Chile 1958-1986 e 2009-2013 e da Copa Venezuela (703; sem ESPN); Copa Ecuador 1970 (3).
+  - D6 = fase 3 do plano (2ªs divisões), pelo ranking acima. Próxima: `arg-2`.
+    - **Escopo da `arg-2` (ok do Guilherme, 25/11, opção A):** a 2ª divisão de cada época, 1899-2025 (cerca de 130
+      edições), com o nome que a AFA deu em cada era: Segunda División (1899-1910), Intermedia (1911-1926), Primera B
+      (1927-1985), Nacional B / Primera B Nacional / Primera Nacional (1986/87 em diante). Nos anos de ligas rivais
+      (1912-1914, 1919-1926, 1931-1934), uma edição por liga ("1912 Asociación", "1912 Federación"). 1899-1926: só
+      campeão ou tabela, quando não houver jogos. Times reservas campeões entram como clube à parte ("River Plate
+      (reservas)"), sem somar títulos ao principal. A AFA conta a Primera Nacional desde 1986/87; a Primera B antiga
+      seguiu como Primera B Metropolitana (hoje 3ª divisão): anotar na observação da competição.
+    - Fontes achadas: RSSSF `arg2champ.html` (campeões), `arg2hist.html` (tabelas finais 1935-2006/07), uma página por
+      temporada `arg2-YY.html` com jogos de 1927 a 2010 (antes de 1927 só tabelas); ESPN `arg.2` de 2007 a 2025; ogol e
+      Wikipédia em espanhol para datas e conferência. Páginas de teste em `data/coleta/arg-2/rsssf/`.
 - **Ordem sugerida (24/11):** o Guilherme responde C1-C3 e avisa o agente 1 (A1); depois D2 e D3 (conferências de
   autores); depois D1, D4 e D5 conforme ele mandar; por último D6.
 

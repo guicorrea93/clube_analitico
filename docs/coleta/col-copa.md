@@ -35,4 +35,8 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/col-c
 - 1956-57: cancelada: o torneio final de 6 clubes nunca foi jogado (sem campeão); edição antiga reconhecida pela Wikipédia (a Dimayor a reconheceu em 2020 e a pôs em dúvida em 12/2025)
 - 2020: final em fevereiro de 2021 (a RSSSF a chama de 2020/21)
 
-**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz).
+**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões; público e estádio só nos jogos ligados à ESPN (a RSSSF não traz).
+
+**ESPN:** jogos ligados a um jogo da ESPN (mesmos clubes, mando e placar; data até 1 dia), de onde vêm hora, estádio, cidade e público; 203 jogos sem data na RSSSF ou na Wikipédia ganharam a da ESPN; 15 datas e 4 mandos trocados pelos da ESPN (o estádio confirma; nota na observação). Por edição: 2014: 171 de 210; 2015: 104 de 126; 2016: 119 de 126; 2017: 114 de 126; 2018: 64 de 70; 2019: 100 de 114; 2020: 42 de 55; 2021: 64 de 68; 2022: 63 de 66; 2023: 64 de 70; 2024: 69 de 70; 2025: 67 de 70.
+
+**Nomes da ESPN sem clube (esses jogos não casam):** Inter Palmira (4)

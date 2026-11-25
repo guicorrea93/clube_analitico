@@ -1405,3 +1405,24 @@ O Guilherme pausou o agente 4. Tudo que é meu está no GitHub (último commit e
   - Para a revisão: fechar os achados já corrigidos e revisar `bol-1`, `ven-1` e as 7 copas; CO-015 ("6 jogos com a
     ESPN") precisa da lista.
 - **Para retomar:** ler `coleta/comum-sulamerica/COMECE-AQUI.md`.
+
+## 25/11 — Plano único (fase 3) e D5b: datas, estádios e mando das copas pela ESPN
+
+- **Plano de coleta:** a lista do ranking FIFA da CONMEBOL (18/11/2026) está no `coleta/comum-sulamerica/COMECE-AQUI.md`,
+  seção 3. Fases 1 e 2 prontas nos 9 países (Peru e Bolívia sem copa). Próxima: fase 3, começando por `arg-2`.
+- **D5b (ESPN nas copas):**
+  - Script novo `coleta/comum-sulamerica/baixar_espn_copa.py` (Copa Chile, Colômbia e Argentina; a da Venezuela não está
+    na ESPN). O importador comum `copa_rsssf.py` liga cada jogo a um da ESPN e traz hora, estádio, cidade, público e o id
+    `espn:` no `fonte_id`.
+  - `chi-copa`: 978 jogos ligados, 225 datas novas; 40 datas e 27 mandos trocados pelos da ESPN (mata-mata de 2017,
+    2018 e 2024: a página da RSSSF põe o mesmo clube como mandante nos dois jogos; o estádio confirma a ESPN). Nota na
+    observação de cada jogo.
+  - `col-copa`: 1.041 jogos ligados, 203 datas novas; 15 datas e 4 mandos trocados (quartas de 2019).
+  - `arg-copa`: 746 jogos ligados (hora, estádio, cidade, público). Datas e mandos ficam os da RSSSF (campo neutro).
+  - Jogos, campeões e vices iguais; os ids dos jogos mudam nas edições que ganharam data (a ordem é por data).
+  - As outras 4 copas: só o texto das "Regras do pacote" no relatório.
+- **Limite de fonte (anotado):** 12 edições da Copa Venezuela sem jogos (as páginas de 1963 e 1983 da Wikipédia não
+  existem); datas da Copa Chile 1958-1986 e 2009-2013, da Copa Venezuela e da Copa Ecuador 1970.
+- **Teste de carga:** OK nas 3 copas.
+- **Pedido ao agente 1:** recarregar `chi-copa`, `col-copa` e `arg-copa` (junto com a recarga já pedida).
+- Commit: o deste recado (`Copas: datas, estádios e mando pela ESPN (D5b); ranking da fase 3`).

@@ -1,0 +1,7304 @@
+[
+{
+"id": "457395",
+"data_hora": "2016-07-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Candia"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Briceño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Briceño"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457394",
+"data_hora": "2016-07-09T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ñublense",
+"mandante_id": "7427",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal Nelson Oyarzún Arenas",
+"cidade": "Chillán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Pedro Figueroa"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457393",
+"data_hora": "2016-07-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Copiapó",
+"mandante_id": "10139",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Eladio Rojas Díaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Flavio Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Jerez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Danko Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Escalona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Freddy Munizaga"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457392",
+"data_hora": "2016-07-09T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión La Calera",
+"mandante_id": "10144",
+"visitante": "San Luis",
+"visitante_id": "10143",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Bracco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"John Santander"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Raul Laurito"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Saavedra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Raul Laurito"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Lovera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Galvez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Torres"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Cisterna"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457390",
+"data_hora": "2016-07-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "8186",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "0",
+"gols_visitante": "6",
+"estadio": "Francisco Sánchez Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Luna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Cisternas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benegas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benegas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alejandro Gaete"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Valencia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Arrué"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Araya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benegas"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457391",
+"data_hora": "2016-07-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal de Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cris Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wladimir Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vincent Salas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Baez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cris Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Abarzúa"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457389",
+"data_hora": "2016-07-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "O'Higgins",
+"visitante_id": "6072",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bruno Romo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Bulos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Insaurralde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Romo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nino Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Barriga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Torrealba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Celasco"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457387",
+"data_hora": "2016-07-10T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Iquique",
+"mandante_id": "10142",
+"visitante": "San Marcos de Arica",
+"visitante_id": "10138",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Alto Hospicio",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Ezequiel Lópes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Misael Dávila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Octavio Pozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Jelvez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Bustamante"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457388",
+"data_hora": "2016-07-10T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Magallanes",
+"mandante_id": "17363",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal Luis Navarro Avilés",
+"cidade": "San Bernardo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Ampuero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adrián Scifo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Pinares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarado"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457385",
+"data_hora": "2016-07-10T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberia",
+"mandante_id": "17523",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": "Estadio Municipal de Los Ángeles",
+"cidade": "Los Ángeles",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Navea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Sepúlveda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Robles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Leiva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Robles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Simon Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Vásquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Leiva"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457384",
+"data_hora": "2016-07-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Antofagasta",
+"visitante_id": "6071",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Contreras"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Salvador Cordero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arturo Sanhueza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Dituro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Cornejo"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457383",
+"data_hora": "2016-07-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Curicó Unido",
+"mandante_id": "17365",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "La Granja",
+"cidade": "Curicó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Miño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Navarrete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Riquelme"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "457386",
+"data_hora": "2016-07-11T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Morning",
+"mandante_id": "6073",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de La Pintana",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Manzano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Gática"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Carreño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nozomi Kimura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cordero"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458511",
+"data_hora": "2016-07-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Romo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Zuñiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gonzalo Villegas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Cordova"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458510",
+"data_hora": "2016-07-15T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Curicó Unido",
+"visitante_id": "17365",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Miño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mikel Arguinarena"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Silva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Francisco Silva"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458508",
+"data_hora": "2016-07-16T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Luis",
+"mandante_id": "10143",
+"visitante": "Unión La Calera",
+"visitante_id": "10144",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Bracco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Bolzicco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Johan Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Vicencio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Sirino"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458504",
+"data_hora": "2016-07-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Copiapó",
+"visitante_id": "10139",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Jerez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Aguirre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Jerez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Gastón Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Baltazar Astorga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Jerez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Éver Cantero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lino Maldonado"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nelson Sepúlveda"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458506",
+"data_hora": "2016-07-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Donoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aníbal Domeneghini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Abarzúa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Gutiérrez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458505",
+"data_hora": "2016-07-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Iberia",
+"visitante_id": "17523",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Huachipato-CAP Acero",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Ruiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Andrés Robles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo León"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Urquieta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Aguayo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Ruiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Ruiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Ignacio González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángelo Sagal"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gustavo Aguayo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Pontoni"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458507",
+"data_hora": "2016-07-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "O'Higgins",
+"mandante_id": "6072",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio El Teniente",
+"cidade": "Rancagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Torrealba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Lezcano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Luis Sotomayor"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Bulos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Luis Sotomayor"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luis Aseff"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Torrealba"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458501",
+"data_hora": "2016-07-16T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Coquimbo Unido",
+"visitante_id": "8186",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Seida"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Mazurek"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458503",
+"data_hora": "2016-07-16T21:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Magallanes",
+"visitante_id": "17363",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura-Universidad SEK",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Cisternas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adrián Scifo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Dominguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Ampuero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarado"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Lucas Dominguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Brasesco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dagoberto Currimilla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Núñez Rojas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Churín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Lemari"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Berardo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Hernandez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458497",
+"data_hora": "2016-07-16T23:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "458502",
+"data_hora": "2016-07-17T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Santiago Morning",
+"visitante_id": "6073",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Claro Arena",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cordero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Escalante"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristobal Caceres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Cordero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernán Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Gática"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Gutiérrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristobal Caceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Kalinski"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458499",
+"data_hora": "2016-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Marcos de Arica",
+"mandante_id": "10138",
+"visitante": "Deportes Iquique",
+"visitante_id": "10142",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Carlos Dittborn",
+"cidade": "Arica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Coronado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Villalobos"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Neculñir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Torres"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458500",
+"data_hora": "2016-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Elías Figueroa Brander",
+"cidade": "Valparaiso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Carvajal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Parra"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristóbal Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Briceño"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Veloso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Reyes"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458509",
+"data_hora": "2016-07-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antofagasta",
+"mandante_id": "6071",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Calvo y Bascuñán",
+"cidade": "Antofagasta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dino Agote Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pablo Monreal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Ormazabal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Álvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Contreras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Corral"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458498",
+"data_hora": "2016-07-17T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Monumental David Arellano",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Reinoso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jose Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jesús Silva"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pedreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458496",
+"data_hora": "2016-07-20T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Zuñiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Velásquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Ayala"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "458495",
+"data_hora": "2016-07-27T23:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "466160",
+"data_hora": "2016-09-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "O'Higgins",
+"visitante_id": "6072",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Santa Laura-Universidad SEK",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Hernandez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Churín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fuentes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Márquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Torrealba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Hernandez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466159",
+"data_hora": "2016-09-15T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pablo Monreal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pablo Monreal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hans Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Aquino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cornejo"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466157",
+"data_hora": "2016-09-15T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Copiapó",
+"visitante_id": "10139",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilson Piñones"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Javier Guarino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Vallejos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Pucheta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Carrasco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Freddy Munizaga"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466156",
+"data_hora": "2016-09-16T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Huachipato-CAP Acero",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Valdés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Sepúlveda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Hidalgo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Povea"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Baeza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Lampe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio Barroso"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466163",
+"data_hora": "2016-09-21T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Iquique",
+"mandante_id": "10142",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cavancha",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Zacaria"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lolo Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Guerrero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Felipe Naranjo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Lolo Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Charles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Misael Dávila"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Caroca"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466155",
+"data_hora": "2016-09-21T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "O'Higgins",
+"mandante_id": "6072",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio El Teniente",
+"cidade": "Rancagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Alarcón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Churín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bastian San Juan"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Pinares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raul Osorio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Churín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Barriga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Sierra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Márquez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466161",
+"data_hora": "2016-09-21T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "San Luis",
+"visitante_id": "10143",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Cano"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466162",
+"data_hora": "2016-09-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Claro Arena",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Kalinski"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Maripán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Costanzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cris Martínez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Fuenzalida"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jaime Soto"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466150",
+"data_hora": "2016-09-27T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Monumental David Arellano",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Jopia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Pedro Figueroa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Andrés Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Octavio Rivero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Suazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángelo Sagal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Hidalgo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466148",
+"data_hora": "2016-09-28T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Copiapó",
+"mandante_id": "10139",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio La Caldera",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Cornejo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilson Piñones"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Javier Guarino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Javier Guarino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Cortés"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Carrasco"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466153",
+"data_hora": "2016-09-28T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Benjamín Kuscevic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Kalinski"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Piña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Navarrete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Jaime"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Costanzo"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466149",
+"data_hora": "2016-09-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristóbal Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Koob David Hurtado Arboleda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bernardo Cerezo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eric Ahumada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Luis Silva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nahuel Oviedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cornejo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristóbal Marín"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466151",
+"data_hora": "2016-09-28T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Deportes Iquique",
+"visitante_id": "10142",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernán Ezequiel Lópes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Carmona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Carmona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Johnny Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Misael Dávila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Charles"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Bustamante"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mathias Riquero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Ramos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Monzón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Charles"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "101'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Caroca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "102'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Leiva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "103'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Rebolledo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "103'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Vilches"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "105'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Herrera"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466158",
+"data_hora": "2016-10-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Red Card",
+"minuto": "0'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": []
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Melo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dilan Zúñiga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dilan Zúñiga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Rosende"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Vidangossy"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466154",
+"data_hora": "2016-10-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Luis",
+"mandante_id": "10143",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Cano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Cano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Benítez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sebastián Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jean Meneses"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Abán"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Leandro Sirino"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Fernando Manríquez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467647",
+"data_hora": "2016-10-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Luis",
+"mandante_id": "10143",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Miño"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Cano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerson Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Grondona"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467649",
+"data_hora": "2016-10-19T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Claro Arena",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Jara"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gonzalo Jara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Buonanotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Buonanotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lolo Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Vilches"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alfonso Parot"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Kalinski"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467644",
+"data_hora": "2016-10-20T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Koob David Hurtado Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Octavio Rivero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Barboza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Rodríguez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467646",
+"data_hora": "2016-10-24T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alfonso Parot"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Mora"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Noir"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Maripán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Fernández"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Fuentes"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": []
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lolo Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Lanaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Fuenzalida"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467645",
+"data_hora": "2016-10-25T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "San Luis",
+"visitante_id": "10143",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Césped"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Lara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquin Muñoz"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Vallejos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Peric"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Sirino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Fiorina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álvaro Césped"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Vásquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Sirino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Fiorina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cornejo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Bosso"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467648",
+"data_hora": "2016-10-26T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Monumental David Arellano",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Koob David Hurtado Arboleda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Araya"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bibencio Servin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Pavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Octavio Rivero"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466152",
+"data_hora": "2016-11-03T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Velásquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Penailillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Luna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Oyarzún"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468135",
+"data_hora": "2016-11-10T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Santa Laura-Universidad SEK",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Velásquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Ampuero"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Ragusa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Pinares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Galdames"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468134",
+"data_hora": "2016-11-14T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Mancilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dagoberto Currimilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Salóm"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jose Sierra"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468133",
+"data_hora": "2016-11-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Claro Arena",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Buonanotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Pavez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Zaldivia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Baeza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Germán Lanaro"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468132",
+"data_hora": "2016-11-23T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sebastián Silva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Medel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Fáundez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Cornejo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Peric"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Melivilú"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468130",
+"data_hora": "2016-11-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Monumental David Arellano",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Manzano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Zaldivia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Carreño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Noir"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jaime Valdés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cordero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Garcés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468131",
+"data_hora": "2016-11-30T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Bosso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Medel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Lobos"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Leyton"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468715",
+"data_hora": "2016-12-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Echeverría"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Octavio Rivero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Medel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Baeza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Suazo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Ochoa"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristian Suárez"
+]
+}
+],
+"temporada": 2016
+}
+]

@@ -1,0 +1,4681 @@
+[
+{
+"id": "693398",
+"data_hora": "2024-01-25T22:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Argentino Monte Maíz",
+"visitante_id": "22166",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693416",
+"data_hora": "2024-02-06T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Centro Español",
+"visitante_id": "10101",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693417",
+"data_hora": "2024-02-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Riestra",
+"mandante_id": "17702",
+"visitante": "Comunicaciones",
+"visitante_id": "14074",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693423",
+"data_hora": "2024-02-07T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Mitre (Santiago del Estero)",
+"visitante_id": "11990",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693406",
+"data_hora": "2024-02-08T00:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Excursionistas",
+"visitante_id": "10054",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Figueroa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Borja"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Armani"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Mastantuono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Ruberto"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "693428",
+"data_hora": "2024-02-22T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vélez Sarsfield",
+"mandante_id": "21",
+"visitante": "Sportivo Las Parejas",
+"visitante_id": "18664",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693403",
+"data_hora": "2024-02-27T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Sarmiento (Junín)",
+"mandante_id": "10158",
+"visitante": "Temperley",
+"visitante_id": "10162",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693404",
+"data_hora": "2024-02-29T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Atlético Independiente (Chivilcoy)",
+"visitante_id": "13930",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693402",
+"data_hora": "2024-03-14T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Agropecuario",
+"visitante_id": "13913",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693405",
+"data_hora": "2024-03-14T22:45Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Douglas Haig",
+"visitante_id": "11942",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693410",
+"data_hora": "2024-03-15T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "El Porvenir",
+"visitante_id": "10061",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Norberto Tomaghello",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693399",
+"data_hora": "2024-03-15T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "Gimnasia y Tiro (Salta)",
+"visitante_id": "10743",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693426",
+"data_hora": "2024-03-21T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Defensores de Belgrano",
+"visitante_id": "10151",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693419",
+"data_hora": "2024-03-21T20:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Atletico Rafaela",
+"visitante_id": "9747",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693407",
+"data_hora": "2024-03-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "San Martín (Burzaco)",
+"visitante_id": "17692",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Juan Carmelo Zerillo (El Bosque)",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693409",
+"data_hora": "2024-03-22T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Newell's Old Boys",
+"mandante_id": "14",
+"visitante": "Midland",
+"visitante_id": "10109",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693413",
+"data_hora": "2024-03-22T20:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Deportivo Laferrere",
+"visitante_id": "17695",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693422",
+"data_hora": "2024-03-23T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Central Norte",
+"visitante_id": "11993",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Único Madre de Ciudades",
+"cidade": "Santiago del Estero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edinson Cavani"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Renzo Paprelli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aaron Anselmino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edinson Cavani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Molina"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "693415",
+"data_hora": "2024-03-25T20:15Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "San Martín (San Juan)",
+"visitante_id": "7845",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Gilberto Funes",
+"cidade": "San Luis",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693408",
+"data_hora": "2024-03-25T22:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Platense",
+"mandante_id": "7764",
+"visitante": "Olimpo",
+"visitante_id": "2636",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693412",
+"data_hora": "2024-03-27T20:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Rivadavia",
+"mandante_id": "9744",
+"visitante": "Argentino de Quilmes",
+"visitante_id": "17693",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Gilberto Funes",
+"cidade": "San Luis",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693421",
+"data_hora": "2024-04-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Córdoba (Santiago del Estero)",
+"mandante_id": "11989",
+"visitante": "Quilmes",
+"visitante_id": "2741",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693411",
+"data_hora": "2024-04-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "Talleres de Remedios",
+"visitante_id": "10161",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nuevo Monumental",
+"cidade": "Rafaela",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693414",
+"data_hora": "2024-04-04T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Villa Mitre",
+"visitante_id": "11931",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693425",
+"data_hora": "2024-04-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "Ciudad de Bolívar",
+"visitante_id": "21799",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693424",
+"data_hora": "2024-04-10T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Barracas Central",
+"mandante_id": "10060",
+"visitante": "San Miguel",
+"visitante_id": "10058",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693401",
+"data_hora": "2024-04-17T18:40Z",
+"situacao": "STATUS_FINAL_AGT",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Chacarita Juniors",
+"visitante_id": "6",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693400",
+"data_hora": "2024-04-18T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión (Santa Fe)",
+"mandante_id": "20",
+"visitante": "Gimnasia (Mendoza)",
+"visitante_id": "11972",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693418",
+"data_hora": "2024-04-18T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Deportivo Maipú",
+"mandante_id": "11978",
+"visitante": "Juventud Unida Universitario",
+"visitante_id": "17351",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "702066",
+"data_hora": "2024-05-03T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Talleres de Remedios",
+"visitante_id": "10161",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Duré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roger Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Asprea"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Molina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Campana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Malvacio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Salas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sebastián Benega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diogo Guzmán"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702169",
+"data_hora": "2024-05-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Unida Universitario",
+"mandante_id": "17351",
+"visitante": "Independiente",
+"visitante_id": "11",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pedro Canelo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquín León"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damian De Hoyos"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Canelo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Medina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Isla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Luna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Riera"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "693427",
+"data_hora": "2024-05-08T18:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Estudiantes de Río Cuarto",
+"visitante_id": "19685",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "693420",
+"data_hora": "2024-05-08T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Los Andes",
+"visitante_id": "13",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "702135",
+"data_hora": "2024-05-15T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia (Mendoza)",
+"mandante_id": "11972",
+"visitante": "Mitre (Santiago del Estero)",
+"visitante_id": "11990",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Tres de Febrero",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tobías Arévalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fermín Antonini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaspar Triverio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaspar Triverio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tiago Ferreyra"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "693429",
+"data_hora": "2024-05-15T20:15Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Almirante Brown",
+"mandante_id": "9740",
+"visitante": "San Martín (Tucumán)",
+"visitante_id": "17814",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2024
+},
+{
+"id": "702060",
+"data_hora": "2024-05-16T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Riestra",
+"mandante_id": "17702",
+"visitante": "Newell's Old Boys",
+"visitante_id": "14",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Presbítero Bartolomé Grella",
+"cidade": "Parana",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nahuel Iribarren"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo May"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Céliz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Armando Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Caro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Pereira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Schor"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nahuel Iribarren"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702058",
+"data_hora": "2024-05-22T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Temperley",
+"mandante_id": "10162",
+"visitante": "River Plate",
+"visitante_id": "16",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernan Da Campo"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Barco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Andrés Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emanuel Ibáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ilarregui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Colidio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Souto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Scolari"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Simón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Fonseca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis López"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Sant'Anna"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Segovia"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702061",
+"data_hora": "2024-05-23T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Gimnasia La Plata",
+"visitante_id": "9",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Saravia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Lagos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo de Blasis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Devecchi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pintado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Estigarribia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Colazo"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702059",
+"data_hora": "2024-05-29T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Porvenir",
+"mandante_id": "10061",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Pino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vicente Poggi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Bautista Cejas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomas Badaloni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Pedreira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Juan Bautista Cejas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Braian Pedreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Rasmussen"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bruno Leyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Leonel Bolig"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Agustin Guillen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Ulariaga"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702063",
+"data_hora": "2024-05-30T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Rivadavia",
+"mandante_id": "9744",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Sepúlveda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Gimenez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Tonetto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emanuel Insúa"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victorio Ramis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yvo Calleros"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Gil Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Agustin Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Petrasso"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Francisco Petrasso"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702062",
+"data_hora": "2024-06-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "Atletico Rafaela",
+"visitante_id": "9747",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emiliano Agüero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquín Stizza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fuyana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Kozlovsky"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Gondou"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Colombo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Rodrigo Colombo"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702607",
+"data_hora": "2024-06-06T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Valentín Serrano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Lucero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Domingo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pizzini"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alexis Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Sosa"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": []
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Thiago Fernandez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nahuel Frascone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Caseres"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702606",
+"data_hora": "2024-06-07T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Colón (Santa Fe)",
+"visitante_id": "7",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Marcelo Bielsa",
+"cidade": "Rosario",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Vega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Leguizamón"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "45'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paolo Goltz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bruno Barticciotto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier Toledo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Bernardi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Albarracín"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Javier Toledo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Portilla"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristian Bernardi"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702136",
+"data_hora": "2024-06-07T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Chacarita Juniors",
+"visitante_id": "6",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Leguizamon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicólas Watson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Leguizamon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Pisano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Campi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhohan Romaña"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Matías Belloso"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702067",
+"data_hora": "2024-06-08T20:20Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Platense",
+"mandante_id": "7764",
+"visitante": "Huracán",
+"visitante_id": "10",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Ocampo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gastón Suso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabio Pereyra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Juárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Pignani"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Vázquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrizo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Saborido"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Soñora"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sasha Marcich"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Alarcón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Rivero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Garate"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Alfonso"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702619",
+"data_hora": "2024-06-20T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Almirante Brown",
+"visitante_id": "9740",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquin Ibañez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Quiroz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edinson Cavani"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Zenón"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702064",
+"data_hora": "2024-07-08T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Barracas Central",
+"visitante_id": "10060",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Goñi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Copetti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alex Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonatan Candia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Brochero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dardo Miloc"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702065",
+"data_hora": "2024-07-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Central Córdoba (Santiago del Estero)",
+"visitante_id": "11989",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Atencio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Ascacibar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Atencio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Piatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Atencio"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Santiago Ascacibar"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702841",
+"data_hora": "2024-08-01T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Mitre (Santiago del Estero)",
+"mandante_id": "11990",
+"visitante": "Temperley",
+"visitante_id": "10162",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Viera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Baldunciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Piris"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Wiechniak"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "704277",
+"data_hora": "2024-08-07T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Libertadores de América",
+"cidade": "Avellaneda",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Ordoñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Reali"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Pizzini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Ordoñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Bouzat"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Cuello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Cuello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elian Mateo Irala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elias Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maher Carrizo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maher Carrizo"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "704276",
+"data_hora": "2024-08-14T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "Huracán",
+"visitante_id": "10",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Libertadores de América",
+"cidade": "Avellaneda",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Álvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Ábila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Lescano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Ibañez"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "703369",
+"data_hora": "2024-08-15T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres de Remedios",
+"mandante_id": "10161",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Duré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yonatan Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yonatan Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Duré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Bonifacio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Cañete"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "715876",
+"data_hora": "2024-08-21T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Central Córdoba (Santiago del Estero)",
+"mandante_id": "11989",
+"visitante": "Newell's Old Boys",
+"visitante_id": "14",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Vázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Vega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Andueza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Carabajal"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "712951",
+"data_hora": "2024-08-22T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barracas Central",
+"mandante_id": "10060",
+"visitante": "Gimnasia La Plata",
+"visitante_id": "9",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Insúa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Benjamín Domínguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Iacobellis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Abaldo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Juan Cortazzo"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "702842",
+"data_hora": "2024-08-29T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Independiente",
+"visitante_id": "11",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Montiel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Tarzia"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "705911",
+"data_hora": "2024-09-07T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Aguirre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rubén Botta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Barinaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fernández"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "720320",
+"data_hora": "2024-09-19T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Córdoba (Santiago del Estero)",
+"mandante_id": "11989",
+"visitante": "Temperley",
+"visitante_id": "10162",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Baldunciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Arturia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Favio Cabral"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernan Da Campo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Rago"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "720318",
+"data_hora": "2024-09-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres de Remedios",
+"mandante_id": "10161",
+"visitante": "Huracán",
+"visitante_id": "10",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Libertadores de América",
+"cidade": "Avellaneda",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eric Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Achucarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabio Pereyra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gallardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Fattori"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Nicolás Monserrat"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Mazzantti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Meza"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "720319",
+"data_hora": "2024-09-27T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vélez Sarsfield",
+"mandante_id": "21",
+"visitante": "Independiente",
+"visitante_id": "11",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquín Laso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Loyola"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "720317",
+"data_hora": "2024-10-24T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Gimnasia La Plata",
+"visitante_id": "9",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Marcelo Bielsa",
+"cidade": "Rosario",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Norberto Briasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aaron Anselmino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Miramon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Augusto Max"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo de Blasis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Insfran"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fernández"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "722440",
+"data_hora": "2024-10-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Central Córdoba (Santiago del Estero)",
+"visitante_id": "11989",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán De La Fuente"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Atencio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Benitez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrizo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Ábila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Abascia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Palavecino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Echeverría"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "722676",
+"data_hora": "2024-11-28T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pizzini"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Figal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edinson Cavani"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Advíncula"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luis Advíncula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Exequiel Zeballos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Belmonte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Gimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Bouzat"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Di Lollo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Bouzat"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Romero"
+]
+}
+],
+"temporada": 2024
+},
+{
+"id": "723739",
+"data_hora": "2024-12-12T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vélez Sarsfield",
+"mandante_id": "21",
+"visitante": "Central Córdoba (Santiago del Estero)",
+"visitante_id": "11989",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Bouzat"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Vázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Favio Cabral"
+]
+}
+],
+"temporada": 2024
+}
+]

@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import re
 import sys
+from datetime import timedelta
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
@@ -30,7 +31,7 @@ import autores  # noqa: E402  (o do chi-1)
 import ler_rsssf  # noqa: E402  (o do chi-1: páginas em data/coleta/chi-1/rsssf)
 import rsssf_sul  # noqa: E402
 from clubes_copa import CLUBES, SIGLAS, clube  # noqa: E402
-from copa_rsssf import Copa, EdicaoCopa, importar  # noqa: E402
+from copa_rsssf import Copa, EdicaoCopa, espn_arquivos, importar  # noqa: E402
 import wiki_copas  # noqa: E402
 
 SLUG = "chi-copa"
@@ -314,6 +315,9 @@ CAMPEOES_WIKI = {
 COPA = Copa(slug=SLUG, competicao=COMPETICAO, edicoes=EDICOES, fases=FASES, linhas=linhas, clube=clube, clubes=CLUBES,
             autores=autores, campeoes_wiki=CAMPEOES_WIKI, fonte_pagina="https://www.rsssf.org/tablesc/{pagina}.html",
             fases_pontos=[GRU, GR2, FFIN],
+            # D5b: data, hora, estádio, cidade e público da ESPN (chi.copa_chi); Chile UTC-3 no verão (set-mar), UTC-4 no inverno
+            espn=espn_arquivos(SLUG, "chi.copa_chi"), espn_corrige=True,
+            fuso=lambda utc: utc - timedelta(hours=3 if utc.month in (9, 10, 11, 12, 1, 2, 3) else 4),
             # cobranças de pênaltis da final de 2010 ("1-0 Miguel Ayala;   1-1 Hamilton Ricard;")
             ignorar=[r"^\d{1,2}-\d{1,2}\s+\D+[;,]\s+\d{1,2}-\d{1,2}\s+\D+"])
 

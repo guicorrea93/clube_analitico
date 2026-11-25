@@ -1,0 +1,351 @@
+[
+{
+"id": "558456",
+"data_hora": "2020-01-18T21:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald De La Fuente"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Carmona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Pinares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Insaurralde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alfonso Parot"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Lezcano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Aued"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Valencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Fuenzalida"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Barroso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Insaurralde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Zampedri"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Valencia"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "558457",
+"data_hora": "2020-01-18T23:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "566174",
+"data_hora": "2020-01-22T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Bolados"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cornejo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Bolados"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángelo Henríquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Carmona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+}
+],
+"temporada": 2019
+}
+]

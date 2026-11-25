@@ -97,6 +97,13 @@ SIGLAS = {
 _T = 9999
 # (regex sobre a chave do nome, nome de exibição, primeiro ano, último ano); casa o nome inteiro
 REGRAS_COPA: list[tuple[str, str, int, int]] = [
+    # nomes da ESPN (D5b, datas e estádios): o AC Colina é o "Colina" da RSSSF de 2019 em diante
+    (r"ac colina", "Deportes Colina", 0, _T), (r"central norte antofagasta", "Central Norte (Chile)", 0, _T),
+    (r"chimbarongo", "Chimbarongo FC", 0, _T), (r"club 11 de septiembre", "11 de Septiembre", 0, _T),
+    (r"deportivo el lucero", "El Lucero", 0, _T), (r"electricos refinerias", "Eléctrico Refinería", 0, _T),
+    (r"glorias navales", "Unión Glorias Navales", 0, _T), (r"juan fernandez islands", "Selección de Juan Fernández", 0, _T),
+    (r"poblacion los nogales", "Los Nogales", 0, _T), (r"rengo", "Deportes Rengo", 0, _T),
+    (r"san antonio unido \(?sa\)?", "San Antonio Unido", 0, _T),
     # grafias de clubes do chi-1 que as regras dele não pegam (ou pegam errado)
     (r"colo colo chico", "Colo Colo Chico", 0, _T), (r"audax italoiano", "Audax Italiano", 0, _T),
     (r"univeridad catolica", "Universidad Católica", 0, _T), (r"unido san felipe", "Unión San Felipe", 0, _T),

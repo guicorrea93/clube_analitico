@@ -1,0 +1,6999 @@
+[
+{
+"id": "538734",
+"data_hora": "2019-03-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "AC Colina",
+"mandante_id": "19983",
+"visitante": "Santiago Morning",
+"visitante_id": "6073",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538731",
+"data_hora": "2019-03-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rengo",
+"mandante_id": "19981",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538732",
+"data_hora": "2019-03-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Antonio Unido",
+"mandante_id": "19206",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538733",
+"data_hora": "2019-03-23T20:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Trasandino",
+"mandante_id": "19982",
+"visitante": "San Luis",
+"visitante_id": "10143",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538728",
+"data_hora": "2019-03-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Vallenar",
+"mandante_id": "19199",
+"visitante": "Copiapó",
+"visitante_id": "10139",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538730",
+"data_hora": "2019-03-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberia",
+"mandante_id": "17523",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538729",
+"data_hora": "2019-03-23T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Fernández Vial",
+"mandante_id": "10141",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538724",
+"data_hora": "2019-03-24T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Osorno",
+"mandante_id": "9204",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538720",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Colchagua",
+"mandante_id": "19194",
+"visitante": "Deportes Santa Cruz",
+"visitante_id": "19198",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538727",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepcion",
+"mandante_id": "8110",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538726",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Deportes Recoleta",
+"mandante_id": "19197",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538722",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Velásquez",
+"mandante_id": "19200",
+"visitante": "Magallanes",
+"visitante_id": "17363",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538725",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Independiente de Cauquenes",
+"mandante_id": "19201",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538723",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lautaro de Buin",
+"mandante_id": "19202",
+"visitante": "Melipilla",
+"visitante_id": "8104",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538721",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Pilmahue",
+"mandante_id": "19980",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "538719",
+"data_hora": "2019-03-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Marcos de Arica",
+"mandante_id": "10138",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "539995",
+"data_hora": "2019-05-31T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Marcos de Arica",
+"mandante_id": "10138",
+"visitante": "Deportes Iquique",
+"visitante_id": "10142",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Donoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristóbal Kalise"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Donoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Vilches"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bernardo Mendoza"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alan Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías González"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539980",
+"data_hora": "2019-06-05T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Iquique",
+"mandante_id": "10142",
+"visitante": "San Marcos de Arica",
+"visitante_id": "10138",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Donoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Medina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Donoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Zenteno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Blázquez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "540001",
+"data_hora": "2019-06-05T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Santiago Morning",
+"visitante_id": "6073",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Guerrero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Gática"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Taribeño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Taribeño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aveska Judelin"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Vejar"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "540004",
+"data_hora": "2019-06-08T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Oroz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Ubilla"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Oroz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Silva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Abarca"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "540003",
+"data_hora": "2019-06-08T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trasandino",
+"mandante_id": "19982",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Cuevas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Vergara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Isaac Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Freitas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gonzalo Freitas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orellana"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Isaac Díaz"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "540002",
+"data_hora": "2019-06-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Magallanes",
+"mandante_id": "17363",
+"visitante": "Unión La Calera",
+"visitante_id": "10144",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mirko Serrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Bou"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Cáceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Leyton"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Thomas Rodriguez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Thomas Rodriguez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "540000",
+"data_hora": "2019-06-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Melipilla",
+"mandante_id": "8104",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Luis Cabión"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonatan Mejía"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mauro Caballero"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jonatan Mejía"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539999",
+"data_hora": "2019-06-08T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lionel Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Luna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bernardo Cerezo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Torres"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Holgado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Valencia"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539998",
+"data_hora": "2019-06-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Santa Cruz",
+"mandante_id": "19198",
+"visitante": "O'Higgins",
+"visitante_id": "6072",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luca Pontigo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gael Adonian"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braulio Ávalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Salas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gael Adonian"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Andrés Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Antonio Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luca Pontigo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jose Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raul Osorio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Salas"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539997",
+"data_hora": "2019-06-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Vallenar",
+"mandante_id": "19199",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Rami"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Israel Poblete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eric Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Farías"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Toloza"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539996",
+"data_hora": "2019-06-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Munder"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valber Huerta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Daniel Ruiz Eizaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vicente Durán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier Mauricio Bayk"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "540005",
+"data_hora": "2019-06-09T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "Antofagasta",
+"visitante_id": "6071",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tobías Figueroa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Ortiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hardy Cavero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfonso Urbina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquín Pereira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduard Bello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bayron Oyarzo"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539991",
+"data_hora": "2019-06-09T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Taiva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Sepúlveda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristóbal Vergara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bryan Taiva"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reiner Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Pereyra"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539993",
+"data_hora": "2019-06-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Souper"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Lemmo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Gutiérrez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539994",
+"data_hora": "2019-06-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Coquimbo Unido",
+"visitante_id": "8186",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lautaro Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Orellana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Orellana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Orellana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Salas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Cisterna"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539990",
+"data_hora": "2019-06-09T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ñublense",
+"mandante_id": "7427",
+"visitante": "Curicó Unido",
+"visitante_id": "17365",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Bustamante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Corro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Bustamante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Heber García"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Vargas"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539986",
+"data_hora": "2019-06-09T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Morning",
+"mandante_id": "6073",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Guerrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Taribeño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ortega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539992",
+"data_hora": "2019-06-09T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Portillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Manríquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Pacheco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Antonio Castillo"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539989",
+"data_hora": "2019-06-11T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Holgado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario López"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Gutierrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Henríquez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539981",
+"data_hora": "2019-06-12T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Peric"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángelo Henríquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Cubillo"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539983",
+"data_hora": "2019-06-12T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Vidangossy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Portillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Orellana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Huentelaf"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Orellana"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539976",
+"data_hora": "2019-06-12T23:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Curicó Unido",
+"mandante_id": "17365",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Parra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Fáundez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Vargas"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539984",
+"data_hora": "2019-06-12T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "O'Higgins",
+"mandante_id": "6072",
+"visitante": "Deportes Santa Cruz",
+"visitante_id": "19198",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabrizio Ramírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Magalhaes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Sepulveda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Sanhueza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Abarca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Collao"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539978",
+"data_hora": "2019-06-13T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Antofagasta",
+"mandante_id": "6071",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hardy Cavero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduard Bello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mikel Arguinarena"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Collao Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Sanhueza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Ortiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gonzalo Fierro"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539979",
+"data_hora": "2019-06-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión La Calera",
+"mandante_id": "10144",
+"visitante": "Magallanes",
+"visitante_id": "17363",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Vicuña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Andia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Bou"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braulio Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Camilo Pontoni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Bou"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mirko Serrano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braulio Leal"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539975",
+"data_hora": "2019-06-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "8186",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Cisterna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Cornejo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Galani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Zavala"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539974",
+"data_hora": "2019-06-14T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Byron Bustamante"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Mouche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Lemmo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Gutiérrez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Bolados"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gino Alucema"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Zaldivia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Lemmo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Insaurralde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Gauna"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Branco Provoste"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Vilches"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braulio Baeza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539982",
+"data_hora": "2019-07-06T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Trasandino",
+"visitante_id": "19982",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cuevas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Janson Novoa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Cuevas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bastian San Juan"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Farias"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539977",
+"data_hora": "2019-07-07T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier Altamirano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Pereyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Valenzuela"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Reiner Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Gamonal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Sepúlveda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reiner Castro"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539985",
+"data_hora": "2019-07-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Deportes Vallenar",
+"visitante_id": "19199",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Gutierrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Gutiérrez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo González"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539987",
+"data_hora": "2019-07-10T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sáez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Vranjicán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Daniel Ruiz Eizaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabian Hormazabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sáez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Brito"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Daniel Ruiz Eizaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Pinares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edson Puch"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Medel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Aued"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Daniel Ruiz Eizaga"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Buonanotte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Gómez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Fuenzalida"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian Hormazabal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edson Puch"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Silva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Pinares"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Dituro"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "539988",
+"data_hora": "2019-07-11T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Melipilla",
+"visitante_id": "8104",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Pavez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Leiva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Peranic"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Lauler"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Misael Dávila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristopher Barrera"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551741",
+"data_hora": "2019-07-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "O'Higgins",
+"visitante_id": "6072",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Albert Acevedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Freitas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Freitas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Alarcón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Suárez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Tomás Alarcón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bastian San Juan"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551740",
+"data_hora": "2019-07-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Caballero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Jelvez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Sáez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Aja"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Seymour"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551739",
+"data_hora": "2019-07-14T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bryan Cortés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Henríquez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551738",
+"data_hora": "2019-07-14T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Iquique",
+"mandante_id": "10142",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Miño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hector Berríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Fuentes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"John Santander"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Reynero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Barbieri"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Hector Berríos"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551736",
+"data_hora": "2019-07-14T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bryan Taiva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Johan Fuentes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Oroz"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yerko Aguila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Casanova"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rubén Cepeda"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551735",
+"data_hora": "2019-07-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión La Calera",
+"mandante_id": "10144",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Laba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Fáundez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Larrondo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Erick Wiemberg"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551734",
+"data_hora": "2019-07-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Insaurralde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Rivera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Tapia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Ortiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Briceño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Villanueva"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551737",
+"data_hora": "2019-07-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Morning",
+"mandante_id": "6073",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Contreras"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Benjamín Kuscevic"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Benjamín Kuscevic"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valber Huerta"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551733",
+"data_hora": "2019-07-20T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Angel Vildozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Villegas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquin Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Crovetto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bryan Cortés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Martinez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551726",
+"data_hora": "2019-07-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Deportes Iquique",
+"visitante_id": "10142",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Johan Manuel Bravo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Reynero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Saavedra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Bugueño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Israel Poblete"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Miguel Vargas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Fuentes"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551732",
+"data_hora": "2019-07-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Guerra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Di Bennedetto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristóbal Vergara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Aveldaño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Carrasco"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Guerra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bryan Taiva"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551730",
+"data_hora": "2019-07-20T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "O'Higgins",
+"mandante_id": "6072",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Magalhaes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Contreras"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Camilo Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Campestrini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Doffo"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551728",
+"data_hora": "2019-07-21T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Henry Sanhueza"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hardy Cavero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villanueva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Morales"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551727",
+"data_hora": "2019-07-21T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Ñublense",
+"mandante_id": "7427",
+"visitante": "Unión La Calera",
+"visitante_id": "10144",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Laba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wladimir Acuña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wladimir Acuña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Andia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brayan Valdivia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Vargas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Cáceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Fáundez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eugenio Isnaldo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Leyton"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Bou"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551729",
+"data_hora": "2019-08-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Santiago Morning",
+"visitante_id": "6073",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeisson Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Arias"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mauricio Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sáez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Buonanotte"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "551731",
+"data_hora": "2019-09-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Jelvez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naren Solano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Llanos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Arace"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Christian Jelvez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Thomas Galdámes"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553173",
+"data_hora": "2019-09-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Villagra"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Cespedes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Reynero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Jorquera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Filla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Echeverría"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553170",
+"data_hora": "2019-09-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Velásquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Mouche"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Velásquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdívia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Bolados"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Arismendi"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553172",
+"data_hora": "2019-09-08T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión La Calera",
+"mandante_id": "10144",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Leiva"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Larrondo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Larrondo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Laba"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Matias Laba"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": []
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sáez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yerko Leiva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Fuentes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Stéfano Magnasco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Duvier Riascos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Aued"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Stéfano Magnasco"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553171",
+"data_hora": "2019-09-08T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aránguiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Sandoval"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Mancilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Aja"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Bosso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bryan Figueroa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553167",
+"data_hora": "2019-10-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benegas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángelo Henríquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángelo Henríquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Urena"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Filla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cañete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cañete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Jorquera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Oroz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Espinoza"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Riquelme"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553168",
+"data_hora": "2019-10-12T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald De La Fuente"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Branco Provoste"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ceratto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Campestrini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villanueva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Carmona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Suazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+7'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553166",
+"data_hora": "2019-10-12T20:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Gómez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Thomas Galdámes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Holgado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Fernández"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Arace"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonatan Mejía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Crovetto"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "553169",
+"data_hora": "2019-10-12T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Unión La Calera",
+"visitante_id": "10144",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Fuentes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Lobos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Aued"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Germán Lanaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Larrondo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Augusto Batalla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edson Puch"
+]
+}
+],
+"temporada": 2019
+},
+{
+"id": "558459",
+"data_hora": "2019-11-06T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+},
+{
+"id": "558458",
+"data_hora": "2019-11-07T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2019
+}
+]

@@ -1,0 +1,7386 @@
+[
+{
+"id": "363853",
+"data_hora": "2013-01-23T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Almagro",
+"mandante_id": "2",
+"visitante": "CADU",
+"visitante_id": "10047",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Ceballos"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363851",
+"data_hora": "2013-01-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Morón",
+"mandante_id": "10154",
+"visitante": "Berazategui",
+"visitante_id": "17349",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Matías Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Akerman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Matías Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Akerman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Matías Martínez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363863",
+"data_hora": "2013-01-26T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Almirante Brown",
+"mandante_id": "9740",
+"visitante": "Sarmiento (Junín)",
+"visitante_id": "10158",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Caballero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Chávez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363869",
+"data_hora": "2013-01-26T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Douglas Haig",
+"visitante_id": "11942",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Pereyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel García"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363868",
+"data_hora": "2013-01-26T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Gimnasia y Esgrima (Jujuy)",
+"visitante_id": "5263",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Montiglio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ferreyra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Almerares"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jossimar Mosquera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Lider Mármol"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lucchetti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Maldonado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ramasco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Ballini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cobelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ángel Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jossimar Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deivis Barone"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363862",
+"data_hora": "2013-01-27T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Deportivo Merlo",
+"visitante_id": "10153",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Pajón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Milla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Milla"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363867",
+"data_hora": "2013-01-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olimpo",
+"mandante_id": "2636",
+"visitante": "Aldosivi",
+"visitante_id": "9739",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Sánchez Sotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Malcorra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Sánchez Sotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Benítez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363864",
+"data_hora": "2013-01-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Patronato",
+"mandante_id": "10374",
+"visitante": "Nueva Chicago",
+"visitante_id": "236",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363866",
+"data_hora": "2013-01-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Unidos",
+"mandante_id": "10489",
+"visitante": "Crucero del Norte",
+"visitante_id": "11958",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Nuñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Gómez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Nuñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Ríos"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363865",
+"data_hora": "2013-01-31T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "Independiente Rivadavia",
+"visitante_id": "9744",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Enrique Píriz Alvez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Velazquez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363877",
+"data_hora": "2013-02-13T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "San Martín (San Juan)",
+"mandante_id": "7845",
+"visitante": "At. Unión (SJ)",
+"visitante_id": "11977",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Álvarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Molina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Lucero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Salas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Carrizo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Natalicchio"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363893",
+"data_hora": "2013-02-13T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Rafaela",
+"mandante_id": "9747",
+"visitante": "Alvarado",
+"visitante_id": "11936",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Depetris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Anívole"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363880",
+"data_hora": "2013-02-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "All Boys",
+"mandante_id": "9786",
+"visitante": "Brown de Adrogué",
+"visitante_id": "10147",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Perea"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel Vildozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Lemmo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Montoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel Vildozo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363883",
+"data_hora": "2013-02-20T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Chacarita Juniors",
+"visitante_id": "6",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Curbelo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Paredes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Grimi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Morales"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Guanca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Sevillano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salinas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Espíndola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Sánchez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Pisano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Angeleri"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363870",
+"data_hora": "2013-02-20T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Estudiantes de Buenos Aires",
+"visitante_id": "10155",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Florencio Sola",
+"cidade": "Banfield",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Ruiz"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363879",
+"data_hora": "2013-02-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Central Córdoba (Rosario)",
+"visitante_id": "10148",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Lescano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Coniglio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Salinas"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363887",
+"data_hora": "2013-02-21T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Platense",
+"visitante_id": "7764",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Olivares"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363884",
+"data_hora": "2013-02-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olimpo",
+"mandante_id": "2636",
+"visitante": "Guillermo Brown",
+"visitante_id": "11674",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Julio H. Grondona",
+"cidade": "Sarandí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Gil"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363878",
+"data_hora": "2013-03-05T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Midland",
+"mandante_id": "10109",
+"visitante": "Quilmes",
+"visitante_id": "2741",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Fritz Walter Stadion",
+"cidade": "Kaiserslautern",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Carrasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Telechea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Campozano"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363881",
+"data_hora": "2013-03-06T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Excursionistas",
+"visitante_id": "10054",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tres de Febrero",
+"cidade": "José Ingenieros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Romea"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dardo Miloc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Sotelo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeremias Ugo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Lugarzo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363885",
+"data_hora": "2013-03-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Racing (O)",
+"visitante_id": "11944",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Erramuspe"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Danelón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Amaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Sánchez Prette"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363876",
+"data_hora": "2013-03-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "San Martín de Tucumán",
+"visitante_id": "8713",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "José Fierro",
+"cidade": "Tucumán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Pereyra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Roldan"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Peña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Goicochea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Ibáñez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mario Vera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Moreyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Gonzalo Bustamante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Gonzalo Bustamante"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363892",
+"data_hora": "2013-03-06T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "Deportivo Morón",
+"visitante_id": "10154",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Bazan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Akerman"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Akerman"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363875",
+"data_hora": "2013-03-12T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Almirante Brown",
+"mandante_id": "9740",
+"visitante": "Deportivo Armenio",
+"visitante_id": "10152",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep. Armenio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep. Armenio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Almirante Brown"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep. Armenio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Almirante Brown"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep. Armenio"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363873",
+"data_hora": "2013-03-13T23:20Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nery Leyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ceferino Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías Bazzi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Massena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Bottino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivo Hong"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Chávez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363882",
+"data_hora": "2013-03-14T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Unidos",
+"mandante_id": "10489",
+"visitante": "Brown (Posadas)",
+"visitante_id": "11959",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sarmiento (Resistencia)",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Villanueva Ahumada"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363872",
+"data_hora": "2013-03-14T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Norte",
+"mandante_id": "11993",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Toledo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Noir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Requena"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363888",
+"data_hora": "2013-03-14T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "CADU",
+"mandante_id": "10047",
+"visitante": "Ferro Carril Oeste",
+"visitante_id": "9743",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Ceballos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Miranda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abel Flegenal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Acuña"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Montenegro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Carabajal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Lema"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Cáceres Silva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Carranza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Gomez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363890",
+"data_hora": "2013-03-20T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tristán Suárez",
+"mandante_id": "10163",
+"visitante": "Patronato",
+"visitante_id": "10374",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo David Zarco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Pablo Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Sequeira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Lopez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Lopez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Peña"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Brun"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Roldan"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Pablo Pérez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Chitero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Machín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Despósito"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Marquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Manchini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fondacaro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Minetti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Daniel Farías"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Bértoli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Nicasio Almada"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Lopez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Peña"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Brun"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363891",
+"data_hora": "2013-03-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "FC Urquiza",
+"visitante_id": "10104",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Julio H. Grondona",
+"cidade": "Sarandí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Romero"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363897",
+"data_hora": "2013-03-21T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Excursionistas",
+"mandante_id": "10054",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Sotelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Viatri"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Darío Carpintero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Roldan"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Fontela"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Ledesma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Blandi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Blandi"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363874",
+"data_hora": "2013-03-22T01:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Juventud Antoniana",
+"visitante_id": "11986",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Triverio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"German Rodolfo Noce"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Dei Rossi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Maggiolo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363871",
+"data_hora": "2013-03-23T17:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "Sp. Belgrano",
+"visitante_id": "11991",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Domingo Perón",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Perassi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martin Garcia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Miranda"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Martin Garcia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Gómez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Gonzalez Tapia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Gómez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Daniel Farias"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan García"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Carlos Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Barrionuevo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363886",
+"data_hora": "2013-03-23T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Santamarina",
+"visitante_id": "10996",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Celaya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Ledesma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lisandro López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Aguirre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Aguirre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Celiz"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363889",
+"data_hora": "2013-03-25T23:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión (Santa Fe)",
+"mandante_id": "20",
+"visitante": "Gimnasia (CDU)",
+"visitante_id": "11956",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Umpierrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Franzoia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonhy Aquino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363895",
+"data_hora": "2013-03-27T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Armenio",
+"mandante_id": "10152",
+"visitante": "Newell's Old Boys",
+"visitante_id": "14",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "0'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Muñoz"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Pacheco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Rinaldo Cruzado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Gómez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Urruti"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363898",
+"data_hora": "2013-03-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "At. Unión (SJ)",
+"mandante_id": "11977",
+"visitante": "Quilmes",
+"visitante_id": "2741",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Cauteruccio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Sánchez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "18'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ariel Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Tula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Cauteruccio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Natalicchio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Carrizo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alfredo Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Ignacio Diz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Leyes"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364037",
+"data_hora": "2013-04-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "Atletico Rafaela",
+"visitante_id": "9747",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Pavetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Izquierdoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Vella"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Machín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristian Vella"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363902",
+"data_hora": "2013-04-17T22:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Alberto Barrientos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guilermo Sotelo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ciro Rius"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Zuqui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Grimi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Curbelo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Giménez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Grimi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salinas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Erramuspe"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Ríos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Kuszko"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Sigali"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363901",
+"data_hora": "2013-04-18T01:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Olimpo",
+"mandante_id": "2636",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Sabia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Domínguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Villavicencio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Pratto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Blanco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Domínguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Martínez Smith"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Gil"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363896",
+"data_hora": "2013-04-24T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Córdoba (Rosario)",
+"mandante_id": "10148",
+"visitante": "All Boys",
+"visitante_id": "9786",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Tres de Febrero",
+"cidade": "José Ingenieros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Lequi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Blanc"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Bazán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Killer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Sarmiento"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martin Salinas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Martin Salinas"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364770",
+"data_hora": "2013-04-24T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Tristán Suárez",
+"visitante_id": "10163",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Paul"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Barrionuevo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Sequeira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Bolatti"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mario Bolatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Ortiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mauro Camoranesi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Barrionuevo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363894",
+"data_hora": "2013-04-25T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Estudiantes de Buenos Aires",
+"visitante_id": "10155",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Cirigliano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Ruiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Espíndola López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Augusto Solari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Alvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Montero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Mora"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364036",
+"data_hora": "2013-05-02T18:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia (CDU)",
+"mandante_id": "11956",
+"visitante": "CADU",
+"visitante_id": "10047",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conrado Besel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Delmastro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conrado Besel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Suarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Amado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Smargiassi"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Darío Lema"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363899",
+"data_hora": "2013-05-02T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Atlético Tucumán",
+"visitante_id": "9785",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Duván Zapata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Dutari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerónimo Rulli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Ladino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roman Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Almerares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Deivis Barone"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364768",
+"data_hora": "2013-05-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Antoniana",
+"mandante_id": "11986",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Zuvinikar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Cucco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Triverio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Keosseian"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"German Rodolfo Noce"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Chávez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Barba"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Enrique Triverio"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364767",
+"data_hora": "2013-05-10T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Sp. Belgrano",
+"mandante_id": "11991",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Díaz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Fernando Zampedri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Daniel Farias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Daniel Farias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Mazzina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Miranda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Verino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Klusener"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Gonzalez Tapia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Olego"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martín Chitzoff"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Barrionuevo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ánibal Medina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Verino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Villarreal"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "365126",
+"data_hora": "2013-05-14T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tristán Suárez",
+"mandante_id": "10163",
+"visitante": "Gimnasia (CDU)",
+"visitante_id": "11956",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Julio H. Grondona",
+"cidade": "Sarandí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Bazán Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Sequeira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Peña"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conrado Besel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Román Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonhy Aquino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Bazán Vera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Alejandro Domenez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Suarez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363903",
+"data_hora": "2013-05-15T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Deportivo Morón",
+"mandante_id": "10154",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Vila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martin Granero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mercier"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Gonzalez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Akerman"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel Correa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Matías Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364769",
+"data_hora": "2013-05-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7764",
+"visitante": "Arsenal Sarandi",
+"visitante_id": "2635",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Florencio Sola",
+"cidade": "Banfield",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Rutili"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Carbonero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Vergara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Braghieri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lisandro López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Farina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Matos"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363900",
+"data_hora": "2013-05-22T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Boca Unidos",
+"visitante_id": "10489",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Trejo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Contrera"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Miranda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eloy Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Segio Ojeda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segio Ojeda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Nuñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Trejo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Zapata"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Villanueva Ahumada"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Villalba"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364994",
+"data_hora": "2013-05-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Olimpo",
+"visitante_id": "2636",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Vega"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Ibáñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emanuel Insúa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Armando Cooper"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dario Ariel Capogrosso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Salinas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Blanco"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "365343",
+"data_hora": "2013-05-29T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Estudiantes de Buenos Aires",
+"mandante_id": "10155",
+"visitante": "Banfield",
+"visitante_id": "235",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Zarif"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Tavio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Sebastián Brum"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Yassogna"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Chávez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Figueroa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Cheri"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Sosa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gustavo Leiva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Alvarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Bettini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Montero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Sebastián Brum"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gómez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "366254",
+"data_hora": "2013-06-13T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Arsenal Sarandi",
+"visitante_id": "2635",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osmar Ferreyra"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Federico Gay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "365748",
+"data_hora": "2013-06-19T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Newell's Old Boys",
+"visitante_id": "14",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Casco"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Bottino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Bottino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías Bazzi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Klusener"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "366190",
+"data_hora": "2013-06-19T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Rafaela",
+"mandante_id": "9747",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wálter Kannemann"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Denis Stracqualursi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaston Suso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"De Iriondo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "364995",
+"data_hora": "2013-06-19T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "All Boys",
+"mandante_id": "9786",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel Vildozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Burdisso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Borghello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Borghello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Ledesma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elvio Fredrich"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Sarmiento"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "365135",
+"data_hora": "2013-07-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Quilmes",
+"visitante_id": "2741",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sarmiento (Resistencia)",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Duván Zapata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Abecasis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Silva"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Telechea"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Duván Zapata"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "363905",
+"data_hora": "2013-08-07T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Buenos Aires",
+"mandante_id": "10155",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sarmiento (Resistencia)",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Sánchez Sotelo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Montero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Delorte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Klusener"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías Bazzi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Britez Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Avendaño"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "373440",
+"data_hora": "2013-08-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia (CDU)",
+"mandante_id": "11956",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Sarmiento (Resistencia)",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Correa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Sagarzazú"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Scaglia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonhy Aquino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Elizari"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "366594",
+"data_hora": "2013-08-14T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "All Boys",
+"visitante_id": "9786",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Colazo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Gil Romero"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "366595",
+"data_hora": "2013-08-28T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Jerez Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Sperduti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonatan Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Curbelo"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "366670",
+"data_hora": "2013-09-18T23:20Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Estudiantes de Buenos Aires",
+"mandante_id": "10155",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio César Serrano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Tavio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Delorte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Gasperi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonatan Soriano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio César Serrano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Britos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Figueroa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Alvarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Veron"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Ortigoza"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "380068",
+"data_hora": "2013-10-02T23:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "All Boys",
+"mandante_id": "9786",
+"visitante": "Arsenal Sarandi",
+"visitante_id": "2635",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Casteglione"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Caraglio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Torassa"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Julio César Falcioni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Marcone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dany Alejandro Rosero Valencia"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Calleri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Zaldivia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Barba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Furch"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Exequiel Benavidez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Barba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Nervo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Casteglione"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "121'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Campestrini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Zaldivia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Cabrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonatan Gómez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Pérez"
+]
+}
+],
+"temporada": 2012
+},
+{
+"id": "381874",
+"data_hora": "2013-10-16T23:20Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Arsenal Sarandi",
+"visitante_id": "2635",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fausto Montero"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Aguirre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ignacio Piatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Campestrini"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Echeverría"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Zelaya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Limia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mercier"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+}
+],
+"temporada": 2012
+}
+]

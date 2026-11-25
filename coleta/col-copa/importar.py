@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import re
 import sys
+from datetime import timedelta
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
@@ -30,7 +31,7 @@ import ler_rsssf  # noqa: E402  (o do col-1: páginas em data/coleta/col-1/rsssf
 import rsssf_sul  # noqa: E402
 import wiki_copa  # noqa: E402
 from clubes_copa import CLUBES, clube  # noqa: E402
-from copa_rsssf import Copa, EdicaoCopa, importar  # noqa: E402
+from copa_rsssf import Copa, EdicaoCopa, espn_arquivos, importar  # noqa: E402
 
 SLUG = "col-copa"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
@@ -132,7 +133,9 @@ CAMPEOES_WIKI = {"1950-51": "Boca Juniors de Cali", "1952-53": "Millonarios", "2
                  "2025": "Atlético Nacional"}
 
 COPA = Copa(slug=SLUG, competicao=COMPETICAO, edicoes=EDICOES, fases=FASES, linhas=linhas, clube=clube, clubes=CLUBES,
-            autores=autores, campeoes_wiki=CAMPEOES_WIKI, fonte_pagina="https://www.rsssf.org/tablesc/{pagina}.html")
+            autores=autores, campeoes_wiki=CAMPEOES_WIKI, fonte_pagina="https://www.rsssf.org/tablesc/{pagina}.html",
+            # D5b: data, hora, estádio, cidade e público da ESPN (col.copa); Colômbia UTC-5, sem horário de verão
+            espn=espn_arquivos(SLUG, "col.copa"), espn_corrige=True, fuso=lambda utc: utc - timedelta(hours=5))
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")

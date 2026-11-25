@@ -24,6 +24,7 @@ import json
 import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import rsssf_sul
@@ -79,6 +80,100 @@ class Copa:
     ignorar: list[str] = field(default_factory=list)   # regex de linhas que não são jogo
     fases_pontos: list[str] = field(default_factory=list)   # fases sempre de pontos, mesmo sem tabela legível na página
     trocas: list[tuple[str, str]] = field(default_factory=list)   # (regex, troca) nas linhas antes de ler: "[Mar 18 We]" -> "[Mar 18]"
+    espn: object = None                  # função(edição) -> jogos da ESPN (espn.resumir) da edição: data, hora, estádio,
+    # cidade e público dos jogos que casam (mesmos clubes, mando e placar; com data na fonte, até 1 dia de diferença)
+    fuso: object = None                  # função(datetime UTC) -> datetime local (horário do país)
+    espn_corrige: bool = False           # True: nos jogos ligados, o mando e a data da ESPN valem mais que os da fonte
+    # (Copa Chile e Colômbia, onde o estádio da ESPN confirma; não na Argentina, com muitos jogos em campo neutro)
+
+
+_FIM_ESPN = ("STATUS_FULL_TIME", "STATUS_FINAL", "STATUS_FINAL_AET", "STATUS_FINAL_PEN")
+
+
+def espn_arquivos(slug: str, liga: str):
+    """Para Copa.espn: os jogos da ESPN dos anos da edição, de data/coleta/<slug>/espn/<liga>_<ano>.json
+    (coleta/comum-sulamerica/baixar_espn_copa.py)."""
+    lidos: dict[int, list[dict]] = {}
+
+    def jogos(ed: EdicaoCopa) -> list[dict]:
+        a0, a1 = ed.anos_leitura or (ed.ano_inicio, ed.ano_fim)
+        out = []
+        for a in range(min(a0, ed.ano_inicio), max(a1, ed.ano_fim) + 1):
+            if a not in lidos:
+                p = RAIZ / "data" / "coleta" / slug / "espn" / f"{liga}_{a}.json"
+                lidos[a] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+            out += lidos[a]
+        return out
+    return jogos
+
+
+def _casar_espn(copa: Copa, ed: EdicaoCopa, jogos: list[dict], sem_nome_espn: Counter, pontos: set[str]) -> int:
+    """Liga cada jogo a um jogo da ESPN (j["espn"] = (data local, hora, estádio, cidade, público, id)); cada jogo da ESPN
+    serve a um só e só casa com um único candidato. 1ª passada: mesmos clubes, mando e placar (com data na fonte, até 1
+    dia de diferença). 2ª passada, só com data na fonte: mando invertido (campo neutro) ou um só clube reconhecido pela
+    ESPN (nome que as regras não pegam), sempre com o placar e a data até 1 dia."""
+    es = []
+    todos = copa.espn(ed)
+    # a ESPN diz de que temporada é cada jogo; os anos da edição podem trazer duas (Copa Chile 2013/14 e 2014/15 em 2014;
+    # a Copa Argentina "2015/16" é a temporada 2016 da ESPN): fica a que tem mais jogos iguais aos da fonte, com ao menos
+    # 10% dos jogos da edição (mínimo 3); sem isso, nenhuma (a 2013/14 do Chile só acha jogos da temporada seguinte)
+    temporadas = {g.get("temporada") for g in todos}
+    if todos:
+        chaves = Counter((j["m"], j["v"], j["gm"], j["gv"]) for j in jogos)
+
+        def iguais(t) -> int:
+            return sum(1 for g in todos if g.get("temporada") == t and g["gols_mandante"] not in (None, "") and chaves[(
+                copa.clube(g["mandante"], ed.ano_inicio), copa.clube(g["visitante"], ed.ano_inicio),
+                int(g["gols_mandante"]), int(g["gols_visitante"]))])
+        conta = {t: iguais(t) for t in temporadas}
+        melhor = max(conta, key=conta.get)
+        todos = [g for g in todos if g.get("temporada") == melhor] if conta[melhor] >= max(3, 0.1 * len(jogos)) else []
+    # com datas na fonte, só os jogos da ESPN no período da edição (30 dias de folga): o mesmo ano pode ter duas edições
+    # (só com datas em 80% dos jogos: com poucas, as da final, o período cortaria o resto)
+    datas = sorted(date.fromisoformat(j["x"].data) for j in jogos if j["x"].data)
+    if len(datas) < 0.8 * len(jogos):
+        datas = []
+    for g in todos:
+        dia = date.fromisoformat(g["data_hora"][:10])
+        if datas and not (datas[0] - timedelta(days=30) <= dia <= datas[-1] + timedelta(days=30)):
+            continue
+        if g["situacao"] not in _FIM_ESPN or g["gols_mandante"] in (None, ""):
+            continue
+        m, v = copa.clube(g["mandante"], ed.ano_inicio), copa.clube(g["visitante"], ed.ano_inicio)
+        for nome, c in ((g["mandante"], m), (g["visitante"], v)):
+            if not c:
+                sem_nome_espn[nome] += 1
+        loc = copa.fuso(datetime.fromisoformat(g["data_hora"].replace("Z", "+00:00")))
+        hora = loc.strftime("%H:%M") if g["data_hora"][11:16] != "00:00" else None   # 00:00 UTC = hora desconhecida
+        estadio = g.get("estadio") if g.get("estadio") not in ("Sin confirmar", "A confirmar", "TBD") else None
+        es.append({"m": m, "v": v, "gm": int(g["gols_mandante"]), "gv": int(g["gols_visitante"]), "dia": loc.date(),
+                   "info": (loc.date(), hora, estadio or None, g.get("cidade") or None, g.get("publico") or None, g["id"])})
+
+    def bate(g: dict, j: dict, passo: int) -> bool:
+        if passo == 1:
+            return (g["m"], g["v"], g["gm"], g["gv"]) == (j["m"], j["v"], j["gm"], j["gv"])
+        if passo == 3:   # os dois clubes reconhecidos, os gols de cada um iguais; mando invertido só no mata-mata (num
+            # turno e returno, o jogo da volta com o placar espelhado pegaria o lugar do da ida)
+            return ((g["m"], g["v"], g["gm"], g["gv"]) == (j["m"], j["v"], j["gm"], j["gv"]) or j["fase"] not in pontos and
+                    (g["v"], g["m"], g["gv"], g["gm"]) == (j["m"], j["v"], j["gm"], j["gv"]))
+        return any(a in (None, j["m"]) and b in (None, j["v"]) and (a or b) and (ga, gb) == (j["gm"], j["gv"])
+                   for a, b, ga, gb in ((g["m"], g["v"], g["gm"], g["gv"]), (g["v"], g["m"], g["gv"], g["gm"])))
+
+    # 3ª passada: mesmo par de clubes e mesmos gols de cada um, com a data da fonte até 15 dias (a fonte dá a data do
+    # começo da rodada) ou sem data (ida e volta com o mando trocado na fonte: Copa Chile 2016-2018)
+    usados, n = set(), 0
+    for passo, folga in ((1, 1), (2, 1), (3, 15)):
+        for j in jogos:
+            if j.get("espn") or j["gm"] is None or j["esp"] or (passo == 2 and not j["x"].data):
+                continue
+            d = date.fromisoformat(j["x"].data) if j["x"].data else None
+            cs = [g for g in es if g["info"][5] not in usados and (d is None or abs((g["dia"] - d).days) <= folga) and bate(g, j, passo)]
+            if len(cs) == 1:
+                j["espn"] = cs[0]["info"]
+                j["espn_invertido"] = cs[0]["m"] is not None and cs[0]["m"] != j["m"] or cs[0]["v"] is not None and cs[0]["v"] != j["v"]
+                usados.add(cs[0]["info"][5])
+                n += 1
+    return n
 
 
 def _wo(x: rsssf_sul.Jogo) -> tuple[int, int, str] | None:
@@ -205,6 +300,9 @@ def importar(copa: Copa, relatorio: Path) -> None:
     L: dict[str, list] = defaultdict(list)
     nomes_fonte: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
     sem_nome: list[str] = []
+    sem_nome_espn: Counter = Counter()   # nomes da ESPN sem clube (o jogo não casa)
+    casados_espn: list[str] = []
+    datas_espn = datas_corrigidas = mandos_corrigidos = 0
     rel = [f"# {copa.competicao['nome']} ({copa.slug})", "",
            "Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/" + copa.slug + "/importar.py).", "",
            "| Temporada | Jogos | Fases | Campeão | Vice | Wikipédia | Gols com autor |", "|---|---|---|---|---|---|---|"]
@@ -229,6 +327,28 @@ def importar(copa: Copa, relatorio: Path) -> None:
             gc = ed.grupos_clubes.get(jogos[-1]["fase"], {})
             if gc.get(m) and gc.get(m) == gc.get(v):   # vale mais que o grupo herdado de um título anterior
                 jogos[-1]["grupo"] = gc[m]
+        if copa.espn:
+            # fases de pontos (as mesmas da classificação abaixo): nelas o mando da fonte não é trocado
+            pontos_ed = {j["fase"] for j in jogos} if ed.pontos else {t.fase or padrao for t in tabs} | set(copa.fases_pontos)
+            n_espn = _casar_espn(copa, ed, jogos, sem_nome_espn, pontos_ed)
+            if n_espn:
+                casados_espn.append(f"{ed.temporada}: {n_espn} de {len(jogos)}")
+            for j in jogos:
+                if not j.get("espn"):
+                    continue
+                if not j["x"].data:
+                    j["x"].data = j["espn"][0].isoformat()
+                    datas_espn += 1
+                elif copa.espn_corrige and abs((j["espn"][0] - date.fromisoformat(j["x"].data)).days) > 1:
+                    j.setdefault("obs_espn", []).append(f"data pela ESPN (a fonte dá {j['x'].data})")
+                    j["x"].data = j["espn"][0].isoformat()
+                    datas_corrigidas += 1
+                # o mando só muda com o estádio da ESPN para confirmar (jogo único em campo neutro vem sem estádio)
+                if copa.espn_corrige and j.get("espn_invertido") and j["fase"] not in pontos_ed and j["espn"][2]:
+                    j["m"], j["v"], j["gm"], j["gv"], j["pm"], j["pv"] = j["v"], j["m"], j["gv"], j["gm"], j["pv"], j["pm"]
+                    j.setdefault("obs_espn", []).append("mando pela ESPN (a fonte dá o jogo invertido)")
+                    j["trocado"] = True
+                    mandos_corrigidos += 1
         fase_tab = {t.fase or padrao for t in tabs}
         fases_pontos: set[str] = set()   # a rodada só vale nelas (no mata-mata, o "Round 3" herdado não é rodada)
         # fases dos jogos e das tabelas (a 1ª fase de 2022 da Copa Paraguay só tem as tabelas das zonas)
@@ -262,15 +382,24 @@ def importar(copa: Copa, relatorio: Path) -> None:
             if j["esp"] == "" and j["gm"] is not None:
                 gols_ed += j["gm"] + j["gv"]
                 if x.gols_texto and copa.autores.eh_autores(x.gols_texto):
-                    sep = copa.autores.separar(x.gols_texto, j["gm"], j["gv"])
+                    if j.get("trocado"):   # o texto dos autores segue o mando da fonte
+                        sep = copa.autores.separar(x.gols_texto, j["gv"], j["gm"])
+                        sep = (sep[1], sep[0]) if sep else None
+                    else:
+                        sep = copa.autores.separar(x.gols_texto, j["gm"], j["gv"])
             if sep:
                 for lado, gs in ((j["m"], sep[0]), (j["v"], sep[1])):
                     for g in gs:
                         L["gols"].append([pid, lado, g["jogador"], g["minuto"], g["acrescimo"], g["tipo"], "RSSSF"])
                         autor_ed += 1
-            obs = [j["obs"]] + ([x.nota] if x.nota and not j["obs"] and not re.search(r"\bpen\b", x.nota) else [])
-            L["partidas"].append([pid, ed.temporada, j["fase"], j["grupo"], x.rodada if j["fase"] in fases_pontos else None, x.data, None, j["m"], j["v"], j["gm"],
-                                  j["gv"], j["pm"], j["pv"], j["esp"], None, None, None, *_fonte(x.texto),
+            obs = [j["obs"]] + ([x.nota] if x.nota and not j["obs"] and not re.search(r"\bpen\b", x.nota) else []) + j.get("obs_espn", [])
+            fonte, fonte_id = _fonte(x.texto)
+            hora = estadio = cidade = publico = None
+            if j.get("espn"):
+                _, hora, estadio, cidade, publico, eid_espn = j["espn"]
+                fonte_id += f" espn:{eid_espn}"
+            L["partidas"].append([pid, ed.temporada, j["fase"], j["grupo"], x.rodada if j["fase"] in fases_pontos else None, x.data, hora, j["m"], j["v"], j["gm"],
+                                  j["gv"], j["pm"], j["pv"], j["esp"], estadio, cidade, publico, fonte, fonte_id,
                                   "" if sep or not x.gols_texto else x.gols_texto, "; ".join(o for o in obs if o)])
         # classificação: fase alcançada, pontos, vitórias, saldo, gols pró
         camp: dict[str, list[int]] = defaultdict(lambda: [0] * 7)   # j v e d gp gc pts
@@ -364,7 +493,17 @@ def importar(copa: Copa, relatorio: Path) -> None:
     rel += ["", "**Regras do pacote:** W.O. com o placar dado e `resultado_especial` \"wo\"; pênaltis nos campos de pênaltis "
             "(o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; "
             "classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos "
-            "gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz)."]
+            "gols com autor quando ao menos 95% dos gols têm autor. Sem cartões; público e estádio só nos jogos ligados à "
+            "ESPN (a RSSSF não traz)."]
+    if casados_espn:
+        rel += ["", f"**ESPN:** jogos ligados a um jogo da ESPN (mesmos clubes, mando e placar; data até 1 dia), de onde vêm "
+                f"hora, estádio, cidade e público; {datas_espn} jogos sem data na RSSSF ou na Wikipédia ganharam a da ESPN"
+                + (f"; {datas_corrigidas} datas e {mandos_corrigidos} mandos trocados pelos da ESPN (o estádio confirma; "
+                   "nota na observação)" if copa.espn_corrige else "") + ". "
+                "Por edição: " + "; ".join(casados_espn) + "."]
+    if sem_nome_espn:
+        rel += ["", "**Nomes da ESPN sem clube (esses jogos não casam):** " +
+                ", ".join(f"{n} ({k})" for n, k in sorted(sem_nome_espn.items()))]
     if sem_nome:
         rel += ["", "**Linhas sem clube reconhecido (fora do pacote):**", ""] + [f"- {s}" for s in sem_nome]
     relatorio.write_text("\n".join(rel) + "\n", encoding="utf-8")
@@ -372,3 +511,7 @@ def importar(copa: Copa, relatorio: Path) -> None:
           f"{len(sem_nome)} linhas sem clube")
     for s in sem_nome[:40]:
         print("  sem clube:", s)
+    if copa.espn:
+        print(f"  ESPN: {sum(int(c.split(': ')[1].split(' ')[0]) for c in casados_espn)} jogos casados, {datas_espn} datas novas, "
+              f"{datas_corrigidas} datas e {mandos_corrigidos} mandos trocados; "
+              f"{len(sem_nome_espn)} nomes da ESPN sem clube")

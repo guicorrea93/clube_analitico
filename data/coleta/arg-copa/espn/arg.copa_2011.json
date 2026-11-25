@@ -1,0 +1,11222 @@
+[
+{
+"id": "338810",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Atlas",
+"mandante_id": "10099",
+"visitante": "Claypole",
+"visitante_id": "10102",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ricardo Puga",
+"cidade": "General Rodríguez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"ATLAS ATLAS"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"ATLAS ATLAS"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"ATLAS ATLAS"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"ATLAS ATLAS"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338814",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Cañuelas",
+"mandante_id": "10046",
+"visitante": "Centro Español",
+"visitante_id": "10101",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "José A. Arin",
+"cidade": "Cañuelas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cañuelas Cañuelas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cañuelas Cañuelas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Centro Italo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cañuelas Cañuelas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Centro Italo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cañuelas Cañuelas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Centro Italo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cañuelas Cañuelas"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338817",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Paraguayo",
+"mandante_id": "10110",
+"visitante": "Yupanqui",
+"visitante_id": "10115",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Juan Antonio Arias",
+"cidade": "San Justo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Bilbao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Bilbao"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338816",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix",
+"mandante_id": "10053",
+"visitante": "Barracas Bolivar",
+"visitante_id": "10063",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de Pilar",
+"cidade": "Pilar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Bargas"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338811",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ituzaingó",
+"mandante_id": "10105",
+"visitante": "Argentino (Rosario)",
+"visitante_id": "10048",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ituzaingó",
+"cidade": "Ituzaingó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Domínguez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338815",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Unida",
+"mandante_id": "10106",
+"visitante": "Central Ballester",
+"visitante_id": "10100",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Néstor Bedgni",
+"cidade": "Muñíz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Espinoza"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338812",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Lugano",
+"mandante_id": "10108",
+"visitante": "San Martín B",
+"visitante_id": "10113",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "José María Moraños",
+"cidade": "Tapiales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"LUGANO LUGANO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"LUGANO LUGANO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"LUGANO LUGANO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"LUGANO LUGANO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338813",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Riestra ",
+"mandante_id": "10112",
+"visitante": "Muñiz",
+"visitante_id": "10517",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Guillermo Laza",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Toselli"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338809",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoriano Arenas",
+"mandante_id": "10114",
+"visitante": "Argentino de Quilmes",
+"visitante_id": "10098",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Saturnino Moure",
+"cidade": "Avellaneda",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Juan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Vivanco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338866",
+"data_hora": "2011-09-06T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Sarmiento (Resistencia)",
+"mandante_id": "11964",
+"visitante": "General San Martín (Formosa)",
+"visitante_id": "11965",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sarmiento (Resistencia)",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Recio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Ávalos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Cañete"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Farías"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Palmerola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Cortina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Franco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338869",
+"data_hora": "2011-09-07T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing (Cba)",
+"mandante_id": "9755",
+"visitante": "Atlético Riojano",
+"visitante_id": "11970",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Miguel Sancho",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier López"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338876",
+"data_hora": "2011-09-07T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Trinidad",
+"mandante_id": "11980",
+"visitante": "Sportivo del Bono",
+"visitante_id": "11981",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "El Templo",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pastore"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338873",
+"data_hora": "2011-09-07T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán (Las Heras)",
+"mandante_id": "11974",
+"visitante": "Guaymallén",
+"visitante_id": "11975",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Huracán Las Heras",
+"cidade": "Las Heras",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Vizcarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Báez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Inestal"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338853",
+"data_hora": "2011-09-07T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rivadavia (L)",
+"mandante_id": "11940",
+"visitante": "La Emilia",
+"visitante_id": "11941",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Rivadavia de Lincoln",
+"cidade": "Lincoln",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Cabral"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Cabral"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338843",
+"data_hora": "2011-09-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca (Río Gallegos)",
+"mandante_id": "11921",
+"visitante": "Dep. Real Madrid",
+"visitante_id": "11922",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Boca (Río Gallegos)",
+"cidade": "Río Gallegos",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Giuntini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wander De Almeida"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338841",
+"data_hora": "2011-09-07T17:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Excursionistas",
+"mandante_id": "10054",
+"visitante": "J. J. de Urquiza",
+"visitante_id": "10056",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Excursionistas",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Grecco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Gerling"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"JJ Urquiza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"JJ Urquiza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"JJ Urquiza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"JJ Urquiza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"JJ Urquiza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Grecco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Grecco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Excursionistas fc"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338839",
+"data_hora": "2011-09-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Argentino de Merlo",
+"mandante_id": "10055",
+"visitante": "Liniers",
+"visitante_id": "10107",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Juan Carlos Brieva",
+"cidade": "Merlo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ladogana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Verdun"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Carrizo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338842",
+"data_hora": "2011-09-07T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Laferrere",
+"mandante_id": "10065",
+"visitante": "Berazategui",
+"visitante_id": "17349",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Deportivo Laferrere",
+"cidade": "Laferrere",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Pombo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Salomone"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Marecos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Castro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berazategui Berazategui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Castro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berazategui Berazategui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Castro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Berazategui Berazategui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Castro"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338836",
+"data_hora": "2011-09-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Telmo",
+"mandante_id": "10157",
+"visitante": "San Miguel",
+"visitante_id": "10058",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Cipriani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christhofer Torres"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338840",
+"data_hora": "2011-09-07T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres de Remedios",
+"mandante_id": "10161",
+"visitante": "Central Córdoba (Rosario)",
+"visitante_id": "10148",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Talleres (R.E.)",
+"cidade": "Remedios de Escalada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Gnocchi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Talleres RE"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Cordoba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Cordoba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Gnocchi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Cordoba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Cordoba"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338845",
+"data_hora": "2011-09-07T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Dep. Madryn",
+"mandante_id": "11925",
+"visitante": "Racing (T)",
+"visitante_id": "11926",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Coliseo del Golfo",
+"cidade": "Puerto Madryn",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Contreras"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338847",
+"data_hora": "2011-09-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cruz del Sur",
+"mandante_id": "11929",
+"visitante": "Atlético Maronese",
+"visitante_id": "11930",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cruz del Sur",
+"cidade": "Bariloche",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Del Río"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338844",
+"data_hora": "2011-09-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán (CR)",
+"mandante_id": "11923",
+"visitante": "Jorge Newbery (C. Rivadavia)",
+"visitante_id": "11924",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Huracán (Corrientes)",
+"cidade": "Corrientes",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Alaniz"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338852",
+"data_hora": "2011-09-07T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Huracán (TA)",
+"mandante_id": "11938",
+"visitante": "Linqueño",
+"visitante_id": "11939",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Roberto Lorenzo Bottino",
+"cidade": "Tres Arroyos",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Linqueño El"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338865",
+"data_hora": "2011-09-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Patria",
+"mandante_id": "11962",
+"visitante": "Chaco For Ever",
+"visitante_id": "11963",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Brown (Posadas)",
+"cidade": "Posadas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Lezcano"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338860",
+"data_hora": "2011-09-07T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Textil Mandiyú",
+"mandante_id": "11953",
+"visitante": "Guaraní A. Franco",
+"visitante_id": "11920",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "José Antonio Romero Feris",
+"cidade": "Corrientes",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Textil Mandiyu"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guaraní Antonio Franco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Textil Mandiyu"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guaraní Antonio Franco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Textil Mandiyu"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guaraní Antonio Franco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guaraní Antonio Franco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338877",
+"data_hora": "2011-09-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "At. Policial",
+"mandante_id": "11982",
+"visitante": "Sp. Villa Cubas",
+"visitante_id": "11983",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Liga Catamarqueña",
+"cidade": "Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bruzuela"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338851",
+"data_hora": "2011-09-07T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Alvarado",
+"mandante_id": "11936",
+"visitante": "Independiente (Tandil)",
+"visitante_id": "11937",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "José María Minella",
+"cidade": "Mar del Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Oscar Cornejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amiel Cuestas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Independiente (Tandil)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Oscar Cornejo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amiel Cuestas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Oscar Cornejo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338848",
+"data_hora": "2011-09-07T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Villa Mitre",
+"mandante_id": "11931",
+"visitante": "Alvear FC",
+"visitante_id": "11932",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "El Fortín",
+"cidade": "Rosario",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Goroso"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338861",
+"data_hora": "2011-09-07T23:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "At. Colegiales",
+"mandante_id": "11954",
+"visitante": "Sp. Las Heras",
+"visitante_id": "11955",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Colegiales",
+"cidade": "Munro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sp. Las Heras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": null,
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Colegiales --"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sp. Las Heras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sp. Las Heras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sp. Las Heras"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338863",
+"data_hora": "2011-09-07T23:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Crucero del Norte",
+"mandante_id": "11958",
+"visitante": "Brown (Posadas)",
+"visitante_id": "11959",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Dr. Luis Güemes",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Brown"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Brown"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Brown"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338856",
+"data_hora": "2011-09-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Def. de Belgrano (VR)",
+"mandante_id": "11946",
+"visitante": "Once Tigres",
+"visitante_id": "11947",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Defensores de Belgrano",
+"cidade": "Villa Ramallo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Vecchio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Vecchio"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338854",
+"data_hora": "2011-09-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Douglas Haig",
+"mandante_id": "11942",
+"visitante": "Ferrocarril Sud (Olavarría)",
+"visitante_id": "11943",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Miguel Morales",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Leclerq"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Zalazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas De Francesco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338850",
+"data_hora": "2011-09-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santamarina",
+"mandante_id": "10996",
+"visitante": "Regatas Bella Vista",
+"visitante_id": "11935",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "General San Martín",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Machain"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Agudiak"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Michel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Schwab"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338867",
+"data_hora": "2011-09-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión (Sunchales)",
+"mandante_id": "11966",
+"visitante": "9 de Julio (R)",
+"visitante_id": "11967",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Unión de Sunchales",
+"cidade": "Sunchales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damian Andermatten"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cata Díaz"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338857",
+"data_hora": "2011-09-07T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Unida (Gualeguaychú)",
+"mandante_id": "11948",
+"visitante": "At. San Jorge",
+"visitante_id": "11949",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de Gualeguaychú",
+"cidade": "Gualeguaychú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Monesterolo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338858",
+"data_hora": "2011-09-08T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "At. Paraná",
+"mandante_id": "11950",
+"visitante": "Jorge Newbery (VT)",
+"visitante_id": "11951",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sp. Atenas",
+"cidade": "Río Cuarto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Amoroso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"At. Parana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"At. Parana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Jorge Newbery (Venado Tuerto)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"At. Parana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Jorge Newbery (Venado Tuerto)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Benitez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Amoroso"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338846",
+"data_hora": "2011-09-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cipolletti",
+"mandante_id": "11927",
+"visitante": "Dep. Roca",
+"visitante_id": "11928",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "La Visera",
+"cidade": "Cipolletti",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Taborda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Sáez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Andrés Palomeque"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Sand"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Ballesteros"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338871",
+"data_hora": "2011-09-08T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Juventud Unida",
+"mandante_id": "10106",
+"visitante": "Gimnasia (Mendoza)",
+"visitante_id": "11972",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Néstor Bedgni",
+"cidade": "Muñíz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (M)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Juventud Unida (San Luis)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Juventud Unida (San Luis)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Juventud Unida (San Luis)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (M)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Juventud Unida (San Luis)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (M)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Juventud Unida (San Luis)"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338855",
+"data_hora": "2011-09-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing (O)",
+"mandante_id": "11944",
+"visitante": "Grupo Universitario",
+"visitante_id": "11945",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "José Buglione Martinese",
+"cidade": "Olavarría",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Baroni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Baroni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Michelena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Piecenti"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338864",
+"data_hora": "2011-09-08T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Sarmiento (Bell Ville)",
+"mandante_id": "11960",
+"visitante": "Tte. Origone",
+"visitante_id": "11961",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sarmiento (Bell Ville)",
+"cidade": "Bell Ville",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Cardarelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento (Bell Ville)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tte. Origone"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento (Bell Ville)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tte. Origone"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Martínez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338870",
+"data_hora": "2011-09-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Gral. Paz Juniors",
+"visitante_id": "11971",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "La Boutique",
+"cidade": "Cordoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Carabajal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Strada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Riaño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rolon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Pérez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338868",
+"data_hora": "2011-09-08T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Altos PI",
+"mandante_id": "11968",
+"visitante": "Talleres (P)",
+"visitante_id": "11969",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Altos Hornos Zapla",
+"cidade": "Palpalá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Altos Hornos Zapla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Talleres (P)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Altos Hornos Zapla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Talleres (P)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Talleres (P)"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338878",
+"data_hora": "2011-09-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "At. Concepción",
+"mandante_id": "11984",
+"visitante": "Sarmiento (SE)",
+"visitante_id": "11985",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "José María Paz",
+"cidade": "Tucumán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Ledesma"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338881",
+"data_hora": "2011-09-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia y Tiro (Salta)",
+"mandante_id": "10743",
+"visitante": "San Jorge (Tucumán)",
+"visitante_id": "11988",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "El Gigante del Norte",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Quiroga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cartello"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338879",
+"data_hora": "2011-09-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Antoniana",
+"mandante_id": "11986",
+"visitante": "At. Concepción",
+"visitante_id": "11984",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Fray Honorato Pistoia",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Prieto"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338872",
+"data_hora": "2011-09-08T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alumni",
+"mandante_id": "6447",
+"visitante": "AC Sportivo",
+"visitante_id": "11973",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Plaza Manuel Ocampo",
+"cidade": "Villa María",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Depetris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaspar Páez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Brandan"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338849",
+"data_hora": "2011-09-08T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión (MDP)",
+"mandante_id": "11933",
+"visitante": "Liniers (BB)",
+"visitante_id": "11934",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "José María Minella",
+"cidade": "Mar del Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Gatto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Alba"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338874",
+"data_hora": "2011-09-08T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Juventud Alianza",
+"mandante_id": "11976",
+"visitante": "At. Unión (SJ)",
+"visitante_id": "11977",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Bosque del Bajo Grande",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San Juventud Alianza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San Juventud Alianza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San Juventud Alianza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San Juventud Alianza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338880",
+"data_hora": "2011-09-08T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad (S)",
+"mandante_id": "11987",
+"visitante": "Ben Hur",
+"visitante_id": "9741",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Hogar de los Tigres",
+"cidade": "Sunchales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Brittes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Cejas"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338875",
+"data_hora": "2011-09-09T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Deportivo Maipú",
+"mandante_id": "11978",
+"visitante": "San Martín (M)",
+"visitante_id": "11979",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Cruzado",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mendoza San Martín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Deportivo Maipú"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Deportivo Maipú"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Deportivo Maipú"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mendoza San Martín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mendoza San Martín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Deportivo Maipú"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338862",
+"data_hora": "2011-09-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia (CDU)",
+"mandante_id": "11956",
+"visitante": "Def. de Pronunciamiento",
+"visitante_id": "11957",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Manuel y Ramón Núñez",
+"cidade": "Concepción del Uruguay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Perron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonatan Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Sánchez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338859",
+"data_hora": "2011-09-09T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tiro Federal M.",
+"mandante_id": "11952",
+"visitante": "Academia FC",
+"visitante_id": "8743",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tiro Federal",
+"cidade": "Baradero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"9 Morteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morteros Tiro Federal"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338882",
+"data_hora": "2011-09-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Córdoba (Santiago del Estero)",
+"mandante_id": "11989",
+"visitante": "Mitre (Santiago del Estero)",
+"visitante_id": "11990",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Central Córdoba",
+"cidade": "Santiago del Estero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Gonzalez Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Gonzalez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338896",
+"data_hora": "2011-09-13T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Dep. Roca",
+"mandante_id": "11928",
+"visitante": "Cruz del Sur",
+"visitante_id": "11929",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Luis Maiolino",
+"cidade": "General Roca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338821",
+"data_hora": "2011-09-13T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Defensores de Belgrano",
+"mandante_id": "10151",
+"visitante": "San Martín B",
+"visitante_id": "10113",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Pasquale",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Defensores de Belgrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Defensores de Belgrano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Defensores de Belgrano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Defensores de Belgrano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Defensores de Belgrano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San de Burzaco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338825",
+"data_hora": "2011-09-14T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sarmiento (Junín)",
+"mandante_id": "10158",
+"visitante": "Fénix",
+"visitante_id": "10053",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Eva Perón",
+"cidade": "Junín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gonzalez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Tamburelli"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338883",
+"data_hora": "2011-09-14T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Sarmiento (Bell Ville)",
+"visitante_id": "11960",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "La Boutique",
+"cidade": "Cordoba",
+"publico": 0,
+"lances": [],
+"temporada": 2011
+},
+{
+"id": "338885",
+"data_hora": "2011-09-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sp. Belgrano",
+"mandante_id": "11991",
+"visitante": "Tiro Federal M.",
+"visitante_id": "11952",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Oscar C. Boero",
+"cidade": "San Francisco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Conochiari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Conochiari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Baudino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Cigogna"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338820",
+"data_hora": "2011-09-14T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nueva Chicago",
+"mandante_id": "236",
+"visitante": "Ituzaingó",
+"visitante_id": "10105",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nueva Chicago",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Carboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Carboni"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338899",
+"data_hora": "2011-09-14T16:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Rivadavia (L)",
+"mandante_id": "11940",
+"visitante": "Huracán (TA)",
+"visitante_id": "11938",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Pumpido"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Cabral"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Castellano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Prost"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lincoln Rivadavia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lincoln Rivadavia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lincoln Rivadavia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huracan TA"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338831",
+"data_hora": "2011-09-14T17:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Comunicaciones",
+"mandante_id": "10150",
+"visitante": "Social Español",
+"visitante_id": "10159",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alfredo Ramos",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Comunicaciones"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Social"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Comunicaciones"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Social"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Comunicaciones"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Social"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Comunicaciones"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Comunicaciones"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338818",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Acassuso",
+"mandante_id": "10145",
+"visitante": "Argentino de Quilmes",
+"visitante_id": "10098",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Acassuso Acassuso"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338819",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Barracas Central",
+"mandante_id": "10060",
+"visitante": "Claypole",
+"visitante_id": "10102",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Barracas Central",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CLAYPOLE CLAYPOLE"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338829",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Brown de Adrogué",
+"mandante_id": "10147",
+"visitante": "Cambaceres",
+"visitante_id": "10059",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Lorenzo Arandilla",
+"cidade": "Adrogué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Falbo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338830",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colegiales",
+"mandante_id": "10149",
+"visitante": "FC Urquiza",
+"visitante_id": "10104",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Colegiales",
+"cidade": "Munro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Colegiales --"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338828",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Armenio",
+"mandante_id": "10152",
+"visitante": "Villa Dálmine",
+"visitante_id": "10064",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Armenia",
+"cidade": "Ingeniero Maschwitz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Coceres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Barba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Gorosito"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yair Rodríguez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338833",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Flandria",
+"mandante_id": "10156",
+"visitante": "Sacachispas",
+"visitante_id": "10051",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Carlos V",
+"cidade": "Jáuregui",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Sacachispas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Sacachispas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Flandria"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Sacachispas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Flandria"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Sacachispas"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338834",
+"data_hora": "2011-09-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Italiano",
+"mandante_id": "10160",
+"visitante": "Luján",
+"visitante_id": "10049",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sportivo Italiano",
+"cidade": "La Matanza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Veron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ubiria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Castagnino"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338900",
+"data_hora": "2011-09-14T18:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Racing (T)",
+"mandante_id": "11926",
+"visitante": "Boca (Río Gallegos)",
+"visitante_id": "11921",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Boca (Río Gallegos)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Contreras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Boca (Río Gallegos)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Boca (Río Gallegos)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338895",
+"data_hora": "2011-09-14T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sarmiento (Resistencia)",
+"mandante_id": "11964",
+"visitante": "Sportivo Patria",
+"visitante_id": "11962",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Iker"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Recio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neri Bandiera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Recio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Recio"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338904",
+"data_hora": "2011-09-14T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tiro Federal",
+"mandante_id": "5262",
+"visitante": "Douglas Haig",
+"visitante_id": "11942",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Dr. Luis Güemes",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Neumayer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bernardo Cuesta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Marcolongo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Aranda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federal Tiro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"de Douglas Haig"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bernardo Cuesta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Aranda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Aranda"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338903",
+"data_hora": "2011-09-14T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "C.A.I.",
+"mandante_id": "9742",
+"visitante": "Huracán (CR)",
+"visitante_id": "11923",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Bubas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mazzia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Comodoro Huracan"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Comodoro CAI"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Alaniz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Comodoro CAI"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Alaniz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Bubas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Alaniz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Alaniz"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338832",
+"data_hora": "2011-09-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Buenos Aires",
+"mandante_id": "10155",
+"visitante": "CADU",
+"visitante_id": "10047",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Isla Casares"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338905",
+"data_hora": "2011-09-14T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Libertad (S)",
+"mandante_id": "11987",
+"visitante": "9 de Julio (R)",
+"visitante_id": "11967",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"SUNCHALES LIBERTAD"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"RAFAELA 9 DE JULIO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"SUNCHALES LIBERTAD"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"RAFAELA 9 DE JULIO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Brittes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"RAFAELA 9 DE JULIO"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Brittes"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338822",
+"data_hora": "2011-09-14T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Los Andes",
+"mandante_id": "13",
+"visitante": "Riestra ",
+"visitante_id": "10112",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Eduardo Gallardón",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CA LOS ANDES"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"CA LOS ANDES"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338892",
+"data_hora": "2011-09-14T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santamarina",
+"mandante_id": "10996",
+"visitante": "Villa Mitre",
+"visitante_id": "11931",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Ocaño"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338901",
+"data_hora": "2011-09-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "At. Paraná",
+"mandante_id": "11950",
+"visitante": "San Jorge (Tucumán)",
+"visitante_id": "11988",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"At. Parana"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338891",
+"data_hora": "2011-09-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Crucero del Norte",
+"mandante_id": "11958",
+"visitante": "Guaraní A. Franco",
+"visitante_id": "11920",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Andrés Guacurarí",
+"cidade": "Posadas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guaraní Antonio Franco"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338886",
+"data_hora": "2011-09-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Maipú",
+"mandante_id": "11978",
+"visitante": "Guaymallén",
+"visitante_id": "11975",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Guaymallén"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338893",
+"data_hora": "2011-09-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia (CDU)",
+"mandante_id": "11956",
+"visitante": "Sp. Las Heras",
+"visitante_id": "11955",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Gimnasia (CDU)"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338884",
+"data_hora": "2011-09-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing (O)",
+"mandante_id": "11944",
+"visitante": "Def. de Belgrano (VR)",
+"visitante_id": "11946",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Racing (O)"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338887",
+"data_hora": "2011-09-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Antoniana",
+"mandante_id": "11986",
+"visitante": "Gimnasia y Tiro (Salta)",
+"visitante_id": "10743",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2011
+},
+{
+"id": "338894",
+"data_hora": "2011-09-15T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Martín de Tucumán",
+"mandante_id": "8713",
+"visitante": "Sarmiento (SE)",
+"visitante_id": "11985",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "La Ciudadela",
+"cidade": "Tucumán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Lescano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mansilla"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338827",
+"data_hora": "2011-09-15T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Almagro",
+"mandante_id": "2",
+"visitante": "Midland",
+"visitante_id": "10109",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tres de Febrero",
+"cidade": "José Ingenieros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Cayetá"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Perez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Garcia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Figueroa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Santacruz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bataras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Muerza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Villalva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Acuña"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338838",
+"data_hora": "2011-09-15T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tristán Suárez",
+"mandante_id": "10163",
+"visitante": "L.N. Alem",
+"visitante_id": "10062",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tristán Suárez",
+"cidade": "Tristán Suárez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Suárez Tristán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Suárez Tristán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Suárez Tristán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Suárez Tristán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Suárez Tristán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alem L. N."
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alem L. N."
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alem L. N."
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alem L. N."
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338898",
+"data_hora": "2011-09-15T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Alvarado",
+"mandante_id": "11936",
+"visitante": "Unión (MDP)",
+"visitante_id": "11933",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Gatto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Alba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Christovao"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338890",
+"data_hora": "2011-09-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing (Cba)",
+"mandante_id": "9755",
+"visitante": "Sp. Atenas",
+"visitante_id": "10762",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Alturria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier López"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338826",
+"data_hora": "2011-09-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Temperley",
+"mandante_id": "10162",
+"visitante": "Yupanqui",
+"visitante_id": "10115",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Campomar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Achucharro"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338902",
+"data_hora": "2011-09-16T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Atlético Trinidad",
+"mandante_id": "11980",
+"visitante": "At. Unión (SJ)",
+"visitante_id": "11977",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucia Rodriguez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Villaseca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atletico Trinidad"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San Union"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atletico Trinidad"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San Union"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338888",
+"data_hora": "2011-09-16T01:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Central Córdoba (Santiago del Estero)",
+"mandante_id": "11989",
+"visitante": "At. Policial",
+"visitante_id": "11982",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bruzuela"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bruzuela"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338835",
+"data_hora": "2011-09-20T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Lamadrid",
+"mandante_id": "10057",
+"visitante": "Dock Sud",
+"visitante_id": "10103",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Enrique Sexto",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Pita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Pita"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Ferreyra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Escobedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Benitez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Domínguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Bergés"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Alvarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Mannara"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338837",
+"data_hora": "2011-09-21T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Villa San Carlos",
+"mandante_id": "10052",
+"visitante": "El Porvenir",
+"visitante_id": "10061",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Raverta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Vera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Pascuale"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Rolando Ramón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Avalo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Ceratto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Ochandorena"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Andrich"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Aviles"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338823",
+"data_hora": "2011-09-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Morón",
+"mandante_id": "10154",
+"visitante": "Cañuelas",
+"visitante_id": "10046",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nuevo Francisco Urbano",
+"cidade": "Morón",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morón Deportivo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Morón Deportivo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338889",
+"data_hora": "2011-09-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Unida (SL)",
+"mandante_id": "11992",
+"visitante": "Alumni",
+"visitante_id": "6447",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unida Juventud"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338824",
+"data_hora": "2011-09-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7764",
+"visitante": "Juventud Unida",
+"visitante_id": "10106",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Platense Platense"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Platense Platense"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Platense Platense"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Espinoza"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338897",
+"data_hora": "2011-09-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Norte",
+"mandante_id": "11993",
+"visitante": "Talleres (P)",
+"visitante_id": "11969",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Sin confirmar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Ceballos"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338925",
+"data_hora": "2011-09-28T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "10150",
+"visitante": "Colegiales",
+"visitante_id": "10149",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Alfredo Ramos",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Vergara"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Gianfelice"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel Vildozo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338921",
+"data_hora": "2011-09-28T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Laferrere",
+"mandante_id": "10065",
+"visitante": "Sacachispas",
+"visitante_id": "10051",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Deportivo Laferrere",
+"cidade": "Laferrere",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Paez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Paez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Arzamendia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eugenio Peralta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Almada Flores"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Galeazzi"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338922",
+"data_hora": "2011-09-28T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tristán Suárez",
+"mandante_id": "10163",
+"visitante": "El Porvenir",
+"visitante_id": "10061",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Tristán Suárez",
+"cidade": "Tristán Suárez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Vera"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338917",
+"data_hora": "2011-09-28T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad (S)",
+"mandante_id": "11987",
+"visitante": "Central Córdoba (Rosario)",
+"visitante_id": "10148",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Hogar de los Tigres",
+"cidade": "Sunchales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Formica"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338909",
+"data_hora": "2011-09-28T23:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Crucero del Norte",
+"mandante_id": "11958",
+"visitante": "Sarmiento (Resistencia)",
+"visitante_id": "11964",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Andrés Guacurarí",
+"cidade": "Posadas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Motta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neri Bandiera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento de Resistencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento de Resistencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento de Resistencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Crucero del Norte"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento de Resistencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sarmiento de Resistencia"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338907",
+"data_hora": "2011-09-28T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santamarina",
+"mandante_id": "10996",
+"visitante": "Unión (MDP)",
+"visitante_id": "11933",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General San Martín",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Acosta"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338910",
+"data_hora": "2011-09-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "At. Paraná",
+"mandante_id": "11950",
+"visitante": "Gimnasia (CDU)",
+"visitante_id": "11956",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "At. Paraná",
+"cidade": "Paraná",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Eckert"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conrado Besel"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338913",
+"data_hora": "2011-09-29T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "At. Unión (SJ)",
+"mandante_id": "11977",
+"visitante": "Juventud Unida (SL)",
+"visitante_id": "11992",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "At. Unión (San Juan)",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unida Juventud"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unida Juventud"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Unida Juventud"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Villa Unión"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338912",
+"data_hora": "2011-09-29T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sp. Belgrano",
+"mandante_id": "11991",
+"visitante": "Douglas Haig",
+"visitante_id": "11942",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Oscar C. Boero",
+"cidade": "San Francisco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Francia"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338911",
+"data_hora": "2011-09-29T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Racing (Cba)",
+"visitante_id": "9755",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "La Boutique",
+"cidade": "Cordoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Cosaro"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338915",
+"data_hora": "2011-09-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia y Tiro (Salta)",
+"mandante_id": "10743",
+"visitante": "Central Norte",
+"visitante_id": "11993",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "El Gigante del Norte",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Zambrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Manzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Vogliotti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Noir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Contreras"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338916",
+"data_hora": "2011-09-29T01:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "San Martín de Tucumán",
+"mandante_id": "8713",
+"visitante": "At. Policial",
+"visitante_id": "11982",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "La Ciudadela",
+"cidade": "Tucumán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Alberto Tilger"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atletico Policial"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San De Tucuman"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atletico Policial"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San De Tucuman"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atletico Policial"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atletico Policial"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338920",
+"data_hora": "2011-10-04T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Argentino de Merlo",
+"mandante_id": "10055",
+"visitante": "Excursionistas",
+"visitante_id": "10054",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Carlos Brieva",
+"cidade": "Merlo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Ledesma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Verdun"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Fasanella"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Verdun"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Gerling"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338929",
+"data_hora": "2011-10-05T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Morón",
+"mandante_id": "10154",
+"visitante": "Sarmiento (Junín)",
+"visitante_id": "10158",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nuevo Francisco Urbano",
+"cidade": "Morón",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Aillapan"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338914",
+"data_hora": "2011-10-05T16:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Dep. Roca",
+"mandante_id": "11928",
+"visitante": "Guaymallén",
+"visitante_id": "11975",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Luis Maiolino",
+"cidade": "General Roca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Guaymallén"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Guaymallén"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Deportivo Roca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Guaymallén"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Guaymallén"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338926",
+"data_hora": "2011-10-05T17:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "San Telmo",
+"mandante_id": "10157",
+"visitante": "Barracas Central",
+"visitante_id": "10060",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alfredo Ramos",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San San Telmo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"San San Telmo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Central Barracas"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338918",
+"data_hora": "2011-10-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lamadrid",
+"mandante_id": "10057",
+"visitante": "Nueva Chicago",
+"visitante_id": "236",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Enrique Sexto",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Pizarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio César Serrano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Viqueira"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338927",
+"data_hora": "2011-10-05T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Sportivo Italiano",
+"mandante_id": "10160",
+"visitante": "Temperley",
+"visitante_id": "10162",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sportivo Italiano",
+"cidade": "La Matanza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Souto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Rami"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sportivo Italiano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sportivo Italiano"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338906",
+"data_hora": "2011-10-05T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Huracán (CR)",
+"mandante_id": "11923",
+"visitante": "Racing (T)",
+"visitante_id": "11926",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de Comodoro Rivadavia",
+"cidade": "Comodoro Rivadavia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mazzia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Garay"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Comodoro Huracan"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Comodoro Huracan"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Trelew Racing"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338908",
+"data_hora": "2011-10-05T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán (TA)",
+"mandante_id": "11938",
+"visitante": "Racing (O)",
+"visitante_id": "11944",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Roberto Lorenzo Bottino",
+"cidade": "Tres Arroyos",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Abán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Ferreyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Selpa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Michelena"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338928",
+"data_hora": "2011-10-06T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Platense",
+"mandante_id": "7764",
+"visitante": "Villa Dálmine",
+"visitante_id": "10064",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Áex Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Jendrulek"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yair Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Áex Blanco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Villa Dálmine"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Villa Dálmine"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338919",
+"data_hora": "2011-10-11T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Almagro",
+"mandante_id": "2",
+"visitante": "Defensores de Belgrano",
+"visitante_id": "10151",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Tres de Febrero",
+"cidade": "José Ingenieros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Villasanti"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338923",
+"data_hora": "2011-10-12T18:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Acassuso",
+"mandante_id": "10145",
+"visitante": "Riestra ",
+"visitante_id": "10112",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "La Quema",
+"cidade": "Boulogne",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Acassuso Acassuso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Acassuso Acassuso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dep Riestra"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338924",
+"data_hora": "2011-10-12T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Estudiantes de Buenos Aires",
+"mandante_id": "10155",
+"visitante": "Cambaceres",
+"visitante_id": "10059",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Pelosi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Luis Torresi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Yassogna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Pelosi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Estudiantes (BA)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Cambaceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Estudiantes (BA)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Cambaceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Estudiantes (BA)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Cambaceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Estudiantes (BA)"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"* Estudiantes (BA)"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338942",
+"data_hora": "2011-11-22T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Aldosivi",
+"mandante_id": "9739",
+"visitante": "Independiente Rivadavia",
+"visitante_id": "9744",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Altobelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Piñero da Silva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Villalba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Carrasco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Altobelli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Malcorra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Piñero da Silva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfio Lorenzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Aguirre"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338940",
+"data_hora": "2011-11-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Martín (San Juan)",
+"mandante_id": "7845",
+"visitante": "Sarmiento (Junín)",
+"visitante_id": "10158",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Abila"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338951",
+"data_hora": "2011-11-23T21:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "All Boys",
+"mandante_id": "9786",
+"visitante": "Atlanta",
+"visitante_id": "10146",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tomás A. Ducó",
+"cidade": "Ciudad Autónoma de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salom"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Bielkiewecz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Ferreyra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abel Soriano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Zapata"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Bielkiewecz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Fabro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Proll"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Ramirez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338950",
+"data_hora": "2011-11-23T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Almirante Brown",
+"mandante_id": "9740",
+"visitante": "Sp. Belgrano",
+"visitante_id": "11991",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Cisterna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Conochiari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Aróstegui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Felicia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Vega"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Conochiari"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Marrone"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Aróstegui"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Loza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Maccarone"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Chaquia"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338956",
+"data_hora": "2011-11-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Estudiantes de Buenos Aires",
+"visitante_id": "10155",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Padre Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Luis Torresi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Luis Torresi"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338931",
+"data_hora": "2011-11-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Colegiales",
+"visitante_id": "10149",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Padre Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Parra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osmar Ferreyra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Churín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Nieva"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338949",
+"data_hora": "2011-11-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Villa Dálmine",
+"visitante_id": "10064",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salvador Reynoso"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338947",
+"data_hora": "2011-11-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión (Santa Fe)",
+"mandante_id": "20",
+"visitante": "Chacarita Juniors",
+"visitante_id": "6",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ciudad de Lanús",
+"cidade": "Lanús",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Pereyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Piriz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Montenegro"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338941",
+"data_hora": "2011-11-24T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "At. Unión (SJ)",
+"visitante_id": "11977",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Modon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Carrillo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338957",
+"data_hora": "2011-11-25T01:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Sportivo Italiano",
+"visitante_id": "10160",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Daniel Britos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Garro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Daniel Britos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio López"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Alexis Ronconi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Pinto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Sánchez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Natalicchio"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338943",
+"data_hora": "2011-11-29T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Defensa y Justicia",
+"visitante_id": "8950",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Ciudad de Lanús",
+"cidade": "Lanús",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Orbán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Carrasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Martiarena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Galmarini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Ftacla"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338960",
+"data_hora": "2011-11-29T21:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Newell's Old Boys",
+"mandante_id": "14",
+"visitante": "Patronato",
+"visitante_id": "10374",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Santa Fé",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ernesto Casado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Mainguyague"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Talin"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Valencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Cabrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Faravelli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Boggino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Bernardi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Roda"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338954",
+"data_hora": "2011-11-30T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "At. Paraná",
+"visitante_id": "11950",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Tres de Febrero",
+"cidade": "José Ingenieros",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Barba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Benitez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338955",
+"data_hora": "2011-11-30T21:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Atletico Rafaela",
+"mandante_id": "9747",
+"visitante": "Ferro Carril Oeste",
+"visitante_id": "9743",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Santa Fé",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Gaitán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Lértora"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jherson Cordoba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Buffarini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Zbrun"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Depetris"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338939",
+"data_hora": "2011-11-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Gigante de Arroyito",
+"cidade": "Rosario",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Luque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Graciani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Riaño"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338944",
+"data_hora": "2011-11-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Desamparados",
+"visitante_id": "11430",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Mendoza"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338936",
+"data_hora": "2011-11-30T22:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Excursionistas",
+"visitante_id": "10054",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Hollembach"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Nanía"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Quintana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Villanueva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Di Zeo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Oviedo"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338932",
+"data_hora": "2011-12-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Sacachispas",
+"visitante_id": "10051",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giuliano Bardín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Almerares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Maldonado"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338935",
+"data_hora": "2011-12-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olimpo",
+"mandante_id": "2636",
+"visitante": "Central Norte",
+"visitante_id": "11993",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Padre Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Noir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Lucero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Litre"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338959",
+"data_hora": "2011-12-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "El Porvenir",
+"visitante_id": "10061",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Teófilo Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Teófilo Gutiérrez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338934",
+"data_hora": "2011-12-06T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Boca Unidos",
+"mandante_id": "10489",
+"visitante": "Central Córdoba (Rosario)",
+"visitante_id": "10148",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Donatti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Nuñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"De Blanco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Donatti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Lazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Formica"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Visconti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Figueroa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Baroni"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Cerutti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Leguizamón"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338961",
+"data_hora": "2011-12-07T01:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia y Esgrima (Jujuy)",
+"mandante_id": "5263",
+"visitante": "Sarmiento (Resistencia)",
+"visitante_id": "11964",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario del Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Cañete"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338938",
+"data_hora": "2011-12-07T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Merlo",
+"mandante_id": "10153",
+"visitante": "Guaymallén",
+"visitante_id": "11975",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Estévez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338952",
+"data_hora": "2011-12-07T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Quilmes",
+"mandante_id": "2741",
+"visitante": "Riestra ",
+"visitante_id": "10112",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Vazquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Buglione"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Grbec"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Goya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Goñi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Prieto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Mandarino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "121'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Giménez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338946",
+"data_hora": "2011-12-08T01:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "At. Policial",
+"visitante_id": "11982",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Bicentenario Ciudad de Catamarca",
+"cidade": "San Fernando del Valle de Catamarca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Burzio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Salcedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Seco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Cejas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gabriel Fernandez"
+]
+}
+],
+"temporada": 2011
+},
+{
+"id": "338953",
+"data_hora": "2011-12-08T01:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Defensores de Belgrano",
+"visitante_id": "10151",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Domínguez"
+]
+}
+],
+"temporada": 2011
+}
+]

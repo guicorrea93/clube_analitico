@@ -6,7 +6,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 37019 | 41343 | 173 | 142 / 51 | sim | c973e9e3 | 41 | [arg-1](arg-1.md) |
+| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 37019 | 41343 | 173 | 142 / 51 | sim | e12a31c3 | 41 | [arg-1](arg-1.md) |
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 19085 | 9481 | 84 | 59 / 22 | sim | c887a7d4 | 21 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 21264 | 26607 | 53 | 76 / 32 | sim | a0222fa9 | 26 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 23418 | 22905 | 40526 | 42 | 51 / 41 | sim | fd64e74e | 22 | [col-1](col-1.md) |

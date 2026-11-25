@@ -1,0 +1,7782 @@
+[
+{
+"id": "510096",
+"data_hora": "2018-04-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lautaro de Buin",
+"mandante_id": "19202",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal Luis Navarro Avilés",
+"cidade": "San Bernardo",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510104",
+"data_hora": "2018-04-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal Santiago",
+"mandante_id": "19204",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Pintana",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510093",
+"data_hora": "2018-04-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Limache",
+"mandante_id": "19195",
+"visitante": "Copiapó",
+"visitante_id": "10139",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510095",
+"data_hora": "2018-04-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Linares",
+"mandante_id": "19196",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Fiscal de Linares",
+"cidade": "Linares",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510097",
+"data_hora": "2018-04-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tomás Greig",
+"mandante_id": "19207",
+"visitante": "Magallanes",
+"visitante_id": "17363",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio El Teniente",
+"cidade": "Rancagua",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510092",
+"data_hora": "2018-04-28T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Antonio Unido",
+"mandante_id": "19206",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal Eugenio Castro González",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510091",
+"data_hora": "2018-04-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Provincial Ovalle",
+"mandante_id": "19205",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Diaguita",
+"cidade": "Ovalle",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510099",
+"data_hora": "2018-04-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Malleco Unido",
+"mandante_id": "19203",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Municipal Alberto Larraguibel",
+"cidade": "Angol",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510102",
+"data_hora": "2018-04-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Vallenar",
+"mandante_id": "19199",
+"visitante": "San Marcos de Arica",
+"visitante_id": "10138",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal Nelson Rojas",
+"cidade": "Vallenar",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510100",
+"data_hora": "2018-04-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberia",
+"mandante_id": "17523",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Municipal de Los Ángeles",
+"cidade": "Los Ángeles",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510101",
+"data_hora": "2018-04-29T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colchagua",
+"mandante_id": "19194",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jorge Silva Valenzuela",
+"cidade": "San Fernando",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510105",
+"data_hora": "2018-04-29T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernández Vial",
+"mandante_id": "10141",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510098",
+"data_hora": "2018-04-29T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Velásquez",
+"mandante_id": "19200",
+"visitante": "Melipilla",
+"visitante_id": "8104",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal Augusto Rodríguez",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510094",
+"data_hora": "2018-04-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Recoleta",
+"mandante_id": "19197",
+"visitante": "Coquimbo Unido",
+"visitante_id": "8186",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510090",
+"data_hora": "2018-05-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Santa Cruz",
+"mandante_id": "19198",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal Joaquín Muñoz García",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510076",
+"data_hora": "2018-05-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Deportes Linares",
+"visitante_id": "19196",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Parque Municipal",
+"cidade": "Valdivia",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510075",
+"data_hora": "2018-05-03T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Copiapó",
+"mandante_id": "10139",
+"visitante": "Deportes Limache",
+"visitante_id": "19195",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Valenzuela Hermosilla",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510087",
+"data_hora": "2018-05-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Provincial Ovalle",
+"visitante_id": "19205",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510074",
+"data_hora": "2018-05-05T18:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Colchagua",
+"visitante_id": "19194",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510081",
+"data_hora": "2018-05-05T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Melipilla",
+"mandante_id": "8104",
+"visitante": "General Velásquez",
+"visitante_id": "19200",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510086",
+"data_hora": "2018-05-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Municipal Santiago",
+"visitante_id": "19204",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Elías Figueroa Brander",
+"cidade": "Valparaiso",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510082",
+"data_hora": "2018-05-05T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Iberia",
+"visitante_id": "17523",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510085",
+"data_hora": "2018-05-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Malleco Unido",
+"visitante_id": "19203",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510078",
+"data_hora": "2018-05-06T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "Deportes Santa Cruz",
+"visitante_id": "19198",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Municipal de Puente Alto",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510089",
+"data_hora": "2018-05-06T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Magallanes",
+"mandante_id": "17363",
+"visitante": "Tomás Greig",
+"visitante_id": "19207",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal Luis Navarro Avilés",
+"cidade": "San Bernardo",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510088",
+"data_hora": "2018-05-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "San Antonio Unido",
+"visitante_id": "19206",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510080",
+"data_hora": "2018-05-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ñublense",
+"mandante_id": "7427",
+"visitante": "Fernández Vial",
+"visitante_id": "10141",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal Nelson Oyarzún Arenas",
+"cidade": "Chillán",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510103",
+"data_hora": "2018-05-06T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente de Cauquenes",
+"mandante_id": "19201",
+"visitante": "Santiago Morning",
+"visitante_id": "6073",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Miguel Alarcón Osores",
+"cidade": "Cauquene",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510077",
+"data_hora": "2018-05-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "8186",
+"visitante": "Deportes Recoleta",
+"visitante_id": "19197",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Sánchez Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510079",
+"data_hora": "2018-05-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Marcos de Arica",
+"mandante_id": "10138",
+"visitante": "Deportes Vallenar",
+"visitante_id": "19199",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Dittborn",
+"cidade": "Arica",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510083",
+"data_hora": "2018-05-16T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Santiago Morning",
+"mandante_id": "6073",
+"visitante": "Independiente de Cauquenes",
+"visitante_id": "19201",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Municipal de La Pintana",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "510084",
+"data_hora": "2018-05-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Lautaro de Buin",
+"visitante_id": "19202",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [],
+"temporada": 2018
+},
+{
+"id": "511003",
+"data_hora": "2018-06-09T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Elías Figueroa Brander",
+"cidade": "Valparaiso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Vallejos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Guerrero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Viotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Villalobos"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "511004",
+"data_hora": "2018-06-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ñublense",
+"mandante_id": "7427",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal Nelson Oyarzún Arenas",
+"cidade": "Chillán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Varas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Bascuñán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rene Bugueño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Benjamín Berrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Varas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Cabrera"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "511002",
+"data_hora": "2018-06-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Subiabre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rosas"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510995",
+"data_hora": "2018-06-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Copiapó",
+"mandante_id": "10139",
+"visitante": "Antofagasta",
+"visitante_id": "6071",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Luis Valenzuela Hermosilla",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Jérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jefferson Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vincent Salas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Lepe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Tiznado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Estigarribia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Orellana"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510998",
+"data_hora": "2018-06-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yerko Leiva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Sebastián Pol"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Cano"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Segovia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Arancibia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Jara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yeferson Soteldo"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510996",
+"data_hora": "2018-06-10T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lino Maldonado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Ibacache"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Cárdenas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Portillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Benjamín Rivera"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "511000",
+"data_hora": "2018-06-10T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Parque Municipal",
+"cidade": "Valdivia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Ábalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Jerez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eric Pino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Canio"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510997",
+"data_hora": "2018-06-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Velásquez",
+"mandante_id": "19200",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal Augusto Rodríguez",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Carrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tobías Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danko Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Dávalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Aránguiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nicolás Dávalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Méndez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Víctor Méndez"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510994",
+"data_hora": "2018-06-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Marcos de Arica",
+"mandante_id": "10138",
+"visitante": "Deportes Iquique",
+"visitante_id": "10142",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Dittborn",
+"cidade": "Arica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Gaete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Vega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Misael Cubillos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Gastón Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Ávila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"John Agüero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Torres"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Matías Ávila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Agüero"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510993",
+"data_hora": "2018-06-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Llanos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Aued"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Fuenzalida"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastían Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joao Caprile"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510999",
+"data_hora": "2018-06-12T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente de Cauquenes",
+"mandante_id": "19201",
+"visitante": "Curicó Unido",
+"visitante_id": "17365",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Miguel Alarcón Osores",
+"cidade": "Cauquene",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Zuñiga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emerson Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yashir Pinto"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Millan"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vicente Gatica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Pezoa"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510992",
+"data_hora": "2018-06-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "8186",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Francisco Sánchez Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Isaías Meneses"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Isaías Meneses"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Taribeño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "511005",
+"data_hora": "2018-06-13T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Cespedes"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Arrué"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Cubillo"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510991",
+"data_hora": "2018-06-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "San Luis",
+"visitante_id": "10143",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de Lo Barnechea",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johan Manuel Bravo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Lara"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Urquieta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Meneses"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Martinez"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510982",
+"data_hora": "2018-06-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "General Velásquez",
+"visitante_id": "19200",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura-Universidad SEK",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Misael Dávila"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Pavez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Carrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Danko Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Jaime"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Pérez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquín López"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510978",
+"data_hora": "2018-06-16T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Gaete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Céspedes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Orellana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gino Alucema"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Flavio Rojas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gino Alucema"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Oyaneder"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Flavio Rojas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Suárez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Sandoval"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristopher Mesías"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orellana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rubio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo González"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510989",
+"data_hora": "2018-06-16T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Estadio Municipal de La Pintana",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Cortés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oliver Paz Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Guerrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Campos López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Camilo Saldaña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Luna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Viotti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reiner Castro"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís García"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510981",
+"data_hora": "2018-06-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eric Pino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Arias"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510986",
+"data_hora": "2018-06-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Manríquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Pacheco"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Gutiérrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Albano Hernan Becica"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald De La Fuente"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Mencia"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510979",
+"data_hora": "2018-06-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antofagasta",
+"mandante_id": "6071",
+"visitante": "Copiapó",
+"visitante_id": "10139",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Bicentenario Calvo y Bascuñán",
+"cidade": "Antofagasta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Magaña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vincent Salas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Tiznado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Augusto Barrios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bruno Romo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomas Astaburuaga"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Romo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Forttes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Magalhaes"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510983",
+"data_hora": "2018-06-16T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Curicó Unido",
+"mandante_id": "17365",
+"visitante": "Independiente de Cauquenes",
+"visitante_id": "19201",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "La Granja",
+"cidade": "Curicó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vicente Gatica"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Millan"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Vargas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Vilches"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510984",
+"data_hora": "2018-06-16T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Giovanni Campusano"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jose Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Pinilla"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Brito"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510988",
+"data_hora": "2018-06-17T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Iquique",
+"mandante_id": "10142",
+"visitante": "San Marcos de Arica",
+"visitante_id": "10138",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Cavancha",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hans Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Gastón Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Becerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Misael Cubillos"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510987",
+"data_hora": "2018-06-17T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Huachipato-CAP Acero",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yair Bonnín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Baeza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valber Huerta"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "511001",
+"data_hora": "2018-06-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Magallanes",
+"mandante_id": "17363",
+"visitante": "Unión La Calera",
+"visitante_id": "10144",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal Luis Navarro Avilés",
+"cidade": "San Bernardo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Jara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Barroilhet"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Richard Barroilhet"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Andia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mark González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510975",
+"data_hora": "2018-06-17T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colchagua",
+"mandante_id": "19194",
+"visitante": "O'Higgins",
+"visitante_id": "6072",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jorge Silva Valenzuela",
+"cidade": "San Fernando",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Olate"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Acosta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Fernández"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510977",
+"data_hora": "2018-06-17T20:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Claro Arena",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Sanhueza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Garcia Simon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Firpo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Olivares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Axl Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Buonanotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Aued"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510976",
+"data_hora": "2018-06-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Luis",
+"mandante_id": "10143",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mosquera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Caballero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Orellana"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510980",
+"data_hora": "2018-06-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Coquimbo Unido",
+"visitante_id": "8186",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Orellana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Delgado"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510974",
+"data_hora": "2018-06-20T22:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "O'Higgins",
+"mandante_id": "6072",
+"visitante": "Colchagua",
+"visitante_id": "19194",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio El Teniente",
+"cidade": "Rancagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Acosta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Baez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fuentes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Vera"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510985",
+"data_hora": "2018-06-21T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión La Calera",
+"mandante_id": "10144",
+"visitante": "Magallanes",
+"visitante_id": "17363",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mall"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Barbieri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Barbieri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Aránguiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Thomas Jones"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "510990",
+"data_hora": "2018-06-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Monumental David Arellano",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Contreras"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Paredes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Bascuñán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Octavio Pozo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Opazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Bustamante"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Bustamante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Baeza"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516887",
+"data_hora": "2018-06-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Curicó Unido",
+"mandante_id": "17365",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "La Granja",
+"cidade": "Curicó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yerson Opazo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Jorquera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mosquera"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516886",
+"data_hora": "2018-06-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "San Marcos de Arica",
+"visitante_id": "10138",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Luna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Fernandez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Parra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastían Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Garcia Simon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Parra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Valencia"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516885",
+"data_hora": "2018-06-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro González"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Bosso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Bosso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Sánchez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ángelo Pizzorno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Aránguiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ramiro González"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516884",
+"data_hora": "2018-06-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Copiapó",
+"mandante_id": "10139",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Valenzuela Hermosilla",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Sepúlveda"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "18'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Bareiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Pucheta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yerko Urra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Jara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Pereyra"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516882",
+"data_hora": "2018-06-24T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Unión La Calera",
+"visitante_id": "10144",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Pintana",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gianluca Simeone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Saavedra"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Campos López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Césped"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Contreras"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Lizana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilson Piñones"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516883",
+"data_hora": "2018-06-24T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Ñublense",
+"visitante_id": "7427",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Oyaneder"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Gaete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Prieto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Luciano Gaete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Bustamante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Tapia"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Roberto Reyes"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516881",
+"data_hora": "2018-06-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Parque Municipal",
+"cidade": "Valdivia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Subiabre"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Aquino"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Poncet"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Orlando Gutiérrez"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Albano Hernan Becica"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Uribe"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Braulio Baeza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516880",
+"data_hora": "2018-06-24T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Colchagua",
+"visitante_id": "19194",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Red Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Yeferson Soteldo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Gómez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Pinilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Vaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Catalán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Guerra"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516896",
+"data_hora": "2018-06-30T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "Curicó Unido",
+"visitante_id": "17365",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal de Lo Barnechea",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Espinosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Meneses"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Urquieta"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yashir Pinto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Zuñiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Vargas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquin Moya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Orellana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Henríquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Byron Nieto"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516892",
+"data_hora": "2018-06-30T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura-Universidad SEK",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastian Jaime"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Aránguiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tobías Figueroa"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516899",
+"data_hora": "2018-06-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colchagua",
+"mandante_id": "19194",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Estadio El Teniente",
+"cidade": "Rancagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Isaac Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Tapia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Olate"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Baez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Vaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Seymour"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Olate"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Araya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yerko Leiva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benegas"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516897",
+"data_hora": "2018-06-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Delgado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Orlando Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Albano Hernan Becica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Grondona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eric Pino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerson Valle"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516898",
+"data_hora": "2018-06-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión La Calera",
+"mandante_id": "10144",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Lucio Fariña Fernández",
+"cidade": "Quillota",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Andia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Rosende"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Lizana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Césped"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516894",
+"data_hora": "2018-07-01T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ñublense",
+"mandante_id": "7427",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal Nelson Oyarzún Arenas",
+"cidade": "Chillán",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Octavio Pozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Luis Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristopher Mesías"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Varas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Sandoval"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodolfo González"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516893",
+"data_hora": "2018-07-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Marcos de Arica",
+"mandante_id": "10138",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Carlos Dittborn",
+"cidade": "Arica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Firpo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Garcia Simon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Pérez"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "516895",
+"data_hora": "2018-07-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Copiapó",
+"visitante_id": "10139",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Huachipato-CAP Acero",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Jaime"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sergio Bareiro"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Bizama"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yerko Urra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Germán Estigarribia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Magaña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Pucheta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jefferson Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Sepúlveda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lukas Soza"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518961",
+"data_hora": "2018-07-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angelo Araos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Álvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Isaac Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Garcia Simon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angelo Araos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Olivares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Sanhueza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arturo Sanhueza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Jara"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518960",
+"data_hora": "2018-07-08T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Valdivia",
+"mandante_id": "18325",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Parque Municipal",
+"cidade": "Valdivia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mosquera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Urquieta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bayron Oyarzo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Robert Moewes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Muñoz"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518959",
+"data_hora": "2018-07-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lino Maldonado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Guerrero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"José Portillo"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518958",
+"data_hora": "2018-07-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristián Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Pereyra"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Jopia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518956",
+"data_hora": "2018-07-14T00:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "Deportes Valdivia",
+"visitante_id": "18325",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal de Lo Barnechea",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Antonio Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Urquieta"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Antonio Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bayron Oyarzo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Rencoret"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhon Jorquera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Lanaro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Henríquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Wiemberg"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Opazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bayron Oyarzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Meneses"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Riveros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "102'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Muñoz"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518954",
+"data_hora": "2018-07-14T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Huachipato-CAP Acero",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Pereyra"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Matías Campos"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Parraguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Baeza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518957",
+"data_hora": "2018-07-14T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Zorros del Desierto",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jara"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Benegas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Firpo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Luna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Rodriguez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Sanhueza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jean Beausejour"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angelo Araos"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "518955",
+"data_hora": "2018-07-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de La Pintana",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristopher Mesías"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oliver Paz Benítez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Juan Contreras"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oliver Paz Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Lizana"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "520836",
+"data_hora": "2018-09-08T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Nacional Julio Martínez Prádanos",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Cortés"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Jara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yeferson Soteldo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Rodríguez"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "520835",
+"data_hora": "2018-09-08T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Barnechea",
+"visitante_id": "17364",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Bottinelli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Mosquera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Darío Bottinelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Hernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Crovetto"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Manuel Fernández"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "520833",
+"data_hora": "2018-10-12T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barnechea",
+"mandante_id": "17364",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de Lo Barnechea",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Tapia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Martinez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Taribeño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Muñoz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Orellana"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "520834",
+"data_hora": "2018-10-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Municipal de La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Espinoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gutiérrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Guerra"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "527856",
+"data_hora": "2018-11-10T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Municipal de La Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Diaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Farías"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Torres"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nicolás Diaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Bosso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Vallejos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+}
+],
+"temporada": 2018
+},
+{
+"id": "527855",
+"data_hora": "2018-11-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Municipal de La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Campos López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Ledezma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Labrin Candia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Cortés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Jimenez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vallejos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Jimenez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Jeraldino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Pérez"
+]
+}
+],
+"temporada": 2018
+}
+]

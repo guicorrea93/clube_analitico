@@ -79,4 +79,8 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/chi-c
 - 2024: fases regionais por zona (Norte, Centro Norte, Centro Sur, Sur); os campeões zonais jogam as semifinais
 - 2025: das oitavas de final em diante pela RSSSF; fase zonal (8 grupos) pelo anexo da Wikipédia em espanhol
 
-**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz).
+**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões; público e estádio só nos jogos ligados à ESPN (a RSSSF não traz).
+
+**ESPN:** jogos ligados a um jogo da ESPN (mesmos clubes, mando e placar; data até 1 dia), de onde vêm hora, estádio, cidade e público; 225 jogos sem data na RSSSF ou na Wikipédia ganharam a da ESPN; 40 datas e 27 mandos trocados pelos da ESPN (o estádio confirma; nota na observação). Por edição: 2014/15: 120 de 125; 2015: 125 de 125; 2016: 42 de 56; 2017: 58 de 61; 2018: 90 de 94; 2019/20: 73 de 75; 2021: 68 de 73; 2022: 84 de 91; 2023: 87 de 88; 2024: 106 de 119; 2025: 125 de 125.
+
+**Nomes da ESPN sem clube (esses jogos não casam):** Barcelona Copiapó (1), Condor de Pichidegua (1), Constitución (1), Dante Imperial (1), Ferroviarios Monte Águila (2), Miramar Misiones (2), Municipal Salamanca (6), Tricolor de Paine (1), Unión Iquique (1), Vicente Rosales (3)

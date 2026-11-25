@@ -16,6 +16,7 @@ Uso: python coleta/arg-copa/importar.py
 from __future__ import annotations
 
 import sys
+from datetime import timedelta
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
@@ -27,7 +28,7 @@ import autores  # noqa: E402  (o do arg-1)
 import ler_rsssf  # noqa: E402  (o do arg-1: páginas em data/coleta/arg-1/rsssf)
 import rsssf_sul  # noqa: E402
 from clubes_copa import CLUBES, clube  # noqa: E402
-from copa_rsssf import Copa, EdicaoCopa, importar  # noqa: E402
+from copa_rsssf import Copa, EdicaoCopa, espn_arquivos, importar  # noqa: E402
 
 SLUG = "arg-copa"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
@@ -135,7 +136,9 @@ CAMPEOES_WIKI = {"1969": "Boca Juniors", "2011/12": "Boca Juniors", "2012/13": "
 
 COPA = Copa(slug=SLUG, competicao=COMPETICAO, edicoes=EDICOES, fases=FASES, linhas=linhas, clube=clube, clubes=CLUBES,
             autores=autores, campeoes_wiki=CAMPEOES_WIKI, fonte_pagina="https://www.rsssf.org/tablesa/{pagina}.html",
-            trocas=[(r"^\[(\w{3} \d{1,2}),? (?:Mo|Tu|We|Th|Fr|Sa|Su)\]\s*$", r"[\1]")])   # "[Mar 18 We]" (arg2015)
+            trocas=[(r"^\[(\w{3} \d{1,2}),? (?:Mo|Tu|We|Th|Fr|Sa|Su)\]\s*$", r"[\1]")],   # "[Mar 18 We]" (arg2015)
+            # D5b: hora, estádio, cidade e público da ESPN (arg.copa, 2011 em diante); Argentina UTC-3
+            espn=espn_arquivos(SLUG, "arg.copa"), fuso=lambda utc: utc - timedelta(hours=3))
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")

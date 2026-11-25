@@ -1,0 +1,5255 @@
+[
+{
+"id": "659127",
+"data_hora": "2023-01-24T22:40Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Patronato",
+"mandante_id": "10374",
+"visitante": "Gimnasia y Tiro (Salta)",
+"visitante_id": "10743",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659118",
+"data_hora": "2023-02-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Ituzaingó",
+"visitante_id": "10105",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Juan Carmelo Zerillo (El Bosque)",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659123",
+"data_hora": "2023-02-02T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Yupanqui",
+"visitante_id": "10115",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659119",
+"data_hora": "2023-02-08T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Atlético Independiente (Chivilcoy)",
+"visitante_id": "13930",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659136",
+"data_hora": "2023-02-09T00:15Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Centro Español",
+"visitante_id": "10101",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nuevo Francisco Urbano",
+"cidade": "Morón",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659120",
+"data_hora": "2023-02-22T20:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Excursionistas",
+"visitante_id": "10054",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Norberto Tomaghello",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659126",
+"data_hora": "2023-02-22T22:20Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Newell's Old Boys",
+"mandante_id": "14",
+"visitante": "Claypole",
+"visitante_id": "10102",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659129",
+"data_hora": "2023-02-23T00:40Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "San Martín de Formosa",
+"visitante_id": "18328",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario de Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659134",
+"data_hora": "2023-03-08T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Sarmiento (Junín)",
+"mandante_id": "10158",
+"visitante": "Chaco For Ever",
+"visitante_id": "11963",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659130",
+"data_hora": "2023-03-09T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Racing (Córdoba)",
+"visitante_id": "19145",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Único Madre de Ciudades",
+"cidade": "Santiago del Estero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Cavagnero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro González Pírez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Simón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Coronel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Beltrán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcio Gómez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro González Pírez"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "659138",
+"data_hora": "2023-03-15T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "Deportivo Armenio",
+"visitante_id": "10152",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Juan Carmelo Zerillo (El Bosque)",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659132",
+"data_hora": "2023-03-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Sarmiento (Resistencia)",
+"visitante_id": "19146",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659115",
+"data_hora": "2023-03-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Olimpo",
+"visitante_id": "2636",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario de Chaco",
+"cidade": "Resistencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Sández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Perotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Cevasco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nadir Hadad"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "659109",
+"data_hora": "2023-03-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Ciudad de Bolívar",
+"visitante_id": "21799",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ciudad de La Plata",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659133",
+"data_hora": "2023-04-19T19:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Martín (Tucumán)",
+"mandante_id": "17814",
+"visitante": "Deportivo Morón",
+"visitante_id": "10154",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659114",
+"data_hora": "2023-04-26T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Independiente Rivadavia",
+"visitante_id": "9744",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Augusto Mercado Luna (Estadio de Vargas)",
+"cidade": "La Rioja",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659117",
+"data_hora": "2023-04-27T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Colegiales",
+"visitante_id": "10149",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659110",
+"data_hora": "2023-05-02T20:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Villa Mitre",
+"visitante_id": "11931",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659128",
+"data_hora": "2023-05-03T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7764",
+"visitante": "Defensores de Belgrano",
+"visitante_id": "10151",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659137",
+"data_hora": "2023-05-09T23:05Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión (Santa Fe)",
+"mandante_id": "20",
+"visitante": "Almagro",
+"visitante_id": "2",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659113",
+"data_hora": "2023-05-11T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barracas Central",
+"mandante_id": "10060",
+"visitante": "Estudiantes (Buenos Aires)",
+"visitante_id": "17352",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ciudad de Vicente López",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659125",
+"data_hora": "2023-05-11T23:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "Sol de Mayo (Viedma)",
+"visitante_id": "13923",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659111",
+"data_hora": "2023-05-16T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Estudiantes de Río Cuarto",
+"visitante_id": "19685",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659121",
+"data_hora": "2023-05-18T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Gimnasia (Mendoza)",
+"mandante_id": "11972",
+"visitante": "All Boys",
+"visitante_id": "9786",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659116",
+"data_hora": "2023-05-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Central Córdoba (Santiago del Estero)",
+"mandante_id": "11989",
+"visitante": "Comunicaciones",
+"visitante_id": "14074",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Carlos Augusto Mercado Luna (Estadio de Vargas)",
+"cidade": "La Rioja",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659131",
+"data_hora": "2023-05-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Central Norte",
+"visitante_id": "11993",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Único de San Nicolás",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659135",
+"data_hora": "2023-06-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Chacarita Juniors",
+"visitante_id": "6",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Augusto Mercado Luna (Estadio de Vargas)",
+"cidade": "La Rioja",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659139",
+"data_hora": "2023-06-07T22:40Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vélez Sarsfield",
+"mandante_id": "21",
+"visitante": "Deportivo Español",
+"visitante_id": "17701",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659124",
+"data_hora": "2023-06-08T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "Deportivo Riestra",
+"visitante_id": "17702",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "23 de Agosto",
+"cidade": "San Salvador de Jujuy",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659108",
+"data_hora": "2023-06-14T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aldosivi",
+"mandante_id": "9739",
+"visitante": "San Martín (San Juan)",
+"visitante_id": "7845",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Caseros",
+"cidade": "Caseros",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659112",
+"data_hora": "2023-06-19T20:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "Argentino de Merlo",
+"visitante_id": "17700",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Diego Armando Maradona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "659122",
+"data_hora": "2023-06-27T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Defensores Unidos",
+"visitante_id": "17697",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [],
+"temporada": 2023
+},
+{
+"id": "671692",
+"data_hora": "2023-07-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Centro Español",
+"visitante_id": "10101",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Carmelo Zerillo (El Bosque)",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Rosas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Gayoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Gutiérrez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ezequiel Gayoso"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671684",
+"data_hora": "2023-07-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "San Martín (Tucumán)",
+"visitante_id": "17814",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Avilés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Piovi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Molinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emanuel Dening"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Dening"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Véron"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Meritello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Orellana"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671698",
+"data_hora": "2023-07-20T16:45Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "San Martín (San Juan)",
+"mandante_id": "7845",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Grahl"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Gordillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenny Lobato"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Pelaitay"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Heredia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Cabrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Vega"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Donato"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gianluca Prestianni"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Luduena"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abiel Osorio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Regalado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Monllor"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671699",
+"data_hora": "2023-07-20T19:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Villa Mitre",
+"mandante_id": "11931",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Manchafico"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Conechny"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Abrego"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Mancinelli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Lopez"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671688",
+"data_hora": "2023-07-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barracas Central",
+"mandante_id": "10060",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Único Madre de Ciudades",
+"cidade": "Santiago del Estero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Frank Fabra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Puig"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Insúa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Advíncula"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Rolón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Puig"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Peinipil"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671687",
+"data_hora": "2023-07-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Garro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Garro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Solari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paulo Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Pérez"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671695",
+"data_hora": "2023-07-25T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "All Boys",
+"mandante_id": "9786",
+"visitante": "Estudiantes de La Plata",
+"visitante_id": "8",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Zuqui"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Gallucci"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eros Mancuso"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671697",
+"data_hora": "2023-07-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Patronato",
+"mandante_id": "10374",
+"visitante": "Argentinos Juniors",
+"visitante_id": "3",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Volley",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Verón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrera"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Ávalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Cobos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Di Cesare"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabricio Domínguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Ávalos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Russo"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671685",
+"data_hora": "2023-07-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Excursionistas",
+"mandante_id": "10054",
+"visitante": "Almagro",
+"visitante_id": "2",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Nuevo Francisco Urbano",
+"cidade": "Morón",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luca Falabella"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Sivetti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Monzon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ferreyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Fernández"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671689",
+"data_hora": "2023-07-27T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Platense",
+"visitante_id": "7764",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Vázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Leguizamon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adam Bareiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vicente Taborda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Maroni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Martegani"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Rossi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rossi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Martegani"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Servetto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Campi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sasha Marcich"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adam Bareiro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "102'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Batalla"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671693",
+"data_hora": "2023-08-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Chaco For Ever",
+"mandante_id": "11963",
+"visitante": "Rosario Central",
+"visitante_id": "17",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gino Barbieri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yair Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Bruno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Mallo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mateo Maccari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Malcorra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Silva"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Dellarossa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Fernández"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671694",
+"data_hora": "2023-08-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "Estudiantes de Río Cuarto",
+"visitante_id": "19685",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Diego Armando Maradona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Talpone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Arturia"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671696",
+"data_hora": "2023-08-04T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Claypole",
+"visitante_id": "10102",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Volley",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Barrea"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Rébola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Garzino"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671690",
+"data_hora": "2023-08-09T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "Huracán",
+"visitante_id": "10",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Volley",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Mazzantti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Cuello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Watson"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Alarcón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Giuliano Cerato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Gauto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Cordero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adrián Martínez"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671686",
+"data_hora": "2023-08-15T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Lanús",
+"visitante_id": "12",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Volley",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Galván"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Stefano Moreyra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Cáceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Baldomero Perlaza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Batallini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Loaiza"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "671691",
+"data_hora": "2023-08-16T00:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Central Córdoba (Santiago del Estero)",
+"visitante_id": "11989",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Blasi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Maciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Ortíz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ayrton Costa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Pozzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Pittón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Cauteruccio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Canto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ayrton Costa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Valdez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Giménez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Angelini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Elizalde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Ángel Rodríguez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Báez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Mansilla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Pozzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "101'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin López"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685756",
+"data_hora": "2023-08-23T17:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Villa Mitre",
+"mandante_id": "11931",
+"visitante": "Chaco For Ever",
+"visitante_id": "11963",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Centenario Ciudad de Quilmes",
+"cidade": "Quilmes, Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Monteseirín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Manchafico"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Allende"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Romero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Mancinelli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Bruno"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685757",
+"data_hora": "2023-08-30T17:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Colón (Santa Fe)",
+"visitante_id": "7",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Galván"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rubén Botta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nahuel Bustos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Benavídez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Sequeira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Garcés"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Toledo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahuel Bustos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eric Meza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Benavídez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Catalán"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685762",
+"data_hora": "2023-08-30T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "San Martín (San Juan)",
+"visitante_id": "7845",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "El Gigante de Alberdi",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Arturia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manuel Llano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Vega"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Bontempo"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685759",
+"data_hora": "2023-08-30T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Belgrano (Córdoba)",
+"visitante_id": "4",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Schiappacase"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Maroni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Troilo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Malcom Braida"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ulises Sánchez"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685761",
+"data_hora": "2023-09-07T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Estudiantes de Río Cuarto",
+"mandante_id": "19685",
+"visitante": "Defensa y Justicia",
+"visitante_id": "8950",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Brigadier Gral. Estanislao López",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Talpone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Barbona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Ramos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mateo Bajamich"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Pratto"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nicolás Talpone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Belluschi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Pavón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Cardona"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Maffini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Ríos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Valiente"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Barbona"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Flores"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Sant'Anna"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Leyes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Pratto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Reynaga"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685758",
+"data_hora": "2023-09-09T18:15Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Estudiantes de La Plata",
+"visitante_id": "8",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Núñez"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas González"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Ascacibar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier Osatchuk"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Federico Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Mancuello"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sosa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Benedetti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eros Mancuso"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685760",
+"data_hora": "2023-09-09T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Huracán",
+"visitante_id": "10",
+"gols_mandante": "3",
+"gols_visitante": "5",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrizo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Souto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Oroz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrizo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Fertoli"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maxi Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maxi Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Fattori"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Pussetto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Gómez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Pizarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Reniero"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "685763",
+"data_hora": "2023-09-10T20:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Almagro",
+"mandante_id": "2",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Carlos Augusto Mercado Luna (Estadio de Vargas)",
+"cidade": "La Rioja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Bullaude"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Blondel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ferreyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Silvera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Maidana"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Maidana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Exequiel Zeballos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ferreyra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Achucarro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Figal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Conechny"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Rojo"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "688150",
+"data_hora": "2023-10-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "San Martín (San Juan)",
+"visitante_id": "7845",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Gilberto Funes",
+"cidade": "San Luis",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Molina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Girotti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Arturia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Blanco"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "688152",
+"data_hora": "2023-10-12T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Chaco For Ever",
+"mandante_id": "11963",
+"visitante": "Defensa y Justicia",
+"visitante_id": "8950",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Dellarossa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Cardona"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mateo Maccari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Togni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Allende"
+]
+},
+{
+"tipo": "Goal - Volley",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Dellarossa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Nievas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Villagra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomás Cardona"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Allende"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Iritier"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castellani"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Barbona"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Monteseirín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "97'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Pratto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "98'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mauricio Bayk"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "99'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brian Nievas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "100'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Soto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "102'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Tripichio"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "688151",
+"data_hora": "2023-10-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Estudiantes de La Plata",
+"visitante_id": "8",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Marcelo Bielsa",
+"cidade": "Rosario",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Souto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Carrizo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Ascacibar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Benjamín Rollheiser"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Tobio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Zuqui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabio Pereyra"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "688149",
+"data_hora": "2023-10-16T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Talleres (Córdoba)",
+"mandante_id": "19",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Malvinas Argentinas (Mendoza)",
+"cidade": "Mendoza",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Suarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Benavídez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Figal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edinson Cavani"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Figal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Barrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edinson Cavani"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Barco"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "689365",
+"data_hora": "2023-11-23T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Estudiantes de La Plata",
+"visitante_id": "8",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Carrillo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Marcelo Saracchi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Zaid Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Merentiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Figal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Zuqui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Valentín Barco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Núñez"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "689366",
+"data_hora": "2023-11-24T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Carmelo Zerillo (El Bosque)",
+"cidade": "La Plata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Agustín Sant'Anna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Solari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adam Bareiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Hernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Pratto"
+]
+}
+],
+"temporada": 2023
+},
+{
+"id": "690338",
+"data_hora": "2023-12-14T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Defensa y Justicia",
+"visitante_id": "8950",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Solari"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Carrillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guido Carrillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eros Mancuso"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alexis Soto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Piatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Togni"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Pablo Piatti"
+]
+}
+],
+"temporada": 2023
+}
+]

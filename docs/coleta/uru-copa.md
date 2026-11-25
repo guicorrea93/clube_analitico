@@ -18,4 +18,4 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/uru-c
 - 2024: 32 clubes: 16 profissionais, 6 amadores da AUF e 10 do interior (OFI); sem prorrogação
 - 2025: 32 clubes: 16 profissionais, 6 amadores da AUF e 10 do interior (OFI); sem prorrogação
 
-**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões, público e estádio (a RSSSF não traz).
+**Regras do pacote:** W.O. com o placar dado e `resultado_especial` "wo"; pênaltis nos campos de pênaltis (o jogo fica empatado); campeão = vencedor da final (agregado, depois pênaltis), conferido com a Wikipédia; classificação calculada (fase alcançada, pontos, vitórias, saldo, gols pró); artilheiros pela contagem dos gols com autor quando ao menos 95% dos gols têm autor. Sem cartões; público e estádio só nos jogos ligados à ESPN (a RSSSF não traz).

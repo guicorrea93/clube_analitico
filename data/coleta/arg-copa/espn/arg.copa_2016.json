@@ -1,0 +1,4239 @@
+[
+{
+"id": "448095",
+"data_hora": "2016-05-04T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colón (Santa Fe)",
+"mandante_id": "7",
+"visitante": "Almagro",
+"visitante_id": "2",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448094",
+"data_hora": "2016-05-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "San Telmo",
+"visitante_id": "10157",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448093",
+"data_hora": "2016-05-05T18:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Aldosivi",
+"mandante_id": "9739",
+"visitante": "Deportivo Morón",
+"visitante_id": "10154",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448456",
+"data_hora": "2016-05-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Temperley",
+"mandante_id": "10162",
+"visitante": "Estudiantes (San Luis)",
+"visitante_id": "13935",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448455",
+"data_hora": "2016-05-12T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vélez Sarsfield",
+"mandante_id": "21",
+"visitante": "Sportivo Barracas",
+"visitante_id": "17706",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448441",
+"data_hora": "2016-05-12T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Newell's Old Boys",
+"mandante_id": "14",
+"visitante": "Sansinena",
+"visitante_id": "18259",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448632",
+"data_hora": "2016-05-18T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión (Santa Fe)",
+"mandante_id": "20",
+"visitante": "At. Paraná",
+"visitante_id": "11950",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nuevo Monumental",
+"cidade": "Rafaela",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448631",
+"data_hora": "2016-05-18T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "Deportivo Madryn",
+"visitante_id": "18260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448630",
+"data_hora": "2016-05-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Martín (San Juan)",
+"mandante_id": "7845",
+"visitante": "Instituto (Córdoba)",
+"visitante_id": "2975",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448751",
+"data_hora": "2016-05-25T18:40Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Tigre",
+"mandante_id": "7767",
+"visitante": "Douglas Haig",
+"visitante_id": "11942",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448750",
+"data_hora": "2016-05-25T21:40Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Gimnasia y Tiro (Salta)",
+"visitante_id": "10743",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448749",
+"data_hora": "2016-05-26T18:40Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Arsenal Sarandi",
+"mandante_id": "2635",
+"visitante": "Talleres de Remedios",
+"visitante_id": "10161",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448748",
+"data_hora": "2016-05-27T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "Defensores de Belgrano (Villa Ramallo)",
+"visitante_id": "17749",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448898",
+"data_hora": "2016-06-01T18:40Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Olimpo",
+"mandante_id": "2636",
+"visitante": "Gimnasia y Esgrima (Jujuy)",
+"visitante_id": "5263",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448897",
+"data_hora": "2016-06-01T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Talleres (Córdoba)",
+"visitante_id": "19",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "448896",
+"data_hora": "2016-06-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Rafaela",
+"mandante_id": "9747",
+"visitante": "Ferro Carril Oeste",
+"visitante_id": "9743",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "451695",
+"data_hora": "2016-06-23T22:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Crucero del Norte",
+"mandante_id": "11958",
+"visitante": "Juventud Unida (Gualeguaychú)",
+"visitante_id": "11948",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "452674",
+"data_hora": "2016-06-30T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boca Juniors",
+"mandante_id": "5",
+"visitante": "Güemes",
+"visitante_id": "18284",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "458111",
+"data_hora": "2016-07-10T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Tucumán",
+"mandante_id": "9785",
+"visitante": "Defensores de Belgrano",
+"visitante_id": "10151",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "460246",
+"data_hora": "2016-07-15T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Villa Mitre",
+"visitante_id": "11931",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "458697",
+"data_hora": "2016-07-16T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de La Plata",
+"mandante_id": "8",
+"visitante": "Atlas",
+"visitante_id": "10099",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "458696",
+"data_hora": "2016-07-19T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huracán",
+"mandante_id": "10",
+"visitante": "Central Córdoba (Rosario)",
+"visitante_id": "10148",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "458695",
+"data_hora": "2016-07-19T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "Estudiantes (Buenos Aires)",
+"visitante_id": "17352",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "460245",
+"data_hora": "2016-07-20T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "San Martín de Formosa",
+"visitante_id": "18328",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "458694",
+"data_hora": "2016-07-22T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Patronato",
+"mandante_id": "10374",
+"visitante": "Villa Dálmine",
+"visitante_id": "10064",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Eva Perón",
+"cidade": "Junin",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "460919",
+"data_hora": "2016-07-22T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Quilmes",
+"mandante_id": "2741",
+"visitante": "Unión Aconquija",
+"visitante_id": "15045",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "460636",
+"data_hora": "2016-07-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sarmiento (Junín)",
+"mandante_id": "10158",
+"visitante": "Los Andes",
+"visitante_id": "13",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "460635",
+"data_hora": "2016-07-27T21:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Argentinos Juniors",
+"mandante_id": "3",
+"visitante": "Deportivo Laferrere",
+"visitante_id": "17695",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "460634",
+"data_hora": "2016-07-28T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Brown de Adrogué",
+"visitante_id": "10147",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "451694",
+"data_hora": "2016-07-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nueva Chicago",
+"mandante_id": "236",
+"visitante": "Santamarina",
+"visitante_id": "10996",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Florencio Solá",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "461631",
+"data_hora": "2016-07-30T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San Lorenzo",
+"mandante_id": "18",
+"visitante": "Unión (Sunchales)",
+"visitante_id": "11966",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "461630",
+"data_hora": "2016-07-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Sportivo Rivadavia",
+"visitante_id": "18353",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [],
+"temporada": 2016
+},
+{
+"id": "462150",
+"data_hora": "2016-08-02T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "Patronato",
+"visitante_id": "10374",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Furios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Guzmán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Abel Masuero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Telechea"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Geminiani"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Garrido"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Aguirre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arnaldo González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sand"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "462963",
+"data_hora": "2016-08-07T16:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Banfield",
+"mandante_id": "235",
+"visitante": "Godoy Cruz Antonio Tomba",
+"visitante_id": "6756",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Bonacorzo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Andrada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Erviti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Silva"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "462962",
+"data_hora": "2016-08-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Douglas Haig",
+"mandante_id": "11942",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Blandi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Bazán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Caruzzo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Angeleri"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "462961",
+"data_hora": "2016-08-07T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Estudiantes (San Luis)",
+"visitante_id": "13935",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Moreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Biela"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Montiel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jeison Murillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Mosset"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Alberto Vallejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Martínez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "462960",
+"data_hora": "2016-08-08T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente",
+"mandante_id": "11",
+"visitante": "Defensa y Justicia",
+"visitante_id": "8950",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Jerez Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Germán Denis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Ríos"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Andrés Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Barco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Arias"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "462959",
+"data_hora": "2016-08-10T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Newell's Old Boys",
+"mandante_id": "14",
+"visitante": "Deportivo Morón",
+"visitante_id": "10154",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emiliano Mayola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nehuén Paz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Advíncula"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Toledo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Minici"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier Rossi"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "462958",
+"data_hora": "2016-08-11T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensores de Belgrano",
+"mandante_id": "10151",
+"visitante": "Arsenal Sarandi",
+"visitante_id": "2635",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Alfredo Beranger",
+"cidade": "Temperley, Pcia. de Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Corvalán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Buono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Buono"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Bellocq"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Vella"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Fragapane"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Renzo Peréz"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "463817",
+"data_hora": "2016-08-12T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Aconquija",
+"mandante_id": "15045",
+"visitante": "Unión (Santa Fe)",
+"visitante_id": "20",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Presbítero Bartolomé Grella",
+"cidade": "Parana",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilson Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cabral"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Britez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Pereyra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Gamba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dardo Espeche"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Pittón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Acevedo"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "463816",
+"data_hora": "2016-08-13T01:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Huracán",
+"visitante_id": "10",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauro Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Aveldaño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Mancinelli"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Bogado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Nervo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Renzo Saravia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Araujo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mauro Bogado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Lema"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "463815",
+"data_hora": "2016-08-13T19:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Los Andes",
+"mandante_id": "13",
+"visitante": "Estudiantes de La Plata",
+"visitante_id": "8",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Viatri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Brítez Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter García"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Auzqui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Israel Damonte"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Walter García"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Rodríguez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "463960",
+"data_hora": "2016-08-16T21:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Juventud Unida (Gualeguaychú)",
+"mandante_id": "11948",
+"visitante": "Vélez Sarsfield",
+"visitante_id": "21",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Robertone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marchesini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Pavone"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alfredo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rubén Piaggio"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "463959",
+"data_hora": "2016-08-18T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Instituto (Córdoba)",
+"mandante_id": "2975",
+"visitante": "Gimnasia La Plata",
+"visitante_id": "9",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Vegetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Carrera"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "464202",
+"data_hora": "2016-08-23T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santamarina",
+"mandante_id": "10996",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael Pierce"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martin Aguirre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Michel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Pavón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Piñero"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "464201",
+"data_hora": "2016-08-24T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Olimpo",
+"visitante_id": "2636",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor López"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emanuel Insúa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Villanueva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emanuel Insúa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julián Fernández"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Emanuel Insúa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lautaro Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Coniglio"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "464422",
+"data_hora": "2016-08-31T18:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Deportivo Laferrere",
+"mandante_id": "17695",
+"visitante": "Almagro",
+"visitante_id": "2",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Sardella"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arturo Ordano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Lezcano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Altamirano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Mallemaci"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "464423",
+"data_hora": "2016-08-31T22:30Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Atletico Rafaela",
+"mandante_id": "9747",
+"visitante": "Rosario Central",
+"visitante_id": "17",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "15 de Abril",
+"cidade": "Rosario, Santa Fe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Bordagaray"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robin Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mathias Abero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Luna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Robin Ramirez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466654",
+"data_hora": "2016-09-03T19:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Unión (Santa Fe)",
+"mandante_id": "20",
+"visitante": "Estudiantes de La Plata",
+"visitante_id": "8",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Julio Humberto Grondona",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio Cavallaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Viatri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nahuel Zárate"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Acevedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Rolle"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Godoy"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466653",
+"data_hora": "2016-09-03T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensa y Justicia",
+"mandante_id": "8950",
+"visitante": "Belgrano (Córdoba)",
+"visitante_id": "4",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Bieler"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cruz Kaprof"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Bieler"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Bareiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Álvarez Suarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Álvarez Suarez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466829",
+"data_hora": "2016-09-15T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Almagro",
+"mandante_id": "2",
+"visitante": "Juventud Unida (Gualeguaychú)",
+"visitante_id": "11948",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Chávez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Áex Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Monasterio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pereyra"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466860",
+"data_hora": "2016-09-21T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Morón",
+"mandante_id": "10154",
+"visitante": "Rosario Central",
+"visitante_id": "17",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Minici"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emiliano Mayola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Montoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ruben"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466828",
+"data_hora": "2016-09-22T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Arsenal Sarandi",
+"visitante_id": "2635",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Vella"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Bellocq"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467047",
+"data_hora": "2016-09-29T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Lanús",
+"mandante_id": "12",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "José María Minella",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gino Peruzzi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Vergini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Tevez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Braghieri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Tevez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roman Martinez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467560",
+"data_hora": "2016-10-06T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Juventud Unida (Gualeguaychú)",
+"visitante_id": "11948",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Álvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rubén Piaggio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Bieler"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Bolatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marchesini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Javier Velazquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Espíndola"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467048",
+"data_hora": "2016-10-13T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Godoy Cruz Antonio Tomba",
+"mandante_id": "6756",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Cauteruccio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Belluschi"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Viera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jaime Ayoví"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "466859",
+"data_hora": "2016-10-20T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Racing Club",
+"mandante_id": "15",
+"visitante": "Gimnasia La Plata",
+"visitante_id": "9",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ciudad de Lanús",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Imperiale"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastian Gorga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastian Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Coronel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dardo Miloc"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467559",
+"data_hora": "2016-10-28T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Unión (Santa Fe)",
+"visitante_id": "20",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "José María Minella",
+"cidade": "Buenos Aires",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Driussi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Villar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Sanchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Andrade"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nereo Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Acevedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Casco"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquin Arzura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emanuel Britez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Emanuel Britez"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467558",
+"data_hora": "2016-11-03T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rosario Central",
+"mandante_id": "17",
+"visitante": "Boca Juniors",
+"visitante_id": "5",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Torsiglieri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Pavón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Victor Salazar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernán Menosse"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Colman"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Benedetto"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "467920",
+"data_hora": "2016-11-18T00:10Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Gimnasia La Plata",
+"mandante_id": "9",
+"visitante": "San Lorenzo",
+"visitante_id": "18",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Padre Ernesto Martearena",
+"cidade": "Salta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Ibáñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Angeleri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franco Mussis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Licht"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Oreja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Carrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Belluschi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Coronel"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Díaz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Maximiliano Coronel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Ibáñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Caruzzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Licht"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Belluschi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Lobos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Carrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "95'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Caruzzo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "96'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Guanini"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468320",
+"data_hora": "2016-12-01T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Belgrano (Córdoba)",
+"mandante_id": "4",
+"visitante": "Rosario Central",
+"visitante_id": "17",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Don Carlos Antonio Romero",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Olave"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Teófilo Gutiérrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Lema"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Giovani Lo Celso"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Guillermo Farré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Bieler"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Álvarez Suarez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ruben"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Colman"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Montoya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Montoya"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468562",
+"data_hora": "2016-12-02T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Gimnasia La Plata",
+"visitante_id": "9",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "San Juan del Bicentenario",
+"cidade": "San Juan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Carrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Driussi"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+}
+],
+"temporada": 2016
+},
+{
+"id": "468782",
+"data_hora": "2016-12-16T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "16",
+"visitante": "Rosario Central",
+"visitante_id": "17",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Mario Alberto Kempes",
+"cidade": "Córdoba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Musto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dylan Gissi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Musto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ruben"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Ruben"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Andrés D'Alessandro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Olivera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jonathan Maidana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ruben"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Alario"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Alonso"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Marco Ruben"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Montoya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Torsiglieri"
+]
+}
+],
+"temporada": 2016
+}
+]
