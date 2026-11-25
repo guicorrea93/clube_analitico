@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 379; **artilheiros:** 34 temporadas com artilheiro (46 linhas, com empates).
 - **Classificação final:** 39 temporadas; **rodada a rodada:** 0 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2117 linhas.
-- **No banco (`db/futebol.db`):** sim (36 edições, 8123 jogos).
+- **No banco (`db/futebol.db`):** sim (39 edições, 8705 jogos).
 - **Observação da competição:** Inclui a Taça de Bronze (1981) e, como edições não oficiais (coluna oficial = não em edicoes.csv; decisão D-10), 1987 (Módulos Azul e Branco da Copa União) e 2000 (Módulos Verde e Branco da Copa João Havelange), que a CBF, a RSSSF e a Wikipédia não contam como Série C.
 
 ## 2. Fontes e regras

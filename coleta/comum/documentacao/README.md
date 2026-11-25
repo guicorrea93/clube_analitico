@@ -6,12 +6,13 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Tabelas ok / div. | No banco | Pendências | Ficha |
 |---|---|---|---|---|---|---|---|---|---|
-| Campeonato Brasileiro Série C | 39 (1981–2026) | 8705 | 6051 | 0 | 379 | 418 / 30 | sim (36 edições, 8123 jogos) | 2 | [bra-serie-c](bra-serie-c.md) |
+| Campeonato Brasileiro Série C | 39 (1981–2026) | 8705 | 6051 | 0 | 379 | 418 / 30 | sim (39 edições, 8705 jogos) | 2 | [bra-serie-c](bra-serie-c.md) |
 | Campeonato Brasileiro Série D | 18 (2009–2026) | 6032 | 11227 | 0 | 333 | 431 / 4 | sim (18 edições, 6032 jogos) | 2 | [bra-serie-d](bra-serie-d.md) |
 | Copa do Brasil | 37 (1989–2025) | 4010 | 5764 | 0 | 399 | 61 / 0 | sim (37 edições, 4010 jogos) | 4 | [bra-copa-do-brasil](bra-copa-do-brasil.md) |
 | Campeonato Paulista | 135 (1902–2026) | 21849 | 6405 | 0 | 112 | 222 / 120 | sim (135 edições, 21849 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
 | Campeonato Paulista Série A2 | 80 (1947–2026) | 9214 | 4526 | 0 | 184 | 134 / 31 | sim (80 edições, 9214 jogos) | 4 | [bra-sp-2](bra-sp-2.md) |
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 3 | [bra-rj-1](bra-rj-1.md) |
+| Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | não | 4 | [bra-mg-1](bra-mg-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -35,6 +36,10 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-rj-1:** Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
 - **bra-rj-1:** 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - **bra-rj-1:** Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.
+- **bra-mg-1:** 198 tabelas divergentes a explicar no relatório. Boa parte não é erro de jogo: a tabela publicada conta o W.O. com gols (D-15: sem gols), traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma (RSSSF e ogol com os mesmos placares).
+- **bra-mg-1:** Vices em que as fontes discordam: 1934 (pacote Tupynambás, que perdeu a final estadual; RSSSF Palestra Itália; Wikipédia Tupynambás no estadual e Atlético na cidade), 1942 (RSSSF América; Wikipédia e pacote Palestra Mineiro, o Cruzeiro) e 1950 (RSSSF Cruzeiro; Wikipédia e pacote Siderúrgica).
+- **bra-mg-1:** 1924 e 1925 incompletos na própria fonte (1924: "Incomplete scores"; 1925: 4 jogos, campeonato anulado na época e título homologado pela FMF em 2012). Pontos extras de 1975 (Atlético e Cruzeiro, +1 na fase final) não entram na classificação calculada.
+- **bra-mg-1:** Autores dos gols: 24.327 de 31.083; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).
 
 ## Próximas competições
 

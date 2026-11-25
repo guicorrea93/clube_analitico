@@ -9,7 +9,7 @@ Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia 
 
 Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 23/11/2026 (Carioca 1907 e 1937 FMD; Paulista e A2 "errado no ar").
+Última atualização: 25/11/2026 (Mineiro, `bra-mg-1`, coletado).
 
 **Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
 - tudo o que o pacote tem;
@@ -75,6 +75,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 046e6e4; Grêmio Catanduvense separado (A2-022) neste commit (24/11) | sim; recarregar | OK (1 clube novo) |
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.214 | ada0940; A2-015 (parte C) neste commit (24/11); plano da A2 concluído | sim; recarregar | OK (1 clube novo) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
+| `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | neste commit (25/11) | não; carregar | OK (64 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -87,8 +88,8 @@ Em 23/11 o Guilherme mandou corrigir pelo plano da revisão (`docs/revisao/plano
 "ERRADO NO AR"; o Mineiro ficou para depois. Autores pela ficha do ogol e jornais da A2: só se ele pedir.
 Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de `docs/coleta/pedidos.md`.
 
-1. **Mineiro (`bra-mg-1`)**, depois Gaúcho e A3 (seção 4). A RSSSF Brasil ficou fora do ar em 22/11 (tempo esgotado);
-   tente de novo. Pendências do Carioca: `coleta/comum/documentacao/bra-rj-1.md`, seção 9.
+1. **Mineiro (`bra-mg-1`) feito em 25/11.** Próximos: Gaúcho (`bra-rs-1`) e A3 (`bra-sp-3`), só com o ok do Guilherme.
+   Pendências do Carioca e do Mineiro: seção 9 de `coleta/comum/documentacao/bra-rj-1.md` e `bra-mg-1.md`.
 2. **Correções da revisão: siga `docs/revisao/plano-coleta-brasil.md`** (o Guilherme mandou começar em 23/11).
    - Feito em 23/11: o "ERRADO NO AR" do Paulista (SP-011, SP-002, SP-007, SP-008 menos 2024-2025, QS-001, QS-006, SP-010,
      QS-015, SP-013, QS-005, SP-009, SP-012 e SP-001, este com a coluna `co_campeao`). Ids e como em
@@ -250,6 +251,30 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Cadastro comum durante os testes:** cada importação grava os nomes novos em `clubes_ogol.json`; limpe as entradas da
   competição antes da rodada final (tirar as que só têm o slug dela) para não fixar nome errado.
 
+**Mineiro (o que valeu aprender)**
+- **Fases sem palavra de fase:** "LEAGUE", "Qualification Tournament", "RELEGATION TOURNAMENT" e os desempates ("League
+  tiebreak", "Tie-breaking") não viravam título; `rsssf_mg1` acrescenta "tournament", "^league$" e "tie-?break" ao
+  `rsssf.FASE` só no Mineiro. O nome em português de cada fase estranha fica em `rsssf_mg1.FASE_ANO` (temporada ->
+  nome na página -> fase), e o importador aceita direto o nome que já está em `ORDEM`; fase sem ordem vira AVISO no log.
+- **Torneio de classificação** (1921, 1958-1959, 1970-1973): "Fase classificatória" (ordem 0.5). Os pontos dela (e do
+  torneio de rebaixamento) não entram no desempate da classificação final (1921: o Luzitano passava o Atlético, vice).
+- **W.O.:** nas páginas mineiras o "WO" marca quem faltou ("Atlético 1-WO Calafate" = vitória do Atlético), ao contrário
+  do leitor comum; `_wo` vira "awd ... [victory awarded to X]". "A bt B" (1917, 1922) é vitória sem placar conhecido;
+  o ogol inventa 1-0 e o importador não pega placar do ogol para W.O. Saída: "awd", sem gols, vencedor na observação.
+- **Anulados e cancelados** ("[annulled]", "[cancelled]", 1918-1942): saem na leitura (`rsssf_mg1.ANULADOS`) e o jogo
+  igual do ogol (mesma data e placar) sai junto; o mesmo vale para `RSSSF_FORA` e `JOGOS_ANULADOS` (1923, 1936).
+- **Repescagem contra o campeão da 2ª divisão:** sai e vai para a observação da edição (D-04 a), automaticamente
+  (`importar.repescagem_fora`: clube que só aparece no torneio de rebaixamento).
+- **Torneios à parte:** os Torneios Paralelos de 1976 (na página) e o Troféu Inconfidência de 2020-2026 (só no ogol)
+  ficam fora (`ANOS_A_PARTE`); a disputa do 3º lugar de 2022 (só no ogol) entra como "Disputa do 3º lugar".
+- **Datas:** o leitor comum só vira o ano de dezembro para janeiro-março quando o ano corrente é o da temporada; página
+  que começa no ano anterior (1973) precisa da data numérica ("25/03/1973"), que fixa o ano sem a virada.
+- **Linha de tabela sem posição** ("  .Renascença", empate) e "Att: 535" (público com A maiúsculo) precisam de
+  correção no Mineiro (`_empatados` e a troca para "att:").
+- **ogol com duas fichas para o mesmo clube** (Pedro Leopoldo FC/AE Pedro Leopoldo, Flamengo de Varginha):
+  `CORRIGE_OGOL` por temporada, conferido na lista de participantes da RSSSF. Fichas com cidade de outro clube:
+  `registro.FICHA_COMUM` (Nacional-MG de Nova Serrana, Grêmio Calafate de Belo Horizonte).
+
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,
   Assis), "São Bento" (Sorocaba ou Marília), "Paulista" (Jundiaí ou Araraquara). Use a cidade; sem ela, casamento à mão
@@ -279,6 +304,7 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
   Esporte Clube" em 24/12/1976; é um clube só (São José-SP, 9638), com os títulos da A2 de 1972 e 1980.
 - **Título dividido (D-07, formato do agente 1, 23/11):** coluna `co_campeao` em `edicoes.csv`, logo depois de `vice`;
   `campeao` é o 1º da classificação; `vice` é o próximo que não é campeão (pode ficar vazio). Paulista 1973, Carioca 1907.
+- **Mineiro (24/11):** "se já fez o commit e push, pode seguir" — Mineiro coletado em 25/11, espera o ok do commit.
 - **Paulista A2:** incluir tudo o que existir, inclusive as edições sem jogos e as incompletas (21/11). O que só existe em
   jornal escaneado fica de fora.
 

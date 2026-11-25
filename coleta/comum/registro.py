@@ -31,6 +31,11 @@ FICHA_COMUM: dict[str, tuple[dict, str]] = {
     "3272": ({"uf": "DF", "cidade": "Guará"}, "Botafogo-DF (ex-Esportivo Guará): sediado no Guará (DF) nos anos em que jogou "
                                               "(2007-2010; Bola n@ Área: 'Botafogo (DF)'); só depois foi para Novo Gama (GO)"),
     "94274": ({"cidade": "Água Boa"}, "AA Araguaia (2014, substituta do Barra do Garças FC): Água Boa (MT), não Cuiabá"),
+    "44231": ({"cidade": "Nova Serrana"}, "Nacional Esporte Clube Ltda, de Nova Serrana (RSSSF, Mineiro 2012); a ficha do ogol "
+                                          "diz Muriaé, a cidade do Nacional Atlético Clube, outro clube"),
+    "86201": ({"uf": "MG", "cidade": "Belo Horizonte"},
+              "Grêmio Ludopédio Calafate, de Belo Horizonte (Mineiro 1932 AMEG); a ficha do ogol é a do Grêmio Calafate de "
+              "Rio Branco (AC)"),
 }
 
 

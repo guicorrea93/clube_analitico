@@ -27,7 +27,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1"]
+COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -76,6 +76,18 @@ PENDENCIAS: dict[str, list[str]] = {
         "Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela "
         "ano a ano (pt_lista.txt), ainda não lida.",
     ],
+    "bra-mg-1": [
+        "196 tabelas divergentes a explicar no relatório. Boa parte não é erro de jogo: a tabela publicada conta o W.O. "
+        "com gols (D-15: sem gols), traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma "
+        "(RSSSF e ogol com os mesmos placares).",
+        "Vices em que as fontes discordam: 1934 (pacote Tupynambás, que perdeu a final estadual; RSSSF Palestra Itália; "
+        "Wikipédia Tupynambás no estadual e Atlético na cidade), 1942 (RSSSF América; Wikipédia e pacote Palestra Mineiro, "
+        "o Cruzeiro) e 1950 (RSSSF Cruzeiro; Wikipédia e pacote Siderúrgica).",
+        "1924 e 1925 incompletos na própria fonte (1924: \"Incomplete scores\"; 1925: 4 jogos, campeonato anulado na época "
+        "e título homologado pela FMF em 2012). Pontos extras de 1975 (Atlético e Cruzeiro, +1 na fase final) não entram "
+        "na classificação calculada.",
+        "Autores dos gols: 24.324 de 31.081; cartões: só jogo a jogo, pela ficha do ogol (prioridade baixa).",
+    ],
 }
 
 # dicionários de decisões dos módulos de cada competição -> rótulo da seção
@@ -115,6 +127,8 @@ DICIONARIOS = {
     "ANOS_A_PARTE": "Anos com torneio à parte na página (fica fora)",
     "TURNOS": "Anos com turnos (Taça Guanabara, Taça Rio) nos títulos das fases",
     "LETRAS": "Letras trocadas na página da RSSSF",
+    "SEM_VICE": "Edições sem vice",
+    "CAMPEOES_DIVIDIDOS": "Títulos divididos (D-07)",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("cidade", "cidade"),

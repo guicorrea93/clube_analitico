@@ -355,6 +355,10 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 - **Bragan�a:** Bragança
 - **�talo:** Ítalo
 
+### Títulos divididos (D-07) (`importar.CAMPEOES_DIVIDIDOS`)
+
+- **1973:** [['Portuguesa', 'Santos']] Palmeiras
+
 ### Páginas da RSSSF corrigidas na leitura (`rsssf.CORRECOES`, registradas em `coleta/bra-sp-1/rsssf_*.py`)
 
 - **sp1902.htm:** letras trocadas por "�" na página

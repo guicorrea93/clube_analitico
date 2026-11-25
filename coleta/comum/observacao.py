@@ -60,6 +60,23 @@ TRADUCOES: list[tuple[str, str]] = [
     (r"match suspended", "jogo suspenso"),
     (r"suspended at (\d+)'", r"suspenso aos \1 min"),
     (r"result apparently stood", "resultado aparentemente mantido"),
+    # Mineiro (bra-mg-1)
+    (r"W\.O\.: victory awarded to (.+)", r"W.O.: vitória do \1"),
+    (r"victory awarded to (.+)", r"vitória dada ao \1"),
+    (r"(.+) gave away the points", r"\1 abriu mão dos pontos"),
+    (r"(.+) did not attend the match", r"\1 não compareceu"),
+    (r"Match rescheduled sine-die, but not played", "jogo adiado sem data e não disputado"),
+    (r"postponed from (\w+ \d+) due to rain", r"adiado de \1 por causa da chuva"),
+    (r"postponed from (\w+ \d+)", r"adiado de \1"),
+    (r"continuation of the match suspended in (\w+ \d+)", r"continuação do jogo suspenso em \1"),
+    (r"Match interrupted due to rain and completed in (\w+ \d+)", r"jogo interrompido pela chuva e concluído em \1"),
+    (r"match suspended at minute (\d+)'\. Crowd invaded the pitch and (.+) players abandoned the match",
+     r"jogo suspenso aos \1 min: a torcida invadiu o campo e os jogadores do \2 abandonaram o jogo"),
+    (r"1st league match ever at (.+)'s new ground", r"primeiro jogo do campeonato no novo campo do \1"),
+    (r"First club's match at (.+) Stadium", r"primeiro jogo de clubes no estádio \1"),
+    (r"at (.+?) [Ss]tadium", r"no estádio \1"),
+    (r"played at ([A-ZÀ-Ý].*)", r"local: \1"),
+    (r"at ([A-ZÀ-Ý][^\s,;]*(?:[ /][A-ZÀ-Ý][^\s,;]*)*)", r"local: \1"),
 ]
 
 

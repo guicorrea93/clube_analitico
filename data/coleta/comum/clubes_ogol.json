@@ -1,10 +1,27 @@
 {
+ "101188": {
+  "clube": "Paraense-MG",
+  "uf": "MG",
+  "cidade": "Pará de Minas",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "101733": {
   "clube": "Betim Futebol",
   "uf": "MG",
   "cidade": "Betim",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
+  ]
+ },
+ "102013": {
+  "clube": "Acesita",
+  "uf": "MG",
+  "cidade": "Timóteo",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "102019": {
@@ -32,6 +49,14 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "108517": {
+  "clube": "XV Uber",
+  "uf": "MG",
+  "cidade": "Uberlândia",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "109373": {
@@ -148,7 +173,8 @@
   "uf": "MG",
   "cidade": "Araxá",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "13679": {
@@ -1212,7 +1238,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "234449": {
@@ -1222,6 +1249,38 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "23445": {
+  "clube": "Funorte",
+  "uf": "MG",
+  "cidade": "Montes Claros",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "23447": {
+  "clube": "América T.O.",
+  "uf": "MG",
+  "cidade": "Teófilo Otoni",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "23449": {
+  "clube": "Formiga",
+  "uf": "MG",
+  "cidade": "Formiga",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "236797": {
+  "clube": "13 De Maio",
+  "uf": "MG",
+  "cidade": "Frutal",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "237494": {
@@ -1263,6 +1322,22 @@
   "cidade": "Caxias",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "239555": {
+  "clube": "Alves Nogueira",
+  "uf": "MG",
+  "cidade": "Sabará",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "239556": {
+  "clube": "Syrio Horizontino",
+  "uf": "MG",
+  "cidade": null,
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "240425": {
@@ -1322,6 +1397,14 @@
   "cidade": "Caçador",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "241728": {
+  "clube": "Pedro Leopoldo FC",
+  "uf": "MG",
+  "cidade": "Pedro Leopoldo",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "24179": {
@@ -1462,7 +1545,8 @@
   "uf": "MG",
   "cidade": "Juiz de Fora",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "2541": {
@@ -1500,6 +1584,70 @@
   "cidade": "Prudentópolis",
   "competicoes": [
    "bra-copa-do-brasil"
+  ]
+ },
+ "255380": {
+  "clube": "Aymorés",
+  "uf": "MG",
+  "cidade": "Ubá",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "258664": {
+  "clube": "Aeroporto",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "258739": {
+  "clube": "Carlos Prates",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "258740": {
+  "clube": "Fluminense-BH",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "258741": {
+  "clube": "Santa Cruz B. Horizonte",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "259237": {
+  "clube": "Christovam Colombo",
+  "uf": "MG",
+  "cidade": null,
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "259238": {
+  "clube": "Hygienicos",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "259266": {
+  "clube": "Progresso-BH",
+  "uf": "MG",
+  "cidade": null,
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "259275": {
@@ -1623,7 +1771,8 @@
   "uf": "MG",
   "cidade": "Itabirito",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "27309": {
@@ -1632,6 +1781,14 @@
   "cidade": "Quissamã",
   "competicoes": [
    "bra-rj-1"
+  ]
+ },
+ "273167": {
+  "clube": "North Esporte Clube",
+  "uf": "MG",
+  "cidade": "Montes Claros",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "274175": {
@@ -1685,6 +1842,22 @@
    "bra-rj-1"
   ]
  },
+ "30471": {
+  "clube": "Fluminense-MG",
+  "uf": "MG",
+  "cidade": "Araguari",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "30792": {
+  "clube": "Sport-MG",
+  "uf": "MG",
+  "cidade": "Juiz de Fora",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "30794": {
   "clube": "Pouso Alegre",
   "uf": "MG",
@@ -1692,7 +1865,16 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
+  ]
+ },
+ "30795": {
+  "clube": "Tricordiano",
+  "uf": "MG",
+  "cidade": "Três Corações",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "3081": {
@@ -1732,6 +1914,54 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "30838": {
+  "clube": "Siderúrgica",
+  "uf": "MG",
+  "cidade": "Sabará",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "30839": {
+  "clube": "Sete de Setembro-MG",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "30840": {
+  "clube": "Metalusina",
+  "uf": "MG",
+  "cidade": "Barão de Cocais",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "30841": {
+  "clube": "Meridional",
+  "uf": "MG",
+  "cidade": "Conselheiro Lafaiete",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "30842": {
+  "clube": "Asas",
+  "uf": "MG",
+  "cidade": "Lagoa Santa",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "30843": {
+  "clube": "Retiro",
+  "uf": "MG",
+  "cidade": "Nova Lima",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "3085": {
@@ -1919,6 +2149,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3120": {
+  "clube": "Ateneu",
+  "uf": "MG",
+  "cidade": "Montes Claros",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "3121": {
   "clube": "Atlético-AC",
   "uf": "AC",
@@ -1945,7 +2183,8 @@
   "uf": "MG",
   "cidade": "Três Corações",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3128": {
@@ -2174,7 +2413,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3168": {
@@ -2542,7 +2782,8 @@
   "cidade": "Sete Lagoas",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "3223": {
@@ -2552,7 +2793,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3224": {
@@ -2592,6 +2834,14 @@
    "bra-rj-1"
   ]
  },
+ "3232": {
+  "clube": "Esportiva Guaxupé",
+  "uf": "MG",
+  "cidade": "Guaxupé",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "3233": {
   "clube": "Esportivo-RS",
   "uf": "RS",
@@ -2607,7 +2857,8 @@
   "uf": "MG",
   "cidade": "Passos",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3236": {
@@ -2625,7 +2876,8 @@
   "uf": "MG",
   "cidade": "Lavras",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3241": {
@@ -2831,7 +3083,8 @@
   "cidade": "Divinópolis",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "3274": {
@@ -2979,7 +3232,16 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
+  ]
+ },
+ "3298": {
+  "clube": "Ipiranga",
+  "uf": "MG",
+  "cidade": "Manhuaçu",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "3299": {
@@ -3052,7 +3314,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3307": {
@@ -3264,7 +3527,8 @@
   "uf": "MG",
   "cidade": "Patos de Minas",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3337": {
@@ -3396,6 +3660,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3358": {
+  "clube": "Nacional Uberaba",
+  "uf": "MG",
+  "cidade": "Uberaba",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "3359": {
   "clube": "Nacional-PR",
   "uf": "PR",
@@ -3413,6 +3685,14 @@
    "bra-serie-c",
    "bra-sp-1",
    "bra-sp-2"
+  ]
+ },
+ "3361": {
+  "clube": "Nacional Atl. Muriaé",
+  "uf": "MG",
+  "cidade": "Muriaé",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "3362": {
@@ -3485,6 +3765,14 @@
    "bra-serie-c"
   ]
  },
+ "3371": {
+  "clube": "Olympic-MG",
+  "uf": "MG",
+  "cidade": "Barbacena",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "3373": {
   "clube": "Operário-MT",
   "uf": "MT",
@@ -3520,6 +3808,14 @@
   "cidade": "Feira de Santana",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "3380": {
+  "clube": "Paraisense",
+  "uf": "MG",
+  "cidade": "São Sebastião do Paraíso",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "3382": {
@@ -3591,7 +3887,8 @@
   "uf": "MG",
   "cidade": "Patrocínio",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "3387": {
@@ -3812,7 +4109,8 @@
   "uf": "MG",
   "cidade": "Andradas",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3428": {
@@ -4146,7 +4444,8 @@
   "uf": "MG",
   "cidade": "Coronel Fabriciano",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3485": {
@@ -4223,7 +4522,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3498": {
@@ -4280,7 +4580,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3504": {
@@ -4290,7 +4591,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3505": {
@@ -4300,7 +4602,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3507": {
@@ -4402,7 +4705,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3522": {
@@ -4410,7 +4714,8 @@
   "uf": "MG",
   "cidade": "Itabira",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "3524": {
@@ -4497,7 +4802,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "3537": {
@@ -4582,6 +4888,14 @@
   "cidade": "Paço do Lumiar",
   "competicoes": [
    "bra-copa-do-brasil"
+  ]
+ },
+ "38635": {
+  "clube": "Vespasiano-MG",
+  "uf": "MG",
+  "cidade": "Vespasiano",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "38856": {
@@ -4704,6 +5018,14 @@
    "bra-rj-1"
   ]
  },
+ "42195": {
+  "clube": "Curvelo",
+  "uf": "MG",
+  "cidade": "Curvelo",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "42260": {
   "clube": "Guará",
   "uf": "DF",
@@ -4774,6 +5096,14 @@
    "bra-serie-c"
   ]
  },
+ "44130": {
+  "clube": "Coimbra-MG",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "44192": {
   "clube": "Real Noroeste",
   "uf": "ES",
@@ -4792,12 +5122,21 @@
    "bra-copa-do-brasil"
   ]
  },
+ "44230": {
+  "clube": "Arsenal-MG",
+  "uf": "MG",
+  "cidade": "Santa Luzia",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "44231": {
   "clube": "Nacional-MG",
   "uf": "MG",
-  "cidade": "Muriaé",
+  "cidade": "Nova Serrana",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-mg-1"
   ]
  },
  "45210": {
@@ -4857,7 +5196,8 @@
   "uf": "MG",
   "cidade": "Montes Claros",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-mg-1"
   ]
  },
  "46824": {
@@ -4924,6 +5264,62 @@
   "cidade": "Cascavel",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "55310": {
+  "clube": "Minas EC",
+  "uf": "MG",
+  "cidade": "Boa Esperança",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "55393": {
+  "clube": "Flamengo-MG",
+  "uf": "MG",
+  "cidade": "Varginha",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "55394": {
+  "clube": "Juventus de Divinópolis",
+  "uf": "MG",
+  "cidade": "Divinópolis",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "55395": {
+  "clube": "Trespontano",
+  "uf": "MG",
+  "cidade": "Três Pontas",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "55396": {
+  "clube": "Ribeiro Junqueira",
+  "uf": "MG",
+  "cidade": "Leopoldina",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "55407": {
+  "clube": "Alfenense",
+  "uf": "MG",
+  "cidade": "Alfenas",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "55409": {
+  "clube": "Manchester Tupi",
+  "uf": "MG",
+  "cidade": "Juiz de Fora",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "55548": {
@@ -5026,6 +5422,14 @@
    "bra-serie-d"
   ]
  },
+ "60474": {
+  "clube": "Araguari",
+  "uf": "MG",
+  "cidade": "Araguari",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "60800": {
   "clube": "Mackenzie-SP",
   "uf": "SP",
@@ -5042,6 +5446,22 @@
    "bra-serie-c",
    "bra-sp-1",
    "bra-sp-2"
+  ]
+ },
+ "60864": {
+  "clube": "Independente-MG",
+  "uf": "MG",
+  "cidade": "Uberaba",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "60865": {
+  "clube": "Villa do Carmo",
+  "uf": "MG",
+  "cidade": "Barbacena",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "61587": {
@@ -5162,6 +5582,14 @@
    "bra-sp-2"
   ]
  },
+ "71059": {
+  "clube": "Renascença",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "71236": {
   "clube": "EC Água Santa",
   "uf": "SP",
@@ -5173,6 +5601,14 @@
    "bra-sp-2"
   ]
  },
+ "71702": {
+  "clube": "Cassimiro de Abreu",
+  "uf": "MG",
+  "cidade": "Montes Claros",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "71792": {
   "clube": "Santa Cruz de Natal",
   "uf": "RN",
@@ -5180,6 +5616,14 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "71846": {
+  "clube": "Minas Boca",
+  "uf": "MG",
+  "cidade": "Sete Lagoas",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "71866": {
@@ -5197,6 +5641,30 @@
   "cidade": "Cabo Frio",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "72107": {
+  "clube": "Bela Vista-MG",
+  "uf": "MG",
+  "cidade": "Sete Lagoas",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "72165": {
+  "clube": "Flamengo FC-MG",
+  "uf": "MG",
+  "cidade": "Varginha",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "72313": {
+  "clube": "União Tijucana",
+  "uf": "MG",
+  "cidade": "Ituiutaba",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "7402": {
@@ -5605,6 +6073,14 @@
    "bra-sp-2"
   ]
  },
+ "86201": {
+  "clube": "Grêmio Calafate",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "86295": {
   "clube": "Floresta-CE",
   "uf": "CE",
@@ -5613,6 +6089,14 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "86645": {
+  "clube": "Usipa",
+  "uf": "MG",
+  "cidade": "Ipatinga",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "8738": {
@@ -5750,6 +6234,14 @@
   "cidade": "Jacobina",
   "competicoes": [
    "bra-serie-d"
+  ]
+ },
+ "96095": {
+  "clube": "ESAB",
+  "uf": "MG",
+  "cidade": "Contagem",
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "96110": {
@@ -6067,13 +6559,54 @@
    "bra-rj-1"
   ]
  },
+ "99074": {
+  "clube": "Guarany B. Horizonte",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "99075": {
+  "clube": "Luzitano-MG",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "99076": {
+  "clube": "Yale-MG",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "99077": {
+  "clube": "Palmeiras-MG",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
+ "99078": {
+  "clube": "Calafate",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "america-mineiro": {
   "clube": "América-MG",
   "uf": "MG",
   "cidade": "Belo Horizonte",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "athletico-paranaense": {
@@ -6098,7 +6631,8 @@
   "uf": "MG",
   "cidade": "Belo Horizonte",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "botafogo": {
@@ -6132,7 +6666,8 @@
   "uf": "MG",
   "cidade": "Belo Horizonte",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-mg-1"
   ]
  },
  "cuiaba": {
@@ -6606,6 +7141,14 @@
    "bra-sp-2"
   ]
  },
+ "rs-hellenico": {
+  "clube": "Hellênico-MG",
+  "uf": "MG",
+  "cidade": null,
+  "competicoes": [
+   "bra-mg-1"
+  ]
+ },
  "rs-hepacare-lorena": {
   "clube": "Hepacaré",
   "uf": "SP",
@@ -6628,6 +7171,14 @@
   "cidade": "Bebedouro",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-ipanema": {
+  "clube": "Ipanema",
+  "uf": "MG",
+  "cidade": null,
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "rs-irmaos-romano-sao-bernardo-do-campo": {
@@ -6812,6 +7363,14 @@
   "cidade": "São Bernardo do Campo",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-palmeiras": {
+  "clube": "Palmeiras-MG",
+  "uf": "MG",
+  "cidade": null,
+  "competicoes": [
+   "bra-mg-1"
   ]
  },
  "rs-palmeiras-franca": {

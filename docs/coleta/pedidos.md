@@ -1097,3 +1097,48 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - recarregar o `bra-serie-c`, lendo a coluna `oficial`;
    - na Série B, não importar os Módulos Azul e Branco de 1987, que agora são Série C (SB-026 fica só com 1979, 1986 e o Módulo Amarelo de 2000).
 8. **Com isso o plano da revisão do Brasil (`docs/revisao/plano-coleta-brasil.md`) está concluído.**
+
+## Recado de fim de coleta — bra-mg-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-mg-1.md`;
+relatório ano a ano: `docs/coleta/bra-mg-1.md`.
+
+1. **O que foi feito:** Campeonato Mineiro (1ª divisão).
+   - 113 edições, de 1915 a 2026. Em 1932 as duas ligas têm uma edição cada ("1932 LMDT" e "1932 AMEG"; a FMF reconhece os dois títulos).
+   - 11.521 jogos, 96 clubes (32 já no banco, 64 novos), 24.324 gols com autor (de 31.081) e nenhum cartão.
+   - Tabelas publicadas: 285 fecham com os jogos e 196 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesfq/mg{ano}.htm`, 113 páginas; campeões em `mgcamp.htm`, artilheiros em `mgtops.htm`);
+     - ogol, calendário de cada edição (1925 não tem), que dá a identidade dos clubes e completa os jogos;
+     - Wikipédia em português: tabela de resultados ano a ano (campeão e vice), como segunda fonte.
+   - O campeão bate com a RSSSF e com a Wikipédia nas 113 edições. O vice bate com pelo menos uma das duas em todas, menos 1934 (item 6).
+2. **Commit:** o deste recado (Mineiro, documentação e as mudanças em `coleta/comum/`).
+3. **Teste de carga:** `bra-mg-1: 113 edições, 11521 jogos, 64 clubes novos -> OK`. O carregador avisa que ignora a tabela por rodada em 12 temporadas com mais de uma fase (1974, 1975, 1977, 1979, 1981, 1987, 1988, 1990 ...).
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-mg-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` MG, `rotulo_painel` "Mineiro".
+   - **1932:** a `temporada` leva a liga ("1932 LMDT", "1932 AMEG"), como no Paulista e no Carioca.
+   - **Título dividido de 1956:** Atlético-MG em `campeao`, Cruzeiro em `co_campeao`, `vice` vazio (D-07). **1925:** sem vice (não houve).
+   - **W.O. sem placar:** `resultado_especial` "awd", sem gols, com o vencedor na `observacao` ("W.O.: vitória do X"), como no Carioca. Em 1917 e 1922, "placar desconhecido: vitória do X": a página só diz quem venceu ("bt") e a tabela conta como vitória sem gols.
+   - **Fases novas:** "Fase classificatória" (torneios de classificação de 1921, 1958-1959 e 1970-1973), "Fase classificatória - Desempate", "Primeira fase - Desempate", "Segunda fase - Desempate", "Terceira fase", "Primeira fase - Final" (1983) e "Disputa do 3º lugar" (2022).
+   - **Nacional-MG** (ogol 44231, já no banco pela Série D): é de **Nova Serrana**, não de Muriaé (RSSSF 2012; a ficha do ogol trazia a cidade do Nacional Atlético Clube). Corrigido em `registro.FICHA_COMUM`; a Série D foi rodada de novo e só a cidade dele mudou no `clubes.csv`. Recarregar a Série D ou só corrigir a cidade no banco.
+   - **Nomes:** nenhum nome que já existia no cadastro comum mudou e nenhum se repete. Os 32 clubes já no banco (Atlético-MG, Cruzeiro, América-MG, Villa Nova-MG, Tupi, Caldense, Ipatinga ...) usam o nome do banco.
+5. **Decisões:**
+   - **Que eu tomei:**
+     - jogos anulados ou cancelados na página ("[annulled]", "[cancelled]", 1918-1942 e 1977) ficam fora; 1923: todo o 2º turno, anulado em assembleia; 1936: os jogos de Palestra Itália, América e Villa Nova, que abandonaram a liga;
+     - repescagem contra clube da 2ª divisão (1920, 1923, 1930, 1961, 1967, 1982 e 1983; 16 jogos) fica só na observação da edição (D-04 a); os torneios de rebaixamento só entre clubes da 1ª divisão (1982, 1991, 2023, 2024) ficam;
+     - fora: os Torneios Paralelos de 1976 (consolação) e o Troféu Inconfidência de 2020-2026 (5º ao 8º lugar; só o ogol traz os jogos);
+     - dentro: a disputa do 3º lugar de 2022 (Athletic x Caldense, só no ogol);
+     - W.O.: nas páginas mineiras o "WO" marca quem faltou ("Atlético 1-WO Calafate" é vitória do Atlético); conta como vitória sem gols (D-15);
+     - identidade: o ogol usa duas fichas para o Pedro Leopoldo Futebol Clube (1958-1964) e para o Flamengo de Varginha. Fica o que a lista de participantes da RSSSF diz: o Pedro Leopoldo FC em todos os anos; o Flamengo FC (1939) até 1973 e o Flamengo EC (fundado em 1979) de 1980 em diante. O Grêmio Calafate de 1932 é de Belo Horizonte (a ficha do ogol é a de um clube do Acre).
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **1924 e 1925 incompletos na própria fonte** (1924: "Incomplete scores"; 1925: 4 jogos, campeonato anulado pela liga e título homologado pela FMF em 2012).
+   - **Vice de 1934:** fica o Tupynambás, que perdeu a final estadual para o Villa Nova (Wikipédia: Tupynambás no estadual e Atlético na cidade); a RSSSF dá o Palestra Itália.
+   - **Pontos extras de 1975** (Atlético e Cruzeiro, +1 na fase final): não entram na classificação calculada.
+   - **Autores dos gols** fracos nos anos 1990 (16%) e cartões: só jogo a jogo, pela ficha do ogol.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 196 tabelas divergentes. Muitas não são erro de jogo: a tabela conta o W.O. com gols, traz um turno por tabela quando a página junta os jogos (1983-1987), ou erra a soma (RSSSF e ogol com os mesmos placares);
+   - os nomes de fase dados à mão (`rsssf_mg1.FASE_ANO`) e as correções de página (`rsssf_mg1.CORRECOES`, com o motivo de cada uma);
+   - os vices de 1934, 1942 e 1950, em que RSSSF e Wikipédia discordam;
+   - os casamentos à mão (`NOME_MANUAL`, `CORRIGE_OGOL`) e os clubes antigos sem ficha no ogol (Ipanema, Hellênico).
+8. **Próximo campeonato:** Gaúcho (`bra-rs-1`), só com o ok do Guilherme.
