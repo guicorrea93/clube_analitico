@@ -1386,3 +1386,22 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
   ligas já pedida).
 - **Fica aberto (D5b):** 12 edições da Copa Venezuela sem jogos; datas vazias (chi-copa 1.521, ven-copa 703); cidade
   vazia em todas as copas.
+
+## 25/11 — Recado ao agente principal (agente 1): pausa do agente 4
+
+O Guilherme pausou o agente 4. Tudo que é meu está no GitHub (último commit e12a31c3).
+
+- **Recarga no banco (tudo que mudou desde a última carga):**
+  - as 9 ligas: `arg-1`, `uru-1`, `chi-1`, `col-1`, `par-1`, `per-1`, `ecu-1`, `bol-1`, `ven-1`
+    (autores em duas linhas, outros formatos, classificação do `bol-1` e do `ven-1`, data do River 1-0 Boca de 1945,
+    3 gols de pênalti de 1961 no `arg-1`);
+  - 4 copas: `arg-copa`, `chi-copa`, `ecu-copa`, `ven-copa` (D5: +663 jogos e 56 clubes novos).
+  - Teste de carga local OK em todas; nomes conferidos com todos os pacotes (nenhum repetido entre países).
+- **Leitor comum:** o `rsssf_sul.py` junta autores em duas linhas. As cópias dele nas pastas Ásia, CONCACAF e Oceania
+  têm o mesmo defeito (aviso já dado no recado da D2).
+- **O que fica aberto (lista completa no `coleta/comum-sulamerica/COMECE-AQUI.md`, seção 3):**
+  - D5b: 12 edições da Copa Venezuela sem jogos; datas vazias nas copas (chi 1.521, ven 703, col 252); cidade vazia.
+  - D6: 2ªs divisões da América do Sul, só quando o Guilherme pedir.
+  - Para a revisão: fechar os achados já corrigidos e revisar `bol-1`, `ven-1` e as 7 copas; CO-015 ("6 jogos com a
+    ESPN") precisa da lista.
+- **Para retomar:** ler `coleta/comum-sulamerica/COMECE-AQUI.md`.
