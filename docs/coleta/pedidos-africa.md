@@ -341,7 +341,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    (2004 e 2005); 0 cartões; 85 clubes, todos novos. Fontes: RSSSF (lista de campeões `kamchamp.html` e página de cada
    ano), ogol (jogos de 2005 em diante, fora 2013 a 2016: base de 2010/11; data, rodada e conferência nos outros),
    Wikipédia em inglês (tabela de 34 temporadas). A ESPN não tem a liga.
-2. **Commits:** ainda sem commit (espera o "sim" do Guilherme).
+2. **Commits:** e7f2bfa8 (25/11; no GitHub).
 3. **Teste de carga:** `cmr-1: 66 edições, 6804 jogos, 85 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `cmr-1`; país novo **CMR (Camarões, CAF)**, criado pelo `competicao.json` (Camarões foi a várias Copas:

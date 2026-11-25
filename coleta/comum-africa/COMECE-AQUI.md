@@ -61,7 +61,7 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | b755594 (no GitHub) | sim |
 | `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | bc5287a6 (no GitHub) | sim |
 | `gha-1` Ganês | 65 (1958–2025/26) | 6.069 | 137 | cd02564c (no GitHub) | sim |
-| `cmr-1` Camaronês | 66 (1961–2026) | 6.804 | 86 | sem commit (pacote pronto 25/11; teste de carga OK) | não |
+| `cmr-1` Camaronês | 66 (1961–2026) | 6.804 | 86 | e7f2bfa8 (no GitHub) | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -77,8 +77,8 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
    `docs/coleta/pedidos-africa.md`).
 6. `gha-1`: commit cd02564c, no GitHub e no painel (25/11). As sete ligas (egy, mar, tun, alg, rsa, nga, gha) estão
    na lista LIBERADAS do painel (`gerar_dashboard_v2.py`).
-7. `cmr-1`: pacote pronto (25/11; teste de carga OK; recado no fim de `docs/coleta/pedidos-africa.md`); commit só com
-   o "sim" do Guilherme.
+7. `cmr-1`: commit e7f2bfa8, no GitHub (25/11); esperar o agente 1 carregar e pôr na LIBERADAS (recado no fim de
+   `docs/coleta/pedidos-africa.md`).
 8. Próxima liga: `civ-1` (Costa do Marfim). Antes, mandar ao Guilherme o escopo.
 9. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
