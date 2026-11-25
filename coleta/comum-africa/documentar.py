@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1"]
-PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga"}
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1"]
+PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga", "gha-1": "gha"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -125,6 +125,18 @@ PENDENCIAS: dict[str, list[str]] = {
         "Identidade a conferir: Heartland = Iwuanyanwu Nationale; Dolphin = Eagle Cement; Ifeanyi Ubah = Gabros "
         "International; ABS = Bukola Babes; NITEL Vasco = P&T Vasco da Gama; o \"Akwa Star...\" do ogol de 2011/12 = Akwa "
         "United.",
+    ],
+    "gha-1": [
+        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
+        "1958 a 1996/97: só a tabela final (lista de tabelas finais até 1987; página do ano de 1989/90 a 1996/97); 1988/89 "
+        "só o campeão (\"Final table missing\"); 1989/90 só posição, jogos e pontos. 1997/98 e 2006/07: parte dos jogos; "
+        "2011/12: só a tabela. O ogol só tem jogos de 2008/09 a 2010/11 e de 2015 em diante. Fonte que resolveria: jornais "
+        "ganeses (Daily Graphic) ou o arquivo da GFA.",
+        "2010/11: os jogos do ogol não fecham com a tabela da RSSSF em sete clubes; nenhum placar mudado.",
+        "Rebaixamento marcado onde a tabela ou a nota diz; em vários anos dos 1960 e 1970 a lista não diz.",
+        "Autores dos gols quase nenhum; artilheiros e cartões, nenhum.",
+        "Identidade a conferir: Ashanti Gold = Goldfields; Ebusua Dwarfs = Mysterious Dwarfs; Swedru All Blacks = Gamba All "
+        "Blacks; Wa All Stars = All Stars (2007-2011); Holy Stars de Techiman (1986) x Basake Holy Stars (2024/25).",
     ],
 }
 

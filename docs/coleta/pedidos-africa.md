@@ -258,7 +258,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    30 abandonados); 17.820 gols, só 73 com autor; 0 cartões; 82 clubes, todos novos. Fontes: RSSSF (página de cada ano),
    ogol (jogos de 2008/09 em diante: base de 2009/10 a 2011/12; data, rodada e conferência nos outros), Wikipédia em
    inglês (tabela das temporadas desde 2009/10). A ESPN não tem a liga.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** bc5287a6 (24/11; no GitHub).
 3. **Teste de carga:** `nga-1: 55 edições, 8906 jogos, 82 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `nga-1`; país novo **NGA (Nigéria, CAF)**, criado pelo `competicao.json` (a Nigéria foi a várias Copas:
@@ -291,3 +291,43 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 7. **Onde a revisão deve olhar primeiro:** 2009/10 a 2011/12 (os jogos do ogol não fecham com a tabela da RSSSF em vários
    clubes); as punições de pontos e gols (2023/24, 2024/25, 2025/26); a identidade dos clubes do item 5.
 8. **Próxima competição:** `gha-1` (Gana), depois da decisão do Guilherme sobre o escopo.
+
+## Recado de fim de coleta — gha-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `gha-1` (Campeonato Ganês, hoje Ghana Premier League), 65 edições de 1958 a 2025/26; 6.069 jogos
+   (5.828 da RSSSF, 241 do ogol; 54 decididos fora de campo, 7 W.O., 17 abandonados, 6 não jogados); 12.631 gols, 294 com
+   autor; 0 cartões; 137 clubes, todos novos. Fontes: RSSSF (lista de tabelas finais de 1958 a 1987 e página de cada
+   ano), ogol (jogos de 2008/09 a 2010/11 e de 2015 em diante: base de 2010/11; data, rodada e conferência nos outros),
+   Wikipédia em inglês (tabela de 16 temporadas). A ESPN não tem a liga.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `gha-1: 65 edições, 6069 jogos, 137 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `gha-1`; país novo **GHA (Gana, CAF)**, criado pelo `competicao.json` (Gana foi a várias Copas: conferir
+     se a bandeira já existe);
+   - **temporadas que mudam de formato** (ano civil, duas temporadas, de novo ano civil), como a lista da RSSSF;
+   - **pontos**: 2-1-0 (vitória, empate, derrota) até 1993/94, fora 1989/90 (3 por vitória); 3-1-0 desde 1994/95;
+   - **39 edições "sem jogos"**: só a tabela final (37: 1958 a 1987, 1990/91 a 1996/97 e 2011/12), só o campeão
+     (1988/89) ou só a classificação incompleta (1989/90);
+   - **2 temporadas abandonadas sem campeão** (2018 e 2019/20) e **2 com "jogos incompletos"** (1997/98 e 2006/07);
+   - 2004/05: dois grupos e o jogo do título (Hearts of Oak 1-0 Asante Kotoko).
+5. **Decisões tomadas:**
+   - escopo: a liga nacional de 1958 a 2025/26, sem o campeonato não oficial de 1956 e sem a competição especial do
+     Comitê de Normalização de 2019 (não foi liga; a RSSSF conta, a imprensa não) (o Guilherme aprovou em 24/11);
+   - nomes: Ashanti Gold = Goldfields; Ebusua Dwarfs = Mysterious Dwarfs; Real Tamale United = RTU; Swedru All Blacks =
+     Gamba All Blacks; Tano Bofoakwa = Bofoakwa; nomes que já existem em outros pacotes levam "(Gana)" (Mighty Jets,
+     Highlanders, Aston Villa); os de Berekum levam a cidade (Berekum Arsenal, Berekum Chelsea);
+   - correções: sete linhas de tabela com vitórias + empates + derrotas que não davam os jogos (1968 a 1981 e 2008/09),
+     pelos pontos; 2003: os oito resultados dados que a tabela conta (a nota que os lista era lida como jogos); 2009/10:
+     um jogo que falta na página, pelo ogol (a tabela só fecha com ele);
+   - rebaixamento marcado onde a tabela ou a nota diz (2003 e 2004/05 à mão).
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - os jogos de 1958 a 1996/97 (a RSSSF só tem a tabela) e parte dos de 1997/98 e 2006/07; 2011/12 a 2013/14 sem jogos no
+     ogol (2011/12 fica só com a tabela). Fonte que resolveria: jornais ganeses (Daily Graphic) ou o arquivo da GFA;
+   - a tabela de 1988/89 ("Final table missing") e a completa de 1989/90;
+   - autores dos gols (quase nenhum), artilheiros e cartões.
+7. **Onde a revisão deve olhar primeiro:** 2010/11 (os jogos do ogol não fecham com a tabela da RSSSF em sete clubes);
+   2003 (resultados dados e descontos de pontos); a identidade dos clubes do item 5.
+8. **Próxima competição:** `cmr-1` (Camarões), depois da decisão do Guilherme sobre o escopo.

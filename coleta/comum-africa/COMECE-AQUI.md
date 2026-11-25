@@ -59,7 +59,8 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | 786998d (24/11; sem push) | não |
 | `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | b09bbaa (24/11; sem push) | não |
 | `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | b755594 (24/11; sem push) | não |
-| `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | sem commit (pronto 24/11; espera o "sim") | não |
+| `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | bc5287a6 (24/11, no GitHub) | não |
+| `gha-1` Ganês | 65 (1958–2025/26) | 6.069 | 137 | sem commit (pronto 24/11; espera o "sim") | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -71,10 +72,12 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
    `docs/coleta/pedidos-africa.md`).
 4. `rsa-1`: commit b755594; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de
    `docs/coleta/pedidos-africa.md`).
-5. `nga-1` (Nigéria): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit só
+5. `nga-1`: commit bc5287a6, no GitHub (24/11); esperar o agente 1 carregar (recado no fim de
+   `docs/coleta/pedidos-africa.md`). A anotação deste hash ainda está sem commit (vai no próximo).
+6. `gha-1` (Gana): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit só
    com o "sim" do Guilherme.
-6. Próxima liga: `gha-1` (Gana). Antes, mandar ao Guilherme o escopo.
-7. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+7. Próxima liga: `cmr-1` (Camarões). Antes, mandar ao Guilherme o escopo.
+8. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -220,6 +223,15 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   ("2016/17" = 2017; "2022/23" = 2023): cada edição se liga ao ogol pelo id (`Edicao.ogol_id`), não pelo ano.
 - Wikipédia: artigos por temporada só de 2009/10 em diante.
 
+**Gana (`gha-1`):**
+- **Escopo (pesquisa de 24/11; o Guilherme aprovou em 24/11):** a liga nacional de 1958 a 2025/26, como a lista da RSSSF,
+  sem o campeonato não oficial de 1956 e sem a competição especial do Comitê de Normalização de 2019 (não foi liga; a
+  imprensa não a conta: 2021/22 foi o "25º título" do Kotoko). 2018 e 2019/20 abandonados, sem campeão.
+- RSSSF: lista em `tablesg/ghachamp.html`; lista de tabelas finais `ghahist.html` (seção = a própria temporada; tabelas só
+  até 1987); páginas `gha58` ... `gha99`, `gha00` ... `gha09` (sem `gha06`), `gha2010` ... `gha2026`. "2004/05" é a
+  `gha04` e "2005" é a `gha05` ("Ghana 2005/06").
+- ogol: competição `liga-ganesa`, mesmo rótulo de temporada que a RSSSF, jogos só de 2008/09 a 2010/11 e de 2015 em diante.
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -321,6 +333,12 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   válido, 2023/24): `CORRIGE`.
 - **Rodada anulada e jogada de novo** ("Replay Round 20", 2005) e resultado dado depois revogado: `CORRIGE`.
 - **"3 points and 3 goals deducted"**: a tabela desconta os gols; os jogos não fecham (explicado).
+
+**RSSSF (Gana):**
+- **Nota que lista resultados dados com o placar de campo** ("rd 1 Goldfields 1-0 Arsenal, awarded 0-3", 2003): era lida
+  como jogo (os nomes "1 Goldfields", "3 BA United"); descartada, e os jogos das rodadas ficam com o placar dado.
+- **"FC Samartex 1996"**: o ano no fim do nome confunde o leitor; vira "FC Samartex" em `linhas()`.
+- **2ª divisão regional logo depois da liga** ("Central Regional Division 2", 2017): linha final explícita.
 
 **ogol (Argélia):** só tem jogos de 1985/86 em diante, com os mesmos placares da RSSSF (copiados): serve para data e
 rodada, não como segunda fonte de placar. Nomes curtos ("CS Constantinois", "Ol. Medea", "Tadjenanet", "MCE Bayadh").

@@ -11,7 +11,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | sim | 786998de | 0 | [tun-1](tun-1.md) |
 | Campeonato Argelino | 64 (1962/63–2025/26) | 0 | 15210 | 3829 | 0 | 81 | 22 / 39 | sim | b09bbaa5 | 0 | [alg-1](alg-1.md) |
 | Campeonato Sul-Africano | 55 (1971–2025/26) | 22 | 8108 | 4721 | 0 | 89 | 28 / 1 | sim | b7555945 | 0 | [rsa-1](rsa-1.md) |
-| Campeonato Nigeriano | 55 (1972–2025/26) | 26 | 8906 | 73 | 0 | 82 | 13 / 8 | não | — | 0 | [nga-1](nga-1.md) |
+| Campeonato Nigeriano | 55 (1972–2025/26) | 26 | 8906 | 73 | 0 | 82 | 13 / 8 | não | bc5287a6 | 0 | [nga-1](nga-1.md) |
+| Campeonato Ganês | 65 (1958–2025/26) | 39 | 6069 | 294 | 0 | 137 | 20 / 4 | não | — | 0 | [gha-1](gha-1.md) |
 
 ## Pendências de todas as competições
 
@@ -52,6 +53,12 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **nga-1:** Rebaixamento marcado só onde a página diz (tabela ou nota); nos anos 1970 e 1980, sem informação.
 - **nga-1:** Autores dos gols quase nenhum; artilheiros, nenhum. Fonte que resolveria: o ogol jogo a jogo (2008/09 em diante).
 - **nga-1:** Identidade a conferir: Heartland = Iwuanyanwu Nationale; Dolphin = Eagle Cement; Ifeanyi Ubah = Gabros International; ABS = Bukola Babes; NITEL Vasco = P&T Vasco da Gama; o "Akwa Star..." do ogol de 2011/12 = Akwa United.
+- **gha-1:** Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
+- **gha-1:** 1958 a 1996/97: só a tabela final (lista de tabelas finais até 1987; página do ano de 1989/90 a 1996/97); 1988/89 só o campeão ("Final table missing"); 1989/90 só posição, jogos e pontos. 1997/98 e 2006/07: parte dos jogos; 2011/12: só a tabela. O ogol só tem jogos de 2008/09 a 2010/11 e de 2015 em diante. Fonte que resolveria: jornais ganeses (Daily Graphic) ou o arquivo da GFA.
+- **gha-1:** 2010/11: os jogos do ogol não fecham com a tabela da RSSSF em sete clubes; nenhum placar mudado.
+- **gha-1:** Rebaixamento marcado onde a tabela ou a nota diz; em vários anos dos 1960 e 1970 a lista não diz.
+- **gha-1:** Autores dos gols quase nenhum; artilheiros e cartões, nenhum.
+- **gha-1:** Identidade a conferir: Ashanti Gold = Goldfields; Ebusua Dwarfs = Mysterious Dwarfs; Swedru All Blacks = Gamba All Blacks; Wa All Stars = All Stars (2007-2011); Holy Stars de Techiman (1986) x Basake Holy Stars (2024/25).
 
 ## Próximas competições
 

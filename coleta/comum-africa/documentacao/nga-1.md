@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 8906 (8834 com placar); **gols:** 17820; **gols com autor:** 73 (0%); **cartões:** 0.
 - **Clubes:** 82; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 54 edições; **tabelas publicadas guardadas para conferência:** 801 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** bc5287a6.
 - **Observação da competição:** 1ª divisão nigeriana (hoje Nigeria Premier Football League) desde a criação da liga nacional, de 1972 a 2025/26. Sem a Amachree Gold Cup de 1971 (torneio anterior à liga). 2018 e 2019/20 abandonados, sem campeão. Pontos 2-1-0 (vitória, empate, derrota) até 1989; de 1990 a 1994, 3 por vitória, 2 por empate com gols e 1 por empate sem gols; 3-1-0 desde 1995.
 
 ## 2. Edições, fontes e regras
@@ -437,7 +437,7 @@ Código em `coleta/nga-1/`:
 | `ler_rsssf.py` | Lê os jogos de cada edição: trechos das páginas da RSSSF (data/coleta/nga-1/rsssf/) com o leitor comum (rsssf_africa), |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol (copiado de coleta/chi-1/outras_fontes.py, sem a ESPN, que não tem a liga egípcia). |
 | `ver.py` | Ajuda da conferência: mostra os jogos entre dois clubes numa edição, com a linha da página e o texto em volta. |
-| `wiki_tabelas.py` | Tabelas finais dos artigos de temporada da Wikipédia em inglês (data/coleta/rsa-1/wikipedia/en_<temporada>.txt). A lista de campeões e a de artilheiros ficam vazias: o artigo da |
+| `wiki_tabelas.py` | Tabelas finais dos artigos de temporada da Wikipédia em inglês (data/coleta/nga-1/wikipedia/en_<temporada>.txt). A lista de campeões e a de artilheiros ficam vazias: o artigo da |
 
 - Fontes baixadas: `data/coleta/nga-1/` (uma pasta por fonte: `rsssf/`, `espn/`, `ogol/`, `wikipedia/`); cache da ESPN em `data/cache/espn-africa/`, do ogol em `data/cache/ogol-nga-1/`.
 - Pacote: `data/coleta/nga-1/pacote/`; relatório: `docs/coleta/nga-1.md`.
