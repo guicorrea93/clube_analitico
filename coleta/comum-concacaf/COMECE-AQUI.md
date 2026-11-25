@@ -48,8 +48,8 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 | `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | 17766bf (24/11, sem push) | não |
 | `hon-1` Hondurenho | 89 (1965/66–2026 Clausura) | 5.391 | 55 | 6e59e93 (24/11, sem push) | não |
 | `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | 7fd2f61 (24/11, sem push) | não |
-| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | f343c14f (25/11, sem push) | não |
-| `pan-1` Panamenho | 66 (1988–2026 Clausura, com 2 da LINFUNA) | 4.520 | 33 | sem commit (espera o ok) | não |
+| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | f343c14f (25/11, no GitHub) | não |
+| `pan-1` Panamenho | 66 (1988–2026 Clausura, com 2 da LINFUNA) | 4.520 | 33 | 83c08786 (25/11, no GitHub) | não |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
@@ -62,8 +62,9 @@ Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha p
 3. **Costa Rica (`crc-1`):** no git em 24/11 (`17766bf`, sem push); falta o agente 1 carregar no banco.
 4. **Honduras (`hon-1`):** no git em 24/11 (`6e59e93`, sem push); falta o agente 1 carregar no banco.
 5. **Guatemala (`gua-1`):** no git 7fd2f61 (24/11, sem push).
-6. **El Salvador (`slv-1`):** no git f343c14f (25/11, sem push).
-7. **Panamá (`pan-1`):** pacote pronto em 25/11 (teste de carga OK); espera o ok do commit.
+6. **El Salvador (`slv-1`):** no GitHub (`f343c14f`); falta o agente 1 carregar no banco.
+7. **Panamá (`pan-1`):** no GitHub em 25/11 (`83c08786`); falta o agente 1 carregar no banco.
+   **Pausa em 25/11** a pedido do Guilherme (recado ao agente 1 no fim de `docs/coleta/pedidos-concacaf.md`).
 8. **Próxima: Jamaica (`jam-1`)**, com o escopo antes. Depois, na ordem sugerida: `tri-1`, `can-1`, `hai-1`; depois as
    outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
 4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.

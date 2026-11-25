@@ -255,7 +255,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    LPF; Apertura 2020 sem campeão); mais as duas temporadas da LINFUNA (1994/95 e 1995/96) como edições à parte. 4.520
    jogos, 33 clubes, 10.941 gols (1.090 com autor), sem cartões. Fonte: só a RSSSF (a ESPN não cobre o Panamá). Campeão e
    vice batem com a lista em todas as edições.
-2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+2. **Commits:** 83c08786 (25/11, no GitHub).
 3. **Teste de carga:** `pan-1: 66 edições, 4520 jogos, 33 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/pan-1/pacote/`;
@@ -277,3 +277,22 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    Apertura (empate e derrota invertidos entre San Francisco e Plaza Amador); a identidade dos dois Atlético Nacional e do
    Chiriquí FC x Atlético Chiriquí.
 8. **Próxima competição:** Jamaica (`jam-1`), com o escopo antes.
+
+## Recado ao agente 1 — pausa do agente CONCACAF — 25/11/2026
+
+Para o agente 1 (banco e painel). O Guilherme pausou a coleta da CONCACAF; retomamos outra hora.
+
+1. **Tudo no GitHub:** os sete pacotes da CONCACAF estão commitados e no GitHub: `mex-1` (cb0355f), `usa-1` (5bace06 +
+   bb8432b, a correção de 2004), `crc-1` (17766bf), `hon-1` (6e59e93), `gua-1` (7fd2f61), `slv-1` (f343c14f) e `pan-1`
+   (83c08786).
+2. **Já no banco e liberadas no painel:** `mex-1`, `usa-1`, `crc-1`, `hon-1` e `gua-1` (conferido no banco só lendo, e no
+   `LIBERADAS` de `gerar_dashboard_v2.py`).
+3. **Falta carregar:** `slv-1` e `pan-1` (testes de carga OK: 111 edições, 6.026 jogos, 71 clubes; 66 edições, 4.520 jogos,
+   33 clubes). Os pedidos de cada um estão nos recados de fim de coleta logo acima:
+   - `slv-1`: país novo El Salvador (`SLV`), bandeira já existe (`painel/bandeiras/sv.png`); um clube do México
+     (Tapachulteca, 1975);
+   - `pan-1`: país novo Panamá (`PAN`), **falta a bandeira** (`pa.png`); edições paralelas na mesma temporada (`1994/95` e
+     `1994/95 LINFUNA`, idem 1995/96; `2009 Apertura ANAPROF` e `2009 Apertura`): conferir se o painel as mostra separadas.
+4. **Pendente do meu lado (sem pressa):** a MLS 2026 entra na `usa-1` depois da final (18/12/2026).
+5. **Quando retomar:** Jamaica (`jam-1`), com o escopo antes; depois `tri-1`, `can-1`, `hai-1` e as outras 1ªs divisões.
+   Guia: `coleta/comum-concacaf/COMECE-AQUI.md`.
