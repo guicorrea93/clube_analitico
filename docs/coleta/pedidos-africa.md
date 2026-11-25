@@ -380,3 +380,49 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    scores" e rodada copiada); 2014 (Douala AC x Coton Sport, derrota dada aos dois); 2015 (um placar entre Fovu e Canon);
    a identidade dos clubes do item 5.
 8. **Próxima competição:** `civ-1` (Costa do Marfim), depois da decisão do Guilherme sobre o escopo.
+
+## Recado de fim de coleta — tan-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `tan-1` (Campeonato Tanzaniano, hoje Ligi Kuu Tanzania Bara), 62 edições de 1965 a 2025/26;
+   5.929 jogos (5.747 da RSSSF, 182 do ogol; 75 decididos fora de campo, 38 W.O., 14 abandonados, 56 não jogados ou
+   anulados); 12.332 gols, 1.299 com autor; 0 cartões; 82 clubes, todos novos. Fontes: RSSSF (lista de campeões e
+   página de cada ano), ogol (jogos de 2007/08 em diante: base de 2011/12; data, rodada e conferência nos outros),
+   Wikipédia em inglês (tabela de 11 temporadas). A ESPN não tem a liga.
+2. **Commit:** o deste recado (`Coleta Tanzânia (tan-1): 62 edições, 5.929 jogos`).
+3. **Teste de carga:** `tan-1: 62 edições, 5929 jogos, 82 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `tan-1`; país novo **TAN (Tanzânia, CAF)**, criado pelo `competicao.json` (conferir a bandeira);
+   - **temporadas**: ano civil até 2007, duas metades de 2007/08 em diante;
+   - **pontos**: 2-1-0 (vitória, empate, derrota) até 1995; 3-1-0 desde 1995/96;
+   - **32 edições "sem jogos"**: só o campeão (23: 1966 a 1982 e 1990 a 1995), só os primeiros colocados (3: 1965,
+     1983, 1995/96) ou só a tabela final (6: 1985 a 1987, 1989, 1996/97, 1998); **8 com "jogos incompletos"** (1988 e
+     2000 a 2006);
+   - fases: 2000 a 2004 (grupos e fase final: "Super Eight", "Mainland Championship Playoff"); 2007 (mini-liga de
+     transição: três grupos, o "Super Six" e a final, Simba x Young Africans nos pênaltis); desde 2021/22, o desempate
+     do rebaixamento fora da tabela.
+5. **Decisões tomadas:**
+   - escopo: a liga do continente de 1965 a 2025/26, com o campeão do continente em todos os anos (a lista que a TFF e
+     os clubes contam); fora a liga de Dar es Salaam (1921–1964), a "Union League" de 1982 a 2003 (com Zanzibar; é o
+     campeão que a lista da RSSSF dá nesses anos), Zanzibar e as copas (o Guilherme aprovou em 25/11);
+   - nomes: Simba = Sunderland; Young Africans = Yanga; Moro United = Kajumulo = Sigara (trocas registradas pela RSSSF);
+     Kahama United = KJ82 Rangers; JKT Tanzania = JKT Ruvu; Tabora United = Kitayosce; Singida Fountain Gate = Singida
+     Big Stars; o Singida Black Stars (ex-Ihefu, levado para Singida) é outro clube; os clubes do exército com número
+     viram "KJ977 Meru Warriors", "KJ44 Karume Rangers";
+   - correções: três linhas de tabela com vitórias + empates + derrotas que não davam os jogos (2001 e 2006, pelos
+     pontos); resultados dados que a página marca como abandono (1999) ou deixa sem placar (2000); um "may yet be
+     awarded" que a tabela conta como 1-1 (1999); clubes excluídos com os jogos anulados (2001: Kagera Stars; 2004:
+     Reli Kigoma, Kariakoo e Pallsons);
+   - classificação nos anos de fase final (2000 a 2004): a tabela da fase final dá as primeiras posições;
+   - rebaixamento à mão onde a nota diz: 2000 (cancelado), 2001, 2002, 2004 ("seem to have been") e 2007.
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - os jogos de 1965 a 1998 (fora a matriz de 1984 e metade de 1988) e parte dos de 2000 a 2006. Fonte que
+     resolveria: jornais tanzanianos (Daily News, Mwananchi) ou o arquivo da TFF;
+   - as tabelas de 1966 a 1984 e de 1990 a 1995;
+   - autores dos gols na maior parte dos anos, artilheiros e cartões.
+7. **Onde a revisão deve olhar primeiro:** a identidade dos clubes do item 5 (Moro United, JKT Tanzania, Kahama
+   United); 2004 (rebaixados incertos e "Super Eight" só até a 6ª rodada); 2011/12 (um gol de diferença em 4 clubes
+   entre o ogol e a tabela).
+8. **Próxima competição:** `ang-1` (Angola), depois da decisão do Guilherme sobre o escopo.

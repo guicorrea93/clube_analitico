@@ -8,14 +8,27 @@ Para o agente de coleta da África (países da CAF) que for continuar este traba
 
 Este arquivo diz o que já foi feito, como e de onde continuar.
 
-Última atualização: 23/11/2026.
+Última atualização: 25/11/2026 (plano único de coleta).
 
 ## 1. Regras da casa (combinadas com o Guilherme)
+
+**O plano único de coleta (`docs/coleta/plano-de-coleta.md`, 25/11/2026) vale acima de tudo o que estiver diferente
+aqui:** ordem das fases e dos países, fontes, formato do pacote, nomes, entrega e git. Pontos dele que mudam o que se
+fazia nesta pasta:
+- **campeão e vice batem em duas fontes** (a lista da RSSSF e a Wikipédia, ou o site da liga); a divergência vai no
+  relatório;
+- **decidido fora de campo:** `resultado_especial` "awd", com o placar oficial nos gols (vazios na "derrota para os
+  dois") e o de campo na observação; "wo" fica para quem não compareceu;
+- **nome repetido:** primeiro a cidade; só sem cidade que resolva, o país entre parênteses. Nunca "de <país>";
+- **recado:** item 2 = "Commit: o deste recado (`<mensagem do commit>`)"; o hash vai só na mensagem ao Guilherme;
+  **nunca um commit só para anotar o hash**;
+- **o ok do Guilherme vale para o commit e o push juntos**; antes do push, conferir `git log origin/main..HEAD`;
+- o agente 1 carrega e publica em lotes: não esperar por ele para seguir.
 
 - **Uma competição por vez.** Antes de cada liga, mande ao Guilherme, em poucas linhas, as decisões de escopo (era
   colonial, ligas paralelas, temporadas canceladas). Ao fim de cada uma:
   - resumo curto;
-  - pedido de ok para o commit;
+  - pedido de ok para o commit e o push;
   - **recado de fim de coleta**: seção "Recado de fim de coleta — <slug> — <data>" no fim de
     `docs/coleta/pedidos-africa.md`, com os 8 itens da seção 10 do guia internacional, e o mesmo texto ao Guilherme num
     bloco de código. Liste os **países novos** (o agente 1 baixa as bandeiras).
@@ -24,8 +37,8 @@ Este arquivo diz o que já foi feito, como e de onde continuar.
   - `data/coleta/<slug>/`, `data/cache/*-africa*/` e `data/cache/ogol-<slug>/`;
   - `docs/coleta/<slug>.md` e `docs/coleta/pedidos-africa.md`.
 - **Banco só para leitura:** `sqlite3.connect("file:db/futebol.db?mode=ro", uri=True)`. O teste de carga usa uma cópia.
-- **Git:** nunca `git add -A` nem `git add .`; confira que `git diff --cached` está vazio antes do `git add`; commit só
-  com o ok explícito do Guilherme; push só quando ele pedir; não troque de ramo. A mensagem termina com
+- **Git:** nunca `git add -A` nem `git add .`; confira que `git diff --cached` está vazio antes do `git add`; commit e
+  push juntos, só com o ok explícito do Guilherme (veja acima); não troque de ramo. A mensagem termina com
   `Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>`.
 - **Logs e conferências vão para o scratchpad**, nunca soltos no repositório.
 - **Fale com ele em português, curto e por partes.**
@@ -49,8 +62,73 @@ Este arquivo diz o que já foi feito, como e de onde continuar.
 
 ## 3. Ordem e estado
 
-Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `cmr-1`, `civ-1`, `cod-1`, `sen-1`,
-`ang-1`; depois as outras 1ªs divisões da CAF.
+**Ordem (plano único de coleta, `docs/coleta/plano-de-coleta.md`, seção 1.1; vale acima da ordem antiga):** ranking de
+federações da CAF para as competições de clubes, o de 5 anos que distribui as vagas da Champions da CAF. Foto de
+25/11/2026, fixa (não muda depois):
+- a tabela em vigor é a da temporada 2026–27 (resultados de 2021–22 a 2025–26): artigo "CAF 5-year ranking" da Wikipédia
+  em inglês, seção "Association ranking for the 2026–27 CAF club season", revisão 1384297260
+  (https://en.wikipedia.org/w/index.php?title=CAF_5-year_ranking&oldid=1384297260);
+- só 27 federações pontuaram. Empates e as 27 com 0 ponto (Burkina Faso inclusive) vão pelo ranking da FIFA masculino
+  de 18/11/2026 (https://globalfootballrankings.com/rankings/fifa-world-ranking/men, lido em 25/11/2026);
+- o que já está pronto fica pronto; segue-se do primeiro país que falta. Fases (plano, seção 1): 1 = 1ª divisão de
+  todas as 54; 2 = copas nacionais; 3 = 2ªs divisões; 4 = o resto. Só se passa de fase com a região inteira feita.
+
+| Ordem | CAF 2026–27 | FIFA (desempate) | País | Slug | Fase 1 |
+|---|---|---|---|---|---|
+| 1 | 1 |  | Egito (EGY) | `egy-1` | pronto |
+| 2 | 2 |  | Marrocos (MAR) | `mar-1` | pronto |
+| 3 | 3 |  | Argélia (ALG) | `alg-1` | pronto |
+| 4 | 4 |  | África do Sul (RSA) | `rsa-1` | pronto |
+| 5 | 5 |  | Tanzânia (TAN) | `tan-1` | pronto |
+| 6 | 6 |  | Tunísia (TUN) | `tun-1` | pronto |
+| 7 | 7 |  | Angola (ANG) | `ang-1` | **próximo** |
+| 8 | 8 |  | RD Congo (COD) | `cod-1` |  |
+| 9 | 9 |  | Sudão (SDN) | `sdn-1` |  |
+| 10 | 10 |  | Mali (MLI) | `mli-1` |  |
+| 11 | 11 |  | Costa do Marfim (CIV) | `civ-1` |  |
+| 12 | 12 |  | Nigéria (NGA) | `nga-1` | pronto |
+| 13 | 13 |  | Líbia (LBY) | `lby-1` |  |
+| 14 | 14 |  | Congo (CGO) | `cgo-1` |  |
+| 15 | 15 |  | Zâmbia (ZAM) | `zam-1` |  |
+| 16 | 16 |  | Gana (GHA) | `gha-1` | pronto |
+| 17 | 17 |  | Guiné (GUI) | `gui-1` |  |
+| 18 | 18 | 118 | Mauritânia (MTN) | `mtn-1` |  |
+| 19 | 18 | 139 | Botsuana (BOT) | `bot-1` |  |
+| 20 | 20 |  | Senegal (SEN) | `sen-1` |  |
+| 21 | 21 | 42 | Camarões (CMR) | `cmr-1` | pronto |
+| 22 | 21 | 115 | Quênia (KEN) | `ken-1` |  |
+| 23 | 23 | 89 | Uganda (UGA) | `uga-1` |  |
+| 24 | 23 | 98 | Moçambique (MOZ) | `moz-1` |  |
+| 25 | 23 | 113 | Togo (TOG) | `tog-1` |  |
+| 26 | 26 | 114 | Níger (NIG) | `nig-1` |  |
+| 27 | 26 | 166 | Essuatíni (SWZ) | `swz-1` |  |
+| 28 | — | 59 | Burkina Faso (BFA) | `bfa-1` |  |
+| 29 | — | 71 | Cabo Verde (CPV) | `cpv-1` |  |
+| 30 | — | 85 | Benin (BEN) | `ben-1` |  |
+| 31 | — | 87 | Gabão (GAB) | `gab-1` |  |
+| 32 | — | 105 | Comores (COM) | `com-1` |  |
+| 33 | — | 107 | Gâmbia (GAM) | `gam-1` |  |
+| 34 | — | 108 | Guiné Equatorial (EQG) | `eqg-1` |  |
+| 35 | — | 109 | Madagascar (MAD) | `mad-1` |  |
+| 36 | — | 120 | Guiné-Bissau (GNB) | `gnb-1` |  |
+| 37 | — | 125 | Ruanda (RWA) | `rwa-1` |  |
+| 38 | — | 126 | Zimbábue (ZIM) | `zim-1` |  |
+| 39 | — | 129 | Namíbia (NAM) | `nam-1` |  |
+| 40 | — | 130 | Malawi (MWI) | `mwi-1` |  |
+| 41 | — | 131 | Serra Leoa (SLE) | `sle-1` |  |
+| 42 | — | 138 | Burundi (BDI) | `bdi-1` |  |
+| 43 | — | 143 | Libéria (LBR) | `lbr-1` |  |
+| 44 | — | 144 | Etiópia (ETH) | `eth-1` |  |
+| 45 | — | 147 | Lesoto (LES) | `les-1` |  |
+| 46 | — | 150 | República Centro-Africana (CTA) | `cta-1` |  |
+| 47 | — | 170 | Sudão do Sul (SSD) | `ssd-1` |  |
+| 48 | — | 179 | Maurício (MRI) | `mri-1` |  |
+| 49 | — | 180 | Chade (CHA) | `cha-1` |  |
+| 50 | — | 186 | Eritreia (ERI) | `eri-1` |  |
+| 51 | — | 194 | São Tomé e Príncipe (STP) | `stp-1` |  |
+| 52 | — | 195 | Djibuti (DJI) | `dji-1` |  |
+| 53 | — | 199 | Somália (SOM) | `som-1` |  |
+| 54 | — | 205 | Seicheles (SEY) | `sey-1` |  |
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
@@ -61,7 +139,8 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | `rsa-1` Sul-Africano | 55 (1971–2025/26) | 8.108 | 89 | b755594 (no GitHub) | sim |
 | `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | bc5287a6 (no GitHub) | sim |
 | `gha-1` Ganês | 65 (1958–2025/26) | 6.069 | 137 | cd02564c (no GitHub) | sim |
-| `cmr-1` Camaronês | 66 (1961–2026) | 6.804 | 86 | e7f2bfa8 (no GitHub) | não |
+| `cmr-1` Camaronês | 66 (1961–2026) | 6.804 | 85 | e7f2bfa8 (no GitHub) | sim |
+| `tan-1` Tanzaniano | 62 (1965–2025/26) | 5.929 | 82 | "Coleta Tanzânia (tan-1)..." (25/11; teste de carga OK) | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -77,10 +156,11 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
    `docs/coleta/pedidos-africa.md`).
 6. `gha-1`: commit cd02564c, no GitHub e no painel (25/11). As sete ligas (egy, mar, tun, alg, rsa, nga, gha) estão
    na lista LIBERADAS do painel (`gerar_dashboard_v2.py`).
-7. `cmr-1`: commit e7f2bfa8, no GitHub (25/11); esperar o agente 1 carregar e pôr na LIBERADAS (recado no fim de
-   `docs/coleta/pedidos-africa.md`).
-8. Próxima liga: `civ-1` (Costa do Marfim). Antes, mandar ao Guilherme o escopo.
-9. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+7. `cmr-1`: commit e7f2bfa8, no GitHub, no banco e no painel (25/11). As oito ligas estão na LIBERADAS.
+8. `tan-1`: pacote pronto (25/11; teste de carga OK; recado no fim de `docs/coleta/pedidos-africa.md`); commit e push
+   com o ok do Guilherme.
+9. Próxima liga: `ang-1` (Angola, o primeiro país da lista acima que falta). Antes, mandar ao Guilherme o escopo.
+10. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -235,6 +315,19 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   `gha04` e "2005" é a `gha05` ("Ghana 2005/06").
 - ogol: competição `liga-ganesa`, mesmo rótulo de temporada que a RSSSF, jogos só de 2008/09 a 2010/11 e de 2015 em diante.
 
+**Tanzânia (`tan-1`):**
+- **Escopo (pesquisa de 25/11; o Guilherme aprovou em 25/11):** a liga do continente (Tanganica), hoje Ligi Kuu Tanzania
+  Bara, de 1965 a 2025/26 (62 edições), com o campeão do continente em todos os anos: é a lista que a TFF e os clubes
+  contam (2024 = "30º título" do Young Africans). Fora: a liga de Dar es Salaam (1921–1964), a "Union League" de 1982 a
+  2003 (continente x Zanzibar; é o campeão que a lista da RSSSF dá nesses anos), Zanzibar (membro associado da CAF, fica
+  fora da lista das 54) e as copas. A mini-liga de transição de 2007 entra (a RSSSF e o Simba a contam).
+- RSSSF: lista em `tablest/tanzchamp.html` (de 1982 a 2003, o campeão do continente está na 2ª coluna); páginas `tanz65`,
+  `tanz82` ... `tanz91`, `tanz96` ... `tanz99`, `tanz00` ... `tanz09`, `tanz2010` ... `tanz2026`. O "1995/96" e o "1996/97"
+  das páginas são os campeonatos que a lista chama de 1996 e 1997; desde 2008 a lista usa o ano do fim ("2008" = 2007/08).
+- Pontos: 2-1-0 até 1995 (pelas tabelas até 1989), 3-1-0 desde 1995/96 (pelas tabelas desde 1996/97).
+- ogol: competição `liga-tanzaniana`, mesmo rótulo; jogos só de 2007/08 em diante (as edições antigas vêm vazias).
+- Wikipédia: "AAAA–AA Tanzanian Premier League", com tabela de 2015/16 em diante.
+
 **Camarões (`cmr-1`):**
 - **Escopo (pesquisa de 25/11; o Guilherme aprovou em 25/11):** o campeonato nacional de 1961 a 2026 (66 edições), como a
   lista da RSSSF ("since independence"); "1960" e "1961" da lista são o mesmo campeonato (uma edição, "1961"). Fora: o
@@ -370,6 +463,20 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   `importar.py`.
 - **Dois Aigle Royal** (Moungo, de Nkongsamba; Menoua, de Dschang) e "Aigle" sozinho nos jogos: regra por ano em
   `clubes_cmr.py`.
+
+**RSSSF (Tanzânia):**
+- **Zanzibar e a Union League na mesma página**, às vezes logo depois dos primeiros colocados do continente (sem tabela):
+  `FIM_SEMPRE` no `ler_rsssf.py` encerra o trecho em qualquer ponto.
+- **Clubes do exército com número** ("977 KJ Meru Warriors", "82 KJ Rangers", "44KJ"): o número vira posição ou
+  campanha; trocados em `linhas()` ("KJ977 ...").
+- **Matrizes de vários tipos:** numerada com a campanha nas pontas (1984: `matriz_numerada`) e por grupo, com siglas e
+  "xxx" na diagonal (2000: `matriz_grupos`, só dentro do trecho: a Union League vem em matriz depois).
+- **A "Superleague 1991"** é a fase com Zanzibar (Small Simba, Jamhuri): 1991 fica só com o campeão.
+- **Tabelas do meio da temporada** (2005) e **linhas de campanha anulada** de clube excluído (2001, 2004): `TABELAS_FORA`;
+  vários clubes excluídos na mesma edição: `ANULA_CLUBE` aceita lista.
+- **Nota de jogo dado que não valeu** ("may yet be awarded 2-0", 1999): `CORRIGE` com `"oficial": None`.
+- "Second level" em nota corrida casava com o `FIM_PADRAO` (que ignora maiúsculas): os nomes de divisão ficam em
+  `(?-i:...)`.
 
 **ogol (Camarões):** em 2010/11 o Union e o Caïman Douala têm o mesmo nome e o mesmo id (2482): os jogos dos dois ficam de
 fora. Nomes como "Lausanne SA De Yaoundé", "FC Renaissance", "Eagle Royale Casamba".

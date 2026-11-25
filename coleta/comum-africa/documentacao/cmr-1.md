@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 6804 (6751 com placar); **gols:** 13633; **gols com autor:** 1138 (8%); **cartões:** 0.
 - **Clubes:** 85; **artilheiros:** 2 edições com artilheiro (2 linhas, com empates).
 - **Classificação final:** 66 edições; **tabelas publicadas guardadas para conferência:** 675 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** e7f2bfa8.
 - **Observação da competição:** 1ª divisão camaronesa (hoje Elite One) de 1961 a 2026, como a lista de campeões da RSSSF, sem o campeonato territorial da era colonial e sem as ligas do Camarões anglófono até 1972. Pontos 2-1-0 (vitória, empate, derrota) até 1987/88 e de 1991 a 1994; 3-1-0 em 1988/89, 1989/90 e desde 1995.
 
 ## 2. Edições, fontes e regras

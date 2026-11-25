@@ -13,7 +13,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Sul-Africano | 55 (1971–2025/26) | 22 | 8108 | 4721 | 0 | 89 | 28 / 1 | sim | b7555945 | 0 | [rsa-1](rsa-1.md) |
 | Campeonato Nigeriano | 55 (1972–2025/26) | 26 | 8906 | 73 | 0 | 82 | 13 / 8 | sim | bc5287a6 | 0 | [nga-1](nga-1.md) |
 | Campeonato Ganês | 65 (1958–2025/26) | 39 | 6069 | 294 | 0 | 137 | 20 / 4 | sim | cd02564c | 0 | [gha-1](gha-1.md) |
-| Campeonato Camaronês | 66 (1961–2026) | 37 | 6804 | 1138 | 0 | 85 | 22 / 3 | não | — | 0 | [cmr-1](cmr-1.md) |
+| Campeonato Camaronês | 66 (1961–2026) | 37 | 6804 | 1138 | 0 | 85 | 22 / 3 | sim | e7f2bfa8 | 0 | [cmr-1](cmr-1.md) |
+| Campeonato Tanzaniano | 62 (1965–2025/26) | 32 | 5929 | 1299 | 0 | 82 | 21 / 1 | não | — | 0 | [tan-1](tan-1.md) |
 
 ## Pendências de todas as competições
 
@@ -59,6 +60,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **cmr-1:** 2001: a classificação é a tabela oficial da FECAFOOT, que não fecha com os jogos (a página traz também a tabela pelos resultados conhecidos).
 - **cmr-1:** Autores dos gols só em 2004 e 2005; artilheiros só desses dois anos; cartões, nenhum. Fonte que resolveria: o ogol jogo a jogo (2005 em diante, fora 2013 a 2016).
 - **cmr-1:** Identidade a conferir: os dois Aigle Royal ("Aigle" sozinho até 2004 = o do Moungo, de Nkongsamba; de 2005 a 2023 = o da Menoua, de Dschang; 2024/25 = o do Moungo); PWD Bamenda x PWD Kumba; Unisport du Haut-Nkam = Unisport de Bafang.
+- **tan-1:** 1965 a 1998: só o campeão (1966 a 1982 e 1990 a 1995), só os primeiros colocados (1965, 1983, 1995/96) ou só a tabela (1985 a 1987, 1989, 1996/97, 1998); 1988 e 2000 a 2006: parte dos jogos. Fonte que resolveria: jornais tanzanianos (Daily News, Mwananchi) ou o arquivo da TFF.
+- **tan-1:** 2011/12: os jogos vêm do ogol (a RSSSF só tem a tabela); um gol de diferença em 4 clubes, sem terceira fonte.
+- **tan-1:** Rebaixamento: 2000 (cancelado), 2001, 2002, 2004 e 2007 marcados à mão pelas notas da página; 2004 "seem to have been" (a página não tem certeza); 2006 sem informação.
+- **tan-1:** Autores dos gols só em parte (2004 a 2010/11 e alguns anos depois de 2020); artilheiros e cartões, nenhum. Fonte que resolveria: o ogol jogo a jogo (2007/08 em diante).
+- **tan-1:** Identidade a conferir: Moro United = Kajumulo = Sigara (a RSSSF registra as trocas de nome, mas o clube parece ter mudado de cidade); JKT Tanzania = JKT Ruvu; Kahama United = KJ82 Rangers; Pamba = Pamba Jiji; Singida Fountain Gate = Singida Big Stars; o Singida Black Stars ficou separado do Ihefu.
 
 ## Próximas competições
 

@@ -26,9 +26,9 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1", "cmr-1"]
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1", "cmr-1", "tan-1"]
 PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga", "gha-1": "gha",
-                       "cmr-1": "cmr"}
+                       "cmr-1": "cmr", "tan-1": "tan"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -146,6 +146,19 @@ PENDENCIAS: dict[str, list[str]] = {
         "Identidade a conferir: os dois Aigle Royal (\"Aigle\" sozinho até 2004 = o do Moungo, de Nkongsamba; de 2005 a "
         "2023 = o da Menoua, de Dschang; 2024/25 = o do Moungo); PWD Bamenda x PWD Kumba; Unisport du Haut-Nkam = "
         "Unisport de Bafang.",
+    ],
+    "tan-1": [
+        "1965 a 1998: só o campeão (1966 a 1982 e 1990 a 1995), só os primeiros colocados (1965, 1983, 1995/96) ou só a "
+        "tabela (1985 a 1987, 1989, 1996/97, 1998); 1988 e 2000 a 2006: parte dos jogos. Fonte que resolveria: jornais "
+        "tanzanianos (Daily News, Mwananchi) ou o arquivo da TFF.",
+        "2011/12: os jogos vêm do ogol (a RSSSF só tem a tabela); um gol de diferença em 4 clubes, sem terceira fonte.",
+        "Rebaixamento: 2000 (cancelado), 2001, 2002, 2004 e 2007 marcados à mão pelas notas da página; 2004 \"seem to "
+        "have been\" (a página não tem certeza); 2006 sem informação.",
+        "Autores dos gols só em parte (2004 a 2010/11 e alguns anos depois de 2020); artilheiros e cartões, nenhum. "
+        "Fonte que resolveria: o ogol jogo a jogo (2007/08 em diante).",
+        "Identidade a conferir: Moro United = Kajumulo = Sigara (a RSSSF registra as trocas de nome, mas o clube parece "
+        "ter mudado de cidade); JKT Tanzania = JKT Ruvu; Kahama United = KJ82 Rangers; Pamba = Pamba Jiji; Singida "
+        "Fountain Gate = Singida Big Stars; o Singida Black Stars ficou separado do Ihefu.",
     ],
 }
 
