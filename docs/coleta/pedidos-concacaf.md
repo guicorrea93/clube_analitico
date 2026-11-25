@@ -320,3 +320,30 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
 5. **Também neste commit:** o `COMECE-AQUI.md` com a lista do ranking FIFA da CONCACAF (foto de 25/11, seção 3.1) e o
    README da documentação com as próximas competições pelo plano único. A próxima é o Canadá (`can-1`), com o escopo enviado
    ao Guilherme em 25/11.
+
+## Recado de fim de coleta — can-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Canadense (`can-1`), 15 edições: as três ligas profissionais nacionais que a RSSSF junta
+   como o topo do futebol canadense (`canchamp.html`): Canadian Professional Soccer League 1983 (temporada abandonada no
+   meio, título nos playoffs), Canadian Soccer League 1987-1992 e Canadian Premier League 2019-2026. 922 jogos, 28 clubes
+   (27 novos), 2.525 gols (quase sem autores). Fontes: RSSSF e ogol (fase regular de 2025 e a temporada 2026 inteira). Campeão
+   e vice batem com a lista em todas as edições; os de 2026 (Cavalry 3-2 Atlético Ottawa, 21/11) com o ogol e a imprensa.
+2. **Commit:** o deste recado (`Coleta CONCACAF: Campeonato Canadense (can-1), 15 edições`).
+3. **Teste de carga:** `can-1: 15 edições, 922 jogos, 27 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/can-1/pacote/`;
+   - o país Canadá (`CAN`) já existe (clubes do `usa-1`);
+   - o Vancouver Whitecaps é o mesmo clube do `usa-1` (Vancouver 86ers no CSL);
+   - CSL 1987-1992 sem os jogos da fase regular (só tabelas e playoffs).
+5. **Decisões** (25/11, ok do Guilherme: "sim"): só as ligas nacionais; ficam fora a National Soccer League (1922-1997) e as
+   que a seguiram (regionais, de Toronto), o Canadian Championship (fase 2) e os canadenses da MLS (no `usa-1`). Clubes:
+   Vancouver 86ers = Vancouver Whitecaps; York9 / York United = Inter Toronto; Ottawa Pioneers = Ottawa Intrepid; Kitchener
+   Spirit = Kitchener Kickers; o Toronto Blizzard do CSL (refundado em 1986) leva "(CSL)"; FC Edmonton, Edmonton Brickmen e
+   Edmonton Eagles separados; Montreal Supra e FC Supra du Québec separados.
+6. **O que não deu para coletar:** os jogos da fase regular do CSL (fonte: jornais da época ou canadiansoccerhistory.com); os
+   autores de gol da CPL (as páginas só trazem a artilharia da temporada); hora, estádio e cartões (sem ESPN).
+7. **Onde a revisão deve olhar primeiro:** a CPL 2026 (só do ogol, conferir com a RSSSF quando sair); a classificação de 1983
+   (temporada abandonada) e de 2019 (primavera e outono somados); a identidade Vancouver 86ers = Vancouver Whitecaps.
+8. **Próxima competição:** Jamaica (`jam-1`), com o escopo antes.

@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 - **Jogos:** 8708 (8688 com placar); **gols:** 24858; **gols com autor:** 22327 (90%); **cartões:** 30061.
 - **Clubes:** 134; **artilheiros:** 22 edições com artilheiro (28 linhas, com empates).
 - **Classificação final:** 63 edições; **tabelas publicadas guardadas para conferência:** 940 linhas.
-- **No banco:** sim; **último commit do pacote:** bb8432b4.
+- **No banco:** sim; **último commit do pacote:** 85c4da52.
 - **Observação da competição:** 1ª divisão dos EUA, uma edição por título, como a lista "Division I" da RSSSF: ASL I (1921/22-1932/33, só tabelas), as duas ligas de 1967 (United Soccer Association e NPSL), NASL (1968-1984, só tabelas) e MLS (1996-2025; campeão = MLS Cup). Sem 1ª divisão de 1985 a 1995. Clubes do Canadá com país CAN.
 
 ## 2. Edições, fontes e regras

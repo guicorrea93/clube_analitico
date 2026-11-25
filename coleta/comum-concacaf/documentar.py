@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1", "gua-1", "slv-1", "pan-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
-PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon", "gua-1": "gua", "slv-1": "slv", "pan-1": "pan"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1", "gua-1", "slv-1", "pan-1", "can-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
+PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon", "gua-1": "gua", "slv-1": "slv", "pan-1": "pan", "can-1": "can"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -102,6 +102,14 @@ PENDENCIAS: dict[str, list[str]] = {
         "A ESPN não cobre o Panamá: sem hora, estádio nem cartões.",
         "Antes de 1988 fora (ligas da capital e de Colón; campeões nacionais de 1952 a 1987 desconhecidos).",
         "Divergências de um jogo ou um gol da própria página em 1997/98, 2004 Apertura e 2008 Apertura (explicadas no relatório).",
+    ],
+    "can-1": [
+        "CSL 1987-1992 sem os jogos da fase regular (a página de Dave Litterer só tem as tabelas e os playoffs). Fonte que "
+        "resolveria: jornais da época (Toronto Star, Vancouver Sun) ou o canadiansoccerhistory.com.",
+        "Quase sem autores de gol: as páginas da CPL trazem só a lista de artilheiros da temporada, não os autores por jogo.",
+        "CPL 2026 só do ogol: conferir com a página da RSSSF quando ela sair.",
+        "Fora do can-1 (decisão de 25/11): a National Soccer League (1922-1997) e as ligas que a seguiram (1998-2025), "
+        "regionais (Toronto); podem entrar na fase 4.",
     ],
 }
 
@@ -435,8 +443,8 @@ def main() -> None:
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
             "- Pelo plano único (`docs/coleta/plano-de-coleta.md`, 25/11/2026): fase 1, a 1ª divisão de todas as federações da "
-            "CONCACAF pelo ranking FIFA (foto de 25/11, lista no `COMECE-AQUI.md`, seção 3.1). A próxima é o Canadá "
-            "(`can-1`); depois Jamaica, Curaçao, Haiti, Trinidad e Tobago... Antes de cada uma, o escopo ao Guilherme.",
+            "CONCACAF pelo ranking FIFA (foto de 25/11, lista no `COMECE-AQUI.md`, seção 3.1). A próxima é a Jamaica "
+            "(`jam-1`); depois Curaçao, Haiti, Trinidad e Tobago... Antes de cada uma, o escopo ao Guilherme.",
             "- Depois, a fase 2 (copas nacionais), a fase 3 (2ªs divisões) e a fase 4 (o resto), pelo mesmo ranking.",
             "- A MLS 2026 entra na `usa-1` depois da final (18/12/2026).", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")

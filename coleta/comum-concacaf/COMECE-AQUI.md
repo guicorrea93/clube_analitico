@@ -50,6 +50,7 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 | `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | 7fd2f61 (no GitHub) | sim |
 | `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | f343c14f (no GitHub) | sim |
 | `pan-1` Panamenho | 66 (1988–2026 Clausura, com 2 da LINFUNA) | 4.520 | 33 | 83c08786 (no GitHub) | sim |
+| `can-1` Canadense | 15 (CPSL 1983, CSL 1987–1992, CPL 2019–2026) | 922 | 28 | sem commit (espera o ok) | não |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
@@ -71,10 +72,10 @@ A ordem não muda depois, mesmo que o ranking mude.
 |---|---|---|---|
 | 1 | México (13) | `mex-1` | pronto, no banco |
 | 2 | EUA (16) | `usa-1` | pronto, no banco (falta a MLS 2026, depois de 18/12) |
-| 3 | Canadá (25) | `can-1` | **próxima** (escopo antes) |
+| 3 | Canadá (25) | `can-1` | pronto em 25/11 (espera o ok do commit) |
 | 4 | Panamá (45) | `pan-1` | pronto, no banco |
 | 5 | Costa Rica (55) | `crc-1` | pronto, no banco |
-| 6 | Jamaica (67) | `jam-1` | |
+| 6 | Jamaica (67) | `jam-1` | **próxima** (escopo antes) |
 | 7 | Honduras (68) | `hon-1` | pronto, no banco |
 | 8 | Curaçao (81) | `cuw-1` | |
 | 9 | Haiti (86) | `hai-1` | |
@@ -115,9 +116,10 @@ Os slugs das que faltam seguem o código FIFA (`<pais>-1`); conferir no banco an
 2. **Correção do plano (seção 2.3), 25/11:** o leitor comum (`rsssf_concacaf.py`) passou a juntar os autores de gol em duas
    linhas (como o `rsssf_sul.py`, a0222fa9); as sete ligas foram reimportadas e os totais comparados (recado em
    `docs/coleta/pedidos-concacaf.md`).
-3. **Próxima: Canadá (`can-1`)**, com o escopo antes. Depois, pelo ranking: Jamaica, Curaçao, Haiti, Trinidad e Tobago...
-4. **MLS 2026:** entra na `usa-1` depois da final (18/12/2026).
-5. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
+3. **Canadá (`can-1`):** pronto em 25/11 (teste de carga OK); espera o ok do commit e do push.
+4. **Próxima: Jamaica (`jam-1`)**, com o escopo antes. Depois, pelo ranking: Curaçao, Haiti, Trinidad e Tobago...
+5. **MLS 2026:** entra na `usa-1` depois da final (18/12/2026).
+6. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
 ## 4. Código comum (`coleta/comum-concacaf/`)
 
@@ -157,6 +159,18 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   "Santos Laguna"; os outros "América" levam a cidade. Conferir sempre o banco e os `data/coleta/*/pacote/clubes.csv`.
 - As armadilhas da RSSSF, da ESPN e do ogol já vistas na América do Sul estão na seção 6 de
   `coleta/comum-sulamerica/COMECE-AQUI.md`.
+
+**Vistas no Canadá (25/11):**
+- **A ESPN não tem a CPL** (não há `can.1`); o **ogol** tem as edições da CPL completas (códigos em `edicoes._OGOL`): entra
+  onde a RSSSF não tem os jogos (fase regular de 2025; 2026 inteiro), por `ler_rsssf.ogol_jogos` (Edicao.ogol).
+- **Playoffs do CSL em "Hamilton 1 at Calgary 2"** (visitante primeiro, fase no começo da linha, pênaltis em "- 5-4 Victoria
+  Penalty"): `ler_rsssf.playoffs_csl`; o leitor comum lia errado as linhas com pênaltis.
+- **Seção da CPL na página do ano** começa no segundo título "Canadian Premier League AAAA" (o primeiro é o índice); a página
+  de 2025 diz "2024" no título (erro da página).
+- **Temporada em duas fases com tabela somada** (CPL 2019: "Spring Season", "Fall Season", "Overall Table"): fases
+  "Primavera" e "Outono"; a classificação sai do cálculo com todos os jogos.
+- **Lista de campeões ainda sem o último ano** (a CPL 2026, final em 21/11): entra à mão em `edicoes.lista()`, com o ogol e a
+  imprensa como as duas fontes.
 
 **Vistas no Panamá (25/11):**
 - **A ESPN não tem a liga do Panamá** (não há `pan.1` na lista de ligas dela): só a RSSSF.
@@ -266,6 +280,11 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   das ligas regionais, não uma liga; a RSSSF a lista à parte da Liga Nacional (`hondchamp.html`); a liga e a FENAFUTH não
   reconhecem esses títulos (há só um pedido do Olimpia, sem decisão); e quase não há dados (vários anos sem vice, nenhuma
   tabela). Se um dia entrar, como competição própria, não dentro do `hon-1`.
+- **Canadá (25/11, ok do Guilherme: "sim"):** as três ligas profissionais nacionais que a RSSSF junta como o topo do
+  futebol canadense: CPSL 1983, CSL 1987-1992 e CPL 2019-2026 (15 edições). Ficam fora a National Soccer League (1922-1997)
+  e as que a seguiram (1998-2025), de clubes quase só de Toronto (regionais; fase 4, se um dia entrarem); o Canadian
+  Championship (copa, fase 2); e os canadenses da MLS (no `usa-1`). Identidade: Vancouver 86ers = Vancouver Whitecaps (a
+  mesma organização); o Toronto Blizzard do CSL (refundado em 1986) é outro clube que o da NASL e leva "(CSL)".
 - **Panamá (25/11, ok do Guilherme: "sim"):** de 1988 (ANAPROF, depois LPF) em diante, como a lista da RSSSF (63 títulos) e
   a imprensa local; antes só ligas da capital e de Colón, e os campeões de 1952 a 1987 são desconhecidos. Apertura e Clausura
   de 2001 em diante (a liga passou a contar os de 2001 a 2006 como títulos; a final entre os dois campeões fica fora, como

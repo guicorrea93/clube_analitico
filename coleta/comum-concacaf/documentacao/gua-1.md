@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 - **Jogos:** 6836 (6833 com placar); **gols:** 17562; **gols com autor:** 2991 (17%); **cartões:** 0.
 - **Clubes:** 73; **artilheiros:** 1 edições com artilheiro (1 linhas, com empates).
 - **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 1383 linhas.
-- **No banco:** sim; **último commit do pacote:** 7fd2f616.
+- **No banco:** sim; **último commit do pacote:** 85c4da52.
 - **Observação da competição:** Liga Nacional da Guatemala de 1942/43 ao Clausura 2026, uma edição por título, como a contagem oficial e a lista da RSSSF: um campeão por temporada até 1998/99, Apertura e Clausura de 1999/00 em diante (2001: Reordenamiento; Clausura 2020 sem campeão). Até 1995/96 só as tabelas. A Liga Capitalina (1919-1941) fica fora.
 
 ## 2. Edições, fontes e regras
