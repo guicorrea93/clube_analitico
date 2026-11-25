@@ -109,7 +109,7 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    autores até 2005/06), ogol (fase de liga 1999/00-2025/26), ESPN (2022/23-2025/26: autores, cartões, estádio, público,
    hora), Wikipédia (lista oficial de campeões e vices). Pacote em `data/coleta/ksa-1/pacote/`, relatório em
    `docs/coleta/ksa-1.md`, ficha em `coleta/comum-asia/documentacao/ksa-1.md`.
-2. **Commits:** `204e7d6d` (25/11, sem push).
+2. **Commits:** `204e7d6d` e `b7d96c27` (no GitHub, 25/11).
 3. **Teste de carga:** `ksa-1: 69 edições, 5965 jogos, 43 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `ksa-1`; **país novo: Arábia Saudita (`KSA`, AFC)**: a Arábia Saudita foi a Copas, deve já haver bandeira;
@@ -136,3 +136,23 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    às vezes com o rótulo da temporada anterior); a classificação dos anos de playoff (campeão e vice em cima, depois a
    tabela); os placares RSSSF x ogol listados em cada edição; `clubes_ksa.py` (homônimos e grafias).
 8. **Próxima competição:** Irã (`irn-1`), depois das decisões de escopo do Guilherme.
+
+## Recado ao agente 1 (banco e painel) — 25/11/2026 — agente Ásia em pausa
+
+O Guilherme pausou a coleta Ásia; ele retoma outra hora. Tudo está no GitHub, e o estado está em
+`coleta/comum-asia/COMECE-AQUI.md` (seção 3) e em `coleta/comum-asia/documentacao/`.
+
+**Para carregar:**
+- `jpn-1` (Japonês): já está no banco.
+- `kor-1` (Sul-Coreano): 43 edições, 7.163 jogos, 25 clubes, país novo `KOR` (commit `e04507f`). Pedidos no recado de
+  fim de coleta do `kor-1`, acima: classificação oficial de 2003 em diante, 16 W.O., 2 awd e o sorteio de 1998.
+- `ksa-1` (Saudita): 69 edições desde 1957/58, como a federação conta (decisão do Guilherme), 5.965 jogos, 43 clubes,
+  país novo `KSA` (commits `204e7d6d` e `b7d96c27`). Pedidos no recado de fim de coleta do `ksa-1`, acima: 12 edições
+  sem jogos; 1957/58-1973/74 com só a final; números vazios na classificação dos anos de tabela incompleta; playoff do
+  título em 1990/91-2006/07, com o campeão oficial em 1º.
+
+**Nomes:** os clubes sauditas seguem a regra combinada: Al-Hilal, Al-Ittihad, Al-Nassr e Al-Shabab com o nome puro; os
+homônimos com a cidade (Al-Ahli de Jeddah, Al-Wehda de Meca...). Nenhum colide com o banco (conferido em 24/11).
+
+**Ao retomar:** a próxima liga é o Irã (`irn-1`), com as decisões de escopo antes. Os achados da revisão para a Ásia entram
+pela `docs/revisao/achados.csv` (`quem_corrige` = `coleta-asia`).
