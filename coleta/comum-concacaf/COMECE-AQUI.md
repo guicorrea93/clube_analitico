@@ -48,7 +48,8 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 | `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | 17766bf (24/11, sem push) | não |
 | `hon-1` Hondurenho | 89 (1965/66–2026 Clausura) | 5.391 | 55 | 6e59e93 (24/11, sem push) | não |
 | `gua-1` Guatemalteco | 101 (1942/43–2026 Clausura) | 6.836 | 73 | 7fd2f61 (24/11, sem push) | não |
-| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | sem commit (espera o ok) | não |
+| `slv-1` Salvadorenho | 111 (1926–2026 Clausura) | 6.026 | 71 | f343c14f (25/11, sem push) | não |
+| `pan-1` Panamenho | 66 (1988–2026 Clausura, com 2 da LINFUNA) | 4.520 | 33 | sem commit (espera o ok) | não |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
@@ -61,8 +62,9 @@ Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha p
 3. **Costa Rica (`crc-1`):** no git em 24/11 (`17766bf`, sem push); falta o agente 1 carregar no banco.
 4. **Honduras (`hon-1`):** no git em 24/11 (`6e59e93`, sem push); falta o agente 1 carregar no banco.
 5. **Guatemala (`gua-1`):** no git 7fd2f61 (24/11, sem push).
-6. **El Salvador (`slv-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit.
-7. **Próxima: Panamá (`pan-1`)**, com o escopo antes. Depois, na ordem sugerida: `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
+6. **El Salvador (`slv-1`):** no git f343c14f (25/11, sem push).
+7. **Panamá (`pan-1`):** pacote pronto em 25/11 (teste de carga OK); espera o ok do commit.
+8. **Próxima: Jamaica (`jam-1`)**, com o escopo antes. Depois, na ordem sugerida: `tri-1`, `can-1`, `hai-1`; depois as
    outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
 4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
@@ -104,6 +106,17 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   "Santos Laguna"; os outros "América" levam a cidade. Conferir sempre o banco e os `data/coleta/*/pacote/clubes.csv`.
 - As armadilhas da RSSSF, da ESPN e do ogol já vistas na América do Sul estão na seção 6 de
   `coleta/comum-sulamerica/COMECE-AQUI.md`.
+
+**Vistas no Panamá (25/11):**
+- **A ESPN não tem a liga do Panamá** (não há `pan.1` na lista de ligas dela): só a RSSSF.
+- **Edições com rótulo do ano do torneio** ("2010 Clausura" = Clausura 2009/10; "2009 Apertura ANAPROF" e "2009 Apertura" da
+  LPF): `edicoes.lista()` e `edicoes._torneio()` (o título do torneio vale na página do ano, na seguinte ou na anterior;
+  o primeiro título da página é o da 1ª divisão, os seguintes são da 2ª).
+- **"Championship Final" com dois sentidos:** até 2000/01 é a final da temporada; de 2002 a 2006 é a decisão entre os
+  campeões do Apertura e do Clausura (supercopa, fora): `FIM_TORNEIO` só nos Aperturas e Clausuras.
+- **"Topscorers" no meio da página** (antes das semifinais): não serve de fim de trecho.
+- **"Sporting '89":** o apóstrofo impede a leitura da linha como jogo; `linhas()` troca por "Sporting 89".
+- **Liga paralela (LINFUNA 1994-96):** edição à parte na mesma temporada ("1994/95 LINFUNA"), ordenada logo depois da oficial.
 
 **Vistas em El Salvador (24/11):**
 - **Lista de campeões com seções** ("unofficial editions", "official championships", "Playoff between Zonal Champions",
@@ -202,6 +215,11 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   das ligas regionais, não uma liga; a RSSSF a lista à parte da Liga Nacional (`hondchamp.html`); a liga e a FENAFUTH não
   reconhecem esses títulos (há só um pedido do Olimpia, sem decisão); e quase não há dados (vários anos sem vice, nenhuma
   tabela). Se um dia entrar, como competição própria, não dentro do `hon-1`.
+- **Panamá (25/11, ok do Guilherme: "sim"):** de 1988 (ANAPROF, depois LPF) em diante, como a lista da RSSSF (63 títulos) e
+  a imprensa local; antes só ligas da capital e de Colón, e os campeões de 1952 a 1987 são desconhecidos. Apertura e Clausura
+  de 2001 em diante (a liga passou a contar os de 2001 a 2006 como títulos; a final entre os dois campeões fica fora, como
+  supercopa). A LINFUNA (1994/95 e 1995/96, liga paralela do racha, reconhecida pela FIFA na época) entra como edições à
+  parte: a RSSSF a soma no total e a imprensa conta os 2 títulos do Árabe Unido (15 no total). Apertura 2020 sem campeão.
 - **El Salvador (24/11, ok do Guilherme: "siga"):** a lista de campeões da RSSSF (110 títulos), que é a contagem da
   imprensa de lá (FAS 20, Alianza 18, Águila 17). Entram os nove campeonatos nacionais de 1926 a 1946 (final ou quadrangular
   entre os campeões das zonas, que a RSSSF conta como oficiais, como a era amadora do México). Ficam fora 1924-25 (não

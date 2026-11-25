@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1", "gua-1", "slv-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
-PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon", "gua-1": "gua", "slv-1": "slv"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1", "gua-1", "slv-1", "pan-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
+PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon", "gua-1": "gua", "slv-1": "slv", "pan-1": "pan"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -94,6 +94,14 @@ PENDENCIAS: dict[str, list[str]] = {
         "Títulos só da Zona Central (1931-36, 1939-41, 1944-45) fora do slv-1 (decisão de 24/11); a tradição às vezes os "
         "conta como nacionais.",
         "2020/21 (pandemia, duas fases de grupos): a classificação junta os dois grupos da segunda fase (10 jogos por clube).",
+    ],
+    "pan-1": [
+        "1988 a 1995/96 e 2001 sem jogos: a RSSSF não tem página de 1989 a 1993, da ANAPROF de 1994/95 e 1995/96 nem dos dois "
+        "torneios de 2001 (só o campeão e o vice da lista). Fonte que resolveria: La Prensa / Crítica da época ou a LPF.",
+        "1999/00 e Apertura 2010 a Clausura 2012 só com as tabelas; 1996/97 incompleta (faltam as rodadas 5 a 7).",
+        "A ESPN não cobre o Panamá: sem hora, estádio nem cartões.",
+        "Antes de 1988 fora (ligas da capital e de Colón; campeões nacionais de 1952 a 1987 desconhecidos).",
+        "Divergências de um jogo ou um gol da própria página em 1997/98, 2004 Apertura e 2008 Apertura (explicadas no relatório).",
     ],
 }
 

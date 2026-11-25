@@ -223,7 +223,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    Clausura 2026; o Clausura 2023 (cancelado depois da tragédia no Cuscatlán) sem campeão. 6.026 jogos (1996/97 em diante,
    mais as finais de 1926 a 1938), 71 clubes, 15.505 gols (2.682 com autor), sem cartões. Fontes: RSSSF e ESPN (`slv.1`,
    2006 em diante: hora em 3.988 jogos, estádio em 3.515). Campeão e vice batem com a lista em todas as edições.
-2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+2. **Commits:** f343c14f (25/11, sem push).
 3. **Teste de carga:** `slv-1: 111 edições, 6026 jogos, 71 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/slv-1/pacote/`;
@@ -244,3 +244,36 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
 7. **Onde a revisão deve olhar primeiro:** 2002 Clausura (um gol a mais nos jogos do Atlético Balboa que na tabela); a
    identidade do Hércules de 2025 e do Independiente de 1948/49; a classificação de 2020/21 (duas fases de grupos).
 8. **Próxima competição:** Panamá (`pan-1`), com o escopo antes.
+
+## Recado de fim de coleta — pan-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Panamenho (`pan-1`: ANAPROF 1988-2009 e Liga Panameña de Fútbol), 66 edições, uma por
+   título, como a lista da RSSSF (`panamachamp.html`, 63 títulos desde 1988) e a imprensa local: um campeão por temporada de
+   1988 a 2000/01; Apertura e Clausura de 2001 ao Clausura 2026 (dois Aperturas em 2009, o último da ANAPROF e o primeiro da
+   LPF; Apertura 2020 sem campeão); mais as duas temporadas da LINFUNA (1994/95 e 1995/96) como edições à parte. 4.520
+   jogos, 33 clubes, 10.941 gols (1.090 com autor), sem cartões. Fonte: só a RSSSF (a ESPN não cobre o Panamá). Campeão e
+   vice batem com a lista em todas as edições.
+2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+3. **Teste de carga:** `pan-1: 66 edições, 4520 jogos, 33 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/pan-1/pacote/`;
+   - **país novo: Panamá (`PAN`)**, em `paises.csv`; **baixar a bandeira** (não há `painel/bandeiras/pa.png`);
+   - duas edições na mesma temporada (`1994/95` e `1994/95 LINFUNA`; `1995/96` e `1995/96 LINFUNA`) e duas no mesmo ano
+     (`2009 Apertura ANAPROF` e `2009 Apertura`): conferir se o painel as mostra separadas;
+   - 15 edições sem jogos (1988 a 1995/96, 1999/00, os dois torneios de 2001 e Apertura 2010 a Clausura 2012).
+5. **Decisões** (25/11, ok do Guilherme: "sim"): começa em 1988 (antes, só ligas regionais e campeões desconhecidos);
+   Apertura e Clausura como edições de 2001 em diante; a final entre os campeões do Apertura e do Clausura (2002, 2005, 2006)
+   fica fora, como supercopa; LINFUNA dentro, como edição à parte. Clubes: Deportivo La Previsora = San Francisco; Chorrillo
+   / El Chorrillo / Municipal Chorrillo = CD Universitario; Sporting '89 = Sporting San Miguelito; River Plate FC = Colón
+   River; Deportivo del Este = Potros del Este; Chiriquí FC (até 2001) e Atlético Chiriquí separados; Atlético Nacional (anos
+   1990) e SD Atlético Nacional (2015 em diante) separados; homônimos levam "de Panamá" (Alianza, Atlético Nacional, SD
+   Atlético Nacional).
+6. **O que não deu para coletar:** jogos de 1988 a 1995/96 e de 2001 (a RSSSF não tem página); a fase regular de 1999/00 e de
+   2010/11 e 2011/12; as rodadas 5 a 7 de 1996/97; hora, estádio e cartões (sem ESPN). Fonte que resolveria: jornais da
+   época (La Prensa, Crítica) ou a LPF.
+7. **Onde a revisão deve olhar primeiro:** 1997/98 (dois jogos só com o resultado), 2004 Apertura (um gol do Tauro) e 2008
+   Apertura (empate e derrota invertidos entre San Francisco e Plaza Amador); a identidade dos dois Atlético Nacional e do
+   Chiriquí FC x Atlético Chiriquí.
+8. **Próxima competição:** Jamaica (`jam-1`), com o escopo antes.

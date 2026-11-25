@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 - **Jogos:** 6026 (6015 com placar); **gols:** 15505; **gols com autor:** 2682 (17%); **cartões:** 0.
 - **Clubes:** 71; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 111 edições; **tabelas publicadas guardadas para conferência:** 1203 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** f343c14f.
 - **Observação da competição:** Primera División de El Salvador de 1926 ao Clausura 2026, uma edição por título, como a lista da RSSSF (110 títulos): de 1926 a 1946 o campeonato nacional entre os campeões das zonas (final ou quadrangular); um campeão por temporada de 1948/49 a 1998/99; Apertura e Clausura de 1999/00 em diante (Clausura 2023 sem campeão). Até 1995/96 só as tabelas e as finais. Ficam fora 1924-25 (não oficiais), os títulos só da Zona Central (1931-36, 1939-41, 1944-45) e a Copa Pilsener 1998/99.
 
 ## 2. Edições, fontes e regras

@@ -11,7 +11,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | sim | 17766bf6 | 0 | [crc-1](crc-1.md) |
 | Campeonato Hondurenho | 89 (1965/66–2026 Clausura) | 35 | 5391 | 2529 | 0 | 55 | 47 / 5 | sim | 6e59e93f | 0 | [hon-1](hon-1.md) |
 | Campeonato Guatemalteco | 101 (1942/43–2026 Clausura) | 48 | 6836 | 2954 | 0 | 73 | 48 / 3 | sim | 7fd2f616 | 0 | [gua-1](gua-1.md) |
-| Campeonato Salvadorenho | 111 (1926–2026 Clausura) | 52 | 6026 | 2682 | 0 | 71 | 51 / 1 | não | — | 0 | [slv-1](slv-1.md) |
+| Campeonato Salvadorenho | 111 (1926–2026 Clausura) | 52 | 6026 | 2682 | 0 | 71 | 51 / 1 | não | f343c14f | 0 | [slv-1](slv-1.md) |
+| Campeonato Panamenho | 66 (1988–2026 Clausura) | 15 | 4520 | 1090 | 0 | 33 | 44 / 3 | não | — | 0 | [pan-1](pan-1.md) |
 
 ## Pendências de todas as competições
 
@@ -43,6 +44,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **slv-1:** 2002 Clausura: um gol de diferença entre os jogos e a tabela do Atlético Balboa (explicado no relatório).
 - **slv-1:** Títulos só da Zona Central (1931-36, 1939-41, 1944-45) fora do slv-1 (decisão de 24/11); a tradição às vezes os conta como nacionais.
 - **slv-1:** 2020/21 (pandemia, duas fases de grupos): a classificação junta os dois grupos da segunda fase (10 jogos por clube).
+- **pan-1:** 1988 a 1995/96 e 2001 sem jogos: a RSSSF não tem página de 1989 a 1993, da ANAPROF de 1994/95 e 1995/96 nem dos dois torneios de 2001 (só o campeão e o vice da lista). Fonte que resolveria: La Prensa / Crítica da época ou a LPF.
+- **pan-1:** 1999/00 e Apertura 2010 a Clausura 2012 só com as tabelas; 1996/97 incompleta (faltam as rodadas 5 a 7).
+- **pan-1:** A ESPN não cobre o Panamá: sem hora, estádio nem cartões.
+- **pan-1:** Antes de 1988 fora (ligas da capital e de Colón; campeões nacionais de 1952 a 1987 desconhecidos).
+- **pan-1:** Divergências de um jogo ou um gol da própria página em 1997/98, 2004 Apertura e 2008 Apertura (explicadas no relatório).
 
 ## Próximas competições
 
