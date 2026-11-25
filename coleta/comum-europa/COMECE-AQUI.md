@@ -105,6 +105,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `tur-1` Turco (era antiga até 1958; liga nacional) | 97 (1924–2025/26) | 20.971 | 13.891 | 23.395 | 168 | (ver git log) |
 | `gdr-1` Alemanha Oriental (zona soviética e DDR-Oberliga) | 44 (1948–1990/91) | 8.062 | 0 | 0 | 52 | (ver git log) |
 | `gre-1` Grego (fase nacional até 1958/59; Alpha Ethniki e Super League) | 90 (1927/28–2025/26) | 18.689 | 8.900 | 20.025 | 69 | (ver git log) |
+| `cze-1` Tcheco (liga da República Tcheca) | 33 (1993/94–2025/26) | 8.234 | 7.121 | 0 | 35 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -187,7 +188,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | # | Liga (rank UEFA) | # | Liga (rank UEFA) |
    |---|---|---|---|
    | 1 | Grécia (10º): **pronta 24/11** (`gre-1`) | 23 | Armênia (33º) |
-   | 2 | Tchéquia (11º), depois a Tchecoslováquia | 24 | Letônia (34º) |
+   | 2 | Tchéquia (11º): **pronta 25/11** (`cze-1`); depois a Tchecoslováquia | 24 | Letônia (34º) |
    | 3 | Polônia (12º) | 25 | Bósnia (35º) |
    | 4 | Noruega (13º) | 26 | Kosovo (36º) |
    | 5 | Dinamarca (14º) | 27 | Finlândia (37º) |
@@ -209,7 +210,8 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 21 | Islândia (31º) | 43 | País de Gales (54º) |
    | 22 | Irlanda (32º) | 44 | San Marino (55º) |
 
-   **Próxima: Tchéquia** (nº 2), depois a Tchecoslováquia como competição à parte. Pesquisar o escopo antes.
+   **Próxima: a Tchecoslováquia** (competição à parte, 1925 a 1992/93, com a liga do Protetorado da Boêmia e Morávia
+   de 1938/39 a 1943/44, decisão do Guilherme em 25/11/2026), depois a Polônia (nº 3). Pesquisar o escopo antes.
 
    Em 24/11 também ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1` (D-05b), e a rodada de
    fechamento zerou as pendências. As eras antigas da Holanda (1888/89–1955/56) e da
@@ -443,6 +445,17 @@ em `adjust_points_X` (o leitor comum lê os dois).
 - **Campeões do Chipre na liga grega (1967/68-1973/74):** país CYP; não contam como rebaixados.
 - **`\b` em heredoc vira backspace (chr 8):** caiu de novo. Para código com regex, usar Write/Edit; conferir com
   `chr(8) in texto`.
+
+**Tchéquia, o que serve para outras ligas:**
+- **Sem ESPN nem football-data:** confira cedo se a liga existe nessas fontes (a ESPN não tem a `cze.1`).
+- **Páginas de temporada da RSSSF com os autores dos gols** (Tchéquia, 1998/99 a 2011/12): "[P.Horvath 45pen, T.Janotka
+  80og; P.Sultes 64]", com o mandante antes do ";". Lidas por `rsssf_cze.autores()` e casadas com o jogo do ogol pelo
+  par e pelo placar; só entram quando a conta fecha. Vale olhar nas páginas de outros países.
+- **Nome de 2 dígitos da RSSSF só até 2008/09:** "tsje22.html" é a Tchecoslováquia de 1922, não 2021/22.
+- **Conflito de módulos entre pastas:** ao reaproveitar leitores de outro slug (`wiki_gre`, `rsssf_gre`), pôr a pasta no
+  fim do `sys.path` (`append`); com `insert(0, ...)` o `edicoes.py` do outro slug passa na frente.
+- **Pontos de 1993/94:** ainda 2 por vitória (a tabela da RSSSF mostra); a Wikipédia calcula com 3.
+- **Nome curto ambíguo na RSSSF** ("Bohemians" sozinho em 2008/09 = Střížkov): regra por época em `POR_ANO`.
 ## 7. Decisões do Guilherme já tomadas
 
 - Inglês 2025/26 incluído (EN-001).

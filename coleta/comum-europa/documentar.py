@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -137,6 +137,14 @@ LIMITES: dict[str, list[str]] = {
         "Play-off europeu de 2015/16: a tabela da Wikipédia dá 1 gol a menos a AEK (pró) e Panionios (contra) que os jogos "
         "do ogol; sem terceira fonte (a ESPN e o football-data não têm os play-offs), fica o ogol.",
     ],
+    "cze-1": [
+        "Autores dos gols só de 1998/99 a 2011/12 (página da RSSSF, quando a conta fecha com o placar: 7.121 gols); antes e "
+        "depois, nenhuma fonte em lote (a ESPN e o football-data não cobrem a Tchéquia). Sem cartões, público, estádio e "
+        "árbitro: só a ficha de cada jogo no ogol, jogo a jogo.",
+        "Jogos de acesso e rebaixamento contra clubes da 2ª divisão ficam de fora.",
+        "A liga tchecoslovaca (1925-1993) e a do Protetorado (1938/39-1943/44) ficam na competição da Tchecoslováquia "
+        "(decisão do Guilherme, 25/11/2026).",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -164,6 +172,12 @@ REVISAO: dict[str, list[str]] = {
         "Identidade: Chalkidona em 2004/05 (o ogol põe no Atromitos, que absorveu o clube em 2005); Rodos x AE Rodos e AO "
         "Kerkyra x PAE Kerkyra separados como na Wikipédia; Megas Alexandros (1959/60) como Pierikos.",
         "Desempates de posição que só estão nas notas da Wikipédia (1959/60 a 1966/67, 1973/74, 1982/83, 1983/84), sem data.",
+    ],
+    "cze-1": [
+        "Identidade: o Dukla Praha histórico (1993/94) separado do 1. FK Příbram (o ogol usa o mesmo código) e do FK Dukla "
+        "Praha de hoje; Bohemians 1905 x Bohemians de Střížkov (2008/09 e 2009/10).",
+        "Classificação com grupos (2018/19, 2019/20, desde 2021/22): do 7º ao 10º pela fase regular (o play-off europeu não "
+        "muda a posição).",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -214,6 +228,7 @@ DICIONARIOS = {
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "NOTAS_MATRIZ": "Células da matriz da RSSSF com nota (placar dado na nota)",
     "DERROTA_DOIS_OGOL": "Jogos que valeram derrota para os dois",
+    "DECIDIDOS": "Jogos decididos fora de campo, com o placar oficial dado à mão",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
     "EXCLUIDOS": "Clubes excluídos no meio da temporada (jogos anulados)",
     "DESEMPATES": "Desempates pelo título fora da tabela",
@@ -488,8 +503,9 @@ def main() -> None:
     idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in REVISAO.get(slug, [])]
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
-            "está em `COMECE-AQUI.md`, seção 3. A Grécia (`gre-1`) está pronta (24/11/2026); a próxima é a Tchéquia, "
-            "seguida da Tchecoslováquia (competição à parte). Uma por vez.", ""]
+            "está em `COMECE-AQUI.md`, seção 3. Prontas: Grécia (`gre-1`, 24/11/2026) e Tchéquia (`cze-1`, 25/11/2026); "
+            "a próxima é a Tchecoslováquia (competição à parte, com a liga do Protetorado), depois a Polônia. Uma por "
+            "vez.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

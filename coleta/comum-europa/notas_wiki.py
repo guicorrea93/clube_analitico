@@ -428,6 +428,19 @@ MANUAL: dict[str, str | None] = {
         "Panathinaikos: 11 pontos a menos (6 por razões financeiras e 5 por decisão da justiça desportiva)",
     "Xanthi were deducted 12 points for joint ownership": "Xanthi: 12 pontos a menos por dono em comum com outro clube",
     "Panionios were deducted 6 points for non-licensing": "Panionios: 6 pontos a menos por não obter a licença",
+    # Tchéquia
+    "Six points were taken off from Slovan Liberec as a result of proven corruption":
+        "Slovan Liberec: 6 pontos a menos por corrupção comprovada",
+    "Twelve points were taken off from Slovácko as a result of proven corruption":
+        "Slovácko: 12 pontos a menos por corrupção comprovada",
+    "Six points were taken off from SFC Opava as a result of proven corruption":
+        "Opava: 6 pontos a menos por corrupção comprovada",
+    "Bohemians Prague (Střížkov) were docked 20 points and fined six million koruna because they refused to play against "
+    "Bohemians 1905 and accused Sigma Olomouc of bribery without presenting evidence. The points deduction was later reduced "
+    "to 15 points": "Bohemians Střížkov: 20 pontos a menos (depois reduzidos a 15) e multa de 6 milhões de coroas, por se "
+                    "recusar a jogar contra o Bohemians 1905 e acusar o Sigma Olomouc de suborno sem provas",
+    "Sigma Olomouc were deducted 9 points following a disciplinary commission judgement regarding their 2009 corruption case":
+        "Sigma Olomouc: 9 pontos a menos por decisão da comissão disciplinar no caso de corrupção de 2009",
     "Panathinaikos were deducted 3 points due to fan behavior against PAOK": "Panathinaikos: 3 pontos a menos pelo "
                                                                              "comportamento da torcida contra o PAOK",
     "PAOK were deducted 6 points due to fan behavior against AEK Athens in Greek Cup final":

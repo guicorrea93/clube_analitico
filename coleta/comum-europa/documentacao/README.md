@@ -18,6 +18,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Turco | 97 (1924 (Şampiyonası)–2025/26) | 20971 | 13891 | 23395 | 168 | 128 / 30 | 0 | [tur-1](tur-1.md) |
 | Campeonato da Alemanha Oriental | 44 (1948–1990/91) | 8062 | 0 | 0 | 52 | 65 / 19 | 0 | [gdr-1](gdr-1.md) |
 | Campeonato Grego | 90 (1927/28–2025/26) | 18689 | 8900 | 20025 | 69 | 163 / 32 | 0 | [gre-1](gre-1.md) |
+| Campeonato Tcheco | 33 (1993/94–2025/26) | 8234 | 7121 | 0 | 35 | 75 / 1 | 0 | [cze-1](cze-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -69,6 +70,9 @@ Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 - **gre-1:** Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15; antes, só as fichas dos jogos-desempate da Wikipédia.
 - **gre-1:** Jogos de acesso e rebaixamento contra clubes da 2ª divisão ficam de fora (1959/60, 1967/68, 1968/69, 2000/01 a 2003/04, 2013/14, 2018/19 a 2021/22).
 - **gre-1:** Play-off europeu de 2015/16: a tabela da Wikipédia dá 1 gol a menos a AEK (pró) e Panionios (contra) que os jogos do ogol; sem terceira fonte (a ESPN e o football-data não têm os play-offs), fica o ogol.
+- **cze-1:** Autores dos gols só de 1998/99 a 2011/12 (página da RSSSF, quando a conta fecha com o placar: 7.121 gols); antes e depois, nenhuma fonte em lote (a ESPN e o football-data não cobrem a Tchéquia). Sem cartões, público, estádio e árbitro: só a ficha de cada jogo no ogol, jogo a jogo.
+- **cze-1:** Jogos de acesso e rebaixamento contra clubes da 2ª divisão ficam de fora.
+- **cze-1:** A liga tchecoslovaca (1925-1993) e a do Protetorado (1938/39-1943/44) ficam na competição da Tchecoslováquia (decisão do Guilherme, 25/11/2026).
 
 ## Com o agente de revisão
 
@@ -83,7 +87,9 @@ Decisões da coleta que a revisão confere.
 - **gre-1:** Era antiga: o mesmo critério na fase nacional (1930/31, 1931/32, 1953/54, 1956/57, 1957/58, 1958/59 com trocas).
 - **gre-1:** Identidade: Chalkidona em 2004/05 (o ogol põe no Atromitos, que absorveu o clube em 2005); Rodos x AE Rodos e AO Kerkyra x PAE Kerkyra separados como na Wikipédia; Megas Alexandros (1959/60) como Pierikos.
 - **gre-1:** Desempates de posição que só estão nas notas da Wikipédia (1959/60 a 1966/67, 1973/74, 1982/83, 1983/84), sem data.
+- **cze-1:** Identidade: o Dukla Praha histórico (1993/94) separado do 1. FK Příbram (o ogol usa o mesmo código) e do FK Dukla Praha de hoje; Bohemians 1905 x Bohemians de Střížkov (2008/09 e 2009/10).
+- **cze-1:** Classificação com grupos (2018/19, 2019/20, desde 2021/22): do 7º ao 10º pela fase regular (o play-off europeu não muda a posição).
 
 ## Próximas ligas
 
-- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. A Grécia (`gre-1`) está pronta (24/11/2026); a próxima é a Tchéquia, seguida da Tchecoslováquia (competição à parte). Uma por vez.
+- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas: Grécia (`gre-1`, 24/11/2026) e Tchéquia (`cze-1`, 25/11/2026); a próxima é a Tchecoslováquia (competição à parte, com a liga do Protetorado), depois a Polônia. Uma por vez.

@@ -1402,3 +1402,62 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - os 8 casos em que nenhum critério de desempate reproduz a ordem oficial.
 8. **Próxima tarefa:** Tchéquia (nº 2 da ordem), depois a Tchecoslováquia como competição à parte. Pesquisar o escopo
    antes.
+
+## Recado de fim de coleta — cze-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Tcheco, a liga da República Tcheca desde a separação, de 1993/94 a 2025/26:
+   - 33 edições, 8.234 jogos, 35 clubes;
+   - 7.121 gols com autor, de 1998/99 a 2011/12;
+   - títulos como na RSSSF: Sparta Praga 14, Slavia Praga 9, Viktoria Plzeň 6, Slovan Liberec 3 e Baník Ostrava 1;
+   - a liga tchecoslovaca (1925-1993) e a do Protetorado da Boêmia e Morávia (1938/39-1943/44) vão para a competição
+     da Tchecoslováquia, a próxima (decisão do Guilherme, 25/11).
+
+   Fontes:
+   - **ogol:** a base, com data e rodada;
+   - **Wikipédia (en):** tabelas da fase regular e dos grupos, mais a matriz de resultados;
+   - **RSSSF:** tabela e jogos de cada temporada, mais os autores dos gols de 1998/99 a 2011/12.
+
+   A ESPN e o football-data não cobrem a Tchéquia.
+
+   Conferência: 75 tabelas fecham com os jogos e 1 diverge (a da RSSSF em 2009/10, que não traz a redução da punição
+   do Bohemians Střížkov; a da Wikipédia fecha).
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** "cze-1: 33 edições, 8234 jogos, 35 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `cze-1` e liberar no seletor;
+   - **país novo:** Tchéquia (`CZE`, em `paises.csv`);
+   - **pontos:** 2 por vitória em 1993/94 (como a tabela da RSSSF) e 3 depois;
+   - **fases:**
+     - "Liga" (pontos corridos);
+     - em 2018/19, 2019/20 e desde 2021/22: "Fase regular", "Grupo do título" e "Grupo de rebaixamento" (pontos
+       acumulados);
+     - "Play-off europeu", em mata-mata do 7º ao 10º, com prorrogação na observação;
+   - **classificação com grupos:** é o grupo do título, depois do 7º ao 10º pela fase regular, depois o grupo de
+     rebaixamento, com os números de todos os jogos da liga (o play-off europeu fica fora da conta);
+   - **`awd`:** Slavia 0-3 Sparta (09/05/2026): abandonado com 3-2 para o Slavia depois da invasão de campo, e a vitória
+     dada ao Sparta;
+   - **sem cartões, público, estádio e árbitro** (nenhuma fonte em lote);
+   - **a Corrida** tem rodada em todas as temporadas na fase regular.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pela linhagem do clube** (o link da Wikipédia):
+     - o Dukla Praha histórico (1993/94) separado do 1. FK Příbram, para onde ele se mudou em 1996 (o ogol usa o mesmo
+       código), e do FK Dukla Praha de hoje;
+     - o Bohemians 1905 separado do Bohemians de Střížkov (2008/09 e 2009/10);
+     - os nomes de patrocinador de Zlín, Brno, Drnovice, Příbram e outros como o mesmo clube;
+   - (b) **1 placar do ogol corrigido:** FK Dukla Praga 2-0 Slovan Liberec (2015/16), com a matriz da Wikipédia, a
+     RSSSF e as duas tabelas concordando;
+   - (c) **autores dos gols da RSSSF:** só entram quando a conta fecha com o placar (o mandante antes do ";"; gol contra
+     do lado de quem se beneficiou).
+6. **O que não deu para coletar:**
+   - autores dos gols antes de 1998/99 e depois de 2011/12;
+   - cartões, público, estádio e árbitro.
+
+   Fonte possível: a ficha de cada jogo no ogol, jogo a jogo.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade de Dukla e Bohemians;
+   - a ordem do 7º ao 10º nos anos com grupos;
+   - 2000/01, único ano em que nenhum critério de desempate reproduz a ordem oficial.
+8. **Próxima tarefa:** a Tchecoslováquia (competição à parte, com a liga do Protetorado), depois a Polônia. Pesquisar o
+   escopo antes.
