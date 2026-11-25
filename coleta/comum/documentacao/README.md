@@ -15,7 +15,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | sim (113 edições, 11521 jogos) | 4 | [bra-mg-1](bra-mg-1.md) |
 | Campeonato Gaúcho | 107 (1918–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | sim (106 edições, 13393 jogos) | 5 | [bra-rs-1](bra-rs-1.md) |
 | Campeonato Paranaense | 113 (1915–2026) | 14315 | 2410 | 0 | 142 | 209 / 225 | sim (113 edições, 14315 jogos) | 6 | [bra-pr-1](bra-pr-1.md) |
-| Campeonato Cearense | 112 (1915–2026) | 8501 | 2821 | 0 | 57 | 185 / 95 | não | 5 | [bra-ce-1](bra-ce-1.md) |
+| Campeonato Cearense | 112 (1915–2026) | 8501 | 2821 | 0 | 57 | 185 / 95 | sim (112 edições, 8501 jogos) | 5 | [bra-ce-1](bra-ce-1.md) |
+| Campeonato Goiano | 83 (1944–2026) | 8682 | 2965 | 0 | 62 | 180 / 99 | não | 4 | [bra-go-1](bra-go-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -59,6 +60,10 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-ce-1:** A RSSSF Brasil parou de responder em 25/11: 87 páginas vieram do Internet Archive (rsssfbrasil/origem.json). Sem página: 2025 e 2026 (jogos só do ogol). As páginas de 1988-1990 perderam os acentos (rsssf_ce1._acentos).
 - **bra-ce-1:** Identidade a revisar: "Iguatu 1996" (o Iguatu de 1996-1997; a ficha do ogol é de 2010), "América-R" (1996) e "Russas" (1997), talvez o mesmo clube; Esporte Clube Limoeiro (1995-2000) separado do Limoeiro do ogol (2001).
 - **bra-ce-1:** Fora do pacote: a Taça Padre Cícero de 2012 (título à parte). Tabelas divergentes a explicar no relatório (95, contra 185 que batem). Autores dos gols: 11% (as páginas quase não trazem). Cartões: só jogo a jogo, pela ficha do ogol.
+- **bra-go-1:** 8 edições sem jogos (1945, 1946, 1950, 1951, 1960, 1963, 1965, 1966) entram só com campeão e vice (importar.PODIO_SEM_JOGOS). Ficam fora os campeonatos de Goiânia de 1940 e 1943 e o "Campeonato Estadual de Goiás" amador, que a FGF não reconhece.
+- **bra-go-1:** Vices diferentes da Wikipédia: 1958 (pacote Vila Nova, pela tabela; Wikipédia Atlético) e 2000 (pacote Vila Nova, que perdeu as duas finais de turno para o Goiás; Wikipédia Anapolina, talvez pela campanha geral).
+- **bra-go-1:** Jogos corrigidos pela tabela de confrontos (a página dá o mesmo clube aos dois lados): 1978 Anápolis 1-0 Anapolina e 1993 Mineiros 2-1 Anapolina. Outros confrontos trocados na 1ª fase de 1993 (CRAC x Goiânia duas vezes, Itumbiara x Mineiros duas vezes) ficam como a página traz.
+- **bra-go-1:** Fora do pacote: os dois amistosos de 1995 e a repetição sem data da final de 2021. Tabelas divergentes a explicar no relatório (99, contra 180 que batem). Autores dos gols: 13%. Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

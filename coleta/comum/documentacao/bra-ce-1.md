@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 57; **artilheiros:** 102 temporadas com artilheiro (110 linhas, com empates).
 - **Classificação final:** 95 temporadas; **rodada a rodada:** 15 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 1931 linhas.
-- **No banco (`db/futebol.db`):** não.
+- **No banco (`db/futebol.db`):** sim (112 edições, 8501 jogos).
 - **Observação da competição:** 1ª divisão do Ceará, de 1915 a 2026 (1915-1919: torneios da Liga Metropolitana, reconhecidos pela FCF em 2008). 17 edições sem jogos em nenhuma fonte entram só com campeão e vice. 1992 teve título dividido entre quatro clubes; em 2004 não houve final (o STJD deu o título ao Fortaleza).
 
 ## 2. Fontes e regras

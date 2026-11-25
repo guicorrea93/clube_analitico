@@ -78,7 +78,8 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | be07b131 (25/11) | não; carregar | OK (64 clubes novos) |
 | `bra-rs-1` Gaúcho | 107 (1918–2026; 1918 sem jogos, com os campeões honoríficos; sem 1923 e 1924) | 13.393 | 3a0ffbba, a2db8a40; 1918 neste commit (25/11) | sim; recarregar | CONFERIR só pelo `co_campeao` de 1918 (dois clubes) |
 | `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | a2db8a40 (25/11) | não; carregar | OK (104 clubes novos) |
-| `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | neste commit (25/11) | não; carregar | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
+| `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | 2f5317f1 (25/11) | não; carregar | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
+| `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | neste commit (25/11) | não; carregar | OK (36 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -108,9 +109,9 @@ As 27 posições foram conferidas no PDF.
 | 3 | MG | 41.451 | `bra-mg-1` Mineiro | **pronto** (be07b131, 25/11; falta o agente 1 carregar) |
 | 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (3a0ffbba, 25/11; falta o agente 1 carregar) |
 | 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (a2db8a40, 25/11; falta o agente 1 carregar) |
-| 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
-| 7 | GO | 24.148 | `bra-go-1` Goiano | **próximo** (pesquisa a fundo e proposta de escopo antes) |
-| 8 | SC | 23.938 | `bra-sc-1` Catarinense | falta |
+| 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (2f5317f1, 25/11; falta o agente 1 carregar) |
+| 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
+| 8 | SC | 23.938 | `bra-sc-1` Catarinense | **próximo** (pesquisa a fundo e proposta de escopo antes) |
 | 9 | BA | 23.642 | `bra-ba-1` Baiano | falta |
 | 10 | PE | 14.158 | `bra-pe-1` Pernambucano | falta |
 | 11 | AL | 12.240 | `bra-al-1` Alagoano | falta |
@@ -136,8 +137,17 @@ seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta
 `docs/coleta/pedidos.md`. Autores pela ficha do ogol e jornais da A2: só se o Guilherme pedir.
 
 1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
-   Gaúcho de 1918 incluído como edição sem jogos (25/11). Próximo: o Goiano (`bra-go-1`), 7º do RNF; antes, pesquisa a
-   fundo e proposta de escopo ao Guilherme.
+   Gaúcho de 1918 incluído como edição sem jogos (25/11). Goiano (`bra-go-1`) feito em 25/11. Próximo: o Catarinense
+   (`bra-sc-1`), 8º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme.
+   **Escopo do Goiano, aprovado pelo Guilherme em 25/11:**
+   - 1944 a 2026, 83 edições (a conta da FGF e da RSSSF): 1944-1962 é a era amadora (o campeonato de Goiânia, que a FGF
+     conta como Goiano), profissional desde 1963. Nenhum título dividido.
+   - Ficam fora (a FGF não reconhece): os campeonatos de Goiânia de 1940 e 1943 e o "Campeonato Estadual de Goiás"
+     amador (capital x interior, cinco edições de 1947 a 1961; pode entrar depois, à parte, na etapa 4).
+   - Edições sem jogos (a decisão do Cearense): 1946, 1950, 1951, 1960, 1963, 1965 e 1966 não têm página na RSSSF;
+     entram só com campeão e vice, se outra fonte não tiver os jogos.
+   - Fontes: RSSSF Brasil (`tablesfq/go{ano}.htm`; lista em `gocamp.htm`), ogol ("campeonato-goiano", jogos a partir dos
+     anos 2000; 2026 só nele) e Wikipédia ("Campeonato Goiano de Futebol Masculino").
    **Escopo do Cearense, aprovado pelo Guilherme em 25/11:**
    - 1915 a 2026, 112 edições (a conta da FCF e da Wikipédia). Ficam fora 1913 (campeão desconhecido) e 1914 (Rio
      Branco; a FCF não reconhece e a RSSSF duvida que tenha existido). 1915-1919 (Liga Metropolitana) entram: a FCF
@@ -416,6 +426,16 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
   "América-CE" duas vezes): o carregador para com UNIQUE em `classificacao_final`. O `confere_nomes.py` mostra antes
   ("nomes repetidos no cadastro comum"); a saída é pôr o nome curto em `NOME_CODIGO`.
 - **`co_campeao` com mais de um clube** (1992, quatro campeões): o carregador só aceita um; pedido ao agente 1.
+
+**Goiano (o que valeu aprender)**
+- **Páginas regulares** (inglês, "[Feb 9]" e placar com traço): quase tudo saiu do leitor comum. Os problemas foram
+  pontuais: o grupo no começo da linha do jogo (2000), os jogos sem data depois da tabela (1949; precisam de um título
+  de fase e "[unknown]" antes) e o mesmo clube dos dois lados (1978, 1993; o adversário é o confronto que falta).
+- **Título de tabela que também é título de jogo** ("Final standings", 2021): tirar só os jogos (`rsssf_go1.JOGO_FORA`);
+  pôr em `A_PARTE` tira também as tabelas de classificação geral de todos os anos.
+- **"Atlético" curto sem ogol virava clube "rs-"** com o nome de exibição do Atlético-GO: o `confere_nomes.py` acusa; o
+  nome curto vai em `NOME_CODIGO`. Clube de outra coleta (Luziânia): `DE_OUTRAS_COLETAS`.
+- **Código de fase do ogol "POff"** (2026): é o playoff de rebaixamento (`importar.fase_do_ogol`).
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,

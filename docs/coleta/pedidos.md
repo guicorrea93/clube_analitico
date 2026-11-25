@@ -1306,3 +1306,43 @@ de Porto Alegre, hoje em Cachoeirinha: "Cruzeiro-RS") e 14 de Julho como campeõ
   (o mesmo pedido do Cearense: aceitar a lista separada por " / ").
 - **Pedido:** recarregar `bra-rs-1`.
 - Commit: o desta seção (`Gaúcho: 1918 como edição sem jogos, com os campeões honoríficos`).
+
+## Recado de fim de coleta — bra-go-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-go-1.md`;
+relatório ano a ano: `docs/coleta/bra-go-1.md`.
+
+1. **O que foi feito:** Campeonato Goiano (1ª divisão), escopo aprovado pelo Guilherme em 25/11.
+   - 83 edições, de 1944 a 2026 (a conta da FGF): 1944-1962 é a era amadora (o campeonato de Goiânia, que a FGF conta como Goiano); profissional desde 1963.
+   - **8 edições sem jogos** (1945, 1946, 1950, 1951, 1960, 1963, 1965, 1966) entram só com campeão e vice: 1945 tem só a tabela final; as outras não têm página na RSSSF e o ogol não tem os jogos.
+   - 8.682 jogos, 62 clubes (36 novos no banco), 2.965 gols com autor (de 22.388), nenhum cartão e 89 artilheiros.
+   - Tabelas publicadas: 180 fecham com os jogos e 99 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesfq/go{ano}.htm`; campeões em `gocamp.htm`, artilheiros em `gotops.htm`). Sem página: os anos acima e 2026;
+     - ogol ("campeonato-goiano"), com os calendários em `data/cache/ogol-bra-go-1/`. Tem jogos a partir dos anos 2000; 2026 só nele;
+     - Wikipédia em português ("Campeonato Goiano de Futebol Masculino"): campeão e vice de cada ano. A API recusou o download por excesso de pedidos; vale a cópia do artigo baixada no mesmo dia, na pesquisa do escopo.
+   - O campeão bate com a RSSSF e a Wikipédia nas 83 edições. O vice bate em todas menos 1958 e 2000 (item 6).
+2. **Commit:** o deste recado (`Coleta Goiano (bra-go-1): 83 edições, 8.682 jogos`).
+3. **Teste de carga:** `bra-go-1: 83 edições, 8682 jogos, 36 clubes novos -> OK`. O carregador ignora a tabela por rodada em 1992, 1997, 1999, 2001 e 2002, que têm mais de uma fase.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-go-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` GO, `rotulo_painel` "Goiano".
+   - **Edição sem jogos:** 8 linhas de `edicoes.csv` sem partidas, com campeão e vice (como no Cearense).
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. O Luziânia usa o código que já estava no cadastro (3330). Nomes novos: "Botafogo de Goiânia" (Botafogo/G e Sírio Libanês) e "Grêmio Anapolino".
+5. **Decisões:**
+   - **Que eu tomei:**
+     - o Vila Nova jogou como Araguaia nos anos 1940 (RSSSF, "former Araguaia"); o Botafogo de Goiânia como Sírio Libanês e a Campineira como Mariana (Wikipédia);
+     - "Rio Verde" é o EC Rio Verde (1963); o Rioverdense é outro clube;
+     - 1978 e 1993: a página dá o mesmo clube aos dois lados; vale o confronto que falta na fase (Anápolis 1-0 Anapolina; Mineiros 2-1 Anapolina);
+     - 1997: o jogo-desempate da semifinal (CRAC 5-2 Jataiense) fica na semifinal;
+     - fora do pacote: os dois amistosos de 1995 ("friendly match") e a repetição sem data da final de 2021.
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **Vice de 1958:** a tabela da página dá o Vila Nova; a Wikipédia, o Atlético.
+   - **Vice de 2000:** o Goiás venceu as duas finais de turno contra o Vila Nova (o pacote dá o Vila Nova); a Wikipédia dá a Anapolina, talvez pela campanha geral.
+   - **1993:** outros confrontos trocados na página (CRAC x Goiânia e Itumbiara x Mineiros duas vezes; faltam CRAC x Anapolina e Itumbiara x Quirinópolis); ficam como estão.
+   - **Autores dos gols:** 13%.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 99 tabelas divergentes, sobretudo 1983, 1984 e 1988;
+   - a identidade dos clubes só da RSSSF ("rs-go1-...": São Luís, Botafogo/BA, Campinas);
+   - os vices de 1958 e 2000.
+8. **Próximo campeonato:** Catarinense (`bra-sc-1`), 8º do ranking da CBF; escopo antes, só com o ok do Guilherme.

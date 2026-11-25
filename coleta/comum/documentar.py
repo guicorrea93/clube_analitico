@@ -28,7 +28,7 @@ AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
 COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1",
-               "bra-pr-1", "bra-ce-1"]
+               "bra-pr-1", "bra-ce-1", "bra-go-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -135,6 +135,18 @@ PENDENCIAS: dict[str, list[str]] = {
         "\"Russas\" (1997), talvez o mesmo clube; Esporte Clube Limoeiro (1995-2000) separado do Limoeiro do ogol (2001).",
         "Fora do pacote: a Taça Padre Cícero de 2012 (título à parte). Tabelas divergentes a explicar no relatório (95, contra "
         "185 que batem). Autores dos gols: 11% (as páginas quase não trazem). Cartões: só jogo a jogo, pela ficha do ogol.",
+    ],
+    "bra-go-1": [
+        "8 edições sem jogos (1945, 1946, 1950, 1951, 1960, 1963, 1965, 1966) entram só com campeão e vice "
+        "(importar.PODIO_SEM_JOGOS). Ficam fora os campeonatos de Goiânia de 1940 e 1943 e o \"Campeonato Estadual de "
+        "Goiás\" amador, que a FGF não reconhece.",
+        "Vices diferentes da Wikipédia: 1958 (pacote Vila Nova, pela tabela; Wikipédia Atlético) e 2000 (pacote Vila Nova, "
+        "que perdeu as duas finais de turno para o Goiás; Wikipédia Anapolina, talvez pela campanha geral).",
+        "Jogos corrigidos pela tabela de confrontos (a página dá o mesmo clube aos dois lados): 1978 Anápolis 1-0 Anapolina "
+        "e 1993 Mineiros 2-1 Anapolina. Outros confrontos trocados na 1ª fase de 1993 (CRAC x Goiânia duas vezes, Itumbiara "
+        "x Mineiros duas vezes) ficam como a página traz.",
+        "Fora do pacote: os dois amistosos de 1995 e a repetição sem data da final de 2021. Tabelas divergentes a explicar "
+        "no relatório (99, contra 180 que batem). Autores dos gols: 13%. Cartões: só jogo a jogo, pela ficha do ogol.",
     ],
 }
 
