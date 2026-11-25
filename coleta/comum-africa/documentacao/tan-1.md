@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 5929 (5817 com placar); **gols:** 12332; **gols com autor:** 1299 (11%); **cartões:** 0.
 - **Clubes:** 82; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 62 edições; **tabelas publicadas guardadas para conferência:** 592 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** a22036fc.
 - **Observação da competição:** 1ª divisão tanzaniana: a liga do continente (hoje Ligi Kuu Tanzania Bara) de 1965 a 2025/26, com o campeão do continente em todos os anos (a lista que a federação e os clubes contam); sem a Union League de 1982 a 2003 (com Zanzibar) e sem a liga de Dar es Salaam (1921 a 1964). Pontos 2-1-0 (vitória, empate, derrota) até 1995 e 3-1-0 desde 1995/96.
 
 ## 2. Edições, fontes e regras

@@ -26,9 +26,9 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1", "cmr-1", "tan-1"]
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1", "alg-1", "rsa-1", "nga-1", "gha-1", "cmr-1", "tan-1", "ang-1"]
 PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun", "alg-1": "alg", "rsa-1": "rsa", "nga-1": "nga", "gha-1": "gha",
-                       "cmr-1": "cmr", "tan-1": "tan"}
+                       "cmr-1": "cmr", "tan-1": "tan", "ang-1": "ang"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -159,6 +159,20 @@ PENDENCIAS: dict[str, list[str]] = {
         "Identidade a conferir: Moro United = Kajumulo = Sigara (a RSSSF registra as trocas de nome, mas o clube parece "
         "ter mudado de cidade); JKT Tanzania = JKT Ruvu; Kahama United = KJ82 Rangers; Pamba = Pamba Jiji; Singida "
         "Fountain Gate = Singida Big Stars; o Singida Black Stars ficou separado do Ihefu.",
+    ],
+    "ang-1": [
+        "1981 a 1997: só a tabela final (a RSSSF não tem os jogos); 1998: parte dos jogos. O ogol só tem jogos de 1999 em "
+        "diante. Fonte que resolveria: o Jornal de Angola ou o arquivo da FAF.",
+        "1980, 2000 e 2007: um placar diferente da tabela em dois clubes, sem terceira fonte (o provável jogo está no "
+        "relatório).",
+        "2009: o desempate do rebaixamento com a 2ª divisão ficou fora da edição; os rebaixados (1º de Maio e Académica "
+        "do Lobito) foram marcados à mão.",
+        "Autores dos gols só em poucos anos (2001, 2005 e alguns jogos de outros); artilheiros e cartões, nenhum. Fonte que "
+        "resolveria: o ogol jogo a jogo (1999 em diante).",
+        "Wikipédia (terceira fonte) não baixada: a API recusou por excesso de pedidos em 25/11/2026. Rodar "
+        "`coleta/ang-1/baixar_wikipedia.py` de novo e reimportar.",
+        "Identidade a conferir: Atlético do Namibe = Desportivo Sonangol do Namibe = Atlético Petróleos do Namibe; Santa "
+        "Rita do Namibe = GD Welwitschia; \"Progresso\" sozinho como o do Sambizanga; Bravos do Maqui = Onze Bravos.",
     ],
 }
 

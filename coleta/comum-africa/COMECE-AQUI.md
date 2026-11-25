@@ -81,8 +81,8 @@ federações da CAF para as competições de clubes, o de 5 anos que distribui a
 | 4 | 4 |  | África do Sul (RSA) | `rsa-1` | pronto |
 | 5 | 5 |  | Tanzânia (TAN) | `tan-1` | pronto |
 | 6 | 6 |  | Tunísia (TUN) | `tun-1` | pronto |
-| 7 | 7 |  | Angola (ANG) | `ang-1` | **próximo** |
-| 8 | 8 |  | RD Congo (COD) | `cod-1` |  |
+| 7 | 7 |  | Angola (ANG) | `ang-1` | pronto |
+| 8 | 8 |  | RD Congo (COD) | `cod-1` | **próximo** |
 | 9 | 9 |  | Sudão (SDN) | `sdn-1` |  |
 | 10 | 10 |  | Mali (MLI) | `mli-1` |  |
 | 11 | 11 |  | Costa do Marfim (CIV) | `civ-1` |  |
@@ -140,7 +140,8 @@ federações da CAF para as competições de clubes, o de 5 anos que distribui a
 | `nga-1` Nigeriano | 55 (1972–2025/26) | 8.906 | 82 | bc5287a6 (no GitHub) | sim |
 | `gha-1` Ganês | 65 (1958–2025/26) | 6.069 | 137 | cd02564c (no GitHub) | sim |
 | `cmr-1` Camaronês | 66 (1961–2026) | 6.804 | 85 | e7f2bfa8 (no GitHub) | sim |
-| `tan-1` Tanzaniano | 62 (1965–2025/26) | 5.929 | 82 | "Coleta Tanzânia (tan-1)..." (25/11; teste de carga OK) | não |
+| `tan-1` Tanzaniano | 62 (1965–2025/26) | 5.929 | 82 | a22036fc (no GitHub) | sim |
+| `ang-1` Angolano | 48 (1979–2025/26) | 6.488 | 93 | "Coleta Angola (ang-1)..." (25/11; teste de carga OK) | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
@@ -157,10 +158,11 @@ Os números de gols, conferência e cobertura estão em `documentacao/README.md`
 6. `gha-1`: commit cd02564c, no GitHub e no painel (25/11). As sete ligas (egy, mar, tun, alg, rsa, nga, gha) estão
    na lista LIBERADAS do painel (`gerar_dashboard_v2.py`).
 7. `cmr-1`: commit e7f2bfa8, no GitHub, no banco e no painel (25/11). As oito ligas estão na LIBERADAS.
-8. `tan-1`: pacote pronto (25/11; teste de carga OK; recado no fim de `docs/coleta/pedidos-africa.md`); commit e push
+8. `tan-1`: commit a22036fc, no GitHub e no banco (25/11).
+9. `ang-1`: pacote pronto (25/11; teste de carga OK; recado no fim de `docs/coleta/pedidos-africa.md`); commit e push
    com o ok do Guilherme.
-9. Próxima liga: `ang-1` (Angola, o primeiro país da lista acima que falta). Antes, mandar ao Guilherme o escopo.
-10. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+10. Próxima liga: `cod-1` (RD Congo, o primeiro país da lista acima que falta). Antes, mandar ao Guilherme o escopo.
+11. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -314,6 +316,17 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   até 1987); páginas `gha58` ... `gha99`, `gha00` ... `gha09` (sem `gha06`), `gha2010` ... `gha2026`. "2004/05" é a
   `gha04` e "2005" é a `gha05` ("Ghana 2005/06").
 - ogol: competição `liga-ganesa`, mesmo rótulo de temporada que a RSSSF, jogos só de 2008/09 a 2010/11 e de 2015 em diante.
+
+**Angola (`ang-1`):**
+- **Escopo (pesquisa de 25/11; o Guilherme aprovou em 25/11):** o Girabola de 1979 a 2025/26 (48 edições), como a
+  federação o numera (2025/26 = "XLVIII Girabola") e os clubes contam os títulos. 2019/20 abandonado (Covid-19), sem
+  campeão. Fora: o Campeonato Provincial da era colonial (1941–1974; 1975 abandonado), a Taça e a Supertaça.
+- RSSSF: lista em `tablesa/angochamp.html` (parte "Since Independence"; desde 2019 o ano é o do fim da temporada); páginas
+  `ango79` ... `ango99`, `ango00` ... `ango09`, `ango2010` ... `ango2026`. Tabela só de 1981 a 1997.
+- Pontos: 2-1-0 até 1994, 3-1-0 desde 1995 ("introduction of 3-1-0 point system in 1995").
+- ogol: competição `liga-angolana`, mesmo rótulo; jogos só de 1999 em diante.
+- Wikipédia: não baixada (a API recusou por excesso de pedidos em 25/11/2026, com outro agente baixando ao mesmo tempo);
+  pendência: rodar `coleta/ang-1/baixar_wikipedia.py` e reimportar.
 
 **Tanzânia (`tan-1`):**
 - **Escopo (pesquisa de 25/11; o Guilherme aprovou em 25/11):** a liga do continente (Tanganica), hoje Ligi Kuu Tanzania
@@ -477,6 +490,17 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
 - **Nota de jogo dado que não valeu** ("may yet be awarded 2-0", 1999): `CORRIGE` com `"oficial": None`.
 - "Second level" em nota corrida casava com o `FIM_PADRAO` (que ignora maiúsculas): os nomes de divisão ficam em
   `(?-i:...)`.
+
+**RSSSF (Angola):**
+- **Clubes com data no nome** ("1º de Agosto", "17 de Maio", "4 de Abril", e "1º Agosto", "1° de Agosto"): o número
+  quebra a linha da tabela e a do jogo; `linhas()` troca pelo extenso ("Primeiro de Agosto") e `clubes_ang.clube()` faz o
+  mesmo com os nomes do ogol. Os ids das tabelas mudam depois da troca (as linhas passam a ser lidas inteiras).
+- **Nota recuada que cita uma copa** ("    Cup, together with ..."): encerrava o trecho; o `fim_padrao` ignora linhas
+  recuadas.
+- **Tabela final sem o clube desclassificado** (1998, Kabuscorp): o importar escolhia uma tabela do meio da temporada que
+  tinha todos os clubes; `TABELAS_CLASS` com a final.
+- **O mesmo jogo duas vezes**, uma delas colada na continuação de uma nota (1999): `CORRIGE` descarta.
+- Nomes repetidos em outros países: "ASA" já é o de Arapiraca (vira "ASA de Luanda"); os Benficas levam a cidade.
 
 **ogol (Camarões):** em 2010/11 o Union e o Caïman Douala têm o mesmo nome e o mesmo id (2482): os jogos dos dois ficam de
 fora. Nomes como "Lausanne SA De Yaoundé", "FC Renaissance", "Eagle Royale Casamba".

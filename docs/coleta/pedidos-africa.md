@@ -426,3 +426,43 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    United); 2004 (rebaixados incertos e "Super Eight" só até a 6ª rodada); 2011/12 (um gol de diferença em 4 clubes
    entre o ogol e a tabela).
 8. **Próxima competição:** `ang-1` (Angola), depois da decisão do Guilherme sobre o escopo.
+
+## Recado de fim de coleta — ang-1 — 25/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `ang-1` (Campeonato Angolano, o Girabola), 48 edições de 1979 a 2025/26; 6.488 jogos (todos da
+   RSSSF; 82 decididos fora de campo, 12 abandonados, 78 não jogados ou anulados); 13.984 gols, 440 com autor; 0 cartões;
+   93 clubes, todos novos. Fontes: RSSSF (lista de campeões e página de cada ano), ogol (jogos de 1999 em diante:
+   conferência, rodada e data). A Wikipédia ficou para depois (a API recusou o download por excesso de pedidos). A ESPN
+   não tem a liga.
+2. **Commit:** o deste recado (`Coleta Angola (ang-1): 48 edições, 6.488 jogos`).
+3. **Teste de carga:** `ang-1: 48 edições, 6488 jogos, 93 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `ang-1`; país novo **ANG (Angola, CAF)**, criado pelo `competicao.json` (conferir a bandeira);
+   - **temporadas**: ano civil de 1979 a 2018, duas metades de 2018/19 em diante;
+   - **pontos**: 2-1-0 (vitória, empate, derrota) até 1994; 3-1-0 desde 1995;
+   - **17 edições "sem jogos"** (só a tabela final: 1981 a 1997) e **1 com "jogos incompletos"** (1998);
+   - **2019/20 abandonado** (Covid-19), sem campeão;
+   - 1979: quatro grupos de seis, fase final e final.
+5. **Decisões tomadas:**
+   - escopo: o Girabola de 1979 a 2025/26, como a federação o numera (2025/26 = "XLVIII Girabola") e os clubes contam;
+     fora o Campeonato Provincial da era colonial (1941–1974; 1975 abandonado), a Taça e a Supertaça (o Guilherme
+     aprovou em 25/11);
+   - nomes: "1º de Agosto", "1º de Maio", "Petro de Luanda", "Benfica de Luanda" (os Benficas levam a cidade); "ASA de
+     Luanda" (o "ASA" já é o de Arapiraca); Atlético do Namibe = Desportivo Sonangol do Namibe; Santa Rita do Namibe = GD
+     Welwitschia (o Santa Rita de Cássia, do Uíge, é outro clube); Bravos do Maqui = Onze Bravos do Maqui;
+   - correções: um jogo repetido em 1999 (descartado); clubes que desistiram ou foram excluídos com os jogos anulados
+     (1998: Kabuscorp; 2018: JGM; 2019/20: 1º de Maio; 2022/23: Cuando Cubango); em 1998 a classificação é a tabela
+     final (sem o Kabuscorp, que vem depois);
+   - rebaixamento à mão onde a nota diz: 1998 (Kabuscorp, desclassificado) e 2009 (1º de Maio e Académica do Lobito, no
+     desempate com a 2ª divisão, que ficou fora da edição).
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - os jogos de 1981 a 1997 (a RSSSF só tem a tabela) e parte dos de 1998. Fonte que resolveria: o Jornal de Angola ou o
+     arquivo da FAF;
+   - a Wikipédia (terceira fonte): fica para quando a API liberar;
+   - autores dos gols na maior parte dos anos, artilheiros e cartões.
+7. **Onde a revisão deve olhar primeiro:** a identidade dos clubes do item 5 (Atlético do Namibe, Santa Rita do Namibe,
+   "Progresso" sozinho como o do Sambizanga); 1980, 2000 e 2007 (um placar diferente da tabela em dois clubes).
+8. **Próxima competição:** `cod-1` (RD Congo), depois da decisão do Guilherme sobre o escopo.

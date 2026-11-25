@@ -14,7 +14,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Nigeriano | 55 (1972–2025/26) | 26 | 8906 | 73 | 0 | 82 | 13 / 8 | sim | bc5287a6 | 0 | [nga-1](nga-1.md) |
 | Campeonato Ganês | 65 (1958–2025/26) | 39 | 6069 | 294 | 0 | 137 | 20 / 4 | sim | cd02564c | 0 | [gha-1](gha-1.md) |
 | Campeonato Camaronês | 66 (1961–2026) | 37 | 6804 | 1138 | 0 | 85 | 22 / 3 | sim | e7f2bfa8 | 0 | [cmr-1](cmr-1.md) |
-| Campeonato Tanzaniano | 62 (1965–2025/26) | 32 | 5929 | 1299 | 0 | 82 | 21 / 1 | não | — | 0 | [tan-1](tan-1.md) |
+| Campeonato Tanzaniano | 62 (1965–2025/26) | 32 | 5929 | 1299 | 0 | 82 | 21 / 1 | sim | a22036fc | 0 | [tan-1](tan-1.md) |
+| Campeonato Angolano | 48 (1979–2025/26) | 17 | 6488 | 440 | 0 | 93 | 27 / 3 | não | — | 0 | [ang-1](ang-1.md) |
 
 ## Pendências de todas as competições
 
@@ -65,6 +66,12 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **tan-1:** Rebaixamento: 2000 (cancelado), 2001, 2002, 2004 e 2007 marcados à mão pelas notas da página; 2004 "seem to have been" (a página não tem certeza); 2006 sem informação.
 - **tan-1:** Autores dos gols só em parte (2004 a 2010/11 e alguns anos depois de 2020); artilheiros e cartões, nenhum. Fonte que resolveria: o ogol jogo a jogo (2007/08 em diante).
 - **tan-1:** Identidade a conferir: Moro United = Kajumulo = Sigara (a RSSSF registra as trocas de nome, mas o clube parece ter mudado de cidade); JKT Tanzania = JKT Ruvu; Kahama United = KJ82 Rangers; Pamba = Pamba Jiji; Singida Fountain Gate = Singida Big Stars; o Singida Black Stars ficou separado do Ihefu.
+- **ang-1:** 1981 a 1997: só a tabela final (a RSSSF não tem os jogos); 1998: parte dos jogos. O ogol só tem jogos de 1999 em diante. Fonte que resolveria: o Jornal de Angola ou o arquivo da FAF.
+- **ang-1:** 1980, 2000 e 2007: um placar diferente da tabela em dois clubes, sem terceira fonte (o provável jogo está no relatório).
+- **ang-1:** 2009: o desempate do rebaixamento com a 2ª divisão ficou fora da edição; os rebaixados (1º de Maio e Académica do Lobito) foram marcados à mão.
+- **ang-1:** Autores dos gols só em poucos anos (2001, 2005 e alguns jogos de outros); artilheiros e cartões, nenhum. Fonte que resolveria: o ogol jogo a jogo (1999 em diante).
+- **ang-1:** Wikipédia (terceira fonte) não baixada: a API recusou por excesso de pedidos em 25/11/2026. Rodar `coleta/ang-1/baixar_wikipedia.py` de novo e reimportar.
+- **ang-1:** Identidade a conferir: Atlético do Namibe = Desportivo Sonangol do Namibe = Atlético Petróleos do Namibe; Santa Rita do Namibe = GD Welwitschia; "Progresso" sozinho como o do Sambizanga; Bravos do Maqui = Onze Bravos.
 
 ## Próximas competições
 
