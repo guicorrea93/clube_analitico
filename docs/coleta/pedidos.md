@@ -1433,3 +1433,46 @@ relatório ano a ano: `docs/coleta/bra-ba-1.md`.
    - os nomes separados por ano (`importar.NOME_ANO`) e os clubes "rs-ba1-...";
    - as 121 tabelas divergentes.
 8. **Próximo campeonato:** Pernambucano (`bra-pe-1`), 10º do ranking da CBF; escopo antes, só com o ok do Guilherme.
+
+## Recado de fim de coleta — bra-pe-1 — 27/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-pe-1.md`;
+relatório ano a ano: `docs/coleta/bra-pe-1.md`.
+
+1. **O que foi feito:** Campeonato Pernambucano (1ª divisão), escopo aprovado pelo Guilherme em 27/11.
+   - 112 edições, de 1915 a 2026 (a conta da FPF, da RSSSF e da Wikipédia; disputado sem interrupção). Nenhum título dividido.
+   - A edição 2026/27 (novo calendário: Turno Forró em 2026, Turno Frevo em 2027) fica de fora até terminar.
+   - **2 edições sem jogos** (1992 e 1993: a RSSSF nunca teve a página e o ogol não tem os jogos), só com campeão e vice. **1991** também não tem página, mas o ogol tem a final (Sport x Náutico): entra com ela.
+   - 8.749 jogos, 71 clubes (46 novos no banco), 2.273 gols com autor (de 27.705), nenhum cartão e 95 artilheiros.
+   - Tabelas publicadas: 241 fecham com os jogos e 132 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesfq/pe{ano}.htm`; campeões em `pecamp.htm`; 1915-1970 do livro de Cordeiro e Cordeiro). Todas as páginas vieram do próprio site;
+     - ogol ("campeonato-pernambucano"), com os calendários em `data/cache/ogol-bra-pe-1/`. Tem jogos de 1915-1919, 1976, a final de 1991 e de 1999 a 2026;
+     - Wikipédia em português: o artigo "Campeonato Pernambucano de Futebol Masculino" (campeão, vice, 3º e 4º de cada ano).
+   - O campeão e o vice batem com a RSSSF e a Wikipédia em todas as edições.
+2. **Commit:** o deste recado (`Coleta Pernambucano (bra-pe-1): 112 edições, 8.749 jogos`).
+3. **Teste de carga:** `bra-pe-1: 112 edições, 8749 jogos, 46 clubes novos -> OK`. O carregador ignora a tabela por rodada em 13 temporadas com mais de uma fase.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-pe-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` PE, `rotulo_painel` "Pernambucano".
+   - **Jogos "awd" sem placar:** 1915 tem cinco vitórias de placar desconhecido e há W.O.s nos anos 1920; vêm como "awd", gols vazios, vencedor na observação (como no Mineiro).
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Usam a ficha que já estava no cadastro (Séries C e D): América-PE (18913), Flamengo-PE (3243, Arcoverde), Porto-PE (3405), Ypiranga-PE (3540), Sete de Setembro-PE (15173), Paulistano-PE (66985), Vitória-PE (16927, até 1998) e Santo Amaro-PE (3422, o Manchete do banco). Novos com nome dado à mão: "Estudantes do Recife" (anos 1950; não é o Estudantes de Timbaúba), "Atlético Caruaru" (1979-1990) e "Comercial-PE" (Serra Talhada).
+   - **Ficha comum (`registro.FICHA_COMUM`):** nada novo.
+5. **Decisões:**
+   - **Que eu tomei:**
+     - pelo ogol, a AA Santo Amaro, o "Recife" da RSSSF (1997-2004) e o Manchete são o mesmo clube (ficha 3422);
+     - "Ferroviário" é o do Recife até 1998 e o de Serra Talhada depois; "Atlético" é o Atlético Caruaru até 1999 e o Atlético Pernambucano depois; "Vitória" é o Vitória-PE até 1998 e o Vitória das Tabocas depois;
+     - 1991 entra com a final do ogol (o escopo previa só o pódio);
+     - 1915: o empate América x Peres, sem placar na RSSSF, entra com o 0-0 do ogol, que fecha com a tabela publicada;
+     - 1976: as datas vêm do ogol (a página traz o turno e o returno lado a lado, com as datas misturadas);
+     - 1978-1997: o turno vai na frente das fases de dentro dele ("2º Turno - Segunda fase", "3º Turno - Final");
+     - a prorrogação entra no placar (1979, 1980, 1982), com o placar dos 90 minutos na observação.
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **Páginas da RSSSF incompletas:** 2023 para na 4ª rodada e 2025 não tem a final; o resto vem do ogol.
+   - **Identidade a revisar:** o "Vitória" (16927) até 1998 e o Vitória das Tabocas depois (o ogol diz que este foi fundado em 2008, mas tem jogos dele desde 1999); o Varzeano FC (1919-1921) e o Varzeano SC (1933) ficam juntos.
+   - **Autores dos gols:** 8%.
+7. **Onde a revisão deve olhar primeiro:**
+   - as fases dos turnos de 1978-1997 (`rsssf_pe1.ANOS_TURNOS`, `_turno_nos_titulos` e `importar.fase_turno`), onde fica a maioria das tabelas divergentes;
+   - os nomes dados à mão (`importar.NOME_CODIGO` e `NOME_ANO`) e os clubes "rs-pe1-...";
+   - as 132 tabelas divergentes.
+8. **Próximo campeonato:** Alagoano (`bra-al-1`), 11º do ranking da CBF; escopo antes, só com o ok do Guilherme.

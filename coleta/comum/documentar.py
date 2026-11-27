@@ -28,7 +28,7 @@ AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
 COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1",
-               "bra-pr-1", "bra-ce-1", "bra-go-1", "bra-sc-1", "bra-ba-1"]
+               "bra-pr-1", "bra-ce-1", "bra-go-1", "bra-sc-1", "bra-ba-1", "bra-pe-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -181,6 +181,22 @@ PENDENCIAS: dict[str, list[str]] = {
         "Fora do pacote: o Torneio Início e as preliminares. Tabelas divergentes a explicar (121, contra 241 que batem; "
         "a maioria em 1976-1977, 1984-1988 e 1996, turnos com mais de uma fase). Autores dos gols: 14%. Cartões: só jogo a "
         "jogo, pela ficha do ogol.",
+    ],
+    "bra-pe-1": [
+        "2 edições sem jogos (1992 e 1993: a RSSSF Brasil nunca teve a página e o ogol não tem os jogos) entram só com "
+        "campeão e vice (importar.PODIO_SEM_JOGOS). 1991 também não tem página, mas o ogol tem a final (Sport x Náutico): "
+        "entra com ela. A edição 2026/27 (Turno Forró em 2026, Turno Frevo em 2027) fica de fora até terminar.",
+        "1915: cinco jogos só com o vencedor (\"awd\", placar desconhecido, como no Mineiro); o empate América x Peres, "
+        "sem placar na RSSSF, entra com o 0-0 do ogol, que fecha com a tabela. 1976: a página traz turno e returno lado a "
+        "lado, com as datas misturadas; as datas vêm do ogol.",
+        "Identidade, pelo ogol: a AA Santo Amaro, o \"Recife\" da RSSSF (1997-2004) e o Manchete são o mesmo clube "
+        "(ficha 3422). A revisar: \"Vitória\" até 1998 é o Vitória de Santo Antão do cadastro (16927) e depois o Vitória "
+        "das Tabocas (18691, que o ogol diz fundado em 2008); o Varzeano FC (1919-1921) e o Varzeano SC (1933) ficam juntos.",
+        "Páginas da RSSSF incompletas: 2023 para na 4ª rodada e 2025 não tem a final (o resto vem do ogol). Formatos de um ano "
+        "só, cada um com o seu conversor (rsssf_pe1): 1974, 1976, 1981, 2022, 2024 e 2025. 1978-1997: turnos com fases "
+        "dentro (rsssf_pe1.ANOS_TURNOS).",
+        "Tabelas divergentes a explicar (132, contra 241 que batem; a maioria nos turnos de 1979-1998). Autores dos gols: "
+        "8%. Cartões: só jogo a jogo, pela ficha do ogol.",
     ],
 }
 

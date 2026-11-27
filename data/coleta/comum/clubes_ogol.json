@@ -281,7 +281,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "13686": {
@@ -414,6 +415,14 @@
   "cidade": "Senador Canedo",
   "competicoes": [
    "bra-go-1"
+  ]
+ },
+ "15173": {
+  "clube": "Sete de Setembro-PE",
+  "uf": "PE",
+  "cidade": "Garanhuns",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "15290": {
@@ -797,7 +806,8 @@
   "uf": "PE",
   "cidade": "Belo Jardim",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "16927": {
@@ -891,7 +901,8 @@
   "uf": "PE",
   "cidade": "Vitória de Santo Antão",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "18815": {
@@ -910,7 +921,16 @@
   "cidade": "Recife",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
+  ]
+ },
+ "18915": {
+  "clube": "Ferroviário Recife",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "18916": {
@@ -918,7 +938,8 @@
   "uf": "PE",
   "cidade": "Timbaúba",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "19365": {
@@ -945,7 +966,8 @@
   "uf": "PE",
   "cidade": "Paulista",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "20112": {
@@ -1258,7 +1280,8 @@
   "cidade": "Recife",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "22486": {
@@ -1318,7 +1341,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "2255": {
@@ -1338,7 +1362,8 @@
   "uf": "PE",
   "cidade": "Recife",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "2259": {
@@ -1513,6 +1538,46 @@
    "bra-serie-d"
   ]
  },
+ "238106": {
+  "clube": "Peres",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "238107": {
+  "clube": "Colligação",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "238108": {
+  "clube": "Paulista-PE",
+  "uf": "PE",
+  "cidade": "Olinda",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "238109": {
+  "clube": "Casa Forte",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "238133": {
+  "clube": "Varzeano",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "238448": {
   "clube": "UNIRB",
   "uf": "BA",
@@ -1588,7 +1653,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "241210": {
@@ -1664,7 +1730,16 @@
   "uf": "PE",
   "cidade": "Bonito",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
+  ]
+ },
+ "242602": {
+  "clube": "Ferroviário Serra Talhada",
+  "uf": "PE",
+  "cidade": "Serra Talhada",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "244128": {
@@ -2020,6 +2095,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "261710": {
+  "clube": "Caruaru City",
+  "uf": "PE",
+  "cidade": "Caruaru",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "2618": {
   "clube": "Caxias",
   "uf": "RS",
@@ -2224,6 +2307,14 @@
    "bra-ba-1"
   ]
  },
+ "28928": {
+  "clube": "Araripina",
+  "uf": "PE",
+  "cidade": "Araripina",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "293323": {
   "clube": "SC Everest-RJ",
   "uf": "RJ",
@@ -2362,6 +2453,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil"
+  ]
+ },
+ "3086": {
+  "clube": "AGA",
+  "uf": "PE",
+  "cidade": "Garanhuns",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "3087": {
@@ -2809,6 +2908,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3160": {
+  "clube": "Cabense",
+  "uf": "PE",
+  "cidade": "Cabo de Santo Agostinho",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "3161": {
   "clube": "Cabofriense",
   "uf": "RJ",
@@ -3002,7 +3109,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "3188": {
@@ -3010,7 +3118,8 @@
   "uf": "PE",
   "cidade": "Limoeiro",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "3190": {
@@ -3267,6 +3376,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3221": {
+  "clube": "Chã Grande",
+  "uf": "PE",
+  "cidade": "Chã Grande",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "3222": {
   "clube": "Democrata-SL",
   "uf": "MG",
@@ -3397,7 +3514,8 @@
   "cidade": "Arcoverde",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "3244": {
@@ -3670,6 +3788,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3283": {
+  "clube": "Íbis",
+  "uf": "PE",
+  "cidade": "Paulista",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "3284": {
   "clube": "Icasa",
   "uf": "CE",
@@ -3755,6 +3881,14 @@
    "bra-serie-c"
   ]
  },
+ "3294": {
+  "clube": "Intercontinental",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "3296": {
   "clube": "Interporto",
   "uf": "TO",
@@ -3837,7 +3971,8 @@
   "uf": "PE",
   "cidade": "Itacuruba",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "3304": {
@@ -4525,7 +4660,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "3394": {
@@ -4590,7 +4726,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
   ]
  },
  "3406": {
@@ -4641,6 +4778,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3412": {
+  "clube": "1° de Maio",
+  "uf": "PE",
+  "cidade": "Petrolina",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "3416": {
   "clube": "Prudentópolis",
   "uf": "PR",
@@ -4673,7 +4818,8 @@
   "uf": "PE",
   "cidade": "Recife",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "3423": {
@@ -5044,7 +5190,8 @@
   "uf": "PE",
   "cidade": "Serra Talhada",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "3480": {
@@ -5389,7 +5536,8 @@
   "uf": "PE",
   "cidade": "Vitória de Santo Antão",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-pe-1"
   ]
  },
  "3529": {
@@ -5494,7 +5642,8 @@
   "cidade": "Santa Cruz do Capibaribe",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "3541": {
@@ -5642,7 +5791,8 @@
   "uf": "PE",
   "cidade": "Vicência",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "39446": {
@@ -5771,6 +5921,14 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-sc-1"
+  ]
+ },
+ "43152": {
+  "clube": "Pesqueira",
+  "uf": "PE",
+  "cidade": "Pesqueira",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "43195": {
@@ -6196,7 +6354,8 @@
   "uf": "PE",
   "cidade": "Serra Talhada",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "60474": {
@@ -6474,6 +6633,14 @@
   "cidade": "Ituiutaba",
   "competicoes": [
    "bra-mg-1"
+  ]
+ },
+ "72999": {
+  "clube": "Jaguar",
+  "uf": "PE",
+  "cidade": "Jaboatão dos Guararapes",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "7402": {
@@ -6957,6 +7124,14 @@
    "bra-sp-2"
   ]
  },
+ "8755": {
+  "clube": "Surubim",
+  "uf": "PE",
+  "cidade": "Surubim",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "88581": {
   "clube": "Sparta-TO",
   "uf": "TO",
@@ -7038,13 +7213,30 @@
    "bra-rj-1"
   ]
  },
+ "91917": {
+  "clube": "Torre",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
  "92007": {
   "clube": "Afogados da Ingazeira",
   "uf": "PE",
   "cidade": "Afogados da Ingazeira",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-pe-1"
+  ]
+ },
+ "92375": {
+  "clube": "Flamengo Recife",
+  "uf": "PE",
+  "cidade": "Recife",
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "92589": {
@@ -7128,7 +7320,8 @@
   "uf": "PE",
   "cidade": "Goiana",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-pe-1"
   ]
  },
  "9638": {
@@ -8953,6 +9146,190 @@
   "cidade": "Araraquara",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-pe1-aa-arruda": {
+  "clube": "AA Arruda",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-asas": {
+  "clube": "Asas-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-atheniense": {
+  "clube": "Atheniense",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-atletico-caruaru": {
+  "clube": "Atlético Caruaru",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-auto-esporte-pe": {
+  "clube": "Auto Esporte-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-caruaru": {
+  "clube": "Caruaru",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-casa-caiada": {
+  "clube": "Casa Caiada",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-comercial": {
+  "clube": "Comercial-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-cs-pernambucano": {
+  "clube": "CS Pernambucano",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-desportiva-pitu": {
+  "clube": "Desportiva PITU",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-destilaria": {
+  "clube": "Destilaria",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-encruzilhada": {
+  "clube": "Encruzilhada",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-equador-pe": {
+  "clube": "Equador-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-estudantes-do-recife": {
+  "clube": "Estudantes do Recife",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-fluminense": {
+  "clube": "Fluminense-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-great-western": {
+  "clube": "Great Western",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-iris-pe": {
+  "clube": "Íris-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-israelita": {
+  "clube": "Israelita",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-moinho-recife": {
+  "clube": "Moinho Recife",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-petrolandia": {
+  "clube": "Petrolândia",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-portela-pe": {
+  "clube": "Portela-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-tramways-pe": {
+  "clube": "Tramways-PE",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
+  ]
+ },
+ "rs-pe1-tuyuty": {
+  "clube": "Tuyuty",
+  "uf": "PE",
+  "cidade": null,
+  "competicoes": [
+   "bra-pe-1"
   ]
  },
  "rs-petropolitano-f-c": {

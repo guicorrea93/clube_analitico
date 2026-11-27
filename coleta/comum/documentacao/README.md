@@ -19,6 +19,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Goiano | 83 (1944–2026) | 8682 | 2965 | 0 | 62 | 180 / 99 | sim (83 edições, 8682 jogos) | 4 | [bra-go-1](bra-go-1.md) |
 | Campeonato Catarinense | 102 (1924–2026) | 8721 | 3434 | 0 | 116 | 114 / 90 | sim (102 edições, 8721 jogos) | 4 | [bra-sc-1](bra-sc-1.md) |
 | Campeonato Baiano | 122 (1905–2026) | 7359 | 2897 | 0 | 74 | 241 / 121 | não | 5 | [bra-ba-1](bra-ba-1.md) |
+| Campeonato Pernambucano | 112 (1915–2026) | 8749 | 2273 | 0 | 71 | 241 / 132 | não | 5 | [bra-pe-1](bra-pe-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -75,6 +76,11 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-ba-1:** Mesmo nome, clubes diferentes, separados por ano (importar.NOME_ANO): "Atlético" (Atlético FC de Salvador, o ex-Santos Dumont, até 1969; o Alagoinhas Atlético Clube depois), "Fluminense" (de Salvador até 1940; o de Feira depois), "Conquista" (1960-1977, antes do Conquista FC do ogol) e "São Francisco" (1996-1998). O Vitória de Ilhéus (1967-1968) é outro clube que o Vitória. A revisar: o Guarany SC de 1915 e o de 1942-1943 ficam juntos com a AD Guarany (1944-1966; "Guarani" em 1944 e 1964-1966), e o Internacional de Cricket (1905) com o SC Internacional (campeão de 1914), só pelo nome.
 - **bra-ba-1:** A RSSSF Brasil parou de responder: 43 páginas vieram do Internet Archive (rsssfbrasil/origem.json). As páginas de 1951 a 1994 perderam os acentos (rsssf_ba1._acentos). 1975-1996: turnos com fases dentro; o turno vai na frente do título (rsssf_ba1._turno_nos_titulos).
 - **bra-ba-1:** Fora do pacote: o Torneio Início e as preliminares. Tabelas divergentes a explicar (121, contra 241 que batem; a maioria em 1976-1977, 1984-1988 e 1996, turnos com mais de uma fase). Autores dos gols: 14%. Cartões: só jogo a jogo, pela ficha do ogol.
+- **bra-pe-1:** 2 edições sem jogos (1992 e 1993: a RSSSF Brasil nunca teve a página e o ogol não tem os jogos) entram só com campeão e vice (importar.PODIO_SEM_JOGOS). 1991 também não tem página, mas o ogol tem a final (Sport x Náutico): entra com ela. A edição 2026/27 (Turno Forró em 2026, Turno Frevo em 2027) fica de fora até terminar.
+- **bra-pe-1:** 1915: cinco jogos só com o vencedor ("awd", placar desconhecido, como no Mineiro); o empate América x Peres, sem placar na RSSSF, entra com o 0-0 do ogol, que fecha com a tabela. 1976: a página traz turno e returno lado a lado, com as datas misturadas; as datas vêm do ogol.
+- **bra-pe-1:** Identidade, pelo ogol: a AA Santo Amaro, o "Recife" da RSSSF (1997-2004) e o Manchete são o mesmo clube (ficha 3422). A revisar: "Vitória" até 1998 é o Vitória de Santo Antão do cadastro (16927) e depois o Vitória das Tabocas (18691, que o ogol diz fundado em 2008); o Varzeano FC (1919-1921) e o Varzeano SC (1933) ficam juntos.
+- **bra-pe-1:** Páginas da RSSSF incompletas: 2023 para na 4ª rodada e 2025 não tem a final (o resto vem do ogol). Formatos de um ano só, cada um com o seu conversor (rsssf_pe1): 1974, 1976, 1981, 2022, 2024 e 2025. 1978-1997: turnos com fases dentro (rsssf_pe1.ANOS_TURNOS).
+- **bra-pe-1:** Tabelas divergentes a explicar (132, contra 241 que batem; a maioria nos turnos de 1979-1998). Autores dos gols: 8%. Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

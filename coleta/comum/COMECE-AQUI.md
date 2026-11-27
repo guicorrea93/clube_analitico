@@ -81,7 +81,8 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | 2f5317f1 (25/11) | sim (agente 1) | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
 | `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | 70ca4a98 (25/11) | sim (agente 1) | OK (36 clubes novos) |
 | `bra-sc-1` Catarinense | 102 (1924–2026, sem 1946; 7 sem jogos) | 8.721 | 0b2ea5b0 (27/11) | sim (agente 1) | OK (87 clubes novos) |
-| `bra-ba-1` Baiano | 122 (1905–2026; 23 sem jogos, só com campeão e vice) | 7.359 | neste commit (27/11) | não; carregar | OK (49 clubes novos) |
+| `bra-ba-1` Baiano | 122 (1905–2026; 23 sem jogos, só com campeão e vice) | 7.359 | 68d73a6e (27/11) | não; carregar | OK (49 clubes novos) |
+| `bra-pe-1` Pernambucano | 112 (1915–2026; 1992 e 1993 sem jogos; 1991 só a final) | 8.749 | neste commit (27/11) | não; carregar | OK (46 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -114,8 +115,8 @@ As 27 posições foram conferidas no PDF.
 | 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (2f5317f1, 25/11; no banco) |
 | 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (70ca4a98, 25/11; no banco) |
 | 8 | SC | 23.938 | `bra-sc-1` Catarinense | **pronto** (0b2ea5b0, 27/11; no banco) |
-| 9 | BA | 23.642 | `bra-ba-1` Baiano | **pronto** (27/11; falta o agente 1 carregar) |
-| 10 | PE | 14.158 | `bra-pe-1` Pernambucano | falta |
+| 9 | BA | 23.642 | `bra-ba-1` Baiano | **pronto** (68d73a6e, 27/11; falta o agente 1 carregar) |
+| 10 | PE | 14.158 | `bra-pe-1` Pernambucano | **pronto** (27/11; falta o agente 1 carregar) |
 | 11 | AL | 12.240 | `bra-al-1` Alagoano | falta |
 | 12 | PA | 10.710 | `bra-pa-1` Paraense | falta |
 | 13 | MT | 9.346 | `bra-mt-1` Mato-Grossense | falta |
@@ -140,8 +141,22 @@ seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta
 
 1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
    Gaúcho de 1918 incluído como edição sem jogos (25/11). Goiano (`bra-go-1`) feito em 25/11, Catarinense (`bra-sc-1`)
-   em 27/11, Baiano (`bra-ba-1`) em 27/11. Próximo: o Pernambucano (`bra-pe-1`), 10º do RNF; pesquisa e escopo
-   antes, com o ok do Guilherme.
+   em 27/11, Baiano (`bra-ba-1`) e Pernambucano (`bra-pe-1`) em 27/11. Próximo: o Alagoano (`bra-al-1`), 11º do RNF;
+   pesquisa e escopo antes, com o ok do Guilherme.
+   **Escopo do Pernambucano, aprovado pelo Guilherme em 27/11:**
+   - 1915 a 2026, 112 edições (a conta da FPF, da RSSSF e da Wikipédia; disputado sem interrupção). Nenhum título
+     dividido, anulado ou de liga rival. "Super Campeonato" (1915, 1957, 1976, 1981, 1983) é só o nome da decisão.
+   - A edição 2026/27 (novo calendário: Turno Forró em 2026, Turno Frevo em 2027) fica de fora até terminar, como faz
+     o agente da Europa com as temporadas em andamento. No ogol, "2026" é a edição 210257 (a 225812 é a 2026/27).
+   - Edições sem jogos, só com campeão e vice: 1991, 1992 e 1993 (a RSSSF nunca teve a página: 404 no site e no
+     Internet Archive; o ogol só tem 2 jogos de 1991). Na coleta, 1991 entrou com esses 2 jogos, que são a final (Sport x
+     Náutico): só 1992 e 1993 ficaram sem jogos.
+   - Jogos antigos sem placar ("América won", "drew"): a vitória entra como no Mineiro ("awd", sem gols, vencedor na
+     observação).
+   - Fontes: RSSSF Brasil (`tablesfq/pe{ano}.htm`; lista em `pecamp.htm`; 1915-1970 do livro de Cordeiro e Cordeiro),
+     ogol ("campeonato-pernambucano") e Wikipédia ("Campeonato Pernambucano de Futebol Masculino": campeão, vice, 3º e
+     4º na tabela do artigo).
+   - Ficam para a etapa 4: Copa Pernambuco, as divisões de baixo e as outras competições da FPF.
    **Escopo do Baiano, aprovado pelo Guilherme em 27/11:**
    - 1905 a 2026, 122 edições (a conta da FBF, da RSSSF e da Wikipédia).
    - 1915 e 1916: só o campeonato oficial; os da liga rival (LSB, campeões a AA da Bahia e o SC Palmeiras) ficam fora.
@@ -492,6 +507,23 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
   publicada só vale quando começa pelo campeão e pelo vice da final.
 - **"Decisão do 3th Lugar"** caía na regra "decisão do 3" (3º turno): a disputa de 3º lugar vem antes.
 - **Título dividido numa edição sem jogos** (1938): o `co_campeao` sai depois do pódio de `PODIO_SEM_JOGOS`.
+
+**Pernambucano (o que valeu aprender)**
+- **Ano de dois dígitos nas páginas antigas** ("01/08/15"): os conversores herdados supõem 1900 só acima de 30, e 1915
+  virava 2015. `rsssf_pe1._seculo` completa o ano pelo século da página; ano fora de página±1 é erro de digitação
+  ("29/jan/24" na página de 2022) e fica o ano da página.
+- **Data na mesma linha do jogo** ("30/Mai/79 Santa Cruz 1-1 Náutico [extra-time: 0-2]"): o leitor comum perde a nota
+  entre colchetes; com a data na linha de cima ela fica (`_data_mes_pt`).
+- **Vitória sem placar e W.O. por extenso** ("(America won)", "[Sport won by W.O.]"): viram "awd" com o vencedor na nota
+  (`_venceu`), com a data numa linha à parte (o leitor só lê "A awd B" no começo da linha).
+- **Frases curtas lidas como fase** ("Náutico champions of 1º Turno", "CENTRAL are stage finalists"): ganham ponto final
+  (`_frase_nao_titulo`).
+- **Turnos em inglês** ("First Round - First Phase", "FIRST STAGE:"): a correção de turnos do Baiano serve, com "round" e
+  "stage" como turno e "STAGE FINAL" como final do turno.
+- **Nome com o mesmo nome de exibição de uma ficha do cadastro** (América-PE, Porto-PE, Vitória-PE...): o
+  `confere_nomes.py` acusa; o nome curto vai em `NOME_CODIGO` com o código da ficha.
+- **O ogol supre página ruim:** datas de 1976 (página do Word com turno e returno misturados), o placar que faltava em
+  1915, o fim de 2023 e a final de 2025.
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,
