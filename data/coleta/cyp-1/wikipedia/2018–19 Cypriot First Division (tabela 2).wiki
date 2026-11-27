@@ -1,0 +1,48 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.cfa.com.cy/Gr/competitions/7932315 CFA] {{in lang|el}}
+
+<!--Update team positions here-->
+|team1=APOE |team2=AEK |team3=APOL |team4=AEL |team5=NSF |team6=OMO
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL2Q |result2=EL1Q |result3=EL1Q |result4=EL2Q
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=20 May 2019
+|win_AEK =18 |draw_AEK = 8 |loss_AEK = 6 |gf_AEK =51 |ga_AEK =23 <!-- AEK Larnaca -->
+|win_AEL =17 |draw_AEL = 4 |loss_AEL =11 |gf_AEL =49 |ga_AEL =47 <!-- AEL Limassol -->
+|win_APOE=21 |draw_APOE= 7 |loss_APOE= 4 |gf_APOE=66 |ga_APOE=25 <!-- APOEL Nicosia -->
+|win_APOL=17 |draw_APOL= 7 |loss_APOL= 8 |gf_APOL=64 |ga_APOL=32 <!-- Apollon Limassol -->
+|win_NSF =12 |draw_NSF = 8 |loss_NSF =12 |gf_NSF =41 |ga_NSF =47 <!-- Nea Salamis Famagusta -->
+|win_OMO =10 |draw_OMO = 6 |loss_OMO =16 |gf_OMO =36 |ga_OMO =45 <!-- Omonia Nicosia -->
+
+<!--Head to head-->
+
+
+<!-- Status -->
+|status_APOE= C
+
+<!--Team definitions (wikilinks in table)-->
+|name_AEK =[[AEK Larnaca FC|AEK Larnaca]]
+|name_AEL =[[AEL Limassol]]
+|name_APOE=[[APOEL FC|APOEL]]
+|name_APOL=[[Apollon Limassol FC|Apollon Limassol]]
+|name_NSF =[[Nea Salamis Famagusta FC|Nea Salamis Famagusta]]
+|name_OMO =[[AC Omonia|Omonia]]
+
+<!--Table settings and rules-->
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Play-off (only if deciding champion or UEFA competitions).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=12656&view=rules|title=1. Division 2018/2019 - Season rules|publisher=Scoresway|access-date=23 February 2019}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CL2Q=green1 |text_CL2Q={{nowrap|Qualification for the [[2019–20 UEFA Champions League#Second qualifying round|Champions League second qualifying round]]}}
+|col_EL2Q=blue1  |text_EL2Q=Qualification for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_EL1Q=blue2  |text_EL1Q=Qualification for the [[2019–20 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+|note_res_EL2Q=[[AEL Limassol]] qualified for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]] by winning the [[2018–19 Cypriot Cup]].
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Cyprus football standings templates]]
+</noinclude>

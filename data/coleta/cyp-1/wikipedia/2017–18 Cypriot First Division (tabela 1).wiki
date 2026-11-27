@@ -1,0 +1,66 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.cfa.com.cy/Gr/competitionstage/3228359/3228370 CFA] {{in lang|el}}
+
+<!--Update team positions here-->
+|team1=APOE |team2=APOL |team3=ANO |team4=AEK |team5=AEL |team6=OMO |team7=DOX |team8=ERM |team9=PAF |team10=NSF |team11=ALK |team12=OLY |team13=ARI |team14=ETH
+
+<!--Update team qualifications here (defined below)-->
+|result1=CHR |result2=CHR |result3=CHR |result4=CHR |result5=CHR |result6=CHR
+|result7=RER |result8=RER |result9=RER |result10=RER |result11=RER |result12=RER
+|result13=REL |result14=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =16|draw_AEK =5 |loss_AEK =5 |gf_AEK =57|ga_AEK =24 <!-- AEK Larnaca -->
+|win_AEL =14|draw_AEL =6 |loss_AEL =6 |gf_AEL =35|ga_AEL =17 <!-- AEL Limassol -->
+|win_ALK =6 |draw_ALK =5 |loss_ALK =15|gf_ALK =30|ga_ALK =57 <!-- Alki Oroklini -->
+|win_ANO =16|draw_ANO =8 |loss_ANO =2 |gf_ANO =41|ga_ANO =17 <!-- Anorthosis Famagusta -->
+|win_APOE=20|draw_APOE=3 |loss_APOE=3 |gf_APOE=72|ga_APOE=25 <!-- APOEL Nicosia -->
+|win_APOL=18|draw_APOL=7 |loss_APOL=1 |gf_APOL=67|ga_APOL=15 <!-- Apollon Limassol -->
+|win_ARI =3 |draw_ARI =7 |loss_ARI =16|gf_ARI =19|ga_ARI =49 <!-- Aris Limassol -->
+|win_DOX =10|draw_DOX =4 |loss_DOX =12|gf_DOX =35|ga_DOX =40 <!-- Doxa Katokopias -->
+|win_ERM =9 |draw_ERM =3 |loss_ERM =14|gf_ERM =35|ga_ERM =49 <!-- Ermis Aradippou -->
+|win_ETH =1 |draw_ETH =5 |loss_ETH =20|gf_ETH =19|ga_ETH =64 <!-- Ethnikos Achna -->
+|win_NSF =6 |draw_NSF =6 |loss_NSF =14|gf_NSF =28|ga_NSF =46 <!-- Nea Salamis Famagusta -->
+|win_OLY =4 |draw_OLY =8 |loss_OLY =14|gf_OLY =22|ga_OLY =55 <!-- Olympiakos Nicosia -->
+|win_OMO =13|draw_OMO =5 |loss_OMO =8 |gf_OMO =51|ga_OMO =38 <!-- Omonia Nicosia -->
+|win_PAF =6 |draw_PAF =8 |loss_PAF =12|gf_PAF =23|ga_PAF =38 <!-- Pafos FC -->
+
+<!--Head to head-->
+
+<!--Status-->
+|status_ARI =R
+|status_ETH =R
+
+<!--Team definitions (wikilinks in table)-->
+|name_AEK =[[AEK Larnaca FC|AEK Larnaca]]
+|name_AEL =[[AEL Limassol]]
+|name_ALK =[[Alki Oroklini]]
+|name_ANO =[[Anorthosis Famagusta FC|Anorthosis Famagusta]]
+|name_APOE=[[APOEL FC|APOEL]]
+|name_APOL=[[Apollon Limassol FC|Apollon Limassol]]
+|name_ARI =[[Aris Limassol FC|Aris Limassol]]
+|name_DOX =[[Doxa Katokopias FC|Doxa Katokopias]]
+|name_ERM =[[Ermis Aradippou FC|Ermis Aradippou]]
+|name_ETH =[[Ethnikos Achna FC|Ethnikos Achna]]
+|name_NSF =[[Nea Salamis Famagusta FC|Nea Salamis Famagusta]]
+|name_OLY =[[Olympiakos Nicosia]]
+|name_OMO =[[AC Omonia|Omonia]]
+|name_PAF =[[Pafos FC]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Play-off (only if deciding championship round, relegation round or relegation).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=12656&view=rules|title=1. Division 2017/2018 - Season rules|publisher=Scoresway|access-date=11 August 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CHR=green1 |text_CHR=Qualification for the [[2017–18 Cypriot First Division#Championship round|Championship round]]
+|col_RER=red2   |text_RER=Qualification for the [[2017–18 Cypriot First Division#Relegation round|Relegation round]]
+|col_REL=red1   |text_REL=Relegation to the [[2018–19 Cypriot Second Division|Cypriot Second Division]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Cyprus football standings templates]]
+</noinclude>

@@ -90,6 +90,51 @@ REGRAS: list[tuple[re.Pattern, callable]] = [
 
 # frases sem regra: a tradução (None = descartada). Chave = a nota como vem da Wikipédia (sem o ponto final).
 MANUAL: dict[str, str | None] = {
+    # Chipre (cyp-1)
+    'AEL: 4pts; Nea Salamina: 1pts':
+        'confronto direto: AEL 4 pontos, Nea Salamina 1',
+    'AEZ Zakakiou were deducted six points for suspicious betting activity':
+        '6 pontos a menos por suspeita de manipulação de apostas',
+    'APEP 4 points deducted':
+        '4 pontos a menos',
+    'APEP were docked six points because their players walked off the pitch before the end of a match against Ethnikos to protest the officiating':
+        '6 pontos a menos porque os jogadores deixaram o campo antes do fim do jogo contra o Ethnikos, em protesto contra a arbitragem',
+    'APOEL: 7 pts; AEL: 4 pts':
+        'confronto direto: APOEL 7 pontos, AEL 4',
+    'APOP were docked 6 points due to unpaid debts':
+        '6 pontos a menos por dívidas',
+    'Alki had 3 points deducted for failing to pay old debts to a former manager':
+        '3 pontos a menos por não pagar dívidas antigas com um ex-treinador',
+    'Anorthosis were deducted six points for use of unregistered player on a game against Apollon on 2 February 2019':
+        '6 pontos a menos por escalar um jogador não inscrito contra o Apollon em 02/02/2019',
+    'Cup winner':
+        'campeão da copa',
+    'Doxa ahead of Aris on head-to-head away goals scored: Doxa–Aris 2–1, Aris–Doxa 1–1, Doxa–Aris 1–1, Aris–Doxa 4–3':
+        'Doxa à frente do Aris pelos gols fora de casa no confronto direto: Doxa 2-1 Aris, Aris 1-1 Doxa, Doxa 1-1 Aris, Aris 4-3 Doxa',
+    'Enosis: 6pts; Apollon: 0pts':
+        'confronto direto: Enosis 6 pontos, Apollon 0',
+    'Ermis Aradippou were deducted six points for suspicious betting activity':
+        '6 pontos a menos por suspeita de manipulação de apostas',
+    'Head to head record: Doxa 2–1 Ermis, Ermis 1–2 Doxa, Doxa 2–3 Ermis, Ermis 2–1 Doxa':
+        'confronto direto: Doxa 2-1 Ermis, Ermis 1-2 Doxa, Doxa 2-3 Ermis, Ermis 2-1 Doxa',
+    'Head to head record: Doxa: 6 points (: +2), Karmiotissa: 6 points (: –2)':
+        'confronto direto: Doxa 6 pontos (saldo +2), Karmiotissa 6 pontos (saldo -2)',
+    'Head to head record: Omonia 3–1 Nea Salamis, Nea Salamis 1–0 Omonia':
+        'confronto direto: Omonia 3-1 Nea Salamina, Nea Salamina 1-0 Omonia',
+    'Head to head record: Paralimni 2–0 Alki, Alki 1–2 Paralimni':
+        'confronto direto: Paralimni 2-0 Alki, Alki 1-2 Paralimni',
+    'Head-to-head goal difference: APOEL +1, Doxa -1':
+        'saldo no confronto direto: APOEL +1, Doxa -1',
+    'Head-to-head: Alki 7 points; Aris 4 points; AEL 3 points':
+        'confronto direto: Alki 7 pontos, Aris 4, AEL 3',
+    'On 11 June 2012, AEP Paphos were deducted three points by CFA because they failed to meet the financial criteria. On 13 August 2012, AEP Paphos were deducted another three points by CFA because they failed again to meet the financial criteria. On 12 November 2012, AEP Paphos were deducted another three points by CFA because they failed to meet the financial criteria for the third time. On 13 May 2012, AEP Paphos were deducted another three points because of FIFA decision':
+        '12 pontos a menos: 3 em 11/06/2012, 3 em 13/08/2012 e 3 em 12/11/2012 por não cumprir os critérios financeiros, e mais 3 por decisão da FIFA',
+    'On 22 May 2012, Olympiakos Nicosia were deducted three points by CFA because they failed to meet the financial criteria':
+        '3 pontos a menos em 22/05/2012 por não cumprir os critérios financeiros',
+    'Pafos FC were deducted six points for use of unregistered player on a game against AEK Larnaca on 2 January 2019':
+        '6 pontos a menos por escalar um jogador não inscrito contra o AEK Larnaca em 02/01/2019',
+    'The round 22 match between Anorthosis and Apollon was declared void, as both teams were deemed guilty of the abandonment of the game; it was not rescheduled, and neither team got any points or goals attributed; it was counted in the matches played column but not in the matches lost column':
+        'o jogo da 22ª rodada entre Anorthosis e Apollon foi anulado (os dois foram culpados pelo abandono); não foi remarcado e não deu pontos nem gols a ninguém; conta na coluna de jogos, mas não na de derrotas',
     # Dinamarca (den-1)
     'AB Copenhagen lost 9 points, by use of Ali Akida with fake passport':
         '9 pontos a menos por escalar Ali Akida com passaporte falso',

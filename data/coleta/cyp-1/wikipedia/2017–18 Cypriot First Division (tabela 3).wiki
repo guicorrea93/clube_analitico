@@ -1,0 +1,50 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.cfa.com.cy/Gr/competitionstage/3228359/6317969 CFA]
+|highest_pos=7
+
+<!--Update team positions here-->
+|team7=NSF |team8=ERM |team9=DOX |team10=PAF |team11=ALK |team12=OLY
+
+<!--Update team qualifications here (defined below)-->
+|result12=REL
+
+<!--Update team results here and then (if needed) positions above. Dont forget to update the date (update parameter)-->
+|update=complete
+|win_ALK =11|draw_ALK =6 |loss_ALK =19|gf_ALK =48|ga_ALK =73 <!-- Alki Oroklini -->
+|win_DOX =14|draw_DOX =4 |loss_DOX =18|gf_DOX =54|ga_DOX =63 <!-- Doxa Katokopias -->
+|win_ERM =14|draw_ERM =4 |loss_ERM =18|gf_ERM =50|ga_ERM =64 <!-- Ermis Aradippou -->
+|win_NSF =14|draw_NSF =6 |loss_NSF =16|gf_NSF =53|ga_NSF =55 <!-- Nea Salamis Famagusta -->
+|win_OLY =5 |draw_OLY =9 |loss_OLY =22|gf_OLY =34|ga_OLY =81 <!-- Olympiakos Nicosia -->
+|win_PAF =11|draw_PAF =9 |loss_PAF =16|gf_PAF =36|ga_PAF =51 <!-- Pafos FC -->
+
+<!-- Head to head -->
+|hth_ERM=Head to head record: Doxa 2–1 Ermis, Ermis 1–2 Doxa, Doxa 2–3 Ermis, Ermis 2–1 Doxa.
+|hth_DOX=ERM
+
+<!--Point changes-->
+
+
+<!--Status-->
+|status_OLY= R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ALK =[[Alki Oroklini]]
+|name_DOX =[[Doxa Katokopias FC|Doxa Katokopias]]
+|name_ERM =[[Ermis Aradippou FC|Ermis Aradippou]]
+|name_NSF =[[Nea Salamis Famagusta FC|Nea Salamis Famagusta]]
+|name_OLY =[[Olympiakos Nicosia]]
+|name_PAF =[[Pafos FC]]
+
+<!--Table settings and rules-->
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Play-off (only if deciding champion or UEFA competitions).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=12656&view=rules|title=1. Division 2017/2018 - Season rules|publisher=Scoresway|access-date=11 August 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=R
+|col_REL=red1 |text_REL={{nowrap|Relegation to the [[2018–19 Cypriot Second Division|Cypriot Second Division]]}}
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Cyprus football standings templates]]
+</noinclude>

@@ -1,0 +1,73 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.cfa.com.cy/En/competitions/7932315 Cyprus Football Association], [https://www.soccerway.com/cyprus/cyprus-league-2018-2019/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=APOE |team2=APOL |team3=AEL |team4=AEK |team5=OMO |team6=NSF |team7=ANO |team8=PAF |team9=DOX |team10=ENP |team11=ALK |team12=ERM
+
+<!--Update team qualifications here (defined below)-->
+|result1=CHR |result2=CHR |result3=CHR |result4=CHR |result5=CHR |result6=CHR
+|result7=RER |result8=RER |result9=RER |result10=RER |result11=RER |result12=RER
+
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =11 |draw_AEK = 6 |loss_AEK = 5 |gf_AEK =37 |ga_AEK =16 <!-- AEK Larnaca -->
+|win_AEL =14 |draw_AEL = 3 |loss_AEL = 5 |gf_AEL =35 |ga_AEL =25 <!-- AEL Limassol -->
+|win_ALK = 4 |draw_ALK = 5 |loss_ALK =13 |gf_ALK =19 |ga_ALK =43 <!-- Alki Oroklini -->
+|win_ANO = 9 |draw_ANO = 7 |loss_ANO = 6 |gf_ANO =27 |ga_ANO =26 <!-- Anorthosis Famagusta -->
+|win_APOE=15 |draw_APOE= 4 |loss_APOE= 3 |gf_APOE=45 |ga_APOE=20 <!-- APOEL Nicosia -->
+|win_APOL=14 |draw_APOL= 5 |loss_APOL= 3 |gf_APOL=50 |ga_APOL=17 <!-- Apollon Limassol -->
+|win_DOX = 5 |draw_DOX = 5 |loss_DOX =12 |gf_DOX =28 |ga_DOX =39 <!-- Doxa Katokopias -->
+|win_ENP = 4 |draw_ENP = 5 |loss_ENP =13 |gf_ENP =17 |ga_ENP =38 <!-- Enosis Neon Paralimni -->
+|win_ERM = 2 |draw_ERM = 4 |loss_ERM =16 |gf_ERM =19 |ga_ERM =40 <!-- Ermis Aradippou -->
+|win_NSF = 9 |draw_NSF = 4 |loss_NSF = 9 |gf_NSF =28 |ga_NSF =30 <!-- Nea Salamis Famagusta -->
+|win_OMO = 9 |draw_OMO = 4 |loss_OMO = 9 |gf_OMO =25 |ga_OMO =24 <!-- Omonia Nicosia -->
+|win_PAF = 7 |draw_PAF = 6 |loss_PAF = 9 |gf_PAF =24 |ga_PAF =36 <!-- Pafos FC -->
+
+<!--Head to head-->
+|hth_OMO=Head to head record: Omonia 3–1 Nea Salamis, Nea Salamis 1–0 Omonia.
+|hth_NSF=OMO
+
+|hth_ENP=Head to head record: Paralimni 2–0 Alki, Alki 1–2 Paralimni.
+|hth_ALK=ENP
+
+<!--Point changes-->
+|adjust_points_ANO=-6
+|note_ANO= [[Anorthosis Famagusta FC|Anorthosis]] were deducted six points for use of unregistered player on a game against [[Apollon Limassol FC|Apollon]] on 2 February 2019.<ref>{{cite web|url=https://www.cfa.com.cy/Gr/news/36613|title=Η απόφαση του Αθλητικού Δικαστή για την ένσταση του Απόλλωνα|publisher=[[Cyprus Football Association]]|date=2 February 2019|access-date=2 February 2019}}</ref>
+
+|adjust_points_PAF=-6
+|note_PAF= [[Pafos FC]] were deducted six points for use of unregistered player on a game against [[AEK Larnaca FC|AEK Larnaca]] on 2 January 2019.<ref>{{cite web|url=https://www.cfa.com.cy/Gr/news/36248|title=Η απόφαση του Αθλητικού Δικαστή για την ένσταση της ΑΕΚ Λάρνακας (πλήρες σκεπτικό)|publisher=[[Cyprus Football Association]]|date=16 January 2019|access-date=16 January 2019}}</ref>
+
+<!--Status-->
+
+<!--Team definitions (wikilinks in table)-->
+|name_AEK =[[AEK Larnaca FC|AEK Larnaca]]
+|name_AEL =[[AEL Limassol]]
+|name_ALK =[[Alki Oroklini]]
+|name_ANO =[[Anorthosis Famagusta FC|Anorthosis Famagusta]]
+|name_APOE=[[APOEL FC|APOEL]]
+|name_APOL=[[Apollon Limassol FC|Apollon Limassol]]
+|name_DOX =[[Doxa Katokopias FC|Doxa Katokopias]]
+|name_ENP =[[Enosis Neon Paralimni FC|Enosis Neon Paralimni]]
+|name_ERM =[[Ermis Aradippou FC|Ermis Aradippou]]
+|name_NSF =[[Nea Salamis Famagusta FC|Nea Salamis Famagusta]]
+|name_OMO =[[AC Omonia|Omonia]]
+|name_PAF =[[Pafos FC]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Play-off (only if deciding championship round, relegation round or relegation).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=12656&view=rules|title=1. Division 2018/2019 - Season rules|publisher=Scoresway|access-date=8 May 2018}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CHR=green1 |text_CHR=Qualification for the [[2018–19 Cypriot First Division#Championship round|Championship round]]
+|col_RER=red1   |text_RER=Qualification for the [[2018–19 Cypriot First Division#Relegation round|Relegation round]]
+
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Cyprus football standings templates]]
+[[Category:2018–19 association football standings in Europe templates|Cyprus]]
+</noinclude>

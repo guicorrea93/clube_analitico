@@ -23,6 +23,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Polonês | 98 (1921–2025/26) | 19667 | 0 | 0 | 103 | 139 / 74 | 0 | [pol-1](pol-1.md) |
 | Campeonato Norueguês | 80 (1937/38–2025) | 12368 | 14830 | 11950 | 128 | 116 / 4 | 0 | [nor-1](nor-1.md) |
 | Campeonato Dinamarquês | 112 (1912/13–2025/26) | 14016 | 11661 | 12026 | 72 | 166 / 13 | 0 | [den-1](den-1.md) |
+| Campeonato Cipriota | 86 (1934/35–2025/26) | 13465 | 231 | 0 | 46 | 126 / 38 | 0 | [cyp-1](cyp-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -90,6 +91,9 @@ Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 - **den-1:** Sem os jogos das ligas de Copenhague (até 1927), da liga de 1928/29 a 1939/40 e das séries da guerra: só as tabelas (Wikipédia e RSSSF); o banco Haslund não é baixável em lote. 1928/29 só pela RSSSF (a Wikipédia não tem o artigo).
 - **den-1:** Sem datas e rodadas até 1990; autores dos gols e cartões só com a ESPN (desde 2006/07; quase sem lances de 2011/12 a 2013/14) e, para os gols, com as páginas da RSSSF.
 - **den-1:** Fora do escopo (decisão do Guilherme, 25/11/2026): Copenhague de 1889 a 1912, 1914/15 (suspenso), 1927/28 (sem campeão) e 2026/27 (em andamento).
+- **cyp-1:** Sem autores dos gols e cartões: nenhuma fonte em lote cobre Chipre (sem ESPN e sem football-data). Sem datas e rodadas até 1995/96 (só a matriz da Wikipédia).
+- **cyp-1:** Matrizes antigas incompletas (anos 1930 a 1950 e algumas depois): a classificação fica com os números publicados quando a matriz não fecha (observação na linha).
+- **cyp-1:** Fora do escopo (decisão do Guilherme, 27/11/2026): os campeonatos não oficiais de 1931/32 a 1933/34 e as temporadas sem campeão (1941/42 a 1943/44, 1958/59, 1963/64 e 2019/20).
 
 ## Com o agente de revisão
 
@@ -117,7 +121,10 @@ Decisões da coleta que a revisão confere.
 - **den-1:** Identidade: KB, B 1903 e FC København separados (como a RSSSF); pelos links, Horsens fS = AC Horsens, Farum = Nordsjælland, Haderslev = SønderjyskE, B 1901 = Nykøbing FC, Helsingør IF = FC Helsingør; em 1976 a matriz da Wikipédia liga o Randers Freja ao Randers FC (fica o Freja, pela tabela); o BK Viktoria de 1928/29 sem cidade confirmada.
 - **den-1:** Antes de 1945: ordem pela final e pelo mata-mata, depois pela tabela; números da tabela mais os do mata-mata.
 - **den-1:** Superliga com grupos (1991/92-1994/95 e desde 2016/17): fase regular pelo primeiro encontro de cada par (o ogol não numera as rodadas); 2016/17 completado pelo football-data nos grupos de classificação; do 7º ao 14º de 2016/17 a 2019/20 pela fase regular.
+- **cyp-1:** Pontos 3-2-1 de 1960/61 a 1969/70, como a RSSSF anota (a Wikipédia calcula com 2-1-0).
+- **cyp-1:** Identidade: AEK Larnaca separado do EPA e do Pezoporikos; AEP Paphos separado do Evagoras e do APOP Paphos; APOEL, AEL Limassol, EPA Larnaca e Olympiakos Nicosia com o mesmo nome do gre-1.
+- **cyp-1:** 2008/09: APOEL x Omonia suspenso, como derrota para os dois (a tabela da Wikipédia); 2007/08 e 2008/09: grupos intermediário e de rebaixamento pela matriz da Wikipédia (o ogol não tem).
 
 ## Próximas ligas
 
-- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), Tchecoslováquia (`tch-1`), Polônia (`pol-1`), Noruega (`nor-1`) e Dinamarca (`den-1`); a próxima é Chipre. Uma por vez, com o escopo antes.
+- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), Tchecoslováquia (`tch-1`), Polônia (`pol-1`), Noruega (`nor-1`) e Dinamarca (`den-1`) e Chipre (`cyp-1`); a próxima é a Suíça. Uma por vez, com o escopo antes.

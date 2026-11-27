@@ -1,0 +1,53 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.cfa.com.cy/Gr/competitions/7932315 CFA]
+|highest_pos=7
+
+<!--Update team positions here-->
+|team7=ANO |team8=PAF |team9=DOX |team10=ENP |team11=ALK |team12=ERM
+
+<!--Update team qualifications here (defined below)-->
+|result11=REL |result12=REL
+
+<!--Update team results here and then (if needed) positions above. Dont forget to update the date (update parameter)-->
+|update=complete
+
+|win_ALK =10 |draw_ALK = 5 |loss_ALK =17 |gf_ALK =35 |ga_ALK =58 <!-- Alki Oroklini -->
+|win_ANO =12 |draw_ANO =11 |loss_ANO = 9 |gf_ANO =42 |ga_ANO =41 <!-- Anorthosis Famagusta -->
+|win_DOX = 9 |draw_DOX = 8 |loss_DOX =15 |gf_DOX =47 |ga_DOX =50 <!-- Doxa Katokopias -->
+|win_ENP = 9 |draw_ENP = 8 |loss_ENP =15 |gf_ENP =35 |ga_ENP =51 <!-- Enosis Neon Paralimni -->
+|win_ERM = 3 |draw_ERM = 4 |loss_ERM =25 |gf_ERM =29 |ga_ERM =65 <!-- Ermis Aradippou -->
+|win_PAF =12 |draw_PAF = 8 |loss_PAF =12 |gf_PAF =39 |ga_PAF =50 <!-- Pafos FC -->
+
+
+<!--Point changes-->
+|adjust_points_ANO=-6
+|note_ANO= [[Anorthosis Famagusta FC|Anorthosis]] were deducted six points for use of unregistered player on a game against [[Apollon Limassol FC|Apollon]] on 2 February 2019.<ref>{{cite web|url=https://www.cfa.com.cy/Gr/news/36613|title=Η απόφαση του Αθλητικού Δικαστή για την ένσταση του Απόλλωνα|publisher=[[Cyprus Football Association]]|date=2 February 2019|access-date=2 February 2019}}</ref>
+
+|adjust_points_PAF=-6
+|note_PAF= [[Pafos FC]] were deducted six points for use of unregistered player on a game against [[AEK Larnaca FC|AEK Larnaca]] on 2 January 2019.<ref>{{cite web|url=https://www.cfa.com.cy/Gr/news/36248|title=Η απόφαση του Αθλητικού Δικαστή για την ένσταση της ΑΕΚ Λάρνακας (πλήρες σκεπτικό)|publisher=[[Cyprus Football Association]]|date=16 January 2019|access-date=16 January 2019}}</ref>
+
+<!--Status-->
+|status_ALK=R
+|status_ERM=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ALK =[[Alki Oroklini]]
+|name_ANO =[[Anorthosis Famagusta FC|Anorthosis Famagusta]]
+|name_DOX =[[Doxa Katokopias FC|Doxa Katokopias]]
+|name_ENP =[[Enosis Neon Paralimni FC|Enosis Neon Paralimni]]
+|name_ERM =[[Ermis Aradippou FC|Ermis Aradippou]]
+|name_PAF =[[Pafos FC]]
+
+<!--Table settings and rules-->
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Play-off (only if deciding champion or UEFA competitions).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=12656&view=rules|title=1. Division 2018/2019 - Season rules|publisher=Scoresway|access-date=24 February 2019}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=R
+|col_REL=red1 |text_REL={{nowrap|Relegation to the [[2019–20 Cypriot Second Division|Cypriot Second Division]]}}
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Cyprus football standings templates]]
+</noinclude>

@@ -1763,3 +1763,59 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - a ordem do 7º ao 14º de 2016/17 a 2019/20 (pela fase regular) e a das temporadas antes de 1945;
    - as 13 tabelas divergentes (1951/52, 1956/57, 1965, 1983, 1991/92, 2005/06, 2006/07, 2007/08).
 8. **Próxima tarefa:** Chipre (rank 15 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+
+## Recado de fim de coleta — cyp-1 — 27/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Cipriota, de 1934/35 a 2025/26:
+   - 86 edições, 13.465 jogos, 46 clubes (42 novos e 4 que já vêm do `gre-1`);
+   - títulos (os 86 que a federação reconhece, iguais à lista da RSSSF): APOEL 29, Omonia 22, Anorthosis 13, AEL
+     Limassol 6, Apollon Limassol 4 e mais 7 clubes.
+
+   Escopo aprovado pelo Guilherme (27/11/2026):
+   - ficam de fora os campeonatos não oficiais de 1931/32 a 1933/34;
+   - ficam de fora as temporadas sem campeão: 1941/42 a 1943/44 (guerra), 1958/59 (não disputada), 1963/64 (abandonada
+     pelos conflitos na ilha) e 2019/20 (abandonada pela pandemia).
+
+   Fontes:
+   - **Wikipédia (en):** tabelas e matriz de resultados (base dos jogos até 1995/96);
+   - **ogol:** base dos jogos desde 1996/97, com data, hora e rodada;
+   - **RSSSF:** a página de cada temporada (tabelas e sistema de pontos), campeões e artilheiros.
+
+   Conferência: 126 tabelas fecham com os jogos e 38 divergem (em 24 temporadas, quase todas antigas, com a matriz da
+   Wikipédia incompleta; nelas a classificação fica com os números publicados, com observação na linha).
+2. **Commit:** o deste recado ("Coleta Europa: Campeonato Cipriota (cyp-1), 1934/35 a 2025/26").
+3. **Teste de carga:** "cyp-1: 86 edições, 13465 jogos, 42 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `cyp-1` e liberar no seletor;
+   - **país:** Chipre (`CYP`);
+   - **mesmos clubes do `gre-1`:** APOEL, AEL Limassol, EPA Larnaca e Olympiakos Nicosia (os campeões cipriotas no
+     Campeonato Grego de 1967/68 a 1973/74) têm o mesmo nome nas duas competições, de propósito;
+   - **pontos 3-2-1 de 1960/61 a 1969/70** (`pontos_empate` = 2 e `pontos_derrota` = 1 nessas edições);
+   - **grupos com os pontos acumulados:**
+     - de 2007/08 a 2012/13: "Grupo do título", "Grupo intermediário" e "Grupo de rebaixamento";
+     - desde 2013/14: "Grupo do título" e "Grupo de rebaixamento";
+   - **2008/09:** APOEL x Omonia é "derrota para os dois" (gols vazios);
+   - **sem datas e rodadas até 1995/96**; sem autores dos gols e cartões em toda a liga.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **pontos 3-2-1 de 1960/61 a 1969/70:** a RSSSF anota esse sistema e as tabelas dela fecham com ele; a Wikipédia
+     calcula com 2-1-0;
+   - (b) **identidade pelo alvo do link da Wikipédia:**
+     - o AEK Larnaca (1994) fica separado do EPA e do Pezoporikos, que se fundiram nele;
+     - o AEP Paphos (2000) fica separado do Evagoras e do APOP Paphos;
+     - o Lefkoşa Türk é o Çetinkaya, e o "Trast" de 1934/35 é o Enosis Neon Trust;
+   - (c) **placares decididos fora de campo pelas notas da matriz da Wikipédia:** 2008/09, Apollon x Doxa; 2013/14, AEL x
+     APOEL (rojões contra Kaká) e Ermis x AEL (jogador irregular);
+   - (d) **grupos de 2007/08 e 2008/09** completados pela matriz da Wikipédia (o ogol só tem o grupo do título).
+6. **O que não deu para coletar:**
+   - autores dos gols e cartões (sem ESPN e sem football-data para Chipre);
+   - datas e rodadas até 1995/96;
+   - os jogos que faltam nas matrizes antigas.
+
+   Fonte possível: a ficha de cada jogo no ogol (desde 1996/97) e jornais da época.
+7. **Onde a revisão deve olhar primeiro:**
+   - o 3-2-1 dos anos 1960 (confirmar com uma terceira fonte);
+   - as 24 temporadas com tabelas divergentes (matrizes antigas incompletas);
+   - a identidade nas fusões (AEK Larnaca, AEP Paphos, APOP Paphos x APOP Kinyras, que o ogol junta num código).
+8. **Próxima tarefa:** Suíça (rank 16 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.

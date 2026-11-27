@@ -1,0 +1,47 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.cfa.com.cy/Gr/competitionstage/3228359/6339807 CFA] {{in lang|el}}
+
+<!--Update team positions here-->
+|team1=APOE |team2=APOL |team3=ANO |team4=AEK |team5=AEL |team6=OMO
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL1Q |result2=EL1Q |result3=EL1Q |result4=EL2Q
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =20|draw_AEK =8 |loss_AEK =8 |gf_AEK =74|ga_AEK =39 <!-- AEK Larnaca -->
+|win_AEL =17|draw_AEL =7 |loss_AEL =12|gf_AEL =47|ga_AEL =38 <!-- AEL Limassol -->
+|win_ANO =19|draw_ANO =12|loss_ANO =5 |gf_ANO =53|ga_ANO =29 <!-- Anorthosis Famagusta -->
+|win_APOE=27|draw_APOE=5 |loss_APOE=4 |gf_APOE=92|ga_APOE=35 <!-- APOEL Nicosia -->
+|win_APOL=25|draw_APOL=7 |loss_APOL=4 |gf_APOL=90|ga_APOL=26 <!-- Apollon Limassol -->
+|win_OMO =14|draw_OMO =5 |loss_OMO =17|gf_OMO =58|ga_OMO =60 <!-- Omonia Nicosia -->
+
+<!--Head to head-->
+
+<!-- Status -->
+|status_APOE=C
+
+<!--Team definitions (wikilinks in table)-->
+|name_AEK =[[AEK Larnaca FC|AEK Larnaca]]
+|name_AEL =[[AEL Limassol]]
+|name_ANO =[[Anorthosis Famagusta FC|Anorthosis Famagusta]]
+|name_APOE=[[APOEL FC|APOEL]]
+|name_APOL=[[Apollon Limassol FC|Apollon Limassol]]
+|name_OMO =[[AC Omonia|Omonia]]
+
+<!--Table settings and rules-->
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Head-to-head away goals scored (only if two teams); 6) Goal difference; 7) Goals scored; 8) Play-off (only if deciding champion or UEFA competitions).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=season&id=12656&view=rules|title=1. Division 2017/2018 - Season rules|publisher=Scoresway|access-date=11 August 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CL1Q=green1 |text_CL1Q={{nowrap|Qualification for the [[2018–19 UEFA Champions League#First qualifying round|Champions League first qualifying round]]}}
+|col_EL1Q=blue2  |text_EL1Q=Qualification for the [[2018–19 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+|col_EL2Q=blue1 |text_EL2Q={{nowrap|Qualification for the [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]}}
+|note_res_EL2Q=[[AEK Larnaca FC|AEK Larnaca]] qualified for the [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]] by winning the [[2017–18 Cypriot Cup]].
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Cyprus football standings templates]]
+</noinclude>

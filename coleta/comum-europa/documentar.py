@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1", "nor-1", "den-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1", "nor-1", "den-1", "cyp-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -179,6 +179,14 @@ LIMITES: dict[str, list[str]] = {
         "Fora do escopo (decisão do Guilherme, 25/11/2026): Copenhague de 1889 a 1912, 1914/15 (suspenso), 1927/28 (sem "
         "campeão) e 2026/27 (em andamento).",
     ],
+    "cyp-1": [
+        "Sem autores dos gols e cartões: nenhuma fonte em lote cobre Chipre (sem ESPN e sem football-data). Sem datas e "
+        "rodadas até 1995/96 (só a matriz da Wikipédia).",
+        "Matrizes antigas incompletas (anos 1930 a 1950 e algumas depois): a classificação fica com os números publicados "
+        "quando a matriz não fecha (observação na linha).",
+        "Fora do escopo (decisão do Guilherme, 27/11/2026): os campeonatos não oficiais de 1931/32 a 1933/34 e as temporadas "
+        "sem campeão (1941/42 a 1943/44, 1958/59, 1963/64 e 2019/20).",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -249,6 +257,13 @@ REVISAO: dict[str, list[str]] = {
         "Superliga com grupos (1991/92-1994/95 e desde 2016/17): fase regular pelo primeiro encontro de cada par (o ogol não "
         "numera as rodadas); 2016/17 completado pelo football-data nos grupos de classificação; do 7º ao 14º de 2016/17 a "
         "2019/20 pela fase regular.",
+    ],
+    "cyp-1": [
+        "Pontos 3-2-1 de 1960/61 a 1969/70, como a RSSSF anota (a Wikipédia calcula com 2-1-0).",
+        "Identidade: AEK Larnaca separado do EPA e do Pezoporikos; AEP Paphos separado do Evagoras e do APOP Paphos; APOEL, "
+        "AEL Limassol, EPA Larnaca e Olympiakos Nicosia com o mesmo nome do gre-1.",
+        "2008/09: APOEL x Omonia suspenso, como derrota para os dois (a tabela da Wikipédia); 2007/08 e 2008/09: grupos "
+        "intermediário e de rebaixamento pela matriz da Wikipédia (o ogol não tem).",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -575,8 +590,8 @@ def main() -> None:
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
             "está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), "
-            "Tchecoslováquia (`tch-1`), Polônia (`pol-1`), Noruega (`nor-1`) e Dinamarca (`den-1`); a próxima é Chipre. "
-            "Uma por vez, com o escopo antes.", ""]
+            "Tchecoslováquia (`tch-1`), Polônia (`pol-1`), Noruega (`nor-1`) e Dinamarca (`den-1`) e Chipre (`cyp-1`); a "
+            "próxima é a Suíça. Uma por vez, com o escopo antes.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

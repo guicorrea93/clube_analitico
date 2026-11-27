@@ -110,6 +110,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `pol-1` Polonês (torneios até 1926, 1946 e 1947; liga) | 98 (1921–2025/26) | 19.667 | 0 | 0 | 103 | (ver git log) |
 | `nor-1` Norueguês (Norgesserien, Hovedserien, Eliteserien) | 80 (1937/38–2025) | 12.368 | 14.830 | 11.950 | 128 | (ver git log) |
 | `den-1` Dinamarquês (Landsfodboldturneringen, liga, Superliga) | 112 (1912/13–2025/26) | 14.016 | 11.661 | 12.026 | 72 | (ver git log) |
+| `cyp-1` Cipriota | 86 (1934/35–2025/26) | 13.465 | 0 | 0 | 46 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -214,7 +215,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 12 | Polônia | **pronta** `pol-1` (25/11) |
    | 13 | Noruega | **pronta** `nor-1` (25/11) |
    | 14 | Dinamarca | **pronta** `den-1` (27/11) |
-   | 15 | Chipre |  |
+   | 15 | Chipre | **pronta** `cyp-1` (27/11) |
    | 16 | Suíça |  |
    | 17 | Áustria |  |
    | 18 | Hungria |  |
@@ -279,7 +280,11 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    guerra (1940/41-1944/45), 1. division e Superliga (1991 só a primavera). Ficam de fora Copenhague de 1889 a 1912
    (regional), 1914/15 (suspenso), 1927/28 (sem campeão) e 2026/27. Pronta em 27/11/2026.
 
-   **Próxima: Chipre** (rank 15). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+   **Chipre (`cyp-1`), escopo aprovado pelo Guilherme em 27/11/2026:** de 1934/35 a 2025/26, os 86 títulos que a
+   federação reconhece, como a lista da RSSSF. Ficam de fora os não oficiais de 1931/32 a 1933/34 e as temporadas sem
+   campeão (1941/42 a 1943/44, 1958/59, 1963/64 e 2019/20). Pronta em 27/11/2026.
+
+   **Próxima: a Suíça** (rank 16). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
 
    **Correções do plano (seção 3 e regras da seção 2.2), feitas em 25/11/2026:**
    - colunas `pontos_empate` e `pontos_derrota` preenchidas no 3-2-1 da Grécia (até 1972/73 e na era antiga) e da Turquia
@@ -574,6 +579,14 @@ em `adjust_points_X` (o leitor comum lê os dois).
   football-data (`COMPLETA_FD`) e corrigir pelo código do jogo (`CORRIGE_OGOL`).
 - **Jogo decidido fora de campo com o placar de campo no ogol** (jogador irregular): `DECIDIDOS` com a data quando o par
   se enfrenta mais de uma vez na temporada.
+
+**Chipre, o que serve para outras ligas:**
+- **Sistema de pontos pela RSSSF:** a página de cada temporada anota "3-2-1 points system"; a Wikipédia pode calcular com
+  outro (Chipre 1960/61-1969/70).
+- **`{{nowrap|[[...]]}}` no nome do clube** apaga o link na limpeza: desembrulhar antes de ler o artigo.
+- **Notas "awarded" nas células da matriz** valem para os grupos também: o placar oficial é o da matriz.
+- **Tabela antiga da RSSSF em colunas com GD ou GR:** ler a ordem das colunas pelo cabeçalho.
+- **Clubes que já estão em outra liga** (os cipriotas do gre-1): mesmo nome e mesma grafia de cidade.
 
 ## 7. Decisões do Guilherme já tomadas
 
