@@ -79,7 +79,8 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-rs-1` Gaúcho | 107 (1918–2026; 1918 sem jogos, com os campeões honoríficos; sem 1923 e 1924) | 13.393 | 3a0ffbba, a2db8a40; 1918 neste commit (25/11) | sim; recarregar | CONFERIR só pelo `co_campeao` de 1918 (dois clubes) |
 | `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | a2db8a40 (25/11) | não; carregar | OK (104 clubes novos) |
 | `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | 2f5317f1 (25/11) | não; carregar | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
-| `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | neste commit (25/11) | não; carregar | OK (36 clubes novos) |
+| `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | 70ca4a98 (25/11) | não; carregar | OK (36 clubes novos) |
+| `bra-sc-1` Catarinense | 102 (1924–2026, sem 1946; 7 sem jogos) | 8.721 | neste commit (27/11) | não; carregar | OK (87 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -110,9 +111,9 @@ As 27 posições foram conferidas no PDF.
 | 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (3a0ffbba, 25/11; falta o agente 1 carregar) |
 | 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (a2db8a40, 25/11; falta o agente 1 carregar) |
 | 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (2f5317f1, 25/11; falta o agente 1 carregar) |
-| 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (25/11; espera o ok do commit; falta o agente 1 carregar) |
-| 8 | SC | 23.938 | `bra-sc-1` Catarinense | **próximo** (pesquisa a fundo e proposta de escopo antes) |
-| 9 | BA | 23.642 | `bra-ba-1` Baiano | falta |
+| 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (70ca4a98, 25/11; falta o agente 1 carregar) |
+| 8 | SC | 23.938 | `bra-sc-1` Catarinense | **pronto** (27/11; espera o ok do commit; falta o agente 1 carregar) |
+| 9 | BA | 23.642 | `bra-ba-1` Baiano | **próximo** (pesquisa a fundo e proposta de escopo antes) |
 | 10 | PE | 14.158 | `bra-pe-1` Pernambucano | falta |
 | 11 | AL | 12.240 | `bra-al-1` Alagoano | falta |
 | 12 | PA | 10.710 | `bra-pa-1` Paraense | falta |
@@ -137,8 +138,19 @@ seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta
 `docs/coleta/pedidos.md`. Autores pela ficha do ogol e jornais da A2: só se o Guilherme pedir.
 
 1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
-   Gaúcho de 1918 incluído como edição sem jogos (25/11). Goiano (`bra-go-1`) feito em 25/11. Próximo: o Catarinense
-   (`bra-sc-1`), 8º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme.
+   Gaúcho de 1918 incluído como edição sem jogos (25/11). Goiano (`bra-go-1`) feito em 25/11, Catarinense (`bra-sc-1`)
+   em 27/11. Próximo: o Baiano (`bra-ba-1`), 9º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme.
+   **Escopo do Catarinense, aprovado pelo Guilherme em 27/11:**
+   - 1924 a 2026, 102 edições. Fica fora 1946, que não foi disputado (a federação estava suspensa pela CBD).
+   - 1924 entra: a lista da RSSSF o marca como não oficial, mas a FCF homologou como estaduais os campeonatos da capital de
+     1924, 1925, 1926, 1934, 1935 e 1936 (RSSSF, página de 1935); a Wikipédia também conta (Avaí com 19 títulos).
+   - 1933 não terminou: entra com os jogos, sem campeão e sem vice, com nota.
+   - 1935: só o campeonato da FCD (campeão o Figueirense); o paralelo da ACD (Joinville), que a FCF não reconhece, e o
+     Torneio Início ficam fora.
+   - Se a página de 1924 (planilha convertida em HTML) não for lida, 1924 entra sem jogos, só com o campeão.
+   - Fontes: RSSSF Brasil (`tablessz/sc{ano}.htm`; lista em `sccamp.htm`), ogol ("campeonato-catarinense", jogos a partir
+     dos anos 2000; 2026 só nele) e Wikipédia ("Campeonato Catarinense de Futebol Masculino").
+   - Ficam para a etapa 4: Copa Santa Catarina, Recopa e as outras competições da FCF.
    **Escopo do Goiano, aprovado pelo Guilherme em 25/11:**
    - 1944 a 2026, 83 edições (a conta da FGF e da RSSSF): 1944-1962 é a era amadora (o campeonato de Goiânia, que a FGF
      conta como Goiano), profissional desde 1963. Nenhum título dividido.
@@ -436,6 +448,20 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **"Atlético" curto sem ogol virava clube "rs-"** com o nome de exibição do Atlético-GO: o `confere_nomes.py` acusa; o
   nome curto vai em `NOME_CODIGO`. Clube de outra coleta (Luziânia): `DE_OUTRAS_COLETAS`.
 - **Código de fase do ogol "POff"** (2026): é o playoff de rebaixamento (`importar.fase_do_ogol`).
+
+**Catarinense (o que valeu aprender)**
+- **A lista de campeões da Wikipédia pode ser uma predefinição** ("Campeões do Campeonato Catarinense de Futebol"), com
+  a coluna do placar entre campeão e vice: `baixar_wiki.py` guarda em `pt_campeoes.txt`.
+- **Páginas antigas com só uns jogos soltos** (1925-1945): entram como edição sem jogos (`edicoes.SEM_JOGOS`; o leitor
+  nem lê a página), para não fazer tabela com um ou dois jogos.
+- **Jogo quebrado em duas linhas nos dois sentidos** ("Marcílio Dias 1-0" / "Brasil" e "RIO" / "DO SUL 1-1 JOINVILLE"): o
+  primeiro se junta (`_jogo_quebrado`); o segundo deixa nomes partidos, resolvidos por `GRAFIAS` ("DO SUL" -> Rio do Sul,
+  "Renaux" -> Carlos Renaux). Siglas: HL, MD.
+- **Dois jogos lado a lado com as datas em cima** (anos 1940, `_duas_colunas`); mês em português no colchete
+  (`_mes_pt_colchete`).
+- **Linhas de tabela e notas lidas como jogo:** `JOGO_FORA` (títulos "Final Classification", "Elenco") e
+  `FORA_DO_CAMPEONATO` (clube "(PR)", "Romania", "? Figueirense", "terminando ... para o Avaí").
+- **Vice:** quando a página só traz parte da fase final, o vice da soma das fases não é o oficial: `VICES_MANUAIS`.
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,

@@ -83,6 +83,14 @@
    "bra-mg-1"
   ]
  },
+ "108750": {
+  "clube": "Almirante Barroso",
+  "uf": "SC",
+  "cidade": "Itajaí (sc)",
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
  "109140": {
   "clube": "União Beltrão",
   "uf": "PR",
@@ -331,7 +339,8 @@
   "uf": "SC",
   "cidade": "Criciúma",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "14554": {
@@ -597,7 +606,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "15724": {
@@ -607,7 +617,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "15727": {
@@ -829,6 +840,14 @@
    "bra-sp-1"
   ]
  },
+ "17241": {
+  "clube": "Imbituba",
+  "uf": "SC",
+  "cidade": "Imbituba",
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
  "17735": {
   "clube": "Colorado-PR",
   "uf": "PR",
@@ -878,7 +897,8 @@
   "cidade": "Lages",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "18913": {
@@ -1153,7 +1173,8 @@
   "cidade": "Criciúma",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "2238": {
@@ -1162,7 +1183,8 @@
   "cidade": "Florianópolis",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "223977": {
@@ -1414,12 +1436,28 @@
    "bra-mg-1"
   ]
  },
+ "23607": {
+  "clube": "Caravaggio",
+  "uf": "SC",
+  "cidade": "Nova Veneza",
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
  "236797": {
   "clube": "13 De Maio",
   "uf": "MG",
   "cidade": "Frutal",
   "competicoes": [
    "bra-mg-1"
+  ]
+ },
+ "237309": {
+  "clube": "Atlético Catarinense",
+  "uf": "SC",
+  "cidade": "Criciúma",
+  "competicoes": [
+   "bra-sc-1"
   ]
  },
  "237494": {
@@ -1435,7 +1473,8 @@
   "uf": "SC",
   "cidade": "Joaçaba",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-sc-1"
   ]
  },
  "238974": {
@@ -1538,7 +1577,8 @@
   "uf": "SC",
   "cidade": "Caçador",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-sc-1"
   ]
  },
  "241728": {
@@ -1556,6 +1596,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-pr-1"
+  ]
+ },
+ "242541": {
+  "clube": "Nação",
+  "uf": "SC",
+  "cidade": "Joinville",
+  "competicoes": [
+   "bra-sc-1"
   ]
  },
  "242601": {
@@ -1886,7 +1934,8 @@
   "cidade": "Florianópolis",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "2616": {
@@ -1976,7 +2025,8 @@
   "uf": "SC",
   "cidade": "Rio do Sul",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "271099": {
@@ -1993,6 +2043,14 @@
   "cidade": "Capão da Canoa",
   "competicoes": [
    "bra-rs-1"
+  ]
+ },
+ "272013": {
+  "clube": "Avaí/Kindermann",
+  "uf": "SC",
+  "cidade": "Caçador",
+  "competicoes": [
+   "bra-sc-1"
   ]
  },
  "272021": {
@@ -2424,6 +2482,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3122": {
+  "clube": "Atlético Alto Vale",
+  "uf": "SC",
+  "cidade": "Rio do Sul",
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
  "3125": {
   "clube": "Atlético Sorocaba",
   "uf": "SP",
@@ -2470,7 +2536,8 @@
   "cidade": "Ibirama",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3132": {
@@ -2559,7 +2626,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "3148": {
@@ -2726,7 +2794,8 @@
   "cidade": "Camboriú",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3171": {
@@ -2781,7 +2850,8 @@
   "cidade": "Joinville",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3182": {
@@ -2888,7 +2958,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3196": {
@@ -2955,7 +3026,8 @@
   "cidade": "Concórdia",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3204": {
@@ -3428,7 +3500,8 @@
   "uf": "SC",
   "cidade": "Palhoça",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "3276": {
@@ -3759,7 +3832,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3318": {
@@ -3813,7 +3887,8 @@
   "uf": "SC",
   "cidade": "Lages",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-sc-1"
   ]
  },
  "3325": {
@@ -3923,7 +3998,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sc-1"
   ]
  },
  "3340": {
@@ -3970,7 +4046,8 @@
   "cidade": "Blumenau",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "3348": {
@@ -4923,6 +5000,14 @@
    "bra-serie-c"
   ]
  },
+ "3493": {
+  "clube": "Tiradentes-SC",
+  "uf": "SC",
+  "cidade": "Tijucas",
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
  "3494": {
   "clube": "Tocantinópolis",
   "uf": "TO",
@@ -4977,7 +5062,8 @@
   "uf": "SC",
   "cidade": "Tubarão",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-sc-1"
   ]
  },
  "35006": {
@@ -5097,6 +5183,14 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "3517": {
+  "clube": "União Timbó",
+  "uf": "SC",
+  "cidade": "Timbó",
+  "competicoes": [
+   "bra-sc-1"
   ]
  },
  "35176": {
@@ -5414,7 +5508,8 @@
   "uf": "SC",
   "cidade": "Tubarão",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "39440": {
@@ -5525,7 +5620,8 @@
   "cidade": "Jaraguá do Sul",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sc-1"
   ]
  },
  "43195": {
@@ -6112,6 +6208,14 @@
   "cidade": "Teresópolis",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "68510": {
+  "clube": "Carlos Renaux",
+  "uf": "SC",
+  "cidade": "Brusque",
+  "competicoes": [
+   "bra-sc-1"
   ]
  },
  "70976": {
@@ -6783,7 +6887,8 @@
   "cidade": "Balneário Camboriú",
   "competicoes": [
    "bra-serie-d",
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-sc-1"
   ]
  },
  "92896": {
@@ -9961,6 +10066,654 @@
   "cidade": null,
   "competicoes": [
    "bra-rj-1"
+  ]
+ },
+ "rs-sc1-acarai": {
+  "clube": "Acaraí",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-adolpho-konder": {
+  "clube": "Adolpho Konder",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-aguia-do-vale": {
+  "clube": "Águia do Vale",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-aliados": {
+  "clube": "Aliados",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-america": {
+  "clube": "América-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-america-maf": {
+  "clube": "América/MAF",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-ararangua": {
+  "clube": "Araranguá",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-atletico": {
+  "clube": "Atlético-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-atletico-catarinense-de-florianopolis": {
+  "clube": "Atlético Catarinense de Florianópolis",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-atletico-chapeco": {
+  "clube": "Atlético Chapecó",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-atletico-chapecoense": {
+  "clube": "Atlético Chapecoense",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-atletico-mineiro-de-barro-branco": {
+  "clube": "Atlético Mineiro de Barro Branco",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-atletico-operario": {
+  "clube": "Atlético Operário",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-baependi": {
+  "clube": "Baependi",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-bom-retiro": {
+  "clube": "Bom Retiro",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-botafogo": {
+  "clube": "Botafogo-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-brasil-de-tijucas": {
+  "clube": "Brasil de Tijucas",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-brusquense": {
+  "clube": "Brusquense",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-cip": {
+  "clube": "CIP",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-combinado-de-laguna": {
+  "clube": "Combinado de Laguna",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-comercial": {
+  "clube": "Comercial-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-concordia-rsu": {
+  "clube": "Concórdia/RSU",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-concordiense": {
+  "clube": "Concordiense",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-continental": {
+  "clube": "Continental",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-cruzeiro": {
+  "clube": "Cruzeiro-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-deodoro": {
+  "clube": "Deodoro",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-duque-de-caxias": {
+  "clube": "Duque de Caxias-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-estivadores": {
+  "clube": "Estivadores",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-estrela": {
+  "clube": "Estrela-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-externato": {
+  "clube": "Externato",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-ferroviario": {
+  "clube": "Ferroviário-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-flamengo": {
+  "clube": "Flamengo-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-florianopolis": {
+  "clube": "Florianópolis",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-fraiburgo": {
+  "clube": "Fraiburgo",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-gremio": {
+  "clube": "Grêmio-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-guarani-blu": {
+  "clube": "Guarani/BLU",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-guarani-lag": {
+  "clube": "Guarani/LAG",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-guarany": {
+  "clube": "Guarany-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-guata": {
+  "clube": "Guatá",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-guaycurus": {
+  "clube": "Guaycurus",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-henrique-lage": {
+  "clube": "Henrique Lage",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-hervalense": {
+  "clube": "Hervalense",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-independente": {
+  "clube": "Independente-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-internato": {
+  "clube": "Internato",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-ipiranga": {
+  "clube": "Ipiranga-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-iris": {
+  "clube": "Iris",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-itauna": {
+  "clube": "Itaúna",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-jaragua": {
+  "clube": "Jaraguá-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-juventus": {
+  "clube": "Juventus-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-juventus-de-rio-do-sul": {
+  "clube": "Juventus de Rio do Sul",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-lauro-muller": {
+  "clube": "Lauro Müller",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-metropol": {
+  "clube": "Metropol",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-nacional": {
+  "clube": "Nacional-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-nevada": {
+  "clube": "Nevada",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-olimpico": {
+  "clube": "Olímpico-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-operario": {
+  "clube": "Operário-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-palestra": {
+  "clube": "Palestra",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-palmitos": {
+  "clube": "Palmitos",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-paula-ramos": {
+  "clube": "Paula Ramos-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-paysandu": {
+  "clube": "Paysandu-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-perdigao": {
+  "clube": "Perdigão",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-pery-ferroviario": {
+  "clube": "Pery Ferroviário",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-postal-telegrafico": {
+  "clube": "Postal Telegráfico",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-rio-do-sul": {
+  "clube": "Rio do Sul",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-sadia": {
+  "clube": "Sadia",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-santa-cruz": {
+  "clube": "Santa Cruz-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-sao-luiz": {
+  "clube": "São Luiz-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-sao-paulo": {
+  "clube": "São Paulo-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-seleto": {
+  "clube": "Seleto-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-sombrio": {
+  "clube": "Sombrio",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-sport-catharinense": {
+  "clube": "Sport Catharinense",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-tamandare": {
+  "clube": "Tamandaré",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-trabalhista": {
+  "clube": "Trabalhista",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-tupy": {
+  "clube": "Tupy-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-uniao": {
+  "clube": "União-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-urussanga": {
+  "clube": "Urussanga",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-vasco": {
+  "clube": "Vasco-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-vasco-da-gama": {
+  "clube": "Vasco da Gama-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-vasto-verde": {
+  "clube": "Vasto Verde",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-xanxerense": {
+  "clube": "Xanxerense",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
+  ]
+ },
+ "rs-sc1-ypiranga": {
+  "clube": "Ypiranga-SC",
+  "uf": "SC",
+  "cidade": null,
+  "competicoes": [
+   "bra-sc-1"
   ]
  },
  "rs-socorrense-socorro": {

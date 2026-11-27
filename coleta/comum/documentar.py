@@ -28,7 +28,7 @@ AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
 COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1",
-               "bra-pr-1", "bra-ce-1", "bra-go-1"]
+               "bra-pr-1", "bra-ce-1", "bra-go-1", "bra-sc-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -147,6 +147,20 @@ PENDENCIAS: dict[str, list[str]] = {
         "x Mineiros duas vezes) ficam como a página traz.",
         "Fora do pacote: os dois amistosos de 1995 e a repetição sem data da final de 2021. Tabelas divergentes a explicar "
         "no relatório (99, contra 180 que batem). Autores dos gols: 13%. Cartões: só jogo a jogo, pela ficha do ogol.",
+    ],
+    "bra-sc-1": [
+        "7 edições sem jogos (1925, 1926, 1928, 1933, 1934, 1943, 1945): a página só traz participantes, campeão e um ou outro "
+        "jogo solto; entram com o pódio (importar.PODIO_SEM_JOGOS). 1933 não terminou: sem campeão nem vice. Muitas edições "
+        "antigas (até os anos 1970) só trazem a fase estadual e as decisões de zona; 1980 só traz da 1ª fase os jogos do "
+        "Joinville.",
+        "Identidade a revisar: o EC Ferroviário de Tubarão (campeão de 1970) aparece na Wikipédia como \"Tubarão\"; fica "
+        "separado do Tubarão FC (ficha de 1992). O Atlético Catarinense de Florianópolis (campeão de 1934) é outro clube que o "
+        "de Criciúma (2020). Blumenau EC = Brasil FC e Palmeiras EC.",
+        "Vices: 1967, 1969 e 2004 dados à mão (importar.VICES_MANUAIS). Diferentes da Wikipédia: 1960 (a final da página é "
+        "Metropol x Avaí; a Wikipédia dá o Marcílio Dias) e 1973 e 1976 (a Wikipédia dá o Atlético Alto Vale, fundado em 1995).",
+        "Fora do pacote: o Torneio Início, os amistosos com clubes de outros estados (1941), as linhas de classificação lidas "
+        "como jogo e as notas lidas como jogo (1938, 1963, 1998). Tabelas divergentes a explicar (90, contra 114 que batem). "
+        "Autores dos gols: 16%. Cartões: só jogo a jogo, pela ficha do ogol.",
     ],
 }
 

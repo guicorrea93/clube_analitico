@@ -1346,3 +1346,45 @@ relatório ano a ano: `docs/coleta/bra-go-1.md`.
    - a identidade dos clubes só da RSSSF ("rs-go1-...": São Luís, Botafogo/BA, Campinas);
    - os vices de 1958 e 2000.
 8. **Próximo campeonato:** Catarinense (`bra-sc-1`), 8º do ranking da CBF; escopo antes, só com o ok do Guilherme.
+
+## Recado de fim de coleta — bra-sc-1 — 27/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-sc-1.md`;
+relatório ano a ano: `docs/coleta/bra-sc-1.md`.
+
+1. **O que foi feito:** Campeonato Catarinense (1ª divisão), escopo aprovado pelo Guilherme em 27/11.
+   - 102 edições, de 1924 a 2026, sem 1946 (não disputado). 1924-1926 e 1934-1936 eram os campeonatos da capital, homologados como estaduais pela FCF (por isso 1924 entra, embora a lista da RSSSF o marque como não oficial).
+   - **7 edições sem jogos** (1925, 1926, 1928, 1933, 1934, 1943, 1945): a página só traz participantes, campeão e um ou outro jogo solto; entram com campeão e vice. **1933 não terminou** e fica sem campeão e sem vice.
+   - 8.721 jogos, 116 clubes (87 novos no banco), 3.434 gols com autor (de 21.758), nenhum cartão e 95 artilheiros.
+   - Tabelas publicadas: 114 fecham com os jogos e 90 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablessz/sc{ano}.htm`, 1924-2026; campeões em `sccamp.htm`);
+     - ogol ("campeonato-catarinense"), com os calendários em `data/cache/ogol-bra-sc-1/`. Tem jogos de 2001 a 2026;
+     - Wikipédia em português: o artigo e a predefinição "Campeões do Campeonato Catarinense de Futebol" (campeão e vice de cada ano).
+   - O campeão bate com a RSSSF e a Wikipédia em todas as edições (1965 e 1970 diferem só no nome). O vice: item 6.
+2. **Commit:** o deste recado (`Coleta Catarinense (bra-sc-1): 102 edições, 8.721 jogos`).
+3. **Teste de carga:** `bra-sc-1: 102 edições, 8721 jogos, 87 clubes novos -> OK`. O carregador ignora a tabela por rodada em 9 temporadas com mais de uma fase.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-sc-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` SC, `rotulo_painel` "Catarinense".
+   - **Edição sem jogos e sem campeão:** 1933 (não terminou) não tem jogos nem campeão.
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Usam o código que já estava no cadastro (Série C): Blumenau (3147; o Brasil FC e o Palmeiras EC de antes), Caçadorense (241623) e Joaçaba EC (238972). Novos: "Atlético Catarinense de Florianópolis" (campeão de 1934; o "Atlético Catarinense" do ogol é o de Criciúma, de 2020), "Brasil de Tijucas", "Juventus de Rio do Sul".
+   - **Ficha comum (`registro.FICHA_COMUM`):** o Tiradentes EC (3493) ganha UF SC e cidade Tijucas (a ficha do ogol não traz a UF). Só o Catarinense usa essa ficha.
+5. **Decisões:**
+   - **Que eu tomei:**
+     - Comerciário é o Criciúma EC (campeão de 1968); Avahy é o Avaí; Brasil, Palmeiras e Blumenau são o Blumenau EC;
+     - páginas antigas só com jogos soltos entram como edição sem jogos (não fazem tabela com um ou dois jogos);
+     - fora do pacote: o Torneio Início, os amistosos com clubes de outros estados (1941), as linhas de classificação e de nota lidas como jogo;
+     - fases dos anos 1980: os turnos com nome de taça viram "1º/2º/3º Turno" e o quadrangular ou hexagonal decisivo, "Fase final"; os torneios paralelos de quem não se classificou, "Torneio extra";
+     - vices dados à mão em 1967 e 1969 (pela Wikipédia; o clube nem aparece nos jogos da página) e 2004 (2º do quadrangular final).
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **Vice de 1960:** a final da página é Metropol x Avaí (o pacote dá o Avaí); a Wikipédia dá o Marcílio Dias.
+   - **Vices de 1973 e 1976:** a Wikipédia dá o Atlético Alto Vale, fundado em 1995; fica o da página (Figueirense).
+   - **EC Ferroviário de Tubarão** (campeão de 1970): a Wikipédia o chama de "Tubarão"; fica separado do Tubarão FC (1992).
+   - **Edições antigas incompletas:** até os anos 1970 a página traz só a fase estadual e as decisões de zona; 1980 só traz da 1ª fase os jogos do Joinville.
+   - **Autores dos gols:** 16%.
+7. **Onde a revisão deve olhar primeiro:**
+   - as fases dadas à mão dos anos 1980 (`rsssf_sc1.FASE_ANO`), sobretudo 1982-1986;
+   - os nomes partidos resolvidos por grafia (`rsssf_sc1.GRAFIAS`) e os clubes "rs-sc1-...";
+   - as 90 tabelas divergentes.
+8. **Próximo campeonato:** Baiano (`bra-ba-1`), 9º do ranking da CBF; escopo antes, só com o ok do Guilherme.
