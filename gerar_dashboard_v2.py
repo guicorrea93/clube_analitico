@@ -79,7 +79,7 @@ COMPETICOES = {
 # bandeiras (data/worldcup_wikipedia/flags/<iso>.png, da parte da Copa do Mundo): código FIFA -> arquivo
 BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo", "VEN": "ve",
             "ENG": "gb-eng", "SCO": "gb-sct", "WAL": "gb-wls", "NIR": "gb-nir", "ESP": "es", "ITA": "it", "GER": "de", "FRA": "fr",
-            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp", "GDR": "dd", "MAR": "ma", "TAH": "pf", "CAN": "ca", "ALG": "dz", "HON": "hn", "KOR": "kr", "CRC": "cr", "TUN": "tn", "NCL": "nc", "RSA": "za", "FIJ": "fj", "GUA": "gt", "NGA": "ng", "GRE": "gr", "GHA": "gh", "PNG": "pg", "SLV": "sv", "KSA": "sa", "PAN": "pa", "CZE": "cz", "SOL": "sb", "CMR": "cm", "TCH": "cz", "NOR": "no", "TAN": "tz", "ANG": "ao"}
+            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp", "GDR": "dd", "MAR": "ma", "TAH": "pf", "CAN": "ca", "ALG": "dz", "HON": "hn", "KOR": "kr", "CRC": "cr", "TUN": "tn", "NCL": "nc", "RSA": "za", "FIJ": "fj", "GUA": "gt", "NGA": "ng", "GRE": "gr", "GHA": "gh", "PNG": "pg", "SLV": "sv", "KSA": "sa", "PAN": "pa", "CZE": "cz", "SOL": "sb", "CMR": "cm", "TCH": "cz", "NOR": "no", "TAN": "tz", "ANG": "ao", "DEN": "dk", "POL": "pl", "CYP": "cy"}
 CONTINENTE = {"CONMEBOL": "América do Sul", "UEFA": "Europa", "CONCACAF": "América do Norte e Central", "CAF": "África",
               "AFC": "Ásia", "OFC": "Oceania"}
 GRUPO = {"liga": "Ligas", "copa": "Copas", "estadual": "Estaduais"}
@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1", "usa-1", "gdr-1", "uru-copa", "par-copa", "ecu-copa", "col-copa", "arg-copa", "hon-1", "tah-1", "ncl-1", "mex-1", "jpn-1", "mar-1", "alg-1", "crc-1", "tun-1", "chi-copa", "rsa-1", "fij-1", "gua-1", "ven-copa", "kor-1", "nga-1", "gre-1", "gha-1", "png-1", "ksa-1", "slv-1", "pan-1", "cze-1", "bra-mg-1", "cmr-1", "sol-1", "tch-1", "bra-rs-1", "bra-pr-1", "bra-ce-1", "nor-1", "tan-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1", "usa-1", "gdr-1", "uru-copa", "par-copa", "ecu-copa", "col-copa", "arg-copa", "hon-1", "tah-1", "ncl-1", "mex-1", "jpn-1", "mar-1", "alg-1", "crc-1", "tun-1", "chi-copa", "rsa-1", "fij-1", "gua-1", "ven-copa", "kor-1", "nga-1", "gre-1", "gha-1", "png-1", "ksa-1", "slv-1", "pan-1", "cze-1", "bra-mg-1", "cmr-1", "sol-1", "tch-1", "bra-rs-1", "bra-pr-1", "bra-ce-1", "nor-1", "tan-1", "can-1", "ang-1", "bra-go-1", "bra-sc-1"}
 
 
 def competicoes_dos_pacotes() -> None:
@@ -217,6 +217,8 @@ def abrir(slug: str) -> sqlite3.Connection:
                  CASE WHEN e.formato = 'mata-mata' THEN 'mata' ELSE '' END AS tipo,
                  e.pontos_vitoria, coalesce(e.pontos_empate, 1) AS pontos_empate, coalesce(e.pontos_derrota, 0) AS pontos_derrota,
                  e.ano_inicio AS temporada_id, e.temporada, e.campeao_id IS NOT NULL AS tem_campeao, e.observacao, e.nome_oficial,
+                 (SELECT nome FROM f.clube WHERE clube_id = e.campeao_id) AS campeao_oficial,
+                 (SELECT nome FROM f.clube WHERE clube_id = e.vice_id) AS vice_oficial,
                  coalesce(e.formato, '') LIKE 'jogos incompletos%' AS incompleta,
                  coalesce(e.oficial, 1) AS oficial,   -- 0: edição não oficial (D-10), sem título
                  (SELECT group_concat(c.nome, '|') FROM f.edicao_co_campeao x JOIN f.clube c USING (clube_id)
@@ -657,6 +659,8 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
     incompletas = {idx[eid] for eid, inc in con.execute("SELECT edicao_nacional_id, incompleta FROM dim_edicao_nacional") if inc}
     fechados = Counter()   # linhas em que o ajuste foi refeito para dar os pontos oficiais
     comp_slug = "pontos oficiais"
+    camp_of = {idx[eid]: nome(c) for eid, c in con.execute(
+        "SELECT edicao_nacional_id, campeao_oficial FROM dim_edicao_nacional WHERE campeao_oficial IS NOT NULL AND oficial AND co_campeao IS NULL")}
     co_ed = {idx[eid]: [nome(x) for x in c.split("|")] for eid, c in con.execute(
         "SELECT edicao_nacional_id, co_campeao FROM dim_edicao_nacional WHERE co_campeao IS NOT NULL")}   # D-07
     saida = []
@@ -740,6 +744,7 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
                       "cob": round(sum(x[2] for x in artilheiros[i]) / max(1, sum(x[4] + x[5] for x in js)), 2)}
                      | ({"inc": 1} if i in incompletas else {}) | ({"co": co_ed[i]} if i in co_ed else {})
                      | ({"pe": pe} if pe != 1 else {}) | ({"pd": pd} if pd else {})
+                     | ({"of": camp_of[i]} if i in camp_of and tab and tab[0][0] != camp_of[i] else {})   # campeão oficial fora do 1º
                      | ({"xj": [[g, m, vv, a, b, sg] + ([pen[(i, o)]] if (i, o) in pen else []) for o, g, m, vv, a, b, sg in xj]} if xj else {}))
     if fechados:
         print(f"  pontos oficiais da fonte no lugar da conta: {fechados[comp_slug]} linhas")
@@ -899,8 +904,13 @@ def campeoes(con: sqlite3.Connection) -> list[dict]:
             pos -= e.get("_pula", 0)
         if pos <= 3:
             e[{1: "campeao", 2: "vice", 3: "terceiro"}[pos]] = nome(clube) if pos > 1 or tem_campeao else None   # título tirado ou não disputado
-    for e in edicoes.values():
+    oficial = {ed: (c, v) for ed, c, v in con.execute(
+        "SELECT edicao_id, campeao_oficial, vice_oficial FROM dim_edicao_nacional WHERE campeao_oficial IS NOT NULL AND oficial AND co_campeao IS NULL")}
+    for ed, e in edicoes.items():
         e.pop("_pula", None)
+        c, v = oficial.get(ed, (None, None))
+        if c and e.get("campeao") and nome(c) != e["campeao"]:   # campeão oficial fora do 1º lugar (Polônia 1951: o Ruch, 6º)
+            e.update({"campeao": nome(c), "vice": nome(v) if v else None, "terceiro": None})
     return list(edicoes.values())
 
 
@@ -2030,11 +2040,13 @@ function corridaPosicoes(id, medalhas) {
     // título dividido (D-07): os dois campeões no degrau do meio; quem vem depois sobe uma posição
     const cos = (e.co || []).map(n => tp.find(r => r[0] === n)).filter(Boolean), co = cos.length > 0, resto = tp.filter(r => !cos.includes(r)), med = new Map(resto.slice(0, 3).map((r, k) => [r[0], k + 1]));
     for (const r of cos) med.set(r[0], 1);
-    document.getElementById('cp-podio').innerHTML = co ? '<div class="podio dividido' + (cos.length > 1 ? ' varios' : '') + '">' + cl(resto[1], 2) + cl(resto[0], 1) + cos.map(r => cl(r, 1)).join('') + cl(resto[2], 3) + '</div>'
+    const ofi = e.of ? tp.find(r => r[0] === e.of) : null;   // campeão oficial que não é o 1º da classificação (Polônia 1951)
+    if (ofi) { med.clear(); med.set(ofi[0], 1); }
+    document.getElementById('cp-podio').innerHTML = ofi ? '<div class="podio">' + cl(ofi, 1) + '</div>' : co ? '<div class="podio dividido' + (cos.length > 1 ? ' varios' : '') + '">' + cl(resto[1], 2) + cl(resto[0], 1) + cos.map(r => cl(r, 1)).join('') + cl(resto[2], 3) + '</div>'
       : '<div class="podio">' + cl(tp[1], 2) + cl(tp[0], 1) + cl(tp[2], 3) + '</div>';
     // classificação final
     const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos] = r, [J, V, E, D, GP, GC] = r[10] ? Array(6).fill('—') : r.slice(2, 8), sg = r[10] ? NaN : GP - GC;
-      return '<tr class="' + (co ? (med.has(c) ? 'p' + med.get(c) : '') : pos != null && pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + (pos == null ? '—' : pos + 'º') + '</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
+      return '<tr class="' + (co || ofi ? (med.has(c) ? 'p' + med.get(c) : '') : pos != null && pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + (pos == null ? '—' : pos + 'º') + '</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
         (semPts(e) ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + (isNaN(sg) ? '—' : sinal(sg)) + '</td></tr>'; }).join('');
     document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (semPts(e) ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
