@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 136; **artilheiros:** 66 temporadas com artilheiro (76 linhas, com empates).
 - **Classificação final:** 106 temporadas; **rodada a rodada:** 20 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2316 linhas.
-- **No banco (`db/futebol.db`):** sim (106 edições, 13393 jogos).
+- **No banco (`db/futebol.db`):** sim (107 edições, 13393 jogos).
 - **Observação da competição:** 1ª divisão do Rio Grande do Sul, de 1919 a 2026 (1923 e 1924 não foram disputados). Até 1960 o campeonato era por regiões: os campeões regionais disputavam a fase estadual; a Divisão Especial, com clubes de todo o estado, começou em 1961. 1930 foi organizado pela FAGET.
 
 ## 2. Fontes e regras

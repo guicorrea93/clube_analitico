@@ -28,7 +28,7 @@ AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
 COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1", "bra-mg-1", "bra-rs-1",
-               "bra-pr-1", "bra-ce-1", "bra-go-1", "bra-sc-1"]
+               "bra-pr-1", "bra-ce-1", "bra-go-1", "bra-sc-1", "bra-ba-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -161,6 +161,26 @@ PENDENCIAS: dict[str, list[str]] = {
         "Fora do pacote: o Torneio Início, os amistosos com clubes de outros estados (1941), as linhas de classificação lidas "
         "como jogo e as notas lidas como jogo (1938, 1963, 1998). Tabelas divergentes a explicar (90, contra 114 que batem). "
         "Autores dos gols: 16%. Cartões: só jogo a jogo, pela ficha do ogol.",
+    ],
+    "bra-ba-1": [
+        "23 edições sem jogos entram só com campeão e vice (importar.PODIO_SEM_JOGOS): 1922-1935, 1970 e 1982 (a lista da "
+        "RSSSF Brasil tem o link, mas a página nunca foi criada: 404 no site e no Internet Archive), 1938, 1961-1963, 1969, "
+        "1971 e 1974 (sem página). 1991 só tem o jogo final (Bahia 1x1 Vitória).",
+        "Títulos divididos (D-07): 1938 (Bahia e Botafogo, sem jogos) e 1999 (Bahia e Vitória; vice o Conquista, pela "
+        "tabela; a Wikipédia dá o Poções). 1991: vice o Vitória, pela final da RSSSF; a Wikipédia dá o Fluminense de Feira. "
+        "1946: campeão (Guarany) e vice (Ypiranga) à mão, como a página dá.",
+        "Mesmo nome, clubes diferentes, separados por ano (importar.NOME_ANO): \"Atlético\" (Atlético FC de Salvador, o "
+        "ex-Santos Dumont, até 1969; o Alagoinhas Atlético Clube depois), \"Fluminense\" (de Salvador até 1940; o de Feira "
+        "depois), \"Conquista\" (1960-1977, antes do Conquista FC do ogol) e \"São Francisco\" (1996-1998). O Vitória de "
+        "Ilhéus (1967-1968) é outro clube que o Vitória. A revisar: o Guarany SC de 1915 e o de 1942-1943 ficam juntos com "
+        "a AD Guarany (1944-1966; \"Guarani\" em 1944 e 1964-1966), e o Internacional de Cricket (1905) com o SC "
+        "Internacional (campeão de 1914), só pelo nome.",
+        "A RSSSF Brasil parou de responder: 43 páginas vieram do Internet Archive (rsssfbrasil/origem.json). As páginas de "
+        "1951 a 1994 perderam os acentos (rsssf_ba1._acentos). 1975-1996: turnos com fases dentro; o turno vai na frente "
+        "do título (rsssf_ba1._turno_nos_titulos).",
+        "Fora do pacote: o Torneio Início e as preliminares. Tabelas divergentes a explicar (121, contra 241 que batem; "
+        "a maioria em 1976-1977, 1984-1988 e 1996, turnos com mais de uma fase). Autores dos gols: 14%. Cartões: só jogo a "
+        "jogo, pela ficha do ogol.",
     ],
 }
 

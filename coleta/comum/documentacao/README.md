@@ -13,11 +13,12 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Paulista Série A2 | 80 (1947–2026) | 9214 | 4526 | 0 | 184 | 134 / 31 | sim (80 edições, 9214 jogos) | 4 | [bra-sp-2](bra-sp-2.md) |
 | Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 3 | [bra-rj-1](bra-rj-1.md) |
 | Campeonato Mineiro | 113 (1915–2026) | 11521 | 24324 | 0 | 96 | 285 / 196 | sim (113 edições, 11521 jogos) | 4 | [bra-mg-1](bra-mg-1.md) |
-| Campeonato Gaúcho | 107 (1918–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | sim (106 edições, 13393 jogos) | 5 | [bra-rs-1](bra-rs-1.md) |
+| Campeonato Gaúcho | 107 (1918–2026) | 13393 | 3843 | 0 | 136 | 230 / 159 | sim (107 edições, 13393 jogos) | 5 | [bra-rs-1](bra-rs-1.md) |
 | Campeonato Paranaense | 113 (1915–2026) | 14315 | 2410 | 0 | 142 | 209 / 225 | sim (113 edições, 14315 jogos) | 6 | [bra-pr-1](bra-pr-1.md) |
 | Campeonato Cearense | 112 (1915–2026) | 8501 | 2821 | 0 | 57 | 185 / 95 | sim (112 edições, 8501 jogos) | 5 | [bra-ce-1](bra-ce-1.md) |
-| Campeonato Goiano | 83 (1944–2026) | 8682 | 2965 | 0 | 62 | 180 / 99 | não | 4 | [bra-go-1](bra-go-1.md) |
-| Campeonato Catarinense | 102 (1924–2026) | 8721 | 3434 | 0 | 116 | 114 / 90 | não | 4 | [bra-sc-1](bra-sc-1.md) |
+| Campeonato Goiano | 83 (1944–2026) | 8682 | 2965 | 0 | 62 | 180 / 99 | sim (83 edições, 8682 jogos) | 4 | [bra-go-1](bra-go-1.md) |
+| Campeonato Catarinense | 102 (1924–2026) | 8721 | 3434 | 0 | 116 | 114 / 90 | sim (102 edições, 8721 jogos) | 4 | [bra-sc-1](bra-sc-1.md) |
+| Campeonato Baiano | 122 (1905–2026) | 7359 | 2897 | 0 | 74 | 241 / 121 | não | 5 | [bra-ba-1](bra-ba-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -69,6 +70,11 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-sc-1:** Identidade a revisar: o EC Ferroviário de Tubarão (campeão de 1970) aparece na Wikipédia como "Tubarão"; fica separado do Tubarão FC (ficha de 1992). O Atlético Catarinense de Florianópolis (campeão de 1934) é outro clube que o de Criciúma (2020). Blumenau EC = Brasil FC e Palmeiras EC.
 - **bra-sc-1:** Vices: 1967, 1969 e 2004 dados à mão (importar.VICES_MANUAIS). Diferentes da Wikipédia: 1960 (a final da página é Metropol x Avaí; a Wikipédia dá o Marcílio Dias) e 1973 e 1976 (a Wikipédia dá o Atlético Alto Vale, fundado em 1995).
 - **bra-sc-1:** Fora do pacote: o Torneio Início, os amistosos com clubes de outros estados (1941), as linhas de classificação lidas como jogo e as notas lidas como jogo (1938, 1963, 1998). Tabelas divergentes a explicar (90, contra 114 que batem). Autores dos gols: 16%. Cartões: só jogo a jogo, pela ficha do ogol.
+- **bra-ba-1:** 23 edições sem jogos entram só com campeão e vice (importar.PODIO_SEM_JOGOS): 1922-1935, 1970 e 1982 (a lista da RSSSF Brasil tem o link, mas a página nunca foi criada: 404 no site e no Internet Archive), 1938, 1961-1963, 1969, 1971 e 1974 (sem página). 1991 só tem o jogo final (Bahia 1x1 Vitória).
+- **bra-ba-1:** Títulos divididos (D-07): 1938 (Bahia e Botafogo, sem jogos) e 1999 (Bahia e Vitória; vice o Conquista, pela tabela; a Wikipédia dá o Poções). 1991: vice o Vitória, pela final da RSSSF; a Wikipédia dá o Fluminense de Feira. 1946: campeão (Guarany) e vice (Ypiranga) à mão, como a página dá.
+- **bra-ba-1:** Mesmo nome, clubes diferentes, separados por ano (importar.NOME_ANO): "Atlético" (Atlético FC de Salvador, o ex-Santos Dumont, até 1969; o Alagoinhas Atlético Clube depois), "Fluminense" (de Salvador até 1940; o de Feira depois), "Conquista" (1960-1977, antes do Conquista FC do ogol) e "São Francisco" (1996-1998). O Vitória de Ilhéus (1967-1968) é outro clube que o Vitória. A revisar: o Guarany SC de 1915 e o de 1942-1943 ficam juntos com a AD Guarany (1944-1966; "Guarani" em 1944 e 1964-1966), e o Internacional de Cricket (1905) com o SC Internacional (campeão de 1914), só pelo nome.
+- **bra-ba-1:** A RSSSF Brasil parou de responder: 43 páginas vieram do Internet Archive (rsssfbrasil/origem.json). As páginas de 1951 a 1994 perderam os acentos (rsssf_ba1._acentos). 1975-1996: turnos com fases dentro; o turno vai na frente do título (rsssf_ba1._turno_nos_titulos).
+- **bra-ba-1:** Fora do pacote: o Torneio Início e as preliminares. Tabelas divergentes a explicar (121, contra 241 que batem; a maioria em 1976-1977, 1984-1988 e 1996, turnos com mais de uma fase). Autores dos gols: 14%. Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

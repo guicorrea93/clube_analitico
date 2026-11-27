@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 116; **artilheiros:** 79 temporadas com artilheiro (95 linhas, com empates).
 - **Classificação final:** 95 temporadas; **rodada a rodada:** 24 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 1494 linhas.
-- **No banco (`db/futebol.db`):** não.
+- **No banco (`db/futebol.db`):** sim (102 edições, 8721 jogos).
 - **Observação da competição:** 1ª divisão de Santa Catarina, de 1924 a 2026 (sem 1946, não disputado). 1924-1926 e 1934-1936: campeonatos da capital homologados como estaduais pela FCF. 1933 não terminou e fica sem campeão.
 
 ## 2. Fontes e regras

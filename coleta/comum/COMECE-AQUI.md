@@ -75,12 +75,13 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 046e6e4; Grêmio Catanduvense separado (A2-022) neste commit (24/11) | sim; recarregar | OK (1 clube novo) |
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.214 | ada0940; A2-015 (parte C) neste commit (24/11); plano da A2 concluído | sim; recarregar | OK (1 clube novo) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
-| `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | be07b131 (25/11) | não; carregar | OK (64 clubes novos) |
+| `bra-mg-1` Mineiro | 113 (1915–2026; 1932 LMDT e 1932 AMEG) | 11.521 | be07b131 (25/11) | sim (agente 1) | OK (64 clubes novos) |
 | `bra-rs-1` Gaúcho | 107 (1918–2026; 1918 sem jogos, com os campeões honoríficos; sem 1923 e 1924) | 13.393 | 3a0ffbba, a2db8a40; 1918 neste commit (25/11) | sim; recarregar | CONFERIR só pelo `co_campeao` de 1918 (dois clubes) |
-| `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | a2db8a40 (25/11) | não; carregar | OK (104 clubes novos) |
-| `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | 2f5317f1 (25/11) | não; carregar | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
-| `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | 70ca4a98 (25/11) | não; carregar | OK (36 clubes novos) |
-| `bra-sc-1` Catarinense | 102 (1924–2026, sem 1946; 7 sem jogos) | 8.721 | neste commit (27/11) | não; carregar | OK (87 clubes novos) |
+| `bra-pr-1` Paranaense | 113 (1915–2026; 2002 e 2002 Supercampeonato, este não oficial) | 14.315 | a2db8a40 (25/11) | sim (agente 1) | OK (104 clubes novos) |
+| `bra-ce-1` Cearense | 112 (1915–2026; 17 sem jogos, só com campeão e vice) | 8.501 | 2f5317f1 (25/11) | sim (agente 1) | CONFERIR só pelo `co_campeao` de 1992 (três clubes); 34 clubes novos |
+| `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | 70ca4a98 (25/11) | sim (agente 1) | OK (36 clubes novos) |
+| `bra-sc-1` Catarinense | 102 (1924–2026, sem 1946; 7 sem jogos) | 8.721 | 0b2ea5b0 (27/11) | sim (agente 1) | OK (87 clubes novos) |
+| `bra-ba-1` Baiano | 122 (1905–2026; 23 sem jogos, só com campeão e vice) | 7.359 | neste commit (27/11) | não; carregar | OK (49 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -107,13 +108,13 @@ As 27 posições foram conferidas no PDF.
 |---|---|---|---|---|
 | 1 | SP | 93.528 | `bra-sp-1` Paulista | **pronto** (no banco) |
 | 2 | RJ | 61.308 | `bra-rj-1` Carioca | **pronto** (no banco) |
-| 3 | MG | 41.451 | `bra-mg-1` Mineiro | **pronto** (be07b131, 25/11; falta o agente 1 carregar) |
-| 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (3a0ffbba, 25/11; falta o agente 1 carregar) |
-| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (a2db8a40, 25/11; falta o agente 1 carregar) |
-| 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (2f5317f1, 25/11; falta o agente 1 carregar) |
-| 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (70ca4a98, 25/11; falta o agente 1 carregar) |
-| 8 | SC | 23.938 | `bra-sc-1` Catarinense | **pronto** (27/11; espera o ok do commit; falta o agente 1 carregar) |
-| 9 | BA | 23.642 | `bra-ba-1` Baiano | **próximo** (pesquisa a fundo e proposta de escopo antes) |
+| 3 | MG | 41.451 | `bra-mg-1` Mineiro | **pronto** (be07b131, 25/11; no banco) |
+| 4 | RS | 39.283 | `bra-rs-1` Gaúcho | **pronto** (3a0ffbba, 25/11; no banco) |
+| 5 | PR | 31.792 | `bra-pr-1` Paranaense | **pronto** (a2db8a40, 25/11; no banco) |
+| 6 | CE | 24.954 | `bra-ce-1` Cearense | **pronto** (2f5317f1, 25/11; no banco) |
+| 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (70ca4a98, 25/11; no banco) |
+| 8 | SC | 23.938 | `bra-sc-1` Catarinense | **pronto** (0b2ea5b0, 27/11; no banco) |
+| 9 | BA | 23.642 | `bra-ba-1` Baiano | **pronto** (27/11; falta o agente 1 carregar) |
 | 10 | PE | 14.158 | `bra-pe-1` Pernambucano | falta |
 | 11 | AL | 12.240 | `bra-al-1` Alagoano | falta |
 | 12 | PA | 10.710 | `bra-pa-1` Paraense | falta |
@@ -139,7 +140,18 @@ seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta
 
 1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
    Gaúcho de 1918 incluído como edição sem jogos (25/11). Goiano (`bra-go-1`) feito em 25/11, Catarinense (`bra-sc-1`)
-   em 27/11. Próximo: o Baiano (`bra-ba-1`), 9º do RNF; antes, pesquisa a fundo e proposta de escopo ao Guilherme.
+   em 27/11, Baiano (`bra-ba-1`) em 27/11. Próximo: o Pernambucano (`bra-pe-1`), 10º do RNF; pesquisa e escopo
+   antes, com o ok do Guilherme.
+   **Escopo do Baiano, aprovado pelo Guilherme em 27/11:**
+   - 1905 a 2026, 122 edições (a conta da FBF, da RSSSF e da Wikipédia).
+   - 1915 e 1916: só o campeonato oficial; os da liga rival (LSB, campeões a AA da Bahia e o SC Palmeiras) ficam fora.
+   - Títulos divididos: 1938 (o cisma deu dois campeonatos; Bahia e Botafogo) e 1999 (Bahia e Vitória).
+   - Edições sem jogos (sem página da RSSSF nem jogos no ogol): 1938, 1961, 1962, 1963, 1969, 1971 e 1974; só com campeão
+     e vice. Na coleta, também 1922-1935, 1970 e 1982: a lista da RSSSF tem o link, mas a página nunca foi criada (404
+     no site e no Internet Archive), e o ogol não tem os jogos (a decisão de 25/11 vale para elas).
+   - Fontes: RSSSF Brasil (`tablesae/ba{ano}.htm`; lista em `bacamp.htm`), ogol ("campeonato-baiano", jogos a partir de
+     1999) e Wikipédia ("Campeonato Baiano de Futebol Masculino", tabela no próprio artigo).
+   - Ficam para a etapa 4: Copa Governador do Estado e as outras competições da FBF.
    **Escopo do Catarinense, aprovado pelo Guilherme em 27/11:**
    - 1924 a 2026, 102 edições. Fica fora 1946, que não foi disputado (a federação estava suspensa pela CBD).
    - 1924 entra: a lista da RSSSF o marca como não oficial, mas a FCF homologou como estaduais os campeonatos da capital de
@@ -462,6 +474,24 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Linhas de tabela e notas lidas como jogo:** `JOGO_FORA` (títulos "Final Classification", "Elenco") e
   `FORA_DO_CAMPEONATO` (clube "(PR)", "Romania", "? Figueirense", "terminando ... para o Avaí").
 - **Vice:** quando a página só traz parte da fase final, o vice da soma das fases não é o oficial: `VICES_MANUAIS`.
+
+**Baiano (o que valeu aprender)**
+- **Link na lista de campeões não quer dizer página:** 16 anos do Baiano davam 404 no próprio site (o CDX do Internet
+  Archive mostra o status: `web.archive.org/cdx/search/cdx?url=rsssfbrasil.com/tablesae/ba19*`). Antes de esperar o site
+  voltar, olhar o CDX.
+- **Acentos perdidos (o caractere de substituição) em 1951-1994:** `rsssf_ba1._acentos` troca palavra a palavra; a mesma
+  troca serve para juntar nomes que o leitor comum partiria ("Vitória (Ilhéus)" -> "Vitória de Ilhéus": o
+  `limpar_nome` tira o parêntese do fim e o clube virava o Vitória de Salvador).
+- **Turnos com fases dentro (1975-1996):** o leitor fica só com o último título ("First Phase:") e junta os turnos.
+  `rsssf_ba1._turno_nos_titulos` põe o turno na frente ("2. Turno - Semifinals") até o título do campeonato, e
+  `importar.fase_turno` dá o nome ("2º Turno - Semifinal"). Divergências: de 156 para 122.
+- **Público com ponto de milhar no fim da linha do jogo** ("1.968", às vezes "(em Serrinha)"; 2012 e 2016): o leitor
+  recusava o jogo; `rsssf_ba1._PUBLICO_NO_FIM` tira o número. 2024 tem outro formato ("Dom, 14/01 16h", estádio e gols
+  "02' 1T Cleyton (BF)"): `rsssf_ba1._ficha_2024`, com o lado de cada gol pela sigla do clube.
+- **Tabela "Final Standings" pela soma dos pontos** (2013: o Juazeirense em 1º e o vice errado): a classificação geral
+  publicada só vale quando começa pelo campeão e pelo vice da final.
+- **"Decisão do 3th Lugar"** caía na regra "decisão do 3" (3º turno): a disputa de 3º lugar vem antes.
+- **Título dividido numa edição sem jogos** (1938): o `co_campeao` sai depois do pódio de `PODIO_SEM_JOGOS`.
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,

@@ -1388,3 +1388,48 @@ relatório ano a ano: `docs/coleta/bra-sc-1.md`.
    - os nomes partidos resolvidos por grafia (`rsssf_sc1.GRAFIAS`) e os clubes "rs-sc1-...";
    - as 90 tabelas divergentes.
 8. **Próximo campeonato:** Baiano (`bra-ba-1`), 9º do ranking da CBF; escopo antes, só com o ok do Guilherme.
+
+## Recado de fim de coleta — bra-ba-1 — 27/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-ba-1.md`;
+relatório ano a ano: `docs/coleta/bra-ba-1.md`.
+
+1. **O que foi feito:** Campeonato Baiano (1ª divisão), escopo aprovado pelo Guilherme em 27/11.
+   - 122 edições, de 1905 a 2026 (a conta da FBF, da RSSSF e da Wikipédia). 1915 e 1916: só o campeonato oficial; os da liga rival (LSB) ficam fora.
+   - **23 edições sem jogos**, só com campeão e vice (a decisão de 25/11): 1938, 1961-1963, 1969, 1971 e 1974 (sem página), e 1922-1935, 1970 e 1982 (a lista da RSSSF Brasil tem o link, mas a página nunca foi criada: 404 no site e no Internet Archive; o ogol não tem os jogos).
+   - **Títulos divididos (D-07):** 1938 (Bahia e Botafogo; sem jogos) e 1999 (Bahia e Vitória).
+   - 7.359 jogos, 74 clubes (49 novos no banco), 2.897 gols com autor (de 20.027), nenhum cartão e 69 artilheiros.
+   - Tabelas publicadas: 241 fecham com os jogos e 121 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesae/ba{ano}.htm`; campeões em `bacamp.htm`). O site parou de responder: 43 páginas vieram do Internet Archive (`rsssfbrasil/origem.json`);
+     - ogol ("campeonato-baiano"), com os calendários em `data/cache/ogol-bra-ba-1/`. Tem jogos de 1905-1907 e de 1997 a 2026;
+     - Wikipédia em português: o artigo "Campeonato Baiano de Futebol Masculino" (campeão e vice de cada ano).
+   - O campeão bate com a RSSSF e a Wikipédia em todas as edições (1912 e 1924 diferem só no nome: o Atlético FC de 1912 é o Santos Dumont com outro nome; "AAB" é a AA da Bahia). O vice: item 6.
+2. **Commit:** o deste recado (`Coleta Baiano (bra-ba-1): 122 edições, 7.359 jogos`).
+3. **Teste de carga:** `bra-ba-1: 122 edições, 7359 jogos, 49 clubes novos -> OK`. O carregador ignora a tabela por rodada em 5 temporadas com mais de uma fase (1993, 2008, 2010, 2013, 2014).
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-ba-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` BA, `rotulo_painel` "Baiano".
+   - **`co_campeao`:** um clube só em cada edição (1938: Botafogo-BA; 1999: Vitória).
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Novos com nome dado à mão: "Fluminense de Salvador" (campeão de 1913 e 1915; o "Fluminense-BA" é o de Feira de Santana), "Sport Club Bahia" (campeão de 1911; não é o EC Bahia), "Vitória de Ilhéus" (1967-1968; não é o Vitória), "Conquista 1967" (1967-1977; o Conquista FC do ogol é de 1978), "São Francisco 1996" (1996-1998; o do ogol é de 2001), "River Ilheense" (o ogol escreve "River Ilheeense") e "Internacional de Cricket" (o ogol escreve "De").
+   - **Ficha comum (`registro.FICHA_COMUM`):** nada novo.
+5. **Decisões:**
+   - **Que eu tomei:**
+     - mesmo nome, clubes diferentes, separados por ano: "Atlético" (o Atlético FC de Salvador, ex-Santos Dumont, até 1969; o Alagoinhas Atlético Clube depois), "Fluminense" (de Salvador até 1940; o de Feira depois), "Conquista" e "São Francisco";
+     - "Guarani" (1944 e 1964-1966, "Associação Desportiva Guarani") é o Guarany das outras páginas;
+     - os anos sem página de jogos entram como edição sem jogos (a regra de 25/11);
+     - 1946: campeão (Guarany) e vice (Ypiranga) à mão, como a página dá; 1991: vice o Vitória, pela final da RSSSF (o único jogo da página);
+     - a classificação geral publicada só vale quando começa pelo campeão e pelo vice da final (2013: a "Final Standings" é a soma dos pontos, com o Juazeirense em 1º);
+     - 1975-1996: o turno vai na frente das fases de dentro dele ("2º Turno - Semifinal", "1º Turno - Fase final", "3º Turno - Segunda fase");
+     - fora do pacote: o Torneio Início e as preliminares.
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **Vice de 1991:** a RSSSF só tem a final (Bahia 1x1 Vitória; o pacote dá o Vitória); a Wikipédia dá o Fluminense de Feira.
+   - **Vice de 1999 (título dividido):** o pacote dá o Conquista, pela tabela (D-07); a Wikipédia dá o Poções.
+   - **Identidade a revisar:** o Guarany SC de 1915 e o de 1942-1943 ficam juntos com a AD Guarany (1944-1966); o Internacional de Cricket (1905) fica junto com o SC Internacional (campeão de 1914). Os dois só pelo nome.
+   - **Sem jogos da RSSSF:** 2022 (a página não tem placares); os jogos vêm do ogol.
+   - **Autores dos gols:** 14%.
+7. **Onde a revisão deve olhar primeiro:**
+   - as fases dos turnos de 1975-1996 (`rsssf_ba1._turno_nos_titulos` e `importar.fase_turno`), sobretudo 1976-1977 e 1984-1988, onde ficam a maioria das tabelas divergentes;
+   - os nomes separados por ano (`importar.NOME_ANO`) e os clubes "rs-ba1-...";
+   - as 121 tabelas divergentes.
+8. **Próximo campeonato:** Pernambucano (`bra-pe-1`), 10º do ranking da CBF; escopo antes, só com o ok do Guilherme.

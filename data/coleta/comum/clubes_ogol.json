@@ -291,7 +291,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "13688": {
@@ -369,7 +370,8 @@
   "cidade": "Feira de Santana",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-ba-1"
   ]
  },
  "15034": {
@@ -377,7 +379,8 @@
   "uf": "BA",
   "cidade": "Senhor do Bonfim",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-ba-1"
   ]
  },
  "15166": {
@@ -1082,6 +1085,38 @@
    "bra-serie-d"
   ]
  },
+ "214692": {
+  "clube": "São Salvador-BA",
+  "uf": "BA",
+  "cidade": "Salvador",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "214693": {
+  "clube": "Internacional de Cricket",
+  "uf": "BA",
+  "cidade": "Salvador",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "214694": {
+  "clube": "Bahiano",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "214695": {
+  "clube": "Santos Dumont",
+  "uf": "BA",
+  "cidade": "Salvador",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "215573": {
   "clube": "Agro EC",
   "uf": "GO",
@@ -1144,7 +1179,8 @@
   "cidade": "Salvador",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "2232": {
@@ -1225,6 +1261,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "22486": {
+  "clube": "Madre de Deus",
+  "uf": "BA",
+  "cidade": "Madre de Deus",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "2249": {
   "clube": "Paraná",
   "uf": "PR",
@@ -1303,7 +1347,8 @@
   "cidade": "Salvador",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "227344": {
@@ -1466,6 +1511,14 @@
   "cidade": "Rolim de Moura",
   "competicoes": [
    "bra-serie-d"
+  ]
+ },
+ "238448": {
+  "clube": "UNIRB",
+  "uf": "BA",
+  "cidade": "Alagoinhas",
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "238972": {
@@ -1789,6 +1842,14 @@
    "bra-ce-1"
   ]
  },
+ "252752": {
+  "clube": "São Francisco-BA",
+  "uf": "BA",
+  "cidade": "São Francisco do Conde",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "25324": {
   "clube": "Tupynambás",
   "uf": "MG",
@@ -1825,7 +1886,8 @@
   "cidade": "Ilhéus",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "255266": {
@@ -2029,6 +2091,14 @@
    "bra-sc-1"
   ]
  },
+ "270888": {
+  "clube": "Jacobinense",
+  "uf": "BA",
+  "cidade": "Jacobina",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "271099": {
   "clube": "Primavera AC",
   "uf": "MT",
@@ -2136,6 +2206,22 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "288409": {
+  "clube": "Eunápolis",
+  "uf": "BA",
+  "cidade": "Eunápolis",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "288442": {
+  "clube": "River Ilheense",
+  "uf": "BA",
+  "cidade": "Ilhéus",
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "293323": {
@@ -2517,7 +2603,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3130": {
@@ -2617,6 +2704,14 @@
   "cidade": "Saquarema",
   "competicoes": [
    "bra-rj-1"
+  ]
+ },
+ "3144": {
+  "clube": "Barreiras",
+  "uf": "BA",
+  "cidade": "Barreiras",
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "3147": {
@@ -2785,7 +2880,16 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-ba-1"
+  ]
+ },
+ "3169": {
+  "clube": "Camaçariense",
+  "uf": "BA",
+  "cidade": "Camaçari",
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "3170": {
@@ -2841,7 +2945,8 @@
   "cidade": "Catu",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3181": {
@@ -2988,7 +3093,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3200": {
@@ -3120,7 +3226,8 @@
   "uf": "BA",
   "cidade": "Porto Seguro",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-ba-1"
   ]
  },
  "3214": {
@@ -3131,6 +3238,14 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "3215": {
+  "clube": "Cruzeiro-BA",
+  "uf": "BA",
+  "cidade": "Cruz das Almas",
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "3217": {
@@ -3310,7 +3425,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3248": {
@@ -3712,7 +3828,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3303": {
@@ -3794,7 +3911,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3314": {
@@ -3812,7 +3930,8 @@
   "cidade": "Jequié",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3316": {
@@ -3842,7 +3961,8 @@
   "cidade": "Juazeiro",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3319": {
@@ -4262,7 +4382,8 @@
   "uf": "BA",
   "cidade": "Feira de Santana",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-ba-1"
   ]
  },
  "3379": {
@@ -4315,7 +4436,8 @@
   "cidade": "Feira de Santana",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "33837": {
@@ -4325,7 +4447,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3384": {
@@ -4447,7 +4570,8 @@
   "cidade": "Poções",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-ba-1"
   ]
  },
  "3403": {
@@ -4903,7 +5027,8 @@
   "cidade": "Teixeira de Freitas",
   "competicoes": [
    "bra-serie-d",
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-ba-1"
   ]
  },
  "3476": {
@@ -5571,6 +5696,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "41148": {
+  "clube": "Doce Mel",
+  "uf": "BA",
+  "cidade": "Ipiaú",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "41152": {
   "clube": "Crateús",
   "uf": "CE",
@@ -5589,6 +5722,14 @@
    "bra-go-1"
   ]
  },
+ "41930": {
+  "clube": "Ypiranga-BA",
+  "uf": "BA",
+  "cidade": "Salvador",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "41935": {
   "clube": "Canto do Rio",
   "uf": "RJ",
@@ -5603,6 +5744,14 @@
   "cidade": "Curvelo",
   "competicoes": [
    "bra-mg-1"
+  ]
+ },
+ "42259": {
+  "clube": "Botafogo-BA",
+  "uf": "BA",
+  "cidade": "Salvador",
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "42260": {
@@ -6218,6 +6367,14 @@
    "bra-sc-1"
   ]
  },
+ "70318": {
+  "clube": "Atlântico-BA",
+  "uf": "BA",
+  "cidade": "Lauro de Freitas",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "70976": {
   "clube": "Grêmio Prudente",
   "uf": "SP",
@@ -6663,6 +6820,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "84579": {
+  "clube": "Flamengo de Guanambi",
+  "uf": "BA",
+  "cidade": "Guanambi",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "8513": {
   "clube": "Sertãozinho",
   "uf": "SP",
@@ -6776,6 +6941,14 @@
    "bra-mg-1"
   ]
  },
+ "8737": {
+  "clube": "Conquista-BA",
+  "uf": "BA",
+  "cidade": "Vitória da Conquista",
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
  "8738": {
   "clube": "Paraguaçuense",
   "uf": "SP",
@@ -6815,7 +6988,8 @@
   "cidade": "Salvador",
   "competicoes": [
    "bra-serie-c",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-ba-1"
   ]
  },
  "9091": {
@@ -6929,7 +7103,8 @@
   "uf": "BA",
   "cidade": "Jacobina",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-ba-1"
   ]
  },
  "95529": {
@@ -7577,6 +7752,262 @@
   "cidade": "Salto",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-ba1-aa-da-bahia": {
+  "clube": "AA da Bahia",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-abb": {
+  "clube": "ABB-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-atlanta": {
+  "clube": "Atlanta-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-bahiano-de-tenis": {
+  "clube": "Bahiano de Tênis",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-brasil": {
+  "clube": "Brasil-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-brasileiro": {
+  "clube": "Brasileiro",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-conquista-1967": {
+  "clube": "Conquista 1967",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-energia-circular": {
+  "clube": "Energia Circular",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-estrela-de-marco": {
+  "clube": "Estrela de Março",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-flamengo": {
+  "clube": "Flamengo-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-fluminense-de-salvador": {
+  "clube": "Fluminense de Salvador",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-guarany": {
+  "clube": "Guarany-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-humaita": {
+  "clube": "Humaitá-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-ideal": {
+  "clube": "Ideal",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-ilheus": {
+  "clube": "Ilhéus",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-itapagipe": {
+  "clube": "Itapagipe",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-leonico": {
+  "clube": "Leônico-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-nacional": {
+  "clube": "Nacional-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-palestra": {
+  "clube": "Palestra-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-redencao": {
+  "clube": "Redenção",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-republica": {
+  "clube": "República-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-rio-vermelho": {
+  "clube": "Rio Vermelho",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-santa-cruz": {
+  "clube": "Santa Cruz-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-sao-bento": {
+  "clube": "São Bento-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-sao-cristovao": {
+  "clube": "São Cristóvão-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-sao-francisco-1996": {
+  "clube": "São Francisco 1996",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-sao-paulo": {
+  "clube": "São Paulo-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-smtc": {
+  "clube": "SMTC",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-sport-club-bahia": {
+  "clube": "Sport Club Bahia",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-sul-america": {
+  "clube": "Sul América-BA",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-vitoria-de-ilheus": {
+  "clube": "Vitória de Ilhéus",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
+  ]
+ },
+ "rs-ba1-yankee": {
+  "clube": "Yankee",
+  "uf": "BA",
+  "cidade": null,
+  "competicoes": [
+   "bra-ba-1"
   ]
  },
  "rs-bandeirantes-sao-carlos": {

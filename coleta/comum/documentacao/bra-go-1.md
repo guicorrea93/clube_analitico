@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 62; **artilheiros:** 82 temporadas com artilheiro (89 linhas, com empates).
 - **Classificação final:** 75 temporadas; **rodada a rodada:** 18 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2250 linhas.
-- **No banco (`db/futebol.db`):** não.
+- **No banco (`db/futebol.db`):** sim (83 edições, 8682 jogos).
 - **Observação da competição:** 1ª divisão de Goiás, de 1944 a 2026 (1944-1962: era amadora, o campeonato de Goiânia que a FGF conta como Goiano). Edições sem página da RSSSF e sem jogos no ogol entram só com campeão e vice.
 
 ## 2. Fontes e regras
