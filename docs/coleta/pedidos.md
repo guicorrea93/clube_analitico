@@ -1476,3 +1476,47 @@ relatório ano a ano: `docs/coleta/bra-pe-1.md`.
    - os nomes dados à mão (`importar.NOME_CODIGO` e `NOME_ANO`) e os clubes "rs-pe1-...";
    - as 132 tabelas divergentes.
 8. **Próximo campeonato:** Alagoano (`bra-al-1`), 11º do ranking da CBF; escopo antes, só com o ok do Guilherme.
+
+## Recado de fim de coleta — bra-al-1 — 27/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-al-1.md`;
+relatório ano a ano: `docs/coleta/bra-al-1.md`.
+
+1. **O que foi feito:** Campeonato Alagoano (1ª divisão), escopo aprovado pelo Guilherme em 27/11.
+   - 105 edições, de 1918 a 2026 (a conta da FAF e da Wikipédia). 1918-1926 são os campeonatos da Liga, títulos do CRB reconhecidos pela CBF em agosto de 2026 (Resolução da Diretoria nº 01/2026; nota oficial da FAF). A lista da RSSSF é de antes e começa em 1927.
+   - Ficam de fora 1931, 1932 e 1934 (suspensos), 1943 (não terminou), o Torneio Centenário de 1922 (Santa Cruz de Penedo, que a FAF não reconhece) e a edição 2027 (começa em janeiro de 2027).
+   - **Título dividido:** 1953, ASA e Ferroviário (lista oficial da FAF); a RSSSF dá só o ASA (final por W.O.).
+   - **57 edições sem jogos**, só com campeão e vice: 1918-1926 (os jogos só no PDF escaneado da FAF), 30 anos de 1928 a 1989 sem página da RSSSF, 12 em que a página só traz a tabela final (1933, 1946, 1960-1962, 1964-1970), 1953 e 1990-1994 (só rodadas soltas; o ogol só tem jogos a partir de 1995).
+   - 4.029 jogos, 52 clubes (37 novos no banco), 2.924 gols com autor (de 10.882), nenhum cartão e 97 artilheiros.
+   - Tabelas publicadas: 113 fecham com os jogos e 69 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesae/al{ano}.htm`; campeões em `alcamp.htm`). Todas as páginas vieram do próprio site;
+     - ogol ("campeonato-alagoano"), com os calendários em `data/cache/ogol-bra-al-1/`. Tem jogos de 1995 a 2026 (2026 a RSSSF também tem);
+     - Wikipédia em português: o artigo "Campeonato Alagoano de Futebol Masculino" (campeão, placar, vice e semifinalistas de cada ano);
+     - a lista de campeões da FAF (futeboldealagoas.net), para 1918-1926 e 1953.
+   - O campeão e o vice batem com a Wikipédia em todas as edições. Sem vice: 1918, 1920, 1922 (desconhecido) e 1953 (título dividido).
+2. **Commit:** o deste recado (`Coleta Alagoano (bra-al-1): 105 edições, 4.029 jogos`).
+3. **Teste de carga:** `bra-al-1: 105 edições, 4029 jogos, 37 clubes novos -> OK`. O carregador ignora a tabela por rodada em 5 temporadas com mais de uma fase.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-al-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` AL, `rotulo_painel` "Alagoano".
+   - **`co_campeao`:** 1953, Ferroviário-AL (campeão ASA).
+   - **Nomes:** nenhum nome que já existia mudou e nenhum se repete no cadastro comum. Usam a ficha que já estava no cadastro: Comercial-AL (65956), Cruzeiro-AL (24523), São Domingos-AL (3459, também nos anos 1970-1980) e o "Sporting FC" (389393), que é o Sete de Setembro de 1995-2017 (o nome do banco fica). Novo com nome dado à mão: "Esporte Maceió" (1947).
+   - **Ficha comum (`registro.FICHA_COMUM`):** nada novo.
+5. **Decisões:**
+   - **Que eu tomei:**
+     - edições em que a página da RSSSF só traz a tabela final ou umas rodadas soltas entram sem jogos, com o pódio (a tabela fica na nota, não no pacote);
+     - 1988: as vitórias sem placar entram como "awd" (como no Mineiro); os seis empates sem placar ficam fora;
+     - o artilheiro de 1954 (Catenga, do EC Alagoas) fica fora: de 1954 o pacote só tem a final, sem o EC Alagoas;
+     - turnos com fases dentro (1977-2012): o turno vai na frente das fases ("2º Turno - Fase final", "3º Turno - Final").
+   - **Que esperam o Guilherme:** nenhuma.
+6. **O que não deu e pendências:**
+   - **1918-1926:** os jogos estão no documento da FAF "Campeonatos de Futebol das Ligas - 1918 a 1926" (PDF escaneado, 21 MB), que não li.
+   - **Tabelas finais sem os jogos** (1933, 1946, 1960-1962, 1964-1970): podem entrar depois como classificação.
+   - **Páginas da RSSSF incompletas:** 1985 (só a 2ª fase), 2014 e 2018 (o resto vem do ogol).
+   - **Identidade a revisar:** Guarani (1972-1973) e Guarany (1977) ficam separados.
+   - **Autores dos gols:** 27%.
+7. **Onde a revisão deve olhar primeiro:**
+   - as fases dos turnos (`rsssf_al1.ANOS_TURNOS`) e 1996-1997, onde ficam as tabelas divergentes que sobraram;
+   - o pódio das edições sem jogos (`importar.PODIO_SEM_JOGOS`) e os clubes "rs-al1-...";
+   - as 69 tabelas divergentes.
+8. **Próximo campeonato:** Paraense (`bra-pa-1`), 12º do ranking da CBF; escopo antes, só com o ok do Guilherme.

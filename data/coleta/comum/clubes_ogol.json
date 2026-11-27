@@ -75,6 +75,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "106161": {
+  "clube": "Zumbi",
+  "uf": "AL",
+  "cidade": "União dos Palmares",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "108517": {
   "clube": "XV Uber",
   "uf": "MG",
@@ -460,13 +468,30 @@
    "bra-copa-do-brasil"
   ]
  },
+ "15341": {
+  "clube": "Ipanema-AL",
+  "uf": "AL",
+  "cidade": "Santana do Ipanema",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "15342": {
   "clube": "Santa Rita",
   "uf": "AL",
   "cidade": "Boca da Mata",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
+  ]
+ },
+ "15343": {
+  "clube": "Igaci",
+  "uf": "AL",
+  "cidade": "Igaci",
+  "competicoes": [
+   "bra-al-1"
   ]
  },
  "15426": {
@@ -993,7 +1018,8 @@
   "cidade": "Capela",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "20122": {
@@ -1688,7 +1714,8 @@
   "uf": "AL",
   "cidade": "Batalha",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-al-1"
   ]
  },
  "241623": {
@@ -1773,7 +1800,8 @@
   "uf": "AL",
   "cidade": "Arapiraca",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-al-1"
   ]
  },
  "24576": {
@@ -2331,6 +2359,14 @@
    "bra-mg-1"
   ]
  },
+ "30762": {
+  "clube": "Dimensão Saúde",
+  "uf": "AL",
+  "cidade": "Capela",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "30792": {
   "clube": "Sport-MG",
   "uf": "MG",
@@ -2646,7 +2682,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "3120": {
@@ -2830,6 +2867,14 @@
   "cidade": "Boa Viagem",
   "competicoes": [
    "bra-ce-1"
+  ]
+ },
+ "3150": {
+  "clube": "Bom Jesus-AL",
+  "uf": "AL",
+  "cidade": "Matriz do Camaragibe - Alagoas",
+  "competicoes": [
+   "bra-al-1"
   ]
  },
  "3151": {
@@ -3026,6 +3071,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-rj-1"
+  ]
+ },
+ "3174": {
+  "clube": "Capela",
+  "uf": "AL",
+  "cidade": "Capela",
+  "competicoes": [
+   "bra-al-1"
   ]
  },
  "3176": {
@@ -3261,7 +3314,8 @@
   "cidade": "Maceió",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "3206": {
@@ -3289,7 +3343,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "3210": {
@@ -3327,7 +3382,8 @@
   "cidade": "Maceió",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "321363": {
@@ -3364,7 +3420,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "3218": {
@@ -3373,7 +3430,8 @@
   "cidade": "Palmeira dos Índios",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "3221": {
@@ -4354,7 +4412,8 @@
   "cidade": "Murici",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-al-1"
   ]
  },
  "3356": {
@@ -4650,7 +4709,8 @@
   "uf": "AL",
   "cidade": "Penedo",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-al-1"
   ]
  },
  "3393": {
@@ -5046,6 +5106,14 @@
   "competicoes": [
    "bra-rj-1",
    "bra-serie-c"
+  ]
+ },
+ "3459": {
+  "clube": "São Domingos",
+  "uf": "AL",
+  "cidade": "Marechal Deodoro",
+  "competicoes": [
+   "bra-al-1"
   ]
  },
  "3460": {
@@ -5701,6 +5769,22 @@
    "bra-copa-do-brasil"
   ]
  },
+ "38520": {
+  "clube": "Sport Atalaia",
+  "uf": "AL",
+  "cidade": "Atalaia",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "38522": {
+  "clube": "União-AL",
+  "uf": "AL",
+  "cidade": "União dos Palmares",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "38523": {
   "clube": "Luminense",
   "uf": "MA",
@@ -5746,7 +5830,8 @@
   "uf": "AL",
   "cidade": "Teotônio Vilela",
   "competicoes": [
-   "bra-serie-c"
+   "bra-serie-c",
+   "bra-al-1"
   ]
  },
  "39058": {
@@ -6117,6 +6202,14 @@
    "bra-serie-c"
   ]
  },
+ "48373": {
+  "clube": "Miguelense",
+  "uf": "AL",
+  "cidade": "São Miguel dos Campos",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "4940": {
   "clube": "São José-AP",
   "uf": "AP",
@@ -6434,6 +6527,22 @@
    "bra-copa-do-brasil"
   ]
  },
+ "65955": {
+  "clube": "CEO",
+  "uf": "AL",
+  "cidade": "Olho d´Água das Flores",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "65956": {
+  "clube": "Comercial-AL",
+  "uf": "AL",
+  "cidade": "Viçosa",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "66002": {
   "clube": "São Paulo Athletic",
   "uf": "SP",
@@ -6655,12 +6764,29 @@
    "bra-sp-2"
   ]
  },
+ "76050": {
+  "clube": "Dínamo EC-AL",
+  "uf": "AL",
+  "cidade": "Maceió",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "76869": {
+  "clube": "Murici Sport",
+  "uf": "AL",
+  "cidade": "Murici",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "76884": {
   "clube": "Jaciobá",
   "uf": "AL",
   "cidade": "Pão de Açucar",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-al-1"
   ]
  },
  "77441": {
@@ -7273,6 +7399,14 @@
    "bra-serie-d"
   ]
  },
+ "94398": {
+  "clube": "Desportivo Aliança",
+  "uf": "AL",
+  "cidade": "Maceió",
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
  "94479": {
   "clube": "Tocantins Miracema",
   "uf": "TO",
@@ -7857,6 +7991,190 @@
   "cidade": "Adamantina",
   "competicoes": [
    "bra-sp-2"
+  ]
+ },
+ "rs-al1-29-de-setembro": {
+  "clube": "29 de Setembro",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-alexandria": {
+  "clube": "Alexandria",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-america": {
+  "clube": "América-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-associacao-militar": {
+  "clube": "Associação Militar",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-auto-esporte": {
+  "clube": "Auto Esporte-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-barroso": {
+  "clube": "Barroso",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-canavieiro": {
+  "clube": "Canavieiro",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-comercio": {
+  "clube": "Comércio-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-eleven-nacional": {
+  "clube": "Eleven Nacional",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-esporte-maceio": {
+  "clube": "Esporte Maceió",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-estivadores": {
+  "clube": "Estivadores-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-ferroviario": {
+  "clube": "Ferroviário-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-flamengo": {
+  "clube": "Flamengo-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-guarani": {
+  "clube": "Guarani-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-guarany": {
+  "clube": "Guarany-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-nordeste": {
+  "clube": "Nordeste",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-santa-cruz": {
+  "clube": "Santa Cruz-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-sao-sebastiao": {
+  "clube": "São Sebastião",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-tiradentes": {
+  "clube": "Tiradentes-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-uruguai": {
+  "clube": "Uruguai",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-vasco-da-gama": {
+  "clube": "Vasco da Gama-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-vera-cruz": {
+  "clube": "Vera Cruz-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
+  ]
+ },
+ "rs-al1-ypiranga": {
+  "clube": "Ypiranga-AL",
+  "uf": "AL",
+  "cidade": null,
+  "competicoes": [
+   "bra-al-1"
   ]
  },
  "rs-alianca-sao-bernardo-do-campo": {

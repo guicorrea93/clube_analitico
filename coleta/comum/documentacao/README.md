@@ -20,6 +20,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Catarinense | 102 (1924–2026) | 8721 | 3434 | 0 | 116 | 114 / 90 | sim (102 edições, 8721 jogos) | 4 | [bra-sc-1](bra-sc-1.md) |
 | Campeonato Baiano | 122 (1905–2026) | 7359 | 2897 | 0 | 74 | 241 / 121 | não | 5 | [bra-ba-1](bra-ba-1.md) |
 | Campeonato Pernambucano | 112 (1915–2026) | 8749 | 2273 | 0 | 71 | 241 / 132 | não | 5 | [bra-pe-1](bra-pe-1.md) |
+| Campeonato Alagoano | 105 (1918–2026) | 4029 | 2924 | 0 | 52 | 113 / 69 | não | 5 | [bra-al-1](bra-al-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -81,6 +82,11 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-pe-1:** Identidade, pelo ogol: a AA Santo Amaro, o "Recife" da RSSSF (1997-2004) e o Manchete são o mesmo clube (ficha 3422). A revisar: "Vitória" até 1998 é o Vitória de Santo Antão do cadastro (16927) e depois o Vitória das Tabocas (18691, que o ogol diz fundado em 2008); o Varzeano FC (1919-1921) e o Varzeano SC (1933) ficam juntos.
 - **bra-pe-1:** Páginas da RSSSF incompletas: 2023 para na 4ª rodada e 2025 não tem a final (o resto vem do ogol). Formatos de um ano só, cada um com o seu conversor (rsssf_pe1): 1974, 1976, 1981, 2022, 2024 e 2025. 1978-1997: turnos com fases dentro (rsssf_pe1.ANOS_TURNOS).
 - **bra-pe-1:** Tabelas divergentes a explicar (132, contra 241 que batem; a maioria nos turnos de 1979-1998). Autores dos gols: 8%. Cartões: só jogo a jogo, pela ficha do ogol.
+- **bra-al-1:** 1918-1926: os campeonatos da Liga, títulos do CRB reconhecidos pela CBF em 2026 (Resolução da Diretoria nº 01/2026); a lista da RSSSF começa em 1927. Ficam de fora 1931, 1932, 1934, 1943 e o Torneio Centenário de 1922.
+- **bra-al-1:** 57 edições sem jogos, só com campeão e vice (importar.PODIO_SEM_JOGOS): 1918-1926 (os jogos só no PDF escaneado da FAF), 30 anos de 1928 a 1989 sem página da RSSSF, 12 em que a página só traz a tabela final (1933, 1946, 1960-1962, 1964-1970; a tabela não entra), 1953 (só a final por W.O.) e 1990-1994 (só rodadas soltas; o ogol começa em 1995).
+- **bra-al-1:** 1953: título dividido entre ASA e Ferroviário (lista da FAF); a RSSSF dá só o ASA. Sem vice: 1918, 1920, 1922 e 1953. 1985 só tem a 2ª fase; em 1988 seis empates sem placar ficam fora e as vitórias sem placar entram como "awd".
+- **bra-al-1:** Fora do pacote: o artilheiro de 1954 (Catenga, do EC Alagoas, que não está na final, o único jogo de 1954). Identidade a revisar: Guarani (1972-1973) e Guarany (1977) separados; o Sete de Setembro de 1995-2017 é o "Sporting FC" do banco (ficha 389393, hoje em Teotônio Vilela).
+- **bra-al-1:** Tabelas divergentes a explicar (69, contra 113 que batem). Autores dos gols: 27%. Cartões: só jogo a jogo, pela ficha do ogol.
 
 ## Próximas competições
 

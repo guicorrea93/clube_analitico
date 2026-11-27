@@ -82,7 +82,8 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-go-1` Goiano | 83 (1944–2026; 8 sem jogos, só com campeão e vice) | 8.682 | 70ca4a98 (25/11) | sim (agente 1) | OK (36 clubes novos) |
 | `bra-sc-1` Catarinense | 102 (1924–2026, sem 1946; 7 sem jogos) | 8.721 | 0b2ea5b0 (27/11) | sim (agente 1) | OK (87 clubes novos) |
 | `bra-ba-1` Baiano | 122 (1905–2026; 23 sem jogos, só com campeão e vice) | 7.359 | 68d73a6e (27/11) | não; carregar | OK (49 clubes novos) |
-| `bra-pe-1` Pernambucano | 112 (1915–2026; 1992 e 1993 sem jogos; 1991 só a final) | 8.749 | neste commit (27/11) | não; carregar | OK (46 clubes novos) |
+| `bra-pe-1` Pernambucano | 112 (1915–2026; 1992 e 1993 sem jogos; 1991 só a final) | 8.749 | 2ed5b17f (27/11) | não; carregar | OK (46 clubes novos) |
+| `bra-al-1` Alagoano | 105 (1918–2026; 57 sem jogos; 1953 dividido) | 4.029 | neste commit (27/11) | não; carregar | OK (37 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -116,8 +117,8 @@ As 27 posições foram conferidas no PDF.
 | 7 | GO | 24.148 | `bra-go-1` Goiano | **pronto** (70ca4a98, 25/11; no banco) |
 | 8 | SC | 23.938 | `bra-sc-1` Catarinense | **pronto** (0b2ea5b0, 27/11; no banco) |
 | 9 | BA | 23.642 | `bra-ba-1` Baiano | **pronto** (68d73a6e, 27/11; falta o agente 1 carregar) |
-| 10 | PE | 14.158 | `bra-pe-1` Pernambucano | **pronto** (27/11; falta o agente 1 carregar) |
-| 11 | AL | 12.240 | `bra-al-1` Alagoano | falta |
+| 10 | PE | 14.158 | `bra-pe-1` Pernambucano | **pronto** (2ed5b17f, 27/11; falta o agente 1 carregar) |
+| 11 | AL | 12.240 | `bra-al-1` Alagoano | **pronto** (27/11; falta o agente 1 carregar) |
 | 12 | PA | 10.710 | `bra-pa-1` Paraense | falta |
 | 13 | MT | 9.346 | `bra-mt-1` Mato-Grossense | falta |
 | 14 | AM | 6.688 | `bra-am-1` Amazonense | falta |
@@ -141,8 +142,21 @@ seria da etapa 2). Ao fim de cada campeonato, a seção "Recado de fim de coleta
 
 1. **Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paranaense (`bra-pr-1`) e Cearense (`bra-ce-1`) feitos em 25/11.**
    Gaúcho de 1918 incluído como edição sem jogos (25/11). Goiano (`bra-go-1`) feito em 25/11, Catarinense (`bra-sc-1`)
-   em 27/11, Baiano (`bra-ba-1`) e Pernambucano (`bra-pe-1`) em 27/11. Próximo: o Alagoano (`bra-al-1`), 11º do RNF;
-   pesquisa e escopo antes, com o ok do Guilherme.
+   em 27/11, Baiano (`bra-ba-1`), Pernambucano (`bra-pe-1`) e Alagoano (`bra-al-1`) em 27/11. Próximo: o Paraense
+   (`bra-pa-1`), 12º do RNF; pesquisa e escopo antes, com o ok do Guilherme.
+   **Escopo do Alagoano, aprovado pelo Guilherme em 27/11:**
+   - 1918 a 2026, 105 edições (a conta da FAF e da Wikipédia). 1918-1926: os campeonatos da Liga, títulos do CRB
+     reconhecidos pela CBF em agosto de 2026 (Resolução da Diretoria nº 01/2026; nota oficial da FAF). A lista da RSSSF
+     (`alcamp.htm`) é de antes e começa em 1927.
+   - Ficam de fora 1931, 1932 e 1934 (suspensos), 1943 (não terminou; a FAF não conta), o Torneio Centenário de 1922
+     (Santa Cruz de Penedo; a FAF não reconhece; 1922 é título do CRB) e a edição 2027 (começa em janeiro de 2027).
+   - Título dividido: 1953 (ASA e Ferroviário; lista oficial da FAF e Wikipédia). A RSSSF dá só o ASA (final por W.O.).
+   - Edições sem jogos, só com campeão e vice: 1918-1926 (os jogos só no PDF escaneado da FAF, "Campeonatos de Futebol
+     das Ligas - 1918 a 1926", fonte para depois) e uns 30 anos de 1928 a 1989 sem página da RSSSF (o ogol só tem jogos
+     a partir de 1995). Páginas que só trazem a tabela (1927) ou a final (1953) entram com o que trazem.
+   - Fontes: RSSSF Brasil (`tablesae/al{ano}.htm`), ogol ("campeonato-alagoano"; 2026 só nele), Wikipédia
+     ("Campeonato Alagoano de Futebol Masculino": campeão, placar, vice e semifinalistas) e a lista de campeões da FAF.
+   - Ficam para a etapa 4: Copa Alagoas e as outras competições da FAF.
    **Escopo do Pernambucano, aprovado pelo Guilherme em 27/11:**
    - 1915 a 2026, 112 edições (a conta da FPF, da RSSSF e da Wikipédia; disputado sem interrupção). Nenhum título
      dividido, anulado ou de liga rival. "Super Campeonato" (1915, 1957, 1976, 1981, 1983) é só o nome da decisão.
@@ -524,6 +538,18 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
   `confere_nomes.py` acusa; o nome curto vai em `NOME_CODIGO` com o código da ficha.
 - **O ogol supre página ruim:** datas de 1976 (página do Word com turno e returno misturados), o placar que faltava em
   1915, o fim de 2023 e a final de 2025.
+
+**Alagoano (o que valeu aprender)**
+- **A lista oficial pode mudar depois da RSSSF:** a CBF reconheceu em 2026 os títulos de 1918-1926 (a RSSSF começa em
+  1927). Na pesquisa, ler a lista da federação (no Alagoano, os nomes dos campeões são imagens: o `title` de cada escudo
+  dá o clube, e a imagem vem antes do ano) e o texto atual da Wikipédia.
+- **Página que só traz a tabela final** (1933, 1946, 1960-1970): entra como edição sem jogos, com o pódio, e a nota na
+  observação; o importador não lê a tabela como classificação (só a A2 faz isso).
+- **Jogo só com "won"/"lost"/"drew"** (1988): a vitória vira "awd"; o empate sem placar sai (`rsssf_al1._al1988`).
+- **Artilheiro de clube que não está nos jogos** (1954, só a final): o teste de carga dá CONFERIR ("nomes sem clube");
+  a linha sai (`pacote.ARTILHEIRO_FORA`).
+- **Turnos "1st Stage"/"3th Stage"** e o fim dos turnos em "Super Stage", "Championship..." e "HEXAGONAL": de 90 para 69
+  tabelas divergentes.
 
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,
