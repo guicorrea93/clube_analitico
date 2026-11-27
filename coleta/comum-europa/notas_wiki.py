@@ -90,6 +90,13 @@ REGRAS: list[tuple[re.Pattern, callable]] = [
 
 # frases sem regra: a tradução (None = descartada). Chave = a nota como vem da Wikipédia (sem o ponto final).
 MANUAL: dict[str, str | None] = {
+    # Dinamarca (den-1)
+    'AB Copenhagen lost 9 points, by use of Ali Akida with fake passport':
+        '9 pontos a menos por escalar Ali Akida com passaporte falso',
+    'The April 26, 2007 match between Esbjerg and Silkeborg had the original scoreline of 1–2 altered by the Danish Football Association. Due to the use of ineligible player Jesper Lange, Esbjerg had one goal deducted and Silkeborg one added, changing the scoreline to 0–3':
+        'o jogo de 26/04/2007 entre Esbjerg e Silkeborg (1-2 no campo) virou 0-3 por decisão da federação, porque o Esbjerg escalou um jogador irregular (Jesper Lange)',
+    'Lyngby Boldklub were originally deducted 3 points on 22 September 2011 for failing to have had the contract of former player Lasse Rise approved by the Danish FA, however they appealed the verdict and were returned the 3 points on 19 October 2011':
+        'perdeu 3 pontos em 22/09/2011 por não registrar o contrato de Lasse Rise na federação; o recurso devolveu os 3 pontos em 19/10/2011',
     # Noruega (nor-1)
     "VIF Fotball were deducted two points due to financial issues": "2 pontos a menos por problemas financeiros",
     "Odd Grenland were deducted 1 point for lack of financial control": "1 ponto a menos por falta de controle financeiro",

@@ -22,6 +22,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Tchecoslovaco | 68 (1925–1992/93) | 11791 | 0 | 0 | 66 | 120 / 18 | 0 | [tch-1](tch-1.md) |
 | Campeonato Polonês | 98 (1921–2025/26) | 19667 | 0 | 0 | 103 | 139 / 74 | 0 | [pol-1](pol-1.md) |
 | Campeonato Norueguês | 80 (1937/38–2025) | 12368 | 14830 | 11950 | 128 | 116 / 4 | 0 | [nor-1](nor-1.md) |
+| Campeonato Dinamarquês | 112 (1912/13–2025/26) | 14016 | 11661 | 12026 | 72 | 166 / 13 | 0 | [den-1](den-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -86,6 +87,9 @@ Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 - **nor-1:** Norgesserien (1937/38, 1938/39, 1947/48): só um grupo por temporada tem os jogos (Distrito V, grupo B, na Wikipédia em norueguês); os outros ficam com a tabela publicada.
 - **nor-1:** Sem datas e rodadas até 1960/61 (só matrizes e tabelas do mata-mata). Autores dos gols e cartões só com a ESPN (2008-2025) e, para os gols, com as páginas da RSSSF (1999-2003 e 2005); antes, nenhuma fonte em lote.
 - **nor-1:** Fora do escopo (decisão do Guilherme, 25/11/2026): Prøveligaen de 1914-16, 1939/40 (interrompida) e a copa (fase 2); 2026 entra quando a temporada terminar.
+- **den-1:** Sem os jogos das ligas de Copenhague (até 1927), da liga de 1928/29 a 1939/40 e das séries da guerra: só as tabelas (Wikipédia e RSSSF); o banco Haslund não é baixável em lote. 1928/29 só pela RSSSF (a Wikipédia não tem o artigo).
+- **den-1:** Sem datas e rodadas até 1990; autores dos gols e cartões só com a ESPN (desde 2006/07; quase sem lances de 2011/12 a 2013/14) e, para os gols, com as páginas da RSSSF.
+- **den-1:** Fora do escopo (decisão do Guilherme, 25/11/2026): Copenhague de 1889 a 1912, 1914/15 (suspenso), 1927/28 (sem campeão) e 2026/27 (em andamento).
 
 ## Com o agente de revisão
 
@@ -110,7 +114,10 @@ Decisões da coleta que a revisão confere.
 - **nor-1:** Identidade: clube e departamento de futebol com artigos separados na Wikipédia como um clube só (Vålerengens IF e Vålerenga Fotball, como a RSSSF; Mjøndalen, Sogndal, Ranheim, Strømsgodset, Kongsvinger, Lyn); refundados à parte (Sarpsborg FK x Sarpsborg 08, Kristiansund FK x BK, Sandefjord BK x Sandefjord Fotball, que o ogol junta num código).
 - **nor-1:** Norgesserien: classificação pelo mata-mata e depois pela posição no grupo, com os números da tabela do grupo; jogos extras do mata-mata sem o mando (a Wikipédia não diz).
 - **nor-1:** 1987: o vencedor dos pênaltis de Molde x Lillestrøm (0-0) saiu da contagem da tabela da Wikipédia (o placar dos pênaltis não está nas fontes).
+- **den-1:** Identidade: KB, B 1903 e FC København separados (como a RSSSF); pelos links, Horsens fS = AC Horsens, Farum = Nordsjælland, Haderslev = SønderjyskE, B 1901 = Nykøbing FC, Helsingør IF = FC Helsingør; em 1976 a matriz da Wikipédia liga o Randers Freja ao Randers FC (fica o Freja, pela tabela); o BK Viktoria de 1928/29 sem cidade confirmada.
+- **den-1:** Antes de 1945: ordem pela final e pelo mata-mata, depois pela tabela; números da tabela mais os do mata-mata.
+- **den-1:** Superliga com grupos (1991/92-1994/95 e desde 2016/17): fase regular pelo primeiro encontro de cada par (o ogol não numera as rodadas); 2016/17 completado pelo football-data nos grupos de classificação; do 7º ao 14º de 2016/17 a 2019/20 pela fase regular.
 
 ## Próximas ligas
 
-- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), Tchecoslováquia (`tch-1`), Polônia (`pol-1`) e Noruega (`nor-1`); a próxima é a Dinamarca. Uma por vez, com o escopo antes.
+- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), Tchecoslováquia (`tch-1`), Polônia (`pol-1`), Noruega (`nor-1`) e Dinamarca (`den-1`); a próxima é Chipre. Uma por vez, com o escopo antes.

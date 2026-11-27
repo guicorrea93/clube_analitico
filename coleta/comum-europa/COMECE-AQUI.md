@@ -109,6 +109,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `tch-1` Tchecoslovaco (com o Protetorado; 1948 não oficial) | 68 (1925–1992/93) | 11.791 | 0 | 0 | 66 | (ver git log) |
 | `pol-1` Polonês (torneios até 1926, 1946 e 1947; liga) | 98 (1921–2025/26) | 19.667 | 0 | 0 | 103 | (ver git log) |
 | `nor-1` Norueguês (Norgesserien, Hovedserien, Eliteserien) | 80 (1937/38–2025) | 12.368 | 14.830 | 11.950 | 128 | (ver git log) |
+| `den-1` Dinamarquês (Landsfodboldturneringen, liga, Superliga) | 112 (1912/13–2025/26) | 14.016 | 11.661 | 12.026 | 72 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -212,7 +213,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 11 | Tchéquia | **pronta** `cze-1` (25/11); a Tchecoslováquia também: **pronta** `tch-1` (25/11) |
    | 12 | Polônia | **pronta** `pol-1` (25/11) |
    | 13 | Noruega | **pronta** `nor-1` (25/11) |
-   | 14 | Dinamarca |  |
+   | 14 | Dinamarca | **pronta** `den-1` (27/11) |
    | 15 | Chipre |  |
    | 16 | Suíça |  |
    | 17 | Áustria |  |
@@ -273,7 +274,12 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    Prøveligaen de 1914-16 (teste), 1939/40 (interrompida) e a copa (o "campeão norueguês" até 1937 era o da copa: fase 2,
    `nor-copa`). 2026 entra quando a temporada terminar. Pronta em 25/11/2026.
 
-   **Próxima: a Dinamarca** (rank 14). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+   **Dinamarca (`den-1`), escopo aprovado pelo Guilherme em 25/11/2026:** de 1912/13 a 2025/26, os 112 títulos que a
+   federação reconhece, como a lista da RSSSF: Landsfodboldturneringen (1912/13-1926/27), liga desde 1928/29, torneio da
+   guerra (1940/41-1944/45), 1. division e Superliga (1991 só a primavera). Ficam de fora Copenhague de 1889 a 1912
+   (regional), 1914/15 (suspenso), 1927/28 (sem campeão) e 2026/27. Pronta em 27/11/2026.
+
+   **Próxima: Chipre** (rank 15). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
 
    **Correções do plano (seção 3 e regras da seção 2.2), feitas em 25/11/2026:**
    - colunas `pontos_empate` e `pontos_derrota` preenchidas no 3-2-1 da Grécia (até 1972/73 e na era antiga) e da Turquia
@@ -556,6 +562,18 @@ em `adjust_points_X` (o leitor comum lê os dois).
   usa `style=WL PK` (`PKwin_X`, `PKloss_X`).
 - **Página de temporada da RSSSF com a copa no meio:** usar os jogos dela só se 90% ou mais batem com o ogol.
 - **Clube e departamento de futebol** com artigos separados na Wikipédia: juntar; refundado com nome novo: separar.
+
+**Dinamarca, o que serve para outras ligas:**
+- **A Wikipédia bloqueia (429) depois de muitos pedidos** e o bloqueio dura horas: pedir os artigos em lotes de até 20
+  títulos por chamada (`_lote` do `den-1/baixar.py`), respeitando o `Retry-After`.
+- **Código de clube da tabela vale para a matriz do mesmo artigo:** a matriz pode ligar o código a outro artigo (1976:
+  Randers Freja x Randers FC).
+- **Fases sem número de rodada no ogol** (Superliga 2016/17-2020/21, código "1F"): fase regular = primeiro encontro de cada
+  par pela data; grupos = turno e returno entre os clubes do grupo (`separar`); o resto é play-off.
+- **O ogol pode faltar com jogos ou repetir um jogo** (2016/17 grupos; 2022/23 Silkeborg x AaB): completar pelo
+  football-data (`COMPLETA_FD`) e corrigir pelo código do jogo (`CORRIGE_OGOL`).
+- **Jogo decidido fora de campo com o placar de campo no ogol** (jogador irregular): `DECIDIDOS` com a data quando o par
+  se enfrenta mais de uma vez na temporada.
 
 ## 7. Decisões do Guilherme já tomadas
 

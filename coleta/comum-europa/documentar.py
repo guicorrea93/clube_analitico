@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1", "nor-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1", "cze-1", "tch-1", "pol-1", "nor-1", "den-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -171,6 +171,14 @@ LIMITES: dict[str, list[str]] = {
         "Fora do escopo (decisão do Guilherme, 25/11/2026): Prøveligaen de 1914-16, 1939/40 (interrompida) e a copa (fase "
         "2); 2026 entra quando a temporada terminar.",
     ],
+    "den-1": [
+        "Sem os jogos das ligas de Copenhague (até 1927), da liga de 1928/29 a 1939/40 e das séries da guerra: só as tabelas "
+        "(Wikipédia e RSSSF); o banco Haslund não é baixável em lote. 1928/29 só pela RSSSF (a Wikipédia não tem o artigo).",
+        "Sem datas e rodadas até 1990; autores dos gols e cartões só com a ESPN (desde 2006/07; quase sem lances de 2011/12 "
+        "a 2013/14) e, para os gols, com as páginas da RSSSF.",
+        "Fora do escopo (decisão do Guilherme, 25/11/2026): Copenhague de 1889 a 1912, 1914/15 (suspenso), 1927/28 (sem "
+        "campeão) e 2026/27 (em andamento).",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -231,6 +239,16 @@ REVISAO: dict[str, list[str]] = {
         "jogos extras do mata-mata sem o mando (a Wikipédia não diz).",
         "1987: o vencedor dos pênaltis de Molde x Lillestrøm (0-0) saiu da contagem da tabela da Wikipédia (o placar dos "
         "pênaltis não está nas fontes).",
+    ],
+    "den-1": [
+        "Identidade: KB, B 1903 e FC København separados (como a RSSSF); pelos links, Horsens fS = AC Horsens, Farum = "
+        "Nordsjælland, Haderslev = SønderjyskE, B 1901 = Nykøbing FC, Helsingør IF = FC Helsingør; em 1976 a matriz da "
+        "Wikipédia liga o Randers Freja ao Randers FC (fica o Freja, pela tabela); o BK Viktoria de 1928/29 sem cidade "
+        "confirmada.",
+        "Antes de 1945: ordem pela final e pelo mata-mata, depois pela tabela; números da tabela mais os do mata-mata.",
+        "Superliga com grupos (1991/92-1994/95 e desde 2016/17): fase regular pelo primeiro encontro de cada par (o ogol não "
+        "numera as rodadas); 2016/17 completado pelo football-data nos grupos de classificação; do 7º ao 14º de 2016/17 a "
+        "2019/20 pela fase regular.",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -557,8 +575,8 @@ def main() -> None:
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
             "está em `COMECE-AQUI.md`, seção 3. Prontas desde a nova ordem: Grécia (`gre-1`), Tchéquia (`cze-1`), "
-            "Tchecoslováquia (`tch-1`), Polônia (`pol-1`) e Noruega (`nor-1`); a próxima é a Dinamarca. Uma por vez, com o "
-            "escopo antes.", ""]
+            "Tchecoslováquia (`tch-1`), Polônia (`pol-1`), Noruega (`nor-1`) e Dinamarca (`den-1`); a próxima é Chipre. "
+            "Uma por vez, com o escopo antes.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

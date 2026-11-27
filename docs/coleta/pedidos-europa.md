@@ -1692,3 +1692,74 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - a ordem da Norgesserien (o mata-mata, depois a posição no grupo);
    - 1996: a matriz da Wikipédia e o ogol trocam placares entre jogos do Molde e do Strømsgodset; ficou o ogol.
 8. **Próxima tarefa:** Dinamarca (rank 14 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
+
+## Recado de fim de coleta — den-1 — 27/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Dinamarquês, de 1912/13 a 2025/26:
+   - 112 edições, 14.016 jogos, 72 clubes;
+   - 11.661 gols com autor e 12.026 cartões;
+   - títulos (os 112 que a federação reconhece, iguais à lista da RSSSF): Copenhague 16, KB 15, Brøndby 11, AB 9,
+     B.93 9, B 1903 7, AGF 6, Frem 6 e mais 12 clubes.
+
+   Escopo aprovado pelo Guilherme (25/11/2026):
+   - Landsfodboldturneringen (1912/13 a 1926/27): o campeão de Copenhague contra o vencedor do mata-mata das províncias;
+   - liga desde 1928/29, com o torneio da guerra (1940/41 a 1944/45: séries regionais e mata-mata);
+   - 1956/57 em três turnos; ano civil de 1958 a 1990; 1991 só a primavera; outono a primavera desde 1991/92;
+   - ficam de fora Copenhague de 1889 a 1912 (regional), 1914/15 (suspenso), 1927/28 (sem campeão) e 2026/27.
+
+   Fontes:
+   - **Wikipédia (en):** tabelas, matriz de resultados (base dos jogos de 1945/46 a 1990), mata-matas antigos;
+   - **ogol:** base dos jogos desde 1991, com data, hora e rodada;
+   - **ESPN:** gols e cartões desde 2006/07;
+   - **RSSSF:** tabelas de 1927 a 1998 (a única fonte de 1928/29), páginas de temporada desde 1995/96 (autores dos gols
+     onde a ESPN não tem), campeões e artilheiros;
+   - **football-data:** placar e hora desde 2012/13.
+
+   Conferência: 166 tabelas fecham com os jogos e 13 divergem (em 8 temporadas).
+2. **Commit:** o deste recado ("Coleta Europa: Campeonato Dinamarquês (den-1), 1912/13 a 2025/26").
+3. **Teste de carga:** "den-1: 112 edições, 14016 jogos, 72 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `den-1` e liberar no seletor;
+   - **país:** Dinamarca (`DEN`);
+   - **rótulos de temporada:**
+     - de "1912/13" a "1956/57" (sem 1914/15 e 1927/28);
+     - de "1958" a "1991", ano civil;
+     - de "1991/92" em diante, outono a primavera;
+     - "1991" e "1991/92" começam no mesmo ano: o `id` da partida usa o rótulo;
+   - **antes de 1945, temporadas só com tabelas:**
+     - 1928/29 a 1939/40 não têm jogos (só `tabelas_publicadas` e a classificação);
+     - na Landsfodboldturneringen e na guerra, só os jogos do mata-mata;
+   - **Superliga com grupos:**
+     - de 1991/92 a 1994/95, o grupo final começa com metade dos pontos do outono (a diferença está em `ajuste_pontos`);
+     - de 2016/17 a 2019/20: fase regular, "Grupo do título", "Grupo de classificação" (A e B) e os play-offs;
+     - desde 2020/21: fase regular, "Grupo do título" e "Grupo de rebaixamento", com os pontos acumulados;
+     - os play-offs ("Play-off europeu", "Play-off de rebaixamento") ficam fora dos números da classificação;
+   - **sem datas e rodadas até 1990**; de 2016/17 a 2020/21 o ogol não numera as rodadas da fase regular (sem a Corrida
+     nessas temporadas).
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pelo alvo do link da Wikipédia:**
+     - KB, B 1903 e FC København (a fusão de 1992) ficam separados, como na lista de campeões da RSSSF;
+     - pelos links, Horsens fS = AC Horsens, Farum BK = Nordsjælland, Haderslev = SønderjyskE, B 1901 = Nykøbing FC,
+       Helsingør IF = FC Helsingør;
+   - (b) **1976:** a matriz da Wikipédia liga o código do Randers Freja ao Randers FC (fundado em 2003); fica o Freja, pela
+     tabela;
+   - (c) **jogos decididos fora de campo por jogador irregular** (2002/03, dois jogos do AB; 2006/07, Esbjerg x
+     Silkeborg), pela RSSSF e pela Wikipédia;
+   - (d) **ogol corrigido:**
+     - 8 jogos dos grupos de classificação de 2016/17 que ele não tem entram pelo football-data;
+     - em 2022/23 ele repete um jogo (Silkeborg x AaB): fica o 3-1 de 08/08/2022, pelo football-data e pela matriz;
+   - (e) **1991/92:** o B 1903 não caiu: fundiu-se com o KB e formou o FC København.
+6. **O que não deu para coletar:**
+   - os jogos das ligas de Copenhague (até 1927), da liga de 1928/29 a 1939/40 e das séries da guerra;
+   - datas e rodadas até 1990;
+   - autores dos gols e cartões antes de 2006/07, fora as páginas da RSSSF (2000/01 a 2005/06).
+
+   Fonte possível: o banco Haslund (haslund.info), que não dá para baixar em lote, e jornais da época.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade de KB, B 1903 e FC København e os clubes juntados pelos links;
+   - o BK Viktoria de 1928/29, sem cidade confirmada (ficou Copenhague);
+   - a ordem do 7º ao 14º de 2016/17 a 2019/20 (pela fase regular) e a das temporadas antes de 1945;
+   - as 13 tabelas divergentes (1951/52, 1956/57, 1965, 1983, 1991/92, 2005/06, 2006/07, 2007/08).
+8. **Próxima tarefa:** Chipre (rank 15 da UEFA). Pesquisar o escopo e mandar a proposta ao Guilherme antes.
